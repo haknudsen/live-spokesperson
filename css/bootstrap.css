@@ -8553,7 +8553,7 @@ a.text-dark:hover, a.text-dark:focus {
 /* Scss Document */
 /* line 2, ../scss/_video.scss */
 .video-js {
-  font-size: 14px;
+  font-size: 1rem;
   color: #fff; }
 
 /* line 7, ../scss/_video.scss */
@@ -8571,23 +8571,23 @@ a.text-dark:hover, a.text-dark:focus {
 
 /* line 21, ../scss/_video.scss */
 .video-js .vjs-control-bar, .video-js .vjs-big-play-button, .video-js .vjs-menu-button .vjs-menu-content {
-  background-color: #3D9CEB;
-  background-color: rgba(61, 156, 235, 0.7); }
+  background-color: #00A3FF;
+  background-color: rgba(0, 163, 255, 0.7); }
 /* line 25, ../scss/_video.scss */
 .video-js .vjs-slider {
-  background-color: #FFEDCC;
-  background-color: rgba(214, 234, 251, 0.2); }
+  background-color: #B2D4FF;
+  background-color: rgba(255, 255, 255, 0.2); }
 /* line 29, ../scss/_video.scss */
 .video-js .vjs-volume-level, .video-js .vjs-play-progress, .video-js .vjs-slider-bar {
   background: #fff; }
 /* line 32, ../scss/_video.scss */
 .video-js .vjs-load-progress {
   background: white;
-  background: rgba(214, 234, 251, 0.5); }
+  background: rgba(255, 255, 255, 0.5); }
   /* line 35, ../scss/_video.scss */
   .video-js .vjs-load-progress div {
     background: white;
-    background: rgba(214, 234, 251, 0.75); }
+    background: rgba(255, 255, 255, 0.75); }
 
 /* line 42, ../scss/_video.scss */
 .modal-header, .modal-footer {
@@ -8624,7 +8624,7 @@ a.text-dark:hover, a.text-dark:focus {
     height: auto;
     cursor: pointer; }
   /* line 75, ../scss/_video.scss */
-  .poster .btn-play, .poster .btn-play-small, .poster .btn-play-md {
+  .poster .btn-play-lg, .poster .btn-play-sm, .poster .btn-play-md {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -8637,13 +8637,13 @@ a.text-dark:hover, a.text-dark:focus {
     border-radius: 50%;
     opacity: 0.8; }
   /* line 88, ../scss/_video.scss */
-  .poster .btn-play:hover, .poster .btn-play-small:hover, .poster .btn-play-md:hover {
-    background-color: #6BCEFF;
+  .poster .btn-play-lg:hover, .poster .btn-play-sm:hover, .poster .btn-play-md:hover {
+    background-color: #00A3FF;
     border-color: #0072FF;
     opacity: 0.9; }
 
 /* line 95, ../scss/_video.scss */
-.btn-play::before, .btn-play-small::before, .btn-play-md::before {
+.btn-play-lg::before, .btn-play-sm::before, .btn-play-md::before {
   position: absolute;
   top: 50%;
   left: 53%;
@@ -8655,20 +8655,20 @@ a.text-dark:hover, a.text-dark:focus {
   color: white; }
 
 /* line 107, ../scss/_video.scss */
-.btn-play::before {
+.btn-play-lg::before {
   font-size: 72px; }
 
 /* line 111, ../scss/_video.scss */
-.poster .btn-play {
+.poster .btn-play-lg {
   height: 132px;
   width: 132px; }
 
 /* line 116, ../scss/_video.scss */
-.btn-play-small::before {
+.btn-play-sm::before {
   font-size: 22px; }
 
 /* line 120, ../scss/_video.scss */
-.poster .btn-play-small {
+.poster .btn-play-sm {
   height: 48px;
   width: 48px; }
 

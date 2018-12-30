@@ -11,9 +11,13 @@
 	<meta name="language" content="English">
 	<meta name="revisit-after" content="30 days">
 	<meta name="author" content="TalkingHeads.com">
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-j8y0ITrvFafF4EkV1mPW0BKm6dp3c+J9Fky22Man50Ofxo2wNe5pT1oZejDH9/Dt" crossorigin="anonymous">
+	<link href="https://vjs.zencdn.net/7.2.4/video-js.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-LRlmVvLKVApDVGuspQFnRQJjkv0P7/YFrw84YYQtmYG4nK8c+M+NlmYDCv0rKWpG" crossorigin="anonymous">
 	<link rel="stylesheet" href="http://www.live-spokesperson.com/css/bootstrap.css">
-	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-	<link href="css/video.css" rel="stylesheet" type="text/css">
+<!--javascript-------------------------------------------------------------------->
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -21,7 +25,7 @@
 	<section class="jumbotron">
 		<div class="row align-items-center">
 			<div class="col-xl-6 offset-1" id="video-holder">
-					<?php $btnColor = "#0073FF"; $video = "Talking Heads Video Demonstration";$bgColor = "#757575";$alt = "Talking Heads Video Demonstration";include("includes/showVideo.php");?>
+					<?php $video = "Talking Heads Video Demonstration";$alt = "Talking Heads Video Demonstration";$btnSize="lg";include("includes/showVideo.php");?>
 				</div>
 				<div class="col-xl-4">
 					<?php include("includes/contact-awards.php"); ?>
@@ -167,38 +171,9 @@
 		</section>
 	</div>
 	<?php include("includes/footer.php"); ?>
-	<div id="mainModal" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-		<div class="modal-dialog modal-lg modal-dialog-centered">
-			<div class="modal-content">
-				<div class="modal-header">
-					<h5 class="modal-title" id="videoModalLabel"></h5>
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span></button>
-				
-				</div>
-				<div class="container d-flex justify-content-center">
-					<video id="talking-heads-video" class="video-js" controls preload="auto" width="800" height="432" poster="https://www.websitetalkingheads.com/ivideo/videos/Animated Alien Video.jpg" data-setup="{}">
-						<source src="https://www.websitetalkingheads.com/ivideo/videos/Animated Alien Video.mp4" type='video/mp4'>
-						<source src="https://www.websitetalkingheads.com/ivideo/videos/Animated Alien Video.webm" type='video/webm'>
-						<p class="vjs-no-js">
-							To view this video please enable JavaScript, and consider upgrading to a web browser that
-							<a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
-						</p>
-					</video>
-				</div>
-				<div class="d-none" id="form">
-					<?php include("../includes/contact-demo.php"); ?>
-				</div>
-				<div class="modal-footer">
-					<button type="button" class="btn btn-primary" id="contact">Contact Us</button>
-					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-				</div>
-			</div>
-		</div>
-	</div>
+	<?php include("includes/modal.php"); ?>
 	<!-- content container -->
-	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	<script src="https://vjs.zencdn.net/7.2.4/video.js"></script>
 	<script src="js/nav.js"></script>
 	<script src="js/iVideo.js"></script>
 	<script src="js/quotes.js"></script>
