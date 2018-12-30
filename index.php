@@ -24,10 +24,10 @@
 	<?php include("includes/header.php"); ?>
 	<section class="jumbotron">
 		<div class="row align-items-center">
-			<div class="col-xl-6 offset-1" id="video-holder">
+			<div class="col-xl-7" id="video-holder">
 					<?php $video = "Talking Heads Video Demonstration";$alt = "Talking Heads Video Demonstration";$btnSize="lg";include("includes/showVideo.php");?>
 				</div>
-				<div class="col-xl-4">
+				<div class="col-xl-5">
 					<?php include("includes/contact-awards.php"); ?>
 				</div>
 			</div>

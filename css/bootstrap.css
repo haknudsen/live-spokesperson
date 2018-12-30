@@ -8863,24 +8863,30 @@ p {
 
 /* line 38, ../scss/_mine.scss */
 .contact {
+  max-width: 400px;
+  margin: 0 auto;
   background: #BCE4FF; }
-  /* line 40, ../scss/_mine.scss */
+  /* line 42, ../scss/_mine.scss */
   .contact label, .contact input[type="phone"], .contact input[type="email"], .contact input[type="text"], .contact textarea {
     font-size: 1rem;
     background: #D5EEFF;
     line-height: 1;
     padding: 1px 3px; }
-  /* line 41, ../scss/_mine.scss */
+  /* line 43, ../scss/_mine.scss */
   .contact label {
     background: transparent; }
-  /* line 42, ../scss/_mine.scss */
+  /* line 44, ../scss/_mine.scss */
   .contact textarea {
     border-width: 2px;
     border-style: inset;
     border-color: initial;
     border-image: initial; }
+    /* line 48, ../scss/_mine.scss */
+    .contact textarea h3 {
+      line-height: 1;
+      margin-bottom: .25rem; }
 
-/* line 47, ../scss/_mine.scss */
+/* line 54, ../scss/_mine.scss */
 .btn-blue {
   background-color: #bde4ff !important;
   background-repeat: repeat-x;
@@ -8900,7 +8906,7 @@ p {
   padding: 4px 6px;
   border-radius: .25rem; }
 
-/* line 63, ../scss/_mine.scss */
+/* line 70, ../scss/_mine.scss */
 .btn-blue:hover {
   background-color: #bde4ff !important;
   background-repeat: repeat-x;
@@ -8917,17 +8923,17 @@ p {
   text-shadow: 0 1px 1px rgba(255, 255, 255, 0.49);
   -webkit-font-smoothing: antialiased; }
 
-/* line 79, ../scss/_mine.scss */
+/* line 86, ../scss/_mine.scss */
 textarea {
   width: 100%; }
 
-/* line 80, ../scss/_mine.scss */
+/* line 87, ../scss/_mine.scss */
 .bd-blue {
   border: thin solid #549BFF;
   padding: .25rem;
   border-radius: 0.3rem; }
 
-/* line 81, ../scss/_mine.scss */
+/* line 88, ../scss/_mine.scss */
 .bg-grey {
   background: #888888; }
 

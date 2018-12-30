@@ -4,7 +4,7 @@
 <head>
 	<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
 	<title>Virtual Spokespeople</title>
-	<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+	<meta content="width=device-width, initial-scale=1" name="viewport">
 	<meta content="Professional Spokesperson, Video Spokesperson, Virtual Spokesperson, Website Spokesperson, Web Spokesperson, Spokes-model, Walk On Actor, Virtual Actor, Person On Website, Online Spokesperson" name="keywords">
 	<meta content="Learn about Virtual Spokespeople from Live-Spokesperson.com. Our professionally created spokesperson video will help super-charge your website" name="description">
 	<meta content="index, follow" name="robots">
@@ -15,7 +15,6 @@
 	<meta content="english" name="Content-Language">
 	<meta content="YNESpqoAwK51PmBV7/PFKLG0agx7AQPKhXXcYAXGGF8=" name="verify-v1">
 	<meta content="iinbv24r-1ix20hgj5l94wz2rnn3aiwi0336hwysvvpiskquy6ijsh9wy12f3znbed-hz1ay8ppzhgqap-sicqtw6ui29d0wrfcpenudh1ml9xwjbej7u25xy9pnm6yr" name="norton-safeweb-site-verification">
-	<meta content="width=device-width, initial-scale=1" name="viewport">
 	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-j8y0ITrvFafF4EkV1mPW0BKm6dp3c+J9Fky22Man50Ofxo2wNe5pT1oZejDH9/Dt" crossorigin="anonymous">
 	<link href="https://vjs.zencdn.net/7.2.4/video-js.css" rel="stylesheet">
 	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-LRlmVvLKVApDVGuspQFnRQJjkv0P7/YFrw84YYQtmYG4nK8c+M+NlmYDCv0rKWpG" crossorigin="anonymous">

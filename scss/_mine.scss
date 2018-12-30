@@ -36,13 +36,20 @@ p { text-indent: 1rem }
 .header-primary{background-color: lighten($info,40%) ;border-bottom-color: darken($info, 10%);}
 .card-img-top{border-bottom: thin solid $primary}
 .contact{
+	max-width: 400px;
+	margin: 0 auto;
 	background: #BCE4FF;
 	label,input[type="phone"],input[type="email"],input[type="text"],textarea{font-size: 1rem;background: #D5EEFF;line-height: 1;padding:1px 3px}
 	label{background: transparent}
 	textarea{    border-width: 2px;
     border-style: inset;
     border-color: initial;
-    border-image: initial;}
+    border-image: initial;
+		h3{
+			line-height: 1;
+			margin-bottom: .25rem;
+		}
+	}
 }
 .btn-blue{
   background-color: hsl(204.18, 100%, 87%) !important;

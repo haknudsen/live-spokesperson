@@ -5,6 +5,7 @@
 	<input name="urlencodeenable" type="hidden" value="1">
 	<input name="name" type="hidden" value="New Contact">
 	<input name="__vtCurrency" type="hidden" value="1">
+		<h3 class="text-center">Contact Us</h3>
 	<div class="d-flex justify-content-center">
 		<table>
 			<tbody>
@@ -50,7 +51,7 @@
 		<input name="recaptcha_validation_value" id="recaptcha_validation_value" type="hidden">
 	</div>
 	<div class="d-flex justify-content-center mt-1">
-		<input id="vtigerFormSubmitBtn" class="btn-blue" type="submit" value="CONTACT US">
+		<input id="vtigerFormSubmitBtn" class="btn-blue" type="submit" value="I Want Video">
 	</div>
 </form>
 <div class="mt-1">
