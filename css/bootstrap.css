@@ -8551,6 +8551,184 @@ a.text-dark:hover, a.text-dark:focus {
   visibility: hidden !important; }
 
 /* Scss Document */
+/* line 2, ../scss/_video.scss */
+.video-js {
+  font-size: 14px;
+  color: #fff; }
+
+/* line 7, ../scss/_video.scss */
+.vjs-big-play-button {
+  font-size: 3em;
+  line-height: 1.5em;
+  height: 1.5em;
+  width: 3em;
+  border: 0.06666em solid #fff;
+  border-radius: 0.3em;
+  left: 50% !important;
+  top: 50% !important;
+  margin-left: -1.5em;
+  margin-top: -0.75em; }
+
+/* line 21, ../scss/_video.scss */
+.video-js .vjs-control-bar, .video-js .vjs-big-play-button, .video-js .vjs-menu-button .vjs-menu-content {
+  background-color: #3D9CEB;
+  background-color: rgba(61, 156, 235, 0.7); }
+/* line 25, ../scss/_video.scss */
+.video-js .vjs-slider {
+  background-color: #FFEDCC;
+  background-color: rgba(214, 234, 251, 0.2); }
+/* line 29, ../scss/_video.scss */
+.video-js .vjs-volume-level, .video-js .vjs-play-progress, .video-js .vjs-slider-bar {
+  background: #fff; }
+/* line 32, ../scss/_video.scss */
+.video-js .vjs-load-progress {
+  background: white;
+  background: rgba(214, 234, 251, 0.5); }
+  /* line 35, ../scss/_video.scss */
+  .video-js .vjs-load-progress div {
+    background: white;
+    background: rgba(214, 234, 251, 0.75); }
+
+/* line 42, ../scss/_video.scss */
+.modal-header, .modal-footer {
+  padding: 0.1rem 1rem; }
+
+/* line 46, ../scss/_video.scss */
+.modal-header .btn, .modal-footer .btn {
+  font-size: 0.8rem; }
+
+/* line 50, ../scss/_video.scss */
+#form {
+  top: 60px;
+  background: white;
+  max-width: 100%;
+  min-width: 420px;
+  margin: 0 auto;
+  position: absolute; }
+
+/* line 59, ../scss/_video.scss */
+.poster {
+  padding-bottom: 1px;
+  opacity: 0.95;
+  -webkit-transition: opacity .5s;
+  transition: opacity .5s;
+  position: relative;
+  cursor: pointer; }
+  /* line 66, ../scss/_video.scss */
+  .poster:hover {
+    opacity: 1; }
+  /* line 69, ../scss/_video.scss */
+  .poster img {
+    display: block;
+    width: 100%;
+    height: auto;
+    cursor: pointer; }
+  /* line 75, ../scss/_video.scss */
+  .poster .btn-play, .poster .btn-play-small, .poster .btn-play-md {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: #0072FF;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+    border-radius: 50%;
+    opacity: 0.8; }
+  /* line 88, ../scss/_video.scss */
+  .poster .btn-play:hover, .poster .btn-play-small:hover, .poster .btn-play-md:hover {
+    background-color: #6BCEFF;
+    border-color: #0072FF;
+    opacity: 0.9; }
+
+/* line 95, ../scss/_video.scss */
+.btn-play::before, .btn-play-small::before, .btn-play-md::before {
+  position: absolute;
+  top: 50%;
+  left: 53%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-family: "Font Awesome 5 Pro";
+  font-weight: 600;
+  content: "\f04b";
+  color: white; }
+
+/* line 107, ../scss/_video.scss */
+.btn-play::before {
+  font-size: 72px; }
+
+/* line 111, ../scss/_video.scss */
+.poster .btn-play {
+  height: 132px;
+  width: 132px; }
+
+/* line 116, ../scss/_video.scss */
+.btn-play-small::before {
+  font-size: 22px; }
+
+/* line 120, ../scss/_video.scss */
+.poster .btn-play-small {
+  height: 48px;
+  width: 48px; }
+
+/* line 125, ../scss/_video.scss */
+.btn-play-md::before {
+  font-size: 42px; }
+
+/* line 129, ../scss/_video.scss */
+.poster .btn-play-md {
+  height: 72px;
+  width: 72px; }
+
+/*----------------------------*/
+/* line 136, ../scss/_video.scss */
+#bgVideo, #ytVideo {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  min-width: 100%;
+  min-height: 50%;
+  width: auto;
+  height: auto;
+  z-index: -1000;
+  overflow: hidden; }
+
+/* line 148, ../scss/_video.scss */
+.video-overlay {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  min-width: 100%;
+  min-height: 50%;
+  width: auto;
+  height: auto;
+  z-index: -1000;
+  overflow: hidden;
+  z-index: -100; }
+
+/* line 161, ../scss/_video.scss */
+.transparent {
+  background: transparent; }
+
+/* line 165, ../scss/_video.scss */
+.opacity .poster img {
+  opacity: 70%; }
+
+/*----------------------------*/
+@media screen and (max-width: 1000px) {
+  /* line 171, ../scss/_video.scss */
+  .poster:nth-child(1n + 3) {
+    display: none; } }
+@media screen and (max-width: 768px) {
+  /* line 177, ../scss/_video.scss */
+  .poster:nth-child(1n + 4) {
+    display: block; } }
+@media screen and (max-width: 576px) {
+  /* line 183, ../scss/_video.scss */
+  .poster:nth-child(1n + 6) {
+    display: none; } }
+/* Scss Document */
 /* line 2, ../scss/_mine.scss */
 .content {
   font-size: 1.2rem;
