@@ -1,0 +1,44 @@
+.video-js { font-size: 1rem; color: #fff; }
+.vjs-big-play-button { font-size: 3em; line-height: 1.5em; height: 1.5em; width: 3em; border: 0.06666em solid #fff; border-radius: 0.3em; left: 50%!important; top: 50%!important; margin-left: -1.5em; margin-top: -0.75em; }
+.video-js .vjs-control-bar, .video-js .vjs-big-play-button, .video-js .vjs-menu-button .vjs-menu-content { background-color: #3D9CEB; background-color: rgba(61, 156, 235, 0.7); }
+.video-js .vjs-slider { background-color: #d6eafb; background-color: rgba(214, 234, 251, 0.2); }
+.video-js .vjs-volume-level, .video-js .vjs-play-progress, .video-js .vjs-slider-bar { background: #fff; }
+.video-js .vjs-load-progress { background: white; background: rgba(214, 234, 251, 0.5); }
+.video-js .vjs-load-progress div { background: white; background: rgba(214, 234, 251, 0.75); }
+.modal-header, .modal-footer { padding: 0.1rem 1rem; }
+.modal-header .btn, .modal-footer .btn { font-size: .8rem }
+#form { top: .5rem; background: white; max-width: 100%; min-width: 420px; margin: 0 auto; position: absolute }
+.poster { opacity: 0.85; padding: 0; -webkit-transition: opacity .5s; transition: opacity .5s; position: relative; cursor: pointer; }
+.poster:hover { opacity: 1 }
+.poster:hover .poster-title { opacity: 1 }
+.poster img { display: block; width: 100%; height: auto; }
+.poster-title { background: rgba(0,123,255,0.8); position: absolute; bottom: 0; width: 100%; opacity: 0; -webkit-transition: opacity 1s; transition: opacity 1s; }
+.poster-button { position: absolute; top: 50%; height: 72px; width: 72px; left: 50%; margin-left: -36px; margin-top: -36px; transition: .5s ease; opacity: 1; border-radius: 50% }
+.poster-button::before { position: absolute; left: 0; top: 0; bottom: auto; right: auto; content: url("../images/Play.png"); }
+.poster-button:hover { opacity: 0.7 }
+.btn-holder, .captcha-holder, .inputs, .quote-top { -webkit-box-shadow: 1px 2px 2px rgba(0,0,0,0.3); box-shadow: 1px 2px 2px rgba(0,0,0,0.3); }
+.quote-top { -moz-box-shadow: 0px 1px 0px 0px #f0f7fa; -webkit-box-shadow: 0px 1px 0px 0px #f0f7fa; box-shadow: 0px 1px 0px 0px #f0f7fa; background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #33bdef), color-stop(1, #019ad2)); background: -moz-linear-gradient(top, #33bdef 5%, #019ad2 100%); background: -webkit-linear-gradient(top, #33bdef 5%, #019ad2 100%); background: -o-linear-gradient(top, #33bdef 5%, #019ad2 100%); background: -ms-linear-gradient(top, #33bdef 5%, #019ad2 100%); background: linear-gradient(to bottom, #33bdef 5%, #019ad2 100%);  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#33bdef', endColorstr='#019ad2', GradientType=0);
+background-color: #33bdef; text-shadow: 0 1px 1px rgba(255, 255, 255, 0.33); -webkit-font-smoothing: antialiased; border-top-left-radius: .5rem; border-top-right-radius: .5rem; border: 2px solid #7298B2; font-weight: 700; text-align: center; font-size: 2rem }
+.inputs #__vtigerWebForm { border: none }
+.inputs { padding: 8px 20px 0 20px; border-left: 2px solid #7298B2; border-right: 2px solid #7298B2; background: #BCE4FF }
+.inputs input, .inputs textarea { border: solid 1px #b4c1cd; background: white; width: 100%; margin-bottom: 8px; font-size: 1.2vw; padding: 4px }
+.captcha-holder { max-width: 100%; margin: 0 auto; overflow: hidden; border-left: 2px solid #7298B2; border-right: 2px solid #7298B2; background: #BCE4FF; }
+.g-recaptcha { margin: 0 auto; width: 304px }
+.btn-holder { border-color: #7298B2; border-style: solid; border-width: 0 2px 2px 2px; background: #BCE4FF; padding: .2rem 0 .6rem; border-bottom-left-radius: .5rem; border-bottom-right-radius: .5rem }
+.submitButton { -moz-box-shadow: 0px 1px 0px 0px #f0f7fa; -webkit-box-shadow: 0px 1px 0px 0px #f0f7fa; box-shadow: 0px 1px 0px 0px #f0f7fa; background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #33bdef), color-stop(1, #019ad2)); background: -moz-linear-gradient(top, #33bdef 5%, #019ad2 100%); background: -webkit-linear-gradient(top, #33bdef 5%, #019ad2 100%); background: -o-linear-gradient(top, #33bdef 5%, #019ad2 100%); background: -ms-linear-gradient(top, #33bdef 5%, #019ad2 100%); background: linear-gradient(to bottom, #33bdef 5%, #019ad2 100%); filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#33bdef', endColorstr='#019ad2', GradientType=0);
+background-color: #33bdef; -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px; border: 1px solid #057fd0; display: inline-block; cursor: pointer; color: #ffffff; font-family: Arial; font-size: 28px; font-weight: bold; padding: 6px 24px; text-decoration: none; text-shadow: 0px -1px 0px #5b6178; }
+.submitButton:hover { background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #019ad2), color-stop(1, #33bdef)); background: -moz-linear-gradient(top, #019ad2 5%, #33bdef 100%); background: -webkit-linear-gradient(top, #019ad2 5%, #33bdef 100%); background: -o-linear-gradient(top, #019ad2 5%, #33bdef 100%); background: -ms-linear-gradient(top, #019ad2 5%, #33bdef 100%); background: linear-gradient(to bottom, #019ad2 5%, #33bdef 100%); filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#019ad2', endColorstr='#33bdef', GradientType=0);
+background-color: #019ad2; }
+.submitButton:active { position: relative; top: 1px; }
+
+@media screen and (max-width:1000px) {
+.poster:nth-child(1n + 3) { display: none }
+}
+
+@media screen and (max-width:768px) {
+.poster:nth-child(1n + 4) { display: block }
+}
+
+@media screen and (max-width:576px) {
+.poster:nth-child(1n + 6) { display: none }
+}

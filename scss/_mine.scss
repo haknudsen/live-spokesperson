@@ -1,0 +1,81 @@
+/* Scss Document */
+.content { font-size: 1.2rem; color: #000011 }
+#spokesperson_videos .card-title { font-size: 1.2rem; min-height: 76px;text-align: center}
+.list-style { font-size: 0.8rem;
+	@media screen and (max-width:1200px) {
+		font-size: 0.8rem;
+	}
+}
+.list-style-item { position: relative; display: block; padding: .5rem 1.25rem; margin-bottom: -1px; background-color: #fff; border: 1px solid rgba(0,0,0,.125); }
+.list-price { line-height: 1; text-align: center; margin: 2rem auto 0 }
+.starting { font-size: 60%; vertical-align: super }
+.bd-bottom { border-bottom: thin solid #3D9CEB }
+.award-text { line-height: 1; font-weight: 300; font-size: 1vw;
+	@media screen and (min-width:1200px) {
+		font-size: 32px;
+	}
+}
+.content { font-size: 1.2rem; color: #000011 }
+#banner { opacity: 0 }
+#seal { align-self: center;
+	@media screen and (min-width:1200px) {
+	display: none;
+	}
+}
+.price { font-size: 4.5rem; line-height: 1; font-weight: 700 }
+.text-lg-fluid { font-size: 1.3vw; line-height: 1.2 }
+.center { margin: auto }
+article { text-indent: 1rem; line-height: 1.1; font-size: 0.8rem;text-align: justify}
+p { text-indent: 1rem }
+.card-block { padding: .5rem; text-align: justify; line-height: 1.2 }
+.card-footer { font-size: .8rem; font-weight: 700 }
+.card-top { align-items: center }
+.line-1{line-height: 1}
+.fifty{width:50%}
+.card-primary{border-color: $primary}
+.header-primary{background-color: lighten($info,40%) ;border-bottom-color: darken($info, 10%);}
+.card-img-top{border-bottom: thin solid $primary}
+.contact{
+	background: #BCE4FF;
+	label,input[type="phone"],input[type="email"],input[type="text"],textarea{font-size: 1rem;background: #D5EEFF;line-height: 1;padding:1px 3px}
+	label{background: transparent}
+	textarea{    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;}
+}
+.btn-blue{
+  background-color: hsl(204.18, 100%, 87%) !important;
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#BCE4FF", endColorstr="#7ECDF4");
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#BCE4FF), to(#7ECDF4));
+  background-image: -moz-linear-gradient(top, #BCE4FF, #7ECDF4);
+  background-image: -ms-linear-gradient(top, #BCE4FF, #7ECDF4);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #BCE4FF), color-stop(100%, #7ECDF4));
+  background-image: -webkit-linear-gradient(top, #BCE4FF, #7ECDF4);
+  background-image: -o-linear-gradient(top, #BCE4FF, #7ECDF4);
+  background-image: linear-gradient(#BCE4FF, #7ECDF4);
+  border-color: #7ECDF4 #7ECDF4 hsl(201, 100%, 55.5%);
+  color: #17375E!important;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.49);
+  -webkit-font-smoothing: antialiased;
+font-weight: 900;padding: 4px 6px;border-radius: .25rem}
+.btn-blue:hover {
+  background-color: hsl(204.18, 100%, 87%) !important;
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#7ECDF4", endColorstr="#BCE4FF");
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#7ECDF4), to(#BCE4FF));
+  background-image: -moz-linear-gradient(top, #7ECDF4, #BCE4FF);
+  background-image: -ms-linear-gradient(top, #7ECDF4, #BCE4FF);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #7ECDF4), color-stop(100%, #BCE4FF));
+  background-image: -webkit-linear-gradient(top, #7ECDF4, #BCE4FF);
+  background-image: -o-linear-gradient(top, #7ECDF4, #BCE4FF);
+  background-image: linear-gradient(#7ECDF4, #BCE4FF);
+  border-color: #BCE4FF #BCE4FF hsl(201, 100%, 55.5%);
+  color: #333 !important;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.49);
+  -webkit-font-smoothing: antialiased;
+}
+textarea { width: 100% }
+.bd-blue { border: thin solid #549BFF; padding: .25rem; border-radius: .3rem }
+.bg-grey { background: #888888 }

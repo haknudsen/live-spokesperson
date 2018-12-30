@@ -1,0 +1,12 @@
+AddType video/mp4 .mp4 .mp4
+RewriteEngine On
+RewriteCond %{HTTP_HOST} !^www\.
+RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/$1 [R=301,L]
+# 1 Month for most static assets
+<filesMatch ".(css|jpg|jpeg|png|gif|js|ico)$">
+Header set Cache-Control "max-age=2592000, public"
+</filesMatch>
+ErrorDocument 404 http://www.Live-Spokesperson.com/404error.php
+ErrorDocument 500 http://www.Live-Spokesperson.com/500.php
+ErrorDocument 403 http://www.Live-Spokesperson.com/403.php
+ErrorDocument 401 http://www.Live-Spokesperson.com/401.php
