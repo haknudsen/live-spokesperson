@@ -14,13 +14,13 @@
 	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-LRlmVvLKVApDVGuspQFnRQJjkv0P7/YFrw84YYQtmYG4nK8c+M+NlmYDCv0rKWpG" crossorigin="anonymous">
 	<link href="https://vjs.zencdn.net/7.2.4/video-js.css" rel="stylesheet">
-	<link href="css/video.css" rel="stylesheet">
+	<link href="../css/video.css" rel="stylesheet">
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </head>
 
 <body>
-	<?php include("includes/header.php"); ?>
+	<?php include("../includes/header.php"); ?>
 	<section class="container-fluid bg-light">
 		<h1 class="exampleTitle">Custom Video Presentations</h1>
 		<div class="container">
@@ -77,7 +77,7 @@
     $show = "12";
 	$rand = false;
 	$columns = 3;
-    include("includes/showDemo.php"); 
+    include("../includes/showDemo.php"); 
     ?>
 		</div>
 	</section>
@@ -93,7 +93,7 @@
     $video = "Jeds Lemonade";
     $bgColor = "#757575";
 	$alt = "Product Demo Video";
-    include("includes/showVideo.php"); 
+    include("../includes/showVideo.php"); 
     ?>
 
 				</div>
@@ -109,7 +109,7 @@
     $video = "Talking Heads Video Demonstration";
     $bgColor = "#91A4BF";
 	$alt = "Talking Heads Video Demonstration";
-    include("includes/showVideo.php"); 
+    include("../includes/showVideo.php"); 
     ?>
 
 				</div>
@@ -131,19 +131,19 @@
     $video = "Video Background";
     $bgColor = "#757575";
 	$alt = "Video Spokespeople";
-    include("includes/showVideo.php"); 
+    include("../includes/showVideo.php"); 
     ?>
 
 				</div>
 			</div>
 		</div>
 	</section>
-	<?php include("includes/modal.php");?>
+	<?php include("../includes/modal.php");?>
 
-	<?php include("includes/footer.php"); ?>
+	<?php include("../includes/footer.php"); ?>
 
 	<!-- content container -->
-	<script src="js/jquery.matchHeight.js"></script>
+	<script src="../js/jquery.matchHeight.js"></script>
 	<script src="https://vjs.zencdn.net/7.2.4/video.js"></script>
 
 	<script>

@@ -125,12 +125,10 @@
 	</section>
 	<div class="container card-group my-3" id="awards">
 		<section class="card">
-			<div class="card-top">
-				<a href="#" data-toggle="tooltip" title="#1 in Video Production"> <img class="card-img-top seal d-block" src="https://websitetalkingheads.com/images/video-production-seal.png"  alt="Best in Video Production" /> </a>
-			</div>
-			<div class="card-block">
-				<h2 class="card-title">#1 in Video Production</h2>
-				<h5 class="card-subtitle red text-center">Best Production Quality</h5>
+			<a href="#" data-toggle="tooltip" title="#1 in Video Production"> <img class="card-img-top" src="https://websitetalkingheads.com/images/video-production-seal.png"  alt="Best in Video Production" /> </a>
+			<h2 class="card-title">#1 in Video Production</h2>
+			<h5 class="card-subtitle text-secondary text-center">Best Production Quality</h5>
+			<div class="card-body">
 				<p class="card-text">When looking for a video production organization you require somebody who can reliably get a handle on your message and convey your message with animation, images and sound. Each and every part of your video from Talking Heads&reg; will be centered around message of the video. </p>
 				<p class="card-text">We produce and film all our videos here in our studio and our animations are all made from scratch.</p>
 				<p class="card-text">Our Professional Spokespeople are experienced and the best on the planet. Our representatives will convey your message confidently and professionally. We realize the significance of setting the correct expectations for you while likewise getting the requirements of your project.</p>
@@ -138,41 +136,39 @@
 			<!-- card-block -->
 			<div class="card-footer text-center">
 				<div class="row">
-					<div class="col-6"> <a class="card-link" href="#">About Us</a> </div>
-					<div class="col-6"> <a class="card-link" href="#">Examples</a> </div>
+					<div class="col-6"> <a href="http://www.live-spokesperson.com/about" title="About Us" class="card-link">About Us</a> </div>
+					<div class="col-6"> <a href="http://www.live-spokesperson.com/styles/" title="Styles" class="card-link">Styles</a> </div>
 				</div>
 			</div>
 		</section>
 		<section class="card">
-			<div class="card-top">
-				<a href="#" data-toggle="tooltip" title="Winner Best Web Design Agencies - Video Production"><img class="card-img-top seal"  alt="Winner in Video Production" src="https://www.websitetalkingheads.com/images/video-production-winner.png"></a>
-			</div>
-			<div class="card-block">
-				<h2 class="card-title">Best Video Production</h2>
-				<h5 class="card-subtitle red text-center">Engaging Video</h5>
+			<a href="#" data-toggle="tooltip" title="Winner Best Web Design Agencies - Video Production"><img class="card-img-top seal"  alt="Winner in Video Production" src="https://www.websitetalkingheads.com/images/video-production-winner.png"></a>
+			<h2 class="card-title">Best Video Production</h2>
+			<h5 class="card-subtitle text-secondary text-center">Engaging Video</h5>
+			<div class="card-body">
 				<p class="card-text">With our Custom Video Presentations you get a Video Spokesperson, Professional Editing, Motion Graphics Compositing, alongside Images and Effects. Incredible for your Website Demonstration, Sales Video, or Product Walk-though.</p>
 				<p class="card-text">We focus on video presentations that enhance your essential vision without breaking your bank. Instead of spending thousands or tens of thousands on a "viral video", we recommend making videos that work for all of you day, consistently passing on a solid message to potential customers. By utilizing a video presentation specialist nd supporting your message with substance and plan, you are exploiting rich media to affect your potential customers.</p>
 			</div>
 			<!-- card-block -->
 			<div class="card-footer text-center">
 				<div class="row">
-					<div class="col-6"> <a class="card-link" href="#">Presentations</a> </div>
-					<div class="col-6"> <a class="card-link" href="#">Video Seo</a> </div>
+					<div class="col-6"> <a href="http://www.live-spokesperson.com/custom-presentations.php" title="Custom Presentation" class="card-link">Presentations</a> </div>
+					<div class="col-6"> <a href="http://seovideoexperts.com/" title="vSEO" class="card-link">Video Seo</a> </div>
 				</div>
 			</div>
 		</section>
 		<section class="card">
 			<a href="http://www.topseos.com/rankings-of-best-virtual-spokesperson-companies" data-toggle="tooltip" title="#1 in Video Spokesperson"><img class="card-img-top" src="https://websitetalkingheads.com/images/video-spokesperson-seal.png"  alt="Best in Video Spokesperson"  /></a>
-			<div class="card-block">
-				<h2 class="card-title">#1 Video Spokespeople</h2>
-				<h5 class="card-subtitle red text-center">Best Web Spokespeople</h5>
+			<h2 class="card-title">#1 Video Spokespeople</h2>
+			<h5 class="card-subtitle text-secondary text-center">Best Web Spokespeople</h5>
+			<div class="card-body">
 				<p class="card-text">We have a wide variety of Spokespeople that encompass different looks and approaches to delivering your message. This ensures you will have the capacity to discover a Spokesperson who best speaks to your message and vision to the general population which achieve your site. </p>
 				<p class="card-text">Talking Heads&reg; Video has developed a custom proprietory video player that gives you a huge variety of features and controlls. We have made our player to be easy to embed into your current site to guarantee it doesn't require large assets to be involved during the process. We ensure our player leaves as small of an impression as possible and takes just minutes to install. When integrated the Talking Heads&reg; Player your video will take up little bandwidth.</p>
 			</div>
 			<!-- card-block -->
 			<div class="card-footer text-center">
 				<div class="row">
-					<div class="col-6"> <a class="card-link" href="#">Spokespeople</a> </div>
+					<div class="col-6"> <a href="http://www.live-spokesperson.com/virtual-spokespeople" title="Virtual Spokespeople" class="card-link">Spokespeople</a> </div>
 					<div class="col-6"> <a class="card-link" href="#">Player</a> </div>
 				</div>
 			</div>

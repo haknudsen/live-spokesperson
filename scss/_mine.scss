@@ -9,8 +9,10 @@
 		font-size: 32px;
 	}
 }
+#awards .card-title{text-align: center}
 .content { font-size: 1.2rem; color: #000011 }
 #banner { opacity: 0 }
+.seal{margin: 16% 0}
 #seal { align-self: center;
 	@media screen and (min-width:1200px) {
 	display: none;
@@ -23,7 +25,7 @@
 article { text-indent: 1rem; line-height: 1.1; font-size: 0.8rem;text-align: justify}
 p { text-indent: 1rem }
 .card-block { padding: .5rem; text-align: justify; line-height: 1.2 }
-.card-footer { font-size: .8rem; font-weight: 700 }
+.card-footer { font-size: .8rem; font-weight: 700;margin: 0 }
 .card-top { align-items: center }
 .line-1{line-height: 1}
 .fifty{width:50%}
