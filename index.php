@@ -15,7 +15,7 @@
 	<link href="https://vjs.zencdn.net/7.2.4/video-js.css" rel="stylesheet">
 	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-LRlmVvLKVApDVGuspQFnRQJjkv0P7/YFrw84YYQtmYG4nK8c+M+NlmYDCv0rKWpG" crossorigin="anonymous">
 	<link rel="stylesheet" href="http://www.live-spokesperson.com/css/bootstrap.css">
-<!--javascript-------------------------------------------------------------------->
+	<!--javascript-------------------------------------------------------------------->
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </head>
@@ -25,12 +25,12 @@
 	<section class="jumbotron">
 		<div class="row align-items-center">
 			<div class="col-xl-7" id="video-holder">
-					<?php $video = "Talking Heads Video Demonstration";$alt = "Talking Heads Video Demonstration";$btnSize="lg";include("includes/showVideo.php");?>
-				</div>
-				<div class="col-xl-5">
-					<?php include("includes/contact-awards.php"); ?>
-				</div>
+				<?php $video = "Talking Heads Video Demonstration";$alt = "Talking Heads Video Demonstration";$btnSize="lg";include("includes/showVideo.php");?>
 			</div>
+			<div class="col-xl-5">
+				<?php include("includes/contact-awards.php"); ?>
+			</div>
+		</div>
 	</section>
 	<section class="container">
 		<h1 class="font-weight-bold">What to increase traffic up to 400%?</h1>
@@ -78,31 +78,41 @@
 		<h2>We Offer 4 Kinds of Spokesperson Videos</h2>
 	</section>
 	<section class="container-fluid mt-2 clearfix">
-		<div class="row">
-			<div class="container card-group my-3" id="spokesperson_videos">
-				<div class="card card-outline-info">
-					<div class="card-block"> <img class="card-img-top" src="https://websitetalkingheads.com/images/WebsiteVideo.gif" alt="Custom Video Player"/>
+		<div class="container" id="spokesperson">
+			<div class="card-group">
+				<div class="card">
+					<img class="card-img-top" src="https://websitetalkingheads.com/images/WebsiteVideo.gif" alt="Custom Video Player"/>
+					<div class="card-body">
 						<h3 class="card-title">#1 Website Spokesperson</h3>
-						<article>Find a Spokesperson to ones website to greet visitors and direct these phones key areas. Increase conversions and boost potential customers. Uses mp4 and canvas for transparent effect on computer, when it detects mobile or portable device uses usual MP4.</article>
+						<p class="card-text">Find a Spokesperson to ones website to greet visitors and direct these phones key areas. Increase conversions and boost potential customers. Uses mp4 and canvas for transparent effect on computer, when it detects mobile or portable device uses usual MP4.</p>
 					</div>
+					<h5 class="card-footer text-center"><a href="http://www.live-spokesperson.com/virtual-spokespeople" title="Website Spokespeople">Website Spokesperson</a></h5>
 				</div>
-				<div class="card card-outline-info">
-					<div class="card-block"> <img class="card-img-top" src="https://websitetalkingheads.com/images/YouTubeReady.gif" alt="YouTube Ready Video"/>
+				<div class="card">
+					<img class="card-img-top" src="https://websitetalkingheads.com/images/YouTubeReady.gif" alt="YouTube Ready Video"/>
+					<div class="card-body">
 						<h3 class="card-title">#2 with Logo Background</h3>
-						<article>We can create a powerful YouTube and Facebook compatible sales video. Choose an actor, send your script and logo. We put it all together and provide you a Full HD 1920X1080 video in MP4 format. Upload it to YouTube, Twitter, Instagram, etc...</article>
+						<p class="card-text">We can create a powerful YouTube and Facebook compatible sales video. Choose an actor, send your script and logo. We put it all together and provide you a Full HD 1920X1080 video in MP4 format. Upload it to YouTube, Twitter, Instagram, etc...</p>
 					</div>
+					<h5 class="card-footer text-center">Simple</h5>
 				</div>
-				<div class="card card-outline-info">
-					<div class="card-block"> <img class="card-img-top" src="https://websitetalkingheads.com/images/GreenScreenVideo.gif" alt="Green Screen Video"/>
+			</div>
+			<div class="card-group">
+				<div class="card">
+					<img class="card-img-top" src="https://websitetalkingheads.com/images/GreenScreenVideo.gif" alt="Green Screen Video"/>
+					<div class="card-body">
 						<h3 class="card-title">#3 Green Screen File</h3>
-						<article>Marketing together with Ad agencies pay particular attention, professional writers and compositiors: Save tons of time and 100s or 1000s of dollars with a grren screen video. We shoot your script with one of our spokespeople in our studio and send you a green screen file.</article>
+						<p class="card-text">Marketing together with Ad agencies pay particular attention, professional writers and compositiors: Save tons of time and 100s or 1000s of dollars with a grren screen video. We shoot your script with one of our spokespeople in our studio and send you a green screen file.</p>
 					</div>
+					<h5 class="card-footer text-center">Green Screen</h5>
 				</div>
-				<div class="card card-outline-info">
-					<div class="card-block"> <img class="card-img-top img-fluid" style="max-height:154px" src="http://img.youtube.com/vi/ozwgqkGubFo/mqdefault.jpg" id="Quote Zoom" title="Video Presentation - Quote Zoom" alt="Video Presentation - Quote Zoom">
+				<div class="card">
+					<img class="card-img-top" src="http://img.youtube.com/vi/ozwgqkGubFo/mqdefault.jpg" id="Quote Zoom" title="Video Presentation - Quote Zoom" alt="Video Presentation - Quote Zoom">
+					<div class="card-body">
 						<h3 class="card-title pt-3">#4 Custom Presentation</h3>
-						<article>Our Professional, Custom video Presentations supply you with a video Spokesperson, Skilled editing, Action Graphics, and lots of Images along with Effects. Ideal for your Company or Business video, a service Demonstration and also Demonstration of your website or even Software.</article>
+						<p class="card-text">Our Professional, Custom video Presentations supply you with a video Spokesperson, Skilled editing, Action Graphics, and lots of Images along with Effects. Ideal for your Company or Business video, a service Demonstration and also Demonstration of your website or even Software.</p>
 					</div>
+					<h5 class="card-footer text-center"><a href="video-presentations/" title="Custom Video Presentations">Video Presentations</a></h5>
 				</div>
 			</div>
 		</div>
@@ -114,7 +124,7 @@
 		</div>
 	</section>
 	<div class="container card-group my-3" id="awards">
-		<section class="card card-outline-info">
+		<section class="card">
 			<div class="card-top">
 				<a href="#" data-toggle="tooltip" title="#1 in Video Production"> <img class="card-img-top seal d-block" src="https://websitetalkingheads.com/images/video-production-seal.png"  alt="Best in Video Production" /> </a>
 			</div>
@@ -133,7 +143,7 @@
 				</div>
 			</div>
 		</section>
-		<section class="card card-outline-info">
+		<section class="card">
 			<div class="card-top">
 				<a href="#" data-toggle="tooltip" title="Winner Best Web Design Agencies - Video Production"><img class="card-img-top seal"  alt="Winner in Video Production" src="https://www.websitetalkingheads.com/images/video-production-winner.png"></a>
 			</div>
@@ -151,10 +161,8 @@
 				</div>
 			</div>
 		</section>
-		<section class="card card-outline-info">
-			<div class="card-top">
-				<a href="http://www.topseos.com/rankings-of-best-virtual-spokesperson-companies" data-toggle="tooltip" title="#1 in Video Spokesperson"><img class="card-img-top seal d-block" src="https://websitetalkingheads.com/images/video-spokesperson-seal.png"  alt="Best in Video Spokesperson"  /></a>
-			</div>
+		<section class="card">
+			<a href="http://www.topseos.com/rankings-of-best-virtual-spokesperson-companies" data-toggle="tooltip" title="#1 in Video Spokesperson"><img class="card-img-top" src="https://websitetalkingheads.com/images/video-spokesperson-seal.png"  alt="Best in Video Spokesperson"  /></a>
 			<div class="card-block">
 				<h2 class="card-title">#1 Video Spokespeople</h2>
 				<h5 class="card-subtitle red text-center">Best Web Spokespeople</h5>
@@ -178,15 +186,5 @@
 	<script src="js/iVideo.js"></script>
 	<script src="js/quotes.js"></script>
 	<script src="js/jquery.matchHeight.js"></script>
-	<script>
-		$( document ).ready( function () {
-			$( '.card-top' ).matchHeight( {
-				byRow: false
-			} );
-			$( '.card-block' ).matchHeight( {
-				byRow: false
-			} );
-		} );
-	</script>
 </body>
 </html>
