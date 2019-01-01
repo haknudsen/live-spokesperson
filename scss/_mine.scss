@@ -26,12 +26,14 @@ article { text-indent: 1rem; line-height: 1.1; font-size: 0.8rem;text-align: jus
 p { text-indent: 1rem }
 .card-block { padding: .5rem; text-align: justify; line-height: 1.2 }
 .card-footer { font-size: .8rem; font-weight: 700;margin: 0 }
+.card-footer a{color: $gray-100}
+.card-footer a:hover{color: $gray-200}
 .card-top { align-items: center }
+.card-title{font-size: 1.2rem}
+.card-primary{border-color: $primary}
 .line-1{line-height: 1}
 .fifty{width:50%}
-.card-primary{border-color: $primary}
 .header-primary{background-color: lighten($info,40%) ;border-bottom-color: darken($info, 10%);}
-.card-title{font-size: 1.2rem}
 .contact{
 	max-width: 400px;
 	margin: 0 auto;
@@ -65,17 +67,7 @@ p { text-indent: 1rem }
   -webkit-font-smoothing: antialiased;
 font-weight: 900;padding: 4px 6px;border-radius: .25rem}
 .btn-blue:hover {
-  background-color: hsl(204.18, 100%, 87%) !important;
-  background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#7ECDF4", endColorstr="#BCE4FF");
-  background-image: -khtml-gradient(linear, left top, left bottom, from(#7ECDF4), to(#BCE4FF));
-  background-image: -moz-linear-gradient(top, #7ECDF4, #BCE4FF);
-  background-image: -ms-linear-gradient(top, #7ECDF4, #BCE4FF);
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #7ECDF4), color-stop(100%, #BCE4FF));
-  background-image: -webkit-linear-gradient(top, #7ECDF4, #BCE4FF);
-  background-image: -o-linear-gradient(top, #7ECDF4, #BCE4FF);
-  background-image: linear-gradient(#7ECDF4, #BCE4FF);
-  border-color: #BCE4FF #BCE4FF hsl(201, 100%, 55.5%);
+	@include gradient-mine(#7ECDF4,#BCE4FF);
   color: #333 !important;
   text-shadow: 0 1px 1px rgba(255, 255, 255, 0.49);
   -webkit-font-smoothing: antialiased;
@@ -83,3 +75,6 @@ font-weight: 900;padding: 4px 6px;border-radius: .25rem}
 textarea { width: 100% }
 .bd-blue { border: thin solid #549BFF; padding: .25rem; border-radius: .3rem }
 .bg-grey { background: #888888 }
+.bg-gradient-mine{
+	@include gradient-mine($gray-300,$gray-700);
+}

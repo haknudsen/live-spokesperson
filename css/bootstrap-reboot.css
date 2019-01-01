@@ -33,7 +33,7 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
+  color: #0C2340;
   text-align: left;
   background-color: #fff; }
 
@@ -129,13 +129,13 @@ sup {
 
 /* line 198, ../scss/_reboot.scss */
 a {
-  color: #3D9CEB;
+  color: #00A3FF;
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects; }
   /* line 13, ../scss/mixins/_hover.scss */
   a:hover {
-    color: #1576c7;
+    color: #0072b3;
     text-decoration: underline; }
 
 /* line 216, ../scss/_reboot.scss */
@@ -187,7 +187,7 @@ table {
 caption {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
-  color: #6c757d;
+  color: #2D80E5;
   text-align: left;
   caption-side: bottom; }
 
