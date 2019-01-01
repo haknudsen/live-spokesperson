@@ -8734,7 +8734,7 @@ a.text-dark:hover, a.text-dark:focus {
   font-size: 1.2rem;
   color: #000011; }
 
-/* line 3, ../scss/_mine.scss */
+/* line 6, ../scss/_mine.scss */
 .list-style-item {
   position: relative;
   display: block;
@@ -8743,179 +8743,159 @@ a.text-dark:hover, a.text-dark:focus {
   background-color: #fff;
   border: 1px solid rgba(0, 0, 0, 0.125); }
 
-/* line 4, ../scss/_mine.scss */
+/* line 14, ../scss/_mine.scss */
 .list-price {
   line-height: 1;
   text-align: center;
   margin: 2rem auto 0; }
 
-/* line 5, ../scss/_mine.scss */
+/* line 19, ../scss/_mine.scss */
 .starting {
   font-size: 60%;
   vertical-align: super; }
 
-/* line 6, ../scss/_mine.scss */
+/* line 23, ../scss/_mine.scss */
 .bd-bottom {
   border-bottom: thin solid #3D9CEB; }
 
-/* line 7, ../scss/_mine.scss */
+/* line 26, ../scss/_mine.scss */
 .award-text {
   line-height: 1;
   font-weight: 300;
   font-size: 1vw; }
   @media screen and (min-width: 1200px) {
-    /* line 7, ../scss/_mine.scss */
+    /* line 26, ../scss/_mine.scss */
     .award-text {
       font-size: 32px; } }
 
-/* line 12, ../scss/_mine.scss */
+/* line 34, ../scss/_mine.scss */
 #awards .card-title {
   text-align: center; }
 
-/* line 13, ../scss/_mine.scss */
+/* line 37, ../scss/_mine.scss */
 .content {
   font-size: 1.2rem;
   color: #000011; }
 
-/* line 14, ../scss/_mine.scss */
+/* line 41, ../scss/_mine.scss */
 #banner {
   opacity: 0; }
 
-/* line 15, ../scss/_mine.scss */
+/* line 44, ../scss/_mine.scss */
 .seal {
   margin: 16% 0; }
 
-/* line 16, ../scss/_mine.scss */
+/* line 47, ../scss/_mine.scss */
 #seal {
   align-self: center; }
   @media screen and (min-width: 1200px) {
-    /* line 16, ../scss/_mine.scss */
+    /* line 47, ../scss/_mine.scss */
     #seal {
       display: none; } }
 
-/* line 21, ../scss/_mine.scss */
+/* line 53, ../scss/_mine.scss */
 #spokesperson img {
   max-width: 220px;
   margin: .25rem auto; }
 
-/* line 22, ../scss/_mine.scss */
+/* line 57, ../scss/_mine.scss */
 .price {
   font-size: 4.5rem;
   line-height: 1;
   font-weight: 700; }
 
-/* line 23, ../scss/_mine.scss */
+/* line 62, ../scss/_mine.scss */
 .text-lg-fluid {
   font-size: 1.3vw;
   line-height: 1.2; }
 
-/* line 24, ../scss/_mine.scss */
+/* line 66, ../scss/_mine.scss */
 .center {
   margin: auto; }
 
-/* line 25, ../scss/_mine.scss */
+/* line 69, ../scss/_mine.scss */
 article {
   text-indent: 1rem;
   line-height: 1.1;
   font-size: 0.8rem;
   text-align: justify; }
 
-/* line 26, ../scss/_mine.scss */
+/* line 75, ../scss/_mine.scss */
 p {
   text-indent: 1rem; }
 
-/* line 27, ../scss/_mine.scss */
+/* line 78, ../scss/_mine.scss */
 .card-block {
   padding: .5rem;
   text-align: justify;
   line-height: 1.2; }
 
-/* line 28, ../scss/_mine.scss */
+/* line 83, ../scss/_mine.scss */
 .card-footer {
   font-size: .8rem;
   font-weight: 700;
   margin: 0; }
 
-/* line 29, ../scss/_mine.scss */
+/* line 88, ../scss/_mine.scss */
 .card-footer a {
   color: #E5F0FF; }
 
-/* line 30, ../scss/_mine.scss */
+/* line 91, ../scss/_mine.scss */
 .card-footer a:hover {
   color: #B2D4FF; }
 
-/* line 31, ../scss/_mine.scss */
+/* line 94, ../scss/_mine.scss */
 .card-top {
   align-items: center; }
 
-/* line 32, ../scss/_mine.scss */
+/* line 97, ../scss/_mine.scss */
 .card-title {
   font-size: 1.2rem; }
 
-/* line 33, ../scss/_mine.scss */
+/* line 100, ../scss/_mine.scss */
 .card-primary {
   border-color: #00A3FF; }
 
-/* line 34, ../scss/_mine.scss */
+/* line 103, ../scss/_mine.scss */
 .line-1 {
   line-height: 1; }
 
-/* line 35, ../scss/_mine.scss */
+/* line 106, ../scss/_mine.scss */
 .fifty {
   width: 50%; }
 
-/* line 36, ../scss/_mine.scss */
+/* line 109, ../scss/_mine.scss */
 .header-primary {
   background-color: #ccedff;
   border-bottom-color: #0082cc; }
 
-/* line 37, ../scss/_mine.scss */
+/* line 113, ../scss/_mine.scss */
 .contact {
   max-width: 400px;
   margin: 0 auto;
   background: #BCE4FF; }
-  /* line 41, ../scss/_mine.scss */
+  /* line 117, ../scss/_mine.scss */
   .contact label, .contact input[type="phone"], .contact input[type="email"], .contact input[type="text"], .contact textarea {
     font-size: 1rem;
     background: #D5EEFF;
     line-height: 1;
     padding: 1px 3px; }
-  /* line 42, ../scss/_mine.scss */
+  /* line 123, ../scss/_mine.scss */
   .contact label {
     background: transparent; }
-  /* line 43, ../scss/_mine.scss */
+  /* line 126, ../scss/_mine.scss */
   .contact textarea {
     border-width: 2px;
     border-style: inset;
     border-color: initial;
     border-image: initial; }
-    /* line 47, ../scss/_mine.scss */
+    /* line 131, ../scss/_mine.scss */
     .contact textarea h3 {
       line-height: 1;
       margin-bottom: .25rem; }
 
-/* line 53, ../scss/_mine.scss */
-.btn-blue {
-  background-color: #bde4ff !important;
-  background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#BCE4FF", endColorstr="#7ECDF4");
-  background-image: -khtml-gradient(linear, left top, left bottom, from(#BCE4FF), to(#7ECDF4));
-  background-image: -moz-linear-gradient(top, #BCE4FF, #7ECDF4);
-  background-image: -ms-linear-gradient(top, #BCE4FF, #7ECDF4);
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #BCE4FF), color-stop(100%, #7ECDF4));
-  background-image: -webkit-linear-gradient(top, #BCE4FF, #7ECDF4);
-  background-image: -o-linear-gradient(top, #BCE4FF, #7ECDF4);
-  background-image: linear-gradient(#BCE4FF, #7ECDF4);
-  border-color: #7ECDF4 #7ECDF4 #1cb0ff;
-  color: #17375E !important;
-  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.49);
-  -webkit-font-smoothing: antialiased;
-  font-weight: 900;
-  padding: 4px 6px;
-  border-radius: .25rem; }
-
-/* line 69, ../scss/_mine.scss */
-.btn-blue:hover {
+/* line 137, ../scss/_mine.scss */
+.btn-contact:hover {
   border-color: #BCE4FF #BCE4FF #BCE4FF;
   background-repeat: repeat-x;
   background: #7ECDF4;
@@ -8934,25 +8914,51 @@ p {
   /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$top', endColorstr='$bottom',GradientType=0 );
   /* IE6-9 */
-  color: #333 !important;
-  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.49);
-  -webkit-font-smoothing: antialiased; }
+  color: #2D80E5;
+  text-shadow: 0 -2px 1px rgba(255, 255, 255, 0.5); }
 
-/* line 75, ../scss/_mine.scss */
+/* line 142, ../scss/_mine.scss */
+.btn-contact {
+  color: #0C2340;
+  text-shadow: 0 2px 1px rgba(255, 255, 255, 0.5);
+  -webkit-font-smoothing: antialiased;
+  font-weight: 900;
+  padding: .3rem .5rem;
+  border-radius: .5rem;
+  border-color: #7ECDF4 #7ECDF4 #7ECDF4;
+  background-repeat: repeat-x;
+  background: #BCE4FF;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #BCE4FF 0%, #7ECDF4 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #BCE4FF), color-stop(100%, #7ECDF4));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #BCE4FF 0%, #7ECDF4 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #BCE4FF 0%, #7ECDF4 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #BCE4FF 0%, #7ECDF4 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #BCE4FF 0%, #7ECDF4 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$top', endColorstr='$bottom',GradientType=0 );
+  /* IE6-9 */ }
+
+/* line 151, ../scss/_mine.scss */
 textarea {
   width: 100%; }
 
-/* line 76, ../scss/_mine.scss */
+/* line 154, ../scss/_mine.scss */
 .bd-blue {
   border: thin solid #549BFF;
   padding: .25rem;
-  border-radius: 0.3rem; }
+  border-radius: .3rem; }
 
-/* line 77, ../scss/_mine.scss */
+/* line 159, ../scss/_mine.scss */
 .bg-grey {
   background: #888888; }
 
-/* line 78, ../scss/_mine.scss */
+/* line 162, ../scss/_mine.scss */
 .bg-gradient-mine {
   border-color: #256ABF #256ABF #256ABF;
   background-repeat: repeat-x;

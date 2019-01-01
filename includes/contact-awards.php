@@ -51,7 +51,7 @@
 		<input name="recaptcha_validation_value" id="recaptcha_validation_value" type="hidden">
 	</div>
 	<div class="d-flex justify-content-center mt-1">
-		<input id="vtigerFormSubmitBtn" class="btn-blue" type="submit" value="I Want Video">
+		<input id="vtigerFormSubmitBtn" class="btn-contact" type="submit" value="I Want Video">
 	</div>
 </form>
 <div class="mt-1">
