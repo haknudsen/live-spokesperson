@@ -27,7 +27,6 @@
 		$crumbs = explode("/",$_SERVER["REQUEST_URI"]);
 		$crumbs = array_filter($crumbs);
 		array_unshift($crumbs,"home");
-			echo json_encode($crumbs);
 		$linkPath = "";
 		$crumbCounter = 0;
         foreach($crumbs as $crumb){
@@ -44,6 +43,7 @@
 </ol>
 </nav>
 			<br/>
-		<?php	echo json_encode($crumbs);?>
+		<?php	echo json_encode($crumbs);
+		?>
 			<h3><?php echo "link-". $linkPath?></h3>
 </footer>"
