@@ -15,35 +15,36 @@
             <span><a class="white" href="tel://801-748-2281" title="Give us a call." >801-748-2281</a></span></h3>
 		</div>
 		<div class="col-sm-3">
-			<h3 class="text-center small"><i class="fa fa-envelope-o"></i><br/>
-            <a href="mailto:info@websitetalkingheads.com">info@websitetalkingheads.com</a>
-		</div>
-		</div>
-		<div class="text-center small line-1">Talking Heads<sup class="smaller"><i class="fal fa-registered"></i></sup> <span id="year"><?php echo date("Y")?></span>. All rights reserved.</div>
-<!-----------------------------------breadcrumbs------------------------------------->
-		<nav aria-label="breadcrumb">
-		<ol class="breadcrumb">
     <?php 
 		$crumbs = explode("/",$_SERVER["REQUEST_URI"]);
 		$crumbs = array_filter($crumbs);
 		array_unshift($crumbs,"home");
-		$linkPath = "";
+		$linkBase = strtolower(substr($_SERVER["SERVER_PROTOCOL"],0,5))=='https'?'https':'http';
+		$linkBase = $linkBase . "://";
+		$linkPath = $linkBase . $_SERVER['HTTP_HOST'];
+		$word = "";
 		$crumbCounter = 0;
+    ?>
+		<nav aria-label="breadcrumb">
+			<ol class="breadcrumb bg-transparent">
+			
+    <?php 	
         foreach($crumbs as $crumb){
-        	if ($crumbCounter <= $crumbCut) {
-        		//do nothing, skip over the extended file root so the crumbs only show from 'Guides'
-        	} else {
-	            $word = str_replace(".php","",$crumb);
-	            echo '<li class="breadcrumb-item"><a href=' . $linkPath . $word . '.php" >' . $word . '</a></li>';
-	            $linkPath = $linkPath . $word . '/';
-            } 
+	            $word = $crumb;
+			if($crumbCounter === 0){
+	            echo '<li class="breadcrumb-item"><a href="' . $linkPath . '" >Home</a></li>';
+	        $linkPath = $linkPath . '/';
+			}else{
+	        $linkPath = $linkPath . $word . '/';
+	            echo '<li class="breadcrumb-item"><a href="' . $linkPath .'" >' . $word . '</a></li>';
+			}
             $crumbCounter++;
         }
     ?>
-</ol>
-</nav>
-			<br/>
-		<?php	echo json_encode($crumbs);
-		?>
-			<h3><?php echo "link-". $linkPath?></h3>
-</footer>"
+			</ol>
+		</nav>
+		</div>
+		</div>
+		<div class="text-center small line-1">Talking Heads<sup class="smaller"><i class="fal fa-registered"></i></sup> <span id="year"><?php echo date("Y")?></span>. All rights reserved.</div>
+
+</footer>
