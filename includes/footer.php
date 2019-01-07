@@ -20,29 +20,30 @@
 		</div>
 		</div>
 		<div class="text-center small line-1">Talking Heads<sup class="smaller"><i class="fal fa-registered"></i></sup> <span id="year"><?php echo date("Y")?></span>. All rights reserved.</div>
+<!-----------------------------------breadcrumbs------------------------------------->
+		<nav aria-label="breadcrumb">
 		<ol class="breadcrumb">
     <?php 
-
-        $configLocation = (ltrim($homePath,'"')) . 'config.php';
-    	include $configLocation;
-
-        $crumbs = explode("/",$_SERVER["REQUEST_URI"]);
-
-        $linkPath = $homePath;
-
-        $crumbCounter = 0;
+		$crumbs = explode("/",$_SERVER["REQUEST_URI"]);
+		$crumbs = array_filter($crumbs);
+		array_unshift($crumbs,"home");
+			echo json_encode($crumbs);
+		$linkPath = "";
+		$crumbCounter = 0;
         foreach($crumbs as $crumb){
         	if ($crumbCounter <= $crumbCut) {
         		//do nothing, skip over the extended file root so the crumbs only show from 'Guides'
         	} else {
 	            $word = str_replace(".php","",$crumb);
-	            echo '<li><a href=' . $linkPath . $word . '.php" >' . $word . '</a></li>';
+	            echo '<li class="breadcrumb-item"><a href=' . $linkPath . $word . '.php" >' . $word . '</a></li>';
 	            $linkPath = $linkPath . $word . '/';
             } 
-            //Increment the crumbCounter,
             $crumbCounter++;
         }
     ?>
-  <li class="guidemap"><a href=<?php echo $homePath . 'guides/map.php"' ?>>map</a></li>
 </ol>
-</footer>
+</nav>
+			<br/>
+		<?php	echo json_encode($crumbs);?>
+			<h3><?php echo "link-". $linkPath?></h3>
+</footer>"

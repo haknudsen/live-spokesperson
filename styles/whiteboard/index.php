@@ -87,9 +87,6 @@
 		</div>
 	</div>
 </section>
-<section class="container p-2">
-	<?php include( "includes/testimonial-awards.php"); ?>
-</section>
 <section class="content">
 	<div class="container">
 		<section class="content">
