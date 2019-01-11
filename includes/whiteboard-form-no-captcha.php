@@ -1,64 +1,37 @@
+<?php
+$pageURL = 'http';
+if ( $_SERVER[ "HTTPS" ] == "on" ) {
+	$pageURL .= "s";
+}
+$pageURL .= "://";
+if ( $_SERVER[ "SERVER_PORT" ] != "80" ) {
+	$pageURL .= $_SERVER[ "SERVER_NAME" ] . ":" . $_SERVER[ "SERVER_PORT" ] . $_SERVER[ "REQUEST_URI" ];
+} else {
+	$pageURL .= $_SERVER[ "SERVER_NAME" ] . $_SERVER[ "REQUEST_URI" ];
+}
+if ( isset( $_SERVER[ 'HTTP_X_FORWARDED_FOR' ] ) && $_SERVER[ 'HTTP_X_FORWARTDED_FOR' ] != '' ) {
+	$sentIP = $_SERVER[ 'HTTP_X_FORWARDED_FOR' ];
+} else {
+	$sentIP = $_SERVER[ 'REMOTE_ADDR' ];
+}
+?>
 <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-<form name="New Contact" id="__vtigerWebForm"  class="bd-blue"action="https://websitetalkingheads.od1.vtiger.com/modules/Webforms/capture.php" enctype="multipart/form-data" method="post" accept-charset="utf-8">
-	<input name="__vtrftk" type="hidden" value="sid:12962bf4d0ad1d80fe58aaae128bc3449eced7c4,1541021677">
-	<input name="publicid" type="hidden" value="7d2174f0e1764a1915290b61d33c94b1">
+<form name="whiteboard leads" id="__vtigerWebForm" action="https://websitetalkingheads.od1.vtiger.com/modules/Webforms/capture.php" enctype="multipart/form-data" method="post" accept-charset="utf-8"><input name="__vtrftk" type="hidden" value="sid:de319833f327ce43bb58b216d6df89038387377f,1545512884">
+	<input name="publicid" type="hidden" value="0b6d70228937303c28f8d526dab8ef97">
 	<input name="urlencodeenable" type="hidden" value="1">
-	<input name="name" type="hidden" value="New Contact">
+	<input name="name" type="hidden" value="whiteboard leads">
 	<input name="__vtCurrency" type="hidden" value="1">
-	<button type="button" class="close" id="contactClose" aria-label="Close">
-          <span aria-hidden="true">×</span>
-        </button>
-
-	<h3 class="text-center">Contact Us</h3>
-	<div class="d-flex justify-content-center">
-		<table>
-			<tbody>
-				<tr>
-					<td><label> Last Name
-            * </label>
-					</td>
-					<td><input name="lastname" required="" type="text" maxlength="100" value="" data-label="">
-					</td>
-				</tr>
-				<tr>
-					<td><label> Email
-            * </label>
-					</td>
-					<td><input name="email" required="" type="email" value="" data-label="Primary Email" td="" <="">
-					</td>
-				</tr>
-				<tr>
-					<td><input name="cf_1001" type="hidden" maxlength="100" value="" data-label="">
-					</td>
-				</tr>
-				<tr>
-					<td><label> Phone
-            * </label>
-					</td>
-					<td><input name="phone" required="" type="text" maxlength="100" value="" data-label="">
-					</td>
-				</tr>
-				<tr>
-					<td><input name="designation" type="hidden" maxlength="100" value="" data-label="">
-					</td>
-				</tr>
-				<tr>
-					<td><label> Description </label>
-					</td>
-					<td><textarea name="description"></textarea>
-					</td>
-				</tr>
-			</tbody>
-		</table>
+	<div class="quote-top">Get A Quote</div>
+	<div class="inputs">
+		<input name="lastname" required="" type="text" placeholder="Name" data-label=""> </td>
+		<input name="email" required="" type="email" placeholder="Email" data-label=""> </td>
+		<input name="phone" required="" type="text" placeholder="Phone" data-label=""> </td>
+		<input name="cf_1001" type="hidden" value="<?=$pageURL?>" data-label="">
+		<input name="designation" type="hidden" value="<?=$sentIP?>" data-label="">
+		<textarea name="description" placeholder="Message"></textarea>
 	</div>
-	<div class="d-flex justify-content-center">
-		<script src="https://www.google.com/recaptcha/api.js"></script>
-		<div class="g-recaptcha" data-sitekey="6LcmdSATAAAAAGWw734vGo0AXQwuxJS7RmDZA_Fe"></div>
-		<input id="captchaUrl" type="hidden" value="https://websitetalkingheads.od1.vtiger.com/modules/Settings/Webforms/actions/ValidateCaptcha.php">
-		<input name="recaptcha_validation_value" id="recaptcha_validation_value" type="hidden">
-	</div>
-	<div class="d-flex justify-content-center mt-1">
-		<input id="vtigerFormSubmitBtn" type="submit" value="Submit">
+	<div class="d-flex btn-holder">
+		<input class="btn btn-custom" id="vtigerFormSubmitBtn" type="submit" value="I Need Video">
 	</div>
 </form>
 <script type="text/javascript">
@@ -76,8 +49,8 @@
 			document.getElementById( "vtigerFormSubmitBtn" ).disabled = true;
 			var required = [],
 				att, val;
-			var startDate;
 			var endDate;
+			var startDate;
 			var endDate1;
 			for ( var i = 0; i < inputs.length; i++ ) {
 				att = inputs[ i ].getAttribute( "required" );
@@ -119,23 +92,29 @@
 						}
 					}
 				}
-				if ( startDate && typeof startDate !== "undefined" ) {
-					if ( endDate && typeof endDate !== "undefined" ) {
-						startDate = new Date( startDate );
-						endDate = new Date( endDate );
-						if ( endDate < startDate ) {
-							alert( "End Date should be greater than or equal to Start Date" );
-							document.getElementById( "vtigerFormSubmitBtn" ).disabled = false;
-							return false;
+				if ( startDate ) {
+					if ( typeof startDate !== "undefined" ) {
+						if ( endDate ) {
+							if ( typeof endDate !== "undefined" ) {
+								startDate = new Date( startDate );
+								endDate = new Date( endDate );
+								if ( endDate < startDate ) {
+									alert( "End Date should be greater than or equal to Start Date" );
+									document.getElementById( "vtigerFormSubmitBtn" ).disabled = false;
+									return false;
+								}
+							}
 						}
-					}
-					if ( endDate1 && typeof endDate1 !== "undefined" ) {
-						startDate = new Date( startDate );
-						endDate1 = new Date( endDate1 );
-						if ( endDate1 < startDate ) {
-							alert( "End Date should be greater than or equal to Start Date" );
-							document.getElementById( "vtigerFormSubmitBtn" ).disabled = false;
-							return false;
+						if ( endDate1 ) {
+							if ( typeof endDate1 !== "undefined" ) {
+								startDate = new Date( startDate );
+								endDate1 = new Date( endDate1 );
+								if ( endDate1 < startDate ) {
+									alert( "End Date should be greater than or equal to Start Date" );
+									document.getElementById( "vtigerFormSubmitBtn" ).disabled = false;
+									return false;
+								}
+							}
 						}
 					}
 				}
@@ -154,14 +133,9 @@
 			for ( var i = 0; i < numberTypeInputs.length; i++ ) {
 				val = numberTypeInputs[ i ].value;
 				var elemLabel = numberTypeInputs[ i ].getAttribute( "label" );
-				var elemDataType = numberTypeInputs[ i ].getAttribute( "datatype" );
 				if ( val != "" ) {
-					if ( elemDataType == "double" ) {
-						var numRegex = /^[+-]?\d+(\.\d+)?$/;
-					} else {
-						var numRegex = /^[+-]?\d+$/;
-					}
-					if ( !numRegex.test( val ) ) {
+					var intRegex = /^[+-]?\d+$/;
+					if ( !intRegex.test( val ) ) {
 						alert( "For " + elemLabel + " field please enter valid number" );
 						document.getElementById( "vtigerFormSubmitBtn" ).disabled = false;
 						return false;
@@ -211,45 +185,6 @@
 					return false;
 				}
 			}
-			document.getElementById( "vtigerFormSubmitBtn" ).disabled = true;
-			var recaptchaValidationValue = document.getElementById( "recaptcha_validation_value" ).value;
-			if ( recaptchaValidationValue != true ) {
-				var recaptchaResponse = document.getElementsByName( "g-recaptcha-response" )[ 0 ].value;
-				var currentUrl = window.location.href;
-				var urlHash = window.location.hash;
-				currentUrl = currentUrl.replace( urlHash, "" );
-				currentUrl = currentUrl.replace( "#", "" );
-				var validationUrl = document.getElementById( "captchaUrl" ).value + "?recaptcha_response=" + recaptchaResponse + "&current_url=" + currentUrl + "&callback=captchaCallback";
-				jsonp.fetch( validationUrl );
-				return false;
-			}
 		};
-	};
-	var jsonp = {
-		callbackCounter: 0,
-		fetch: function ( url ) {
-			url = url + "&callId=" + this.callbackCounter;
-			var scriptTag = document.createElement( "SCRIPT" );
-			scriptTag.src = url;
-			scriptTag.async = true;
-			scriptTag.id = "captchaCallback_" + this.callbackCounter;
-			scriptTag.type = "text/javascript";
-			document.getElementsByTagName( "HEAD" )[ 0 ].appendChild( scriptTag );
-			this.callbackCounter++;
-		}
-	};
-
-	function captchaCallback( data ) {
-		if ( data.result.success == true ) {
-			document.getElementById( "recaptcha_validation_value" ).value = true;
-			var form = document.getElementById( "__vtigerWebForm" );
-			form.submit();
-		} else {
-			document.getElementById( "vtigerFormSubmitBtn" ).disabled = false;
-			grecaptcha.reset();
-			alert( "Captcha not verified. Please verify captcha." );
-		}
-		var element = document.getElementById( "captchaCallback_" + data.result.callId );
-		element.parentNode.removeChild( element );
 	}
 </script>

@@ -26,7 +26,7 @@
 		</div>
 	</div>
 </div>
-<script src="../js/testimonial.js"></script>
+<script src="../../../whiteboard/js/testimonial.js"></script>
 <script>
 $(document).ready(function(){
     $('[data-toggle="tooltip"]').tooltip(); 

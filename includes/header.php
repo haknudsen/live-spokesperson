@@ -4,6 +4,7 @@
     <span class="navbar-toggler-icon"></span>
   </button>
 
+
 	<div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
 		<ul class="navbar-nav">
 			<li class="nav-item" id="home">
@@ -12,9 +13,18 @@
 			<li class="nav-item" id="spokespeople">
 				<a class="nav-link" href="http://www.live-spokesperson.com/virtual-spokespeople">Spokespeople</a>
 			</li>
-			<li class="nav-item" id="styles">
-				<a class="nav-link" href="http://www.live-spokesperson.com/styles">Styles</a>
-			</li>
+		  <li class="nav-item dropdown" id="styles">
+				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Styles</a>			
+			  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+					<a href="../styles/" title="Styles" class="dropdown-item">Styles</a>
+					<a href="#" title="Website Spokesperson" class="dropdown-item">Website Spokesperson</a>
+				<div class="dropdown-divider"></div>
+				  <a href="../styles/whiteboard/" title="Whiteboard" class="dropdown-item">Whiteboard</a>
+				  <a href="#" title="Animation" class="dropdown-item">Animation</a>
+				  <a href="#" title="Typography" class="dropdown-item">Typography</a>
+				  <a href="../styles/custom-presentations/" title="Presentation" class="dropdown-item">Presentation</a>
+				</div>
+		  </li>
 			<li class="nav-item" id="about">
 				<a class="nav-link" href="http://www.live-spokesperson.com/about">About</a>
 			</li>
