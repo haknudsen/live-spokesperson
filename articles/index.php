@@ -21,14 +21,14 @@
 </head>
 
 <body>
-	<?php include("includes/header.php"); ?>
+	<?php include("../includes/header.php"); ?>
 	<section class="jumbotron">
 		<div class="row align-items-center">
 			<div class="col-xl-7" id="video-holder">
-				<?php $video = "Talking Heads Video Demonstration";$alt = "Talking Heads Video Demonstration";$btnSize="lg";include("includes/showVideo.php");?>
+				<?php $video = "Talking Heads Video Demonstration";$alt = "Talking Heads Video Demonstration";$btnSize="lg";include("../includes/showVideo.php");?>
 			</div>
 			<div class="col-xl-5">
-				<?php include("includes/contact-awards.php"); ?>
+				<?php include("../includes/contact-awards.php"); ?>
 			</div>
 		</div>
 	</section>
@@ -40,7 +40,7 @@
     $bgColor = "#D5EEFF";
     $btnColor = "#D5EEFF";
 	$alt = "Why Talking Heads Video?";
-    include("includes/showVideo.php"); 
+    include("../includes/showVideo.php"); 
     ?>
 		</div>
 		<div class="">
@@ -94,7 +94,7 @@
 						<h3 class="card-title">#2 with Logo Background</h3>
 						<p class="card-text">We can create a powerful YouTube and Facebook compatible sales video. Choose an actor, send your script and logo. We put it all together and provide you a Full HD 1920X1080 video in MP4 format. Upload it to YouTube, Twitter, Instagram, etc...</p>
 					</div>
-					<h5 class="card-footer text-center bg-gradient-mine"><a class="card-link" href="virtual-spokespeople/">Simple</a></h5>
+					<h5 class="card-footer text-center bg-gradient-mine"><a class="card-link" href="../virtual-spokespeople">Simple</a></h5>
 				</div>
 				<div class="card">
 					<img class="card-img-top" src="https://websitetalkingheads.com/images/GreenScreenVideo.gif" alt="Green Screen Video"/>
@@ -110,7 +110,7 @@
 						<h3 class="card-title pt-3">#4 Custom Presentation</h3>
 						<p class="card-text">Our Professional, Custom video Presentations supply you with a video Spokesperson, Skilled editing, Action Graphics, and lots of Images along with Effects. Ideal for your Company or Business video, a service Demonstration and also Demonstration of your website or even Software.</p>
 					</div>
-					<h5 class="card-footer text-center bg-gradient-mine"><a class="card-link" href="video-presentations/" title="Custom Video Presentations">Video Presentations</a></h5>
+					<h5 class="card-footer text-center bg-gradient-mine"><a class="card-link" href="../video-presentations" title="Custom Video Presentations">Video Presentations</a></h5>
 				</div>
 			</div>
 		</div>
@@ -174,14 +174,14 @@
 			</div>
 		</div>
 	</section>
-	<?php include("includes/footer.php"); ?>
-	<?php include("includes/modal.php"); ?>
+	<?php include("../includes/footer.php"); ?>
+	<?php include("../includes/modal.php"); ?>
 	<!-- content container -->
 	<script src="https://vjs.zencdn.net/7.2.4/video.js"></script>
-	<script src="js/nav.js"></script>
-	<script src="js/iVideo.js"></script>
-	<script src="js/quotes.js"></script>
-	<script src="js/jquery.matchHeight.js"></script>
+	<script src="../js/nav.js"></script>
+	<script src="../js/iVideo.js"></script>
+	<script src="../js/quotes.js"></script>
+	<script src="../js/jquery.matchHeight.js"></script>
 </body>
 =======
 <!DOCTYPE html>
@@ -194,12 +194,12 @@
 	<meta content="Searching for a new way to bring life to your website and attract more interest from those who visit it? Get an professional spokesperson from iSpokesperson.">
 	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-	<link href="css/custom.css" rel="stylesheet" type="text/css">
+	<link href="../css/custom.css" rel="stylesheet" type="text/css">
 	<title>iSpokespeople&reg;</title>
 </head>
 
 <body>
-	<?php include("includes/header.php"); ?>
+	<?php include("../includes/header.php"); ?>
 	<section class="jumbotron">
 		<div class="row">
 			<div class="col-6">
@@ -210,7 +210,7 @@
 			</div>
 			<div class="col-6">
 				<div class="d-flex justify-content-center">
-					<?php include("includes/contact.php"); ?>
+					<?php include("../includes/contact.php"); ?>
 				</div>
 			</div>
 		</div>
@@ -340,7 +340,7 @@
 		</section>
 	</div>
 	<link href="https://vjs.zencdn.net/7.2.4/video-js.css" rel="stylesheet">
-	<link href="../css/video.css" rel="stylesheet">
+	<link href="file:///E|/My Stuff/My Web Sites/css/video.css" rel="stylesheet">
 	<section class="container d-flex justify-content-center">
 		<video id="talking-heads-video" class="video-js" controls preload="auto" width="640" height="360" poster="https://www.websitetalkingheads.com/ivideo/videos/Animated Alien Video.jpg" data-setup="{}">
 			<source src="https://www.websitetalkingheads.com/ivideo/videos/Animated Alien Video.mp4" type='video/mp4'>
@@ -355,12 +355,12 @@
 		<button class="btn btn-primary" id="change-video">Change</button>
 	</div>
 	</script>
-	<?php include("includes/footer.php"); ?>
+	<?php include("../includes/footer.php"); ?>
 
 	<!-- content container -->
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-	<script src="js/quotes.js"></script>
+	<script src="../js/quotes.js"></script>
 	<script src="https://vjs.zencdn.net/7.2.4/video.js"></script>
 	<script>
 		$( document ).ready( function () {
