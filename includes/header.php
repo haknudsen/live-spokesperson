@@ -13,18 +13,18 @@
 			<li class="nav-item" id="spokespeople">
 				<a class="nav-link" href="http://www.live-spokesperson.com/virtual-spokespeople">Spokespeople</a>
 			</li>
-		  <li class="nav-item dropdown" id="styles">
-				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Styles</a>			
-			  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+			<li class="nav-item dropdown" id="styles">
+				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Styles</a>
+				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
 					<a href="../styles/" title="Styles" class="dropdown-item">Styles</a>
 					<a href="#" title="Website Spokesperson" class="dropdown-item">Website Spokesperson</a>
-				<div class="dropdown-divider"></div>
-				  <a href="../styles/whiteboard/" title="Whiteboard" class="dropdown-item">Whiteboard</a>
-				  <a href="#" title="Animation" class="dropdown-item">Animation</a>
-				  <a href="#" title="Typography" class="dropdown-item">Typography</a>
-				  <a href="../styles/custom-presentations/" title="Presentation" class="dropdown-item">Presentation</a>
+					<div class="dropdown-divider"></div>
+					<a href="../styles/whiteboard/" title="Whiteboard" class="dropdown-item">Whiteboard</a>
+					<a href="#" title="Animation" class="dropdown-item">Animation</a>
+					<a href="#" title="Typography" class="dropdown-item">Typography</a>
+					<a href="../styles/custom-presentations/" title="Presentation" class="dropdown-item">Presentation</a>
 				</div>
-		  </li>
+			</li>
 			<li class="nav-item" id="articles">
 				<a class="nav-link" href="http://www.live-spokesperson.com/articles">Articles</a>
 			</li>
