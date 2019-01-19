@@ -25,6 +25,9 @@
 				  <a href="../styles/custom-presentations/" title="Presentation" class="dropdown-item">Presentation</a>
 				</div>
 		  </li>
+			<li class="nav-item" id="articles">
+				<a class="nav-link" href="http://www.live-spokesperson.com/articles">Articles</a>
+			</li>
 			<li class="nav-item" id="about">
 				<a class="nav-link" href="http://www.live-spokesperson.com/about">About</a>
 			</li>
