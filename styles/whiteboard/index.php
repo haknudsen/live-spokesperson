@@ -19,7 +19,7 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </head>
 
-<?php include("../../includes/header.php"); ?>
+<?php include("../../includes/nav.php"); ?>
 <section class="jumbotron-fluid bg-image">
 	<h1 class="banner-text">Cool Explainer Videos, Whiteboard Sketch Videos, Spokesperson too!</h1>
 	<div class="container mt-2">

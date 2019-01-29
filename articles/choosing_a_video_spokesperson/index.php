@@ -24,7 +24,7 @@
 </head>
 
 <body>
-	<?php include ('../../includes/header.php'); ?>
+	<?php include ('../../includes/nav.php'); ?>
 	<section class="page-header text-center">
 		<h1>Choose the Best Website Spokesperson for your Business</h1>
 		<h2>Finding the Virtual Spokesperson that is right for you.</h2>

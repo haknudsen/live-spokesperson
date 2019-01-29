@@ -20,7 +20,7 @@
 </head>
 
 <body>
-	<?php include("includes/header.php"); ?>
+	<?php include("includes/nav.php"); ?>
 	<section class="jumbotron">
 		<h1>Examples</h1>
 	</section>

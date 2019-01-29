@@ -26,7 +26,7 @@
 </head>
 
 <body>
-	<?php include("../includes/header.php"); ?>
+	<?php include("../includes/nav.php"); ?>
 	<section class="jumbotron">
 		<div>
 			<h1 class="text-center">About Talking Heads<i class="far fa-registered smaller"></i></h1>

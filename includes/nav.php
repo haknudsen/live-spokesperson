@@ -11,7 +11,7 @@
 				<a class="nav-link" href="http://www.live-spokesperson.com/">Home</a>
 			</li>
 			<li class="nav-item" id="spokespeople">
-				<a class="nav-link" href="http://www.live-spokesperson.com/virtual-spokespeople">Spokespeople</a>
+				<a class="nav-link" href="http://www.live-spokesperson.com/spokespeople">Spokespeople</a>
 			</li>
 			<li class="nav-item dropdown" id="styles">
 				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Styles</a>

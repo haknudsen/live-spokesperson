@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Online Video from Live-Spokesperson.com</title>
+	<title>Our Video Process at Live-Spokesperson.com</title>
 	<meta name="title" content="Online Video from Live-Spokesperson.com">
 	<meta name="description" content="Searching for a new way to bring life to your website and attract more interest from those who visit it? Get a spokesperson from Live-Spokesperson.">
 	<meta name="keywords" content="Video Spokesperson,Website Spokesperson,Online Marketing Video Production,Hire A Spokesperson,Website Video Spokesperson,Video Spokesperson Software,Your Video Spokesperson,Live Spokesperson">
@@ -21,16 +21,33 @@
 </head>
 
 <body>
-	<?php include("../includes/nav.php"); ?>
+	<?php include("../includes/header.php"); ?>
 	<section class="jumbotron">
-		
+
 	</section>
-	
+
 	<section class="alert-info">
-		<div class="container">
+		<div class="container pt-3">
+			<div class="row text-center">
+				<div class="col-lg-4">
+					<i class="fas fa-users fa-6x text-primary"></i>
+					<h2>Consultation</h2>
+					<p class="text-muted my-4">And then in "Push Past the Hurting", Kinga and Max consider the possibility that Yongary's bloody, awful death was a step too far, and that maybe they should have screened the movie more thoroughly before showing it...</p>
+				</div>
+				<div class="col-lg-4">
+					<i class="fas fa-edit fa-6x text-primary"></i>
+					<h2>Design</h2>
+					<p class="text-muted my-4">And then in "Push Past the Hurting", Kinga and Max consider the possibility that Yongary's bloody, awful death was a step too far, and that maybe they should have screened the movie more thoroughly before showing it...</p>
+				</div>
+				<div class="col-lg-4">
+					<i class="fas fa-desktop fa-6x text-primary"></i>
+					<h2>Creation</h2>
+					<p class="text-muted my-4">And then in "Push Past the Hurting", Kinga and Max consider the possibility that Yongary's bloody, awful death was a step too far, and that maybe they should have screened the movie more thoroughly before showing it...</p>
+				</div>
+			</div>
 		</div>
 	</section>
-	
+
 	<?php include("../includes/footer.php"); ?>
 	<?php include("../includes/modal.php"); ?>
 	<!-- content container -->

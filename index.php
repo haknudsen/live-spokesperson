@@ -15,7 +15,7 @@
 </head>
 
 <body>
-	<?php include("includes/header.php"); ?>
+	<?php include("includes/nav.php"); ?>
 	<section class="jumbotron">
 		<div class="row">
 			<div class="col-6">

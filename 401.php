@@ -12,7 +12,7 @@
 	<link href="css/custom.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-<?php include("includes/header.php"); ?>
+<?php include("includes/nav.php"); ?>
 <section class="jumbotron">
 <header class="text-center white margin-40">
   <h1>Live-Spokesperson</h1>
