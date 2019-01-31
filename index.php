@@ -23,11 +23,11 @@
 				<?php include( "includes/contact.php"); ?>
 			</div>
 		</div>
-	</section>
-	<section class="container">
+	</section><section class="container">
 		<h1 class="font-weight-bold">What to increase traffic up to 400%?</h1>
 		<h2 class="red bold text-center">ADD VIDEO!</h2>
-		<div class="float-left col-6 pt-2"> <a data-toggle="modal" data-target="#exampleWall"><img class="img-fluid" src="//img.youtube.com/vi/DyovMIVPTm0/maxresdefault.jpg" alt="Wall of Video Spokespeople"></a>
+		<div class="float-left col-6 pt-2">
+			<?php $video="Virtual Spokespeople";$alt="Some examples of our Video Spokespeople";$bgColor = "#84D6FF"; include("includes/showInline.php"); ?>
 		</div>
 		<div class="">
 			<div class="content">
@@ -99,8 +99,8 @@
 			<blockquote class="text-center">Your Virtual Spokesperson could greet your online visitors to help them feel more comfortable on your website. Your website Spokesperson will build confidence that your business is actually solid giving your business a professional face and clarify parts of one's website in addition to help the visitor to know the way your products and services will give them and edge.</blockquote>
 		</div>
 	</section>
-	<div class="container card-group my-3" id="awards">
-		<section class="card card-outline-info"> <a href="#" data-toggle="tooltip" title="#1 in Video Production"> <img class="card-img-top seal d-block" src="https://websitetalkingheads.com/images/video-production-seal.png"  alt="Best in Video Production" /> </a>
+	<section class="container card-group my-3" id="awards">
+		<div class="card card-outline-info"> <a href="#" data-toggle="tooltip" title="#1 in Video Production"> <img class="card-img-top seal d-block" src="https://websitetalkingheads.com/images/video-production-seal.png"  alt="Best in Video Production" /> </a>
 			<div class="card-block">
 				<h2 class="card-title">#1 in Video Production</h2>
 				<h5 class="card-subtitle red text-center">Best Production Quality</h5>
@@ -115,8 +115,8 @@
 					<div class="col-6"> <a class="card-link" href="#">Examples</a> </div>
 				</div>
 			</div>
-		</section>
-		<section class="card card-outline-info"> <a href="#" data-toggle="tooltip" title="Winner Best Web Design Agencies - Video Production"><img class="card-img-top seal d-block"  alt="Winner in Video Production" src="https://www.websitetalkingheads.com/images/video-production-winner.png"></a>
+		</div>
+		<div class="card card-outline-info"> <a href="#" data-toggle="tooltip" title="Winner Best Web Design Agencies - Video Production"><img class="card-img-top seal d-block"  alt="Winner in Video Production" src="https://www.websitetalkingheads.com/images/video-production-winner.png"></a>
 			<div class="card-block">
 				<h2 class="card-title">Best<br>
         Video Production</h2>
@@ -131,13 +131,13 @@
 					<div class="col-6"> <a class="card-link" href="#">Video Seo</a> </div>
 				</div>
 			</div>
-		</section>
-		<section class="card card-outline-info"> <a href="http://www.topseos.com/rankings-of-best-virtual-spokesperson-companies" data-toggle="tooltip" title="#1 in Video Spokesperson"><img class="card-img-top seal d-block" src="https://websitetalkingheads.com/images/video-spokesperson-seal.png"  alt="Best in Video Spokesperson"  /></a>
+		</div>
+		<div class="card card-outline-info"> <a href="http://www.topseos.com/rankings-of-best-virtual-spokesperson-companies" data-toggle="tooltip" title="#1 in Video Spokesperson"><img class="card-img-top seal d-block" src="https://websitetalkingheads.com/images/video-spokesperson-seal.png"  alt="Best in Video Spokesperson"  /></a>
 			<div class="card-block">
 				<h2 class="card-title">#1 Video Spokespeople</h2>
 				<h5 class="card-subtitle red text-center">Best Quality Spokespeople</h5>
 				<p class="card-text">We have a wide variety of Spokespeople that encompass different looks and approaches to delivering your message. This ensures you will have the capacity to discover a Spokesperson who best speaks to your message and vision to the general population which achieve your site. </p>
-				<p class="card-text">Talking Heads&reg; Video has developed a custom proprietory video player that gives you a huge variety of features and controlls. We have made our player to be easy to embed into your current site to guarantee it doesn't require large assets to be involved during the process. We ensure our player leaves as small of an impression as possible and takes just minutes to install. When integrated the Talking Heads&reg; Player your video will take up little bandwidth.</p>
+				<p class="card-text">Talking Heads® Video has developed a custom proprietory video player that gives you a huge variety of features and controlls. We have made our player to be easy to embed into your current site to guarantee it doesn't require large assets to be involved during the process. We ensure our player leaves as small of an impression as possible and takes just minutes to install. When integrated the Talking Heads® Player your video will take up little bandwidth.</p>
 			</div>
 			<!-- card-block -->
 			<div class="card-footer text-center">
@@ -146,42 +146,12 @@
 					<div class="col-6"> <a class="card-link" href="#">Player</a> </div>
 				</div>
 			</div>
-		</section>
+		</div>
 	</div>
-	<link href="https://vjs.zencdn.net/7.2.4/video-js.css" rel="stylesheet">
-	<link href="../css/video.css" rel="stylesheet">
 	<section class="container d-flex justify-content-center">
-		<video id="talking-heads-video" class="video-js" controls preload="auto" width="640" height="360" poster="https://www.websitetalkingheads.com/ivideo/videos/Animated Alien Video.jpg" data-setup="{}">
-			<source src="https://www.websitetalkingheads.com/ivideo/videos/Animated Alien Video.mp4" type='video/mp4'>
-			<source src="https://www.websitetalkingheads.com/ivideo/videos/Animated Alien Video.webm" type='video/webm'>
-			<p class="vjs-no-js">
-				To view this video please enable JavaScript, and consider upgrading to a web browser that
-				<a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
-			</p>
-		</video>
+		<?php $video="Animated Alien Video";$alt="Animated Alien Video"; include("includes/showInline.php"); ?>
 	</section>
-	<div class="d-flex justify-content-center pt-1">
-		<button class="btn btn-primary" id="change-video">Change</button>
-	</div>
-	</script>
 	<?php include("includes/footer.php"); ?>
-
-	<!-- content container -->
-	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 	<script src="js/quotes.js"></script>
-	<script src="https://vjs.zencdn.net/7.2.4/video.js"></script>
-	<script>
-		$( document ).ready( function () {
-			$( "#change-video" ).click( function () {
-				console.log( "click-" );
-				var video = $( "#talking-heads-video_html5_api" );
-				var src = "https://www.websitetalkingheads.com/ivideo/videos/Collaboration vs Survey.mp4";
-				video[ 0 ].pause();
-				video[ 0 ].src = src;
-				video[ 0 ].play();
-			} );
-		} );
-	</script>
 </body>
 </html>
