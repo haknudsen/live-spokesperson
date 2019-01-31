@@ -2,32 +2,25 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>iSpokespeople&reg;</title>
+	<title>Live Spokesperson Home</title>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<meta content="Searching for a new way to bring life to your website and attract more interest from those who visit it? Get an professional spokesperson from iSpokesperson.">
-	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-	<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	<?php include("includes/head.php"); ?>
 </head>
 
 <body>
 	<?php include("includes/nav.php"); ?>
 	<section class="jumbotron">
-		<div class="row">
-			<div class="col-6">
-				<!-- 16:9 aspect ratio -->
+		<div class="row align-items-center">
+			<div class="col-xl-6 offset-1" id="video-holder">
 				<div class="embed-responsive embed-responsive-16by9">
 					<iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" type="text/html" src="https://www.youtube.com/embed/2EhlppFns_w?autoplay=0&fs=1&iv_load_policy=3&showinfo=0&rel=0&cc_load_policy=0&start=0&end=0&origin=https://youtubeembedcode.com"></iframe>
 				</div>
 			</div>
-			<div class="col-6">
-				<div class="d-flex justify-content-center">
-					<?php include("includes/contact.php"); ?>
-				</div>
+			<div class="col-xl-4">
+				<?php include( "includes/contact.php"); ?>
 			</div>
 		</div>
 	</section>
@@ -184,9 +177,9 @@
 				console.log( "click-" );
 				var video = $( "#talking-heads-video_html5_api" );
 				var src = "https://www.websitetalkingheads.com/ivideo/videos/Collaboration vs Survey.mp4";
-				video[0].pause();
-				video[0].src = src;
-				video[0].play();
+				video[ 0 ].pause();
+				video[ 0 ].src = src;
+				video[ 0 ].play();
 			} );
 		} );
 	</script>

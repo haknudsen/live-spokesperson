@@ -1,10 +1,11 @@
 <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-<form name="New Contact" id="__vtigerWebForm"  class="bd-blue contact"action="https://websitetalkingheads.od1.vtiger.com/modules/Webforms/capture.php" enctype="multipart/form-data" method="post" accept-charset="utf-8">
+<form name="New Contact" id="__vtigerWebForm"  class="border border-primary rounded pb-1 pr-1 contact" action="https://websitetalkingheads.od1.vtiger.com/modules/Webforms/capture.php" enctype="multipart/form-data" method="post" accept-charset="utf-8">
 	<input name="__vtrftk" type="hidden" value="sid:12962bf4d0ad1d80fe58aaae128bc3449eced7c4,1541021677">
 	<input name="publicid" type="hidden" value="7d2174f0e1764a1915290b61d33c94b1">
 	<input name="urlencodeenable" type="hidden" value="1">
 	<input name="name" type="hidden" value="New Contact">
 	<input name="__vtCurrency" type="hidden" value="1">
+		<h3 class="text-center">Contact Us</h3>
 	<div class="d-flex justify-content-center">
 		<table>
 			<tbody>
@@ -50,7 +51,7 @@
 		<input name="recaptcha_validation_value" id="recaptcha_validation_value" type="hidden">
 	</div>
 	<div class="d-flex justify-content-center mt-1">
-		<input id="vtigerFormSubmitBtn" class="btn-blue" type="submit" value="CONTACT US">
+		<input id="vtigerFormSubmitBtn" class="btn-contact" type="submit" value="I Want Video">
 	</div>
 </form>
 <script type="text/javascript">

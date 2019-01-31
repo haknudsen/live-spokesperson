@@ -4,7 +4,6 @@
     <span class="navbar-toggler-icon"></span>
   </button>
 
-
 	<div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
 		<ul class="navbar-nav">
 			<li class="nav-item" id="home">
