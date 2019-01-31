@@ -147,6 +147,7 @@ p {
 	padding: .3rem .5rem;
 	border-radius: .5rem;
 	@include gradient-mine(#BCE4FF,#7ECDF4);
+	transition: all .5s;
 }
 textarea {
 	width: 100%;
