@@ -7,7 +7,7 @@
   @return str-slice("\x", 1, 1) + $character-code;
 }
 
-$icon-font-family: VideoJS;
+$icon-font-family: "Font Awesome 5 Pro";
 
 @font-face {
   font-family: $icon-font-family;
@@ -18,10 +18,10 @@ $icon-font-family: VideoJS;
 
 // http://sass-lang.com/documentation/file.SASS_REFERENCE.html#maps
 $icons: (
-          play: 'f101',
-          play-circle: 'f102',
-          pause: 'f103',
-          volume-mute: 'f104',
+          play: 'f144',
+          play-circle: 'f144',
+          pause: 'f04c',
+          volume-mute: 'f6a9',
           volume-low: 'f105',
           volume-mid: 'f106',
           volume-high: 'f107',
