@@ -8,7 +8,7 @@
 	<link href="css/custom.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-<?php include("includes/nav.php"); ?>
+<?php include("includes/header.php"); ?>
 <section class="jumbotron">
   <header class="text-center white margin-40">
     <h1>Live-Spokesperson.com</h1>

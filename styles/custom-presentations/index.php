@@ -20,7 +20,7 @@
 </head>
 
 <body>
-	<?php include("../../includes/nav.php"); ?>
+	<?php include("../../includes/header.php"); ?>
 	<section class="container-fluid bg-light">
 		<h1 class="exampleTitle">Custom Video Presentations</h1>
 		<div class="container">

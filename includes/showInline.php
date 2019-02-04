@@ -16,7 +16,7 @@ if ( !$btnColor ) {
 }
 echo PHP_EOL;
 echo '<div class="embed-responsive embed-responsive-16by9">
-	<video style="background-color:'. $bgColor .'" class="video-js embed-responsive-item" controls preload="auto" poster="https://www.websitetalkingheads.com/ivideo/videos/' . $video . '.jpg" data-setup="{}">
+	<video id="my-video" class="video-js embed-responsive-item" controls preload="auto" poster="https://www.websitetalkingheads.com/ivideo/videos/' . $video . '.jpg" data-setup="{}">
 		<source src="https://www.websitetalkingheads.com/ivideo/videos/' . $video . '.mp4" type="video/mp4">
 		<p class="vjs-no-js">
 			To view this video please enable JavaScript, and consider upgrading to a web browser that
@@ -25,9 +25,6 @@ echo '<div class="embed-responsive embed-responsive-16by9">
 	</video>
 </div>
 ';
-echo PHP_EOL;
-echo PHP_EOL;
-echo '</div>';
 echo PHP_EOL;
 echo '<script type="application/ld+json">
 	{

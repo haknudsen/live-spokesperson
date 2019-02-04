@@ -27,7 +27,7 @@
 </head>
 
 <body>
-	<?php include("../includes/nav.php"); ?>
+	<?php include("../includes/header.php"); ?>
 	<section class="jumbotron">
 		<div class="container-fluid">
 			<h1 class="text-center">Talking Heads<i class="far fa-registered smaller"></i> Video Styles</h1>

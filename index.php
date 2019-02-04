@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Live Spokesperson Home</title>
+	<title>iSpokespeople&reg;</title>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -11,19 +11,20 @@
 </head>
 
 <body>
-	<?php include("includes/nav.php"); ?>
+	<?php include("includes/header.php"); ?>
 	<section class="jumbotron">
-		<div class="row align-items-center">
-			<div class="col-xl-6 offset-1" id="video-holder">
-				<div class="embed-responsive embed-responsive-16by9">
-					<iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" type="text/html" src="https://www.youtube.com/embed/2EhlppFns_w?autoplay=0&fs=1&iv_load_policy=3&showinfo=0&rel=0&cc_load_policy=0&start=0&end=0&origin=https://youtubeembedcode.com"></iframe>
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-lg-7 offset-lg-1">
+					<?php $video="Why Talking Heads";$alt="Why Choose Talking Heads Video"; include("includes/showInline.php"); ?>
+				</div>
+				<div class="col-lg-4">
+					<?php include( "includes/contact-awards.php"); ?>
 				</div>
 			</div>
-			<div class="col-xl-4">
-				<?php include( "includes/contact.php"); ?>
-			</div>
 		</div>
-	</section><section class="container">
+	</section>
+	<section class="container">
 		<h1 class="font-weight-bold">What to increase traffic up to 400%?</h1>
 		<h2 class="red bold text-center">ADD VIDEO!</h2>
 		<div class="float-left col-6 pt-2">
@@ -99,8 +100,8 @@
 			<blockquote class="text-center">Your Virtual Spokesperson could greet your online visitors to help them feel more comfortable on your website. Your website Spokesperson will build confidence that your business is actually solid giving your business a professional face and clarify parts of one's website in addition to help the visitor to know the way your products and services will give them and edge.</blockquote>
 		</div>
 	</section>
-	<section class="container card-group my-3" id="awards">
-		<div class="card card-outline-info"> <a href="#" data-toggle="tooltip" title="#1 in Video Production"> <img class="card-img-top seal d-block" src="https://websitetalkingheads.com/images/video-production-seal.png"  alt="Best in Video Production" /> </a>
+	<div class="container card-group my-3" id="awards">
+		<section class="card card-outline-info"> <a href="#" data-toggle="tooltip" title="#1 in Video Production"> <img class="card-img-top seal d-block" src="https://websitetalkingheads.com/images/video-production-seal.png"  alt="Best in Video Production" /> </a>
 			<div class="card-block">
 				<h2 class="card-title">#1 in Video Production</h2>
 				<h5 class="card-subtitle red text-center">Best Production Quality</h5>
@@ -115,8 +116,8 @@
 					<div class="col-6"> <a class="card-link" href="#">Examples</a> </div>
 				</div>
 			</div>
-		</div>
-		<div class="card card-outline-info"> <a href="#" data-toggle="tooltip" title="Winner Best Web Design Agencies - Video Production"><img class="card-img-top seal d-block"  alt="Winner in Video Production" src="https://www.websitetalkingheads.com/images/video-production-winner.png"></a>
+		</section>
+		<section class="card card-outline-info"> <a href="#" data-toggle="tooltip" title="Winner Best Web Design Agencies - Video Production"><img class="card-img-top seal d-block"  alt="Winner in Video Production" src="https://www.websitetalkingheads.com/images/video-production-winner.png"></a>
 			<div class="card-block">
 				<h2 class="card-title">Best<br>
         Video Production</h2>
@@ -131,13 +132,13 @@
 					<div class="col-6"> <a class="card-link" href="#">Video Seo</a> </div>
 				</div>
 			</div>
-		</div>
-		<div class="card card-outline-info"> <a href="http://www.topseos.com/rankings-of-best-virtual-spokesperson-companies" data-toggle="tooltip" title="#1 in Video Spokesperson"><img class="card-img-top seal d-block" src="https://websitetalkingheads.com/images/video-spokesperson-seal.png"  alt="Best in Video Spokesperson"  /></a>
+		</section>
+		<section class="card card-outline-info"> <a href="http://www.topseos.com/rankings-of-best-virtual-spokesperson-companies" data-toggle="tooltip" title="#1 in Video Spokesperson"><img class="card-img-top seal d-block" src="https://websitetalkingheads.com/images/video-spokesperson-seal.png"  alt="Best in Video Spokesperson"  /></a>
 			<div class="card-block">
 				<h2 class="card-title">#1 Video Spokespeople</h2>
 				<h5 class="card-subtitle red text-center">Best Quality Spokespeople</h5>
 				<p class="card-text">We have a wide variety of Spokespeople that encompass different looks and approaches to delivering your message. This ensures you will have the capacity to discover a Spokesperson who best speaks to your message and vision to the general population which achieve your site. </p>
-				<p class="card-text">Talking Heads® Video has developed a custom proprietory video player that gives you a huge variety of features and controlls. We have made our player to be easy to embed into your current site to guarantee it doesn't require large assets to be involved during the process. We ensure our player leaves as small of an impression as possible and takes just minutes to install. When integrated the Talking Heads® Player your video will take up little bandwidth.</p>
+				<p class="card-text">Talking Heads&reg; Video has developed a custom proprietory video player that gives you a huge variety of features and controlls. We have made our player to be easy to embed into your current site to guarantee it doesn't require large assets to be involved during the process. We ensure our player leaves as small of an impression as possible and takes just minutes to install. When integrated the Talking Heads&reg; Player your video will take up little bandwidth.</p>
 			</div>
 			<!-- card-block -->
 			<div class="card-footer text-center">
@@ -146,12 +147,12 @@
 					<div class="col-6"> <a class="card-link" href="#">Player</a> </div>
 				</div>
 			</div>
-		</div>
+		</section>
 	</div>
 	<section class="container d-flex justify-content-center">
 		<?php $video="Animated Alien Video";$alt="Animated Alien Video"; include("includes/showInline.php"); ?>
 	</section>
+	</script>
 	<?php include("includes/footer.php"); ?>
-	<script src="js/quotes.js"></script>
 </body>
 </html>
