@@ -1,3 +1,4 @@
+<link rel="icon" href="/favicon.ico">
 <!--CSS-->
 <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-6jHF7Z3XI3fF4XZixAuSu0gGKrXwoX/w3uFPxC56OtjChio7wtTGJWRW53Nhx6Ev" crossorigin="anonymous">
 <link href="http://www.live-spokesperson.com/css/bootstrap.css" rel="stylesheet" type="text/css">
@@ -8,4 +9,4 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 <script src="https://vjs.zencdn.net/7.2.4/video.js"></script>
 <script src="http://www.live-spokesperson.com/js/iVideo.js"></script>
-<script src="http://www.live-spokesperson.com/js/nav.js"></script>
+<script src="http://www.live-spokesperson.com/js/custom.js"></script>
