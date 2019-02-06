@@ -95,9 +95,10 @@
 				<div class="card-footer bg-gradient-mine">
 					<a href="#" class="card-link float-right">More...</a>
 				</div>
-			</div>
+			</div>			
+		</div>
 			<div class="card">
-				<img src="images/QuoteZoom.jpg" alt="Video Presentation - Quote Zoom" class="card-img-top" id="Quote Zoom" title="Video Presentation - Quote Zoom">
+				<img src="images/Presentation Banner.jpg" alt="Video Presentation Examples" class="card-img-top" id="quote-zoom" title="Video Presentation Examples">
 				<div class="card-body">
 					<h3 class="card-title text-center">#4 Custom Presentation</h3>
 					<div>Our Professional, Custom video Presentations supply you with a video Spokesperson, Skilled editing, Action Graphics, and lots of Images along with Effects. Ideal for your Company or Business video, a service Demonstration and also Demonstration of your website or even Software.</div>
@@ -106,7 +107,6 @@
 					<a href="#" class="card-link float-right">More...</a>
 				</div>
 			</div>
-		</div>
 	</section>
 	<section class="alert alert-info mt-3">
 		<div class="container">
@@ -120,7 +120,7 @@
 				<div class="card-header bg-gradient-mine-reverse">
 					<h4 class="card-title text-light">#1 in Video Production</h4>
 				</div>
-				<a href="#" data-toggle="tooltip" title="#1 in Video Production"> <img class="card-img-top" id="best" src="https://websitetalkingheads.com/images/video-production-seal.png"  alt="Best in Video Production" /> </a>
+				<a href="#" data-toggle="tooltip" title="#1 in Video Production"> <img class="card-img-top" id="best-base" src="https://websitetalkingheads.com/images/video-production-seal.png"  alt="Best in Video Production" /> </a>
 				<div class="card-body">
 					<h5 class="card-title text-center">Best Production Quality</h5>
 					<p class="card-text">When looking for a video production organization you require somebody who can reliably get a handle on your message and convey your message with animation, images and sound. Each and every part of your video from Talking Heads&reg; will be centered around message of the video. </p>
@@ -138,7 +138,7 @@
 				<div class="card-header bg-gradient-mine-reverse">
 					<h4 class="card-title text-light">Best Video Production</h4>
 				</div>
-				<a href="#" data-toggle="tooltip" title="Winner Best Web Design Agencies - Video Production"><img class="card-img-top" alt="best-video"  alt="Winner in Video Production" src="https://www.websitetalkingheads.com/images/video-production-winner.png"></a>
+				<a href="#" data-toggle="tooltip" title="Winner Best Web Design Agencies - Video Production"><img class="card-img-top" id="best-video"  alt="Winner in Video Production" src="https://www.websitetalkingheads.com/images/video-production-winner.png"></a>
 				<div class="card-body">
 					<h5 class="card-title text-center">Engaging Video</h5>
 					<p class="card-text">Our video presentations focus on your essential vision without breaking your bank. Great for your Website Demonstration, Sales Video, or Product Walk-though. </p>
@@ -163,7 +163,7 @@
 				<div class="card-header bg-gradient-mine-reverse">
 					<h4 class="card-title text-light">#1 Video Spokespeople</h2>
 			</div>
-			<a href="http://www.topseos.com/rankings-of-best-virtual-spokesperson-companies" data-toggle="tooltip" title="#1 in Video Spokesperson"><img class="card-img-top d-block" src="https://websitetalkingheads.com/images/video-spokesperson-seal.png"  alt="Best in Video Spokesperson"  /></a>
+			<a href="http://www.topseos.com/rankings-of-best-virtual-spokesperson-companies" data-toggle="tooltip" title="#1 in Video Spokesperson"><img class="card-img-top" src="https://websitetalkingheads.com/images/video-spokesperson-seal.png"  alt="Best in Video Spokesperson" id="base-img"  /></a>
 			<div class="card-body">
 				<h5 class="card-title text-center">Best Quality Spokespeople</h5>
 				<p class="card-text">We have a wide variety of Spokespeople that encompass different looks and approaches to delivering your message. This ensures you will have the capacity to discover a Spokesperson who best speaks to your message and vision to the general population which achieve your site. </p>
@@ -180,6 +180,10 @@
 		</div>
 	</section>
 	<?php include("includes/footer.php"); ?>
-	<script src="js/quotes.js"></script>
+	<script>
+	$(document).ready( function(){
+		$('#best-video').padAward();		
+	});
+	</script>
 </body>
 </html>
