@@ -12,7 +12,7 @@
   padding: 0;
   // Start with 10px for base font size so other dimensions can be em based and
   // easily calculable.
-  font-size: 10px;
+  font-size: $font-size;
   line-height: 1;
 
   // Provide some basic defaults for fonts

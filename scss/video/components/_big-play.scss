@@ -24,7 +24,8 @@
   & .vjs-icon-placeholder:before {
     @extend .vjs-icon-play;
     @extend %icon-default;
-  top: -11px!important;
+  top: -9px!important;
+	  left: -1px;
   }
 }
 // Allow people that hate their poster image to center the big play button.
@@ -40,7 +41,7 @@
   border-color: $primary-foreground-color;
 
   @include background-color-with-alpha($secondary-background-color, $secondary-background-transparency);
-  @include transition(all 0s);
+  @include transition(all 0.5s);
 }
 
 // Hide if controls are disabled, the video is playing, or native controls are used.

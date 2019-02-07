@@ -10,7 +10,7 @@
 
 // Mark a main-desc-menu-item (main + description) item with a trailing Audio Description icon
 .video-js .vjs-audio-button + .vjs-menu .vjs-main-desc-menu-item .vjs-menu-item-text .vjs-icon-placeholder:before {
-  font-family: VideoJS;
+  font-family: "Font Awesome 5 Pro";
   content: " \f11d";
   font-size: 1.5em;
   line-height: inherit;

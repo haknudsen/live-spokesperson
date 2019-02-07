@@ -4,7 +4,7 @@
   color: inherit;
   display: inline-block;
 
-  font-size: inherit; // IE in general. WTF.
+  font-size: $font-size; // IE in general. WTF.
   line-height: inherit;
   text-transform: none;
   text-decoration: none;

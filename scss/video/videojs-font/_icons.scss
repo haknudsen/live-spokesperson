@@ -7,7 +7,7 @@
   @return str-slice("\x", 1, 1) + $character-code;
 }
 
-$icon-font-family: Font Awesome 5 Pro;
+$icon-font-family: "Font Awesome 5 Pro";
 
 @font-face {
   font-family: $icon-font-family;
@@ -18,7 +18,7 @@ $icon-font-family: Font Awesome 5 Pro;
 
 // http://sass-lang.com/documentation/file.SASS_REFERENCE.html#maps
 $icons: (
-          play: 'f04b',
+          play: 'f144',
           play-circle: 'f144',
           pause: 'f04c',
           volume-mute: 'f6a9',
