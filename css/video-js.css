@@ -455,9 +455,9 @@ body.vjs-full-window {
 /* line 1, ../scss/video/components/_big-play.scss */
 .video-js .vjs-big-play-button {
   font-size: 3.7rem;
-  line-height: 3.7rem;
-  height: 1.5em;
-  width: 3em;
+  line-height: 3.6rem;
+  height: 3.6rem;
+  width: 3.6rem;
   display: block;
   position: absolute;
   padding: 0;
@@ -467,8 +467,8 @@ body.vjs-full-window {
   top: 50% !important;
   margin-left: -1.8rem;
   margin-top: -1.8rem;
-  background-color: #2B333F;
-  background-color: rgba(43, 51, 63, 0.7);
+  background-color: #1A81FF;
+  background-color: rgba(26, 129, 255, 0.7);
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
@@ -479,21 +479,21 @@ body.vjs-full-window {
   transition: all 0.4s; }
   /* line 24, ../scss/video/components/_big-play.scss */
   .video-js .vjs-big-play-button .vjs-icon-placeholder:before {
-    top: 10px; }
+    top: -11px !important; }
 
 /* line 31, ../scss/video/components/_big-play.scss */
 .vjs-big-play-centered .vjs-big-play-button {
   top: 50%;
   left: 50%;
-  margin-top: -0.75em;
-  margin-left: -1.5em; }
+  margin-top: -1.8rem;
+  margin-left: -1.8rem; }
 
 /* line 38, ../scss/video/components/_big-play.scss */
 .video-js:hover .vjs-big-play-button,
 .video-js .vjs-big-play-button:focus {
   border-color: #fff;
-  background-color: #73859f;
-  background-color: rgba(115, 133, 159, 0.5);
+  background-color: #c2deff;
+  background-color: rgba(194, 222, 255, 0.5);
   -webkit-transition: all 0s;
   -moz-transition: all 0s;
   -ms-transition: all 0s;
@@ -600,8 +600,8 @@ body.vjs-full-window {
 .vjs-menu li.vjs-menu-item:focus,
 .vjs-menu li.vjs-menu-item:hover,
 .js-focus-visible .vjs-menu li.vjs-menu-item:hover {
-  background-color: #73859f;
-  background-color: rgba(115, 133, 159, 0.5); }
+  background-color: #c2deff;
+  background-color: rgba(194, 222, 255, 0.5); }
 
 /* line 51, ../scss/video/components/menu/_menu.scss */
 .vjs-menu li.vjs-selected,
@@ -609,7 +609,7 @@ body.vjs-full-window {
 .vjs-menu li.vjs-selected:hover,
 .js-focus-visible .vjs-menu li.vjs-selected:hover {
   background-color: #fff;
-  color: #2B333F; }
+  color: #1A81FF; }
 
 /* line 59, ../scss/video/components/menu/_menu.scss */
 .vjs-menu li.vjs-menu-title {
@@ -631,12 +631,12 @@ body.vjs-full-window {
   left: -3em;
   height: 0em;
   margin-bottom: 1.5em;
-  border-top-color: rgba(43, 51, 63, 0.7); }
+  border-top-color: rgba(26, 129, 255, 0.7); }
 
 /* line 13, ../scss/video/components/menu/_menu-popup.scss */
 .vjs-menu-button-popup .vjs-menu .vjs-menu-content {
-  background-color: #2B333F;
-  background-color: rgba(43, 51, 63, 0.7);
+  background-color: #1A81FF;
+  background-color: rgba(26, 129, 255, 0.7);
   position: absolute;
   width: 100%;
   bottom: 1.5em;
@@ -719,8 +719,8 @@ body.vjs-full-window {
   left: 0;
   right: 0;
   height: 3.0em;
-  background-color: #2B333F;
-  background-color: rgba(43, 51, 63, 0.7); }
+  background-color: #1A81FF;
+  background-color: rgba(26, 129, 255, 0.7); }
 
 /* line 14, ../scss/video/components/_control-bar.scss */
 .vjs-has-started .vjs-control-bar {
@@ -899,11 +899,11 @@ body.vjs-full-window {
 
 /* line 87, ../scss/video/components/_progress.scss */
 .video-js .vjs-load-progress {
-  background: rgba(115, 133, 159, 0.5); }
+  background: rgba(194, 222, 255, 0.5); }
 
 /* line 93, ../scss/video/components/_progress.scss */
 .video-js .vjs-load-progress div {
-  background: rgba(115, 133, 159, 0.75); }
+  background: rgba(194, 222, 255, 0.75); }
 
 /* line 103, ../scss/video/components/_progress.scss */
 .video-js .vjs-time-tooltip {
@@ -993,8 +993,8 @@ body.vjs-full-window {
   -ms-user-select: none;
   /* Non-prefixed version, currently supported by Chrome and Opera */
   user-select: none;
-  background-color: #73859f;
-  background-color: rgba(115, 133, 159, 0.5); }
+  background-color: #c2deff;
+  background-color: rgba(194, 222, 255, 0.5); }
 
 /* line 12, ../scss/video/components/_slider.scss */
 .video-js .vjs-slider.disabled {
@@ -1201,8 +1201,8 @@ body.vjs-full-window {
   width: 3em;
   height: 8em;
   bottom: 8em;
-  background-color: #2B333F;
-  background-color: rgba(43, 51, 63, 0.7); }
+  background-color: #1A81FF;
+  background-color: rgba(26, 129, 255, 0.7); }
 
 /* line 192, ../scss/video/components/_volume.scss */
 .video-js .vjs-volume-horizontal .vjs-menu {
@@ -1479,7 +1479,7 @@ video::-webkit-media-text-track-display {
   margin: -25px 0 0 -25px;
   opacity: 0.85;
   text-align: left;
-  border: 6px solid rgba(43, 51, 63, 0.7);
+  border: 6px solid rgba(26, 129, 255, 0.7);
   box-sizing: border-box;
   background-clip: padding-box;
   width: 50px;
@@ -1542,26 +1542,26 @@ video::-webkit-media-text-track-display {
     -webkit-transform: rotate(360deg); } }
 @keyframes vjs-spinner-fade {
   0% {
-    border-top-color: #73859f; }
+    border-top-color: #c2deff; }
   20% {
-    border-top-color: #73859f; }
+    border-top-color: #c2deff; }
   35% {
     border-top-color: white; }
   60% {
-    border-top-color: #73859f; }
+    border-top-color: #c2deff; }
   100% {
-    border-top-color: #73859f; } }
+    border-top-color: #c2deff; } }
 @-webkit-keyframes vjs-spinner-fade {
   0% {
-    border-top-color: #73859f; }
+    border-top-color: #c2deff; }
   20% {
-    border-top-color: #73859f; }
+    border-top-color: #c2deff; }
   35% {
     border-top-color: white; }
   60% {
-    border-top-color: #73859f; }
+    border-top-color: #c2deff; }
   100% {
-    border-top-color: #73859f; } }
+    border-top-color: #c2deff; } }
 /* line 5, ../scss/video/components/_chapters.scss */
 .vjs-chapters-button .vjs-menu ul {
   width: 24em; }
@@ -1635,8 +1635,8 @@ video::-webkit-media-text-track-display {
 
 /* line 1, ../scss/video/components/_captions-settings.scss */
 .vjs-modal-dialog.vjs-text-track-settings {
-  background-color: #2B333F;
-  background-color: rgba(43, 51, 63, 0.75);
+  background-color: #1A81FF;
+  background-color: rgba(26, 129, 255, 0.75);
   color: #fff;
   height: 70%; }
 
@@ -1718,7 +1718,7 @@ video::-webkit-media-text-track-display {
 .vjs-track-settings-controls button:active {
   outline-style: solid;
   outline-width: medium;
-  background-image: linear-gradient(0deg, #fff 88%, #73859f 100%); }
+  background-image: linear-gradient(0deg, #fff 88%, #c2deff 100%); }
 
 /* line 102, ../scss/video/components/_captions-settings.scss */
 .vjs-track-settings-controls button:hover {
@@ -1727,7 +1727,7 @@ video::-webkit-media-text-track-display {
 /* line 106, ../scss/video/components/_captions-settings.scss */
 .vjs-track-settings-controls button {
   background-color: #fff;
-  background-image: linear-gradient(-180deg, #fff 88%, #73859f 100%);
+  background-image: linear-gradient(-180deg, #fff 88%, #c2deff 100%);
   color: #2B333F;
   cursor: pointer;
   border-radius: 2px; }

@@ -1,5 +1,5 @@
 .video-js .vjs-big-play-button {
-  font-size: $big-play-button--font-size;
+  font-size: $big-play-button--font-size+0.1;
   line-height: $big-play-button--font-size;
   height: $big-play-button--height;
   width: $big-play-button--width; // Firefox bug: For some reason without width the icon wouldn't show up. Switched to using width and removed padding.
@@ -24,7 +24,7 @@
   & .vjs-icon-placeholder:before {
     @extend .vjs-icon-play;
     @extend %icon-default;
-	top: 10px;
+  top: -11px!important;
   }
 }
 // Allow people that hate their poster image to center the big play button.
