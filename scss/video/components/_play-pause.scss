@@ -1,0 +1,19 @@
+.video-js .vjs-play-control {
+  cursor: pointer;
+}
+.video-js .vjs-play-control .vjs-icon-placeholder {
+  @include flex(none);
+    content: "\f144";
+	font-family: "Font Awesome 5 Pro";
+	font-style: normal;
+}
+.video-js .vjs-play-control.vjs-playing .vjs-icon-placeholder {
+    content: "\f04c";
+	font-family: "Font Awesome 5 Pro";
+	font-style: normal;
+}
+.video-js .vjs-play-control.vjs-ended .vjs-icon-placeholder {
+    content: "\f2f9";
+	font-family: "Font Awesome 5 Pro";
+	font-style: normal;
+}
