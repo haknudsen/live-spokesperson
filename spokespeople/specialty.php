@@ -14,11 +14,11 @@
 	<meta name="verify-v1" content="YNESpqoAwK51PmBV7/PFKLG0agx7AQPKhXXcYAXGGF8="/>
 	<meta name="norton-safeweb-site-verification" content="iinbv24r-1ix20hgj5l94wz2rnn3aiwi0336hwysvvpiskquy6ijsh9wy12f3znbed-hz1ay8ppzhgqap-sicqtw6ui29d0wrfcpenudh1ml9xwjbej7u25xy9pnm6yr"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1"/>
-	<?php include("includes/actors-head.php"); ?>
+	<?php include("../includes/head.php"); ?>
 </head>
 
 <body>
-	<?php include("includes/nav.php"); ?>
+	<?php include("../includes/nav.php"); ?>
 	<section class="jumbotron">
 		<h1 class="text-center">Talking Heads<i class="far fa-registered sup"></i> Specialty Spokespeople</h1>
 		<div class="container">

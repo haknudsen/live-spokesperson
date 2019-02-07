@@ -11,13 +11,8 @@
 	<meta name="language" content="English">
 	<meta name="revisit-after" content="30 days">
 	<meta name="author" content="TalkingHeads.com">
-	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-j8y0ITrvFafF4EkV1mPW0BKm6dp3c+J9Fky22Man50Ofxo2wNe5pT1oZejDH9/Dt" crossorigin="anonymous">
-	<link href="https://vjs.zencdn.net/7.2.4/video-js.css" rel="stylesheet">
-	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-LRlmVvLKVApDVGuspQFnRQJjkv0P7/YFrw84YYQtmYG4nK8c+M+NlmYDCv0rKWpG" crossorigin="anonymous">
-	<link rel="stylesheet" href="http://www.live-spokesperson.com/css/bootstrap.css">
-	<!--javascript-------------------------------------------------------------------->
-	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<?php include("../includes/head.php"); ?>
 </head>
 
 <body>

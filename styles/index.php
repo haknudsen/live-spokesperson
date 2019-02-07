@@ -16,18 +16,11 @@
 	<meta content="YNESpqoAwK51PmBV7/PFKLG0agx7AQPKhXXcYAXGGF8=" name="verify-v1">
 	<meta content="iinbv24r-1ix20hgj5l94wz2rnn3aiwi0336hwysvvpiskquy6ijsh9wy12f3znbed-hz1ay8ppzhgqap-sicqtw6ui29d0wrfcpenudh1ml9xwjbej7u25xy9pnm6yr" name="norton-safeweb-site-verification">
 	<meta content="width=device-width, initial-scale=1" name="viewport">
-	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-j8y0ITrvFafF4EkV1mPW0BKm6dp3c+J9Fky22Man50Ofxo2wNe5pT1oZejDH9/Dt" crossorigin="anonymous">
-	<link rel="stylesheet" href="http://www.live-spokesperson.com/css/bootstrap.css">
-	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-LRlmVvLKVApDVGuspQFnRQJjkv0P7/YFrw84YYQtmYG4nK8c+M+NlmYDCv0rKWpG" crossorigin="anonymous">
-	<link href="https://vjs.zencdn.net/7.2.4/video-js.css" rel="stylesheet">
-	<link href="../css/video.css" rel="stylesheet">
-	<link href="../css/custom.css" rel="stylesheet" type="text/css">
-	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	<?php include("includes/head.php"); ?>
 </head>
 
 <body>
-	<?php include("../includes/header.php"); ?>
+	<?php include("includes/nav.php"); ?>
 	<section class="jumbotron">
 		<div class="container-fluid">
 			<h1 class="text-center">Talking Heads<i class="far fa-registered smaller"></i> Video Styles</h1>

@@ -11,16 +11,12 @@
 	<meta name="language" content="English">
 	<meta name="revisit-after" content="30 days">
 	<meta name="author" content="TalkingHeads.com">
-	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-LRlmVvLKVApDVGuspQFnRQJjkv0P7/YFrw84YYQtmYG4nK8c+M+NlmYDCv0rKWpG" crossorigin="anonymous">
-	<link href="https://vjs.zencdn.net/7.2.4/video-js.css" rel="stylesheet">
-	<link href="../../css/video.css" rel="stylesheet">
-	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<?php include("includes/head.php"); ?>
 </head>
 
 <body>
-	<?php include("../../includes/header.php"); ?>
+	<?php include("includes/nav.php"); ?>
 	<section class="container-fluid bg-light">
 		<h1 class="exampleTitle">Custom Video Presentations</h1>
 		<div class="container">
