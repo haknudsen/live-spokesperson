@@ -37,7 +37,7 @@
   flex: 1 1 auto;
   padding: $card-spacer-x;
 }
-
+.card-title,.card-subtitle,.card-header{text-align: center}
 .card-title {
   margin-bottom: $card-spacer-y;
 }

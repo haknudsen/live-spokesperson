@@ -26,9 +26,6 @@ echo '<div class="embed-responsive embed-responsive-16by9">
 </div>
 ';
 echo PHP_EOL;
-echo PHP_EOL;
-echo '</div>';
-echo PHP_EOL;
 echo '<script type="application/ld+json">
 	{
 		"@context": "https://schema.org",
