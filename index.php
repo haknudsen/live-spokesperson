@@ -88,22 +88,24 @@
 			</div>
 		</div>
 	</section>
-	<section class="alert alert-primary">
+<section class="alert alert-primary">
+	<div class="w-75 mx-auto text-light">
 		<div class="card-deck">
-<div class="card mb-3">
-	<h3 class="card-header bg-gradient-primary text-capitalize">Talking Heads Video Demonstration</h3>
-	<div class="card-body">
-		<?php $video="Talking Heads Video Demonstration";$alt="Talking Heads Video Demonstration";$bgColor = "#84D6FF"; include("includes/showInline.php"); ?>
-	</div>
-</div>
+			<div class="card mb-3">
+				<h3 class="card-header bg-gradient-primary text-capitalize">Talking Heads Video Demonstration</h3>
+				<div class="card-body">
+					<?php $video="Talking Heads Video Demonstration";$alt="Talking Heads Video Demonstration";$bgColor = "#84D6FF"; include("includes/showInline.php"); ?>
+				</div>
+			</div>
 			<div class="card mb-3">
 				<h3 class="card-header bg-gradient-primary text-capitalize">Some of our Spokespeople</h3>
 				<div class="card-body">
 					<?php $video="Massive Wall Of Spokespeople";$alt="TMassive Wall Of Spokespeople";$bgColor = "#84D6FF"; include("includes/showInline.php"); ?>
 				</div>
 			</div>
-			</div>
-		</section>
+		</div>
+	</div>
+</section>
 	<section class="container text-center pt-4">
 		<h1>Need a Video Spokesperson?</h1>
 		<h2>We Offer 4 Kinds of Spokesperson Videos</h2>
@@ -206,28 +208,28 @@
 			<div class="card">
 				<div class="card-header bg-gradient-mine-reverse">
 					<h4 class="card-title text-light">#1 Video Spokespeople</h4>
-			</div>
-			<a href="http://www.topseos.com/rankings-of-best-virtual-spokesperson-companies" data-toggle="tooltip" title="#1 in Video Spokesperson"><img class="card-img-top" src="https://websitetalkingheads.com/images/video-spokesperson-seal.png"  alt="Best in Video Spokesperson" id="base-img"  /></a>
-			<div class="card-body">
-				<h5 class="card-title text-center">Best Quality Spokespeople</h5>
-				<p class="card-text">We have a wide variety of Spokespeople that encompass different looks and approaches to delivering your message. This ensures you will have the capacity to discover a Spokesperson who best speaks to your message and vision to the general population which achieve your site. </p>
-				<p class="card-text">Talking Heads® Video has developed a custom proprietory video player that gives you a huge variety of features and controlls. We have made our player to be easy to embed into your current site to guarantee it doesn't require large assets to be involved during the process. We ensure our player leaves as small of an impression as possible and takes just minutes to install. When integrated the Talking Heads® Player your video will take up little bandwidth.</p>
-			</div>
-			<div class="card-footer text-center bg-gradient-mine">
-				<div class="row">
-					<div class="col-6"> <a class="card-link" href="#">Spokespeople</a> </div>
-					<div class="col-6"> <a class="card-link" href="#">Player</a> </div>
+				</div>
+				<a href="http://www.topseos.com/rankings-of-best-virtual-spokesperson-companies" data-toggle="tooltip" title="#1 in Video Spokesperson"><img class="card-img-top" src="https://websitetalkingheads.com/images/video-spokesperson-seal.png"  alt="Best in Video Spokesperson" id="base-img"  /></a>
+				<div class="card-body">
+					<h5 class="card-title text-center">Best Quality Spokespeople</h5>
+					<p class="card-text">We have a wide variety of Spokespeople that encompass different looks and approaches to delivering your message. This ensures you will have the capacity to discover a Spokesperson who best speaks to your message and vision to the general population which achieve your site. </p>
+					<p class="card-text">Talking Heads® Video has developed a custom proprietory video player that gives you a huge variety of features and controlls. We have made our player to be easy to embed into your current site to guarantee it doesn't require large assets to be involved during the process. We ensure our player leaves as small of an impression as possible and takes just minutes to install. When integrated the Talking Heads® Player your video will take up little bandwidth.</p>
+				</div>
+				<div class="card-footer text-center bg-gradient-mine">
+					<div class="row">
+						<div class="col-6"> <a class="card-link" href="#">Spokespeople</a> </div>
+						<div class="col-6"> <a class="card-link" href="#">Player</a> </div>
+					</div>
 				</div>
 			</div>
-		</div>
 		</div>
 		</div>
 	</section>
 	<?php include("includes/footer.php"); ?>
 	<script>
-	$(document).ready( function(){
-		$('#best-video').padAward();		
-	});
+		$( document ).ready( function () {
+			$( '#best-video' ).padAward();
+		} );
 	</script>
 </body>
 </html>
