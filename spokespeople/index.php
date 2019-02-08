@@ -15,17 +15,14 @@
 	<?php include("../includes/nav.php"); ?>
 	<section class="jumbotron">
 		<h2 class="text-center">Our Spokespeople</h2>
-		<div class="text-justify">
-			<p>They are called Video Spokesperson, Virtual Spokesperson, Web Spokesperson, Spokes-Model, Walk On Actor, Virtual Actor, Person On Website, Online Spokesperson, Web Presenter, Video Presenter, Website Presenter, Video Web Presenter, Promo Video Presenter, Live Actor, Website Video Actor, Virtual Live Actor, and more...</p>
-		</div>
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-xl-5 offset-xl-1">
-					<?php $video="Professional Spokespeople";$alt="Some of our Professional Spokespeople"; include("../ivideo/showInline.php"); ?>
+		<div class="row">
+			<div class="col-lg-5 offset-lg-1">
+				<div class="text-justify">
+					<p>They are called Video Spokesperson, Virtual Spokesperson, Web Spokesperson, Spokes-Model, Walk On Actor, Virtual Actor, Person On Website, Online Spokesperson, Web Presenter, Video Presenter, Website Presenter, Video Web Presenter, Promo Video Presenter, Live Actor, Website Video Actor, Virtual Live Actor, and more...</p>
 				</div>
-				<div class="col-xl-5">
-					<?php $video="Virtual Spokespeople";$alt="Some of our Professional Virtual Spokespeople"; include("../ivideo/showInline.php"); ?>
-				</div>
+			</div>
+			<div class="col-lg-5">
+				<?php $video="Professional Spokespeople";$alt="Some of our Professional Spokespeople"; include("../includes/showInline.php"); ?>
 			</div>
 		</div>
 	</section>
@@ -44,32 +41,7 @@
 			</div>
 		</div>
 	</section>
-	<?php include("includes/footer.php"); ?>
-	<script src="lightbox/jquery.lightbox.min.js"></script>
-	<script>
-		$( ".actor" ).click( function () {
-			"use strict";
-			var platform = navigator.platform;
-			var name = $( this ).attr( "data-actor" );
-			var html = $( "<video id='video1' controls autoplay><source src='http://www.websitetalkingheads.com/videos/" + name +
-				".mp4' type='video/mp4'>Your browser does not support the video tag.</video>"
-			);
-			if ( platform !== "iPhone" ) {
-				$.lightbox( html, {
-					width: 547,
-					height: 367,
-					title: $( this ).attr( "title" )
-				} );
-				return false;
-			} else {
-				$( ".spokespeople" ).prepend( html );
-				$( "#video1" ).get( 0 ).play();
-				$( '#video1' ).on( 'ended', function () {
-					$( '#video1' ).remove();
-				} );
-			}
-		} );
-	</script>
+	<?php include("../includes/footer.php"); ?>
 </body>
 
 </html>
