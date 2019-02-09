@@ -92,7 +92,7 @@
 	<div class="w-75 mx-auto text-light">
 		<div class="card-deck">
 			<div class="card mb-3">
-				<h3 class="card-header bg-gradient-primary text-capitalize">Talking Heads Video Demonstration</h3>
+				<h3 class="card-header bg-gradient-primary text-capitalize">Talking Heads Video Styles</h3>
 				<div class="card-body">
 					<?php $video="Talking Heads Video Demonstration";$alt="Talking Heads Video Demonstration";$bgColor = "#84D6FF"; include("includes/showInline.php"); ?>
 				</div>
