@@ -163,7 +163,7 @@
 	<section class="container my-3">
 		<div class="card-group mx-auto" id="awards">
 			<div class="card">
-				<div class="card-header bg-gradient-mine-reverse">
+				<div class="card-header bg-gradient-mine">
 					<h4 class="card-title text-light">#1 in Video Production</h4>
 				</div>
 				<a href="#" data-toggle="tooltip" title="#1 in Video Production"> <img class="card-img-top" id="best-base" src="https://websitetalkingheads.com/images/video-production-seal.png"  alt="Best in Video Production" /> </a>
@@ -181,7 +181,7 @@
 				</div>
 			</div>
 			<div class="card">
-				<div class="card-header bg-gradient-mine-reverse">
+				<div class="card-header bg-gradient-mine">
 					<h4 class="card-title text-light">Best Video Production</h4>
 				</div>
 				<a href="#" data-toggle="tooltip" title="Winner Best Web Design Agencies - Video Production"><img class="card-img-top" id="best-video"  alt="Winner in Video Production" src="https://www.websitetalkingheads.com/images/video-production-winner.png"></a>
@@ -206,7 +206,7 @@
 				</div>
 			</div>
 			<div class="card">
-				<div class="card-header bg-gradient-mine-reverse">
+				<div class="card-header bg-gradient-mine">
 					<h4 class="card-title text-light">#1 Video Spokespeople</h4>
 				</div>
 				<a href="http://www.topseos.com/rankings-of-best-virtual-spokesperson-companies" data-toggle="tooltip" title="#1 in Video Spokesperson"><img class="card-img-top" src="https://websitetalkingheads.com/images/video-spokesperson-seal.png"  alt="Best in Video Spokesperson" id="base-img"  /></a>

@@ -4,7 +4,7 @@ Error: It's not clear which file to import for '@import "mine"'.
          _mine.scss
          mine.scss
        Please delete or rename all but one of these files.
-        on line 44 of D:\Websites\live-spokesperson\scss\bootstrap.scss
+        on line 44 of E:\My Stuff\My Web Sites\live-spokesperson\scss\bootstrap.scss
 
 39: @import "popover";
 40: @import "carousel";
@@ -14,7 +14,7 @@ Error: It's not clear which file to import for '@import "mine"'.
 44: @import "mine";
 
 Backtrace:
-D:\Websites\live-spokesperson\scss\bootstrap.scss:44
+E:\My Stuff\My Web Sites\live-spokesperson\scss\bootstrap.scss:44
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/import_node.rb:67:in `rescue in import'
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/import_node.rb:45:in `import'
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/import_node.rb:28:in `imported_file'
@@ -38,9 +38,10 @@ C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/s
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:161:in `visit'
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:10:in `visit'
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/root_node.rb:36:in `css_tree'
-C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/root_node.rb:20:in `render'
-C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/engine.rb:290:in `render'
-C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/exec/sass_scss.rb:400:in `run'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/engine.rb:307:in `render_with_sourcemap'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/exec/sass_scss.rb:391:in `run'
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/exec/sass_scss.rb:63:in `process_result'
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/exec/base.rb:52:in `parse'
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/exec/base.rb:19:in `parse!'
@@ -51,4 +52,4 @@ C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/bin/sass:23:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: It's not clear which file to import for '@import \"mine\"'.\A        Candidates:\A          _mine.scss\A          mine.scss\A        Please delete or rename all but one of these files.\A         on line 44 of D:\Websites\live-spokesperson\scss\bootstrap.scss\A \A 39: @import \"popover\";\A 40: @import \"carousel\";\A 41: @import \"utilities\";\A 42: @import \"print\";\A 43: @import \"video\";\A 44: @import \"mine\";"; }
+  content: "Error: It's not clear which file to import for '@import \"mine\"'.\A        Candidates:\A          _mine.scss\A          mine.scss\A        Please delete or rename all but one of these files.\A         on line 44 of E:\My Stuff\My Web Sites\live-spokesperson\scss\bootstrap.scss\A \A 39: @import \"popover\";\A 40: @import \"carousel\";\A 41: @import \"utilities\";\A 42: @import \"print\";\A 43: @import \"video\";\A 44: @import \"mine\";"; }
