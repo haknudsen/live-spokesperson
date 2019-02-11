@@ -162,8 +162,8 @@ textarea {
 .bg-gradient-mine {
 	@include gradient-mine($gray-300,$gray-700);
 }
-.bg-gradient-custom {
-	@include gradient-custom($gray-700,$gray-300);
+.bg-gradient-mine-reverse {
+	@include gradient-mine($gray-700,$gray-300);
 }
 #spokesperson_videos .card .card-img-top{max-width: 220px;margin: 0 auto}
 #awards .card {max-width: 500px}

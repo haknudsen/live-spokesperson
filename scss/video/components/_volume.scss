@@ -3,18 +3,26 @@
   @include flex(none);
 
   & .vjs-icon-placeholder {
-    @extend .vjs-icon-volume-high;
+    content: "/f028";
+	font-family: "Font Awesome 5 Pro";
+	font-style: normal;
   }
 }
 
 .video-js .vjs-mute-control.vjs-vol-0 .vjs-icon-placeholder {
-  @extend .vjs-icon-volume-mute;
+    content: "/f6a9";
+	font-family: "Font Awesome 5 Pro";
+	font-style: normal;
 }
 .video-js .vjs-mute-control.vjs-vol-1 .vjs-icon-placeholder {
-  @extend .vjs-icon-volume-low;
+    content: "/f027";
+	font-family: "Font Awesome 5 Pro";
+	font-style: normal;
 }
 .video-js .vjs-mute-control.vjs-vol-2 .vjs-icon-placeholder {
-  @extend .vjs-icon-volume-mid;
+    content: "/f6a8";
+	font-family: "Font Awesome 5 Pro";
+	font-style: normal;
 }
 
 .video-js .vjs-volume-control {

@@ -710,7 +710,7 @@ $jumbotron-bg:                      $gray-200 !default;
 
 // Cards
 
-$card-spacer-y:                     .75rem !default;
+$card-spacer-y:                     0.25rem !default;
 $card-spacer-x:                     1.25rem !default;
 $card-border-width:                 $border-width !default;
 $card-border-radius:                $border-radius !default;
@@ -725,7 +725,7 @@ $card-group-margin:                 ($grid-gutter-width / 2) !default;
 $card-deck-margin:                  $card-group-margin !default;
 
 $card-columns-count:                3 !default;
-$card-columns-gap:                  1.25rem !default;
+$card-columns-gap:                  .25rem !default;
 $card-columns-margin:               $card-spacer-y !default;
 
 

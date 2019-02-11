@@ -21,21 +21,6 @@
     background: linear-gradient(to bottom,  $top 0%,$bottom 100%); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$top', endColorstr='$bottom',GradientType=0 ); /* IE6-9 */
 }
-@mixin gradient-custom {
-  background-color: $bottom !important;
-  background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="$top", endColorstr="$bottom");
-  background-image: -khtml-gradient(linear, left top, left bottom, from($top), to($bottom));
-  background-image: -moz-linear-gradient(top, $top, $bottom);
-  background-image: -ms-linear-gradient(top, $top, $bottom);
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, $top), color-stop(100%, $bottom));
-  background-image: -webkit-linear-gradient(top, $top, $bottom);
-  background-image: -o-linear-gradient(top, $top, $bottom);
-  background-image: linear-gradient($top, $bottom);
-  border-color: $bottom $bottom $bottom;
-  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.72);
-  -webkit-font-smoothing: antialiased;
-}
 // Horizontal gradient, from left to right
 //
 // Creates two color stops, start and end, by specifying a color and position for each color stop.

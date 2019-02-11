@@ -18,21 +18,48 @@
 <body>
 	<?php include("../includes/nav.php"); ?>
 	<section class="jumbotron">
-		
+		<div class="container">
+			<?php
+			$path = getcwd();
+			$dirs = array();
+			$dir = dir( $path );
+			while ( false !== ( $entry = $dir->read() ) ) {
+				if ( $entry != '.' && $entry != '..' ) {
+					if ( is_dir( $path . '/' . $entry ) ) {
+						$dirs[] = $entry;
+						$link = $entry;
+						$title = str_replace( "_", " ", $link );
+						$html = file_get_contents( $link."/index.php" );
+						$start = strpos( $html, '<p>' );
+						$end = strpos( $html, '</p>', $start );
+						$paragraph = substr( $html, $start, $end - $start + 4 );
+			echo('<div class="card text-white bg-primary">
+				<h3 class="card-header bg-gradient-primary text-capitalize">');
+					echo($title);
+				echo('</h3>
+				<div class="card-body">
+					<p class="card-text">');
+						echo $paragraph;
+				echo('	</p>
+				</div>
+				<div class="card-footer bg-gradient-mine">
+					<a href="'.$link .'" class="card-link float-right">Continue...</a>
+				</div>
+			</div>');
+						
+						
+					}
+				}
+			}
+			?>
 	</section>
-	
+
 	<section class="alert-info">
 		<div class="container">
 		</div>
 	</section>
-	
+
 	<?php include("../includes/footer.php"); ?>
 	<?php include("../includes/modal.php"); ?>
-	<!-- content container -->
-	<script src="https://vjs.zencdn.net/7.2.4/video.js"></script>
-	<script src="../js/nav.js"></script>
-	<script src="../js/iVideo.js"></script>
-	<script src="../js/quotes.js"></script>
-	<script src="../js/jquery.matchHeight.js"></script>
 </body>
 </html>
