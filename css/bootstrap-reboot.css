@@ -96,9 +96,10 @@ small {
 sub,
 sup {
   position: relative;
-  font-size: 75%;
+  font-size: 50%;
   line-height: 0;
-  vertical-align: baseline; }
+  vertical-align: baseline;
+  text-indent: 0; }
 
 sub {
   bottom: -.25em; }

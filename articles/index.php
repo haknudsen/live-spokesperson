@@ -19,39 +19,37 @@
 	<?php include("../includes/nav.php"); ?>
 	<section class="jumbotron">
 		<div class="container">
-			<?php
-			$path = getcwd();
-			$dirs = array();
-			$dir = dir( $path );
-			while ( false !== ( $entry = $dir->read() ) ) {
-				if ( $entry != '.' && $entry != '..' ) {
-					if ( is_dir( $path . '/' . $entry ) ) {
-						$dirs[] = $entry;
-						$link = $entry;
-						$title = str_replace( "_", " ", $link );
-						$html = file_get_contents( $link."/index.php" );
-						$start = strpos( $html, '<p>' );
-						$end = strpos( $html, '</p>', $start );
-						$paragraph = substr( $html, $start, $end - $start + 4 );
-			echo('<div class="card text-white bg-primary">
-				<h3 class="card-header bg-gradient-primary text-capitalize">');
-					echo($title);
-				echo('</h3>
+			<div class="card-group">
+				<?php
+				$path = getcwd();
+				$dirs = array();
+				$dir = dir( $path );
+				while ( false !== ( $entry = $dir->read() ) ) {
+					if ( $entry != '.' && $entry != '..' ) {
+						if ( is_dir( $path . '/' . $entry ) ) {
+							$dirs[] = $entry;
+							$link = $entry;
+							$title = str_replace( "-", " ", $link );
+							$html = file_get_contents( $link . "/index.php" );
+							$start = strpos( $html, '<p>' );
+							$end = strpos( $html, '</p>', $start );
+							$paragraph = substr( $html, $start, $end - $start + 4 );
+							echo( '<div class="card text-white bg-primary mb-3">
+				<h3 class="card-header bg-gradient-primary text-capitalize">' . $title . '</h3>
 				<div class="card-body">
-					<p class="card-text">');
-						echo $paragraph;
-				echo('	</p>
+					<p class="card-text">' . $paragraph . '</p>
 				</div>
 				<div class="card-footer bg-gradient-mine">
-					<a href="'.$link .'" class="card-link float-right">Continue...</a>
+					<a href="' . $link . '" class="card-link float-right">Continue...</a>
 				</div>
-			</div>');
-						
-						
+			</div>' );
+
+
+						}
 					}
 				}
-			}
-			?>
+				?>
+			</div>
 	</section>
 
 	<section class="alert-info">

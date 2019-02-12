@@ -125,9 +125,10 @@ small {
 sub,
 sup {
   position: relative;
-  font-size: 75%;
+  font-size: 50%;
   line-height: 0;
-  vertical-align: baseline; }
+  vertical-align: baseline;
+  text-indent: 0; }
 
 sub {
   bottom: -.25em; }
@@ -3534,13 +3535,13 @@ input[type="button"].btn-block {
     background-color: #112f54; }
 
 .jumbotron {
-  padding: 2rem 1rem;
-  margin-bottom: 2rem;
+  padding: 1rem 0.5rem;
+  margin-bottom: 1rem;
   background-color: #B2D4FF;
   border-radius: 0.3rem; }
   @media (min-width: 576px) {
     .jumbotron {
-      padding: 4rem 2rem; } }
+      padding: 2rem 1rem; } }
 
 .jumbotron-fluid {
   padding-right: 0;
@@ -7132,6 +7133,10 @@ a.text-dark:hover, a.text-dark:focus {
   max-width: 220px;
   margin: .25rem auto; }
 
+.spokesperson img {
+  max-width: 160px;
+  margin: 0 auto; }
+
 .price {
   font-size: 4.5rem;
   line-height: 1;
@@ -7287,26 +7292,9 @@ textarea {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$top', endColorstr='$bottom',GradientType=0 );
   /* IE6-9 */ }
 
-.bg-gradient-mine-reverse {
-  border-color: #66AAFF #66AAFF #66AAFF;
-  background-repeat: repeat-x;
-  background: #256ABF;
-  /* Old browsers */
-  background: -moz-linear-gradient(top, #256ABF 0%, #66AAFF 100%);
-  /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #256ABF), color-stop(100%, #66AAFF));
-  /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top, #256ABF 0%, #66AAFF 100%);
-  /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top, #256ABF 0%, #66AAFF 100%);
-  /* Opera 11.10+ */
-  background: -ms-linear-gradient(top, #256ABF 0%, #66AAFF 100%);
-  /* IE10+ */
-  background: linear-gradient(to bottom, #256ABF 0%, #66AAFF 100%);
-  /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$top', endColorstr='$bottom',GradientType=0 );
-  /* IE6-9 */ }
-
+/*.bg-gradient-custom {
+	@include gradient-custom($gray-700,$gray-300);
+}*/
 #spokesperson_videos .card .card-img-top {
   max-width: 220px;
   margin: 0 auto; }
@@ -7325,3 +7313,6 @@ textarea {
 
 .card-columns h3 {
   font-size: 1.25rem; }
+
+.breadcrumb-item {
+  font-size: 0.8rem; }
