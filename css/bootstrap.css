@@ -9163,10 +9163,24 @@ textarea {
 
 /* line 174, ../scss/_mine.scss */
 .sidebar {
-  font-size: 0.8rem; }
+  font-size: 0.8rem;
+  padding-right: 0;
+  position: fixed;
+  top: 137px; }
 
 /* line 175, ../scss/_mine.scss */
 .sidebar .nav-link {
   color: #E5F0FF !important; }
+
+/* line 176, ../scss/_mine.scss */
+.actor img {
+  width: 160px;
+  height: 180px; }
+
+/* line 177, ../scss/_mine.scss */
+.sup {
+  font-size: 50%;
+  line-height: 0;
+  vertical-align: super; }
 
 /*# sourceMappingURL=bootstrap.css.map */

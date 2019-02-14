@@ -171,5 +171,7 @@ textarea {
 .text-large{font-size: 200%}
 .list-group-indent{padding-left: 2rem}
 .card-columns h3{font-size:  1.25rem}
-.sidebar{font-size: 0.8rem}
+.sidebar{font-size: 0.8rem;padding-right: 0;position: fixed;top: 137px}
 .sidebar .nav-link {color: #E5F0FF!important}
+.actor img{width: 160px;height: 180px}
+.sup{font-size: 50%;line-height: 0;vertical-align: super}

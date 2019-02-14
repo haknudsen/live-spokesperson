@@ -18,8 +18,8 @@
 </head>
 
 <body>
-	<?php include("../includes/nav.php"); ?>
-	<section class="jumbotron">
+	<?php include("../includes/nav-spokesperson.php"); ?>
+	<section class="alert-info mb-3">
 		<h1 class="text-center">Talking Heads<i class="far fa-registered sup"></i> Spokesmen</h1>
 		<div class="container">
 			<?php $spokespeople = "maleactors"; include("../ivideo/showActorsDemo.php"); ?>

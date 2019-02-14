@@ -13,7 +13,7 @@
 
 <body>
 	<?php include("../includes/nav-spokesperson.php"); ?>
-	<section class="jumbotron">
+	<section class="alert-info mb-3">
 		<h2 class="text-center">Our Spokespeople</h2>
 		<div class="row">
 			<div class="col-lg-5 offset-lg-1">
@@ -43,7 +43,7 @@
 			</div>
 		</div>
 	</section>
-	<?php include("../includes/footer.php"); ?>
+	<?php include("../includes/footer-spokespeople.php"); ?>
 </body>
 
 </html>
