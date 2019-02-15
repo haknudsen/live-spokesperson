@@ -20,9 +20,9 @@
 <body>
 	<?php include("../includes/nav-spokesperson.php"); ?>
 	<section class="alert-info mb-3">
-		<h1 class="text-center">Talking Heads<i class="far fa-registered sup"></i> Specialty Spokespeople</h1>
+		<h1 class="text-center">Talking Heads<i class="far fa-registered sup"></i> Spokeswomen</h1>
 		<div class="container">
-			<?php $spokespeople = "femaleactors"; include("../ivideo/showActorsDemo.php"); ?>
+			<?php $spokespeople = "femaleactors"; include("includes/spokeswomen.php"); ?>
 		</div>
 	</section>
 	<section class="container-fluid bg-white">

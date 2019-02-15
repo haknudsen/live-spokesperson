@@ -54,6 +54,9 @@
 	max-width: 220px;
 	margin: .25rem auto;
 }
+.spokesperson img{
+	max-width: 160px;margin: 0 auto;
+}
 .price {
 	font-size: 4.5rem;
 	line-height: 1;
@@ -162,16 +165,20 @@ textarea {
 .bg-gradient-mine {
 	@include gradient-mine($gray-300,$gray-700);
 }
-.bg-gradient-custom {
-	@include gradient-mine($gray-700,$gray-300);
-}
+/*.bg-gradient-custom {
+	@include gradient-custom($gray-700,$gray-300);
+}*/
 #spokesperson_videos .card .card-img-top{max-width: 220px;margin: 0 auto}
 #awards .card {max-width: 500px}
 #awards .card-body {padding-top: 0}
 .text-large{font-size: 200%}
 .list-group-indent{padding-left: 2rem}
 .card-columns h3{font-size:  1.25rem}
-.sidebar{font-size: 0.8rem;padding-right: 0;position: fixed;top: 137px}
-.sidebar .nav-link {color: #E5F0FF!important}
-.actor img{width: 160px;height: 180px}
-.sup{font-size: 50%;line-height: 0;vertical-align: super}
+.breadcrumb-item{font-size: 0.8rem}
+.actor { position: relative;
+	img{  max-width: 160px;margin: 0 auto;}
+	&:hover >.thumb-wrapper:before { color: #fff; }
+}
+.thumb-wrapper { position: absolute; top: 45%; bottom: auto; left: 50%; margin-left: -16px; display: inline-block; width: 2rem; height: 2rem; cursor: pointer;
+	:before { content: "\f144"; font-family: "Font Awesome 5 Pro"; font-style: normal; font-weight: 400; font-size: 2rem; position: absolute; color: #0073FF; left: 0; top: 0; bottom: auto; right: auto; }
+}
