@@ -41,7 +41,7 @@
 
 
 	<?php include ('../../includes/footer.php'); ?>
-	<?php include ('../../includes/modal-spokesperson.php'); ?>
+	<?php include ('../../ivideo/modal-spokesperson.php'); ?>
 	<script src="../../js/iVideo-spokesperson.js"></script>
 </body>
 

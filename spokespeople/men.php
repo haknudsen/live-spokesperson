@@ -19,7 +19,7 @@
 
 <body>
 	<?php include("../includes/nav-spokesperson.php"); ?>
-	<section class="alert-info">
+	<section class="alert-info mb-3">
 		<h1 class="text-center">Talking Heads<i class="far fa-registered sup"></i> Spokesmen</h1>
 		<div class="container">
 			<?php include("includes/spokesmen.php"); ?>

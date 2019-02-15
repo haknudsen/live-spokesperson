@@ -6,7 +6,7 @@
 	<title>Talking Heads|Choosing the Best Website Spokesperson</title>
 	<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
 	<meta name="keywords" content="online spokesperson, video spokesperson, website talking heads, website actor, website video, virtual spokesperson, spokesperson, video presenter, website presenter, website spokesperson, video salesperson">
-	<meta name="description" content="At Website Talking Heads® we have the best video spokespeople. We pride ourselves on our high QUALITY,successful and experienced Video Spokespeople.">
+	<meta name="description" content="At Website Talking Headsï¿½ we have the best video spokespeople. We pride ourselves on our high QUALITY,successful and experienced Video Spokespeople.">
 	<META NAME="robots" CONTENT="index, follow">
 	<!-- (Robot commands: All, None, Index, No Index, Follow, No Follow) -->
 	<META NAME="revisit-after" CONTENT="30 days">
@@ -73,7 +73,7 @@
 			<div class="row">
 				<div class="col-md-6">
 					<h3 class="text-center">Website Spokesperson</h3>
-					<p class="summary">Keep these things in mind when you're looking for the best <strong>website spokesperson</strong> to get for your website. Choose well as they will be your brand spokesperson for anyone who visits your page. The <em>professional spokespeople</em> from Talking Heads® are the best in the buisness today!</p>
+					<p class="summary">Keep these things in mind when you're looking for the best <strong>website spokesperson</strong> to get for your website. Choose well as they will be your brand spokesperson for anyone who visits your page. The <em>professional spokespeople</em> from Talking Headsï¿½ are the best in the buisness today!</p>
 					<p class="summary">Take a look at our <a href="https://www.websitetalkingheads.com/spokespeople/female-carousel.php">Video Spokespeople</a> and <a href="https://www.websitetalkingheads.com/website-spokesperson/index.php">watch some examples</a>
 					</p>
 					<p class="summary text-uppercase">good luck!</p>
@@ -86,7 +86,7 @@
 	</section>
 
 	<?php include ('../../includes/footer.php'); ?>
-	<?php include ('../../includes/modal-spokesperson.php'); ?>
+	<?php include ('../../ivideo/modal-spokesperson.php'); ?>
 	<script src="https://vjs.zencdn.net/7.2.4/video.js"></script>
 	<script src="../../js/iVideo-spokesperson.js"></script>
 </body>
