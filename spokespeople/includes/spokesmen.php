@@ -5,7 +5,7 @@ if(!$xml=simplexml_load_file('https://www.websitetalkingheads.com/spokespeople/m
 }
 foreach($xml as $item){
 	$actor = $item['caption'];
-    echo '<div class="col-sm-2 actor" title="'.$actor.' - Video Spokesperson" data-actor="'.$actor.'">';
+    echo '<div class="col-sm-2 actor" title="'.$actor.' - Video Spokesperson" data-video="'.$actor.'" data-toggle="modal" data-target=".modal-spokesperson">';
     echo PHP_EOL;
     echo '<i class="far fa-play-circle thumb-wrapper"></i>';
     echo PHP_EOL;

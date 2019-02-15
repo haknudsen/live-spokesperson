@@ -24,8 +24,8 @@
 </head>
 
 <body>
-	<?php include("../../includes/nav.php"); ?>
-	<section class="jumbotron">
+	<?php include("../../includes/nav-spokesperson.php"); ?>
+	<section class="alert-info pt-1">
 		<div>
 			<h1 class="text-center">Virtual Spokespeople<i class="far fa-registered smaller"></i></h1>
 			<div class="row align-items-center">
@@ -38,7 +38,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="alert alert-info">
+	<section class="container-fluid">
 		<h2 class="text-center">Virtual Spokespeople Info</h2>
 		<div class="">
 			<div class="card-group">
@@ -129,30 +129,7 @@
 				</div>
 			</div>
 	</section>
-	<?php include("../../includes/awards.php"); ?>
-	<?php include("../../includes/footer.php"); ?>
+	<?php include("../../includes/footer-spokespeople.php"); ?>
 	<?php include("../../includes/modal.php");?>
-	<script src="https://vjs.zencdn.net/7.2.4/video.js"></script>
-	<script src="../../js/iVideo.js"></script>
-	<script src="../../js/nav.js"></script>
-	<!-- Google Code for Previous Visitors -->
-	<!-- Remarketing tags may not be associated with personally identifiable
-        information or placed on pages related to sensitive categories. For instructions
-        on adding this tag and more information on the above requirements, read
-        the setup guide: google.com/ads/remarketingsetup -->
-	<noscript>
-		<div style="display:inline;">
-			<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1058129782/?value=0&amp;label=-jOyCO6ZkAIQ9o7H-AM&amp;guid=ON&amp;script=0">
-		</div>
-	</noscript>
-	<noscript>
-            <img src="//adpxl.co/EtvJXNHK/spacer.gif">
-        </noscript>
-
-
-
-
-
-
 </body>
 </html>
