@@ -11,8 +11,6 @@ foreach ( $xml as $item ) {
 	echo PHP_EOL;
 	echo '<i class="far fa-play-circle thumb-wrapper"></i>';
 	echo PHP_EOL;
-	echo '<div class="overlay img-circle"></div>';
-	echo PHP_EOL;
 	echo '<img src="https://www.websitetalkingheads.com/carimages/' . $actor . '.png" class="img-responsive img-circle" alt="' . $actor . ' - Video Spokesperson"/></a>';
 	echo PHP_EOL;
 	echo '<h3 class="text-center" title="' . $actor . ' - Video Spokesperson">' . $actor . '</h3>';
