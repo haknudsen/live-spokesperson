@@ -1,28 +1,37 @@
 /*
-Error: Undefined mixin '_assert-ascending'.
-        on line 193 of E:\My Stuff\My Web Sites\live-spokesperson\scss\_variables.scss, in `_assert-ascending'
-        from line 193 of E:\My Stuff\My Web Sites\live-spokesperson\scss\_variables.scss
+Error: Undefined variable: "$breadcrumb-padding-y".
+        on line 4 of E:\My Stuff\My Web Sites\live-spokesperson\scss\_breadcrumb.scss
 
-188:   md: 768px,
-189:   lg: 992px,
-190:   xl: 1200px
-191: ) !default;
-192: 
-193: @include _assert-ascending($grid-breakpoints, "$grid-breakpoints");
-194: @include _assert-starts-at-zero($grid-breakpoints);
-195: 
-196: 
-197: // Grid containers
-198: //
+1: .breadcrumb {
+2:   display: flex;
+3:   flex-wrap: wrap;
+4:   padding: $breadcrumb-padding-y $breadcrumb-padding-x;
+5:   margin-bottom: $breadcrumb-margin-bottom;
+6:   list-style: none;
+7:   background-color: $breadcrumb-bg;
+8: 	line-height: 1;
+9:   @include border-radius($breadcrumb-border-radius);
 
 Backtrace:
-E:\My Stuff\My Web Sites\live-spokesperson\scss\_variables.scss:193:in `_assert-ascending'
-E:\My Stuff\My Web Sites\live-spokesperson\scss\_variables.scss:193
-C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:352:in `block in visit_mixin'
-C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/stack.rb:98:in `block in with_mixin'
+E:\My Stuff\My Web Sites\live-spokesperson\scss\_breadcrumb.scss:4
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/script/tree/variable.rb:49:in `_perform'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/script/tree/node.rb:50:in `perform'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/script/tree/list_literal.rb:75:in `block in _perform'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/script/tree/list_literal.rb:75:in `map'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/script/tree/list_literal.rb:75:in `_perform'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/script/tree/node.rb:50:in `perform'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/stack.rb:79:in `block in with_base'
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/stack.rb:135:in `with_frame'
-C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/stack.rb:98:in `with_mixin'
-C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:350:in `visit_mixin'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/stack.rb:79:in `with_base'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:162:in `visit'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:444:in `block (2 levels) in visit_rule'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:444:in `map'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:444:in `block in visit_rule'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:442:in `visit_rule'
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/base.rb:36:in `visit'
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/stack.rb:79:in `block in with_base'
@@ -55,4 +64,4 @@ C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/bin/sass:23:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin '_assert-ascending'.\A         on line 193 of E:\My Stuff\My Web Sites\live-spokesperson\scss\_variables.scss, in `_assert-ascending'\A         from line 193 of E:\My Stuff\My Web Sites\live-spokesperson\scss\_variables.scss\A \A 188:   md: 768px,\A 189:   lg: 992px,\A 190:   xl: 1200px\A 191: ) !default;\A 192: \A 193: @include _assert-ascending($grid-breakpoints, \"$grid-breakpoints\");\A 194: @include _assert-starts-at-zero($grid-breakpoints);\A 195: \A 196: \A 197: // Grid containers\A 198: //"; }
+  content: "Error: Undefined variable: \"$breadcrumb-padding-y\".\A         on line 4 of E:\My Stuff\My Web Sites\live-spokesperson\scss\_breadcrumb.scss\A \A 1: .breadcrumb {\A 2:   display: flex;\A 3:   flex-wrap: wrap;\A 4:   padding: $breadcrumb-padding-y $breadcrumb-padding-x;\A 5:   margin-bottom: $breadcrumb-margin-bottom;\A 6:   list-style: none;\A 7:   background-color: $breadcrumb-bg;\A 8: 	line-height: 1;\A 9:   @include border-radius($breadcrumb-border-radius);"; }

@@ -4,6 +4,7 @@
  * Copyright 2011-2018 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+/* Scss Document */
 /* line 1, ../scss/_root.scss */
 :root {
   --blue: #00A3FF;
@@ -32,7 +33,7 @@
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
-  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-family-sans-serif: raleway, sans-serif;
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
 
 /* line 21, ../scss/_reboot.scss */
@@ -59,7 +60,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 /* line 57, ../scss/_reboot.scss */
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: raleway, sans-serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -4191,12 +4192,22 @@ input[type="button"].btn-block {
   margin-bottom: 1rem;
   list-style: none;
   background-color: #B2D4FF;
+  line-height: 1;
   border-radius: 0.25rem; }
 
-/* line 13, ../scss/_breadcrumb.scss */
+/* line 16, ../scss/_breadcrumb.scss */
+.breadcrumb-item:first-of-type:before {
+  display: inline-block;
+  padding-right: 0.5rem;
+  color: #2D80E5;
+  content: "\f015";
+  font-family: "Font Awesome 5 Pro";
+  font-style: normal;
+  font-weight: normal; }
+/* line 25, ../scss/_breadcrumb.scss */
 .breadcrumb-item + .breadcrumb-item {
   padding-left: 0.5rem; }
-  /* line 16, ../scss/_breadcrumb.scss */
+  /* line 27, ../scss/_breadcrumb.scss */
   .breadcrumb-item + .breadcrumb-item::before {
     display: inline-block;
     padding-right: 0.5rem;
@@ -4205,13 +4216,13 @@ input[type="button"].btn-block {
     font-family: "Font Awesome 5 Pro";
     font-style: normal;
     font-weight: normal; }
-/* line 33, ../scss/_breadcrumb.scss */
+/* line 42, ../scss/_breadcrumb.scss */
 .breadcrumb-item + .breadcrumb-item:hover::before {
   text-decoration: underline; }
-/* line 37, ../scss/_breadcrumb.scss */
+/* line 46, ../scss/_breadcrumb.scss */
 .breadcrumb-item + .breadcrumb-item:hover::before {
   text-decoration: none; }
-/* line 41, ../scss/_breadcrumb.scss */
+/* line 50, ../scss/_breadcrumb.scss */
 .breadcrumb-item.active {
   color: #2D80E5; }
 
@@ -4952,7 +4963,7 @@ button.close {
   z-index: 1070;
   display: block;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: raleway, sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -5054,7 +5065,7 @@ button.close {
   z-index: 1060;
   display: block;
   max-width: 276px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: raleway, sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -9150,55 +9161,73 @@ textarea {
   padding-top: 0; }
 
 /* line 171, ../scss/_mine.scss */
+.text-light a {
+  color: #E5F0FF; }
+
+/* line 172, ../scss/_mine.scss */
 .text-large {
   font-size: 200%; }
 
-/* line 172, ../scss/_mine.scss */
+/* line 173, ../scss/_mine.scss */
+.text-faded {
+  opacity: 0.6; }
+
+/* line 174, ../scss/_mine.scss */
+.notification {
+  padding-top: 1rem;
+  text-align: center;
+  opacity: 0.6;
+  line-height: 1;
+  font-weight: 300;
+  font-size: 60%;
+  color: #E5F0FF; }
+
+/* line 175, ../scss/_mine.scss */
 .list-group-indent {
   padding-left: 2rem; }
 
-/* line 173, ../scss/_mine.scss */
+/* line 176, ../scss/_mine.scss */
 .card-columns h3 {
   font-size: 1.25rem; }
 
-/* line 174, ../scss/_mine.scss */
+/* line 177, ../scss/_mine.scss */
 .sidebar {
   font-size: 0.8rem;
   padding-right: 0;
   position: fixed;
   top: 137px; }
 
-/* line 175, ../scss/_mine.scss */
+/* line 178, ../scss/_mine.scss */
 .sidebar .nav-link {
   color: #E5F0FF !important; }
 
-/* line 176, ../scss/_mine.scss */
+/* line 179, ../scss/_mine.scss */
 .actor img {
   width: 160px;
   height: 180px; }
 
-/* line 177, ../scss/_mine.scss */
+/* line 180, ../scss/_mine.scss */
 .sup {
   font-size: 50%;
   line-height: 0;
   vertical-align: super; }
 
-/* line 178, ../scss/_mine.scss */
+/* line 181, ../scss/_mine.scss */
 .actor {
   position: relative; }
-  /* line 179, ../scss/_mine.scss */
+  /* line 182, ../scss/_mine.scss */
   .actor img {
     max-width: 180px;
     margin: 0 auto; }
-  /* line 180, ../scss/_mine.scss */
+  /* line 183, ../scss/_mine.scss */
   .actor h3 {
     font-size: 1.5rem;
     font-weight: 700; }
-  /* line 181, ../scss/_mine.scss */
+  /* line 184, ../scss/_mine.scss */
   .actor:hover > .thumb-wrapper:before {
     color: #E5F0FF; }
 
-/* line 183, ../scss/_mine.scss */
+/* line 186, ../scss/_mine.scss */
 .thumb-wrapper {
   position: absolute;
   top: 45%;
@@ -9212,7 +9241,7 @@ textarea {
   background: rgba(229, 240, 255, 0.5);
   border-radius: 50%;
   border: -4px solid black; }
-  /* line 196, ../scss/_mine.scss */
+  /* line 199, ../scss/_mine.scss */
   .thumb-wrapper:before {
     font-size: 2rem;
     position: absolute;

@@ -168,7 +168,10 @@ textarea {
 #spokesperson_videos .card .card-img-top{max-width: 220px;margin: 0 auto}
 #awards .card {max-width: 500px}
 #awards .card-body {padding-top: 0}
+.text-light a {color:$light}
 .text-large{font-size: 200%}
+.text-faded{opacity: 0.6}
+.notification{padding-top: 1rem; text-align: center;opacity: 0.6;line-height: 1;font-weight: 300;font-size: 60%;color: $light}
 .list-group-indent{padding-left: 2rem}
 .card-columns h3{font-size:  1.25rem}
 .sidebar{font-size: 0.8rem;padding-right: 0;position: fixed;top: 137px}
