@@ -44,7 +44,7 @@
     ?>
 				</ol>
 			</nav>
-			<div class="text-info">Sitemap</div>
+			<div class="text-info text-center"><a href="http://www.live-spokesperson.com/sitemap.html" title="Sitemap">Sitemap</a></div>
 		</div>
 	</div>
 	<div class="notification"><i class="fal fa-copyright"></i>
