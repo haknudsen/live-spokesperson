@@ -10,7 +10,7 @@
 		</div>
 		<div class="col-sm-2 small">
 			<div class="text-center text-light">Why Video?</div>
-			<div class="text-center italics"><a class="black" href="tel://801-748-2281" title="Let's Talk!" >"It's <span class="thin">Time</span> We Talk..."</a></div>
+			<div class="text-center italics"><a href="tel://801-748-2281" title="Let's Talk!" >"It's <span class="thin">Time</span> We Talk..."</a></div>
 			<div class="text-center"><i class="fa fa-phone text-light"></i> <br/>
             <span><a href="tel://801-748-2281" title="Give us a call." >801-748-2281</a></span></div>
 		</div>

@@ -9252,4 +9252,8 @@ textarea {
     bottom: auto;
     right: auto; }
 
+/* line 210, ../scss/_mine.scss */
+footer a:hover {
+  color: #E5F0FF; }
+
 /*# sourceMappingURL=bootstrap.css.map */

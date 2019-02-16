@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-	<a href="http://www.live-spokesperson.com/" title="Live-Spokesperson.com" class="navbar-brand float-left"><img src="/images/head.png" alt="Live-Spokesperson Logo" class="img-fluid" style="max-height: 98px" title="Live-Spokesperson Logo"/> Live-Spokesperson</a>
+	<a href="http://www.live-spokesperson.com/" title="Live-Spokesperson.com" class="navbar-brand float-left"><img src="http://www.live-spokesperson.com/images/head.png" alt="Live-Spokesperson Logo" class="img-fluid" style="max-height: 98px" title="Live-Spokesperson Logo"/> Live-Spokesperson</a>
 	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
