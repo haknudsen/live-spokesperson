@@ -7297,6 +7297,14 @@ textarea {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$top', endColorstr='$bottom',GradientType=0 );
     /* IE6-9 */ }
 
+.website {
+  max-width: 384px; }
+  .website h3 {
+    font-size: 1.6vw; }
+    @media screen and (min-width: 1500px) {
+      .website h3 {
+        font-size: 24px; } }
+
 .thumb-wrapper {
   position: absolute;
   top: 45%;

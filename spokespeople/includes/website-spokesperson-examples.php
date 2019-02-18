@@ -1,22 +1,49 @@
 <?php
-			echo 'hit';
-			require( "../includes/connect-demo.php" );
-			$sql = "SELECT * FROM website ORDER BY rank;
-			$result = $conn->query( $sql );
+/*variables available
+ $rand- Randomize list
+ $columns- number of columns
+ $type-  type of videos
+ $keyword = alt tag for images
+ $show-number to show
+ Video types
+ Whiteboard
+ Animation
+ Presentation
+ Typography
+ Demo
+ */
+
+require( "../includes/connect-demo.php" );
+$sql = "SELECT * FROM websites ORDER BY rank";
+
+//echo($sql);
+$result = $conn->query( $sql );
+echo '<div class="row">';
 if ( $result->num_rows > 0 ) {
 	while ( $row = $result->fetch_assoc() ) {
-		$name = $row[ 'name' ];
-		$url = $row[ 'url' ];
+		$name = $row[ "name" ];
+		$url = $row[ "url" ];
+		$content = $row[ "content" ];
+		echo '<div class="col-lg-4 website">';
 		echo PHP_EOL;
-		    echo '<i class="far fa-play-circle thumb-wrapper"></i>';
-    echo PHP_EOL;
-    echo '<div class="overlay img-circle"></div>';
-    echo PHP_EOL;
-    echo '<a href="'. $url .'"<img src="https://www.websitetalkingheads.com/carimages/'.$video.'.png" class="img-responsive" alt="'.$video.'-Video Spokesperson"/></a>';
-				echo PHP_EOL;
-			echo '<h3 class="text-center" title="' . $video . '-Video Spokesperson">' . $video . '</h3>';
-			echo PHP_EOL;
-			echo '</div>';
-			echo PHP_EOL;
+		echo '<a href="'. $url.'" target="_blank">';
+		echo PHP_EOL;
+		echo '<img src="https://www.websitetalkingheads.com/website-spokesperson/examples/'.$name.'.jpg" class="img img-fluid">';
+		echo PHP_EOL;
+		echo '</a>';
+		echo PHP_EOL;
+		echo '<a href="'. $url.'" target="_blank">';
+		echo PHP_EOL;
+		echo '<h3 class="text-center">' . $name . '</h3>';
+		echo PHP_EOL;
+		echo '</a>';
+		echo PHP_EOL;
+		echo '</div>';
+		echo PHP_EOL;
+	}
+		echo '</div>';
+} else {
+	echo "<br>0 results";
+}
 
-			?>
+?>
