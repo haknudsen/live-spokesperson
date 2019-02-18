@@ -12,8 +12,8 @@
 </head>
 
 <body>
-	<?php include("../includes/nav-spokesperson.php"); ?>
-	<section class="alert-info mb-3">
+	<?php include("../includes/nav.php"); ?>
+	<section class="jumbotron">
 		<h2 class="text-center">Our Spokespeople</h2>
 		<div class="row">
 			<div class="col-lg-5 offset-lg-1">
@@ -30,9 +30,7 @@
 		<div class="container">
 			<div class="card middle">
 				<h3 class="card-header bg-gradient-mine text-center text-white">Video <em>Spokespeople</em></h3>
-				<div class="card-img-top" style="max-width: 640px;margin: 0 auto">
-					<?php $video="Professional Spokesperson";$alt="One of our Professional Spokespeople"; include("../includes/showInline.php"); ?>
-				</div>
+				<img class="card-img-top" src="../images/Professional Virtual Live Actors.jpg" alt="Professional Virtual Live Actors">
 				<div class="card-body">
 					<h5 class="card-title text-capitalize">There are numerous terms to explain a Website Spokesperson</h5>
 					<p class="card-text">You've seen them in the past. They are the people who welcome you to a website. Your video spokesperson, also know as virtual actor or website spokesperson, is a transparent video shown over a website. Instead of reading, which can get dull, these spokesperson typically walk you through whatever you need to know about the page</p>
@@ -43,7 +41,7 @@
 			</div>
 		</div>
 	</section>
-	<?php include("../includes/footer-spokespeople.php"); ?>
+	<?php include("../includes/footer.php"); ?>
 </body>
 
 </html>

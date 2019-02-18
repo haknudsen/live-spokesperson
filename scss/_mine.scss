@@ -168,10 +168,7 @@ textarea {
 #spokesperson_videos .card .card-img-top{max-width: 220px;margin: 0 auto}
 #awards .card {max-width: 500px}
 #awards .card-body {padding-top: 0}
-.text-light a {color:$light}
 .text-large{font-size: 200%}
-.text-faded{opacity: 0.6}
-.notification{padding-top: 1rem; text-align: center;opacity: 0.6;line-height: 1;font-weight: 300;font-size: 60%;color: $light}
 .list-group-indent{padding-left: 2rem}
 .card-columns h3{font-size:  1.25rem}
 .sidebar{font-size: 0.8rem;padding-right: 0;position: fixed;top: 137px}
@@ -183,42 +180,27 @@ textarea {
 	h3{font-size: 1.5rem;font-weight: 700}
 	&:hover > .thumb-wrapper:before { color: #E5F0FF }
 }
-.modal-spokesperson{
-	#talking-heads-video_html5_api{width:540px;height: 360px}
-	#talking-heads-video{width:  540px}
-	#form{left:111px}
-	.modal-header,.modal-footer{width:540px}
-}
-#form { position: absolute; top: 100px; max-width: 320px; margin: 0 auto; background: #0073FF; border: #00397F thin solid; border-radius: .25rem; color: black;
-	.holder { padding: 0.5rem }
-}
-.inputs{padding: .5rem;
-	input { width: 100%; margin-bottom: 4px }
-}
-#vtigerFormSubmitBtn{padding: .25rem 1rem;@include gradient-mine($gray-100,$gray-300);margin-bottom: .25rem;
-	&:hover{@include gradient-mine($gray-300,$gray-100);font-weight: 600}}
 .thumb-wrapper {
     position: absolute;
     top: 45%;
     bottom: auto;
     left: 50%;
-    margin-left: -24px;
+    margin-left: -16px;
     display: inline-block;
-    width: 47px;
-    height: 47px;
+    width: 2rem;
+    height: 2rem;
     cursor: pointer;
-	background: rgba(229,240,255,0.5);
-	border-radius: 50%;
-	border: -4px solid rgba(0,0,0,1.00);
 	&:before {
-		font-size: 2rem;
-		position: absolute;
-		color: #0073FF;
-		left: 0;
-		top: -6px;
-		left: -1px;
-		bottom: auto;
-		right: auto;
+    content: "\f144";
+    font-family: "Font Awesome 5 Pro";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    position: absolute;
+    color: #0073FF;
+    left: 0;
+    top: 0;
+    bottom: auto;
+    right: auto;
 	}
 }
-footer a:hover{color: $light;}
