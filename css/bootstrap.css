@@ -7361,7 +7361,9 @@ textarea {
   vertical-align: super; }
 
 .actor {
-  position: relative; }
+  position: relative;
+  width: 160px;
+  margin: 0 auto; }
   .actor img {
     max-width: 180px;
     margin: 0 auto; }
