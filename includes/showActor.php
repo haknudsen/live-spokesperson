@@ -9,20 +9,13 @@ if ( !$alt ) {
 	$alt = "Website Spokesperson";
 }
 $bgColor = "transparent";
-if ( !$pull ) {
-	$pull = "left";
-}
-if ( $pull === "left" ) {
-	$margin = "mr-2";
-} else {
-	$margin = "ml-2";
-}
+
 if ( !$btnColor ) {
 	$btnColor = "#0072FF";
 }
 echo PHP_EOL;
 echo '<div style="background:' . $bgColor . ';padding:1px">';
-echo '<div class="poster spokesperson pull-' . $pull . ' mr-2" data-toggle="modal" data-target=".modal-spokesperson" data-video="' . $actor . '">';
+echo '<div class="actor" data-toggle="modal" data-target=".modal-spokesperson" data-video="' . $actor . '">';
 echo PHP_EOL;
 echo '<div class="btn-play-small" style="background:' . $btnColor . '"></div>';
 echo PHP_EOL;

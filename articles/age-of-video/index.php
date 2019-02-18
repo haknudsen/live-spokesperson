@@ -6,7 +6,7 @@
 	<title>Talking Heads|Choosing the Best Website Spokesperson</title>
 	<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
 	<meta name="keywords" content="online spokesperson, video spokesperson, website talking heads, website actor, website video, virtual spokesperson, spokesperson, video presenter, website presenter, website spokesperson, video salesperson">
-	<meta name="description" content="At Website Talking Heads® we have the best video spokespeople. We pride ourselves on our high QUALITY,successful and experienced Video Spokespeople.">
+	<meta name="description" content="At Website Talking Heads? we have the best video spokespeople. We pride ourselves on our high QUALITY,successful and experienced Video Spokespeople.">
 	<META NAME="robots" CONTENT="index, follow">
 	<!-- (Robot commands: All, None, Index, No Index, Follow, No Follow) -->
 	<META NAME="revisit-after" CONTENT="30 days">
@@ -26,13 +26,15 @@
 			<h1>It is a new age</h1>
 			<h2>It is the age of Video</h2>
 		</div>
-		<div class="p-4">
-			<div class="w-50 float-left pr-2">
+		<div class="row align-items-center">
+			<div class="col-lg-6">
 				<?php $video="Whiteboard Animation";$alt="Whiteboard Animation Example" ;include("../../includes/showInline.php"); ?>
 			</div>
-			<p class="summary">Not long ago, our web infrastructure couldn't support streaming video. Most individuals had dial-up connections that could not manage video. And there weren't excellent ways of putting videos on websites. Yet today, individuals' computers and phones are video-capable. </p>
-			<h3>We have become familiar with seeing videos on websites</h3>
-			<p class="summary">Until a few years ago internet facilities could not sustain video. In the past, most of us had dial-up links that couldn't take care of video. And also there weren't good ways of placing videos on sites. But today, peoples' computer systems and also internet links are video-capable.</p>
+			<div class="col-lg-6">
+				<p class="summary">Not long ago, our web infrastructure couldn't support streaming video. Most individuals had dial-up connections that could not manage video. And there weren't excellent ways of putting videos on websites. Yet today, individuals' computers and phones are video-capable. </p>
+				<h3>We have become familiar with seeing videos on websites</h3>
+				<p class="summary">Until a few years ago internet facilities could not sustain video. In the past, most of us had dial-up links that couldn't take care of video. And also there weren't good ways of placing videos on sites. But today, peoples' computer systems and also internet links are video-capable.</p>
+			</div>
 		</div>
 	</section>
 	<section class="container">

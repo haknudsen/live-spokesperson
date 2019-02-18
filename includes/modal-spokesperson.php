@@ -28,11 +28,8 @@
         </button></div>
 					</div>
 					<div class="inputs">
-						<label>Name</label>
 						<input name="lastname" required="" type="text" maxlength="100" value="" data-label="" placeholder="Name">
-						<label>Email*</label>
 						<input name="email" required="" type="email" value="" data-label="Primary Email" placeholder="Email">
-						<label>Phone</label>
 						<input name="phone" placeholder="Phone" type="text" maxlength="100" value="" data-label="">
 						<input name="cf_1001" type="hidden" maxlength="100" value="" data-label="">
 						<input name="cf_leads_popup" type="hidden" value="0" data-label="">
