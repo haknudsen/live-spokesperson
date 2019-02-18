@@ -1,3 +1,5 @@
+</div>
+</div>
 <footer class="p-2 bg-dark">
 	<div class="row">
 		<div class="col-sm-5">

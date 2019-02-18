@@ -4,6 +4,7 @@
     <span class="navbar-toggler-icon"></span>
   </button>
 
+
 	<div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
 		<ul class="navbar-nav">
 			<li class="nav-item" id="home">
@@ -35,3 +36,26 @@
 	</div>
 	<a href="tel:1-801-748-2281" title="Call Now!" class="navbar-brand float-right">1-801-748-2281</a>
 </nav>
+	<div class="row">
+		<div class="col-md-2 col-sm-4 bg-dark">
+			<nav class="navbar navbar-dark sticky-top sidebar">
+
+				<!-- Links -->
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link" href="../spokespeople/men.php">Spokesmen</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="../spokespeople/women.php">Spokeswomen</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="../spokespeople/specialty.php">Specialty</a>
+					</li>
+				  <li class="nav-item">
+						<a class="nav-link" href="../spokespeople/virtual-spokespeople/">Virtual Spokespeople</a>
+					</li>
+				</ul>
+
+			</nav>
+		</div>
+		<div class="col-md-10 col-sm-8 pl-0">
