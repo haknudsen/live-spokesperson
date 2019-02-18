@@ -5,6 +5,7 @@
 				<h5 class="modal-title" id="videoModalLabel"></h5>
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span></button>
+			
 			</div>
 			<div class="d-flex justify-content-center">
 				<video id="talking-heads-video" class="video-js" controls preload="auto" width="540" height="360" poster="" data-setup="{}">
@@ -22,17 +23,15 @@
 					<input name="urlencodeenable" type="hidden" value="1">
 					<input name="name" type="hidden" value="PopUp Form">
 					<input name="__vtCurrency" type="hidden" value="1">
-					<div class="quote-top">
-						<div class="">Contact Us<button type="button" class="close" id="contactClose" aria-label="Close">
+					<div class="quote-top"><button type="button" class="close" id="contactClose" aria-label="Close">
           <span aria-hidden="true">×</span>
-        </button></div>
+        </button>
+					
+						<div class="text-center">Contact Us</div>
 					</div>
 					<div class="inputs">
-						<label>Name</label>
 						<input name="lastname" required="" type="text" maxlength="100" value="" data-label="" placeholder="Name">
-						<label>Email*</label>
 						<input name="email" required="" type="email" value="" data-label="Primary Email" placeholder="Email">
-						<label>Phone</label>
 						<input name="phone" placeholder="Phone" type="text" maxlength="100" value="" data-label="">
 						<input name="cf_1001" type="hidden" maxlength="100" value="" data-label="">
 						<input name="cf_leads_popup" type="hidden" value="0" data-label="">

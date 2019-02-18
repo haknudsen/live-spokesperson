@@ -183,6 +183,20 @@ textarea {
 	h3{font-size: 1.5rem;font-weight: 700}
 	&:hover > .thumb-wrapper:before { color: #E5F0FF }
 }
+.modal-spokesperson{
+	#talking-heads-video_html5_api{width:540px;height: 360px}
+	#talking-heads-video{width:  540px}
+	#form{left:111px}
+	.modal-header,.modal-footer{width:540px}
+}
+#form { position: absolute; top: 100px; max-width: 320px; margin: 0 auto; background: #0073FF; border: #00397F thin solid; border-radius: .25rem; color: black;
+	.holder { padding: 0.5rem }
+}
+.inputs{padding: .5rem;
+	input { width: 100%; margin-bottom: 4px }
+}
+#vtigerFormSubmitBtn{padding: .25rem 1rem;@include gradient-mine($gray-100,$gray-300);margin-bottom: .25rem;
+	&:hover{@include gradient-mine($gray-300,$gray-100);font-weight: 600}}
 .thumb-wrapper {
     position: absolute;
     top: 45%;

@@ -4790,8 +4790,9 @@ input[type="button"].btn-block {
   line-height: 1;
   color: #000;
   text-shadow: 0 1px 0 #fff;
-  opacity: .5; }
-  /* line 10, ../scss/_close.scss */
+  opacity: .5;
+  margin-top: -10px; }
+  /* line 11, ../scss/_close.scss */
   .close:not(:disabled):not(.disabled) {
     cursor: pointer; }
     /* line 17, ../scss/mixins/_hover.scss */
@@ -4800,7 +4801,7 @@ input[type="button"].btn-block {
       text-decoration: none;
       opacity: .75; }
 
-/* line 29, ../scss/_close.scss */
+/* line 30, ../scss/_close.scss */
 button.close {
   padding: 0;
   background-color: transparent;
@@ -4891,14 +4892,14 @@ button.close {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  padding: 1rem;
+  padding: 0.5rem;
   border-bottom: 1px solid #B2D4FF;
   border-top-left-radius: 0.3rem;
   border-top-right-radius: 0.3rem; }
   /* line 108, ../scss/_modal.scss */
   .modal-header .close {
-    padding: 1rem;
-    margin: -1rem -1rem -1rem auto; }
+    padding: 0.5rem;
+    margin: -0.5rem -0.5rem -0.5rem auto; }
 
 /* line 116, ../scss/_modal.scss */
 .modal-title {
@@ -8698,184 +8699,6 @@ a.text-dark:hover, a.text-dark:focus {
   visibility: hidden !important; }
 
 /* Scss Document */
-/* line 2, ../scss/_video.scss */
-.video-js {
-  font-size: 1rem;
-  color: #fff; }
-
-/* line 7, ../scss/_video.scss */
-.vjs-big-play-button {
-  font-size: 3em;
-  line-height: 1.5em;
-  height: 1.5em;
-  width: 3em;
-  border: 0.06666em solid #fff;
-  border-radius: 0.3em;
-  left: 50% !important;
-  top: 50% !important;
-  margin-left: -1.5em;
-  margin-top: -0.75em; }
-
-/* line 21, ../scss/_video.scss */
-.video-js .vjs-control-bar, .video-js .vjs-big-play-button, .video-js .vjs-menu-button .vjs-menu-content {
-  background-color: #00A3FF;
-  background-color: rgba(0, 163, 255, 0.7); }
-/* line 25, ../scss/_video.scss */
-.video-js .vjs-slider {
-  background-color: #B2D4FF;
-  background-color: rgba(255, 255, 255, 0.2); }
-/* line 29, ../scss/_video.scss */
-.video-js .vjs-volume-level, .video-js .vjs-play-progress, .video-js .vjs-slider-bar {
-  background: #fff; }
-/* line 32, ../scss/_video.scss */
-.video-js .vjs-load-progress {
-  background: white;
-  background: rgba(255, 255, 255, 0.5); }
-  /* line 35, ../scss/_video.scss */
-  .video-js .vjs-load-progress div {
-    background: white;
-    background: rgba(255, 255, 255, 0.75); }
-
-/* line 42, ../scss/_video.scss */
-.modal-header, .modal-footer {
-  padding: 0.1rem 1rem; }
-
-/* line 46, ../scss/_video.scss */
-.modal-header .btn, .modal-footer .btn {
-  font-size: 0.8rem; }
-
-/* line 50, ../scss/_video.scss */
-#form {
-  top: 60px;
-  background: white;
-  max-width: 100%;
-  min-width: 420px;
-  margin: 0 auto;
-  position: absolute; }
-
-/* line 59, ../scss/_video.scss */
-.poster {
-  padding-bottom: 1px;
-  opacity: 0.95;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
-  position: relative;
-  cursor: pointer; }
-  /* line 66, ../scss/_video.scss */
-  .poster:hover {
-    opacity: 1; }
-  /* line 69, ../scss/_video.scss */
-  .poster img {
-    display: block;
-    width: 100%;
-    height: auto;
-    cursor: pointer; }
-  /* line 75, ../scss/_video.scss */
-  .poster .btn-play-lg, .poster .btn-play-sm, .poster .btn-play-md {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    background-color: #0072FF;
-    color: white;
-    border: 2px solid white;
-    cursor: pointer;
-    border-radius: 50%;
-    opacity: 0.8; }
-  /* line 88, ../scss/_video.scss */
-  .poster .btn-play-lg:hover, .poster .btn-play-sm:hover, .poster .btn-play-md:hover {
-    background-color: #00A3FF;
-    border-color: #0072FF;
-    opacity: 0.9; }
-
-/* line 95, ../scss/_video.scss */
-.btn-play-lg::before, .btn-play-sm::before, .btn-play-md::before {
-  position: absolute;
-  top: 50%;
-  left: 53%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  font-family: "Font Awesome 5 Pro";
-  font-weight: 600;
-  content: "\f04b";
-  color: white; }
-
-/* line 107, ../scss/_video.scss */
-.btn-play-lg::before {
-  font-size: 72px; }
-
-/* line 111, ../scss/_video.scss */
-.poster .btn-play-lg {
-  height: 132px;
-  width: 132px; }
-
-/* line 116, ../scss/_video.scss */
-.btn-play-sm::before {
-  font-size: 22px; }
-
-/* line 120, ../scss/_video.scss */
-.poster .btn-play-sm {
-  height: 48px;
-  width: 48px; }
-
-/* line 125, ../scss/_video.scss */
-.btn-play-md::before {
-  font-size: 42px; }
-
-/* line 129, ../scss/_video.scss */
-.poster .btn-play-md {
-  height: 72px;
-  width: 72px; }
-
-/*----------------------------*/
-/* line 136, ../scss/_video.scss */
-#bgVideo, #ytVideo {
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  min-width: 100%;
-  min-height: 50%;
-  width: auto;
-  height: auto;
-  z-index: -1000;
-  overflow: hidden; }
-
-/* line 148, ../scss/_video.scss */
-.video-overlay {
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  min-width: 100%;
-  min-height: 50%;
-  width: auto;
-  height: auto;
-  z-index: -1000;
-  overflow: hidden;
-  z-index: -100; }
-
-/* line 161, ../scss/_video.scss */
-.transparent {
-  background: transparent; }
-
-/* line 165, ../scss/_video.scss */
-.opacity .poster img {
-  opacity: 70%; }
-
-/*----------------------------*/
-@media screen and (max-width: 1000px) {
-  /* line 171, ../scss/_video.scss */
-  .poster:nth-child(1n + 3) {
-    display: none; } }
-@media screen and (max-width: 768px) {
-  /* line 177, ../scss/_video.scss */
-  .poster:nth-child(1n + 4) {
-    display: block; } }
-@media screen and (max-width: 576px) {
-  /* line 183, ../scss/_video.scss */
-  .poster:nth-child(1n + 6) {
-    display: none; } }
-/* Scss Document */
 /* line 2, ../scss/_mine.scss */
 .content {
   font-size: 1.2rem;
@@ -9227,7 +9050,87 @@ textarea {
   .actor:hover > .thumb-wrapper:before {
     color: #E5F0FF; }
 
-/* line 186, ../scss/_mine.scss */
+/* line 187, ../scss/_mine.scss */
+.modal-spokesperson #talking-heads-video_html5_api {
+  width: 540px;
+  height: 360px; }
+/* line 188, ../scss/_mine.scss */
+.modal-spokesperson #talking-heads-video {
+  width: 540px; }
+/* line 189, ../scss/_mine.scss */
+.modal-spokesperson #form {
+  left: 111px; }
+/* line 190, ../scss/_mine.scss */
+.modal-spokesperson .modal-header, .modal-spokesperson .modal-footer {
+  width: 540px; }
+
+/* line 192, ../scss/_mine.scss */
+#form {
+  position: absolute;
+  top: 100px;
+  max-width: 320px;
+  margin: 0 auto;
+  background: #0073FF;
+  border: #00397F thin solid;
+  border-radius: .25rem;
+  color: black; }
+  /* line 193, ../scss/_mine.scss */
+  #form .holder {
+    padding: 0.5rem; }
+
+/* line 195, ../scss/_mine.scss */
+.inputs {
+  padding: .5rem; }
+  /* line 196, ../scss/_mine.scss */
+  .inputs input {
+    width: 100%;
+    margin-bottom: 4px; }
+
+/* line 198, ../scss/_mine.scss */
+#vtigerFormSubmitBtn {
+  padding: .25rem 1rem;
+  border-color: #66AAFF #66AAFF #66AAFF;
+  background-repeat: repeat-x;
+  background: #E5F0FF;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #E5F0FF 0%, #66AAFF 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #E5F0FF), color-stop(100%, #66AAFF));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #E5F0FF 0%, #66AAFF 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #E5F0FF 0%, #66AAFF 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #E5F0FF 0%, #66AAFF 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #E5F0FF 0%, #66AAFF 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$top', endColorstr='$bottom',GradientType=0 );
+  /* IE6-9 */
+  margin-bottom: .25rem; }
+  /* line 199, ../scss/_mine.scss */
+  #vtigerFormSubmitBtn:hover {
+    border-color: #E5F0FF #E5F0FF #E5F0FF;
+    background-repeat: repeat-x;
+    background: #66AAFF;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #66AAFF 0%, #E5F0FF 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #66AAFF), color-stop(100%, #E5F0FF));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #66AAFF 0%, #E5F0FF 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #66AAFF 0%, #E5F0FF 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #66AAFF 0%, #E5F0FF 100%);
+    /* IE10+ */
+    background: linear-gradient(to bottom, #66AAFF 0%, #E5F0FF 100%);
+    /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$top', endColorstr='$bottom',GradientType=0 );
+    /* IE6-9 */
+    font-weight: 600; }
+
+/* line 200, ../scss/_mine.scss */
 .thumb-wrapper {
   position: absolute;
   top: 45%;
@@ -9241,7 +9144,7 @@ textarea {
   background: rgba(229, 240, 255, 0.5);
   border-radius: 50%;
   border: -4px solid black; }
-  /* line 199, ../scss/_mine.scss */
+  /* line 213, ../scss/_mine.scss */
   .thumb-wrapper:before {
     font-size: 2rem;
     position: absolute;
@@ -9252,7 +9155,7 @@ textarea {
     bottom: auto;
     right: auto; }
 
-/* line 210, ../scss/_mine.scss */
+/* line 224, ../scss/_mine.scss */
 footer a:hover {
   color: #E5F0FF; }
 
