@@ -22,7 +22,7 @@
 	<section class="alert-info mb-3">
 		<h1 class="text-center">Talking Heads<i class="far fa-registered sup"></i> Spokeswomen</h1>
 		<div class="container">
-			<?php $spokespeople = "femaleactors"; include("includes/spokeswomen.php"); ?>
+			<?php include("includes/spokeswomen.php"); ?>
 		</div>
 	</section>
 	<section class="container-fluid bg-white">
@@ -39,8 +39,7 @@
 			</div>
 		</div>
 	</section>
-	<?php include ('includes/footer.php'); ?>
+	<?php include ('../includes/footer-spokespeople.php'); ?>
 	<?php include("../ivideo/modal-spokesperson.php"); ?>
-	<script src="../js/iVideo-spokesperson.js"></script>
 </body>
 </html>

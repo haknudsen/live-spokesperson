@@ -52,6 +52,9 @@
 						<a class="nav-link" href="../spokespeople/specialty.php">Specialty</a>
 					</li>
 				  <li class="nav-item">
+						<a class="nav-link" href="../spokespeople/examples.php">Examples</a>
+					</li>
+				  <li class="nav-item">
 						<a class="nav-link" href="../spokespeople/virtual-spokespeople/">Virtual Spokespeople</a>
 					</li>
 				</ul>

@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-	<title>Our Spokesmen|Talking Heads®</title>
+	<title>Website Spokesperson Examples</title>
 	<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1"/>
 	<meta name="keywords" content="online spokesperson, video spokesperson, website talking heads, website actor, website video, transparent flash, virtual spokesperson, spokesperson, video presenter, website presenter, website spokesperson, video salesperson, tv commercial"/>
 	<meta name="description" content="In this display you can demo our top Spokesmen.  You can use these Spokesmen for Website Spokesperson, Video Presentations, Greenscreen Video and much more...Choose from our large selection of Professional Video Spokespeople.   Contact us now to learn more."/>
@@ -20,9 +20,9 @@
 <body>
 	<?php include("../includes/nav-spokesperson.php"); ?>
 	<section class="alert-info">
-		<h1 class="text-center">Talking Heads<i class="far fa-registered sup"></i> Spokesmen</h1>
+		<h1 class="text-center">Talking Heads<i class="far fa-registered sup"></i> Examples</h1>
 		<div class="container">
-			<?php include("includes/spokesmen.php"); ?>
+			<?php include("includes/website-spokesperson-examples.php"); ?>
 		</div>
 	</section>
 	<section class="container-fluid bg-white">
@@ -40,8 +40,6 @@
 			</div>
 		</div>
 	</section>
-	<?php include ('includes/footer.php'); ?>
-	<?php include("../ivideo/modal-spokesperson.php"); ?>
-	<script src="../js/iVideo-spokesperson.js"></script>
+	<?php include ('../includes/footer-spokespeople.php'); ?>
 </body>
 </html>

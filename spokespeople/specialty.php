@@ -47,8 +47,7 @@
 			</div>
 		</div>
 	</section>
-	<?php include ('includes/footer.php'); ?>
+	<?php include ('../includes/footer-spokespeople.php'); ?>
 	<?php include("../ivideo/modal-spokesperson.php"); ?>
-	<script src="../js/iVideo-spokesperson.js"></script>
 </body>
 </html>
