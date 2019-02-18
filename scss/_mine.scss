@@ -184,10 +184,12 @@ textarea {
 	&:hover > .thumb-wrapper:before { color: #E5F0FF }
 }
 .modal-spokesperson{
-	width:540px;margin: 0 auto;
+	width:540px;margin: 0 auto;padding: 0!important;
 	#talking-heads-video_html5_api{width:540px;height: 360px}
+	.modal-footer,.modal-header{width: 540px;margin: 0 1px}
+	#form{left: 111px}
 }
-#form { position: absolute; top: 100px; max-width: 320px; margin: 0 auto; background: #0073FF; border: #00397F thin solid; border-radius: .25rem; color: black;
+#form { position: absolute; top: 100px; width: 320px; margin: 0 auto; background: #0073FF; border: #00397F thin solid; border-radius: .25rem; color: black;
 	.holder { padding: 0.5rem }
 }
 .inputs{padding: .5rem;

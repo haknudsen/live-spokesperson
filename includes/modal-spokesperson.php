@@ -5,6 +5,7 @@
 				<h5 class="modal-title" id="videoModalLabel"></h5>
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span></button>
+			
 			</div>
 			<div class="d-flex justify-content-center">
 				<video id="talking-heads-video" class="video-js" controls preload="auto" width="540" height="360" poster="" data-setup="{}">
@@ -23,9 +24,9 @@
 					<input name="name" type="hidden" value="PopUp Form">
 					<input name="__vtCurrency" type="hidden" value="1">
 					<div class="quote-top">
-						<div class="">Contact Us<button type="button" class="close" id="contactClose" aria-label="Close">
-          <span aria-hidden="true">×</span>
-        </button></div>
+						<button type="button" class="close" id="contactClose" aria-label="Close"><span aria-hidden="true">×</span></button>
+						<div class="text-center">Contact Us
+						</div>
 					</div>
 					<div class="inputs">
 						<input name="lastname" required="" type="text" maxlength="100" value="" data-label="" placeholder="Name">
