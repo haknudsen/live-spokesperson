@@ -9,6 +9,15 @@
 }
 
 .breadcrumb-item {
+	&:first-of-type{ 
+		&:before{ 
+		 display: inline-block; // Suppress underlining of the separator in modern browsers 
+		padding-right: $breadcrumb-item-padding; 
+		color: $breadcrumb-divider-color; 
+		content: "\f015"; 
+		@include font-awesome-base; 	
+		} 
+    } 
   // The separator between breadcrumbs (by default, a forward-slash: "/")
   + .breadcrumb-item {
     padding-left: $breadcrumb-item-padding;
@@ -18,9 +27,7 @@
       padding-right: $breadcrumb-item-padding;
       color: $breadcrumb-divider-color;
       content: "\f0a4";
-	  font-family: "Font Awesome 5 Pro";
-     font-style: normal;
-     font-weight: normal;
+		@include font-awesome-base; 
     }
   }
 
