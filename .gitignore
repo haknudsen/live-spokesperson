@@ -1,10 +1,10 @@
 _notes/
 /bower_components/
 /node_modules/
-# Mine
+# Mine #
 dwsync.xml
-/generator/
-/css/
+generator/
+css/
 /vendor/
 # Custom #
 # Compiled source #

@@ -12,12 +12,10 @@
 
 }
 .vjs-button > .vjs-icon-placeholder:before {
-  font-size: 1.5em;
+  font-size: 1.8em;
   line-height: 1.67;
 
-  @extend %icon-default; 
-	font-family: "Font Awesome 5 Pro";
-	font-style: normal;
+  @extend %icon-default;
 }
 
 // Replacement for focus outline

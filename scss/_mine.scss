@@ -199,10 +199,7 @@ textarea {
 	&:hover{@include gradient-mine($gray-300,$gray-100)}}
 .website{
 	max-width: 384px;
-	h3{font-size: 1.6vw;
-		@media screen and (min-width:1500px){
-			font-size: 24px;
-		}}
+	h3{font-size: 32px}
 }
 .thumb-wrapper {
     position: absolute;
@@ -229,3 +226,4 @@ textarea {
 	}
 }
 footer a:hover{color: $light;}
+.understrap-read-more-link{float: left}
