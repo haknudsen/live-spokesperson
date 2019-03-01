@@ -9,35 +9,41 @@ $dbname = "working_testimonials";
 $conn = mysqli_connect( $servername, $username, $password );
 // Check connection
 if ( !$conn ) {
-    die( "Connection failed: " . mysqli_connect_error() );
-    echo( "Connection failed: " . mysqli_connect_error() );
-    echo "<br>";
+	die( "Connection failed: " . mysqli_connect_error() );
+	echo( "Connection failed: " . mysqli_connect_error() );
+	echo "<br>";
 }
 $db = mysqli_select_db( $conn, $dbname );
 if ( !$db ) {
-    die( "Connection failed: " . mysqli_connect_error() );
-    echo "<br>";
+	die( "Connection failed: " . mysqli_connect_error() );
+	echo "<br>";
 }
 $sql = "SELECT * FROM testimonials ORDER BY rank";
 $result = $conn->query( $sql );
 if ( $result->num_rows > 0 ) {
-    echo PHP_EOL;
-    while ( $row = $result->fetch_assoc() ) {
-        $quote = $row[ "quote" ];
-        $person = $row[ "person" ];
-        $company = $row[ "company" ];
-		
-        echo( '<div class="testimonial">' );
-        echo PHP_EOL;
-        echo( '<p class="quote">' . $quote . '</p>' );
-        echo PHP_EOL;
-        echo( '<div class="person">' . $person . '-<span class="company">'. $company . '</span></div>' );
-        echo PHP_EOL;
-        echo( '   </div>' );
-        echo PHP_EOL;
-    }
+	echo PHP_EOL;
+	echo '<script>';
+	echo 'let quote = [];';
+	echo PHP_EOL;
+	echo 'let person = [];';
+	echo PHP_EOL;
+	echo 'let company = [];';
+	echo PHP_EOL;
+	while ( $row = $result->fetch_assoc() ) {
+		$quote = $row[ "quote" ];
+		$person = $row[ "person" ];
+		$company = $row[ "company" ];
+
+		echo 'testimonial[i]="' . $quote . '";';
+		echo PHP_EOL;
+		echo 'person[i]="' . $person . '";';
+		echo PHP_EOL;
+		echo 'company[i]="' . $company . '";';
+		echo PHP_EOL;
+	}
 } else {
-    echo "0 results";
+	echo "0 results";
 }
 echo PHP_EOL;
+echo '</script>';
 ?>

@@ -7488,3 +7488,33 @@ footer a:hover {
 
 .understrap-read-more-link {
   float: left; }
+
+.testimonial {
+  clear: both;
+  font-size: 1.5rem; }
+
+.quote {
+  font-weight: 400;
+  text-align: center; }
+  .quote::before {
+    font-family: "Font Awesome 5 Pro";
+    font-weight: 900;
+    font-style: normal;
+    content: "\f10d";
+    padding-right: 6px;
+    font-size: 60%;
+    vertical-align: super; }
+  .quote::after {
+    font-family: "Font Awesome 5 Pro";
+    font-weight: 900;
+    font-style: normal;
+    content: "\f10e";
+    padding-left: 6px;
+    font-size: 60%;
+    vertical-align: super; }
+
+.person {
+  float: right;
+  font-weight: 300;
+  font-style: italic;
+  margin-bottom: 2rem; }

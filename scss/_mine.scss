@@ -227,3 +227,15 @@ textarea {
 }
 footer a:hover{color: $light;}
 .understrap-read-more-link{float: left}
+.testimonial{clear:both;font-size: 1.5rem}
+.quote{font-weight: 400;text-align: center;
+&::before{
+	@include font-awesome-base();
+	 content: "\f10d";padding-right: 6px;font-size:60%;vertical-align:super
+}
+&::after{
+	@include font-awesome-base();
+	 content: "\f10e";padding-left: 6px;font-size:60%;vertical-align:super;
+}
+	}
+.person{float: right;font-weight: 300;font-style: italic;margin-bottom: 2rem}
