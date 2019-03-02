@@ -1,0 +1,13 @@
+/* Scss Document */
+.content { font-size: 1.2rem; color: #000011 }
+#spokesperson_videos .card-title { font-size: 1.8rem; min-height: 76px }
+.list-style { font-size: 0.8rem;
+@media screen and (max-width:1200px) {
+	font-size: 0.8rem;
+}
+}
+.list-style-item { position: relative; display: block; padding: .5rem 1.25rem; margin-bottom: -1px; background-color: #fff; border: 1px solid rgba(0,0,0,.125); }
+.list-price { line-height: 1; text-align: center; margin: 2rem auto 0 }
+.starting { font-size: 60%; vertical-align: super }
+.bd-bottom { border-bottom: thin solid #3D9CEB }
+.award-text { line-height: 1; font-weight: 300; font-size: 1vw }

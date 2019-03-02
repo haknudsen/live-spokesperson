@@ -1,11 +1,28 @@
 _notes/
 /bower_components/
 /node_modules/
-# Mine #
+# Mine
+/css/
+/generator/
+/lightbox/
+/specials/custom-theme
+/specials/wthvideo
+/specials/volume
+/specials/fireworks
+/video-spokesperson/player
+spokespeople/js
+/resellers/player/caurina
+/specials/wthvideo/
+videos/
 dwsync.xml
-generator/
-css/
-/vendor/
+=======
+/create-canvas/**
+/createfilesandcode-amber/**
+/filesandcode/**
+/carimages/
+/images/
+/spokespeople/load/
+/global-medical-facilitators121712/
 # Custom #
 # Compiled source #
 ###################
@@ -111,3 +128,5 @@ docs/.jekyll-metadata
 # Folders to ignore
 bower_components
 node_modules
+Adobe After Effects Auto-Save
+routesforsale
