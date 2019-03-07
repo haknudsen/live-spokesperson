@@ -44,6 +44,7 @@ $(document).ready(function () {
 //nav
 $(document).ready(function () {
 	var title = $(document).find("title").text();
+	console.log( title );
 	if (title.indexOf("About") > -1) {
 		$('#about').addClass("active");
 	} else if (title.indexOf("Styles") > -1) {

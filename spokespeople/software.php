@@ -25,31 +25,43 @@
 		</div>
 	</section>
 	<section class="alert alert-info">
-		<h3>What to Look for In Website Spokesperson Software</h3>
-		<p>Are you looking for a virtual spokesperson to put on your home page? You need to know if the company you are currently checking out actually offers the best value for your money.</p>
-		<h3>What is a Website Spokesperson?</h3>
-		<p>Video spokespeople are different from the auto-play videos that are in a box that you see in most websites. A virtual spokesperson is a border-less video with a transparent background. It looks like the spokesperson stepped out of the website. This will grab the attention of website visitors, so they will listen to the spokesperson.</p>
-		<h3>What options for virtual spokespersons are available?</h3>
-		<p>There are many companies that offer website spokesperson software. You can choose a spokesperson and provide your own script. However, many companies charge a hefty price for their services. Some charge more than $500 for a 30-second video clip. The good news is that you can shop around. You will find services that are much more affordable and still get quality spokesperson videos.</p>
-		<h3>Can You add a Spokesperson to any website?</h3>
-		<p>At the bare minimum you need to be able to add a line of javascript to your page. If your web hosting service allows you to load files onto the server, you can use a website spokesperson. You do not have to write a single line of code, the company who does offer this kind of service will do all the work for you. </p>
-		<p>However, with that said, you should be wary of website spokesperson software that does not allow you to host your own video on your own server. There will be nothing you could do if they accidentally remove your video from their servers. Another warning sign to look for is monthly fees for their service. A website spokesperson video should only have a one-time fee. If they require a monthly fee that the company is not worth your time or money.</p>
-		<div style="width: 100%;max-width:1280px;margin:0 auto;padding:1rem">
-			<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-				<a href="http://www.talkingheads.com/spokespeople">  <img src="http://seovideoexperts.com/wp-content/uploads/wp_image_duplicator_uploads/Virtual Actor.jpg" alt="Web Spokesperson"></a> </div>
-		</div>
 	</section>
 	<section class="container-fluid bg-white my-3">
 		<div class="container">
-			<div class="card middle">
-				<h3 class="card-header bg-gradient-mine text-center text-white">Talking Heads<i class="far fa-registered sup"></i> <em>Spokespeople</em></h3>
-				<?php $video="Professional Spokespeople";$alt="Some of our Professional Spokespeople"; include("../ivideo/showInline.php"); ?>
-				<div class="card-body">
-					<p class="card-text">A Website Spokesperson Video is very engaging for visitors to your website. It gives your website a face making it easier to relate to and increasing brand recognition. Online, gaining your client's trust is key to a successful business.</p>
-					<p class="card-text">A spokesperson video is the best option when it comes to giving information. People are more likely to pay attention to a spokesperson speaking to them instead of reading a lot of text.</p>
-					<p class="card-text">You can have your spokesperson weclcome visitors to your site. Then quickly point out important parts of the page.</p>
+			<h2 class="text-center">Website Spokesperson Software</h2>
+			<div class="card-deck">
+				<div class="card">
+					<h3 class="card-header bg-gradient-mine text-center text-white">Features</h3>
+					<div class="card-body">
+						<h6 class="card-subtitle mb-2 text-muted">Best Custom Features on the Market</h6>
+						<p class="card-text">Your Website Spokesperson comes with the most robust, free, copyrighted player on the market today. No one has over 30 variable features included free. You can control all of the following and much more. </p>
+						<ul class="list-group list-group-flush text-capitalize">
+							<li class="list-group-item">Position the Player Responsively</li>
+							<li class="list-group-item">Choose weather or not to show on devices</li>
+							<li class="list-group-item">Choose the player's position on the page</li>
+							<li class="list-group-item">Choose how to use cookies</li>
+							<li class="list-group-item">Choose how the player starts</li>
+							<li class="list-group-item">Choose if the player stays on the page when done</li>
+						</ul>
+					</div>
+					<div class="card-footer text-muted bg-gradient-mine text-right"><a href="../spokespeople/" title="Spokespeople"><em>More...</em></a>
+					</div>
 				</div>
-				<div class="card-footer text-muted bg-gradient-mine text-right"><a href="../spokespeople/" title="Spokespeople"><em>More...</em></a>
+				<div class="card">
+					<h3 class="card-header bg-gradient-mine text-center text-white">Innovations</h3>
+					<div class="card-body">
+						<h6 class="card-subtitle mb-2 text-muted">Website Spokesperson Software</h6>
+						<p class="card-text">We have been making Website Spokespeople for more than a decade. We were the first to add a spokesperson with a transparent background.</p>
+						<p class="card-text">Now we use HTML5 to produce a video with Transparent background on Desktops, Laptops, and many Devices. We are continually updating our player with feedback from our clients. So if there is a feature you are interested in let us know.</p>
+						<ul class="list-group list-group-flush text-capitalize">
+							<li class="list-group-item">Increase Credibility</li>
+							<li class="list-group-item">Get Viewers Empathize With You</li>
+							<li class="list-group-item">Get Viewers To Trust You</li>
+							<li class="list-group-item">Increase Leads And Conversions</li>
+						</ul>
+					</div>
+					<div class="card-footer text-muted bg-gradient-mine text-right"><a href="../spokespeople/" title="Spokespeople"><em>More...</em></a>
+					</div>
 				</div>
 			</div>
 		</div>
