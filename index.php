@@ -189,7 +189,7 @@
 				<div class="card-header bg-gradient-mine">
 					<h4 class="card-title text-light">Best Video Production</h4>
 				</div>
-				<a href="#" data-toggle="tooltip" title="Winner Best Web Design Agencies - Video Production"><img class="card-img-top" id="best-video"  alt="Winner in Video Production" src="https://www.websitetalkingheads.com/images/video-production-winner.png"></a>
+				<a id="best-video" href="#" data-toggle="tooltip" title="Winner Best Web Design Agencies - Video Production"><img class="card-img-top" alt="Winner in Video Production" src="https://www.websitetalkingheads.com/images/video-production-winner.png"></a>
 				<div class="card-body">
 					<h5 class="card-title text-center">Engaging Video</h5>
 					<p class="card-text">Our video presentations focus on your essential vision without breaking your bank. Great for your Website Demonstration, Sales Video, or Product Walk-though. </p>
@@ -212,7 +212,7 @@
 			</div>
 			<div class="card">
 				<div class="card-header bg-gradient-mine">
-					<h4 class="card-title text-light">#1 Video Spokespeople</h4>
+					<h4 class="card-title text-light">#1 in Spokespeople</h4>
 				</div>
 				<a href="http://www.topseos.com/rankings-of-best-virtual-spokesperson-companies" data-toggle="tooltip" title="#1 in Video Spokesperson"><img class="card-img-top" src="https://websitetalkingheads.com/images/video-spokesperson-seal.png"  alt="Best in Video Spokesperson" id="base-img"  /></a>
 				<div class="card-body">
