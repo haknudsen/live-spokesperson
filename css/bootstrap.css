@@ -9019,7 +9019,7 @@ textarea {
 
 /* line 178, ../scss/_my-custom.scss */
 .sidebar .nav-link {
-  color: #E5F0FF !important; }
+  color: #E5F0FF; }
 
 /* line 179, ../scss/_my-custom.scss */
 .actor img {

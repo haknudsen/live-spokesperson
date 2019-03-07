@@ -3,7 +3,7 @@
 
 <head>
 	<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-	<title>Virtual Spokespeople</title>
+	<title>Virtual Spokespeople by Live-Spokesperson</title>
 	<meta content="width=device-width, initial-scale=1" name="viewport">
 	<meta content="Professional Spokesperson, Video Spokesperson, Virtual Spokesperson, Website Spokesperson, Web Spokesperson, Spokes-model, Walk On Actor, Virtual Actor, Person On Website, Online Spokesperson" name="keywords">
 	<meta content="Learn about Virtual Spokespeople from Live-Spokesperson.com. Our professionally created spokesperson video will help super-charge your website" name="description">
@@ -24,7 +24,7 @@
 </head>
 
 <body>
-	<?php include("../../includes/nav.php"); ?>
+	<?php include("../../includes/nav-spokesperson.php"); ?>
 	<section class="jumbotron">
 		<div>
 			<h1 class="text-center">Virtual Spokespeople<i class="far fa-registered smaller"></i></h1>
@@ -109,7 +109,7 @@
 				</div>
 				<div class="card-body">
 					<div class="content">
-						<p>Video spokespeople are different from the auto-play videos that are in a box that you see in most websites. A virtual spokesperson is a border-less video with a transparent background.   It looks like the spokesperson stepped out of the website. This will grab the attention of website visitors, so they will listen to the spokesperson.</p>
+						<p>Video spokespeople are different from the auto-play videos that are in a box that you see in most websites. A virtual spokesperson is a border-less video with a transparent background. It looks like the spokesperson stepped out of the website. This will grab the attention of website visitors, so they will listen to the spokesperson.</p>
 						<p>Website spokesperson software should allow you to host your own video on your own server. There will be nothing you could do if they 'accidentally' remove your video from their servers. A website spokesperson video should only have a one-time fee, not a monthly fee.</p>
 					</div>
 				</div>
@@ -130,29 +130,10 @@
 			</div>
 	</section>
 	<?php include("../../includes/awards.php"); ?>
-	<?php include("../../includes/footer.php"); ?>
+	<?php include("../../includes/footer-spokespeople.php"); ?>
 	<?php include("../../includes/modal.php");?>
 	<script src="https://vjs.zencdn.net/7.2.4/video.js"></script>
 	<script src="../../js/iVideo.js"></script>
 	<script src="../../js/nav.js"></script>
-	<!-- Google Code for Previous Visitors -->
-	<!-- Remarketing tags may not be associated with personally identifiable
-        information or placed on pages related to sensitive categories. For instructions
-        on adding this tag and more information on the above requirements, read
-        the setup guide: google.com/ads/remarketingsetup -->
-	<noscript>
-		<div style="display:inline;">
-			<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1058129782/?value=0&amp;label=-jOyCO6ZkAIQ9o7H-AM&amp;guid=ON&amp;script=0">
-		</div>
-	</noscript>
-	<noscript>
-            <img src="//adpxl.co/EtvJXNHK/spacer.gif">
-        </noscript>
-
-
-
-
-
-
 </body>
 </html>

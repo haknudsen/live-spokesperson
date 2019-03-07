@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-	<title>Website Spokesperson Examples</title>
+	<title>Website Spokesperson Software</title>
 	<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1"/>
 	<meta name="keywords" content="online spokesperson, video spokesperson, website talking heads, website actor, website video, transparent flash, virtual spokesperson, spokesperson, video presenter, website presenter, website spokesperson, video salesperson, tv commercial"/>
 	<meta name="description" content="In this display you can demo our top Spokesmen.  You can use these Spokesmen for Website Spokesperson, Video Presentations, Greenscreen Video and much more...Choose from our large selection of Professional Video Spokespeople.   Contact us now to learn more."/>

@@ -17,9 +17,9 @@ $(document).ready(function () {
 (function ($) {
 	'use strict';
 	$.fn.padAward = function () {
-		console.log( $('#best-video').height() );
-		console.log( $('#best-video').width() );
-		var p = ($('#best-video').width() - $('#best-video').height())/2;
+		console.log($('#best-video').height());
+		console.log($('#best-video').width());
+		var p = ($('#best-video').width() - $('#best-video').height()) / 2;
 		$('#best-video').css("padding", p + "px 0");
 	};
 	$.fn.padHeight = function () {
@@ -44,14 +44,46 @@ $(document).ready(function () {
 //nav
 $(document).ready(function () {
 	var title = $(document).find("title").text();
-	console.log( title );
-	if (title.indexOf("About") > -1) {
-		$('#about').addClass("active");
-	} else if (title.indexOf("Styles") > -1) {
-		$('#styles').addClass("active");
-	} else if (title.indexOf("Spokespeople") > -1) {
-		$('#spokespeople').addClass("active");
-	} else {
-		$('#home').addClass("active");
+	console.log(title);
+	switch (title) {
+		case "About Live Spokesperson":
+			$('#about').addClass("active");
+			break;
+		case "Articles from Live-Spokesperson.com":
+			$('#articles').addClass("active");
+			break;
+		case "Live Spokesperson Home":
+			$('#home').addClass("active");
+			break;
+		case "Spokespeople by Live-Spokesperson.com":
+			$('#spokespeople').addClass("active");
+			$('#spokesperson-main').addClass("active");
+			break;
+		case "Our Spokesmen|Live-Spokesperson":
+			$('#spokespeople').addClass("active");
+			$('#spokesperson-men').addClass("active");
+			break;
+		case "Our Spokeswomen|Live-Spokesperson":
+			$('#spokespeople').addClass("active");
+			$('#spokesperson-women').addClass("active");
+			break;
+		case "Specialty Spokespeople|Live-Spokesperson":
+			$('#spokespeople').addClass("active");
+			$('#spokesperson-specialty').addClass("active");
+			break;
+		case "Website Spokesperson Examples":
+			$('#spokespeople').addClass("active");
+			$('#spokesperson-examples').addClass("active");
+			break;
+		case "Website Spokesperson Software":
+			$('#spokespeople').addClass("active");
+			$('#spokesperson-software').addClass("active");
+			break;
+		case "Virtual Spokespeople by Live-Spokesperson":
+			$('#spokespeople').addClass("active");
+			$('#spokesperson-software').addClass("active");
+			break;
+		default:
+			break;
 	}
 })
