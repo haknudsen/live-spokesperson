@@ -200,6 +200,9 @@ textarea {
 .website{
 	max-width: 384px;
 	h3{font-size: 32px}
+	img{	transition: all .2s ease-in-out;
+	&:hover{transform: scale(1.1);}
+		}
 }
 .thumb-wrapper {
     position: absolute;
