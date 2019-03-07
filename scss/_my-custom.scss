@@ -175,7 +175,7 @@ textarea {
 .list-group-indent{padding-left: 2rem}
 .card-columns h3{font-size:  1.25rem}
 .sidebar{font-size: 0.8rem;padding-right: 0;position: fixed;top: 137px}
-.sidebar .nav-link {color: #E5F0FF}
+.sidebar .nav-link {color: #E5F0FF!important}
 .actor img{width: 160px;height: 180px}
 .sup{font-size: 50%;line-height: 0;vertical-align: super}
 .actor{position: relative;width: 160px;margin: 0 auto;
@@ -199,10 +199,9 @@ textarea {
 	&:hover{@include gradient-mine($gray-300,$gray-100)}}
 .website{
 	max-width: 384px;
+	transition: all .2s ease-in-out;
 	h3{font-size: 32px}
-	img{	transition: all .2s ease-in-out;
 	&:hover{transform: scale(1.1);}
-		}
 }
 .thumb-wrapper {
     position: absolute;

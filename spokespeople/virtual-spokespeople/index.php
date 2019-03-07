@@ -3,7 +3,7 @@
 
 <head>
 	<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-	<title>Virtual Spokespeople by Live-Spokesperson</title>
+	<title>Virtual Spokespeople</title>
 	<meta content="width=device-width, initial-scale=1" name="viewport">
 	<meta content="Professional Spokesperson, Video Spokesperson, Virtual Spokesperson, Website Spokesperson, Web Spokesperson, Spokes-model, Walk On Actor, Virtual Actor, Person On Website, Online Spokesperson" name="keywords">
 	<meta content="Learn about Virtual Spokespeople from Live-Spokesperson.com. Our professionally created spokesperson video will help super-charge your website" name="description">
@@ -25,7 +25,7 @@
 
 <body>
 	<?php include("../../includes/nav-spokesperson.php"); ?>
-	<section class="jumbotron">
+	<section class="alert-info pt-1">
 		<div>
 			<h1 class="text-center">Virtual Spokespeople<i class="far fa-registered smaller"></i></h1>
 			<div class="row align-items-center">
@@ -38,7 +38,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="alert alert-info">
+	<section class="container-fluid">
 		<h2 class="text-center">Virtual Spokespeople Info</h2>
 		<div class="">
 			<div class="card-group">
@@ -109,7 +109,7 @@
 				</div>
 				<div class="card-body">
 					<div class="content">
-						<p>Video spokespeople are different from the auto-play videos that are in a box that you see in most websites. A virtual spokesperson is a border-less video with a transparent background. It looks like the spokesperson stepped out of the website. This will grab the attention of website visitors, so they will listen to the spokesperson.</p>
+						<p>Video spokespeople are different from the auto-play videos that are in a box that you see in most websites. A virtual spokesperson is a border-less video with a transparent background.   It looks like the spokesperson stepped out of the website. This will grab the attention of website visitors, so they will listen to the spokesperson.</p>
 						<p>Website spokesperson software should allow you to host your own video on your own server. There will be nothing you could do if they 'accidentally' remove your video from their servers. A website spokesperson video should only have a one-time fee, not a monthly fee.</p>
 					</div>
 				</div>
@@ -129,11 +129,7 @@
 				</div>
 			</div>
 	</section>
-	<?php include("../../includes/awards.php"); ?>
 	<?php include("../../includes/footer-spokespeople.php"); ?>
 	<?php include("../../includes/modal.php");?>
-	<script src="https://vjs.zencdn.net/7.2.4/video.js"></script>
-	<script src="../../js/iVideo.js"></script>
-	<script src="../../js/nav.js"></script>
 </body>
 </html>

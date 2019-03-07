@@ -1,21 +1,21 @@
 /*
-Error: Undefined variable: "$grey-800".
-        on line 29 of E:\My Stuff\My Web Sites\live-spokesperson\scss\_mine.scss
+Error: Undefined variable: "$gray-100".
+        on line 89 of D:\Websites\live-spokesperson\scss\_mine.scss
 
-24: .center { margin: auto }
-25: article { text-indent: 1rem; line-height: 1.1; font-size: 0.8rem;text-align: justify}
-26: p { text-indent: 1rem }
-27: .card-block { padding: .5rem; text-align: justify; line-height: 1.2 }
-28: .card-footer { font-size: .8rem; font-weight: 700;margin: 0 }
-29: .card-footer a{color: $grey-800}
-30: .card-footer a:hover{color: $grey-900}
-31: .card-top { align-items: center }
-32: .card-title{font-size: 1.2rem}
-33: .card-primary{border-color: $primary}
-34: .line-1{line-height: 1}
+84: 	font-size: .8rem;
+85: 	font-weight: 700;
+86: 	margin: 0;
+87: }
+88: .card-footer a {
+89: 	color: $gray-100;
+90: }
+91: .card-footer a:hover {
+92: 	color: $gray-200;
+93: }
+94: .card-top {
 
 Backtrace:
-E:\My Stuff\My Web Sites\live-spokesperson\scss\_mine.scss:29
+D:\Websites\live-spokesperson\scss\_mine.scss:89
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -48,10 +48,9 @@ C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/s
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:161:in `visit'
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:10:in `visit'
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/root_node.rb:36:in `css_tree'
-C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
-C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/engine.rb:389:in `_render_with_sourcemap'
-C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/engine.rb:307:in `render_with_sourcemap'
-C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/exec/sass_scss.rb:391:in `run'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/root_node.rb:20:in `render'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/engine.rb:290:in `render'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/exec/sass_scss.rb:400:in `run'
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/exec/sass_scss.rb:63:in `process_result'
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/exec/base.rb:52:in `parse'
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/exec/base.rb:19:in `parse!'
@@ -62,4 +61,4 @@ C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/bin/sass:23:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$grey-800\".\A         on line 29 of E:\My Stuff\My Web Sites\live-spokesperson\scss\_mine.scss\A \A 24: .center { margin: auto }\A 25: article { text-indent: 1rem; line-height: 1.1; font-size: 0.8rem;text-align: justify}\A 26: p { text-indent: 1rem }\A 27: .card-block { padding: .5rem; text-align: justify; line-height: 1.2 }\A 28: .card-footer { font-size: .8rem; font-weight: 700;margin: 0 }\A 29: .card-footer a{color: $grey-800}\A 30: .card-footer a:hover{color: $grey-900}\A 31: .card-top { align-items: center }\A 32: .card-title{font-size: 1.2rem}\A 33: .card-primary{border-color: $primary}\A 34: .line-1{line-height: 1}"; }
+  content: "Error: Undefined variable: \"$gray-100\".\A         on line 89 of D:\Websites\live-spokesperson\scss\_mine.scss\A \A 84: 	font-size: .8rem;\A 85: 	font-weight: 700;\A 86: 	margin: 0;\A 87: }\A 88: .card-footer a {\A 89: 	color: $gray-100;\A 90: }\A 91: .card-footer a:hover {\A 92: 	color: $gray-200;\A 93: }\A 94: .card-top {"; }

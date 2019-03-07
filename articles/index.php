@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Articles from Live-Spokesperson.com</title>
-	<meta name="title" content="Articles from Live-Spokesperson.com">
+	<title>Online Video from Live-Spokesperson.com</title>
+	<meta name="title" content="Online Video from Live-Spokesperson.com">
 	<meta name="description" content="Searching for a new way to bring life to your website and attract more interest from those who visit it? Get a spokesperson from Live-Spokesperson.">
 	<meta name="keywords" content="Video Spokesperson,Website Spokesperson,Online Marketing Video Production,Hire A Spokesperson,Website Video Spokesperson,Video Spokesperson Software,Your Video Spokesperson,Live Spokesperson">
 	<meta name="robots" content="index, follow">
