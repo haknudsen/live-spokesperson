@@ -20,30 +20,33 @@ if ( !$db ) {
 }
 $sql = "SELECT * FROM testimonials ORDER BY rank";
 $result = $conn->query( $sql );
+$i = 0;
 if ( $result->num_rows > 0 ) {
-	echo PHP_EOL;
-	echo '<script>';
-	echo 'let quote = [];';
-	echo PHP_EOL;
-	echo 'let person = [];';
-	echo PHP_EOL;
-	echo 'let company = [];';
-	echo PHP_EOL;
 	while ( $row = $result->fetch_assoc() ) {
 		$quote = $row[ "quote" ];
 		$person = $row[ "person" ];
 		$company = $row[ "company" ];
-
-		echo 'testimonial[i]="' . $quote . '";';
 		echo PHP_EOL;
-		echo 'person[i]="' . $person . '";';
+		if ( $i > 0 ) {
+			echo '<div class="carousel-item text-center p-4">';
+		} else {
+			echo '<div class="carousel-item active text-center p-4">';
+		}
 		echo PHP_EOL;
-		echo 'company[i]="' . $company . '";';
+		echo '	<div class="quote"><i class="fas fa-quote-left i-sup"></i>' . $quote . '<i class="fas fa-quote-right i-sup"></i></div>';
 		echo PHP_EOL;
+		echo '	<div class="subject">';
+		echo $person . ' - ' . $company;
+		echo '</div>';
+		echo PHP_EOL;
+		echo '</div>';
+		echo PHP_EOL;
+		$i++;
 	}
 } else {
 	echo "0 results";
 }
 echo PHP_EOL;
 echo '</script>';
+echo PHP_EOL;
 ?>

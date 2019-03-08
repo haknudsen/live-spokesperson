@@ -3,7 +3,7 @@
 
 <head>
 	<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-	<title>About Live Spokesperson</title>
+	<title>Live Spokesperson Testimonials</title>
 	<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
 	<meta content="Custom Video,Website Video,Video Presentation,Animation,Custom Illustration,Whiteboard Video,Explainer Video" name="keywords">
 	<meta content="Learn about Live-Spokesperson.com  From a simple and quick message to Product Demonstrations, Website Walk-throughs, Training, or Sales. " name="description">
@@ -21,10 +21,25 @@
 
 <body>
 	<?php include("../includes/nav.php"); ?>
-	<section class="jumbotron">
-		<?php include ('includes/testimonials-database.php'); ?>
+	<section class="alert alert-info">
+	<br><br>
+<div class="container testimonial">
+    <div id="carouselContent" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner" role="listbox">
+			<?php include ('includes/testimonials-database.php'); ?>
+        </div>
+        <a class="carousel-control-prev" href="#carouselContent" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselContent" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</div>
 	</section>
 	<?php include("../includes/footer.php"); ?>
 	<?php include("../includes/modal.php");?>
-	</body>
+</body>
 </html>
