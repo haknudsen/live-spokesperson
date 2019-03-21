@@ -5,8 +5,8 @@
 	<meta charset="utf-8">
 	<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
-	<title>Our Video Spokespeople</title>
-	<meta name="description" content="Demos for our Video Spokespeople.  At Website Talking Heads® we pride ourselves on our high quality, successful spokespeople.">
+	<title>Spokespeople by Live-Spokesperson.com</title>
+	<meta name="description" content="Why use Website Spokespeople by Live-Spokesperson.com  At Website Talking Heads® we pride ourselves on our high quality, successful spokespeople.">
 	<meta name="keywords" content="Spokespeople, Video Spokesperson, Virtual Spokesperson, Website Spokesperson, Web Spokesperson, Spokesmodel, Walk On Actor,Virtual Actor, Person on Website, Online Spokesperson.">
 	<?php include("../includes/head.php"); ?>
 </head>

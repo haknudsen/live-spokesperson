@@ -124,7 +124,7 @@
 					<p class="card-text">Find a Spokesperson to ones website to greet visitors and direct these phones key areas. Increase conversions and boost potential customers. Uses mp4 and canvas for transparent effect on computer, when it detects mobile or portable device uses usual MP4.</p>
 				</div>
 				<div class="card-footer bg-gradient-mine">
-					<a href="#" class="card-link float-right">More...</a>
+					<a href="spokespeople/index.php" class="card-link float-right">More...</a>
 				</div>
 			</div>
 			<div class="card">
@@ -155,7 +155,7 @@
 				<div>Our Professional, Custom video Presentations supply you with a video Spokesperson, Skilled editing, Action Graphics, and lots of Images along with Effects. Ideal for your Company or Business video, a service Demonstration and also Demonstration of your website or even Software.</div>
 			</div>
 			<div class="card-footer bg-gradient-mine">
-				<a href="#" class="card-link float-right">More...</a>
+				<a href="styles/custom-presentations/" class="card-link float-right">More...</a>
 			</div>
 		</div>
 	</section>
@@ -180,8 +180,8 @@
 				</div>
 				<div class="card-footer text-center bg-gradient-mine">
 					<div class="row">
-						<div class="col-6"> <a class="card-link" href="#">About Us</a> </div>
-						<div class="col-6"> <a class="card-link" href="#">Examples</a> </div>
+						<div class="col-6"> <a class="card-link" href="about/">About Us</a> </div>
+						<div class="col-6"> <a class="card-link" href="http://www.live-spokesperson.com/styles/">Examples</a> </div>
 					</div>
 				</div>
 			</div>
@@ -205,8 +205,8 @@
 				</div>
 				<div class="card-footer text-center bg-gradient-mine">
 					<div class="row">
-						<div class="col-6"> <a class="card-link" href="#">Presentations</a> </div>
-						<div class="col-6"> <a class="card-link" href="#">Video Seo</a> </div>
+						<div class="col-6"> <a class="card-link" href="styles/custom-presentations/">Presentations</a> </div>
+						<div class="col-6"> <a class="card-link" href="spokespeople/virtual-spokespeople/">Video Seo</a> </div>
 					</div>
 				</div>
 			</div>
@@ -222,8 +222,8 @@
 				</div>
 				<div class="card-footer text-center bg-gradient-mine">
 					<div class="row">
-						<div class="col-6"> <a class="card-link" href="#">Spokespeople</a> </div>
-						<div class="col-6"> <a class="card-link" href="#">Player</a> </div>
+						<div class="col-6"> <a class="card-link" href="spokespeople/index.php">Spokespeople</a> </div>
+						<div class="col-6"> <a class="card-link" href="spokespeople/software.php">Software</a> </div>
 					</div>
 				</div>
 			</div>

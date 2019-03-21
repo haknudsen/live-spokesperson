@@ -25,7 +25,7 @@
 			<?php include("includes/website-spokesperson-examples.php"); ?>
 		</div>
 	</section>
-	<section class="container-fluid bg-white">
+	<section class="container-fluid bg-white my-3">
 		<div class="container">
 			<div class="card middle">
 				<h3 class="card-header bg-gradient-mine text-center text-white">Talking Heads<i class="far fa-registered sup"></i> <em>Spokespeople</em></h3>

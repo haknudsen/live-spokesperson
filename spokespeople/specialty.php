@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-	<title>Specialty Spokespeople|Talking Heads®</title>
+	<title>Specialty Spokespeople|Live-Spokesperson</title>
 	<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1"/>
 	<meta name="keywords" content="online spokesperson, video spokesperson, website talking heads, website actor, website video, transparent flash, virtual spokesperson, spokesperson, video presenter, website presenter, website spokesperson, video salesperson, tv commercial"/>
 	<meta name="description" content="In this display you can demo our top Specialty Spokespeople.  You can use these Specialty Spokespeople for Website Spokesperson, Video Presentations, Greenscreen Video and much more...Choose from our large selection of Professional Video Spokespeople.   Contact us now to learn more."/>
