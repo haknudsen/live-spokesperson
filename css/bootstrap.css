@@ -10523,145 +10523,160 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 /* Scss Document */
-/* line 15, ../scss/_player.scss */
+/* line 22, ../scss/_player.scss */
 #btn-play {
   font-family: "Font Awesome 5 Pro";
   font-weight: normal;
   font-style: normal;
   cursor: pointer;
 }
-/* line 20, ../scss/_player.scss */
+/* line 27, ../scss/_player.scss */
 #btn-play:before {
-  content: char("f144");
+  content: "\f144";
 }
 
-/* line 15, ../scss/_player.scss */
+/* line 22, ../scss/_player.scss */
 #btn-pause {
   font-family: "Font Awesome 5 Pro";
   font-weight: normal;
   font-style: normal;
   cursor: pointer;
 }
-/* line 20, ../scss/_player.scss */
+/* line 27, ../scss/_player.scss */
 #btn-pause:before {
-  content: char("f28b");
+  content: "\f28b";
 }
 
-/* line 15, ../scss/_player.scss */
+/* line 22, ../scss/_player.scss */
 #btn-stop {
   font-family: "Font Awesome 5 Pro";
   font-weight: normal;
   font-style: normal;
   cursor: pointer;
 }
-/* line 20, ../scss/_player.scss */
+/* line 27, ../scss/_player.scss */
 #btn-stop:before {
-  content: char("f28d");
+  content: "\f28d";
 }
 
-/* line 15, ../scss/_player.scss */
+/* line 22, ../scss/_player.scss */
 #btn-restart {
   font-family: "Font Awesome 5 Pro";
   font-weight: normal;
   font-style: normal;
   cursor: pointer;
 }
-/* line 20, ../scss/_player.scss */
+/* line 27, ../scss/_player.scss */
 #btn-restart:before {
-  content: char("f3e5");
+  content: "\f2ea";
 }
 
-/* line 15, ../scss/_player.scss */
+/* line 22, ../scss/_player.scss */
 #btn-volume-mute {
   font-family: "Font Awesome 5 Pro";
   font-weight: normal;
   font-style: normal;
   cursor: pointer;
 }
-/* line 20, ../scss/_player.scss */
+/* line 27, ../scss/_player.scss */
 #btn-volume-mute:before {
-  content: char("f6a9");
+  content: "\f6a9";
 }
 
-/* line 15, ../scss/_player.scss */
+/* line 22, ../scss/_player.scss */
 #btn-volume-low {
   font-family: "Font Awesome 5 Pro";
   font-weight: normal;
   font-style: normal;
   cursor: pointer;
 }
-/* line 20, ../scss/_player.scss */
+/* line 27, ../scss/_player.scss */
 #btn-volume-low:before {
-  content: char("f105");
+  content: "\f105";
 }
 
-/* line 15, ../scss/_player.scss */
+/* line 22, ../scss/_player.scss */
 #btn-volume-mid {
   font-family: "Font Awesome 5 Pro";
   font-weight: normal;
   font-style: normal;
   cursor: pointer;
 }
-/* line 20, ../scss/_player.scss */
+/* line 27, ../scss/_player.scss */
 #btn-volume-mid:before {
-  content: char("f106");
+  content: "\f106";
 }
 
-/* line 15, ../scss/_player.scss */
+/* line 22, ../scss/_player.scss */
 #btn-volume-high {
   font-family: "Font Awesome 5 Pro";
   font-weight: normal;
   font-style: normal;
   cursor: pointer;
 }
-/* line 20, ../scss/_player.scss */
+/* line 27, ../scss/_player.scss */
 #btn-volume-high:before {
-  content: char("f107");
+  content: "\f107";
 }
 
-/* line 15, ../scss/_player.scss */
+/* line 22, ../scss/_player.scss */
 #btn-fullscreen-enter {
   font-family: "Font Awesome 5 Pro";
   font-weight: normal;
   font-style: normal;
   cursor: pointer;
 }
-/* line 20, ../scss/_player.scss */
+/* line 27, ../scss/_player.scss */
 #btn-fullscreen-enter:before {
-  content: char("f047");
+  content: "\f424";
 }
 
-/* line 15, ../scss/_player.scss */
+/* line 22, ../scss/_player.scss */
 #btn-fullscreen-exit {
   font-family: "Font Awesome 5 Pro";
   font-weight: normal;
   font-style: normal;
   cursor: pointer;
 }
-/* line 20, ../scss/_player.scss */
+/* line 27, ../scss/_player.scss */
 #btn-fullscreen-exit:before {
-  content: char("f422");
+  content: "\f422";
 }
 
 /* Scss Document */
-/* line 2, ../scss/_talking-head.scss */
+/* line 4, ../scss/_talking-head.scss */
 #controls {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  padding: 3px;
   position: absolute;
   bottom: 0;
   top: auto;
-  background: rgba(0, 163, 255, 0.5);
+  font-size: 2rem;
+  background: rgba(0, 163, 255, 0.8);
+  border: #00A3FF thin solid;
+  color: #E5F0FF;
 }
-/* line 12, ../scss/_talking-head.scss */
-#controls div {
+/* line 16, ../scss/_talking-head.scss */
+#controls div, #controls #progress-bar, #controls #volume-bar {
   float: left;
+  padding: 6px;
+}
+/* line 20, ../scss/_talking-head.scss */
+#controls div {
+  width: 44px;
+}
+/* line 21, ../scss/_talking-head.scss */
+#controls #progress-bar {
+  margin-top: 14px;
+}
+/* line 24, ../scss/_talking-head.scss */
+#controls #volume-bar {
+  margin-top: 16px;
 }
 
-/* line 16, ../scss/_talking-head.scss */
+/* line 28, ../scss/_talking-head.scss */
 #player-holder {
   width: 100%;
   margin: 0;

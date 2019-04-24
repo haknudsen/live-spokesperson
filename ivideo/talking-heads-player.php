@@ -24,12 +24,12 @@
 			</p>
 		</video>
 		<div id='controls'>
-			<progress id='progress-bar' min='0' max='100' value='0'>0% played</progress>
 			<div id='btn-restart' title='replay' accesskey="R" onclick='replayVideo();'></div>
 			<div id='btn-play'  title='play' accesskey="P" onclick='playPauseVideo();'></div>
 			<div id='btn-stop'title='stop' accesskey="X" onclick='stopVideo();'></div>
 			<input type='range' id='volume-bar' title="volume" min='0' max='1' step='0.1' value='1'>
 			<div id='btn-volume-mute' class='mute' title='mute' onclick='muteVolume();'></div>
+			<progress id='progress-bar' min='0' max='100' value='0'>0% played</progress>
 			<div id='btn-fullscreen-enter'  title='toggle full screen' accesskey="T" onclick='toggleFullScreen();'></div>
 		</div>
 	</div>
