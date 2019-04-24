@@ -16,7 +16,7 @@
 		<div class="row align-items-center">
 			<div class="col-xl-6 offset-1" id="video-holder">
 				<div class="embed-responsive embed-responsive-16by9">
-					<iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" type="text/html" src="https://www.youtube.com/embed/2EhlppFns_w?autoplay=0&fs=1&iv_load_policy=3&showinfo=0&rel=0&cc_load_policy=0&start=0&end=0&origin=https://youtubeembedcode.com"></iframe>
+					<iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" type="text/html" src="ivideo/talking-heads-player.php"></iframe>
 				</div>
 			</div>
 			<div class="col-xl-4">
