@@ -13,7 +13,7 @@
 <body>
 	<?php include("includes/nav.php"); ?>
 	<section class="jumbotron">
-		<div class="align-items-center">
+		<div class="w-50 mx-auto align-items-center">
 			<div class="embed-responsive embed-responsive-16by9">
 				<iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" type="text/html" src="ivideo/talking-heads-player.php"></iframe>
 			</div>
