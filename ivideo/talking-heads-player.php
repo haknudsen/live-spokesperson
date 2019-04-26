@@ -25,13 +25,13 @@
 		</video>
 		<div id="bigPlayBtn"></div>
 		<div id='controls'>
-			<div id='btn-restart' title='replay' accesskey="R" onclick='replayVideo();'></div>
-			<div id='btn-play' title='play' accesskey="P" onclick='playPauseVideo();'></div>
-			<div id='btn-stop' title='stop' accesskey="X" onclick='stopVideo();'></div>
+			<div id='btn-restart' class='btn-restart' title='replay' accesskey="R"></div>
+			<div id='btn-play-toggle' class="btn-play" title='play' accesskey="P" onclick='playPauseVideo();'></div>
+			<div id='btn-stop' class="btn-stop" title='stop' accesskey="X" onclick='stopVideo();'></div>
+			<div id='btn-volume' class='btn-volume-mute' title='mute' onclick='muteVolume();'></div>
 			<input type='range' id='volume-bar' title="volume" min='0' max='1' step='0.1' value='1'>
-			<div id='btn-volume-mute' class='mute' title='mute' onclick='muteVolume();'></div>
 			<progress id='progress-bar' min='0' max='100' value='0'>0% played</progress>
-			<div id='btn-fullscreen-enter' title='toggle full screen' accesskey="T" onclick='toggleFullScreen();'></div>
+			<div id='btn-fullscreen' class='btn-fullscreen-enter' title='toggle full screen' accesskey="T" onclick='toggleFullScreen();'></div>
 		</div>
 	</div>
 	<script src="talking-heads-player.js"></script>

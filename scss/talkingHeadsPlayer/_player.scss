@@ -19,7 +19,7 @@ $fa-icons: (
 		fullscreen-exit: 'f422'
 );
 @each $name, $fa- in $fa-icons {
-	#btn-#{$name}{
+	.btn-#{$name}{
 		font-family: "Font Awesome 5 Pro";
 		font-weight: normal;
 		font-style: normal;
