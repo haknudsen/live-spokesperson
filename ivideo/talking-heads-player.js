@@ -17,6 +17,7 @@
 		talkingHeadsVideo = {
 			video: talkingHeadsVideo.path + title + ".mp4",
 			poster: talkingHeadsVideo.path + title + ".jpg",
+			holder: $("#player-holder"),
 			player: $("#talking-head-player"),
 			container: {
 				bar: $("#controls"),
@@ -36,25 +37,25 @@
 			},
 			started: false
 		};
-		talkingHeadsVideo.player.attr("poster", talkingHeadsVideo.poster);
-		talkingHeadsVideo.player.attr("src", talkingHeadsVideo.video);
+		var th = talkingHeadsVideo.player,
+			p = talkingHeadsVideo.player[0],
+			h = talkingHeadsVideo.holder;
+		th.attr("poster", talkingHeadsVideo.poster);
+		th.attr("src", talkingHeadsVideo.video);
 		$("#progress-bar").css("width", talkingHeadsVideo.container.barWidth - talkingHeadsVideo.container.controlsWidth);
 		//player functions
-		var th = talkingHeadsVideo.player,
-			p = talkingHeadsVideo.player[0];
-		th.mouseover(function (e) {
-			if (e.target !== e.currentTarget) {
-			console.log(e.target.id);
-				if (!th.started) {
+		if (!talkingHeadsVideo.started) {
+			h.mouseover(function (e) {
 					hoverPlay();
+			});
+			h.mouseout(function (e) {
+				var element = e.toElement || e.relatedTarget;
+				if(h[0].id === element.parentNode.id){
+					return;
 				}
-			}
-			e.stopPropagation();
-		});
-		th.mouseleave(function () {
-			console.log('out');
-			hoverPause();
-		});
+				hoverPause();
+			});
+		}
 
 		function hoverPlay() {
 			p.muted = true;
