@@ -39,22 +39,33 @@
 		};
 		var th = talkingHeadsVideo.player,
 			p = talkingHeadsVideo.player[0],
+			btns = talkingHeadsVideo.btns,
 			h = talkingHeadsVideo.holder;
 		th.attr("poster", talkingHeadsVideo.poster);
 		th.attr("src", talkingHeadsVideo.video);
 		$("#progress-bar").css("width", talkingHeadsVideo.container.barWidth - talkingHeadsVideo.container.controlsWidth);
 		//player functions
 		if (!talkingHeadsVideo.started) {
-			h.mouseover(function (e) {
+			h.mouseover(function () {
 					hoverPlay();
 			});
 			h.mouseout(function (e) {
-				var element = e.toElement || e.relatedTarget;
-				if(h[0].id === element.parentNode.id){
+				if(e.toElement || e.relatedTarget){
 					return;
 				}
 				hoverPause();
 			});
+			h.click(function(e){
+				console.log( e.target.id );
+				talkingHeadsVideo.started = true;
+				h.unbind();
+				p.load();
+				p.muted = false;
+				p.play();
+				btns.bigPlayBtn.hide("slow");
+			});
+		}else{
+			console.log( "hit" );
 		}
 
 		function hoverPlay() {
