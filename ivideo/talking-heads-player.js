@@ -38,12 +38,12 @@
 			started: false
 		};
 		var th = talkingHeadsVideo.player,
-			p = talkingHeadsVideo.player[0],
-			btns = talkingHeadsVideo.btns,
 			h = talkingHeadsVideo.holder;
+			th.p = talkingHeadsVideo.player[0],
+			th.btns = talkingHeadsVideo.btns;
 		th.attr("poster", talkingHeadsVideo.poster);
 		th.attr("src", talkingHeadsVideo.video);
-		$("#progress-bar").css("width", talkingHeadsVideo.container.barWidth - talkingHeadsVideo.container.controlsWidth);
+		$("#progress-bar").css("width", talkingHeadsVideo.container.barWidth - talkingHeadsVideo.container.controlsWidth - 6);
 		//player functions
 		if (!talkingHeadsVideo.started) {
 			h.mouseover(function () {
@@ -59,22 +59,22 @@
 				console.log( e.target.id );
 				talkingHeadsVideo.started = true;
 				h.unbind();
-				p.load();
-				p.muted = false;
-				p.play();
-				btns.bigPlayBtn.hide("slow");
+				th.p.load();
+				th.p.muted = false;
+				th.p.play();
+				th.btns.bigPlayBtn.hide("slow");
 			});
 		}else{
 			console.log( "hit" );
 		}
 
 		function hoverPlay() {
-			p.muted = true;
-			p.play();
+			th.p.muted = true;
+			th.p.play();
 		}
 
 		function hoverPause() {
-			p.pause();
+			th.p.pause();
 		}
 	}
 }(jQuery));

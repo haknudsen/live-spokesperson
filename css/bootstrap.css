@@ -10672,20 +10672,21 @@ a.text-dark:hover, a.text-dark:focus {
 /* line 25, ../scss/talkingHeadsPlayer/_talking-head.scss */
 #controls #progress-bar {
   margin-top: 14px;
+  margin-left: 6px;
 }
-/* line 28, ../scss/talkingHeadsPlayer/_talking-head.scss */
+/* line 29, ../scss/talkingHeadsPlayer/_talking-head.scss */
 #controls #volume-bar {
   margin-top: 16px;
 }
 
-/* line 32, ../scss/talkingHeadsPlayer/_talking-head.scss */
+/* line 33, ../scss/talkingHeadsPlayer/_talking-head.scss */
 #player-holder {
   width: 100%;
   margin: 0;
   padding: 0;
 }
 
-/* line 37, ../scss/talkingHeadsPlayer/_talking-head.scss */
+/* line 38, ../scss/talkingHeadsPlayer/_talking-head.scss */
 #bigPlayBtn {
   height: 76px;
   width: 160px;
@@ -10703,12 +10704,12 @@ a.text-dark:hover, a.text-dark:focus {
   transition: background-color 0.5s ease;
   transition: border-color 0.5s ease;
 }
-/* line 53, ../scss/talkingHeadsPlayer/_talking-head.scss */
+/* line 54, ../scss/talkingHeadsPlayer/_talking-head.scss */
 #bigPlayBtn:hover {
   background-color: rgba(0, 163, 255, 0.7);
   border-color: rgba(25, 71, 127, 0.7);
 }
-/* line 57, ../scss/talkingHeadsPlayer/_talking-head.scss */
+/* line 58, ../scss/talkingHeadsPlayer/_talking-head.scss */
 #bigPlayBtn:before {
   position: absolute;
   content: url(http://www.live-spokesperson.com/images/BigPlayBtn.gif);
