@@ -29,7 +29,7 @@
 				restart: $('#btn-restart'),
 				playToggle: $('#btn-play-toggle'),
 				stop: $('#btn-stop'),
-				volume: $('#btn-volume'),
+				mute: $('#btn-mute'),
 				fullscreen: $('#btn-fullscreen')
 			},
 			playing: function () {
@@ -39,7 +39,7 @@
 		};
 		var th = talkingHeadsVideo.player,
 			h = talkingHeadsVideo.holder;
-			th.p = talkingHeadsVideo.player[0],
+		th.p = talkingHeadsVideo.player[0],
 			th.btns = talkingHeadsVideo.btns;
 		th.attr("poster", talkingHeadsVideo.poster);
 		th.attr("src", talkingHeadsVideo.video);
@@ -47,25 +47,26 @@
 		//player functions
 		if (!talkingHeadsVideo.started) {
 			h.mouseover(function () {
-					hoverPlay();
+				hoverPlay();
 			});
 			h.mouseout(function (e) {
-				if(e.toElement || e.relatedTarget){
+				if (e.toElement || e.relatedTarget) {
 					return;
 				}
 				hoverPause();
 			});
-			h.click(function(e){
-				console.log( e.target.id );
+			h.click(function (e) {
+				console.log(e.target.id);
 				talkingHeadsVideo.started = true;
 				h.unbind();
 				th.p.load();
 				th.p.muted = false;
 				th.p.play();
 				th.btns.bigPlayBtn.hide("slow");
+				togglePause();
 			});
-		}else{
-			console.log( "hit" );
+		} else {
+			console.log("hit");
 		}
 
 		function hoverPlay() {
@@ -76,5 +77,59 @@
 		function hoverPause() {
 			th.p.pause();
 		}
+
+		function togglePause() {
+			th.btns.playToggle.addClass("btn-pause");
+			th.btns.playToggle.removeClass("btn-play");
+		}
+
+		function togglePlay() {
+			th.btns.playToggle.addClass("btn-play");
+			th.btns.playToggle.removeClass("btn-pause");
+		}
+		$('#btn-restart').click(function () {
+			th.p.currentTime = 0;
+		});
+		$('#btn-stop').click(function () {
+			th.p.currentTime = 0;
+			th.p.pause();
+			th.btns.bigPlayBtn.show("slow");
+			togglePlay();
+		});
+		$('#btn-fullscreen').click(function () {
+			th.p.requestFullscreen();
+		});
+		$('#btn-mute').click(function () {
+			if (th.p.muted) {
+				th.p.muted = false;
+				th.btns.mute.addClass("btn-mute");
+				th.btns.mute.removeClass("btn-unmute");
+			} else {
+				th.p.muted = true;
+				th.btns.mute.addClass("btn-unmute");
+				th.btns.mute.removeClass("btn-mute");
+			}
+		});
+		$('#btn-play-toggle').click(function () {
+			if (th.p.paused) {
+				th.btns.bigPlayBtn.hide("slow");
+				th.p.play();
+				togglePause();
+			} else {
+				th.p.pause();
+				th.btns.bigPlayBtn.show("slow");
+				talkingHeadsVideo.started = false;
+				togglePlay();
+			}
+		});
+		$('#btn-restart').click(function () {
+			th.p.currentTime = 0;
+		});
+		th.btns.bigPlayBtn.click(function () {
+			th.btns.bigPlayBtn.hide("slow");
+			th.p.muted = false;
+			th.p.play();
+
+		})
 	}
 }(jQuery));
