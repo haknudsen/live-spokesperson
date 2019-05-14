@@ -11629,3 +11629,25 @@ footer a:hover {
   font-style: italic;
   margin-top: 1rem;
 }
+
+/* line 239, ../scss/_my-custom.scss */
+.poster {
+  opacity: 0.9;
+  -webkit-transition: opacity .5s;
+  transition: opacity .5s;
+  position: relative;
+  cursor: pointer;
+}
+
+/* line 240, ../scss/_my-custom.scss */
+.poster:hover {
+  opacity: 1;
+}
+
+/* line 241, ../scss/_my-custom.scss */
+.spokesperson {
+  height: 180px;
+  width: 160px;
+  flex-wrap: wrap;
+  padding: .25rem .25rem 0;
+}
