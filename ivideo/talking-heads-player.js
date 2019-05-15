@@ -51,7 +51,7 @@
 		//Set Controls
 		console.log( talkingHeadsVideo );
 		switch (talkingHeadsVideo.controls){
-			case "mouse":
+			default:
 				talkingHeadsVideo.holder.addClass("mouse-controls");
 				break;
 			case "show":
