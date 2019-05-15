@@ -1,5 +1,5 @@
 <div id="mainModal" class="modal fade modal-spokesperson" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-	<div class="modal-dialog modal-lg modal-dialog-centered">
+	<div class="modal-dialog modal-dialog-spokesperson">
 		<div class="modal-content">
 			<div class="modal-header">
 				<h5 class="modal-title" id="videoModalLabel"></h5>
@@ -15,7 +15,7 @@
 					</p>
 				</video>
 			</div>
-			<div class="d-none" id="form">
+			<div class="invisible" id="form">
 				<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 				<form name="PopUp Form" id="__vtigerWebForm" action="https://websitetalkingheads.od1.vtiger.com/modules/Webforms/capture.php" enctype="multipart/form-data" method="post" accept-charset="utf-8"><input name="__vtrftk" type="hidden" value="sid:2475a3e71dbf0fb16eaa8d219013d1c07e8ee868,1545253846">
 					<input name="publicid" type="hidden" value="5979b5c0472a3584b88b3220f2367c07">
@@ -26,7 +26,7 @@
           <span aria-hidden="true">×</span>
         </button>
 					
-						<div class="text-center">Contact Us</div>
+						<div class="form-name">Contact Us</div>
 					</div>
 					<div class="inputs">
 						<input name="lastname" required="" type="text" maxlength="100" value="" data-label="" placeholder="Name">

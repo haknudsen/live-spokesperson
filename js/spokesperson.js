@@ -2,7 +2,7 @@
 $(document).ready(function () {
 	var video = $("#talking-heads-video")[0];
 	var srcBase = "https://www.websitetalkingheads.com/";
-	var name, alt, srcVideo, formLeft;
+	var name, alt, srcVideo;
 	$(".poster").click(function () {
 		name = $(this).attr("data-video");
 		srcVideo = srcBase + "spokespeople/videos/" + name + ".mp4";
@@ -22,17 +22,19 @@ $(document).ready(function () {
 	}
 	$('#contact').click(function () {
 		video.pause();
-		$('#form').addClass('d-block');
-		$('#form').css("left", formLeft);
+		$('#form').addClass('visible');
+		$('#form').removeClass('invisible');
 	});
 	$('#contactClose').click(function () {
-		$('#form').removeClass('d-block');
+		$('#form').removeClass('visible');
+		$('#form').addClass('invisible');
 	})
 	$('#mainModal').on('hidden.bs.modal', function () {
 		video.pause();
 	});
 	$('#mainModal').on('shown.bs.modal', function () {
-		$('#form').removeClass('d-block');
+		$('#form').removeClass('visible');
+		$('#form').addClass('invisible');
 		video.play();
 	});
 });

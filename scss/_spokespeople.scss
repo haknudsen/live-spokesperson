@@ -1,11 +1,91 @@
 /* Scss Document */
-$btn-spokesperson : 48; 
-.poster { opacity: 0.9; -webkit-transition: opacity .5s; transition: opacity .5s; position: relative; cursor: pointer;
-	&:hover { opacity: 1 }
+$btn-spokesperson: 48;
+.poster {
+	opacity: 0.9;
+	-webkit-transition: opacity .5s;
+	transition: opacity .5s;
+	position: relative;
+	cursor: pointer;
+	&:hover {
+		opacity: 1;
+	}
 }
-.btn-spokesperson { height: $btn-spokesperson+px; width: $btn-spokesperson+px;position: absolute; top: 50%; left: 50%;transform: translate(-50%, -50%); ;background-color: $light; border: thin solid $primary;border-radius: 50%; opacity: 0.7;transition: all 0.5s;
-	&:hover{background-color: $primary; border-color: $light; opacity: 1;}
-	&:before{position: absolute; top: 50%; left: 53%; -ms-transform: translate(-50%, -50%); transform: translate(-50%, -50%); font-family: "Font Awesome 5 Pro"; font-weight: 600; content: "\f04b"; color: $dark;font-size: 1.5rem}
+.btn-spokesperson {
+	height: $btn-spokesperson+px;
+	width: $btn-spokesperson+px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: $light;
+	border: thin solid $primary;
+	border-radius: 50%;
+	opacity: 0.7;
+	transition: all 0.5s;
+	&:hover {
+		background-color: $primary;
+		border-color: $light;
+		opacity: 1;
+	}
+	&:before {
+		position: absolute;
+		top: 50%;
+		left: 53%;
+		-ms-transform: translate(-50%, -50%);
+		transform: translate(-50%, -50%);
+		font-family: "Font Awesome 5 Pro";
+		font-weight: 600;
+		content: "\f04b";
+		color: $dark;
+		font-size: 1.5rem;
+	}
 }
-
-.spokesperson{height: 180px;width: 160px;flex-wrap: wrap;padding: .25rem .25rem 0}
+.spokesperson {
+	height: 180px;
+	width: 160px;
+	flex-wrap: wrap;
+	padding: .25rem .25rem 0;
+}
+.modal-spokesperson {
+	width: 960px;
+	margin: 0 auto;
+	padding: 0!important;
+	.modal-footer, .modal-header {
+		width: 100%;
+		margin: 0 1px;
+	}
+	#form {
+		position: absolute;
+		display: flex;
+		align-self: center;
+		top: 50%;
+		width: 320px;
+		background: rgba($primary, 0.5);
+		border: $primary thin solid;
+		border-radius: .25rem;
+		color: $dark;
+		input{padding-left: 4px}
+		.holder {
+			padding: 0.5rem;
+		}
+	}
+}
+.modal.show .modal-dialog-spokesperson {
+	transform: translate(0, 0);
+}
+.modal.fade .modal-dialog-spokesperson {
+	transition: transform 0.3s ease-out;
+	transform: translate(0, -25%);
+}
+.modal-dialog-spokesperson {
+	margin: 4rem auto;
+	display: flex;
+	align-items: center;
+	position: relative;
+	width: auto;
+	top: 25%;
+	@media (min-width: 576px){
+		width: 100%;max-width: 960px;
+	}
+}
+#contactClose{line-height: .5}

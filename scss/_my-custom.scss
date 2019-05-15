@@ -183,19 +183,10 @@ textarea {
 	h3{font-size: 1.5rem;font-weight: 700}
 	&:hover > .thumb-wrapper:before { color: #E5F0FF }
 }
-.modal-spokesperson{
-	width:540px;margin: 0 auto;padding: 0!important;
-	#talking-heads-video_html5_api{width:540px;height: 360px}
-	.modal-footer,.modal-header{width: 540px;margin: 0 1px}
-	#form{left: 111px}
-}
-#form { position: absolute; top: 100px; width: 320px; margin: 0 auto; background: #0073FF; border: #00397F thin solid; border-radius: .25rem; color: black;
-	.holder { padding: 0.5rem }
-}
 .inputs{padding: .5rem;
 	input { width: 100%; margin-bottom: 4px }
 }
-#vtigerFormSubmitBtn{padding: .25rem 1rem;@include gradient-mine($gray-100,$gray-300);margin-bottom: .25rem;
+#vtigerFormSubmitBtn{padding: .25rem 1rem!important;@include gradient-mine($gray-100,$gray-300);margin-bottom: .25rem;text-align: center;align-items: center;
 	&:hover{@include gradient-mine($gray-300,$gray-100)}}
 .website{
 	max-width: 384px;
@@ -236,4 +227,4 @@ footer a:hover{color: $light;}
 }
 .quote{font-weight: 600;font-family: open-sans, sans-serif; width: 90%;margin: 0 auto;line-height: 1.2}
 .subject{text-align: center;font-weight: 200;font-style: italic;margin-top: 1rem}
-
+.form-name{text-align: center;font-weight: 700;color:$light;font-size: 1.5rem}
