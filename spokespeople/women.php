@@ -40,6 +40,6 @@
 		</div>
 	</section>
 	<?php include ('../includes/footer-spokespeople.php'); ?>
-	<?php include("../ivideo/modal-spokesperson.php"); ?>
+	<?php include("includes/modal.php"); ?>
 </body>
 </html>
