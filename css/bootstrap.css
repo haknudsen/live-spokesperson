@@ -10846,6 +10846,43 @@ readers do not read off random characters that represent icons */
   width: auto;
 }
 
+/*!
+ * Font Awesome Pro 5.8.2 by @fontawesome - https://fontawesome.com
+ * License - https://fontawesome.com/license (Commercial License)
+ */
+@font-face {
+  font-family: 'Font Awesome 5 Pro';
+  font-style: normal;
+  font-weight: 900;
+  font-display: auto;
+  src: url("webfonts/fa-solid-900.eot");
+  src: url("webfonts/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("webfonts/fa-solid-900.woff2") format("woff2"), url("webfonts/fa-solid-900.woff") format("woff"), url("webfonts/fa-solid-900.ttf") format("truetype"), url("webfonts/fa-solid-900.svg#fontawesome") format("svg");
+}
+/* line 20, ../scss/fa/solid.scss */
+.fa,
+.fas {
+  font-family: 'Font Awesome 5 Pro';
+  font-weight: 900;
+}
+
+/*!
+ * Font Awesome Pro 5.8.2 by @fontawesome - https://fontawesome.com
+ * License - https://fontawesome.com/license (Commercial License)
+ */
+@font-face {
+  font-family: 'Font Awesome 5 Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-display: auto;
+  src: url("webfonts/fa-regular-400.eot");
+  src: url("webfonts/fa-regular-400.eot?#iefix") format("embedded-opentype"), url("webfonts/fa-regular-400.woff2") format("woff2"), url("webfonts/fa-regular-400.woff") format("woff"), url("webfonts/fa-regular-400.ttf") format("truetype"), url("webfonts/fa-regular-400.svg#fontawesome") format("svg");
+}
+/* line 20, ../scss/fa/regular.scss */
+.far {
+  font-family: 'Font Awesome 5 Pro';
+  font-weight: 400;
+}
+
 /* mine */
 /* Scss Document */
 /* Scss Document */
@@ -11031,6 +11068,62 @@ readers do not read off random characters that represent icons */
   content: url(http://www.live-spokesperson.com/images/BigPlayBtn.gif);
   left: calc(50% - (128px/2));
   top: calc(50% - (64px/2));
+}
+
+/* Scss Document */
+/* line 3, ../scss/_spokespeople.scss */
+.poster {
+  opacity: 0.9;
+  -webkit-transition: opacity .5s;
+  transition: opacity .5s;
+  position: relative;
+  cursor: pointer;
+}
+/* line 4, ../scss/_spokespeople.scss */
+.poster:hover {
+  opacity: 1;
+}
+
+/* line 6, ../scss/_spokespeople.scss */
+.btn-spokesperson {
+  height: 48px;
+  width: 48px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #E5F0FF;
+  border: thin solid #00A3FF;
+  border-radius: 50%;
+  opacity: 0.7;
+  transition: all 0.5s;
+}
+/* line 7, ../scss/_spokespeople.scss */
+.btn-spokesperson:hover {
+  background-color: #00A3FF;
+  border-color: #E5F0FF;
+  opacity: 1;
+}
+/* line 8, ../scss/_spokespeople.scss */
+.btn-spokesperson:before {
+  position: absolute;
+  top: 50%;
+  left: 53%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-family: "Font Awesome 5 Pro";
+  font-weight: 600;
+  content: "\f04b";
+  color: #19477F;
+  font-size: 1.5rem;
+}
+
+/* line 11, ../scss/_spokespeople.scss */
+.spokesperson {
+  height: 180px;
+  width: 160px;
+  flex-wrap: wrap;
+  padding: .25rem .25rem 0;
 }
 
 /* Scss Document */
@@ -11628,26 +11721,4 @@ footer a:hover {
   font-weight: 200;
   font-style: italic;
   margin-top: 1rem;
-}
-
-/* line 239, ../scss/_my-custom.scss */
-.poster {
-  opacity: 0.9;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
-  position: relative;
-  cursor: pointer;
-}
-
-/* line 240, ../scss/_my-custom.scss */
-.poster:hover {
-  opacity: 1;
-}
-
-/* line 241, ../scss/_my-custom.scss */
-.spokesperson {
-  height: 180px;
-  width: 160px;
-  flex-wrap: wrap;
-  padding: .25rem .25rem 0;
 }
