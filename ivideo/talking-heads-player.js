@@ -9,18 +9,17 @@
 		if (controls === undefined) {
 			controls = true;
 		}
-		var talkingHeadsVideo = {
+		var talkingHeadsVideo = {};
+		talkingHeadsVideo = {
 			autostart: autostart,
 			controls: controls,
-			path: "https://www.websitetalkingheads.com/ivideo/videos/"
-		};
-		talkingHeadsVideo = {
-			video: talkingHeadsVideo.path + title + ".mp4",
-			poster: talkingHeadsVideo.path + title + ".jpg",
+			path: "https://www.websitetalkingheads.com/ivideo/videos/",
+			video: title + ".mp4",
+			poster: title + ".jpg",
 			holder: $("#player-holder"),
 			player: $("#talking-head-player"),
 			container: {
-				bar: $("#controls"),
+				controls: $("#controls"),
 				barWidth: $("#controls").outerWidth(),
 				controlsWidth: ($("#btn-restart").outerWidth() * 5) + $("#volume-bar").outerWidth() + 4
 			},
@@ -43,11 +42,25 @@
 			volumeBar = $("#volume-bar"),
 			btns = talkingHeadsVideo.btns,
 			h = talkingHeadsVideo.holder,
+			$controls = talkingHeadsVideo.container.controls,
 			player = talkingHeadsVideo.player[0];
-		th.attr("poster", talkingHeadsVideo.poster);
-		th.attr("src", talkingHeadsVideo.video);
+		th.attr("poster", talkingHeadsVideo.path + talkingHeadsVideo.poster);
+		th.attr("src", talkingHeadsVideo.path + talkingHeadsVideo.video);
 		seekBar.css("width", talkingHeadsVideo.container.barWidth - talkingHeadsVideo.container.controlsWidth - 12);
 		var seekBarWidth = talkingHeadsVideo.container.barWidth - talkingHeadsVideo.container.controlsWidth - 12;
+		//Set Controls
+		console.log( talkingHeadsVideo );
+		switch (talkingHeadsVideo.controls){
+			case "mouse":
+				talkingHeadsVideo.holder.addClass("mouse-controls");
+				break;
+			case "show":
+				$controls.addClass("visible");
+				break;
+			case "hide":
+				$controls.addClass("invisible");
+				break;
+		}
 		//player functions
 		if (!talkingHeadsVideo.started) {
 			h.mouseover(function () {
@@ -90,19 +103,22 @@
 			btns.playToggle.addClass("btn-play");
 			btns.playToggle.removeClass("btn-pause");
 		}
-		$('#btn-restart').click(function () {
+		//create button functions
+		function btnFunctions(){
+		//buttons functions--------------------------------------
+		btns.restart.click(function () {
 			player.currentTime = 0;
 		});
-		$('#btn-stop').click(function () {
+		btns.stop.click(function () {
 			player.currentTime = 0;
 			player.pause();
 			btns.bigPlayBtn.show("slow");
 			togglePlay();
 		});
-		$('#btn-fullscreen').click(function () {
+		btns.fullscreen.click(function () {
 			player.requestFullscreen();
 		});
-		$('#btn-mute').click(function () {
+		btns.mute.click(function () {
 			if (player.muted) {
 				player.muted = false;
 				btns.mute.addClass("btn-mute");
@@ -113,7 +129,7 @@
 				btns.mute.removeClass("btn-mute");
 			}
 		});
-		$('#btn-play-toggle').click(function () {
+		btns.playToggle.click(function () {
 			if (player.paused) {
 				btns.bigPlayBtn.hide("slow");
 				player.play();
@@ -130,39 +146,45 @@
 		});
 		btns.bigPlayBtn.click(function () {
 			btns.bigPlayBtn.hide("slow");
+			togglePause();
 			player.muted = false;
 			player.play();
 
-		});
+		});}
 		// Update the seek bar as the player plays
 		player.ontimeupdate = function () {
-			// Calculate the slider value
 			var barProgress = (player.currentTime / player.duration * 100);
-				// Update the slider value
 			progress.css("width", barProgress + "%").text(showTime());
 		};
-		// Event listener for the seek bar
+		// Event listener for the seek bar get the new time
 		seekBar.click(function (e) {
-			// Calculate the new time
 			barProgress = e.offsetX / seekBarWidth;
 			player.pause();
 			player.currentTime = player.duration * (barProgress);
 			player.play();
 		});
-function showTime(){
-	var cur = getTime(player.currentTime);
-	var dur = getTime(player.duration);
-	return cur + "/" + dur;
-}
+		//Show time funcion
+		function showTime() {
+			var cur = getTime(player.currentTime);
+			var dur = getTime(player.duration);
+			return cur + "/" + dur;
+		}
+		//get time - used for current time and duration
 		function getTime(timenow) {
 			if (parseInt(timenow) / 60 >= 1) {
 				var h = Math.floor(timenow / 3600);
-				if(isNaN(h)){h=0}
+				if (isNaN(h)) {
+					h = 0
+				}
 				timenow = timenow - h * 3600;
 				var m = Math.floor(timenow / 60);
-				if(isNaN(m)){m=0}
+				if (isNaN(m)) {
+					m = 0
+				}
 				var s = Math.floor(timenow % 60);
-				if(isNaN(s)){s=0}
+				if (isNaN(s)) {
+					s = 0
+				}
 				if (h.toString().length < 2) {
 					h = '0' + h;
 				}
@@ -175,18 +197,21 @@ function showTime(){
 				return (h + ':' + m + ':' + s);
 			} else {
 				m = Math.floor(timenow / 60);
-				if(isNaN(m)){m=0}
+				if (isNaN(m)) {
+					m = 0
+				}
 				s = Math.floor(timenow % 60);
-				if(isNaN(s)){s=0}
+				if (isNaN(s)) {
+					s = 0
+				}
 				if (s.toString().length < 2) {
 					s = '0' + s;
 				}
 				return (m + ':' + s);
 			}
 		}
-		// Event listener for the volume bar
+		// Update the video volume
 		volumeBar.change(function () {
-			// Update the video volume
 			if (player.muted) {
 				player.muted = false;
 				btns.mute.addClass("btn-mute");

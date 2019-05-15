@@ -11010,39 +11010,43 @@ readers do not read off random characters that represent icons */
   border-radius: 2px;
   color: #E5F0FF;
   transition: opacity 0.5s;
-  opacity: 0;
 }
-/* line 22, ../scss/talkingHeadsPlayer/_talking-head.scss */
+/* line 21, ../scss/talkingHeadsPlayer/_talking-head.scss */
 #controls .player-btn {
   padding: 6px;
 }
-/* line 25, ../scss/talkingHeadsPlayer/_talking-head.scss */
+/* line 24, ../scss/talkingHeadsPlayer/_talking-head.scss */
 #controls .player-btn {
   width: 44px;
 }
-/* line 28, ../scss/talkingHeadsPlayer/_talking-head.scss */
+/* line 27, ../scss/talkingHeadsPlayer/_talking-head.scss */
 #controls #progress-bar {
   height: 44px;
   margin: 8px 6px 0;
   border: thin solid rgba(25, 71, 127, 0.7);
 }
-/* line 33, ../scss/talkingHeadsPlayer/_talking-head.scss */
+/* line 32, ../scss/talkingHeadsPlayer/_talking-head.scss */
 #controls #volume-bar {
   padding: 10px 8px;
 }
 
-/* line 37, ../scss/talkingHeadsPlayer/_talking-head.scss */
+/* line 36, ../scss/talkingHeadsPlayer/_talking-head.scss */
 #player-holder {
   width: 100%;
   margin: 0;
   padding: 0;
 }
-/* line 41, ../scss/talkingHeadsPlayer/_talking-head.scss */
-#player-holder:hover #controls {
+
+/* line 42, ../scss/talkingHeadsPlayer/_talking-head.scss */
+.mouse-controls #controls {
+  opacity: 0;
+}
+/* line 43, ../scss/talkingHeadsPlayer/_talking-head.scss */
+.mouse-controls:hover #controls {
   opacity: 1;
 }
 
-/* line 43, ../scss/talkingHeadsPlayer/_talking-head.scss */
+/* line 45, ../scss/talkingHeadsPlayer/_talking-head.scss */
 #bigPlayBtn {
   height: 76px;
   width: 160px;
@@ -11060,12 +11064,12 @@ readers do not read off random characters that represent icons */
   transition: background-color 0.5s ease;
   transition: border-color 0.5s ease;
 }
-/* line 59, ../scss/talkingHeadsPlayer/_talking-head.scss */
+/* line 61, ../scss/talkingHeadsPlayer/_talking-head.scss */
 #bigPlayBtn:hover {
   background-color: rgba(0, 163, 255, 0.7);
   border-color: rgba(25, 71, 127, 0.7);
 }
-/* line 63, ../scss/talkingHeadsPlayer/_talking-head.scss */
+/* line 65, ../scss/talkingHeadsPlayer/_talking-head.scss */
 #bigPlayBtn:before {
   position: absolute;
   content: url(http://www.live-spokesperson.com/images/BigPlayBtn.gif);
