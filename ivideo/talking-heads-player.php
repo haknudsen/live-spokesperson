@@ -25,8 +25,8 @@
 			<div id="btn-stop" class="player-btn btn-stop" title="stop" accesskey="X"></div>
 			<input type="range" id="volume-bar" title="volume" min="0" max="1" step="0.1" value="1">
 			<div id="btn-mute" class="player-btn btn-mute" title="mute"></div>
-			<div class="progress" id="progress-bar">
-				<div id="progress" class="progress-bar progress-bar-striped"></div>
+			<div class="progress" id="progress-bar" title="duration">
+				<div id="progress" class="progress-bar progress-bar-striped" title="current time"></div>
 			</div>
 			<div id="btn-fullscreen" class="player-btn btn-fullscreen-enter" title="toggle full screen" accesskey="T"></div>
 		</div>

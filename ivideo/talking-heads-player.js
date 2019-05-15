@@ -177,7 +177,7 @@ function showTime(){
 				m = Math.floor(timenow / 60);
 				if(isNaN(m)){m=0}
 				s = Math.floor(timenow % 60);
-				if(isNaN(s)){s=0;console.log( s );}
+				if(isNaN(s)){s=0}
 				if (s.toString().length < 2) {
 					s = '0' + s;
 				}
@@ -187,12 +187,15 @@ function showTime(){
 		// Event listener for the volume bar
 		volumeBar.change(function () {
 			// Update the video volume
-			console.log(volumeBar.value);
-			player.volume = volumeBar.value;
+			if (player.muted) {
+				player.muted = false;
+				btns.mute.addClass("btn-mute");
+				btns.mute.removeClass("btn-unmute");
+			}
+			player.volume = volumeBar.val();
 		});
 		//Update controls on window resize
 		$(window).resize(function () {
-			console.log("resize");
 			seekBar.css("width", $("#controls").outerWidth() - (($("#btn-restart").outerWidth() * 5) + $("#volume-bar").outerWidth() + 4) - 12);
 		});
 	}
