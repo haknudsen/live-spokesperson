@@ -37,13 +37,15 @@
 			},
 			started: false
 		};
-		var th = talkingHeadsVideo.player,
-			h = talkingHeadsVideo.holder;
-		th.p = talkingHeadsVideo.player[0],
-			th.btns = talkingHeadsVideo.btns;
+		var th = talkingHeadsVideo.player,time,
+			seekBar = $("#progress-bar"),
+			btns = talkingHeadsVideo.btns,
+			h = talkingHeadsVideo.holder,
+			player = talkingHeadsVideo.player[0];
 		th.attr("poster", talkingHeadsVideo.poster);
 		th.attr("src", talkingHeadsVideo.video);
-		$("#progress-bar").css("width", talkingHeadsVideo.container.barWidth - talkingHeadsVideo.container.controlsWidth - 6);
+		seekBar.css("width", talkingHeadsVideo.container.barWidth - talkingHeadsVideo.container.controlsWidth - 6);
+		var seekBarWidth = talkingHeadsVideo.container.barWidth - talkingHeadsVideo.container.controlsWidth - 6;
 		//player functions
 		if (!talkingHeadsVideo.started) {
 			h.mouseover(function () {
@@ -56,80 +58,95 @@
 				hoverPause();
 			});
 			h.click(function (e) {
-				console.log(e.target.id);
 				talkingHeadsVideo.started = true;
 				h.unbind();
-				th.p.load();
-				th.p.muted = false;
-				th.p.play();
-				th.btns.bigPlayBtn.hide("slow");
+				player.load();
+				player.muted = false;
+				player.play();
+				btns.bigPlayBtn.hide("slow");
 				togglePause();
 			});
 		} else {
 			console.log("hit");
 		}
-
+		//Start functions--------------------------------------------------
 		function hoverPlay() {
-			th.p.muted = true;
-			th.p.play();
+			player.muted = true;
+			player.play();
 		}
 
 		function hoverPause() {
-			th.p.pause();
+			player.pause();
 		}
 
 		function togglePause() {
-			th.btns.playToggle.addClass("btn-pause");
-			th.btns.playToggle.removeClass("btn-play");
+			btns.playToggle.addClass("btn-pause");
+			btns.playToggle.removeClass("btn-play");
 		}
 
 		function togglePlay() {
-			th.btns.playToggle.addClass("btn-play");
-			th.btns.playToggle.removeClass("btn-pause");
+			btns.playToggle.addClass("btn-play");
+			btns.playToggle.removeClass("btn-pause");
 		}
 		$('#btn-restart').click(function () {
-			th.p.currentTime = 0;
+			player.currentTime = 0;
 		});
 		$('#btn-stop').click(function () {
-			th.p.currentTime = 0;
-			th.p.pause();
-			th.btns.bigPlayBtn.show("slow");
+			player.currentTime = 0;
+			player.pause();
+			btns.bigPlayBtn.show("slow");
 			togglePlay();
 		});
 		$('#btn-fullscreen').click(function () {
-			th.p.requestFullscreen();
+			player.requestFullscreen();
 		});
 		$('#btn-mute').click(function () {
-			if (th.p.muted) {
-				th.p.muted = false;
-				th.btns.mute.addClass("btn-mute");
-				th.btns.mute.removeClass("btn-unmute");
+			if (player.muted) {
+				player.muted = false;
+				btns.mute.addClass("btn-mute");
+				btns.mute.removeClass("btn-unmute");
 			} else {
-				th.p.muted = true;
-				th.btns.mute.addClass("btn-unmute");
-				th.btns.mute.removeClass("btn-mute");
+				player.muted = true;
+				btns.mute.addClass("btn-unmute");
+				btns.mute.removeClass("btn-mute");
 			}
 		});
 		$('#btn-play-toggle').click(function () {
-			if (th.p.paused) {
-				th.btns.bigPlayBtn.hide("slow");
-				th.p.play();
+			if (player.paused) {
+				btns.bigPlayBtn.hide("slow");
+				player.play();
 				togglePause();
 			} else {
-				th.p.pause();
-				th.btns.bigPlayBtn.show("slow");
+				player.pause();
+				btns.bigPlayBtn.show("slow");
 				talkingHeadsVideo.started = false;
 				togglePlay();
 			}
 		});
 		$('#btn-restart').click(function () {
-			th.p.currentTime = 0;
+			player.currentTime = 0;
 		});
-		th.btns.bigPlayBtn.click(function () {
-			th.btns.bigPlayBtn.hide("slow");
-			th.p.muted = false;
-			th.p.play();
+		btns.bigPlayBtn.click(function () {
+			btns.bigPlayBtn.hide("slow");
+			player.muted = false;
+			player.play();
 
-		})
+		});
+		// Update the seek bar as the player plays
+		player.ontimeupdate = function () {
+			// Calculate the slider value
+			var value = player.currentTime/player.duration;
+
+			// Update the slider value
+			seekBar.value = value;
+		};
+		// Event listener for the seek bar
+		seekBar.click(function (e) {
+			// Calculate the new time
+			seekBar.value = e.offsetX/seekBarWidth;
+			time = player.duration * (seekBar.value);
+			player.currentTime = time;
+		});
+
 	}
 }(jQuery));

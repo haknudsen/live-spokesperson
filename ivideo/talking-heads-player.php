@@ -24,20 +24,20 @@
 			</p>
 		</video>
 		<div id="bigPlayBtn"></div>
-		<div id='controls'>
-			<div id='btn-restart' class='player-btn btn-restart' title='replay' accesskey="R"></div>
-			<div id='btn-play-toggle' class="player-btn btn-play" title='play' accesskey="P"></div>
-			<div id='btn-stop' class="player-btn btn-stop" title='stop' accesskey="X" ></div>
-			<div id='btn-mute' class='player-btn btn-mute' title='mute'></div>
-			<input type='range' id='volume-bar' title="volume" min='0' max='1' step='0.1' value='1'>
-			<progress id='progress-bar' min='0' max='100' value='0'>0% played</progress>
-			<div id='btn-fullscreen' class='player-btn btn-fullscreen-enter' title='toggle full screen' accesskey="T"></div>
+		<div id="controls">
+			<div id="btn-restart" class="player-btn btn-restart" title="replay" accesskey="R"></div>
+			<div id="btn-play-toggle" class="player-btn btn-play" title="play" accesskey="P"></div>
+			<div id="btn-stop" class="player-btn btn-stop" title="stop" accesskey="X" ></div>
+			<div id="btn-mute" class="player-btn btn-mute" title="mute"></div>
+			<input type="range" id="volume-bar" title="volume" min="0" max="1" step="0.1" value="1">
+			<progress id="progress-bar" class="progress-bar progress-bar-stripped progress-bar-animated" min="0" max="100" value="20">0%</progress>
+			<div id="btn-fullscreen" class="player-btn btn-fullscreen-enter" title="toggle full screen" accesskey="T"></div>
 		</div>
 	</div>
 	<script src="talking-heads-player.js"></script>
 	<script>
 		$( document ).ready( function () {
-			$( "#talking-head-player" ).createTalkingHead( "Website Video" );
+			$( "#talking-head-player" ).createTalkingHead( "Social Media" );
 		} );
 	</script>
 </body>
