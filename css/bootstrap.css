@@ -5500,42 +5500,44 @@ input[type="button"].btn-block {
     background-position: 0 0;
   }
 }
-/* line 6, ../scss/_progress.scss */
+/* line 9, ../scss/_progress.scss */
 .progress {
   display: flex;
   height: 1rem;
   overflow: hidden;
-  font-size: 0.75rem;
-  background-color: #B2D4FF;
+  background-color: rgba(229, 240, 255, 0.7);
   border-radius: 0.25rem;
   box-shadow: inset 0 0.1rem 0.1rem rgba(0, 0, 0, 0.1);
 }
 
-/* line 16, ../scss/_progress.scss */
+/* line 18, ../scss/_progress.scss */
 .progress-bar {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  color: #fff;
+  color: #19477F;
+  font-size: 1rem;
+  font-family: open-sans, sans-serif;
+  font-weight: 700;
   text-align: center;
   white-space: nowrap;
   background-color: #00A3FF;
   transition: width 0.6s ease;
 }
 @media screen and (prefers-reduced-motion: reduce) {
-  /* line 16, ../scss/_progress.scss */
+  /* line 18, ../scss/_progress.scss */
   .progress-bar {
     transition: none;
   }
 }
 
-/* line 27, ../scss/_progress.scss */
+/* line 31, ../scss/_progress.scss */
 .progress-bar-striped {
   background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
   background-size: 1rem 1rem;
 }
 
-/* line 32, ../scss/_progress.scss */
+/* line 35, ../scss/_progress.scss */
 .progress-bar-animated {
   animation: progress-bar-stripes 1s linear infinite;
 }
@@ -11021,7 +11023,7 @@ readers do not read off random characters that represent icons */
 /* line 28, ../scss/talkingHeadsPlayer/_talking-head.scss */
 #controls #progress-bar {
   height: 44px;
-  margin: 6px 6px 0;
+  margin: 8px 6px 0;
   border: thin solid #19477F;
 }
 /* line 33, ../scss/talkingHeadsPlayer/_talking-head.scss */

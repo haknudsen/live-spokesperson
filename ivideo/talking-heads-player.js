@@ -37,9 +37,10 @@
 			},
 			started: false
 		};
-		var th = talkingHeadsVideo.player,barProgress,
-			seekBar = $("#progress-bar"),
+		var th = talkingHeadsVideo.player,
+			barProgress, time, seekBar = $("#progress-bar"),
 			progress = $("#progress"),
+			volumeBar = $("#volume-bar"),
 			btns = talkingHeadsVideo.btns,
 			h = talkingHeadsVideo.holder,
 			player = talkingHeadsVideo.player[0];
@@ -58,7 +59,7 @@
 				}
 				hoverPause();
 			});
-			h.click(function (e) {
+			h.click(function () {
 				talkingHeadsVideo.started = true;
 				h.unbind();
 				player.load();
@@ -136,45 +137,55 @@
 		// Update the seek bar as the player plays
 		player.ontimeupdate = function () {
 			// Calculate the slider value
-			var barProgress = (player.currentTime/player.duration*100);
-
-			// Update the slider value
-			progress.css("width",barProgress + "%").text(getTime(player.currentTime));
+			var barProgress = (player.currentTime / player.duration * 100);
+			time = getTime(player.currentTime) + "/" + getTime(player.duration);
+				// Update the slider value
+			progress.css("width", barProgress + "%").text(time);
 		};
 		// Event listener for the seek bar
 		seekBar.click(function (e) {
 			// Calculate the new time
-			barProgress = e.offsetX/seekBarWidth;
+			barProgress = e.offsetX / seekBarWidth;
 			player.pause();
 			player.currentTime = player.duration * (barProgress);
-			progress.css("width",barProgress + "%").text(getTime(player.currentTime));
 			player.play();
 		});
-function getTime(timenow){if (parseInt(timenow) / 60 >= 1) {
-	var h = Math.floor(timenow / 3600);
-	timenow = timenow - h * 3600;
-	var m = Math.floor(timenow / 60);
-	var s = Math.floor(timenow % 60);
-	if (h.toString().length < 2) {
-		h = '0' + h;
-	}
-	if (m.toString().length < 2) {
-		m = '0' + m;
-	}
-	if (s.toString().length < 2) {
-		s = '0' + s;
-	}
-	return(h + ' : ' + m + ' : ' + s);
-} else {
-	m = Math.floor(timenow / 60);
-	s = Math.floor(timenow % 60);
-	if (m.toString().length < 2) {
-		m = '0' + m;
-	}
-	if (s.toString().length < 2) {
-		s = '0' + s;
-	}
-	return(m + ' : ' + s);
-}}
+
+		function getTime(timenow) {
+			if (parseInt(timenow) / 60 >= 1) {
+				var h = Math.floor(timenow / 3600);
+				timenow = timenow - h * 3600;
+				var m = Math.floor(timenow / 60);
+				var s = Math.floor(timenow % 60);
+				if (h.toString().length < 2) {
+					h = '0' + h;
+				}
+				if (m.toString().length < 2) {
+					m = '0' + m;
+				}
+				if (s.toString().length < 2) {
+					s = '0' + s;
+				}
+				return (h + ' : ' + m + ' : ' + s);
+			} else {
+				m = Math.floor(timenow / 60);
+				s = Math.floor(timenow % 60);
+				if (s.toString().length < 2) {
+					s = '0' + s;
+				}
+				return (m + ' : ' + s);
+			}
+		}
+		// Event listener for the volume bar
+		volumeBar.change(function () {
+			// Update the video volume
+			console.log(volumeBar.value);
+			player.volume = volumeBar.value;
+		});
+		//Update controls on window resize
+		$(window).resize(function () {
+			console.log("resize");
+			seekBar.css("width", $("#controls").outerWidth() - (($("#btn-restart").outerWidth() * 5) + $("#volume-bar").outerWidth() + 4) - 12);
+		});
 	}
 }(jQuery));
