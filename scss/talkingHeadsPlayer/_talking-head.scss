@@ -28,7 +28,7 @@ $bigPlayBtn-width: 160px;
 	#progress-bar {
 		height: $btnWidth;
 		margin: 8px 6px 0;
-		border: thin solid $dark;
+		border: thin solid rgba($dark,0.7);
 	}
 	#volume-bar {
 		padding: 10px 8px;

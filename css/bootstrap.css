@@ -11024,7 +11024,7 @@ readers do not read off random characters that represent icons */
 #controls #progress-bar {
   height: 44px;
   margin: 8px 6px 0;
-  border: thin solid #19477F;
+  border: thin solid rgba(25, 71, 127, 0.7);
 }
 /* line 33, ../scss/talkingHeadsPlayer/_talking-head.scss */
 #controls #volume-bar {

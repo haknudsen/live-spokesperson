@@ -38,7 +38,7 @@
 			started: false
 		};
 		var th = talkingHeadsVideo.player,
-			barProgress, time, seekBar = $("#progress-bar"),
+			barProgress, seekBar = $("#progress-bar"),
 			progress = $("#progress"),
 			volumeBar = $("#volume-bar"),
 			btns = talkingHeadsVideo.btns,
@@ -138,9 +138,8 @@
 		player.ontimeupdate = function () {
 			// Calculate the slider value
 			var barProgress = (player.currentTime / player.duration * 100);
-			time = getTime(player.currentTime) + "/" + getTime(player.duration);
 				// Update the slider value
-			progress.css("width", barProgress + "%").text(time);
+			progress.css("width", barProgress + "%").text(showTime());
 		};
 		// Event listener for the seek bar
 		seekBar.click(function (e) {
@@ -150,13 +149,20 @@
 			player.currentTime = player.duration * (barProgress);
 			player.play();
 		});
-
+function showTime(){
+	var cur = getTime(player.currentTime);
+	var dur = getTime(player.duration);
+	return cur + "/" + dur;
+}
 		function getTime(timenow) {
 			if (parseInt(timenow) / 60 >= 1) {
 				var h = Math.floor(timenow / 3600);
+				if(isNaN(h)){h=0}
 				timenow = timenow - h * 3600;
 				var m = Math.floor(timenow / 60);
+				if(isNaN(m)){m=0}
 				var s = Math.floor(timenow % 60);
+				if(isNaN(s)){s=0}
 				if (h.toString().length < 2) {
 					h = '0' + h;
 				}
@@ -166,14 +172,16 @@
 				if (s.toString().length < 2) {
 					s = '0' + s;
 				}
-				return (h + ' : ' + m + ' : ' + s);
+				return (h + ':' + m + ':' + s);
 			} else {
 				m = Math.floor(timenow / 60);
+				if(isNaN(m)){m=0}
 				s = Math.floor(timenow % 60);
+				if(isNaN(s)){s=0;console.log( s );}
 				if (s.toString().length < 2) {
 					s = '0' + s;
 				}
-				return (m + ' : ' + s);
+				return (m + ':' + s);
 			}
 		}
 		// Event listener for the volume bar
