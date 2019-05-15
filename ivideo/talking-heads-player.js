@@ -37,15 +37,16 @@
 			},
 			started: false
 		};
-		var th = talkingHeadsVideo.player,time,
+		var th = talkingHeadsVideo.player,barProgress,
 			seekBar = $("#progress-bar"),
+			progress = $("#progress"),
 			btns = talkingHeadsVideo.btns,
 			h = talkingHeadsVideo.holder,
 			player = talkingHeadsVideo.player[0];
 		th.attr("poster", talkingHeadsVideo.poster);
 		th.attr("src", talkingHeadsVideo.video);
-		seekBar.css("width", talkingHeadsVideo.container.barWidth - talkingHeadsVideo.container.controlsWidth - 6);
-		var seekBarWidth = talkingHeadsVideo.container.barWidth - talkingHeadsVideo.container.controlsWidth - 6;
+		seekBar.css("width", talkingHeadsVideo.container.barWidth - talkingHeadsVideo.container.controlsWidth - 12);
+		var seekBarWidth = talkingHeadsVideo.container.barWidth - talkingHeadsVideo.container.controlsWidth - 12;
 		//player functions
 		if (!talkingHeadsVideo.started) {
 			h.mouseover(function () {
@@ -135,18 +136,45 @@
 		// Update the seek bar as the player plays
 		player.ontimeupdate = function () {
 			// Calculate the slider value
-			var value = player.currentTime/player.duration;
+			var barProgress = (player.currentTime/player.duration*100);
 
 			// Update the slider value
-			seekBar.value = value;
+			progress.css("width",barProgress + "%").text(getTime(player.currentTime));
 		};
 		// Event listener for the seek bar
 		seekBar.click(function (e) {
 			// Calculate the new time
-			seekBar.value = e.offsetX/seekBarWidth;
-			time = player.duration * (seekBar.value);
-			player.currentTime = time;
+			barProgress = e.offsetX/seekBarWidth;
+			player.pause();
+			player.currentTime = player.duration * (barProgress);
+			progress.css("width",barProgress + "%").text(getTime(player.currentTime));
+			player.play();
 		});
-
+function getTime(timenow){if (parseInt(timenow) / 60 >= 1) {
+	var h = Math.floor(timenow / 3600);
+	timenow = timenow - h * 3600;
+	var m = Math.floor(timenow / 60);
+	var s = Math.floor(timenow % 60);
+	if (h.toString().length < 2) {
+		h = '0' + h;
+	}
+	if (m.toString().length < 2) {
+		m = '0' + m;
+	}
+	if (s.toString().length < 2) {
+		s = '0' + s;
+	}
+	return(h + ' : ' + m + ' : ' + s);
+} else {
+	m = Math.floor(timenow / 60);
+	s = Math.floor(timenow % 60);
+	if (m.toString().length < 2) {
+		m = '0' + m;
+	}
+	if (s.toString().length < 2) {
+		s = '0' + s;
+	}
+	return(m + ' : ' + s);
+}}
 	}
 }(jQuery));
