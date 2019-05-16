@@ -22,7 +22,7 @@
 	<section class="alert-info mb-3">
 		<h1 class="text-center">Talking Heads<i class="far fa-registered sup"></i> Spokesmen</h1>
 		<div class="container">
-			<?php include("includes/spokesmen.php"); ?>
+			<?php $carousel = "male"; include("includes/demo.php"); ?>
 		</div>
 	</section>
 	<section class="container-fluid bg-white">
@@ -41,6 +41,6 @@
 		</div>
 	</section>
 	<?php include ('../includes/footer-spokespeople.php'); ?>
-	<?php include("../ivideo/modal-spokesperson.php"); ?>
+	<?php include("includes/modal.php"); ?>
 </body>
 </html>

@@ -19,7 +19,8 @@ if ( !$db ) {
 	die( "Connection failed: " . mysqli_connect_error() );
 	echo "<br>";
 }
-$sql = "SELECT * FROM `spokespeople` WHERE `carousel` = 'female1' ORDER BY `ordering`";
+$sql = "SELECT * FROM `spokespeople` WHERE `carousel` = '$carousel' ORDER BY `ordering`";
+    echo PHP_EOL;
 $result = $conn->query( $sql );
 if ( $result->num_rows > 0 ) {
 	echo PHP_EOL;
