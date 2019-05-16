@@ -30,7 +30,9 @@
 			<h1 class="text-center">Virtual Spokespeople<i class="far fa-registered smaller"></i></h1>
 			<div class="row align-items-center">
 				<div class="col-xl-6 offset-1" id="video-holder">
-					<?php     $video = "Professional Spokespeople";$bgColor = "#757575";$alt = "Some of Our Professional Spokespeople";include("../../includes/showVideo.php");?>
+				<div class="embed-responsive embed-responsive-16by9">
+					<iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" type="text/html" src="../../ivideo/talking-heads-player.php?video=Talking Heads Video Demonstration&autostart=mouse"></iframe>
+                </div>
 				</div>
 				<div class="col-xl-4">
 					<?php include( "../../includes/contact-awards.php"); ?>

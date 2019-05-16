@@ -29,7 +29,9 @@
 		<div class="container">
 			<div class="card middle">
 				<h3 class="card-header bg-gradient-mine text-center text-white">Talking Heads<i class="far fa-registered sup"></i> <em>Spokespeople</em></h3>
-				<?php $video="Professional Spokespeople";$alt="Some of our Professional Spokespeople"; include("../ivideo/showInline.php"); ?>
+				<div class="embed-responsive embed-responsive-16by9">
+					<iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" type="text/html" src="../ivideo/talking-heads-player.php?video=Professional Spokespeople&autostart=mouse"></iframe>
+                </div>
 				<div class="card-body">
 					<p class="card-text">A Website Spokesperson Video is very engaging for visitors to your website. It gives your website a face making it easier to relate to and increasing brand recognition. Online, gaining your client's trust is key to a successful business.</p>
 					<p class="card-text">A spokesperson video is the best option when it comes to giving information. People are more likely to pay attention to a spokesperson speaking to them instead of reading a lot of text.</p>

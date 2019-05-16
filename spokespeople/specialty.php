@@ -29,7 +29,9 @@
 		<div class="container">
 			<div class="card middle">
 				<h3 class="card-header bg-gradient-mine text-center text-white">Professional <em>Spokespeople</em></h3>
-				<?php $video="Virtual Spokespeople";$alt="Our Professional Spokespeople"; include("../ivideo/showInline.php"); ?>
+				<div class="embed-responsive embed-responsive-16by9">
+					<iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" type="text/html" src="../ivideo/talking-heads-player.php?video=Virtual Spokespeople&autostart=mouse"></iframe>
+                </div>
 				<div class="card-body">
 					<p class="card-text">Our spokesperson video uses mp4 and canvas for transparent effect on computers and devices. As trusted by 1000+ businesses for:</p>
 					<ul class="list-group list-group-flush">

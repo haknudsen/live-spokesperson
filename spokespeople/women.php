@@ -29,7 +29,9 @@
 		<div class="container">
 			<div class="card middle">
 				<h3 class="card-header bg-gradient-mine text-center text-white">Professional <em>Spokespeople</em></h3>
-				<?php $video="Professional Spokesperson";$alt="Our Professional Spokespeople"; include("../ivideo/showInline.php"); ?>
+				<div class="embed-responsive embed-responsive-16by9">
+					<iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" type="text/html" src="../ivideo/talking-heads-player.php?video=Professional Spokesperson&autostart=mouse"></iframe>
+                </div>
 				<div class="card-body">
 					<p class="card-text">Our spokespeople are experienced professionals. They have a wide-range of backgrounds and training. This includes spokesmodeling, broadcast journalism, tv presenting, and acting. Our spokespeople will use their talent and experience to promote your website.</p>
 					<p class="card-text">Engage visitors to your website in a unique and personal way. With a professional spokesperson from Talking Heads. A website spokesperson can welcome your visitors. Then tell them what they need to know about your site. It is like employing a virtual salesperson. Who can reach out from your website and grab your visitors' attention. Our spokespeole will deliver your message the way you intended. </p>

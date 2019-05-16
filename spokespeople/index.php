@@ -22,7 +22,9 @@
 				</div>
 			</div>
 			<div class="col-lg-5">
-				<?php $video="Professional Spokespeople";$alt="Some of our Professional Spokespeople"; include("../includes/showInline.php"); ?>
+				<div class="embed-responsive embed-responsive-16by9">
+					<iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" type="text/html" src="../ivideo/talking-heads-player.php?video=Professional Spokesperson&autostart=mouse"></iframe>
+                </div>
 			</div>
 		</div>
 	</section>
@@ -31,7 +33,9 @@
 			<div class="card middle">
 				<h3 class="card-header bg-gradient-mine text-center text-white">Video <em>Spokespeople</em></h3>
 				<div class="card-img-top" style="max-width: 640px;margin: 0 auto">
-					<?php $video="Professional Spokesperson";$alt="One of our Professional Spokespeople"; include("../includes/showInline.php"); ?>
+				<div class="embed-responsive embed-responsive-16by9">
+					<iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" type="text/html" src="../ivideo/talking-heads-player.php?video=Professional Spokesperson&autostart=mouse"></iframe>
+                </div>
 				</div>
 				<div class="card-body">
 					<h5 class="card-title text-capitalize">There are numerous terms to explain a Website Spokesperson</h5>
