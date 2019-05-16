@@ -16,7 +16,7 @@
 		<div class="row align-items-center">
 			<div class="col-xl-6 offset-1" id="video-holder">
 				<div class="embed-responsive embed-responsive-16by9">
-					<iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" type="text/html" src="ivideo/talking-heads-player.php?video=Social Media&autostart=mouse&controls=mouse"></iframe>
+					<iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" type="text/html" src="ivideo/talking-heads-player.php?video=Social Media&autostart=no&controls=mouse"></iframe>
 				</div>
 			</div>
 			<div class="col-xl-4">
