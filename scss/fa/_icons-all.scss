@@ -12,6 +12,12 @@ readers do not read off random characters that represent icons */
 .#{$fa-css-prefix}-expand-alt:before { content: fa-content($fa-var-expand-alt); }
 .#{$fa-css-prefix}-stop-circle:before { content: fa-content($fa-var-stop-circle); }
 .#{$fa-css-prefix}-undo-alt:before { content: fa-content($fa-var-undo-alt); }
+.#{$fa-css-prefix}-facebook:before { content: fa-content($fa-var-facebook); }
+.#{$fa-css-prefix}-twitter:before { content: fa-content($fa-var-twitter); }
+.#{$fa-css-prefix}-linkedin:before { content: fa-content($fa-var-linkedin); }
+.#{$fa-css-prefix}-youtube:before { content: fa-content($fa-var-youtube); }
+.#{$fa-css-prefix}-pinterest-p:before { content: fa-content($fa-var-pinterest-p); }
+.#{$fa-css-prefix}-instagram:before { content: fa-content($fa-var-instagram); }
 /*
 .#{$fa-css-prefix}-500px:before { content: fa-content($fa-var-500px); }
 .#{$fa-css-prefix}-abacus:before { content: fa-content($fa-var-abacus); }
@@ -671,7 +677,6 @@ readers do not read off random characters that represent icons */
 .#{$fa-css-prefix}-eye-dropper:before { content: fa-content($fa-var-eye-dropper); }
 .#{$fa-css-prefix}-eye-evil:before { content: fa-content($fa-var-eye-evil); }
 .#{$fa-css-prefix}-eye-slash:before { content: fa-content($fa-var-eye-slash); }
-.#{$fa-css-prefix}-facebook:before { content: fa-content($fa-var-facebook); }
 .#{$fa-css-prefix}-facebook-f:before { content: fa-content($fa-var-facebook-f); }
 .#{$fa-css-prefix}-facebook-messenger:before { content: fa-content($fa-var-facebook-messenger); }
 .#{$fa-css-prefix}-facebook-square:before { content: fa-content($fa-var-facebook-square); }
@@ -1001,7 +1006,6 @@ readers do not read off random characters that represent icons */
 .#{$fa-css-prefix}-info-circle:before { content: fa-content($fa-var-info-circle); }
 .#{$fa-css-prefix}-info-square:before { content: fa-content($fa-var-info-square); }
 .#{$fa-css-prefix}-inhaler:before { content: fa-content($fa-var-inhaler); }
-.#{$fa-css-prefix}-instagram:before { content: fa-content($fa-var-instagram); }
 .#{$fa-css-prefix}-integral:before { content: fa-content($fa-var-integral); }
 .#{$fa-css-prefix}-intercom:before { content: fa-content($fa-var-intercom); }
 .#{$fa-css-prefix}-internet-explorer:before { content: fa-content($fa-var-internet-explorer); }
@@ -1086,7 +1090,6 @@ readers do not read off random characters that represent icons */
 .#{$fa-css-prefix}-lights-holiday:before { content: fa-content($fa-var-lights-holiday); }
 .#{$fa-css-prefix}-line:before { content: fa-content($fa-var-line); }
 .#{$fa-css-prefix}-link:before { content: fa-content($fa-var-link); }
-.#{$fa-css-prefix}-linkedin:before { content: fa-content($fa-var-linkedin); }
 .#{$fa-css-prefix}-linkedin-in:before { content: fa-content($fa-var-linkedin-in); }
 .#{$fa-css-prefix}-linode:before { content: fa-content($fa-var-linode); }
 .#{$fa-css-prefix}-linux:before { content: fa-content($fa-var-linux); }
@@ -1321,7 +1324,6 @@ readers do not read off random characters that represent icons */
 .#{$fa-css-prefix}-piggy-bank:before { content: fa-content($fa-var-piggy-bank); }
 .#{$fa-css-prefix}-pills:before { content: fa-content($fa-var-pills); }
 .#{$fa-css-prefix}-pinterest:before { content: fa-content($fa-var-pinterest); }
-.#{$fa-css-prefix}-pinterest-p:before { content: fa-content($fa-var-pinterest-p); }
 .#{$fa-css-prefix}-pinterest-square:before { content: fa-content($fa-var-pinterest-square); }
 .#{$fa-css-prefix}-pizza:before { content: fa-content($fa-var-pizza); }
 .#{$fa-css-prefix}-pizza-slice:before { content: fa-content($fa-var-pizza-slice); }
@@ -1816,7 +1818,6 @@ readers do not read off random characters that represent icons */
 .#{$fa-css-prefix}-tv:before { content: fa-content($fa-var-tv); }
 .#{$fa-css-prefix}-tv-retro:before { content: fa-content($fa-var-tv-retro); }
 .#{$fa-css-prefix}-twitch:before { content: fa-content($fa-var-twitch); }
-.#{$fa-css-prefix}-twitter:before { content: fa-content($fa-var-twitter); }
 .#{$fa-css-prefix}-twitter-square:before { content: fa-content($fa-var-twitter-square); }
 .#{$fa-css-prefix}-typo3:before { content: fa-content($fa-var-typo3); }
 .#{$fa-css-prefix}-uber:before { content: fa-content($fa-var-uber); }
@@ -1985,7 +1986,6 @@ readers do not read off random characters that represent icons */
 .#{$fa-css-prefix}-yen-sign:before { content: fa-content($fa-var-yen-sign); }
 .#{$fa-css-prefix}-yin-yang:before { content: fa-content($fa-var-yin-yang); }
 .#{$fa-css-prefix}-yoast:before { content: fa-content($fa-var-yoast); }
-.#{$fa-css-prefix}-youtube:before { content: fa-content($fa-var-youtube); }
 .#{$fa-css-prefix}-youtube-square:before { content: fa-content($fa-var-youtube-square); }
 .#{$fa-css-prefix}-zhihu:before { content: fa-content($fa-var-zhihu); }
 */
