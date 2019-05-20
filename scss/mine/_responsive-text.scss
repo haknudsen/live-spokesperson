@@ -25,8 +25,8 @@
 
 $min_width: 320px;
 $max_width: 1400px;
-$min_font: 8px;
-$max_font: 28px;
+$min_font: 10px;
+$max_font: 24px;
 
 html {
   @include fluid-type($min_width, $max_width, $min_font, $max_font);

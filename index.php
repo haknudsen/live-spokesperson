@@ -29,7 +29,7 @@
     <section class="container-fluid">
         <div class="clearfix">
             <div class="w-75 float-right">
-                <div class="row">
+                <div class="row align-items-center">
                     <div class="col-lg-6">
                         <div class="embed-responsive embed-responsive-16by9">
                             <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" type="text/html" src="ivideo/talking-heads-player.php?video=Our Spokespeople&autostart=mouse&controls=mouse"></iframe>

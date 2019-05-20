@@ -2,6 +2,13 @@
 $btnWidth: 44px;
 $bigPlayBtn-height: 76px;
 $bigPlayBtn-width: 160px;
+#player-holder {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	&:hover #controls{opacity: 1}
+}
+#talking-head-player{border: thin solid $primary}
 #controls {
 	width: 100%;
 	margin-left: auto;
@@ -33,12 +40,6 @@ $bigPlayBtn-width: 160px;
 	#volume-bar {
 		padding: 10px 8px;
 	}
-}
-#player-holder {
-	width: 100%;
-	margin: 0;
-	padding: 0;
-	&:hover #controls{opacity: 1}
 }
 #bigPlayBtn {
 	height: $bigPlayBtn-height;
