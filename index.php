@@ -21,30 +21,37 @@
             </div>
             <div class="col-xl-4">
                 <?php include( "includes/contact.php"); ?>
-                <div class="contact-phone animated" slideInRight><a href="tel:1-801-748-2281" title="Call Now!" class="navbar-brand float-right">1-801-748-2281</a></div>
+                <div class="contact-phone animated" slideInRight><a href="tel:1-801-748-2281" title="Call Now!" class="navbar-brand float-right">1-801-748-2281</a>
+                </div>
             </div>
         </div>
     </section>
     <section class="container-fluid">
         <div class="clearfix">
-            <div class="w-50 float-right">
-                <div class="card"">
-                  <div class="card-header">Spokespeople</div>
-                  <div class="card-video">
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" type="text/html" src="ivideo/talking-heads-player.php?video=Our Spokespeople&autostart=mouse&controls=mouse"></iframe>
+            <div class="w-75 float-right">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" type="text/html" src="ivideo/talking-heads-player.php?video=Our Spokespeople&autostart=mouse&controls=mouse"></iframe>
+                        </div>
                     </div>
-                 </div>
-  <div class="card-body">
-    <h5 class="card-title">What a Website Spokesperson Can Do For You</h5>
-    <p class="card-text">Your Web Spokesperson could greet your online visitors to help them feel more comfortable on your website. Your website Spokesperson will build confidence that your business is actually solid giving your business a professional face, point out parts of your website, and help the visitor to know that your products and services will give them and edge.</p>
-    <a href="# " class="btn btn-primary float-right">Our Spokespeople</a>
-  </div>
-</div>
+                    <div class="col-lg-6">
+                        <div class="card">
+                            <div class="card-header">Spokespeople</div>
+                            <div class="card-video">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">What a Website Spokesperson Can Do For You</h5>
+                                <p class="card-text">Your Web Spokesperson could greet your online visitors to help them feel more comfortable on your website. Your website Spokesperson will build confidence that your business is actually solid giving your business a professional face, point out parts of your website, and help the visitor to know that your products and services will give them and edge.</p>
+                                <a href="#" class="btn btn-primary float-right">Our Spokespeople</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
-    
+
     <?php include("includes/footer.php "); ?>
 
 </body>
