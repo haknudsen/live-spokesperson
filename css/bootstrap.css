@@ -4281,26 +4281,27 @@ input[type="button"].btn-block {
 /* line 14, ../scss/_nav.scss */
 .nav-link {
   display: block;
-  padding: 0.5rem 1rem;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.8rem;
 }
 /* line 17, ../scss/mixins/_hover.scss */
 .nav-link:hover, .nav-link:focus {
   text-decoration: none;
 }
-/* line 23, ../scss/_nav.scss */
+/* line 24, ../scss/_nav.scss */
 .nav-link.disabled {
   color: #2D80E5;
 }
 
-/* line 32, ../scss/_nav.scss */
+/* line 33, ../scss/_nav.scss */
 .nav-tabs {
   border-bottom: 1px solid #66AAFF;
 }
-/* line 35, ../scss/_nav.scss */
+/* line 36, ../scss/_nav.scss */
 .nav-tabs .nav-item {
   margin-bottom: -1px;
 }
-/* line 39, ../scss/_nav.scss */
+/* line 40, ../scss/_nav.scss */
 .nav-tabs .nav-link {
   border: 1px solid transparent;
   border-top-left-radius: 0.25rem;
@@ -4310,55 +4311,55 @@ input[type="button"].btn-block {
 .nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
   border-color: #B2D4FF #B2D4FF #66AAFF;
 }
-/* line 47, ../scss/_nav.scss */
+/* line 48, ../scss/_nav.scss */
 .nav-tabs .nav-link.disabled {
   color: #2D80E5;
   background-color: transparent;
   border-color: transparent;
 }
-/* line 54, ../scss/_nav.scss */
+/* line 55, ../scss/_nav.scss */
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
   color: #fff;
   background-color: #fff;
   border-color: #66AAFF #66AAFF #fff;
 }
-/* line 62, ../scss/_nav.scss */
+/* line 63, ../scss/_nav.scss */
 .nav-tabs .dropdown-menu {
   margin-top: -1px;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
 
-/* line 76, ../scss/_nav.scss */
+/* line 77, ../scss/_nav.scss */
 .nav-pills .nav-link {
   border-radius: 0.25rem;
 }
-/* line 80, ../scss/_nav.scss */
+/* line 81, ../scss/_nav.scss */
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
   background-color: #00A3FF;
 }
 
-/* line 93, ../scss/_nav.scss */
+/* line 94, ../scss/_nav.scss */
 .nav-fill .nav-item {
   flex: 1 1 auto;
   text-align: center;
 }
 
-/* line 100, ../scss/_nav.scss */
+/* line 101, ../scss/_nav.scss */
 .nav-justified .nav-item {
   flex-basis: 0;
   flex-grow: 1;
   text-align: center;
 }
 
-/* line 113, ../scss/_nav.scss */
+/* line 114, ../scss/_nav.scss */
 .tab-content > .tab-pane {
   display: none;
 }
-/* line 116, ../scss/_nav.scss */
+/* line 117, ../scss/_nav.scss */
 .tab-content > .active {
   display: block;
 }
@@ -4418,8 +4419,8 @@ input[type="button"].btn-block {
 /* line 84, ../scss/_navbar.scss */
 .navbar-text {
   display: inline-block;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
 }
 
 /* line 99, ../scss/_navbar.scss */
@@ -11325,13 +11326,13 @@ html {
 @media screen and (min-width: 320px) {
   /* line 12, ../scss/mine/_responsive-text.scss */
   html {
-    font-size: calc(12px + 24 * ((100vw - 320px) / 1080));
+    font-size: calc(12px + 16 * ((100vw - 320px) / 1080));
   }
 }
 @media screen and (min-width: 1400px) {
   /* line 12, ../scss/mine/_responsive-text.scss */
   html {
-    font-size: 36px;
+    font-size: 28px;
   }
 }
 
@@ -11506,32 +11507,42 @@ p {
   min-width: 300px;
   margin: 0 auto;
   background: #BCE4FF;
+  padding: 0 .5rem;
 }
-/* line 113, ../scss/mine/_my-custom.scss */
-.contact label, .contact input[type="phone"], .contact input[type="email"], .contact input[type="text"], .contact textarea {
+/* line 114, ../scss/mine/_my-custom.scss */
+.contact table, .contact tr {
+  width: 100%;
+  min-width: 300px;
+}
+/* line 115, ../scss/mine/_my-custom.scss */
+.contact input[type="phone"], .contact input[type="email"], .contact input[type="text"], .contact textarea {
   font-size: 1rem;
-  background: #D5EEFF;
+  background: #light;
   line-height: 1;
   padding: 1px 3px;
+  width: 100%;
+  margin-bottom: 0;
 }
-/* line 119, ../scss/mine/_my-custom.scss */
+/* line 123, ../scss/mine/_my-custom.scss */
 .contact label {
   background: transparent;
+  line-height: 1;
+  margin: 0;
 }
-/* line 122, ../scss/mine/_my-custom.scss */
+/* line 128, ../scss/mine/_my-custom.scss */
 .contact textarea {
   border-width: 2px;
   border-style: inset;
   border-color: initial;
   border-image: initial;
 }
-/* line 127, ../scss/mine/_my-custom.scss */
+/* line 133, ../scss/mine/_my-custom.scss */
 .contact textarea h3 {
   line-height: 1;
   margin-bottom: .25rem;
 }
 
-/* line 133, ../scss/mine/_my-custom.scss */
+/* line 139, ../scss/mine/_my-custom.scss */
 .btn-contact:hover {
   border-color: #BCE4FF #BCE4FF #BCE4FF;
   background-repeat: repeat-x;
@@ -11555,7 +11566,7 @@ p {
   text-shadow: 0 -2px 1px rgba(255, 255, 255, 0.5);
 }
 
-/* line 138, ../scss/mine/_my-custom.scss */
+/* line 144, ../scss/mine/_my-custom.scss */
 .btn-contact {
   color: #0C2340;
   text-shadow: 0 2px 1px rgba(255, 255, 255, 0.5);
@@ -11583,24 +11594,24 @@ p {
   /* IE6-9 */
 }
 
-/* line 147, ../scss/mine/_my-custom.scss */
+/* line 153, ../scss/mine/_my-custom.scss */
 textarea {
   width: 100%;
 }
 
-/* line 150, ../scss/mine/_my-custom.scss */
+/* line 156, ../scss/mine/_my-custom.scss */
 .bd-blue {
   border: thin solid #549BFF;
   padding: .25rem;
   border-radius: .3rem;
 }
 
-/* line 155, ../scss/mine/_my-custom.scss */
+/* line 161, ../scss/mine/_my-custom.scss */
 .bg-grey {
   background: #888888;
 }
 
-/* line 158, ../scss/mine/_my-custom.scss */
+/* line 164, ../scss/mine/_my-custom.scss */
 .bg-gradient-mine {
   border-color: #256ABF #256ABF #256ABF;
   background-repeat: repeat-x;
@@ -11622,7 +11633,7 @@ textarea {
   /* IE6-9 */
 }
 
-/* line 161, ../scss/mine/_my-custom.scss */
+/* line 167, ../scss/mine/_my-custom.scss */
 .bg-gradient-custom {
   border-color: #66AAFF #66AAFF #66AAFF;
   background-repeat: repeat-x;
@@ -11644,38 +11655,38 @@ textarea {
   /* IE6-9 */
 }
 
-/* line 164, ../scss/mine/_my-custom.scss */
+/* line 170, ../scss/mine/_my-custom.scss */
 #spokesperson_videos .card .card-img-top {
   max-width: 220px;
   margin: 0 auto;
 }
 
-/* line 165, ../scss/mine/_my-custom.scss */
+/* line 171, ../scss/mine/_my-custom.scss */
 #awards .card {
   max-width: 500px;
 }
 
-/* line 166, ../scss/mine/_my-custom.scss */
+/* line 172, ../scss/mine/_my-custom.scss */
 #awards .card-body {
   padding-top: 0;
 }
 
-/* line 167, ../scss/mine/_my-custom.scss */
+/* line 173, ../scss/mine/_my-custom.scss */
 .text-light a {
   color: #E5F0FF;
 }
 
-/* line 168, ../scss/mine/_my-custom.scss */
+/* line 174, ../scss/mine/_my-custom.scss */
 .text-large {
   font-size: 200%;
 }
 
-/* line 169, ../scss/mine/_my-custom.scss */
+/* line 175, ../scss/mine/_my-custom.scss */
 .text-faded {
   opacity: 0.6;
 }
 
-/* line 170, ../scss/mine/_my-custom.scss */
+/* line 176, ../scss/mine/_my-custom.scss */
 .notification {
   padding-top: 1rem;
   text-align: center;
@@ -11686,17 +11697,17 @@ textarea {
   color: #E5F0FF;
 }
 
-/* line 171, ../scss/mine/_my-custom.scss */
+/* line 177, ../scss/mine/_my-custom.scss */
 .list-group-indent {
   padding-left: 2rem;
 }
 
-/* line 172, ../scss/mine/_my-custom.scss */
+/* line 178, ../scss/mine/_my-custom.scss */
 .card-columns h3 {
   font-size: 1.25rem;
 }
 
-/* line 173, ../scss/mine/_my-custom.scss */
+/* line 179, ../scss/mine/_my-custom.scss */
 .sidebar {
   font-size: 0.8rem;
   padding-right: 0;
@@ -11704,56 +11715,46 @@ textarea {
   top: 137px;
 }
 
-/* line 174, ../scss/mine/_my-custom.scss */
+/* line 180, ../scss/mine/_my-custom.scss */
 .sidebar .nav-link {
   color: #E5F0FF !important;
 }
 
-/* line 175, ../scss/mine/_my-custom.scss */
+/* line 181, ../scss/mine/_my-custom.scss */
 .actor img {
   width: 160px;
   height: 180px;
 }
 
-/* line 176, ../scss/mine/_my-custom.scss */
+/* line 182, ../scss/mine/_my-custom.scss */
 .sup {
   font-size: 50%;
   line-height: 0;
   vertical-align: super;
 }
 
-/* line 177, ../scss/mine/_my-custom.scss */
+/* line 183, ../scss/mine/_my-custom.scss */
 .actor {
   position: relative;
   width: 160px;
   margin: 0 auto;
 }
-/* line 178, ../scss/mine/_my-custom.scss */
+/* line 184, ../scss/mine/_my-custom.scss */
 .actor img {
   max-width: 180px;
   margin: 0 auto;
 }
-/* line 179, ../scss/mine/_my-custom.scss */
+/* line 185, ../scss/mine/_my-custom.scss */
 .actor h3 {
   font-size: 1.5rem;
   font-weight: 700;
 }
-/* line 180, ../scss/mine/_my-custom.scss */
+/* line 186, ../scss/mine/_my-custom.scss */
 .actor:hover > .thumb-wrapper:before {
   color: #E5F0FF;
 }
 
-/* line 182, ../scss/mine/_my-custom.scss */
-.inputs {
-  padding: .5rem;
-}
-/* line 183, ../scss/mine/_my-custom.scss */
-.inputs input {
-  width: 100%;
-  margin-bottom: 4px;
-}
-
-/* line 185, ../scss/mine/_my-custom.scss */
+/* line 188, ../scss/mine/_my-custom.scss */
 #vtigerFormSubmitBtn {
   padding: 0.25rem 1rem !important;
   border-color: #66AAFF #66AAFF #66AAFF;
@@ -11778,7 +11779,7 @@ textarea {
   text-align: center;
   align-items: center;
 }
-/* line 186, ../scss/mine/_my-custom.scss */
+/* line 189, ../scss/mine/_my-custom.scss */
 #vtigerFormSubmitBtn:hover {
   border-color: #E5F0FF #E5F0FF #E5F0FF;
   background-repeat: repeat-x;
@@ -11800,81 +11801,54 @@ textarea {
   /* IE6-9 */
 }
 
-/* line 187, ../scss/mine/_my-custom.scss */
+/* line 190, ../scss/mine/_my-custom.scss */
 .website {
   max-width: 384px;
   transition: all .2s ease-in-out;
 }
-/* line 190, ../scss/mine/_my-custom.scss */
+/* line 193, ../scss/mine/_my-custom.scss */
 .website h3 {
   font-size: 32px;
 }
-/* line 191, ../scss/mine/_my-custom.scss */
+/* line 194, ../scss/mine/_my-custom.scss */
 .website:hover {
   transform: scale(1.1);
 }
 
-/* line 193, ../scss/mine/_my-custom.scss */
-.thumb-wrapper {
-  position: absolute;
-  top: 45%;
-  bottom: auto;
-  left: 50%;
-  margin-left: -24px;
-  display: inline-block;
-  width: 45px;
-  height: 45px;
-  cursor: pointer;
-  background: rgba(229, 240, 255, 0.5);
-  border-radius: 50%;
-  border: -4px solid black;
-}
-/* line 206, ../scss/mine/_my-custom.scss */
-.thumb-wrapper:before {
-  font-size: 48px;
-  position: absolute;
-  color: #0073FF;
-  left: 0;
-  top: -7px;
-  left: -1px;
-  bottom: auto;
-  right: auto;
-}
-
-/* line 217, ../scss/mine/_my-custom.scss */
+/* line 196, ../scss/mine/_my-custom.scss */
 .i-sup {
   font-size: 60%;
   vertical-align: super;
   padding: 0 6px;
 }
 
-/* line 218, ../scss/mine/_my-custom.scss */
+/* line 197, ../scss/mine/_my-custom.scss */
 footer a:hover {
   color: #E5F0FF;
 }
 
-/* line 219, ../scss/mine/_my-custom.scss */
+/* line 198, ../scss/mine/_my-custom.scss */
 .understrap-read-more-link {
   float: left;
 }
 
-/* line 220, ../scss/mine/_my-custom.scss */
+/* line 199, ../scss/mine/_my-custom.scss */
 .testimonial {
   clear: both;
   font-size: 1.5rem;
   height: 236px;
 }
-/* line 221, ../scss/mine/_my-custom.scss */
+/* line 200, ../scss/mine/_my-custom.scss */
 .testimonial .carousel-control-prev, .testimonial .carousel-control-next {
   width: 5%;
 }
-/* line 222, ../scss/mine/_my-custom.scss */
+/* line 201, ../scss/mine/_my-custom.scss */
 .testimonial .carousel-inner {
   height: 235px;
   overflow: hidden;
 }
 
-/* line 224, ../scss/mine/_my-custom.scss */
+/* line 203, ../scss/mine/_my-custom.scss */
 .quote {
   font-weight: 600;
   font-family: open-sans, sans-serif;
@@ -11883,7 +11857,7 @@ footer a:hover {
   line-height: 1.2;
 }
 
-/* line 225, ../scss/mine/_my-custom.scss */
+/* line 204, ../scss/mine/_my-custom.scss */
 .subject {
   text-align: center;
   font-weight: 200;
@@ -11891,7 +11865,7 @@ footer a:hover {
   margin-top: 1rem;
 }
 
-/* line 226, ../scss/mine/_my-custom.scss */
+/* line 205, ../scss/mine/_my-custom.scss */
 .form-name {
   text-align: center;
   font-weight: 700;
@@ -11899,42 +11873,47 @@ footer a:hover {
   font-size: 1.5rem;
 }
 
-/* line 227, ../scss/mine/_my-custom.scss */
+/* line 206, ../scss/mine/_my-custom.scss */
 .contact-phone {
   text-align: center;
-  font-size: 3vh;
+  font-size: 2rem;
   color: #19477F;
   animation-delay: 1s;
   animation-duration: .5s;
 }
 
-/* line 228, ../scss/mine/_my-custom.scss */
+/* line 207, ../scss/mine/_my-custom.scss */
 .social-icons {
   align-items: center;
   display: flex;
   justify-content: center;
 }
 
-/* line 229, ../scss/mine/_my-custom.scss */
+/* line 208, ../scss/mine/_my-custom.scss */
 .social-link {
   border-radius: 50%;
   border: thin solid #19477F;
   position: relative;
-  width: 3rem;
-  height: 3rem;
+  width: 2rem;
+  height: 2rem;
   margin: 0 .25rem;
   padding: .25rem;
   color: #19477F;
   background: #E5F0FF;
-  font-size: 2rem;
+  font-size: 1rem;
 }
-/* line 240, ../scss/mine/_my-custom.scss */
+/* line 219, ../scss/mine/_my-custom.scss */
 .social-link a {
   color: #00A3FF;
 }
-/* line 243, ../scss/mine/_my-custom.scss */
+/* line 222, ../scss/mine/_my-custom.scss */
 .social-link:hover {
   transform: rotate(360deg);
   color: #E5F0FF;
   background: #19477F;
+}
+/* line 227, ../scss/mine/_my-custom.scss */
+.social-link div {
+  height: 1rem;
+  width: 1rem;
 }
