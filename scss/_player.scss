@@ -1,0 +1,24 @@
+/* Scss Document */
+$fa-icons: (
+		play: 'f144',
+		play-circle: 'f144',
+		pause: 'f04c',
+		stop:'f28d',
+		volume-mute: 'f6a9',
+		volume-low: 'f105',
+		volume-mid: 'f106',
+		volume-high: 'f107',
+		fullscreen-enter: 'f108',
+		fullscreen-exit: 'f109'
+);
+@each $name, $content in $fa-icons {
+	.player-btn-# {$name;}{
+		font-family: "Font Awesome 5 Pro";
+		font-weight: normal;
+		font-style: normal;
+		cursor: pointer;
+		&:before {
+			content: char($content);
+		}
+	}
+}

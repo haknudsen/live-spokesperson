@@ -1,7 +1,7 @@
-<div class="border border-primary rounded contact">
+<div class="border border-primary rounded contact animated bounceInDown">
 	<h3 class="text-center border-bottom">Contact Us</h3>
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-	<form name="New Contact" id="__vtigerWebForm" class="pb-1 pr-1" action="https://websitetalkingheads.od1.vtiger.com/modules/Webforms/capture.php" enctype="multipart/form-data" method="post" accept-charset="utf-8">
+	<form name="New Contact" id="__vtigerWebForm" action="https://websitetalkingheads.od1.vtiger.com/modules/Webforms/capture.php" enctype="multipart/form-data" method="post" accept-charset="utf-8">
 		<input name="__vtrftk" type="hidden" value="sid:12962bf4d0ad1d80fe58aaae128bc3449eced7c4,1541021677">
 		<input name="publicid" type="hidden" value="7d2174f0e1764a1915290b61d33c94b1">
 		<input name="urlencodeenable" type="hidden" value="1">
@@ -13,7 +13,7 @@
 					<tr>
 						<td><label>Name* </label>
 						</td>
-						<td><input name="lastname" required="" type="text" maxlength="100" value="" data-label="">
+						<td><input name="lastname" required="" type="text" value="" data-label="">
 						</td>
 					</tr>
 					<tr>
@@ -23,17 +23,17 @@
 						</td>
 					</tr>
 					<tr>
-						<td><input name="cf_1001" type="hidden" maxlength="100" value="" data-label="">
+						<td><input name="cf_1001" type="hidden" value="" data-label="">
 						</td>
 					</tr>
 					<tr>
 						<td><label> Phone* </label>
 						</td>
-						<td><input name="phone" required="" type="phone" maxlength="100" value="" data-label="">
+						<td><input name="phone" required="" type="phone" value="" data-label="">
 						</td>
 					</tr>
 					<tr>
-						<td><input name="designation" type="hidden" maxlength="100" value="" data-label="">
+						<td><input name="designation" type="hidden" value="" data-label="">
 						</td>
 					</tr>
 					<tr>

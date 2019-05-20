@@ -11,6 +11,10 @@
 	height: $progress-height;
 	overflow: hidden;
 	// force rounded corners by cropping it
+  font-size: $progress-font-size;
+	font-family: $font-family-heavy;
+	font-weight: 700;
+	color: $dark;
 	background-color: $progress-bg;
 	@include border-radius($progress-border-radius);
 	@include box-shadow($progress-box-shadow);
@@ -20,9 +24,6 @@
 	flex-direction: column;
 	justify-content: center;
 	color: $progress-bar-color;
-	font-size: $progress-font-size;
-	font-family: $font-family-heavy;
-	font-weight: $font-weight-bold;
 	text-align: center;
 	white-space: nowrap;
 	background-color: $progress-bar-bg;

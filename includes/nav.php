@@ -1,5 +1,5 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-	<a href="http://www.live-spokesperson.com/" title="Live-Spokesperson.com" class="navbar-brand float-left"><img src="http://www.live-spokesperson.com/images/head.png" alt="Live-Spokesperson Logo" class="img-fluid" style="max-height: 98px" title="Live-Spokesperson Logo"/></a>
+<nav class="navbar navbar-expand-xl navbar-dark bg-dark sticky-top">
+	<a href="http://www.live-spokesperson.com/" title="Live-Spokesperson.com" class="navbar-brand float-left"><img src="https://www.websitetalkingheads.com/images/Talking_Heads_Banner_Logo.png" alt="Live-Spokesperson Logo" class="img-fluid" style="max-height: 98px" title="Live-Spokesperson Logo"/></a>
 	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -25,10 +25,10 @@
 				</div>
 			</li>
 			<li class="nav-item" id="articles">
-				<a class="nav-link" href="http://www.live-spokesperson.com/articles">Articles</a>
+				<a class="nav-link" href="http://www.live-spokesperson.com/articles">Order</a>
 			</li>
 			<li class="nav-item" id="about">
-				<a class="nav-link" href="http://www.live-spokesperson.com/about">About</a>
+				<a class="nav-link" href="http://www.live-spokesperson.com/about">Specials</a>
 			</li>
 		</ul>
 

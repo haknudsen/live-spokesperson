@@ -228,4 +228,24 @@ footer a:hover{color: $light;}
 .quote{font-weight: 600;font-family: open-sans, sans-serif; width: 90%;margin: 0 auto;line-height: 1.2}
 .subject{text-align: center;font-weight: 200;font-style: italic;margin-top: 1rem}
 .form-name{text-align: center;font-weight: 700;color:$light;font-size: 1.5rem}
-.contact-phone{text-align: center;font-size: 2vh}
+.contact-phone{text-align: center;font-size: 3vh;color: $dark;animation-delay:1s;animation-duration: .5s}
+.social-icons{align-items: center;display: flex; justify-content: center;}
+.social-link{
+		border-radius: 50%;
+	border: thin solid $dark;
+		position: relative;
+		width: 3rem;
+		height: 3rem;
+		margin: 0 .25rem;
+		padding: .25rem;
+		color: $dark;
+		background: $light;
+		font-size: 2rem;
+		a {
+			color: $primary; 
+		}
+		&:hover{
+			color: $light;
+			background: $dark;
+		}
+}
