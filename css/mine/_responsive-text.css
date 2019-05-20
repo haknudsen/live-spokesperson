@@ -1,0 +1,24 @@
+/* line 12, ../../scss/mine/_responsive-text.scss */
+html {
+  font-size: 16px;
+}
+@media screen and (min-width: 320px) {
+  /* line 12, ../../scss/mine/_responsive-text.scss */
+  html {
+    font-size: calc(16px + 24 * ((100vw - 320px) / 1080));
+  }
+}
+@media screen and (min-width: 1400px) {
+  /* line 12, ../../scss/mine/_responsive-text.scss */
+  html {
+    font-size: 40px;
+  }
+}
+
+/* line 35, ../../scss/mine/_responsive-text.scss */
+body {
+  max-width: 1400px;
+  padding: 1rem;
+  margin: 0 auto;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}

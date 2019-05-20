@@ -1,7 +1,7 @@
 /* Scss Document */
 .content {
 	font-size: 1.2rem;
-	color: #000011;
+	color: #dark;
 }
 .list-style-item {
 	position: relative;
@@ -33,10 +33,6 @@
 }
 #awards .card-title {
 	text-align: center;
-}
-.content {
-	font-size: 1.2rem;
-	color: #000011;
 }
 #banner {
 	opacity: 0;
@@ -111,7 +107,7 @@ p {
 	border-bottom-color: darken($info, 10%);
 }
 .contact {
-	max-width: 400px;
+	min-width: 300px;
 	margin: 0 auto;
 	background: #BCE4FF;
 	label, input[type="phone"], input[type="email"], input[type="text"], textarea {
@@ -232,18 +228,20 @@ footer a:hover{color: $light;}
 .social-icons{align-items: center;display: flex; justify-content: center;}
 .social-link{
 		border-radius: 50%;
+		border: thin solid $dark;
 		position: relative;
 		width: 3rem;
 		height: 3rem;
 		margin: 0 .25rem;
 		padding: .25rem;
-		color: $primary;
+		color: $dark;
 		background: $light;
 		font-size: 2rem;
 		a {
 			color: $primary; 
 		}
 		&:hover{
+			transform: rotate(360deg);
 			color: $light;
 			background: $dark;
 		}
