@@ -1,7 +1,7 @@
 /* Scss Document */
 .content {
 	font-size: 1.2rem;
-	color: #dark;
+	color: #000011;
 }
 .list-style-item {
 	position: relative;
@@ -33,6 +33,10 @@
 }
 #awards .card-title {
 	text-align: center;
+}
+.content {
+	font-size: 1.2rem;
+	color: #000011;
 }
 #banner {
 	opacity: 0;
@@ -107,23 +111,17 @@ p {
 	border-bottom-color: darken($info, 10%);
 }
 .contact {
-	min-width: 300px;
+	max-width: 400px;
 	margin: 0 auto;
 	background: #BCE4FF;
-	padding: 0 .5rem;
-	table,tr{width: 100%;min-width: 300px}
-	input[type="phone"], input[type="email"], input[type="text"], textarea {
+	label, input[type="phone"], input[type="email"], input[type="text"], textarea {
 		font-size: 1rem;
-		background: #light;
+		background: #D5EEFF;
 		line-height: 1;
 		padding: 1px 3px;
-		width: 100%;
-		margin-bottom:0;
 	}
 	label {
 		background: transparent;
-		line-height:1;
-		margin:0;
 	}
 	textarea {
 		border-width: 2px;
@@ -185,6 +183,9 @@ textarea {
 	h3{font-size: 1.5rem;font-weight: 700}
 	&:hover > .thumb-wrapper:before { color: #E5F0FF }
 }
+.inputs{padding: .5rem;
+	input { width: 100%; margin-bottom: 4px }
+}
 #vtigerFormSubmitBtn{padding: .25rem 1rem!important;@include gradient-mine($gray-100,$gray-300);margin-bottom: .25rem;text-align: center;align-items: center;
 	&:hover{@include gradient-mine($gray-300,$gray-100)}}
 .website{
@@ -192,6 +193,30 @@ textarea {
 	transition: all .2s ease-in-out;
 	h3{font-size: 32px}
 	&:hover{transform: scale(1.1);}
+}
+.thumb-wrapper {
+    position: absolute;
+    top: 45%;
+    bottom: auto;
+    left: 50%;
+    margin-left: -24px;
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+	background: rgba(229,240,255,0.5);
+	border-radius: 50%;
+	border: -4px solid rgba(0,0,0,1.00);
+	&:before {
+		font-size: 48px;
+		position: absolute;
+		color: #0073FF;
+		left: 0;
+		top: -7px;
+		left: -1px;
+		bottom: auto;
+		right: auto;
+	}
 }
 .i-sup{font-size:60%;vertical-align:super;padding: 0 6px}
 footer a:hover{color: $light;}
@@ -203,26 +228,3 @@ footer a:hover{color: $light;}
 .quote{font-weight: 600;font-family: open-sans, sans-serif; width: 90%;margin: 0 auto;line-height: 1.2}
 .subject{text-align: center;font-weight: 200;font-style: italic;margin-top: 1rem}
 .form-name{text-align: center;font-weight: 700;color:$light;font-size: 1.5rem}
-.contact-phone{text-align: center;font-size: 2rem;color: $dark;animation-delay:1s;animation-duration: .5s}
-.social-icons{align-items: center;display: flex; justify-content: center;}
-.social-link{
-		border-radius: 50%;
-		border: thin solid $dark;
-		position: relative;
-		width: 2rem;
-		height: 2rem;
-		margin: 0 .25rem;
-		padding: .25rem;
-		color: $dark;
-		background: $light;
-		font-size: 1rem;
-		a {
-			color: $primary; 
-		}
-		&:hover{
-			transform: rotate(360deg);
-			color: $light;
-			background: $dark;
-		}
-	div{height: 1rem;width: 1rem}
-}

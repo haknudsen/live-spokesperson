@@ -16,14 +16,11 @@
 		<div class="row align-items-center">
 			<div class="col-xl-6 offset-1" id="video-holder">
 				<div class="embed-responsive embed-responsive-16by9">
-					<iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" type="text/html" src="ivideo/talking-heads-player.php?video=Social Media&autostart=no&controls=mouse"></iframe>
+					<iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" type="text/html" src="ivideo/talking-heads-player.php?video=Social Media&autostart=mute&controls=mouse"></iframe>
 				</div>
 			</div>
 			<div class="col-xl-4">
 				<?php include( "includes/contact.php"); ?>
-				<div class="contact-phone animated bounceInRight">
-					<a href="tel:1-801-748-2281" title="Call Now!">1-801-748-2281</a>
-				</div>
 			</div>
 		</div>
 	</section>
@@ -102,17 +99,13 @@
 			<div class="card mb-3">
 				<h3 class="card-header bg-gradient-primary text-capitalize">Talking Heads Video Styles</h3>
 				<div class="card-body">
-				<div class="embed-responsive embed-responsive-16by9">
-					<iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" type="text/html" src="ivideo/talking-heads-player.php?video=Talking Heads Video Demonstration&autostart=no&controls=mouse"></iframe>
-				</div>
+					<?php $video="Talking Heads Video Demonstration";$alt="Talking Heads Video Demonstration";$bgColor = "#84D6FF"; include("includes/showInline.php"); ?>
 				</div>
 			</div>
 			<div class="card mb-3">
 				<h3 class="card-header bg-gradient-primary text-capitalize">Some of our Spokespeople</h3>
 				<div class="card-body">
-				<div class="embed-responsive embed-responsive-16by9">
-					<iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" type="text/html" src="ivideo/talking-heads-player.php?video=Massive Wall Of Spokespeople&autostart=no&controls=mouse"></iframe>
-				</div>
+					<?php $video="Massive Wall Of Spokespeople";$alt="TMassive Wall Of Spokespeople";$bgColor = "#84D6FF"; include("includes/showInline.php"); ?>
 				</div>
 			</div>
 		</div>
