@@ -9,13 +9,13 @@ $(document).ready(function () {
 		if (!$(this).attr("alt")) {
 			alt = "";
 		} else {
-			alt = " - " + $(this).attr("alt");
+			alt = $(this).attr("alt");
 		}
 		showVideo();
 	});
 
 	function showVideo() {
-		$('#videoModalLabel').text(name + alt);
+		$('#videoModalLabel').text(alt);
 		video.pause();
 		video.src = srcVideo;
 		video.play();
