@@ -249,3 +249,6 @@ footer a:hover{color: $light;}
 			background: $dark;
 		}
 }
+.bg-dark,.bg-light{
+    transition: .5s ease;
+}

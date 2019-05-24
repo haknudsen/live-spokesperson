@@ -21,7 +21,7 @@
             </div>
             <div class="col-xl-4">
                 <?php include( "includes/contact.php"); ?>
-                <div class="contact-phone animated slideInRight"><a href="tel:1-801-748-2281" title="Call Now!" class="navbar-brand float-right">1-801-748-2281</a>
+                <div class="contact-phone animated" slideInRight><a href="tel:1-801-748-2281" title="Call Now!" class="navbar-brand float-right">1-801-748-2281</a>
                 </div>
             </div>
         </div>
