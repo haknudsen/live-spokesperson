@@ -51,7 +51,7 @@
 			<input id="captchaUrl" type="hidden" value="https://websitetalkingheads.od1.vtiger.com/modules/Settings/Webforms/actions/ValidateCaptcha.php">
 			<input name="recaptcha_validation_value" id="recaptcha_validation_value" type="hidden">
 		</div>
-		<div class="d-flex justify-content-center mt-1">
+		<div class="d-flex justify-content-center mt-1 mx-auto w-50">
 			<input id="vtigerFormSubmitBtn" class="btn-contact" type="submit" value="I Want Video">
 		</div>
 	</form>
