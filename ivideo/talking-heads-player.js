@@ -46,19 +46,6 @@
 			player = talkingHeadsVideo.player[0];
 		th.attr("poster", talkingHeadsVideo.path + talkingHeadsVideo.poster);
 		th.attr("src", talkingHeadsVideo.path + talkingHeadsVideo.video);
-		//get controls with and set seekbar width
-		function setProgressBar() {
-			talkingHeadsVideo.container.controlsWidth = function () {
-				var width = 0;
-				$("#controls").children().each(function () {
-					var x = $(this).outerWidth(true);
-					width += x;
-				});
-				console.log( width );
-				var progressBarWidth = ($("#controls").outerWidth() - talkingHeadsVideo.container.controlsWidth()) + "px";
-				progressBar.css("width", progressBarWidth);
-			}
-		}
 		//Set Controls
 		console.log(talkingHeadsVideo);
 		setProgressBar();
@@ -292,5 +279,16 @@
 		$(window).resize(function () {
 			setProgressBar();
 		});
+		//get controls with and set seekbar width
+		function setProgressBar() {
+			var width = 0;
+			$("#controls").children().each(function () {
+				var x = $(this).outerWidth(true);
+				width += x;
+			});
+			width = width - $("#progress-bar").outerWidth() + 10;
+			var progressBarWidth = ($("#controls").outerWidth() - width) + "px";
+			progressBar.css("width", progressBarWidth);
+		}
 	}
 }(jQuery));
