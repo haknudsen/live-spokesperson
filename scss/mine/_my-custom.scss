@@ -136,7 +136,7 @@ p {
 	}
 	table,label,input{width: 100%}
 }
-.contact-phone{text-align: center;font-size: 5vh;color: $dark;animation-delay:1s;animation-duration: .5s}
+.contact-phone{text-align: center;font-size: 4.5vh;color: $dark;animation-delay:1s;animation-duration: .5s}
 .btn-contact:hover {
 	@include gradient-mine(#7ECDF4,#BCE4FF);
 	color: $gray-600;
