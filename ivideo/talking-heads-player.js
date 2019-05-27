@@ -127,7 +127,12 @@
 			btns.bigPlayBtn.show("slow");
 			player.play();
 			togglePlay();
-
+			holder.click(function(){
+				player.muted = false;
+				btns.bigPlayBtn.hide("slow");
+				togglePause();
+				btnFunctions();
+			})
 		}
 		//-----------------autostrt poster
 		function poster() {
@@ -208,14 +213,14 @@
 				player.muted = false;
 				player.play();
 			});
-			player.on('ended', function () {
+			player.onended = function () {
 				console.log('Video has ended!');
 				if (!player.muted) {
 					player.currentTime = 0;
 					btns.bigPlayBtn.show("slow");
 					togglePlay();
 				}
-			});
+			}
 		}
 		// Update the seek bar as the player plays
 		player.ontimeupdate = function () {
