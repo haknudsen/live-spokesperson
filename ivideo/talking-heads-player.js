@@ -1,5 +1,6 @@
 // JavaScript Document
-////au
+////controls- show, hide, mouse
+//  autostart- no, yes, mouse, mute
 (function ($) {
 	"use strict";
 	$.fn.createTalkingHead = function (title, autostart, controls) {
@@ -49,6 +50,7 @@
 		//Set Controls
 		console.log(talkingHeadsVideo);
 		setProgressBar();
+		//-------------------------------Set Controls
 		switch (talkingHeadsVideo.controls) {
 			case "show":
 				$controls.addClass("visible");
@@ -61,17 +63,19 @@
 				talkingHeadsVideo.holder.addClass("mouse-controls");
 				break;
 		}
+		//--------------------------------Set autostart
 		switch (talkingHeadsVideo.autostart) {
-			default: launchMouse();
-			break;
 			case "no":
-					poster();
+				poster();
 				break;
 			case "yes":
-					tryAutostart();
+				tryAutostart();
 				break;
 			case "mute":
-					playMuted();
+				playMuted();
+				break;
+			default:
+				launchMouse();
 				break;
 		}
 		///autoplay mouse
@@ -117,6 +121,7 @@
 		//autostart muted
 		function playMuted() {
 			player.muted = true;
+			th.attr('loop', 'loop');
 			btns.mute.addClass("btn-unmute");
 			btns.mute.removeClass("btn-mute");
 			btns.bigPlayBtn.show("slow");
@@ -124,9 +129,8 @@
 			togglePlay();
 
 		}
-
+		//-----------------autostrt poster
 		function poster() {
-
 			holder.click(function () {
 				talkingHeadsVideo.started = true;
 				holder.unbind();
@@ -203,7 +207,14 @@
 				togglePause();
 				player.muted = false;
 				player.play();
-
+			});
+			player.on('ended', function () {
+				console.log('Video has ended!');
+				if (!player.muted) {
+					player.currentTime = 0;
+					btns.bigPlayBtn.show("slow");
+					togglePlay();
+				}
 			});
 		}
 		// Update the seek bar as the player plays
@@ -213,7 +224,7 @@
 		};
 		// Event listener for the seek bar get the new time
 		progressBar.click(function (e) {
-			progressBar = e.offsetX / progressBarWidth;
+			progressBar = e.offsetX / $("#progress-bar").width();
 			player.pause();
 			player.currentTime = player.duration * (progressBar);
 			btns.bigPlayBtn.hide("slow");
