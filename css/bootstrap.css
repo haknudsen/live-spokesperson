@@ -6809,6 +6809,7 @@ button.bg-orange:focus {
   background: linear-gradient(to bottom, #00A3FF 0%, #0082cc 100%);
   /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$color', endColorstr='$bottom',GradientType=0 );
+  transition: 1s ease;
 }
 
 /* line 18, ../scss/mixins/_background-variant.scss */
@@ -6830,6 +6831,7 @@ button.bg-orange:focus {
   background: linear-gradient(to bottom, #437CCC 0%, #2f63ad 100%);
   /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$color', endColorstr='$bottom',GradientType=0 );
+  transition: 1s ease;
 }
 
 /* line 18, ../scss/mixins/_background-variant.scss */
@@ -6851,6 +6853,7 @@ button.bg-orange:focus {
   background: linear-gradient(to bottom, #117e32 0%, #0b5120 100%);
   /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$color', endColorstr='$bottom',GradientType=0 );
+  transition: 1s ease;
 }
 
 /* line 18, ../scss/mixins/_background-variant.scss */
@@ -6872,6 +6875,7 @@ button.bg-orange:focus {
   background: linear-gradient(to bottom, #00A3FF 0%, #0082cc 100%);
   /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$color', endColorstr='$bottom',GradientType=0 );
+  transition: 1s ease;
 }
 
 /* line 18, ../scss/mixins/_background-variant.scss */
@@ -6893,6 +6897,7 @@ button.bg-orange:focus {
   background: linear-gradient(to bottom, #ffff00 0%, #cccc00 100%);
   /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$color', endColorstr='$bottom',GradientType=0 );
+  transition: 1s ease;
 }
 
 /* line 18, ../scss/mixins/_background-variant.scss */
@@ -6914,6 +6919,7 @@ button.bg-orange:focus {
   background: linear-gradient(to bottom, #dc0000 0%, #a90000 100%);
   /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$color', endColorstr='$bottom',GradientType=0 );
+  transition: 1s ease;
 }
 
 /* line 18, ../scss/mixins/_background-variant.scss */
@@ -6935,6 +6941,7 @@ button.bg-orange:focus {
   background: linear-gradient(to bottom, #E5F0FF 0%, #b2d3ff 100%);
   /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$color', endColorstr='$bottom',GradientType=0 );
+  transition: 1s ease;
 }
 
 /* line 18, ../scss/mixins/_background-variant.scss */
@@ -6956,6 +6963,7 @@ button.bg-orange:focus {
   background: linear-gradient(to bottom, #0C2340 0%, #040c15 100%);
   /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$color', endColorstr='$bottom',GradientType=0 );
+  transition: 1s ease;
 }
 
 /* line 18, ../scss/mixins/_background-variant.scss */
@@ -6977,6 +6985,7 @@ button.bg-orange:focus {
   background: linear-gradient(to bottom, #FFA500 0%, #cc8400 100%);
   /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$color', endColorstr='$bottom',GradientType=0 );
+  transition: 1s ease;
 }
 
 /* line 13, ../scss/utilities/_background.scss */
@@ -20959,8 +20968,7 @@ readers do not read off random characters that represent icons */
 
 /* mine */
 /* Scss Document */
-/* Scss Document */
-/* line 20, ../scss/talkingHeadsPlayer/_player.scss */
+/* line 20, ../scss/talking-heads-player/_player.scss */
 .btn-play {
   font-family: "Font Awesome 5 Pro";
   font-weight: normal;
@@ -20968,12 +20976,12 @@ readers do not read off random characters that represent icons */
   cursor: pointer;
   -webkit-font-smoothing: antialiased;
 }
-/* line 26, ../scss/talkingHeadsPlayer/_player.scss */
+/* line 26, ../scss/talking-heads-player/_player.scss */
 .btn-play:before {
   content: "\f144";
 }
 
-/* line 20, ../scss/talkingHeadsPlayer/_player.scss */
+/* line 20, ../scss/talking-heads-player/_player.scss */
 .btn-pause {
   font-family: "Font Awesome 5 Pro";
   font-weight: normal;
@@ -20981,12 +20989,12 @@ readers do not read off random characters that represent icons */
   cursor: pointer;
   -webkit-font-smoothing: antialiased;
 }
-/* line 26, ../scss/talkingHeadsPlayer/_player.scss */
+/* line 26, ../scss/talking-heads-player/_player.scss */
 .btn-pause:before {
   content: "\f28b";
 }
 
-/* line 20, ../scss/talkingHeadsPlayer/_player.scss */
+/* line 20, ../scss/talking-heads-player/_player.scss */
 .btn-stop {
   font-family: "Font Awesome 5 Pro";
   font-weight: normal;
@@ -20994,12 +21002,12 @@ readers do not read off random characters that represent icons */
   cursor: pointer;
   -webkit-font-smoothing: antialiased;
 }
-/* line 26, ../scss/talkingHeadsPlayer/_player.scss */
+/* line 26, ../scss/talking-heads-player/_player.scss */
 .btn-stop:before {
   content: "\f28d";
 }
 
-/* line 20, ../scss/talkingHeadsPlayer/_player.scss */
+/* line 20, ../scss/talking-heads-player/_player.scss */
 .btn-restart {
   font-family: "Font Awesome 5 Pro";
   font-weight: normal;
@@ -21007,12 +21015,12 @@ readers do not read off random characters that represent icons */
   cursor: pointer;
   -webkit-font-smoothing: antialiased;
 }
-/* line 26, ../scss/talkingHeadsPlayer/_player.scss */
+/* line 26, ../scss/talking-heads-player/_player.scss */
 .btn-restart:before {
   content: "\f2ea";
 }
 
-/* line 20, ../scss/talkingHeadsPlayer/_player.scss */
+/* line 20, ../scss/talking-heads-player/_player.scss */
 .btn-mute {
   font-family: "Font Awesome 5 Pro";
   font-weight: normal;
@@ -21020,12 +21028,12 @@ readers do not read off random characters that represent icons */
   cursor: pointer;
   -webkit-font-smoothing: antialiased;
 }
-/* line 26, ../scss/talkingHeadsPlayer/_player.scss */
+/* line 26, ../scss/talking-heads-player/_player.scss */
 .btn-mute:before {
   content: "\f6a9";
 }
 
-/* line 20, ../scss/talkingHeadsPlayer/_player.scss */
+/* line 20, ../scss/talking-heads-player/_player.scss */
 .btn-unmute {
   font-family: "Font Awesome 5 Pro";
   font-weight: normal;
@@ -21033,12 +21041,12 @@ readers do not read off random characters that represent icons */
   cursor: pointer;
   -webkit-font-smoothing: antialiased;
 }
-/* line 26, ../scss/talkingHeadsPlayer/_player.scss */
+/* line 26, ../scss/talking-heads-player/_player.scss */
 .btn-unmute:before {
   content: "\f028";
 }
 
-/* line 20, ../scss/talkingHeadsPlayer/_player.scss */
+/* line 20, ../scss/talking-heads-player/_player.scss */
 .btn-fullscreen-enter {
   font-family: "Font Awesome 5 Pro";
   font-weight: normal;
@@ -21046,12 +21054,12 @@ readers do not read off random characters that represent icons */
   cursor: pointer;
   -webkit-font-smoothing: antialiased;
 }
-/* line 26, ../scss/talkingHeadsPlayer/_player.scss */
+/* line 26, ../scss/talking-heads-player/_player.scss */
 .btn-fullscreen-enter:before {
   content: "\f424";
 }
 
-/* line 20, ../scss/talkingHeadsPlayer/_player.scss */
+/* line 20, ../scss/talking-heads-player/_player.scss */
 .btn-fullscreen-exit {
   font-family: "Font Awesome 5 Pro";
   font-weight: normal;
@@ -21059,29 +21067,29 @@ readers do not read off random characters that represent icons */
   cursor: pointer;
   -webkit-font-smoothing: antialiased;
 }
-/* line 26, ../scss/talkingHeadsPlayer/_player.scss */
+/* line 26, ../scss/talking-heads-player/_player.scss */
 .btn-fullscreen-exit:before {
   content: "\f422";
 }
 
 /* Scss Document */
-/* line 5, ../scss/talkingHeadsPlayer/_talking-head.scss */
+/* line 5, ../scss/talking-heads-player/_talking-head.scss */
 #player-holder {
   width: 100%;
   margin: 0;
   padding: 0;
 }
-/* line 9, ../scss/talkingHeadsPlayer/_talking-head.scss */
+/* line 9, ../scss/talking-heads-player/_talking-head.scss */
 #player-holder:hover #controls {
   opacity: 1;
 }
 
-/* line 11, ../scss/talkingHeadsPlayer/_talking-head.scss */
+/* line 11, ../scss/talking-heads-player/_talking-head.scss */
 #talking-head-player {
   border: thin solid #00A3FF;
 }
 
-/* line 12, ../scss/talkingHeadsPlayer/_talking-head.scss */
+/* line 12, ../scss/talking-heads-player/_talking-head.scss */
 #controls {
   width: 100%;
   height: 3rem;
@@ -21100,29 +21108,29 @@ readers do not read off random characters that represent icons */
   transition: opacity 0.5s;
   opacity: 0;
 }
-/* line 29, ../scss/talkingHeadsPlayer/_talking-head.scss */
+/* line 29, ../scss/talking-heads-player/_talking-head.scss */
 #controls .player-btn {
   width: 2rem;
   height: 2rem;
   margin: 0 .25rem;
 }
-/* line 34, ../scss/talkingHeadsPlayer/_talking-head.scss */
+/* line 34, ../scss/talking-heads-player/_talking-head.scss */
 #controls #btn-mute {
   width: 3rem;
 }
-/* line 37, ../scss/talkingHeadsPlayer/_talking-head.scss */
+/* line 37, ../scss/talking-heads-player/_talking-head.scss */
 #controls #progress-bar {
   height: 2rem;
   border: thin solid #0C2340;
   margin: .5rem;
 }
-/* line 42, ../scss/talkingHeadsPlayer/_talking-head.scss */
+/* line 42, ../scss/talking-heads-player/_talking-head.scss */
 #controls #volume-bar {
   height: 2rem;
   margin: .5rem;
 }
 
-/* line 47, ../scss/talkingHeadsPlayer/_talking-head.scss */
+/* line 47, ../scss/talking-heads-player/_talking-head.scss */
 #bigPlayBtn {
   height: 76px;
   width: 160px;
@@ -21140,12 +21148,12 @@ readers do not read off random characters that represent icons */
   transition: background-color 0.5s ease;
   transition: border-color 0.5s ease;
 }
-/* line 63, ../scss/talkingHeadsPlayer/_talking-head.scss */
+/* line 63, ../scss/talking-heads-player/_talking-head.scss */
 #bigPlayBtn:hover {
   background-color: rgba(0, 163, 255, 0.7);
   border-color: rgba(12, 35, 64, 0.7);
 }
-/* line 67, ../scss/talkingHeadsPlayer/_talking-head.scss */
+/* line 67, ../scss/talking-heads-player/_talking-head.scss */
 #bigPlayBtn:before {
   position: absolute;
   content: url(http://www.live-spokesperson.com/images/BigPlayBtn.gif);
@@ -22006,9 +22014,4 @@ footer a:hover {
 .social-link:hover {
   color: #E5F0FF;
   background: #0C2340;
-}
-
-/* line 254, ../scss/mine/_my-custom.scss */
-.bg-dark, .bg-transparent {
-  transition: .5s ease;
 }

@@ -27,5 +27,6 @@
     background: -ms-linear-gradient(top,  $color 0%,$bottom 100%); /* IE10+ */
     background: linear-gradient(to bottom,  $color 0%,$bottom 100%); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$color', endColorstr='$bottom',GradientType=0 ); 
+    transition: 1s ease;
   }
 }

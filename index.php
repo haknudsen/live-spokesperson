@@ -22,38 +22,57 @@
 			<div class="col-xl-4">
 				<?php include( "includes/contact.php"); ?>
 				<div class="align-content-center contact-phone animated fadeInUp">
-					<a href="tel:1-801-748-2281" title="Call Now!" >1-801-748-2281</a>
+					<a href="tel:1-801-748-2281" title="Call Now!">1-801-748-2281</a>
 				</div>
-            </div>
-        </div>
-    </section>
-    <section class="container-fluid ">
-        <div class="clearfix ">
-            <div class="w-75 float-right ">
-                <div class="row align-items-center ">
-                    <div class="col-lg-6 ">
-                        <div class="embed-responsive embed-responsive-16by9 ">
-                           
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="card">
-                            <div class="card-header">Spokespeople</div>
-                            <div class="card-video">
-                            </div>
-                            <div class="card-body">
-                                <h5 class="card-title">What a Website Spokesperson Can Do For You</h5>
-                                <p class="card-text">Your Web Spokesperson could greet your online visitors to help them feel more comfortable on your website. Your website Spokesperson will build confidence that your business is actually solid giving your business a professional face, point out parts of your website, and help the visitor to know that your products and services will give them and edge.</p>
-                                <a href="#" class="btn btn-primary float-right">Our Spokespeople</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+			</div>
+		</div>
+	</section>
+	<section class="container-fluid mb-2">
+		<h1 class="text-center text-capitalize">what we do</h1>
+		<div class="card-deck">
+			<div class="card">
+				<div class="card-header">
+					<h3 class="card-title">Spokespeople</h3>
+				</div>				
+				<a href="spokespeople/"><img alt="Spokespeople" src="images/Spokespeople.jpg" alt="Card image cap" class="card-img-top" title="Spokespeople"></a>
+				<div class="card-body">
+					<p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+					</p>
+				</div>
+				<div class="card-footer">
+					<p class="card-text"><small class="text-muted float-right">LEARN MORE</small>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header">
+					<h3 class="card-title">Animation</h3>
+				</div>	
+				<a href="styles/animation/"><img alt="Animation Example" src="images/Animation Example.jpg" alt="Card image cap" class="card-img-top" title="Animation"></a>
+				<div class="card-body">
+					<p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+					</p>
+				</div>
+				<div class="card-footer">
+					<p class="card-text"><small class="text-muted float-right">LEARN MORE</small>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header">
+					<h3 class="card-title">Product Demonstrations</h3>
+				</div>	
+				<a href="product-demonstrations/"><img alt="Product Demonstration Example" src="images/Product Demonstration Example.jpg" alt="Card image cap" class="card-img-top" title="Product Demonstrations"></a>
+				<div class="card-body">
+					<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+					</p>
+				</div>
+				<div class="card-footer">
+					<p class="card-text"><small class="text-muted float-right">LEARN MORE</small>
+				</div>
+			</div>
+		</div>
+	</section>
 
-    <?php include("includes/footer.php"); ?>
+	<?php include("includes/footer.php"); ?>
 
 </body>
 </html>

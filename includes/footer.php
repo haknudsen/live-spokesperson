@@ -66,13 +66,13 @@
     var $scrollNav = $( 'nav.navbar' );
     $( window ).scroll( function () {
         if ( $( this ).scrollTop() > 180 ) {
-            $scrollNav.addClass( 'bg-light' );
-            $scrollNav.removeClass( 'bg-dark' );
+            $scrollNav.addClass( 'bg-gradient-light' );
+            $scrollNav.removeClass( 'bg-gradient-dark' );
             $scrollNav.removeClass( 'navbar-dark' );
             $scrollNav.addClass( 'navbar-light' );
         } else {
-            $scrollNav.removeClass( 'bg-light' );
-            $scrollNav.addClass( 'bg-dark' );
+            $scrollNav.removeClass( 'bg-gradient-light' );
+            $scrollNav.addClass( 'bg-gradient-dark' );
             $scrollNav.removeClass( 'navbar-light' );
             $scrollNav.addClass( 'navbar-dark' );
         }
