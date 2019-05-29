@@ -26,3 +26,4 @@
 		</div>
 	</div>
 </div>
+<script src="/js/iVideo.js"></script>

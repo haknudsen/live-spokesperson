@@ -21,7 +21,7 @@
 			</div>
 			<div class="col-xl-4">
 				<?php include( "includes/contact.php"); ?>
-				<div class="align-content-center contact-phone animated fadeInUp">
+				<div class="align-content-center contact-phone animated fadeInUp"><strong></strong>
 					<a href="tel:1-801-748-2281" title="Call Now!">1-801-748-2281</a>
 				</div>
 			</div>
@@ -34,20 +34,20 @@
 				<div class="card-header">
 					<h3 class="card-title">Spokespeople</h3>
 				</div>				
-				<a href="spokespeople/"><img alt="Spokespeople" src="images/Spokespeople.jpg" alt="Card image cap" class="card-img-top" title="Spokespeople"></a>
+				<img alt="Spokespeople" src="images/Spokespeople.jpg" alt="Our Spokespeople" class="poster card-img-top" title="Spokespeople" data-toggle="modal" data-target=".bd-example-modal-lg" data-video="Our Spokespeople">
 				<div class="card-body">
 					<p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
 					</p>
 				</div>
 				<div class="card-footer">
-					<p class="card-text"><small class="text-muted float-right">LEARN MORE</small>
+					<p class="card-text"><small class="text-muted float-right"><a href="spokespeople/">LEARN MORE</a></small>
 				</div>
 			</div>
 			<div class="card">
 				<div class="card-header">
 					<h3 class="card-title">Animation</h3>
 				</div>	
-				<a href="styles/animation/"><img alt="Animation Example" src="images/Animation Example.jpg" alt="Card image cap" class="card-img-top" title="Animation"></a>
+				<img alt="Animation Example" src="images/Animation Example.jpg" alt="Animation" class="poster card-img-top" title="Animation" data-toggle="modal" data-target=".bd-example-modal-lg" data-video="Toll Buddy">
 				<div class="card-body">
 					<p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
 					</p>
@@ -60,7 +60,7 @@
 				<div class="card-header">
 					<h3 class="card-title">Product Demonstrations</h3>
 				</div>	
-				<a href="product-demonstrations/"><img alt="Product Demonstration Example" src="images/Product Demonstration Example.jpg" alt="Card image cap" class="card-img-top" title="Product Demonstrations"></a>
+				<img alt="Product Demonstration Example" src="images/Product Demonstration Example.jpg" alt="Card image cap" class="poster card-img-top" title="Jeds Lemonade" data-toggle="modal" data-target=".bd-example-modal-lg" data-video="Jeds Lemonade">
 				<div class="card-body">
 					<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
 					</p>
@@ -73,6 +73,7 @@
 	</section>
 
 	<?php include("includes/footer.php"); ?>
+	<?php include("includes/modal.php"); ?>
 
 </body>
 </html>
