@@ -261,6 +261,6 @@ footer a:hover{color: $light;}
 			background: $dark;
 		}
 }
-.navbar-dark, .navbar-light{transition: color 5000ms linear;}
-	
+.bg-gradient-dark,.bg-gradient-light,.navbar-light,.navbar-dark{ animation-duration: 5s;}
+    
 	

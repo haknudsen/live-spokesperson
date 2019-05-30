@@ -17,7 +17,6 @@
 @mixin bg-gradient-variant($parent, $color) {
   #{$parent} {
 	  $bottom: darken( $color, 10%);
-    transition: background-color 1s ease-in-out;
 	border-color:$bottom $bottom $bottom; 
 	background-repeat: repeat-x; 
     background: $color; /* Old browsers */
