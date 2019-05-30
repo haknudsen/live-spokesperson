@@ -49,7 +49,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="notification"><i class="fal fa-copyright"></i>
+	<div class="notification"><i class="far fa-copyright"></i>
 		<span id="year">
 			<?php echo date("Y")?>
 		</span> Talking Heads. All rights reserved.</div>
@@ -67,7 +67,7 @@
 		new WOW().init();
 		var $scrollNav = $( 'nav.navbar' );
 		$( window ).scroll( function () {
-			if ( $( this ).scrollTop() > 180 ) {
+			if ( $( this ).scrollTop() > 580 ) {
 				$scrollNav.addClass( 'bg-gradient-light' );
 				$scrollNav.removeClass( 'bg-gradient-dark' );
 				$scrollNav.removeClass( 'navbar-dark' );

@@ -17,6 +17,7 @@
 @mixin bg-gradient-variant($parent, $color) {
   #{$parent} {
 	  $bottom: darken( $color, 10%);
+    transition: background-color 1s ease-in-out;
 	border-color:$bottom $bottom $bottom; 
 	background-repeat: repeat-x; 
     background: $color; /* Old browsers */
@@ -27,6 +28,5 @@
     background: -ms-linear-gradient(top,  $color 0%,$bottom 100%); /* IE10+ */
     background: linear-gradient(to bottom,  $color 0%,$bottom 100%); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$color', endColorstr='$bottom',GradientType=0 ); 
-    transition: 1s ease;
   }
 }

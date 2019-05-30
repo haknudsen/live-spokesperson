@@ -92,13 +92,12 @@
 			<h4>We provide a wide variety of video content</h4>
 			<p class="content">Do you need fresh, up-to-date content for your business? Are you looking for only the best of the best professional authors to get the job done? Then you've come to the right place! Whether you need blog posts, product descriptions, or technical content, Content Factory provides high-quality content that will capture your visitors’ attention and increase your search engine ranking. Choose the perfect author for your project from a pool of thousands of experienced writers, each with their own expertise.</p>
 		  <div class="btn-block">
-				<button class="btn btn-dark">Request a Quote</button>
-				<button class="btn btn-light text-capitalize">more about us</button>
+				<div class="btn btn-dark">Request a Quote</div>
+				<a href="about/" title="More About Us"><div class="btn btn-light text-capitalize">more about us</div></a>
 			</div>
 		</div>
 	</section>
 	<?php include("includes/footer.php"); ?>
 	<?php include("includes/modal.php"); ?>
-
 </body>
 </html>

@@ -6790,6 +6790,7 @@ button.bg-orange:focus {
 
 /* line 18, ../scss/mixins/_background-variant.scss */
 .bg-gradient-primary {
+  transition: background-color 1s ease-in-out;
   border-color: #0082cc #0082cc #0082cc;
   background-repeat: repeat-x;
   background: #00A3FF;
@@ -6807,11 +6808,11 @@ button.bg-orange:focus {
   background: linear-gradient(to bottom, #00A3FF 0%, #0082cc 100%);
   /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$color', endColorstr='$bottom',GradientType=0 );
-  transition: 1s ease;
 }
 
 /* line 18, ../scss/mixins/_background-variant.scss */
 .bg-gradient-secondary {
+  transition: background-color 1s ease-in-out;
   border-color: #2f63ad #2f63ad #2f63ad;
   background-repeat: repeat-x;
   background: #437CCC;
@@ -6829,11 +6830,11 @@ button.bg-orange:focus {
   background: linear-gradient(to bottom, #437CCC 0%, #2f63ad 100%);
   /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$color', endColorstr='$bottom',GradientType=0 );
-  transition: 1s ease;
 }
 
 /* line 18, ../scss/mixins/_background-variant.scss */
 .bg-gradient-success {
+  transition: background-color 1s ease-in-out;
   border-color: #0b5120 #0b5120 #0b5120;
   background-repeat: repeat-x;
   background: #117e32;
@@ -6851,11 +6852,11 @@ button.bg-orange:focus {
   background: linear-gradient(to bottom, #117e32 0%, #0b5120 100%);
   /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$color', endColorstr='$bottom',GradientType=0 );
-  transition: 1s ease;
 }
 
 /* line 18, ../scss/mixins/_background-variant.scss */
 .bg-gradient-info {
+  transition: background-color 1s ease-in-out;
   border-color: #0082cc #0082cc #0082cc;
   background-repeat: repeat-x;
   background: #00A3FF;
@@ -6873,11 +6874,11 @@ button.bg-orange:focus {
   background: linear-gradient(to bottom, #00A3FF 0%, #0082cc 100%);
   /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$color', endColorstr='$bottom',GradientType=0 );
-  transition: 1s ease;
 }
 
 /* line 18, ../scss/mixins/_background-variant.scss */
 .bg-gradient-warning {
+  transition: background-color 1s ease-in-out;
   border-color: #cccc00 #cccc00 #cccc00;
   background-repeat: repeat-x;
   background: #ffff00;
@@ -6895,11 +6896,11 @@ button.bg-orange:focus {
   background: linear-gradient(to bottom, #ffff00 0%, #cccc00 100%);
   /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$color', endColorstr='$bottom',GradientType=0 );
-  transition: 1s ease;
 }
 
 /* line 18, ../scss/mixins/_background-variant.scss */
 .bg-gradient-danger {
+  transition: background-color 1s ease-in-out;
   border-color: #a90000 #a90000 #a90000;
   background-repeat: repeat-x;
   background: #dc0000;
@@ -6917,11 +6918,11 @@ button.bg-orange:focus {
   background: linear-gradient(to bottom, #dc0000 0%, #a90000 100%);
   /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$color', endColorstr='$bottom',GradientType=0 );
-  transition: 1s ease;
 }
 
 /* line 18, ../scss/mixins/_background-variant.scss */
 .bg-gradient-light {
+  transition: background-color 1s ease-in-out;
   border-color: #b2d3ff #b2d3ff #b2d3ff;
   background-repeat: repeat-x;
   background: #E5F0FF;
@@ -6939,11 +6940,11 @@ button.bg-orange:focus {
   background: linear-gradient(to bottom, #E5F0FF 0%, #b2d3ff 100%);
   /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$color', endColorstr='$bottom',GradientType=0 );
-  transition: 1s ease;
 }
 
 /* line 18, ../scss/mixins/_background-variant.scss */
 .bg-gradient-dark {
+  transition: background-color 1s ease-in-out;
   border-color: #040c15 #040c15 #040c15;
   background-repeat: repeat-x;
   background: #0C2340;
@@ -6961,11 +6962,11 @@ button.bg-orange:focus {
   background: linear-gradient(to bottom, #0C2340 0%, #040c15 100%);
   /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$color', endColorstr='$bottom',GradientType=0 );
-  transition: 1s ease;
 }
 
 /* line 18, ../scss/mixins/_background-variant.scss */
 .bg-gradient-orange {
+  transition: background-color 1s ease-in-out;
   border-color: #cc8400 #cc8400 #cc8400;
   background-repeat: repeat-x;
   background: #FFA500;
@@ -6983,7 +6984,6 @@ button.bg-orange:focus {
   background: linear-gradient(to bottom, #FFA500 0%, #cc8400 100%);
   /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$color', endColorstr='$bottom',GradientType=0 );
-  transition: 1s ease;
 }
 
 /* line 13, ../scss/utilities/_background.scss */
@@ -22030,4 +22030,9 @@ footer a:hover {
 .social-link:hover {
   color: #E5F0FF;
   background: #0C2340;
+}
+
+/* line 264, ../scss/mine/_my-custom.scss */
+.navbar-dark, .navbar-light {
+  transition: color 5000ms linear;
 }
