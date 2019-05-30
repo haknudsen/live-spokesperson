@@ -135,8 +135,18 @@ p {
 		}
 	}
 	table,label,input{width: 100%}
+	@media screen and (max-width: 1600px) {
+	padding: .25rem;
+	}
+	@media screen and (max-width: 1200px) {
+	padding: 1rem;
+	}
 }
-.contact-phone{text-align: center;font-size: 4.5vh;color: $dark;animation-delay:1s;animation-duration: .5s}
+.contact-phone{text-align: center;font-size: 4.5vh;color: $dark;animation-delay:1s;animation-duration: .5s;
+	@media screen and (max-width: 1360px) {
+   font-size: 3vh;
+  }
+}
 .btn-contact:hover {
 	@include gradient-mine(#7ECDF4,#BCE4FF);
 	color: $gray-600;
