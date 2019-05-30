@@ -1,0 +1,70 @@
+/* Scss Document */
+$btnWidth: 44px;
+$bigPlayBtn-height: 76px;
+$bigPlayBtn-width: 160px;
+#player-holder {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	&:hover #controls{opacity: 1}
+}
+#talking-head-player{border: thin solid $primary}
+#controls {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+	position: absolute;
+	bottom: 0;
+	top: auto;
+	font-size: 2rem;
+	background: rgba($primary,.8);
+	border: rgba($dark,.8) thin solid;
+	border-radius: 2px;
+	color: $light;
+	transition:opacity 0.5s;
+	opacity: 0;
+	.player-btn{
+		padding: 6px;
+	}
+	.player-btn {
+		width: $btnWidth;
+	}
+	#progress-bar {
+		height: $btnWidth;
+		margin: 8px 6px 0;
+		border: thin solid $dark;
+	}
+	#volume-bar {
+		padding: 10px 8px;
+	}
+}
+#bigPlayBtn {
+	height: $bigPlayBtn-height;
+	width: $bigPlayBtn-width;
+	display: block;
+	position: absolute;
+	padding: 0;
+	cursor: pointer;
+	opacity: 0.9;
+	left: calc(50% - (#{$bigPlayBtn-width}/2));
+	top: calc(50% - (#{$bigPlayBtn-height}/2));
+	margin: auto;
+	border-radius: 16px;
+	border: 3px solid rgba($primary,.7);
+	background-color:  rgba($dark,.7);
+	transition: background-color 0.5s ease;
+	transition: border-color 0.5s ease;
+	&:hover{
+		background-color:  rgba($primary,.7);
+		border-color: rgba($dark,.7);
+	}
+	&:before {
+		position: absolute;
+		content: url(http://www.live-spokesperson.com/images/BigPlayBtn.gif);
+		left: calc(50% - (#{128px}/2));
+		top: calc(50% - (#{64px}/2));
+	}
+}
