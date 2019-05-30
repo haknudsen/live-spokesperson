@@ -17,12 +17,11 @@
 				</video>
 			</div>
 			<div class="d-none bg-transparent" id="form">
-				<?php include("whiteboard-form-no-captcha.php"); ?>
 			</div>
 			<div class="modal-footer">
-				<button type="button" class="btn btn-primary" id="contact">Contact Us</button>
 				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
 			</div>
 		</div>
 	</div>
 </div>
+<script src="/js/iVideo.js"></script>
