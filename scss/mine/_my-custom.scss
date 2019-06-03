@@ -111,9 +111,10 @@ p {
 	border-bottom-color: darken($info, 10%);
 }
 .contact {
-	max-width: 400px;
+	min-width: 310px;
 	margin: 0 auto;
 	background: #BCE4FF;
+	padding: .5rem;
 	label, input[type="phone"], input[type="email"], input[type="text"], textarea {
 		font-size: 1rem;
 		background: #D5EEFF;
@@ -133,6 +134,18 @@ p {
 			margin-bottom: .25rem;
 		}
 	}
+	table,label,input{width: 100%}
+	@media screen and (max-width: 1600px) {
+	padding: .25rem;
+	}
+	@media screen and (max-width: 1200px) {
+	padding: 1rem;
+	}
+}
+.contact-phone{text-align: center;font-size: 4.5vh;color: $dark;animation-delay:1s;animation-duration: .5s;
+	@media screen and (max-width: 1360px) {
+   font-size: 3vh;
+  }
 }
 .btn-contact:hover {
 	@include gradient-mine(#7ECDF4,#BCE4FF);
@@ -228,7 +241,6 @@ footer a:hover{color: $light;}
 .quote{font-weight: 600;font-family: open-sans, sans-serif; width: 90%;margin: 0 auto;line-height: 1.2}
 .subject{text-align: center;font-weight: 200;font-style: italic;margin-top: 1rem}
 .form-name{text-align: center;font-weight: 700;color:$light;font-size: 1.5rem}
-.contact-phone{text-align: center;font-size: 3vh;color: $dark;animation-delay:1s;animation-duration: .5s}
 .social-icons{align-items: center;display: flex; justify-content: center;}
 .social-link{
 		border-radius: 50%;
@@ -249,6 +261,6 @@ footer a:hover{color: $light;}
 			background: $dark;
 		}
 }
-.bg-dark,.bg-light{
-    transition: .5s ease;
-}
+.bg-gradient-dark,.bg-gradient-light,.navbar-light,.navbar-dark{transition:1s ease-in-out;}
+    
+	
