@@ -9,39 +9,54 @@ $dbname = "working_examples";
 $conn = mysqli_connect( $servername, $username, $password );
 // Check connection
 if ( !$conn ) {
-	die( "Connection failed: " . mysqli_connect_error() );
-	echo( "Connection failed: " . mysqli_connect_error() );
-	echo "<br>";
+    die( "Connection failed: " . mysqli_connect_error() );
+    echo( "Connection failed: " . mysqli_connect_error() );
+    echo "<br>";
 }
 $db = mysqli_select_db( $conn, $dbname );
 
 if ( !$db ) {
-	die( "Connection failed: " . mysqli_connect_error() );
-	echo "<br>";
+    die( "Connection failed: " . mysqli_connect_error() );
+    echo "<br>";
 }
 $sql = "SELECT * FROM `spokespeople` WHERE `carousel` = '$carousel' ORDER BY `ordering`";
-    echo PHP_EOL;
+echo PHP_EOL;
 $result = $conn->query( $sql );
-if ( $result->num_rows > 0 ) {
-	echo PHP_EOL;
-	echo '<div class="row">';
-	echo PHP_EOL;
-	if ( $result->num_rows > 0 ) {
-		echo PHP_EOL;
-		while ( $row = $result->fetch_assoc() ) {
-			$name = $row[ "name" ];
-			$img = "https://www.websitetalkingheads.com/spokespeople/posters/" . $name . ".jpg";
-			echo '<div class="poster" alt="' . $name . ' - Video Spokesperson Demonstration" data-toggle="modal" data-target=".modal-spokesperson" data-video="' . $name . '">';
-			echo PHP_EOL;
-			echo '<img class="spokesperson rounded-circle" src="'.$img.'" id="' . $name . '" alt="' . $name . ' - Introduction" >';
-			echo PHP_EOL;
-			echo '<div class="btn-spokesperson"></div>';
-			echo PHP_EOL;
-			echo '<div class="poster-title text-center">' . $name . '</div>';
-			echo PHP_EOL;
-			echo '</div>';
-			echo PHP_EOL;
-			echo '<script type="application/ld+json">
+$range = $result->num_rows;
+if ( $range > 0 ) {
+    echo PHP_EOL;
+    echo '<div class="row">';
+    echo PHP_EOL;
+    if ( $range > 0 ) {
+        echo PHP_EOL;
+        $i = 1;
+        while ( $row = $result->fetch_assoc() ) {
+            if ( $i === 22 ) {
+                echo PHP_EOL;
+                echo '</div>';
+                echo PHP_EOL;
+                echo '  <div id="show-more" class="w-100">';
+                echo PHP_EOL;
+                echo '      <h4 class="text-center">Show More</h4>';
+                echo PHP_EOL;
+                echo '  </div>';
+                echo PHP_EOL;
+                echo '<div class="row d-none">';
+                echo PHP_EOL;
+            }
+            $name = $row[ "name" ];
+            $img = "https://www.websitetalkingheads.com/spokespeople/posters/" . $name . ".jpg";
+            echo '<div class="poster" alt="' . $name . ' - Video Spokesperson Demonstration" data-toggle="modal" data-target=".modal-spokesperson" data-video="' . $name . '">';
+            echo PHP_EOL;
+            echo '<img class="spokesperson rounded-circle" src="' . $img . '" id="' . $name . '" alt="' . $name . ' - Introduction" >';
+            echo PHP_EOL;
+            echo '<div class="btn-spokesperson"></div>';
+            echo PHP_EOL;
+            echo '<div class="poster-title text-center">' . $name . '</div>';
+            echo PHP_EOL;
+            echo '</div>';
+            echo PHP_EOL;
+            echo '<script type="application/ld+json">
 	{
 		"@context": "https://schema.org",
 		"@type": "VideoObject",
@@ -66,12 +81,13 @@ if ( $result->num_rows > 0 ) {
 	}
 </script>
 ';
-		}
-		echo PHP_EOL;
-		echo '</div>';
-		echo PHP_EOL;
-	}
+            $i++;
+        }
+        echo PHP_EOL;
+        echo '</div>';
+        echo PHP_EOL;
+    }
 } else {
-	echo 'no records';
+    echo 'no records';
 }
 ?>
