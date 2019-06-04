@@ -206,3 +206,12 @@
 	</div>
 </div>
 	<script src="../js/iVideo-spokesperson.js"></script>
+<script>
+$(document).ready(function () {
+    $("#show-more h4").click(function(){
+        $("#hidden-spokespeople").removeClass("d-none");
+        $("#show-more").addClass("d-none");
+        
+    });
+}
+</script>

@@ -41,7 +41,7 @@ if ( $range > 0 ) {
                 echo PHP_EOL;
                 echo '  </div>';
                 echo PHP_EOL;
-                echo '<div class="row d-none">';
+                echo '<div class="row d-none" id="hidden-spokespeople">';
                 echo PHP_EOL;
             }
             $name = $row[ "name" ];
