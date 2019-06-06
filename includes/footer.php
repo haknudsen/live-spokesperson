@@ -49,7 +49,7 @@
             </div>
         </div>
     </div>
-    <div class="notification"><i class="fal fa-copyright"></i>
+    <div class="notification"><i class="far fa-copyright"></i>
         <span id="year">
             <?php echo date("Y")?>
         </span> Talking Heads. All rights reserved.</div>
