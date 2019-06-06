@@ -30,7 +30,7 @@
 	<section class="container-fluid mb-2">
 		<h1 class="text-center text-capitalize">what we do</h1>
 		<div class="card-deck">
-			<div class="card">
+			<div class="card wow fadeInLeftBig">
 				<div class="card-header bg-gradient-mine">
 					<h3 class="card-title">Spokespeople</h3>
 				</div>
@@ -50,7 +50,7 @@
 					<p class="card-text"><small class="float-right"><a href="spokespeople/">LEARN MORE</a></small>
 				</div>
 			</div>
-			<div class="card">
+			<div class="card wow fadeInUpBig">
 				<div class="card-header bg-gradient-mine">
 					<h3 class="card-title">Animation</h3>
 				</div>
@@ -64,7 +64,7 @@
 					<p class="card-text"><small class="float-right"><a href="styles/animation/" title="Animation">LEARN MORE</a></small>
 				</div>
 			</div>
-			<div class="card">
+			<div class="card wow fadeInRightBig">
 				<div class="card-header bg-gradient-mine">
 					<h3 class="card-title">Product Demonstrations</h3>
 				</div>
@@ -101,7 +101,7 @@
 	</section>
 
 	<section class="container-fluid mb-3">
-		<div class="card-deck">
+		<div class="card-deck wow fadeInUpBig">
 			<div class="card">
 				<div class="card-heading">
 					<h2 class="card-title">Video Marketing Blog</h2>

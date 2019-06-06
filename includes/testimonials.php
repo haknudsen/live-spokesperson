@@ -9,7 +9,7 @@
 
             </div>
             <div class="col-lg-1">
-                <i class="far fa-comment" id="speech-bubble"></i>
+                <i class="far fa-comment wow bounceInUp" id="speech-bubble"></i>
             </div>
         </div>
     </div>
