@@ -24,10 +24,10 @@
     <section class="alert alert-info">
         <?php include ('includes/testimonials-random.php'); ?>
         <h2 class="text-center">Testimonials</h2>
-        <div class="row">
+        <div class="row testimonial">
             <div class="col-lg-11">
-                <p id="quote" class="text-justify"></p>
-                <h3 class="text-right"><span id="person"></span> - <span id="company"></span></h3>
+                <p id="quote" class="text-justify">I had an exceptionally tight deadline... WebsiteTalkingHeads went above and beyond to ensure my project was completed on time.</p>
+                <h3 class="text-right" id="quoter"><span id="person">Benjamin Croft</span> - <span id="company">WBECS</span></h3>
 
             </div>
             <div class="col-lg-1">
@@ -38,10 +38,28 @@
     <?php include("../includes/footer.php"); ?>
     <?php include("../includes/modal.php");?>
     <script>
+        var i = 0;
+        changeQuote();
+
+        function changeQuote() {
+            $( "#quote" ).text( testimonials[ i ].quote ).fadeOut( "slow", function () {
+                $( this ).html( testimonials[ i ].quote ).fadeIn( 500 );
+            } );
+            $( "#person" ).text( testimonials[ i ].person ).fadeOut( "slow", function () {
+                $( this ).html( testimonials[ i ].person ).fadeIn( 500 );
+            } );
+            $( "#company" ).text( testimonials[ i ].company ).fadeOut( "slow", function () {
+                $( this ).html( testimonials[ i ].company ).fadeIn( 500 );
+            } );
+            if ( i === testimonials.length - 1 ) {
+                i = 0;
+            } else {
+                i++;
+            }
+        }
         $( document ).ready( function () {
-            $( "#quote" ).text( testimonials[ 0 ].quote );
-            $( "#person" ).text( testimonials[ 0 ].person );
-            $( "#company" ).text( testimonials[ 0 ].company );
+            setInterval( changeQuote, 5000 );
+
         } );
     </script>
 </body>
