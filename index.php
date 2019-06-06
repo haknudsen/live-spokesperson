@@ -124,7 +124,15 @@
 			</div>
 		</div>
 	</section>
+	<?php include("includes/testimonials.php"); ?>
 	<?php include("includes/footer.php"); ?>
 	<?php include("includes/modal.php"); ?>
+<script src="js/testimonials.js" async></script>
+<script>
+        $( document ).ready( function () {
+            setInterval( changeQuote, 5000 );
+
+        } );
+</script>
 </body>
 </html>

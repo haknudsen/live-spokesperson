@@ -268,6 +268,7 @@ footer a:hover{color: $light;}
 .bg-gradient-dark,.bg-gradient-light,.navbar-light,.navbar-dark{transition:1s ease-in-out;}
 #quote{
     padding: 0;
+    font-style: italic;
     &:before {
 		font-family: "Font Awesome 5 Pro";
 		font-weight: normal;

@@ -2,7 +2,7 @@
 $(document).ready(function () {
 	"use strict";
 	$.ajax({
-		url: "http://www.talkingheadswebsite.com/js/spokesperson-content.xml",
+		url: "js/spokesperson-content.xml",
 		dataType: "xml",
 		success: parse,
 		error: function () {

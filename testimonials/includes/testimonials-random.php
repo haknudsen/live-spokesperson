@@ -42,7 +42,6 @@ if ( $result->num_rows > 0 ) {
 echo PHP_EOL;
 echo '];';
 echo PHP_EOL;
-echo 'console.log(testimonials[1]);';
 echo '</script>';
 echo PHP_EOL;
 ?>
