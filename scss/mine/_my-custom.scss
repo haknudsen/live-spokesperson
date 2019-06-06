@@ -261,6 +261,26 @@ footer a:hover{color: $light;}
 			background: $dark;
 		}
 }
+#speech-bubble{font-size: 3rem;
+	@include media-breakpoint-down(md) {
+	display: none;
+	}}
 .bg-gradient-dark,.bg-gradient-light,.navbar-light,.navbar-dark{transition:1s ease-in-out;}
-    
+#quote{
+    padding: 0;
+    &:before {
+		font-family: "Font Awesome 5 Pro";
+		font-weight: normal;
+		font-style: normal;
+        content: "\f10d";
+        padding-right: .5rem;
+    }
+    &:after {
+		font-family: "Font Awesome 5 Pro";
+		font-weight: normal;
+		font-style: normal;
+        content: "\f10e";
+        padding-left: .5rem;
+    }
+}
 	

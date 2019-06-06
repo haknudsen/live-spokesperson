@@ -23,8 +23,26 @@
     <?php include("../includes/nav.php"); ?>
     <section class="alert alert-info">
         <?php include ('includes/testimonials-random.php'); ?>
+        <h2 class="text-center">Testimonials</h2>
+        <div class="row">
+            <div class="col-lg-11">
+                <p id="quote" class="text-justify"></p>
+                <h3 class="text-right"><span id="person"></span> - <span id="company"></span></h3>
+
+            </div>
+            <div class="col-lg-1">
+                <i class="far fa-comment" id="speech-bubble"></i>
+            </div>
+        </div>
     </section>
     <?php include("../includes/footer.php"); ?>
     <?php include("../includes/modal.php");?>
+    <script>
+        $( document ).ready( function () {
+            $( "#quote" ).text( testimonials[ 0 ].quote );
+            $( "#person" ).text( testimonials[ 0 ].person );
+            $( "#company" ).text( testimonials[ 0 ].company );
+        } );
+    </script>
 </body>
 </html>
