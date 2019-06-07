@@ -106,33 +106,38 @@
 				<div class="card-heading">
 					<h2 class="card-title">Video Marketing Blog</h2>
 				</div>
-				<img class="card-img-top" src="images/Website Spokesperson Blog_v2.jpg"  alt="Video Marketing Blog"/>
+				<img class="card-img-top" src="images/Website Spokesperson Blog_v2.jpg" alt="Video Marketing Blog"/>
 				<div class="card-body">
 					<h5 class="card-title" id="title-marketing"></h5>
-				  <p id="excerpt-marketing" class="card-text"></p>
+					<p id="excerpt-marketing" class="card-text"></p>
 				</div>
 			</div>
 			<div class="card">
 				<div class="card-heading">
 					<h2 class="card-title">Whiteboard Video Blog</h2>
 				</div>
-				<img class="card-img-top" src="images/Whiteboard Video Blog.jpg"  alt="Whiteboard Blog"/>
+				<img class="card-img-top" src="images/Whiteboard Video Blog.jpg" alt="Whiteboard Blog"/>
 				<div class="card-body">
 					<h5 class="card-title" id="title-whiteboard"></h5>
-				  <p id="excerpt-whiteboard" class="card-text"></p>
+					<p id="excerpt-whiteboard" class="card-text"></p>
 				</div>
 			</div>
 		</div>
 	</section>
 	<?php include("includes/testimonials.php"); ?>
+	<section class="alert alert-info">
+		<h2 class="text-uppercase text-center wow bounceInUp">follow us</h2>
+		<h3 class="text-center wow bounceInUp">Join us in <strong>Social Media</strong> and Stay Tuned!</h3>
+		<?php include("includes/social-icons.php"); ?>
+	</section>
 	<?php include("includes/footer.php"); ?>
 	<?php include("includes/modal.php"); ?>
-<script src="js/testimonials.js" async></script>
-<script>
-        $( document ).ready( function () {
-            setInterval( changeQuote, 5000 );
+	<script src="js/testimonials.js" async></script>
+	<script>
+		$( document ).ready( function () {
+			setInterval( changeQuote, 5000 );
 
-        } );
-</script>
+		} );
+	</script>
 </body>
 </html>
