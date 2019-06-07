@@ -8,7 +8,7 @@
                 <h3 class="text-right" id="quoter"><span id="person">Benjamin Croft</span> - <span id="company">WBECS</span></h3>
 
             </div>
-            <div class="col-lg-1">
+            <div class="col-lg-1 my-auto">
                 <i class="far fa-comment wow bounceInUp" id="speech-bubble"></i>
             </div>
         </div>
