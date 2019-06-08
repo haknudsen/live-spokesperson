@@ -125,6 +125,7 @@
 		</div>
 	</section>
 	<?php include("includes/testimonials.php"); ?>
+	<?php include("includes/count-up.php"); ?>
 	<section class="alert alert-info">
 		<h2 class="text-uppercase text-center wow bounceInUp">follow us</h2>
 		<h3 class="text-center wow bounceInUp">Join us in <strong>Social Media</strong> and Stay Tuned!</h3>
