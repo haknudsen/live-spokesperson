@@ -22130,3 +22130,8 @@ footer a:hover {
   font-size: 60%;
   vertical-align: top;
 }
+
+/* line 292, ../scss/mine/_my-custom.scss */
+.card-header i {
+  font-size: 3rem;
+}

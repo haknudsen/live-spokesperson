@@ -127,26 +127,26 @@
 	<?php include("includes/testimonials.php"); ?>
 	<section class="container-fluid">
 		<h2 class="text-center text-capitalize">Why Clients <strong>Choose</strong> Us</h2>
-		<div class="card-group">
+		<div class="card-group justify-content-center">
 			<div class="card text-white bg-info mb-3" style="max-width: 18rem;">
-				<div class="card-header">Experience</div>
+				<div class="card-header"><i class="fal fa-school"></i></div>
 				<div class="card-body">
-					<h5 class="card-title"><i class="fal fa-school"></i></h5>
+					<h5 class="card-title">Experience</h5>
 					<p class="card-text">With 10+ years of experience in web video production, we will make you love working with Talking Heads. </p>
 					<p class="card-text">We do not outsource our tasks to other workshops. We film everything RIGHT HERE!</p>
 				</div>
 			</div>
 			<div class="card text-white bg-info mb-3" style="max-width: 18rem;">
-				<div class="card-header">Our Team</div>
+				<div class="card-header"><i class="fas fa-users"></i></div>
 				<div class="card-body">
-					<h5 class="card-title"><i class="fas fa-users"></i></h5>
+					<h5 class="card-title">Our Team</h5>
 					<p class="card-text">Our team of experts includes: video editors, producers, professional spokespeople,  animators, and compositors. We discover the latest techniques, hone new skills, and master the latest tools. We pride ourselves on our high QUALITY, professional successful spokespeople.  This makes the best video production services available for your website. </p>
 				</div>
 			</div>
 			<div class="card text-white bg-info mb-3" style="max-width: 18rem;">
-				<div class="card-header">Our Process</div>
+				<div class="card-header"><i class="fal fa-cogs"></i></div>
 				<div class="card-body">
-					<h5 class="card-title"><i class="fas fa-cogs"></i></h5>
+					<h5 class="card-title">Our Process</h5>
 					<p class="card-text">If you’re a person that expects tick off your checkboxes without compromise, then you'll love our research, planning, and execution. Bottom-line, our video production process is what makes us stand out from the pack. We consistently deliver great videos project after project.</p>
 				</div>
 			</div>
@@ -154,8 +154,8 @@
 				<div class="card-header"><i class="fal fa-check-circle"></i></div>
 				<div class="card-body">
 					<h5 class="card-title">Commitment to Quality</h5>
-					<p class="card-text">Our commitment to quality video and adherence to professional practices make us shine. Then there is the creative side of things.  We don’t believe in banal, murky, insipid videos so we aim to make jaws hit the floor with each video we make. These are some hallmarks that have inspired the Talking Heads<sup>®</sup> way. </p>
-					<p class="card-text">We film and composit our videos at our studio to maintain our top quality standards and accuracy.</p>
+					<p class="card-text">Our commitment to quality video and adherence to professional practices make us shine. These are some hallmarks that have inspired the Talking Heads<sup>®</sup> way.</p>
+					<p class="card-text">We film and composite our videos at our studio to maintain our top quality standards and accuracy.</p>
 				</div>
 			</div>
 
