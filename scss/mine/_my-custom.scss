@@ -158,7 +158,7 @@ p {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    h3{color: $light;text-shadow: 0 1px 2px rgba($dark,.7)}
+    h3{color: $light;text-shadow: 0 1px 2px rgba($dark,.7);font-weight: 700}
 }
 .btn-contact:hover {
 	@include gradient-mine(#7ECDF4,#BCE4FF);

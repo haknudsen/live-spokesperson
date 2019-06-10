@@ -130,7 +130,7 @@
         <h2 class="text-center text-capitalize">Why Clients <strong>Choose</strong> Us</h2>
         <div class="card-group justify-content-center">
             <div class="card text-white bg-info">
-                <div class="card-header"><i class="fal fa-school"></i>
+                <div class="card-header"><i class="fal fa-school wow rotateIn"></i>
                 </div>
                 <div class="card-body">
                     <h5 class="card-title">Experience</h5>
@@ -139,7 +139,7 @@
                 </div>
             </div>
             <div class="card text-white bg-info">
-                <div class="card-header"><i class="fas fa-users"></i>
+                <div class="card-header"><i class="fas fa-users wow rotateIn"></i>
                 </div>
                 <div class="card-body">
                     <h5 class="card-title">Our Team</h5>
@@ -147,7 +147,7 @@
                 </div>
             </div>
             <div class="card text-white bg-info">
-                <div class="card-header"><i class="fal fa-cogs"></i>
+                <div class="card-header"><i class="fal fa-cogs wow rotateIn"></i>
                 </div>
                 <div class="card-body">
                     <h5 class="card-title">Our Process</h5>
@@ -155,7 +155,7 @@
                 </div>
             </div>
             <div class="card text-white bg-info">
-                <div class="card-header"><i class="fal fa-check-circle"></i>
+                <div class="card-header"><i class="fal fa-check-circle wow rotateIn"></i>
                 </div>
                 <div class="card-body">
                     <h5 class="card-title">Commitment to Quality</h5>
