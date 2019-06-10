@@ -14,7 +14,7 @@
 <body>
 	<div id="player-holder">
 		<video id="talking-head-player" preload width="100%">
-			<source src="movie.mp4" type="video/mp4">
+			<source src="" type="video/mp4">
 			<p>Your browser does not support the video tag. Please Visit <a href="https://www.websitetalkingheads.com/support/" title="Please Visit Support">https://www.websitetalkingheads.com/support/</a>
 			</p>
 		</video>
