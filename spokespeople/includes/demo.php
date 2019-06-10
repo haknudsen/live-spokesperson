@@ -3,7 +3,7 @@ error_reporting( 2 );
 //session_start();
 $servername = "vdb1b.pair.com";
 $username = "working_39";
-$password = "EsQBeq3E";
+$password = "rUnnER#69";
 $dbname = "working_examples";
 // Create connection
 $conn = mysqli_connect( $servername, $username, $password );
