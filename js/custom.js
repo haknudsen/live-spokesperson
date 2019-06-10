@@ -83,33 +83,31 @@ $(document).ready(function () {
 		default:
 			break;
 	}
-    var toggleAffix = function(affixElement, scrollElement, wrapper) {
-  console.log( "toggle affix" );
-    var height = affixElement.outerHeight(),
-        top = wrapper.offset().top;
-    
-    if (scrollElement.scrollTop() >= top){
-        wrapper.height(height);
-        affixElement.addClass("affix");
-    }
-    else {
-        affixElement.removeClass("affix");
-        wrapper.height('auto');
-    }
-      
-  };
-  
+	var toggleAffix = function (affixElement, scrollElement, wrapper) {
+		var height = affixElement.outerHeight(),
+			top = wrapper.offset().top;
 
-  $('[data-toggle="affix"]').each(function() {
-    var ele = $(this),
-        wrapper = $('<div></div>');
-    
-    ele.before(wrapper);
-    $(window).on('scroll resize', function() {
-        toggleAffix(ele, $(this), wrapper);
-    });
-    
-    // init
-    toggleAffix(ele, $(window), wrapper);
-  });
+		if (scrollElement.scrollTop() >= top) {
+			wrapper.height(height);
+			affixElement.addClass("affix");
+		} else {
+			affixElement.removeClass("affix");
+			wrapper.height('auto');
+		}
+
+	};
+
+
+	$('[data-toggle="affix"]').each(function () {
+		var ele = $(this),
+			wrapper = $('<div></div>');
+
+		ele.before(wrapper);
+		$(window).on('scroll resize', function () {
+			toggleAffix(ele, $(this), wrapper);
+		});
+
+		// init
+		toggleAffix(ele, $(window), wrapper);
+	});
 })

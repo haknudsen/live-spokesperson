@@ -21159,24 +21159,27 @@ readers do not read off random characters that represent icons */
 =========================*/
 /* line 8, ../scss/mine/_counterup.scss */
 .section-counterup {
+  background-color: #19477F;
+  margin-top: -1rem;
   width: 100%;
   padding: 1rem 0;
   background-image: url("../../images/countup-banner_v2.jpg");
-  background-repeat: repeat, no-repeat;
-  background-color: #E5F0FF;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: repeat-x;
   background-size: contain;
 }
 
-/* line 17, ../scss/mine/_counterup.scss */
+/* line 20, ../scss/mine/_counterup.scss */
 .funfact.counter-style--5 {
   text-align: center;
 }
-/* line 20, ../scss/mine/_counterup.scss */
+/* line 23, ../scss/mine/_counterup.scss */
 .funfact.counter-style--5 .fact-icon i {
   font-size: .6rem;
   color: #FFA500;
 }
-/* line 26, ../scss/mine/_counterup.scss */
+/* line 29, ../scss/mine/_counterup.scss */
 .funfact.counter-style--5 .content span {
   color: #E5F0FF;
   font-size: 1rem;
@@ -21185,7 +21188,7 @@ readers do not read off random characters that represent icons */
   display: inline-block;
   text-shadow: 1px 1px 0 rgba(25, 71, 127, 0.6);
 }
-/* line 34, ../scss/mine/_counterup.scss */
+/* line 37, ../scss/mine/_counterup.scss */
 .funfact.counter-style--5 .content h2 {
   color: #E5F0FF;
   font-weight: 600;
@@ -21195,11 +21198,11 @@ readers do not read off random characters that represent icons */
   display: block;
   padding-bottom: .5rem;
 }
-/* line 45, ../scss/mine/_counterup.scss */
+/* line 48, ../scss/mine/_counterup.scss */
 .funfact.counter-style--5.body-counter .content {
   text-shadow: 1px 1px 0 rgba(25, 71, 127, 0.6);
 }
-/* line 47, ../scss/mine/_counterup.scss */
+/* line 50, ../scss/mine/_counterup.scss */
 .funfact.counter-style--5.body-counter .content span {
   color: #E5F0FF;
   font-size: .8rem;
@@ -21208,7 +21211,7 @@ readers do not read off random characters that represent icons */
   display: inline-block;
   font-family: open-sans, sans-serif;
 }
-/* line 55, ../scss/mine/_counterup.scss */
+/* line 58, ../scss/mine/_counterup.scss */
 .funfact.counter-style--5.body-counter .content h2 {
   color: #E5F0FF;
   font-weight: 600;

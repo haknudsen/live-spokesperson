@@ -125,7 +125,6 @@
 		</div>
 	</section>
 	<?php include("includes/testimonials.php"); ?>
-	<?php include("includes/count-up.php"); ?>
 	<section class="alert alert-info">
 		<h2 class="text-uppercase text-center wow bounceInUp">follow us</h2>
 		<h3 class="text-center wow bounceInUp">Join us in <strong>Social Media</strong> and Stay Tuned!</h3>
@@ -133,12 +132,14 @@
 	</section>
 	<?php include("includes/footer.php"); ?>
 	<?php include("includes/modal.php"); ?>
-	<script src="js/testimonials.js" async></script>
+<script src="js/waypoint.js"></script>
 	<script>
 		$( document ).ready( function () {
 			setInterval( changeQuote, 5000 );
 
 		} );
 	</script>
+<script src="js/plugins.js" async></script>
+<script src="js/counterUp.js"></script>
 </body>
 </html>
