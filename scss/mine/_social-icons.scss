@@ -10,12 +10,10 @@
 $social-icons: (
 		facebook: 'f39e',
 		twitter: 'f099',
-		instagram: 'f16d',
-		youtube:'f167',
 		linkedin:'f0e1',
+		youtube:'f167',
 		pinterest: 'f231',
-		tumbler: 'f173',
-		behance:'f1b4'
+		instagram: 'f16d'
 );
 @each $name, $social- in $social-icons {
 	.social-#{$name}{
