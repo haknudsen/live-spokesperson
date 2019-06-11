@@ -69,7 +69,7 @@ $colors: map-merge(
   $colors
 );
 
-$primary:       #0073FF !default;
+$primary:       $blue !default;
 $secondary:     #1A81FF !default;
 $success:       $green !default;
 $info:          #00A3FF !default;
@@ -276,8 +276,8 @@ $h5-font-size:                $font-size-base * 1.25 !default;
 $h6-font-size:                $font-size-base !default;
 
 $headings-margin-bottom:      ($spacer / 2) !default;
-$headings-font-family:        $font-family-heavy !default;
-$headings-font-weight:        700 !default;
+$headings-font-family:        inherit !default;
+$headings-font-weight:        500 !default;
 $headings-line-height:        1.2 !default;
 $headings-color:              inherit !default;
 

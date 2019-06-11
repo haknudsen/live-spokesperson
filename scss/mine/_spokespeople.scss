@@ -10,7 +10,7 @@ $btn-spokesperson: 48;
 		opacity: 1;
 	}
 }
-.poster-title{font-size: 0.7rem;font-weight: 700}
+.poster-title{font-size: 0.8;font-weight: 500}
 .btn-spokesperson {
 	height: $btn-spokesperson+px;
 	width: $btn-spokesperson+px;
@@ -52,6 +52,9 @@ $btn-spokesperson: 48;
 	width: 960px;
 	margin: 0 auto;
 	padding: 0!important;
+    @include media-breakpoint-down(lg) {
+        width: 90%;
+    }
 	.modal-footer, .modal-header {
 		width: 100%;
 		margin: 0 1px;
@@ -91,4 +94,3 @@ $btn-spokesperson: 48;
 	}
 }
 #contactClose{line-height: .5}
-#show-more{cursor: pointer}

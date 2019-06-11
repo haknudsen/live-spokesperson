@@ -6,7 +6,7 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  min-width: 0;
+  min-width: 240px;
   word-wrap: break-word;
   background-color: $card-bg;
   background-clip: border-box;
@@ -128,7 +128,6 @@
 .card-img-top {
   width: 100%; // Required because we use flexbox and this inherently applies align-self: stretch
   @include border-top-radius($card-inner-border-radius);
-	border-bottom: thin solid rgba($dark,0.3);
 }
 
 .card-img-bottom {
