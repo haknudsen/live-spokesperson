@@ -181,6 +181,34 @@
         <h3 class="text-center wow bounceInUp">Join us in <strong>Social Media</strong> and Stay Tuned!</h3>
         <?php include("includes/social-icons.php"); ?>
     </section>
+<section class="spokesperson-specials">
+    <h2 class="text-capitalize">Website Spokesperson Specials</h2>
+    <h3 class="text-capitalize">Featured actor specials</h3>
+    <h3 class="text-capitalize">THESE OFFERS EXPIRE Friday, June 11th</h3>
+<div class="row">
+    <div class="col-lg-3 offset-1">
+                <div class="embed-responsive embed-responsive-16by9 box">
+                    <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" type="text/html" src="ivideo/actor-player.php?video=Joe&autostart=mute&controls=mouse&actor=true"></iframe>
+                </div>
+    </div>
+    <div class="col-lg-4">
+        <h5><a href="/order.php">Order One &quot;30 Second&quot; for $199</a></h5>
+		<h5><a href="/order.php">Order One &quot;60 Second&quot; for $299</span></a></h5>
+        <h5><a href="/order.php">Order One &quot;30 Second&quot; for $199</a></h5>
+		<h5><a href="/order.php">Order One &quot;60 Second&quot; for $299</span></a></h5>
+		<p class="tiny">30 Second=41-90 Words, 60 Second=91-180 Words</p>
+		<p class="tiny">Multiple Videos must choose only ONE Featured Actor from above 
+All special packages must be shot at same time, for same domain, using only ONE Featured Actor</p>
+		<p class="tiny">30 Second=41-90 Words, 60 Second=91-180 Words</p>
+    
+    </div>
+    <div class="col-lg-3">
+                <div class="embed-responsive embed-responsive-16by9 box">
+                    <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" type="text/html" src="ivideo/actor-player.php?video=Maria&autostart=mute&controls=mouse&actor=true"></iframe>
+                </div>
+    </div>
+    </div>
+</section>
     <?php include("includes/footer.php"); ?>
     <?php include("includes/modal.php"); ?>
     <script>

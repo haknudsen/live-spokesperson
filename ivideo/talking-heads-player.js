@@ -3,19 +3,25 @@
 //  autostart- no, yes, mouse, mute
 (function ($) {
 	"use strict";
-	$.fn.createTalkingHead = function (title, autostart, controls) {
+	$.fn.createTalkingHead = function (title, autostart, controls,actor) {
+        var path;
 		//Create Player Object
 		if (autostart === undefined) {
 			autostart = "mouse";
-		} //autost
+		} //autostart 
 		if (controls === undefined) {
 			controls = true;
 		}
+        if(actor === undefined){
+            path = "https://www.websitetalkingheads.com/spokespeople/videos/";
+        }else{
+            path = "https://www.websitetalkingheads.com/ivideo/videos/";
+        }
 		var talkingHeadsVideo = {};
 		talkingHeadsVideo = {
 			autostart: autostart,
 			controls: controls,
-			path: "https://www.websitetalkingheads.com/ivideo/videos/",
+			path: path,
 			video: title + ".mp4",
 			poster: title + ".jpg",
 			holder: $("#player-holder"),
