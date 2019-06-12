@@ -1,5 +1,5 @@
 /* Scss Document */
-$btnWidth: 44px;
+$btnWidth: 2rem;
 $bigPlayBtn-height: 76px;
 $bigPlayBtn-width: 160px;
 #player-holder {
@@ -44,9 +44,10 @@ $bigPlayBtn-width: 160px;
 		margin-top: 12px;
 		}
 	}
+	#btn-mute{width: $btnWidth * 1.5;}
 	#volume-bar {
-		padding: 10px 8px;
-		width: 145px;
+		margin: auto 0 auto 8px;
+		width: 130px;
 	}
 }
 #bigPlayBtn {
