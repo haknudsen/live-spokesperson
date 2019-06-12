@@ -1,6 +1,7 @@
 // JavaScript Document
 $(document).ready(function () {
 	"use strict";
+		$( ".se-pre-con" ).fadeOut( "slow" ).delay(500);
 	$('#changeQuote').text(function () {
 		var footQuote = [
 			"We learned a long time ago that sometimes it's what you DON'T say that's even more important and really persuades the viewer to take action.",

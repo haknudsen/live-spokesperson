@@ -311,4 +311,7 @@ footer a:hover{color: $light;}
 }
 .box{border: thin solid $primary;}
 .tiny{font-size: 50%}
+.no-js #loader{display:none}
+.js #loader{display:block;position:absolute;left:100px;top:0}
+.se-pre-con{position:fixed;left:0;top:0;width:100%;height:100%;z-index:9999;background:url(/images/preloader.gif) center no-repeat #fff}#show-more{cursor: pointer}
 	
