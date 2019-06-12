@@ -4,7 +4,7 @@
 (function ($) {
 	"use strict";
 	$.fn.createTalkingHead = function (title, autostart, controls,actor) {
-        var path;
+        var path,videoPath,posterPath;
 		//Create Player Object
 		if (autostart === undefined) {
 			autostart = "mouse";
@@ -14,16 +14,20 @@
 		}
         if(actor === undefined){
             path = "https://www.websitetalkingheads.com/ivideo/videos/";
+			videoPath = "";
+			posterPath ="";
         }else{
-            path = "https://www.websitetalkingheads.com/spokespeople/videos/";
+            path = "https://www.websitetalkingheads.com/spokespeople/";
+			videoPath = "videos/";
+			posterPath ="posters/";
         }
 		var talkingHeadsVideo = {};
 		talkingHeadsVideo = {
 			autostart: autostart,
 			controls: controls,
 			path: path,
-			video: title + ".mp4",
-			poster: title + ".jpg",
+			video: path + videoPath + title + ".mp4",
+			poster: path + posterPath + title + ".jpg",
 			holder: $("#player-holder"),
 			player: $("#talking-head-player"),
 			container: {
@@ -51,8 +55,8 @@
 			holder = talkingHeadsVideo.holder,
 			$controls = talkingHeadsVideo.container.controls,
 			player = talkingHeadsVideo.player[0];
-		th.attr("poster", talkingHeadsVideo.path + talkingHeadsVideo.poster);
-		th.attr("src", talkingHeadsVideo.path + talkingHeadsVideo.video);
+		th.attr("poster", talkingHeadsVideo.poster);
+		th.attr("src", talkingHeadsVideo.video);
 		//Set Controls
 		setProgressBar();
 		//-------------------------------Set Controls

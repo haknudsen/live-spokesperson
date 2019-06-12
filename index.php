@@ -48,7 +48,8 @@
 					</p>
 				</div>
 				<div class="card-footer bg-gradient-mine">
-					<p class="card-text"><small class="float-right"><a href="spokespeople/">LEARN MORE</a></small></p>
+					<p class="card-text"><small class="float-right"><a href="spokespeople/">LEARN MORE</a></small>
+					</p>
 				</div>
 			</div>
 			<div class="card wow fadeInUpBig">
@@ -183,14 +184,25 @@
 		<?php include("includes/social-icons.php"); ?>
 	</section>
 	<section class="spokesperson-specials">
+		<?php
+		$url = 'https://www.websitetalkingheads.com/featuredactor/featuredactor.xml';
+		$xml = simplexml_load_file( $url );
+		$male = $xml->male;
+		$female = $xml->female;
+		$newdateBase = $xml->newdate;
+		$newdate = "THESE OFFERS EXPIRE Friday, " . $newdateBase;
+		?>
 		<h2 class="text-capitalize">Website Spokesperson Specials</h2>
 		<h3 class="text-capitalize">Featured actor specials</h3>
-		<h3 class="text-capitalize">THESE OFFERS EXPIRE Friday, June 11th</h3>
+		<h3 class="text-capitalize"><?=$newdate?></h3>
 		<div class="row">
 			<div class="col-lg-3 offset-1">
 				<div class="embed-responsive embed-responsive-16by9 box">
-					<iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" type="text/html" src="ivideo/actor-player.php?video=Joe&autostart=mute&controls=mouse&actor=true"></iframe>
+					<iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" type="text/html" src="ivideo/actor-player.php?video=<?=$male?>&autostart=mute&controls=mouse&actor=true"></iframe>
 				</div>
+				<h4 class="text-center">
+					<?=$male?>
+				</h4>
 			</div>
 			<div class="col-lg-4">
 				<h5><a href="/order.php">Order One &quot;30 Second&quot; for $199</a></h5>
@@ -205,8 +217,11 @@
 			</div>
 			<div class="col-lg-3">
 				<div class="embed-responsive embed-responsive-16by9 box">
-					<iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" type="text/html" src="ivideo/actor-player.php?video=Maria&autostart=mute&controls=mouse&actor=true"></iframe>
+					<iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" type="text/html" src="ivideo/actor-player.php?video=<?=$female?>&autostart=mute&controls=mouse&actor=true"></iframe>
 				</div>
+				<h4 class="text-center">
+					<?=$female?>
+				</h4>
 			</div>
 		</div>
 	</section>
