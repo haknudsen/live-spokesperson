@@ -22535,16 +22535,24 @@ readers do not read off random characters that represent icons */
 }
 /* line 35, ../scss/talkingHeadsPlayer/_talking-head.scss */
 #controls #progress-bar {
-  height: 44px;
   margin: 8px 6px 0;
   border: thin solid #19477F;
+  height: 44px;
 }
-/* line 40, ../scss/talkingHeadsPlayer/_talking-head.scss */
+@media (max-width: 500px) {
+  /* line 35, ../scss/talkingHeadsPlayer/_talking-head.scss */
+  #controls #progress-bar {
+    height: 22px;
+    margin-top: 12px;
+  }
+}
+/* line 44, ../scss/talkingHeadsPlayer/_talking-head.scss */
 #controls #volume-bar {
   padding: 10px 8px;
+  width: 145px;
 }
 
-/* line 44, ../scss/talkingHeadsPlayer/_talking-head.scss */
+/* line 49, ../scss/talkingHeadsPlayer/_talking-head.scss */
 #bigPlayBtn {
   height: 76px;
   width: 160px;
@@ -22562,12 +22570,12 @@ readers do not read off random characters that represent icons */
   transition: background-color 0.5s ease;
   transition: border-color 0.5s ease;
 }
-/* line 60, ../scss/talkingHeadsPlayer/_talking-head.scss */
+/* line 65, ../scss/talkingHeadsPlayer/_talking-head.scss */
 #bigPlayBtn:hover {
   background-color: rgba(0, 163, 255, 0.7);
   border-color: rgba(25, 71, 127, 0.7);
 }
-/* line 64, ../scss/talkingHeadsPlayer/_talking-head.scss */
+/* line 69, ../scss/talkingHeadsPlayer/_talking-head.scss */
 #bigPlayBtn:before {
   position: absolute;
   content: url(http://www.live-spokesperson.com/images/BigPlayBtn.gif);

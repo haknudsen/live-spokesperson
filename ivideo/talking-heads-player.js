@@ -302,6 +302,9 @@
 		});
 		//get controls with and set seekbar width
 		function setProgressBar() {
+			if($("#controls").outerWidth() < 500){
+					$("#volume-bar").remove();
+			}
 			var width = 0;
 			$("#controls").children().each(function () {
 				var x = $(this).outerWidth(true);

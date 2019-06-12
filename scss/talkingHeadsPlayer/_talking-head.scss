@@ -33,12 +33,17 @@ $bigPlayBtn-width: 160px;
 		width: $btnWidth;
 	}
 	#progress-bar {
-		height: $btnWidth;
 		margin: 8px 6px 0;
 		border: thin solid $dark;
+		height: $btnWidth;
+    @media (max-width: 500px) {
+		height: $btnWidth/2;
+		margin-top: 12px;
+		}
 	}
 	#volume-bar {
 		padding: 10px 8px;
+		width: 145px;
 	}
 }
 #bigPlayBtn {
