@@ -22525,34 +22525,40 @@ readers do not read off random characters that represent icons */
   transition: opacity 0.5s;
   opacity: 0;
 }
-/* line 29, ../scss/talkingHeadsPlayer/_talking-head.scss */
-#controls .player-btn {
-  padding: 6px;
+@media (min-width: 768px) {
+  /* line 12, ../scss/talkingHeadsPlayer/_talking-head.scss */
+  #controls {
+    font-size: 1.8rem;
+  }
 }
 /* line 32, ../scss/talkingHeadsPlayer/_talking-head.scss */
 #controls .player-btn {
-  width: 44px;
+  padding: 6px;
 }
 /* line 35, ../scss/talkingHeadsPlayer/_talking-head.scss */
+#controls .player-btn {
+  width: 44px;
+}
+/* line 38, ../scss/talkingHeadsPlayer/_talking-head.scss */
 #controls #progress-bar {
-  margin: 8px 6px 0;
+  margin: auto 6px;
   border: thin solid #19477F;
   height: 44px;
 }
 @media (max-width: 500px) {
-  /* line 35, ../scss/talkingHeadsPlayer/_talking-head.scss */
+  /* line 38, ../scss/talkingHeadsPlayer/_talking-head.scss */
   #controls #progress-bar {
     height: 22px;
     margin-top: 12px;
   }
 }
-/* line 44, ../scss/talkingHeadsPlayer/_talking-head.scss */
+/* line 47, ../scss/talkingHeadsPlayer/_talking-head.scss */
 #controls #volume-bar {
   padding: 10px 8px;
   width: 145px;
 }
 
-/* line 49, ../scss/talkingHeadsPlayer/_talking-head.scss */
+/* line 52, ../scss/talkingHeadsPlayer/_talking-head.scss */
 #bigPlayBtn {
   height: 76px;
   width: 160px;
@@ -22570,12 +22576,12 @@ readers do not read off random characters that represent icons */
   transition: background-color 0.5s ease;
   transition: border-color 0.5s ease;
 }
-/* line 65, ../scss/talkingHeadsPlayer/_talking-head.scss */
+/* line 68, ../scss/talkingHeadsPlayer/_talking-head.scss */
 #bigPlayBtn:hover {
   background-color: rgba(0, 163, 255, 0.7);
   border-color: rgba(25, 71, 127, 0.7);
 }
-/* line 69, ../scss/talkingHeadsPlayer/_talking-head.scss */
+/* line 72, ../scss/talkingHeadsPlayer/_talking-head.scss */
 #bigPlayBtn:before {
   position: absolute;
   content: url(http://www.live-spokesperson.com/images/BigPlayBtn.gif);
