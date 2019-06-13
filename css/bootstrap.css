@@ -23131,7 +23131,7 @@ p {
 /* line 161, ../scss/mine/_my-custom.scss */
 .contact-section h3 {
   color: #E5F0FF;
-  text-shadow: 0 1px 2px rgba(25, 71, 127, 0.7);
+  text-shadow: -1px 0 #E5F0FF, 0 1px #E5F0FF, 1px 0 #E5F0FF, 0 -1px #E5F0FF;
   font-weight: 700;
 }
 
@@ -23633,3 +23633,5 @@ footer a:hover {
 #show-more {
   cursor: pointer;
 }
+
+/*# sourceMappingURL=bootstrap.css.map */

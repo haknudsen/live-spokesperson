@@ -170,10 +170,10 @@
 	<section class="contact-section">
 		<div class="row align-middle">
 			<div class="col-lg-6 text-center">
-				<h3 class="wow slideInLeft">Contact us for Quote</h3>
+				<h3 class="wow slideInLeft text-dark">Contact Us for Quote</h3>
 			</div>
 			<div class="col-lg-6 text-center">
-				<div class="btn btn-contact text-uppercase wow slideInRight"><a href="#phone" title="Contact Us">contact us</a>
+				<div class="btn btn-contact text-uppercase wow slideInRight"><a class="text-dark" href="#phone" title="Contact Us">contact us</a>
 				</div>
 			</div>
 		</div>
@@ -194,7 +194,9 @@
 		?>
 		<h2 class="text-capitalize">Website Spokesperson Specials</h2>
 		<h3 class="text-capitalize">Featured actor specials</h3>
-		<h3 class="text-capitalize"><?=$newdate?></h3>
+		<h3 class="text-capitalize">
+			<?=$newdate?>
+		</h3>
 		<div class="row">
 			<div class="col-lg-3 offset-1">
 				<div class="embed-responsive embed-responsive-16by9 box">
@@ -204,12 +206,14 @@
 					<?=$male?>
 				</h4>
 			</div>
-			<div class="col-lg-4">
-				<h5><a href="/order.php">Order One &quot;30 Second&quot; for $199</a></h5>
-				<h5><a href="/order.php">Order One &quot;60 Second&quot; for $299</span></a></h5>
-				<h5><a href="/order.php">Order One &quot;30 Second&quot; for $199</a></h5>
-				<h5><a href="/order.php">Order One &quot;60 Second&quot; for $299</span></a></h5>
-				<div class="align-self-center">
+			<div class="col-lg-4 d-flex flex-column">
+				<div class="specials">
+					<h5><a href="/order.php">Order One &quot;30 Second&quot; for $199</a></h5>
+					<h5><a href="/order.php">Order One &quot;60 Second&quot; for $299</span></a></h5>
+					<h5><a href="/order.php">BOGO &quot;30 Second&quot; for $299</a></h5>
+					<h5><a href="/order.php">BOGO &quot;60 Second&quot; for $399</span></a></h5>
+				</div>
+				<div class="mt-auto mb-0">
 					<p class="tiny">30 Second=41-90 Words, 60 Second=91-180 Words</p>
 					<p class="tiny">Multiple Videos must choose only ONE Featured Actor from above. All special packages must be shot at same time, for same domain, using only ONE Featured Actor</p>
 					<p class="tiny">30 Second=41-90 Words, 60 Second=91-180 Words</p>

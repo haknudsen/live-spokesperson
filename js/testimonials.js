@@ -1,1 +1,12 @@
-var i=0;function changeTestimonial(){$("#quote").text(testimonials[i].quote).fadeOut("slow",function(){$(this).html(testimonials[i].quote).fadeIn(500)}),$("#person").text(testimonials[i].person).fadeOut("slow",function(){$(this).html(testimonials[i].person).fadeIn(500)}),$("#company").text(testimonials[i].company).fadeOut("slow",function(){$(this).html(testimonials[i].company).fadeIn(500)}),i===testimonials.length-1?i=0:i++}changeTestimonial();
+var testimonialInc = 0;
+
+function changeTestimonial() {
+	$("#quote").text(testimonials[testimonialInc].quote).fadeOut("slow", function () {
+		$(this).html(testimonials[testimonialInc].quote).fadeIn(500)
+	}), $("#person").text(testimonials[testimonialInc].person).fadeOut("slow", function () {
+		$(this).html(testimonials[testimonialInc].person).fadeIn(500)
+	}), $("#company").text(testimonials[testimonialInc].company).fadeOut("slow", function () {
+		$(this).html(testimonials[testimonialInc].company).fadeIn(500)
+	}), $("#dash").fadeOut("slow").delay(500).fadeIn(500)
+	, testimonialInc === testimonials.length - 1 ? testimonialInc = 0 : testimonialInc++
+}
