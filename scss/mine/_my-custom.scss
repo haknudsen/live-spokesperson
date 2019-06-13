@@ -341,6 +341,7 @@ footer a:hover{color: $light;}
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    .row{margin: 2rem auto}
 }
 .demo-title{text-align: center;color: $light;text-shadow: -1px 0 $primary, 0 1px $primary, 1px 0 $primary, 0 -1px $primary;font-weight: 900;font-size: 3rem;display: flex}
 #standard{background-image: url("../images/standard-demo.jpg");}
