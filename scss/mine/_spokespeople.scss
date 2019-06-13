@@ -52,7 +52,7 @@ $btn-spokesperson: 48;
 	width: 960px;
 	margin: 0 auto;
 	padding: 0!important;
-    @include respond-below(lg) {
+    @include media-breakpoint-down(lg) {
         width: 90%;
     }
 	.modal-footer, .modal-header {

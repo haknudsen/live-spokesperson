@@ -174,6 +174,23 @@ p {
 	border-radius: .5rem;
 	@include gradient-mine(#BCE4FF,#7ECDF4);
 }
+.btn-product {
+	color: $light;
+	text-shadow: 0 2px 1px rgba($dark, 0.5);
+	-webkit-font-smoothing: antialiased;
+	font-weight: 900;
+	padding: .1rem .5rem;
+	border-radius: 0;
+	@include gradient-mine($info,$secondary);
+    &:hover{
+	@include gradient-mine($secondary,$info);
+	text-shadow: 0 -2px 1px rgba($dark, 0.5);
+	color: $light;
+    }
+    a{
+	color: $light;
+    }
+}
 textarea {
 	width: 100%;
 }
@@ -314,4 +331,20 @@ footer a:hover{color: $light;}
 .no-js #loader{display:none}
 .js #loader{display:block;position:absolute;left:100px;top:0}
 .se-pre-con{position:fixed;left:0;top:0;width:100%;height:100%;z-index:9999;background:url(/images/preloader.gif) center no-repeat #fff}#show-more{cursor: pointer}
+.demo{
+    height: 280px;
+    width: 100%;
+    margin: 0 -15px;
+    line-height: 1;
+    background-color: $dark;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.demo-title{text-align: center;color: $light;text-shadow: -1px 0 $primary, 0 1px $primary, 1px 0 $primary, 0 -1px $primary;font-weight: 700;font-size: 2rem;vertical-align: middle;}
+#standard{background-image: url("../images/standard-demo.jpg");}
+#unboxing{background-image: url("../images/overhead.jpg");}
+#explaination{background-image: url("../images/spokesperson-explanation.jpg");}
+#live-action{background-image: url("../images/live-action-demonstration.jpg");}
 	
