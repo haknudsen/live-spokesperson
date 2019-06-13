@@ -1,5 +1,5 @@
 /* Scss Document */
-$btnWidth: 44px;
+$btnWidth: 2rem;
 $bigPlayBtn-height: 76px;
 $bigPlayBtn-width: 160px;
 #player-holder {
@@ -8,7 +8,7 @@ $bigPlayBtn-width: 160px;
 	padding: 0;
 	&:hover #controls{opacity: 1}
 }
-#talking-head-player{}
+#talking-head-player{border: thin solid $primary}
 #controls {
 	width: 100%;
 	margin-left: auto;
@@ -26,6 +26,9 @@ $bigPlayBtn-width: 160px;
 	color: $light;
 	transition:opacity 0.5s;
 	opacity: 0;
+    @media (min-width: 768px) {
+		font-size: 1.8rem;
+		}
 	.player-btn{
 		padding: 6px;
 	}
@@ -33,12 +36,18 @@ $bigPlayBtn-width: 160px;
 		width: $btnWidth;
 	}
 	#progress-bar {
-		height: $btnWidth;
-		margin: 8px 6px 0;
+		margin: auto 6px;
 		border: thin solid $dark;
+		height: $btnWidth;
+    @media (max-width: 500px) {
+		height: $btnWidth/2;
+		margin-top: 12px;
+		}
 	}
+	#btn-mute{width: $btnWidth * 1.5;}
 	#volume-bar {
-		padding: 10px 8px;
+		margin: auto 0 auto 8px;
+		width: 130px;
 	}
 }
 #bigPlayBtn {

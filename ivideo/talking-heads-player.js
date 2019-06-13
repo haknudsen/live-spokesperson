@@ -4,7 +4,11 @@
 (function ($) {
 	"use strict";
 	$.fn.createTalkingHead = function (title, autostart, controls,actor) {
+<<<<<<< HEAD
         var path;
+=======
+        var path,videoPath,posterPath;
+>>>>>>> origin/master
 		//Create Player Object
 		if (autostart === undefined) {
 			autostart = "mouse";
@@ -13,17 +17,32 @@
 			controls = true;
 		}
         if(actor === undefined){
+<<<<<<< HEAD
             path = "https://www.websitetalkingheads.com/spokespeople/videos/";
         }else{
             path = "https://www.websitetalkingheads.com/ivideo/videos/";
+=======
+            path = "https://www.websitetalkingheads.com/ivideo/videos/";
+			videoPath = "";
+			posterPath ="";
+        }else{
+            path = "https://www.websitetalkingheads.com/spokespeople/";
+			videoPath = "videos/";
+			posterPath ="posters/";
+>>>>>>> origin/master
         }
 		var talkingHeadsVideo = {};
 		talkingHeadsVideo = {
 			autostart: autostart,
 			controls: controls,
 			path: path,
+<<<<<<< HEAD
 			video: title + ".mp4",
 			poster: title + ".jpg",
+=======
+			video: path + videoPath + title + ".mp4",
+			poster: path + posterPath + title + ".jpg",
+>>>>>>> origin/master
 			holder: $("#player-holder"),
 			player: $("#talking-head-player"),
 			container: {
@@ -51,10 +70,9 @@
 			holder = talkingHeadsVideo.holder,
 			$controls = talkingHeadsVideo.container.controls,
 			player = talkingHeadsVideo.player[0];
-		th.attr("poster", talkingHeadsVideo.path + talkingHeadsVideo.poster);
-		th.attr("src", talkingHeadsVideo.path + talkingHeadsVideo.video);
+		th.attr("poster", talkingHeadsVideo.poster);
+		th.attr("src", talkingHeadsVideo.video);
 		//Set Controls
-		console.log(talkingHeadsVideo);
 		setProgressBar();
 		//-------------------------------Set Controls
 		switch (talkingHeadsVideo.controls) {
@@ -106,9 +124,7 @@
 					togglePause();
 					btnFunctions();
 				});
-			} else {
-				console.log("hit");
-			}
+			} 
 		}
 
 		function tryAutostart() {
@@ -118,7 +134,6 @@
 					togglePause();
 					btns.bigPlayBtn.hide("slow");
 				}).catch(error => {
-					console.log("Will not autostart");
 					playMuted();
 				});
 				btnFunctions();
@@ -220,7 +235,6 @@
 				player.play();
 			});
 			player.onended = function () {
-				console.log('Video has ended!');
 				if (!player.muted) {
 					player.currentTime = 0;
 					btns.bigPlayBtn.show("slow");
@@ -303,6 +317,9 @@
 		});
 		//get controls with and set seekbar width
 		function setProgressBar() {
+			if($("#controls").outerWidth() < 500){
+					$("#volume-bar").remove();
+			}
 			var width = 0;
 			$("#controls").children().each(function () {
 				var x = $(this).outerWidth(true);
