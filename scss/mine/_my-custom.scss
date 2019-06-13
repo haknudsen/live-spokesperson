@@ -342,7 +342,7 @@ footer a:hover{color: $light;}
     background-position: center;
     background-size: cover;
 }
-.demo-title{text-align: center;color: $light;text-shadow: -1px 0 $primary, 0 1px $primary, 1px 0 $primary, 0 -1px $primary;font-weight: 700;font-size: 2rem;vertical-align: middle;}
+.demo-title{text-align: center;color: $light;text-shadow: -1px 0 $primary, 0 1px $primary, 1px 0 $primary, 0 -1px $primary;font-weight: 900;font-size: 3rem;display: flex}
 #standard{background-image: url("../images/standard-demo.jpg");}
 #unboxing{background-image: url("../images/overhead.jpg");}
 #explaination{background-image: url("../images/spokesperson-explanation.jpg");}
