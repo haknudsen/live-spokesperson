@@ -3,8 +3,8 @@
 //  autostart- no, yes, mouse, mute
 (function ($) {
 	"use strict";
-	$.fn.createTalkingHead = function (title, autostart, controls,actor) {
-        var path,videoPath,posterPath;
+	$.fn.createTalkingHead = function (title, autostart, controls, actor) {
+		var path, videoPath, posterPath;
 		//Create Player Object
 		if (autostart === undefined) {
 			autostart = "mouse";
@@ -12,15 +12,15 @@
 		if (controls === undefined) {
 			controls = true;
 		}
-        if(actor === undefined){
-            path = "https://www.websitetalkingheads.com/ivideo/videos/";
+		if (actor === undefined) {
+			path = "https://www.websitetalkingheads.com/ivideo/videos/";
 			videoPath = "";
-			posterPath ="";
-        }else{
-            path = "https://www.websitetalkingheads.com/spokespeople/";
+			posterPath = "";
+		} else {
+			path = "https://www.websitetalkingheads.com/spokespeople/";
 			videoPath = "videos/";
-			posterPath ="posters/";
-        }
+			posterPath = "posters/";
+		}
 		var talkingHeadsVideo = {};
 		talkingHeadsVideo = {
 			autostart: autostart,
@@ -109,7 +109,7 @@
 					togglePause();
 					btnFunctions();
 				});
-			} 
+			}
 		}
 
 		function tryAutostart() {
@@ -133,7 +133,7 @@
 			btns.bigPlayBtn.show("slow");
 			player.play();
 			togglePlay();
-			holder.click(function(){
+			holder.click(function () {
 				player.muted = false;
 				btns.bigPlayBtn.hide("slow");
 				togglePause();
@@ -169,10 +169,10 @@
 		}
 
 		function togglePlay() {
-			console.log( "toggle play" );
+			console.log("toggle play");
 			btns.playToggle.addClass("btn-play");
 			btns.playToggle.removeClass("btn-pause");
-				btns.bigPlayBtn.show("slow");
+			btns.bigPlayBtn.show("slow");
 		}
 		//create button functions
 		function btnFunctions() {
@@ -184,7 +184,7 @@
 				player.currentTime = 0;
 				player.pause();
 				togglePlay();
-				console.log( "stop" );
+				console.log("stop");
 			});
 			btns.fullscreen.click(function () {
 				player.requestFullscreen();
@@ -304,8 +304,8 @@
 		});
 		//get controls with and set seekbar width
 		function setProgressBar() {
-			if($("#controls").outerWidth() < 500){
-					$("#volume-bar").remove();
+			if ($("#controls").outerWidth() < 500) {
+				$("#volume-bar").remove();
 			}
 			var width = 0;
 			$("#controls").children().each(function () {

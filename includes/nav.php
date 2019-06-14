@@ -23,6 +23,7 @@
 					<a href="#" title="Animation" class="dropdown-item">Animation</a>
 					<a href="#" title="Typography" class="dropdown-item">Typography</a>
 					<a href="../styles/custom-presentations/" title="Presentation" class="dropdown-item">Presentation</a>
+					<a href="../product-demonstrations/" title="Product Demo" class="dropdown-item">Product Demo</a>
 				</div>
 			</li>
 			<li class="nav-item" id="articles">
