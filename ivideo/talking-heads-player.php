@@ -6,7 +6,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<meta name="description"  content="Video Player for our content">
+	<meta name="description" content="Video Player for our content">
 	<!--CSS-->
 	<link href="http://www.live-spokesperson.com/css/bootstrap.css" rel="stylesheet" type="text/css">
 </head>
@@ -36,14 +36,15 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 	<script src="talking-heads-player.js"></script>
 	<?php
-		$video = $_GET["video"];
-		$autostart = $_GET["autostart"];
-		$controls =  $_GET["controls"];
+	$video = $_GET[ "video" ];
+	$autostart = $_GET[ "autostart" ];
+	$controls = $_GET[ "controls" ];
+	$controls = $_GET[ "actor" ];
 	?>
 	<script>
 		$( document ).ready( function () {
-			createTalkingHead( "<?=$video?>","<?=$autostart?>","<?=$controls?>" );
-		} );
+					createTalkingHead( "<?=$video?>", "<?=$autostart?>", "<?=$controls?>", "<?=$actor?>" );
+				});
 	</script>
 </body>
 </html>

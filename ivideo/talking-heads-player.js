@@ -1,7 +1,28 @@
 // JavaScript Document
 ////controls- show, hide, mouse
 //  autostart- no, yes, mouse, mute
-function createTalkingHead(title, autostart, controls, actor) {
+	var talkingHeadsVideo = {
+		holder: $("#player-holder"),
+		player: $("#talking-head-player"),
+		container: {
+			controls: $("#controls"),
+			barWidth: $("#controls").outerWidth()
+		},
+		btns: {
+			bigPlayBtn: $('#bigPlayBtn'),
+			restart: $('#btn-restart'),
+			playToggle: $('#btn-play-toggle'),
+			stop: $('#btn-stop'),
+			mute: $('#btn-mute'),
+			fullscreen: $('#btn-fullscreen')
+		},
+		playing: function () {
+
+		},
+		started: false
+	};
+
+	function createTalkingHead(title, autostart, controls, actor) {
 		var path, videoPath, posterPath;
 		//Create Player Object
 		if (autostart === undefined) {
@@ -10,7 +31,7 @@ function createTalkingHead(title, autostart, controls, actor) {
 		if (controls === undefined) {
 			controls = true;
 		}
-		if (actor === undefined) {
+		if (actor === undefined || actor === "") {
 			path = "https://www.websitetalkingheads.com/ivideo/videos/";
 			videoPath = "";
 			posterPath = "";
@@ -19,32 +40,12 @@ function createTalkingHead(title, autostart, controls, actor) {
 			videoPath = "videos/";
 			posterPath = "posters/";
 		}
-		var talkingHeadsVideo = {};
-		talkingHeadsVideo = {
-			autostart: autostart,
-			controls: controls,
-			path: path,
-			video: path + videoPath + title + ".mp4",
-			poster: path + posterPath + title + ".jpg",
-			holder: $("#player-holder"),
-			player: $("#talking-head-player"),
-			container: {
-				controls: $("#controls"),
-				barWidth: $("#controls").outerWidth()
-			},
-			btns: {
-				bigPlayBtn: $('#bigPlayBtn'),
-				restart: $('#btn-restart'),
-				playToggle: $('#btn-play-toggle'),
-				stop: $('#btn-stop'),
-				mute: $('#btn-mute'),
-				fullscreen: $('#btn-fullscreen')
-			},
-			playing: function () {
-
-			},
-			started: false
-		};
+			talkingHeadsVideo.autostart= autostart;
+			talkingHeadsVideo.controls= controls;
+			talkingHeadsVideo.path= path;
+			talkingHeadsVideo.video= path + videoPath + title + ".mp4";
+			talkingHeadsVideo.poster= path + posterPath + title + ".jpg";
+		console.log(talkingHeadsVideo);
 		var th = talkingHeadsVideo.player,
 			progressBar = $("#progress-bar"),
 			progress = $("#progress"),
