@@ -17,6 +17,7 @@ $(document).ready(function () {
 	$(".poster").click(function () {
 		name = $(this).attr("data-video");
 		srcVideo = srcBase + "ivideo/videos/" + name.replace(/ /g,"%20") + ".mp4";
+		console.log( srcVideo );
 		if (!$(this).attr("alt")) {
 			alt = "";
 		} else {

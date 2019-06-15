@@ -9,5 +9,4 @@ function () {
     ];
     var theQuote = footQuote[Math.floor(Math.random() * footQuote.length)];
     $("#changeQuote").text(theQuote);
-console.log(theQuote);
 });

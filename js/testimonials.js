@@ -8,5 +8,5 @@ function changeTestimonial() {
 	}), $("#company").text(testimonials[testimonialInc].company).fadeOut("slow", function () {
 		$(this).html(testimonials[testimonialInc].company).fadeIn(500)
 	}), $("#dash").fadeOut("slow").fadeIn(500)
-	}), testimonialInc === testimonials.length - 1 ? testimonialInc = 0 : testimonialInc++
+testimonialInc === testimonials.length - 1 ? testimonialInc = 0 : testimonialInc++
 }

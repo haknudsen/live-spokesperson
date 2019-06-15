@@ -2,7 +2,7 @@
 $(document).ready(function () {
 	"use strict";
 	$.ajax({
-		url: "js/spokesperson-content.xml",
+		url: "http://www.live-spokesperson.com/js/spokesperson-content.xml",
 		dataType: "xml",
 		success: parse,
 		error: function () {
@@ -11,7 +11,6 @@ $(document).ready(function () {
 	});
 
 	function parse(document) {
-		console.log('hit');
 		var x = 0;
 		var paragraph = Array();
 		var title = Array();

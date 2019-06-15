@@ -17,7 +17,7 @@
 		<div class="row align-items-center">
 			<div class="col-xl-6 offset-1" id="video-holder">
 				<div class="embed-responsive embed-responsive-16by9">
-					<iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" type="text/html" src="ivideo/talking-heads-player.php?video=What is a Talking Head&autostart=mute&controls=mouse"></iframe>
+					<iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" type="text/html" src="ivideo/talking-heads-player.php?video=What is a Talking Head&autostart=mute&controls=show"></iframe>
 				</div>
 			</div>
 			<div class="col-xl-4">
@@ -183,7 +183,7 @@
 		<h3 class="text-center wow bounceInUp">Join us in <strong>Social Media</strong> and Stay Tuned!</h3>
 		<?php include("includes/social-icons.php"); ?>
 	</section>
-	<section class="spokesperson-specials">
+	<!--<section class="spokesperson-specials">
 		<?php
 		$url = 'https://www.websitetalkingheads.com/featuredactor/featuredactor.xml';
 		$xml = simplexml_load_file( $url );
@@ -228,7 +228,7 @@
 				</h4>
 			</div>
 		</div>
-	</section>
+	</section>-->
 	<?php include("includes/footer.php"); ?>
 	<?php include("includes/modal.php"); ?>
 	<script>
