@@ -26,8 +26,9 @@ var talkingHeadsVideo = {
         progress = $("#progress"),
         volumeBar = $("#volume-bar"),
         holder = talkingHeadsVideo.holder,
-        player = talkingHeadsVideo.player[0];
-var btns = talkingHeadsVideo.btns;
+        player = talkingHeadsVideo.player[0],
+        btns = talkingHeadsVideo.btns,
+        click=0;
 
 function createTalkingHead(title, autostart, controls, actor) {
     var path, videoPath, posterPath;
@@ -118,7 +119,7 @@ function createTalkingHead(title, autostart, controls, actor) {
                 player.muted = false;
                 player.play();
                 btns.bigPlayBtn.hide("slow");
-                togglePause();
+                showPause();
                 btnFunctions();
             });
         }
@@ -128,7 +129,7 @@ function createTalkingHead(title, autostart, controls, actor) {
         var promise = player.play();
         if (promise !== undefined) {
             promise.then(_ => {
-                togglePause();
+                showPause();
                 btns.bigPlayBtn.hide("slow");
             }).catch(error => {
                 playMuted();
@@ -148,7 +149,7 @@ function createTalkingHead(title, autostart, controls, actor) {
         holder.click(function () {
             player.muted = false;
             btns.bigPlayBtn.hide("slow");
-            togglePause();
+            showPause();
             btnFunctions();
         })
     }
@@ -161,7 +162,7 @@ function createTalkingHead(title, autostart, controls, actor) {
             player.muted = false;
             player.play();
             btns.bigPlayBtn.hide("slow");
-            togglePause();
+            showPause();
             btnFunctions();
         });
     }
@@ -175,7 +176,7 @@ function createTalkingHead(title, autostart, controls, actor) {
         player.pause();
     }
 
-    function togglePause() {
+    function showPause() {
         btns.playToggle.addClass("btn-pause");
         btns.playToggle.removeClass("btn-play");
     }
@@ -190,7 +191,7 @@ function createTalkingHead(title, autostart, controls, actor) {
     function btnFunctions() {
         //buttons functions--------------------------------------
         $('#player-holder').click(function () {
-            console.log(event.target.id);
+            console.log( "clicked on:" + event.target.id);
             switch (event.target.id) {
                 case "btn-restart":
                     restartPlayer();
@@ -227,16 +228,14 @@ function createTalkingHead(title, autostart, controls, actor) {
     }
 
     function playToggle() {
-        if (player.paused) {
-            btns.bigPlayBtn.hide("slow");
-            player.play();
-            togglePause();
-        } else {
-            player.pause();
-            btns.bigPlayBtn.show("slow");
-            talkingHeadsVideo.started = false;
-            showPlay();
+        console.log( "started= " + talkingHeadsVideo.started );
+        if(!talkingHeadsVideo.started){
+            talkingHeadsVideo.started = true;
+            player.currentTime = 0;
         }
+        click++;
+        console.log(player.paused + "-" + click);
+        player.paused ? player.play() : player.pause();
     }
 
     function stopPlayer() {
@@ -274,7 +273,7 @@ function createTalkingHead(title, autostart, controls, actor) {
     /*
     			btns.bigPlayBtn.click(function () {
     				btns.bigPlayBtn.hide("slow");
-    				togglePause();
+    				showPause();
     				player.muted = false;
     				player.play();
     			});
