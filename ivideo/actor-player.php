@@ -14,10 +14,6 @@
 <body>
 	<div id="player-holder">
 		<video id="talking-head-player" preload width="100%">
-<<<<<<< HEAD
-			<source src="movie.mp4" type="video/mp4">
-=======
->>>>>>> origin/master
 			<p>Your browser does not support the video tag. Please Visit <a href="https://www.websitetalkingheads.com/support/" title="Please Visit Support">https://www.websitetalkingheads.com/support/</a>
 			</p>
 		</video>
@@ -46,11 +42,7 @@
 	?>
 	<script>
 		$( document ).ready( function () {
-<<<<<<< HEAD
-			$( "#talking-head-player" ).createTalkingHead( "<?=$video?>","<?=$autostart?>","<?=$controls?>" );
-=======
 			$( "#talking-head-player" ).createTalkingHead( "<?=$video?>","<?=$autostart?>","<?=$controls?>","<?=$actor?>" );
->>>>>>> origin/master
 		} );
 	</script>
 </body>
