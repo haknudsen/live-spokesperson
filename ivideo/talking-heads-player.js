@@ -86,6 +86,7 @@ function createTalkingHead(title, autostart, controls, actor) {
             break;
     }
     //--------------------------------Set autostart
+    console.log( talkingHeadsVideo.autostart );
     switch (talkingHeadsVideo.autostart) {
         case "no":
             poster();
@@ -112,16 +113,8 @@ function createTalkingHead(title, autostart, controls, actor) {
                 }
                 hoverPause();
             });
-            holder.click(function () {
-                talkingHeadsVideo.started = true;
-                holder.unbind();
-                player.load();
-                player.muted = false;
-                player.play();
-                btns.bigPlayBtn.hide("slow");
-                showPause();
+                showPlay();
                 btnFunctions();
-            });
         }
     }
 
