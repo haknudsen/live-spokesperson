@@ -4,7 +4,6 @@ $video-video video
 $alt- alt tag contents
 #bgColor-background color
  */
-require( "connect-demo.php" );
 if(!$alt){$alt = "Custom Video Example";}
 if(!$bgColor){$bgColor = "#50647F";}
 if(!$btnSize){$btnSize = "md";}

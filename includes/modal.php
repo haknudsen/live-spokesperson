@@ -7,9 +7,9 @@
           <span aria-hidden="true">&times;</span></button>
 			
 			</div>
-			<div class="container d-flex justify-content-center">
-				<video id="talking-heads-video" class="video-js" controls preload="none" width="800" height="432" poster="" data-setup="{}">
-					<source src="https://www.websitetalkingheads.com/ivideo/videos/holder.mp4" type='video/mp4'>
+			<div class="embed-responsive embed-responsive-16by9">
+				<video id="talking-heads-video" class="video-js" controls preload="none" poster="" data-setup="{}">
+					<source class="embed-responsive-item" src="https://www.websitetalkingheads.com/ivideo/videos/holder.mp4" type='video/mp4'>
 					<p class="vjs-no-js">
 						To view this video please enable JavaScript, and consider upgrading to a web browser that
 						<a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>

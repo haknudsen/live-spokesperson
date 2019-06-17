@@ -26,7 +26,7 @@
 			<h1 class="text-center">About Talking Heads<i class="far fa-registered smaller"></i></h1>
 			<div class="row align-items-center">
 				<div class="col-xl-6 offset-1" id="video-holder">
-					<?php     $video = "Talking Heads Video Demonstration";$bgColor = "#757575";$alt = "Talking Heads Video Demonstration";include("../includes/showVideo.php");?>
+					<?php $video = "Talking Heads Video Demonstration";$bgColor = "#757575";$alt = "Talking Heads Video Demonstration";include("../includes/showVideo.php");?>
 				</div>
 				<div class="col-xl-4">
 					<?php include( "../includes/contact-awards.php"); ?>
