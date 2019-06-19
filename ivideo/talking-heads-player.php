@@ -35,15 +35,9 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 	<script src="talking-heads-player.js"></script>
-	<?php
-	$video = $_GET[ "video" ];
-	$autostart = $_GET[ "autostart" ];
-	$controls = $_GET[ "controls" ];
-	$controls = $_GET[ "actor" ];
-	?>
 	<script>
 		$( document ).ready( function () {
-					createTalkingHead( "<?=$video?>", "<?=$autostart?>", "<?=$controls?>", "<?=$actor?>" );
+					createTalkingHead( "<?=$_GET[ "video" ]?>", "<?=$_GET[ "autostart" ]?>", "<?=$_GET[ "controls" ]?>", "<?=$_GET[ "actor" ]?>" );
 				});
 	</script>
 </body>
