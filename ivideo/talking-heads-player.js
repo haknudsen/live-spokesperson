@@ -28,8 +28,14 @@ var th = talkingHeadsVideo.player,
     player = talkingHeadsVideo.player[0];
 //get controls width and set seekbar width
 function setProgressBar() {
+    console.log( $("#controls").outerWidth() );
     if ($("#controls").outerWidth() < 500) {
-        $("#volume-bar").remove();
+        volumeBar.css("display","none");
+        volumeBar.width(0);
+    }else{
+        var newWidth = parseInt($("#controls").outerWidth()/8);
+        volumeBar.width(newWidth);
+        volumeBar.css("display","block");
     }
     let width = 0;
     $("#controls").children().each(function () {
