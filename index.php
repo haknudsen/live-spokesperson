@@ -199,7 +199,7 @@
 		</h3>
 		<div class="row">
 			<div class="col-lg-3 offset-1">
-				<div class="embed-responsive embed-responsive-16by9 box">
+				<div class="embed-responsive embed-responsive-16by9">
 					<iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" type="text/html" src="ivideo/talking-heads-player.php?video=<?=$male?>&autostart=mute&controls=mouse&actor=true"></iframe>
 				</div>
 				<h4 class="text-center">
@@ -220,7 +220,7 @@
 				</div>
 			</div>
 			<div class="col-lg-3">
-				<div class="embed-responsive embed-responsive-16by9 box">
+				<div class="embed-responsive embed-responsive-16by9">
 					<iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" type="text/html" src="ivideo/talking-heads-player.php?video=<?=$female?>&autostart=mute&controls=mouse&actor=true"></iframe>
 				</div>
 				<h4 class="text-center">
