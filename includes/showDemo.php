@@ -36,6 +36,10 @@ switch ( $type ) {
 		$sql .= " 	WHERE demo=true";
 		array_push( $keyword, "Custom Video","Video Presentation","Example Video","Demo Video" );
 		break;
+	case "product":
+		$sql .= " 	WHERE product=true";
+		array_push( $keyword, "Product Demo","Video Demonstration","Product Demo Video","Demo Video" );
+		break;
 	default:
 		array_push( $keyword, "Web Video", "Online Video", "Website Video" );
 

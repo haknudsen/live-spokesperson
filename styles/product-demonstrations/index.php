@@ -6,11 +6,11 @@
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<meta content="Website Talking Heads" name="author">
 	<meta content="Demo videos reveal how your product works, what it can do, and how consumers assemble it. With a new product it is important to show it to potential customers" name="Description">
-	<?php include("../includes/head.php"); ?>
+	<?php include("../../includes/head.php"); ?>
 </head>
 
 <body>
-	<?php include("../includes/nav.php"); ?>
+	<?php include("../../includes/nav.php"); ?>
 	<section class="container-fluid">
 		<div class="container">
 			<div class="row">
@@ -26,7 +26,7 @@
 		<div class="container">
 			<div class="card-deck">
 				<div class="card pop">
-					<img class="card-img-top" alt="Experience Demo Videos" src="../images/demo-experiences.jpg">
+					<img class="card-img-top" alt="Experience Demo Videos" src="../../images/demo-experiences.jpg">
 					<div class="card-body">
 						<h6><a href="#">We Create Experiences</a></h6>
 						<p class="card-text">Our <strong>product demo videos</strong> become experiences. We will show your product in the best possible light.</p>
@@ -36,7 +36,7 @@
 					</div>
 				</div>
 				<div class="card pop">
-					<img class="card-img-top" alt="product demo videos are simple, fast and fun" src="../images/product-demo-videos.jpg">
+					<img class="card-img-top" alt="product demo videos are simple, fast and fun" src="../../images/product-demo-videos.jpg">
 					<div class="card-body">
 						<h6><a href="#">Simple, Fast And Fun</a></h6>
 						<p class="card-text">When you produce a brand-new product the most challenging part can be how to reveal show it to potential customers</p>
@@ -46,7 +46,7 @@
 					</div>
 				</div>
 				<div class="card pop">
-					<img class="card-img-top" alt="demo videos everywhere" src="../images/demo-videos.jpg">
+					<img class="card-img-top" alt="demo videos everywhere" src="../../images/demo-videos.jpg">
 					<div class="card-body">
 						<h6><a href="#">Device Friendly</a></h6>
 						<p class="card-text">People will be able to see your <strong>demo videos</strong> EVERYWHRE. Including phones and Tablets.</p>
@@ -64,7 +64,7 @@
 			<div class="row align-items-center">
 				<div class=col-md-6>
 					<div class="float-right">
-						<img class="pop poster" data-video="Product Demonstration Example Sinucleanse" alt="demo video examples" src="../images/using-demo.jpg"></a>
+						<img class="pop poster" data-video="Product Demonstration Example Sinucleanse" alt="demo video examples" src="../../images/using-demo.jpg"></a>
 					</div>
 				</div>
 				<div class=col-md-6>
@@ -73,7 +73,7 @@
 						<div class="text-content">
 							<h4 class="text-center">Talking Heads' mission is to Create Engaging Videos To Help People Attain Thier Goals.</h4>
 							<p class="color-black font-weight-bold">Talking Heads® has been making Web Videos for over a decade. We understand Web Video and Online marketing is our specialty. Our creative specialists work on an international level at branding, design, and development. Our <em>product demo videos</em> will show your product in the best possible light. Sometimes when you produce a product the most challenging part is how to reveal show it to potential customers. We can help you with that. When we finish your videos, people will be able to see it EVERYWHERE! Including phones and Tablets.</p>
-							<h3 class="read-more"><a href="about/">LEARN MORE</a></h3>
+							<h3 class="read-more"><a href="../../product-demonstrations/about">LEARN MORE</a></h3>
 						</div>
 					</div>
 				</div>
@@ -161,9 +161,9 @@
 	<section class="alert alert-info">
 		<h2 class="text-uppercase text-center wow bounceInUp">follow us</h2>
 		<h3 class="text-center wow bounceInUp">Join us in <strong>Social Media</strong> and Stay Tuned!</h3>
-		<?php include("../includes/social-icons.php"); ?>
+		<?php include("../../includes/social-icons.php"); ?>
 	</section>
-	<?php include("../includes/footer.php"); ?>
-	<?php include("../includes/modal.php"); ?>
+	<?php include("../../includes/footer.php"); ?>
+	<?php include("../../includes/modal.php"); ?>
 </body>
 </html>
