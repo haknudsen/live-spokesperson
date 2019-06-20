@@ -21,7 +21,7 @@
 	vertical-align: super;
 }
 .bd-bottom {
-	border-bottom: thin solid #3D9CEB;
+	border-bottom: thin solid $primary;
 }
 .award-text {
 	line-height: 1;
@@ -113,7 +113,7 @@ p {
 .contact {
 	min-width: 310px;
 	margin: 0 auto;
-	background: #BCE4FF;
+	background: $gray-200;
 	padding: .5rem;
 	label, input[type="phone"], input[type="email"], input[type="text"], textarea {
 		font-size: 1rem;
@@ -161,7 +161,7 @@ p {
     h3{color: $light;text-shadow: -1px 0 $light, 0 1px $light, 1px 0 $light, 0 -1px $light;font-weight: 700}
 }
 .btn-contact:hover {
-	@include gradient-mine(#7ECDF4,#BCE4FF);
+	@include gradient-mine(#7ECDF4,$gray-200);
 	color: $gray-600;
 	text-shadow: 0 -2px 1px rgba(255, 255, 255, 0.5);
 }
@@ -172,7 +172,7 @@ p {
 	font-weight: 900;
 	padding: .3rem .5rem;
 	border-radius: .5rem;
-	@include gradient-mine(#BCE4FF,#7ECDF4);
+	@include gradient-mine($gray-200,#7ECDF4);
 }
 .btn-product {
 	color: $light;
@@ -350,5 +350,9 @@ footer a:hover{color: $light;}
 #live-action{background-image: url("../images/live-action-demonstration.jpg");}
 .pop{box-shadow: none;transition: all 0.3s ease-in-out;
 	&:hover{box-shadow: 0px 25px 45px 0px rgba(0, 0, 0, 0.15);}
+}
+.alert-styles{
+	@include gradient-mine($gray-100,$gray-200);
+    color: $dark;
 }
 	

@@ -26,7 +26,7 @@
 			<h1 class="text-center">Talking Heads<i class="far fa-registered smaller"></i> Video Styles</h1>
 			<div class="row align-items-center">
 				<div class="col-xl-6 offset-xl-1" id="video-holder">
-					<?php     $video = "Why Talking Heads";
+					<?php $video = "Why Talking Heads";
     $bgColor = "#757575";
 	$alt = "Why Talking Heads Video?";
     include("../includes/showVideo.php"); 
@@ -38,7 +38,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="alert alert-info">
+	<section class="alert alert-styles">
 		<div class="container">
 			<div class="card">
 				<div class="card-header">
@@ -70,11 +70,11 @@
 			</div>
 		</div>
 	</section>
-	<section class="alert alert-info">
+	<section class="alert alert-styles">
 		<div class="container">
 			<div class="card">
 				<div class="card-header">
-					<h5 class="card-title"><a href="https://www.websitetalkingheads.com/whiteboard/index.php">Whiteboard Videos</a></h5>
+					<h5 class="card-title"><a href="whiteboard/">Whiteboard Videos</a></h5>
 					<p class="card-text">We focus on supercharged messages utilizing a hand drawn whiteboard vides that trigger focus and engagement </p>
 				</div>
 				<div class="card-body">
@@ -97,16 +97,16 @@
 					</div>
 				</div>
 				<div class="card-footer">
-					<a class="float-right" href="https://www.websitetalkingheads.com/whiteboard/index.php" class="card-link">More Examples...</a>
+					<a class="float-right" class="card-link" href="whiteboard/">More Examples...</a>
 				</div>
 			</div>
 		</div>
 	</section>
-    <section class="alert alert-info">
+    <section class="alert alert-styles">
 		<div class="container">
 			<div class="card">
 				<div class="card-header">
-					<h5 class="card-title"><a href="https://www.websitetalkingheads.com/whiteboard/index.php">Product Demonstration Videos</a></h5>
+					<h5 class="card-title"><a href="product-demonstrations/">Product Demonstration Videos</a></h5>
 					<p class="card-text">Our Animated Explainer Videos powerfully expain your product or service in a step-by-step manner.</p>
 				</div>
 				<div class="card-body">
@@ -129,16 +129,16 @@
 					</div>
 				</div>
 				<div class="card-footer">
-					<a class="float-right" href="https://www.websitetalkingheads.com/videopresentations/animation.php" class="card-link">More Examples...</a>
+					<a class="float-right" class="card-link" href="product-demonstrations/">More Examples...</a>
 				</div>
 			</div>
 		</div>
 	</section>
-	<section class="alert alert-info">
+	<section class="alert alert-styles">
 		<div class="container">
 			<div class="card">
 				<div class="card-header">
-					<h5 class="card-title"><a href="../product-demonstrations/">Animation Videos</a></h5>
+					<h5 class="card-title"><a href="animation/">Animation Videos</a></h5>
 					<p class="card-text">Our Animated Explainer Videos powerfully expain your product or service in a step-by-step manner.</p>
 				</div>
 				<div class="card-body">
@@ -161,16 +161,16 @@
 					</div>
 				</div>
 				<div class="card-footer">
-					<a class="float-right" href="https://www.websitetalkingheads.com/videopresentations/animation.php" class="card-link">More Examples...</a>
+					<a class="float-right" class="card-link" href="animation/">More Examples...</a></a>
 				</div>
 			</div>
 		</div>
 	</section>
-	<section class="alert alert-info">
+	<section class="alert alert-styles">
 		<div class="container">
 			<div class="card">
 				<div class="card-header">
-					<h5 class="card-title"><a href="https://www.websitetalkingheads.com/typography/">Kinetic Typography</a></h5>
+					<h5 class="card-title"><a href="Typography/">Kinetic Typography</a></h5>
 					<p class="card-text">Kinetic typography enhances the expressive power of words. They cause a more immediate, automatic reaction in the reader.</p>
 				</div>
 				<div class="card-body">
@@ -193,7 +193,7 @@
 					</div>
 				</div>
 				<div class="card-footer">
-					<a class="float-right" href="https://www.websitetalkingheads.com/typography/" class="card-link">More Examples...</a>
+					<a class="float-right" class="card-link" href="Typography/">More Examples...</a>
 				</div>
 			</div>
 		</div>
