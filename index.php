@@ -183,7 +183,7 @@
 		<h3 class="text-center wow bounceInUp">Join us in <strong>Social Media</strong> and Stay Tuned!</h3>
 		<?php include("includes/social-icons.php"); ?>
 	</section>
-	<!--<section class="spokesperson-specials">
+	<section class="spokesperson-specials">
 		<?php
 		$url = 'https://www.websitetalkingheads.com/featuredactor/featuredactor.xml';
 		$xml = simplexml_load_file( $url );
@@ -200,7 +200,7 @@
 		<div class="row">
 			<div class="col-lg-3 offset-1">
 				<div class="embed-responsive embed-responsive-16by9 box">
-					<iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" type="text/html" src="ivideo/actor-player.php?video=<?=$male?>&autostart=mute&controls=mouse&actor=true"></iframe>
+					<iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" type="text/html" src="ivideo/talking-heads-player.php?video=<?=$male?>&autostart=mute&controls=mouse&actor=true"></iframe>
 				</div>
 				<h4 class="text-center">
 					<?=$male?>
@@ -221,14 +221,14 @@
 			</div>
 			<div class="col-lg-3">
 				<div class="embed-responsive embed-responsive-16by9 box">
-					<iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" type="text/html" src="ivideo/actor-player.php?video=<?=$female?>&autostart=mute&controls=mouse&actor=true"></iframe>
+					<iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" type="text/html" src="ivideo/talking-heads-player.php?video=<?=$female?>&autostart=mute&controls=mouse&actor=true"></iframe>
 				</div>
 				<h4 class="text-center">
 					<?=$female?>
 				</h4>
 			</div>
 		</div>
-	</section>-->
+	</section>
 	<?php include("includes/footer.php"); ?>
 	<?php include("includes/modal.php"); ?>
 	<script>

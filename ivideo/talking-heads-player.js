@@ -1,4 +1,5 @@
 // JavaScript Document
+// Talking Heads Player version 0.9.1
 ////controls- true,false, mouse
 //  autostart- no, yes, mouse, mute
 let talkingHeadsVideo = {
@@ -28,7 +29,6 @@ var th = talkingHeadsVideo.player,
     player = talkingHeadsVideo.player[0];
 //get controls width and set seekbar width
 function setProgressBar() {
-    console.log( $("#controls").outerWidth() );
     if ($("#controls").outerWidth() < 500) {
         volumeBar.css("display","none");
         volumeBar.width(0);
@@ -205,6 +205,7 @@ function createTalkingHead(title, autostart, controls, actor) {
                     case "btn-mute":
                         mutePlayer();
                         break;
+                    case "progress":
                     case "progress-bar":
                         changeTime(event.offsetX);
                         break;
@@ -259,7 +260,6 @@ function createTalkingHead(title, autostart, controls, actor) {
     function changeTime(offset) {
         let w = (offset / progressBar.width());
        progress.css("width", w + '%');
-         console.log( player.duration * w );
         player.pause();
         player.currentTime = player.duration * w;
         btns.bigPlayBtn.hide("slow");
