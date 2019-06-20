@@ -18,13 +18,13 @@ let talkingHeadsVideo = {
     },
     started: false
 };
-let th = talkingHeadsVideo.player,
-    progressBar = $("#progress-bar"),
+var th = talkingHeadsVideo.player,
     progress = $("#progress"),
     volumeBar = $("#volume-bar"),
     holder = talkingHeadsVideo.holder,
-    player = talkingHeadsVideo.player[0],
-    btns = talkingHeadsVideo.btns;
+    btns = talkingHeadsVideo.btns,
+    progressBar = $("#progress-bar"),
+    player = talkingHeadsVideo.player[0];
 //get controls width and set seekbar width
 function setProgressBar() {
     if ($("#controls").outerWidth() < 500) {
@@ -63,7 +63,6 @@ function createTalkingHead(title, autostart, controls, actor) {
     talkingHeadsVideo.path = path;
     talkingHeadsVideo.video = path + videoPath + title + ".mp4";
     talkingHeadsVideo.poster = path + posterPath + title + ".jpg";
-    console.log(talkingHeadsVideo);
     th.attr("poster", talkingHeadsVideo.poster);
     th.attr("src", talkingHeadsVideo.video);
     setProgressBar();
@@ -162,11 +161,9 @@ function createTalkingHead(title, autostart, controls, actor) {
         btns.playToggle.addClass("btn-pause");
         btns.playToggle.removeClass("btn-play");
         btns.bigPlayBtn.hide("slow");
-        console.log("show pause");
     }
 
     function showPlay() {
-        console.log("show play");
         btns.playToggle.removeClass("btn-pause");
         btns.playToggle.addClass("btn-play");
         btns.bigPlayBtn.show("slow");
@@ -175,7 +172,6 @@ function createTalkingHead(title, autostart, controls, actor) {
     function btnFunctions() {
         //buttons functions--------------------------------------
         $('#player-holder').click(function () {
-            console.log(talkingHeadsVideo.started);
             if (!talkingHeadsVideo.started) {
                 talkingHeadsVideo.started = true;
                 player.currentTime = 0;
@@ -183,7 +179,6 @@ function createTalkingHead(title, autostart, controls, actor) {
                 showPause();
 
             } else {
-                console.log(event.target.id);
                 switch (event.target.id) {
                     case "btn-restart":
                         player.currentTime = 0;
@@ -203,8 +198,8 @@ function createTalkingHead(title, autostart, controls, actor) {
                     case "btn-mute":
                         mutePlayer();
                         break;
-                    case "progress":
-                        changeTime();
+                    case "progress-bar":
+                        changeTime(event.offsetX);
                         break;
                     case "btn-fullscreen":
                         goFullScreen();
@@ -254,27 +249,21 @@ function createTalkingHead(title, autostart, controls, actor) {
         player.requestFullscreen();
     }
 
-    function changeTime() {
-        progressBar = e.offsetX / $("#progress-bar").width();
+    function changeTime(offset) {
+        let w = (offset / progressBar.width());
+       progress.css("width", w + '%');
+         console.log( player.duration * w );
         player.pause();
-        player.currentTime = player.duration * (progressBar);
+        player.currentTime = player.duration * w;
         btns.bigPlayBtn.hide("slow");
         player.play();
     }
-    /*
-    			btns.bigPlayBtn.click(function () {
-    				btns.bigPlayBtn.hide("slow");
-    				showPause();
-    				player.muted = false;
-    				player.play();
-    			});
-    			}*/
-}
-player.onended = function () {
-    if (!player.muted) {
-        player.currentTime = 0;
-        btns.bigPlayBtn.show("slow");
-        showPlay();
+    player.onended = function () {
+        if (!player.muted) {
+            player.currentTime = 0;
+            btns.bigPlayBtn.show("slow");
+            showPlay();
+        }
     }
     // Update the seek bar as the player plays
     player.ontimeupdate = function () {
