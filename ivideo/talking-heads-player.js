@@ -24,6 +24,7 @@ var th = talkingHeadsVideo.player,
     holder = talkingHeadsVideo.holder,
     btns = talkingHeadsVideo.btns,
     progressBar = $("#progress-bar"),
+    time = $("#time"),
     player = talkingHeadsVideo.player[0];
 //get controls width and set seekbar width
 function setProgressBar() {
@@ -258,6 +259,7 @@ function createTalkingHead(title, autostart, controls, actor) {
         btns.bigPlayBtn.hide("slow");
         player.play();
     }
+    //video ended function
     player.onended = function () {
         if (!player.muted) {
             player.currentTime = 0;
@@ -268,7 +270,8 @@ function createTalkingHead(title, autostart, controls, actor) {
     // Update the seek bar as the player plays
     player.ontimeupdate = function () {
         let progressBar = (player.currentTime / player.duration * 100);
-        progress.css("width", progressBar + "%").text(showTime());
+        progress.css("width", progressBar + "%")
+            time.text(showTime());
     };
     //Show time funcion
     function showTime() {
@@ -292,22 +295,19 @@ function createTalkingHead(title, autostart, controls, actor) {
             if (isNaN(s)) {
                 s = 0
             }
-            if (h.toString().length < 2) {
-                h = '0' + h;
-            }
             if (m.toString().length < 2) {
-                m = '0' + m;
+                m = m;
             }
             if (s.toString().length < 2) {
                 s = '0' + s;
             }
-            return (h + ':' + m + ':' + s);
+            return (m + ':' + s);
         } else {
-            m = Math.floor(timenow / 60);
+            let m = Math.floor(timenow / 60);
             if (isNaN(m)) {
                 m = 0
             }
-            s = Math.floor(timenow % 60);
+            let s = Math.floor(timenow % 60);
             if (isNaN(s)) {
                 s = 0
             }
