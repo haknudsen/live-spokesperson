@@ -12,13 +12,13 @@
 	<meta name="revisit-after" content="30 days">
 	<meta name="author" content="TalkingHeads.com">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<?php include("includes/head.php"); ?>
+	<?php include("../../includes/head.php"); ?>
 </head>
 
 <body>
-	<?php include("includes/nav.php"); ?>
+	<?php include("../../includes/nav.php"); ?>
 	<section class="container-fluid bg-light">
-		<h1 class="exampleTitle">Custom Video Presentations</h1>
+		<h1 class="text-center">Custom Video Presentations</h1>
 		<div class="container">
 			<div class="row pb-4">
 				<div class="col-lg-4">
@@ -137,75 +137,5 @@
 	<?php include("../../includes/modal.php");?>
 
 	<?php include("../../includes/footer.php"); ?>
-
-	<!-- content container -->
-	<script src="../../js/jquery.matchHeight.js"></script>
-	<script src="https://vjs.zencdn.net/7.2.4/video.js"></script>
-
-	<script>
-		$( document ).ready( function () {
-			var setHeight = $( '#price' ).innerHeight();
-			$.when( $( '#banner' ).height( setHeight ) ).then( function () {
-				var w = $( '#banner' ).innerWidth();
-				if ( w )
-					var p = ( $( '#price' ).innerWidth() - w ) / 2;
-				console.log( w + "-" + p );
-				$( '#banner' ).css( 'paddingLeft', p + "px" );
-				$( '#banner' ).css( 'opacity', 1 );
-			} );
-
-			$( '.card-top' ).matchHeight( {
-				byRow: false
-			} );
-			$( '.card-body' ).matchHeight( {
-				byRow: false
-			} );
-		} );
-	</script>
-	<script>
-		$( document ).ready( function () {
-			var video = $( "#talking-heads-video_html5_api" )[ 0 ];
-			var srcBase = "https://www.websitetalkingheads.com/ivideo/videos/";
-			var name, alt;
-			$( ".poster" ).click( function () {
-				name = $( this ).attr( "data-video" );
-				srcVideo = srcBase + name + ".mp4";
-				srcPoster = srcBase + name + ".jpg";
-				if ( !$( this ).attr( "alt" ) ) {
-					alt = "";
-				} else {
-					alt = " - " + $( this ).attr( "alt" );
-				}
-				$( '#videoModalLabel' ).text( name + alt );
-				video.pause();
-				video.src = srcVideo;
-				video.poster = srcPoster;
-				video.play();
-			} );
-			$( '#contact' ).click( function () {
-				video[ video.paused ? 'play' : 'pause' ]();
-				var outside = $( '.modal-content' ).innerWidth();
-				var width = outside / 2;
-				if ( width < 440 ) {
-					width = 440
-				}
-				$( '#form' ).outerWidth( width );
-				$( '#form' ).toggleClass( 'd-block' );
-				var left = ( outside - $( '#form' ).outerWidth() ) / 2;
-				$( '#form' ).css( 'left', left );
-			} );
-			$( '#contactClose' ).click( function () {
-				$( '#form' ).toggleClass( 'd-block' );
-			} )
-			$( '#mainModal' ).on( 'hidden.bs.modal', function ( e ) {
-				video.pause();
-			} );
-			$( '#mainModal' ).on( 'shown.bs.modal', function ( e ) {
-				$( '#form' ).removeClass( 'd-block' );
-				video.play();
-				console.log( name );
-			} );
-		} );
-	</script>
 </body>
 </html>
