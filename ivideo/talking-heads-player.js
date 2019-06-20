@@ -30,12 +30,12 @@ var th = talkingHeadsVideo.player,
 //get controls width and set seekbar width
 function setProgressBar() {
     if ($("#controls").outerWidth() < 500) {
-        volumeBar.css("display","none");
+        volumeBar.css("display", "none");
         volumeBar.width(0);
-    }else{
-        var newWidth = parseInt($("#controls").outerWidth()/8);
+    } else {
+        var newWidth = parseInt($("#controls").outerWidth() / 8);
         volumeBar.width(newWidth);
-        volumeBar.css("display","block");
+        volumeBar.css("display", "block");
     }
     let width = 0;
     $("#controls").children().each(function () {
@@ -184,7 +184,7 @@ function createTalkingHead(title, autostart, controls, actor) {
                 player.currentTime = 0;
                 player.muted = false;
                 showPause();
-
+                th.removeAttr('loop');
             } else {
                 switch (event.target.id) {
                     case "btn-restart":
@@ -259,7 +259,7 @@ function createTalkingHead(title, autostart, controls, actor) {
 
     function changeTime(offset) {
         let w = (offset / progressBar.width());
-       progress.css("width", w + '%');
+        progress.css("width", w + '%');
         player.pause();
         player.currentTime = player.duration * w;
         btns.bigPlayBtn.hide("slow");
@@ -267,17 +267,16 @@ function createTalkingHead(title, autostart, controls, actor) {
     }
     //video ended function
     player.onended = function () {
-        if (!player.muted) {
-            player.currentTime = 0;
-            btns.bigPlayBtn.show("slow");
-            showPlay();
+            console.log(player.started);
+                player.currentTime = 0;
+                btns.bigPlayBtn.show("slow");
+                showPlay();
         }
-    }
-    // Update the seek bar as the player plays
+        // Update the seek bar as the player plays
     player.ontimeupdate = function () {
         let progressBar = (player.currentTime / player.duration * 100);
         progress.css("width", progressBar + "%")
-            time.text(showTime());
+        time.text(showTime());
     };
     //Show time funcion
     function showTime() {

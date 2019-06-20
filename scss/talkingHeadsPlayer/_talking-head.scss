@@ -39,7 +39,6 @@ $bigPlayBtn-width: 160px;
 		height: $btnWidth;
     @media (max-width: 500px) {
 		height: $btnWidth/2;
-		margin-top: 12px;
 		}
 	}
 	#btn-mute{width: $btnWidth * 1.5;}
