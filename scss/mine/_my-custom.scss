@@ -264,6 +264,7 @@ textarea {
 .i-sup{font-size:60%;vertical-align:super;padding: 0 6px}
 footer a:hover{color: $light;}
 .understrap-read-more-link{float: left}
+.more-link{float: right}
 .testimonial{clear:both;font-size: 1.5rem;height: 320px;
 	.carousel-control-prev, .carousel-control-next{width: 5%}
 	.carousel-inner{height: 235px;overflow: hidden}
@@ -355,4 +356,5 @@ footer a:hover{color: $light;}
 	@include gradient-mine($gray-100,$gray-200);
     color: $dark;
 }
+.box-header i{font-size: 2rem}
 	
