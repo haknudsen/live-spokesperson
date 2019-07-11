@@ -226,8 +226,9 @@ textarea {
 	h3{font-size: 1.5rem;font-weight: 700}
 	&:hover > .thumb-wrapper:before { color: #E5F0FF }
 }
-.inputs{padding: .5rem;
-	input { width: 100%; margin-bottom: 4px }
+.inputs{margin: .5rem;
+	input { width: 100%; margin-bottom: 4px;padding-left: 4px }
+    textarea{margin-right: 30px}
 }
 #vtigerFormSubmitBtn{padding: .25rem 1rem!important;@include gradient-mine($gray-100,$gray-300);margin-bottom: .25rem;text-align: center;align-items: center;
 	&:hover{@include gradient-mine($gray-300,$gray-100)}}

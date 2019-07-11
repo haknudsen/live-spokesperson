@@ -139,41 +139,7 @@
   </div>
 </section>
 <section class="container-fluid">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class=flat-title>
-          <h3 class=font-weight-3>Are you ready to be success with us?</h3>
-          <p>Tell us about your story and your project.</p>
-          <div class="style2 form-call-back">
-            <form accept-charset=utf-8 action="#" data-mailchimp=true id=subscribe-form method=post>
-              <div id=subscribe-content>
-                <div class=field-one-third>
-                  <div class=field-name>
-                    <input id=subscribe-name name=name placeholder="First Name">
-                  </div>
-                </div>
-                <div class=field-one-third>
-                  <div class=field-email>
-                    <input id=subscribe-email name=email placeholder="Email Address">
-                  </div>
-                </div>
-                <div class=field-one-third>
-                  <div class=field-phone>
-                    <input id=subscribe-phone name=phone placeholder="Phone Number">
-                  </div>
-                </div>
-                <div class=btn-submit>
-                  <button class="base box-shadow" id=subscribe-button type=button>SUBSCRIBE</button>
-                </div>
-              </div>
-              <div id=subscribe-msg></div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+  <?php include("../../includes/contact-succeed.php"); ?>
 </section>
 <section class="alert alert-info">
   <h2 class="text-uppercase text-center wow bounceInUp">follow us</h2>
