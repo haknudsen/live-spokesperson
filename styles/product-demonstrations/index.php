@@ -26,7 +26,7 @@
 		<div class="container">
 			<div class="card-deck">
 				<div class="card pop">
-					<img class="card-img-top" alt="Experience Demo Videos" src="../../images/demo-experiences.jpg">
+					<img class="poster card-img-top" data-video="Jeds Lemonade" alt="Product Demo Videos" src="../../images/demo-experiences.jpg">
 					<div class="card-body">
 						<h6><a href="#">We Create Experiences</a></h6>
 						<p class="card-text">Our <strong>product demo videos</strong> become experiences. We will show your product in the best possible light.</p>
@@ -36,7 +36,7 @@
 					</div>
 				</div>
 				<div class="card pop">
-					<img class="card-img-top" alt="product demo videos are simple, fast and fun" src="../../images/product-demo-videos.jpg">
+					<img class="poster card-img-top" data-video="Overhead-Product-Demo-Video" alt="Overhead Product Unboxing" src="../../images/Overhead Product Demo Video.jpg">
 					<div class="card-body">
 						<h6><a href="#">Simple, Fast And Fun</a></h6>
 						<p class="card-text">When you produce a brand-new product the most challenging part can be how to reveal show it to potential customers</p>
@@ -46,7 +46,7 @@
 					</div>
 				</div>
 				<div class="card pop">
-					<img class="card-img-top" alt="demo videos everywhere" src="../../images/demo-videos.jpg">
+					<img class="poster card-img-top" data-video="Minithrowballs Video" alt="Product Demo with Video Spokesperson" src="../../images/Minithrowballs Video.jpg">
 					<div class="card-body">
 						<h6><a href="#">Device Friendly</a></h6>
 						<p class="card-text">People will be able to see your <strong>demo videos</strong> EVERYWHRE. Including phones and Tablets.</p>
@@ -64,7 +64,7 @@
 			<div class="row align-items-center">
 				<div class=col-md-6>
 					<div class="float-right">
-						<img class="pop poster" data-video="Product Demonstration Example Sinucleanse" alt="demo video examples" src="../../images/using-demo.jpg"></a>
+						<img class="pop poster" data-video="Sinucleanse" alt="demo video examples" src="../../images/using-demo.jpg"></a>
 					</div>
 				</div>
 				<div class=col-md-6>

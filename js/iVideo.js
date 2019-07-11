@@ -27,24 +27,13 @@ function run() {
 
 	function showVideo() {
 		$('#videoModalLabel').text(name + alt);
+        $('#mainModal').modal('show')
 		video.pause();
 		video.src = srcVideo;
 		video.play();
 	}
-	$('#contact').click(function () {
-		video.pause();
-		$('#form').addClass('d-block');
-//		$('#form').css("left", formLeft);
-	});
-	$('#contactClose').click(function () {
-		$('#form').removeClass('d-block');
-	})
 	$('#mainModal').on('hidden.bs.modal', function () {
 		video.pause();
-	});
-	$('#mainModal').on('shown.bs.modal', function () {
-		$('#form').removeClass('d-block');
-		video.play();
 	});
 }
 

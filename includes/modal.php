@@ -24,4 +24,4 @@
 		</div>
 	</div>
 </div>
-<script src="/js/iVideo.js"></script>
+<script src="http://www.live-spokesperson.com/js/iVideo.js"></script>
