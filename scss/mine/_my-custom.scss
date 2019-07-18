@@ -2,6 +2,7 @@
 .content {
 	font-size: 1.2rem;
 	color: #000011;
+    text-indent: 0;
 }
 .list-style-item {
 	position: relative;
@@ -33,10 +34,6 @@
 }
 #awards .card-title {
 	text-align: center;
-}
-.content {
-	font-size: 1.2rem;
-	color: #000011;
 }
 #banner {
 	opacity: 0;
@@ -220,7 +217,6 @@ textarea {
 .sidebar{font-size: 0.8rem;padding-right: 0;position: fixed;top: 137px}
 .sidebar .nav-link {color: #E5F0FF!important}
 .actor img{width: 160px;height: 180px}
-.sup{font-size: 50%;line-height: 0;vertical-align: super}
 .actor{position: relative;width: 160px;margin: 0 auto;
 	img{max-width: 180px;margin: 0 auto;}
 	h3{font-size: 1.5rem;font-weight: 700}

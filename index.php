@@ -60,7 +60,7 @@
 				</div>
 				<img alt="Animation Example" src="images/Animation Example.jpg" alt="Animation" class="poster card-img-top" title="Animation" data-toggle="modal" data-target=".bd-example-modal-lg" data-video="Toll Buddy">
 				<div class="card-body">
-					<p class="card-text">Animation videos stimulate your viewers' brains. They are like a time machine with each new illustration practically hypnotizing your viewer. Because of this hyper focus, the viewer also remembers more of your animation than regular videos.</p>
+					<p class="card-text">Animation videos stimulateviewers' brains. They are like a time machine with each new illustration practically hypnotizing the viewer. Because of this hyper focus, the viewer also remembers more of your animation than regular videos.</p>
 					<p class="card-text">Clearly, not all animation videos are the identical, so, we work with you to make the best video for your organization. We concentrate on supercharged messages using a hand drawn illistrations that trigger the center for engagement. We make highly successful, energizing animation VIDEOS that explain your product or service.</p>
 					</p>
 				</div>
@@ -70,7 +70,7 @@
 			</div>
 			<div class="card wow fadeInRightBig">
 				<div class="card-header bg-gradient-mine">
-					<h3 class="card-title">Product Demonstrations</h3>
+					<h3 class="card-title">Product Demos</h3>
 				</div>
 				<img alt="Product Demonstration Example" src="images/Product Demonstration Example.jpg" alt="Card image cap" class="poster card-img-top" title="Jeds Lemonade" data-toggle="modal" data-target=".bd-example-modal-lg" data-video="Jeds Lemonade">
 				<div class="card-body">
@@ -92,9 +92,11 @@
 	<section class="alert alert-info">
 		<div class="container text-center">
 			<h2>Talking Heads is the Leading Web Video Production Company</h2>
-			<div class="h3">A whole bulk of services</div>
-			<div class="h4">We provide a wide variety of video content</div>
-			<p class="content">Do you need fresh, up-to-date content for your business? Are you looking for only the best of the best professional authors to get the job done? Then you've come to the right place! Whether you need blog posts, product descriptions, or technical content, Content Factory provides high-quality content that will capture your visitors’ attention and increase your search engine ranking. Choose the perfect author for your project from a pool of thousands of experienced writers, each with their own expertise.</p>
+			<div class="h3">We provide <strong>Video Solutions</strong> with a wide variety of <em>Web Video</em> styles</div>
+			<p class="content">Do you need fresh, up-to-date content for your business? Are you looking for the most skillful Web Video Production Company to get the job done? Then you've come to the right place!</p>
+			<p class="content">Whether you need a Great Explainer Video, product demos, or a New Animated Video, we can help you out. Talking Heads<sup><i class="fal fa-registered"></i></sup> creates high-quality video content in a variety of styles. Choose the perfect video style for your project and we will work with you to create your video.</p>
+			<p class="content">We pride ourselves on our experienced website spokespeople. Along with the very best Animators, Compositors, and Graphic Artists in the business.  We do not outsource or use freelancers.</p>
+			<p class="content">Capture your the attention of your website's visitors and build brand awareness.  All while increasing your search engine rankings with a Web Video from Talking Heads<sup><i class="fal fa-registered"></i></sup>.</p>
 			<div class="btn-block">
 				<div class="btn btn-dark wow pulse ">Request a Quote</div>
 				<a href="about/" title="More About Us">
@@ -146,7 +148,7 @@
 				</div>
 				<div class="card-body">
 					<h5 class="card-title">Our Team</h5>
-					<p class="card-text">Our team of experts includes: video editors, producers, professional spokespeople, animators, and compositors. We discover the latest techniques, hone new skills, and master the latest tools. We pride ourselves on our high QUALITY, professional successful spokespeople. This makes the best video production services available for your website. </p>
+					<p class="card-text">Our team of experts includes: video editors, producers, professional spokespeople, animators, and compositors. We discover the latest techniques, hone new skills, and master the latest tools. We pride ourselves on the high QUALITY of our professional successful spokespeople. This makes the best video production services available for your website. </p>
 				</div>
 			</div>
 			<div class="card text-white bg-info">
@@ -162,8 +164,8 @@
 				</div>
 				<div class="card-body">
 					<h5 class="card-title">Commitment to Quality</h5>
-					<p class="card-text">Our commitment to quality video and adherence to professional practices make us shine. These are some hallmarks that have inspired the Talking Heads<sup>®</sup> way.</p>
-					<p class="card-text">We film and composite our videos at our studio to maintain our top quality standards and accuracy.</p>
+					<p class="card-text">Our commitment to quality video and adherence to professional practices make us shine. These are some hallmarks that have inspired the Talking Heads<sup><i class="fal fa-registered"></i></sup> way.</p>
+					<p class="card-text">We film and composite our videos at our studio to maintain our top quality standards and accuracy. We are the best in Web Video Production</p>
 				</div>
 			</div>
 

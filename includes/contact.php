@@ -1,5 +1,5 @@
 <div class="border border-primary rounded contact animated bounceInDown">
-	<h3 class="text-center border-bottom">Contact Us</h3>
+	<div class="h3 text-center border-bottom">Contact Us</div>
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 	<form name="New Contact" id="__vtigerWebForm" action="https://websitetalkingheads.od1.vtiger.com/modules/Webforms/capture.php" enctype="multipart/form-data" method="post" accept-charset="utf-8">
 		<input name="__vtrftk" type="hidden" value="sid:12962bf4d0ad1d80fe58aaae128bc3449eced7c4,1541021677">
