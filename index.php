@@ -6,7 +6,8 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<meta content="Searching for a new way to bring life to your website and attract more interest from those who visit it? Get an professional spokesperson from Live-Spokesperson.">
+	<meta name="description" content="Searching for a new way to bring life to your website and attract more interest from those who visit it? Get an professional spokesperson from Live-Spokesperson.">
+    <meta name="Keywords" content="Product Videos, Video Examples, Animated Video Production, Online Videos, Great Explainer Video, Importance Of Video Marketing, Video Experts, Custom Video Production Services, Web Video Production, New Animated Video, Website Videos, Web Video Services, Web Videos, Video Production Companies, Internet Video, Homepage Web Video, Web Video Production Strategy, Web Video Production, Web Video Production Company Instructional Video">
 	<?php include("includes/head.php"); ?>
 </head>
 
