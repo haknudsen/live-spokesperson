@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<meta name="description" content="Searching for a new way to bring life to your website and attract more interest from those who visit it? Get an professional spokesperson from Live-Spokesperson.">
-    <meta name="Keywords" content="Product Videos, Video Examples, Animated Video Production, Online Videos, Great Explainer Video, Importance Of Video Marketing, Video Experts, Custom Video Production Services, Web Video Production, New Animated Video, Website Videos, Web Video Services, Web Videos, Video Production Companies, Internet Video, Homepage Web Video, Web Video Production Strategy, Web Video Production, Web Video Production Company Instructional Video">
+    <meta name="Keywords" content="Video Solutions,Product Videos, Video Examples, Animated Video Production, Online Videos, Great Explainer Video, Importance Of Video Marketing, Video Experts, Custom Video Production Services, Web Video Production, New Animated Video, Website Videos, Web Video Services, Web Videos, Video Production Companies, Internet Video, Homepage Web Video, Web Video Production Strategy, Web Video Production, Web Video Production Company Instructional Video">
 	<?php include("includes/head.php"); ?>
 </head>
 
@@ -15,6 +15,7 @@
 	<div id="phone"></div>
 	<?php include("includes/nav.php"); ?>
 	<section class="jumbotron">
+        <h1 class="text-center">Web Video Production</h1>
 		<div class="row align-items-center">
 			<div class="col-xl-6 offset-1" id="video-holder">
 				<div class="embed-responsive embed-responsive-16by9">
@@ -30,7 +31,7 @@
 		</div>
 	</section>
 	<section class="container-fluid mb-2">
-		<h1 class="text-center text-capitalize">what we do</h1>
+		<h2 class="text-center text-capitalize">what we do</h1>
 		<div class="card-deck">
 			<div class="card wow fadeInLeftBig">
 				<div class="card-header bg-gradient-mine">
@@ -49,7 +50,7 @@
 					</p>
 				</div>
 				<div class="card-footer bg-gradient-mine">
-					<p class="card-text"><small class="float-right"><a href="spokespeople/">LEARN MORE</a></small>
+					<p class="card-text"><small class="float-right"><a href="spokespeople/">Video Examples</a></small>
 					</p>
 				</div>
 			</div>
@@ -64,7 +65,7 @@
 					</p>
 				</div>
 				<div class="card-footer bg-gradient-mine">
-					<p class="card-text"><small class="float-right"><a href="styles/animation/" title="Animation">LEARN MORE</a></small>
+					<p class="card-text"><small class="float-right"><a href="styles/animation/" title="Animation">Animated Video Production</a></small>
 				</div>
 			</div>
 			<div class="card wow fadeInRightBig">
@@ -83,16 +84,16 @@
 					</p>
 				</div>
 				<div class="card-footer bg-gradient-mine">
-					<p class="card-text"><small class="float-right"><a href="product-demonstrations/" title="Product Demonstrations">LEARN MORE</a></small>
+					<p class="card-text"><small class="float-right"><a href="product-demonstrations/" title="Product Demonstrations">Product Videos</a></small>
 				</div>
 			</div>
 		</div>
 	</section>
 	<section class="alert alert-info">
 		<div class="container text-center">
-			<h2>Talking Heads is the Leading Website Video Production Company</h2>
-			<h3>A whole bulk of services</h3>
-			<h4>We provide a wide variety of video content</h4>
+			<h2>Talking Heads is the Leading Web Video Production Company</h2>
+			<div class="h3">A whole bulk of services</div>
+			<div class="h4">We provide a wide variety of video content</div>
 			<p class="content">Do you need fresh, up-to-date content for your business? Are you looking for only the best of the best professional authors to get the job done? Then you've come to the right place! Whether you need blog posts, product descriptions, or technical content, Content Factory provides high-quality content that will capture your visitors’ attention and increase your search engine ranking. Choose the perfect author for your project from a pool of thousands of experienced writers, each with their own expertise.</p>
 			<div class="btn-block">
 				<div class="btn btn-dark wow pulse ">Request a Quote</div>
@@ -109,7 +110,7 @@
 				<div class="card-heading">
 					<h2 class="card-title">Video Marketing Blog</h2>
 				</div>
-				<img class="card-img-top" src="images/Website Spokesperson Blog_v2.jpg" alt="Video Marketing Blog"/>
+				<img class="card-img-top" src="images/Website Spokesperson Blog_v2.jpg" alt="Web Video Production and Marketing Blog"/>
 				<div class="card-body">
 					<h5 class="card-title" id="title-marketing"></h5>
 					<p id="excerpt-marketing" class="card-text"></p>
@@ -119,7 +120,7 @@
 				<div class="card-heading">
 					<h2 class="card-title">Whiteboard Video Blog</h2>
 				</div>
-				<img class="card-img-top" src="images/Whiteboard Video Blog.jpg" alt="Whiteboard Blog"/>
+				<img class="card-img-top" src="images/Whiteboard Video Blog.jpg" alt="Whiteboard and Animation Blog"/>
 				<div class="card-body">
 					<h5 class="card-title" id="title-whiteboard"></h5>
 					<p id="excerpt-whiteboard" class="card-text"></p>
@@ -184,52 +185,7 @@
 		<h3 class="text-center wow bounceInUp">Join us in <strong>Social Media</strong> and Stay Tuned!</h3>
 		<?php include("includes/social-icons.php"); ?>
 	</section>
-	<section class="spokesperson-specials">
-		<?php
-		$url = 'https://www.websitetalkingheads.com/featuredactor/featuredactor.xml';
-		$xml = simplexml_load_file( $url );
-		$male = $xml->male;
-		$female = $xml->female;
-		$newdateBase = $xml->newdate;
-		$newdate = "THESE OFFERS EXPIRE Friday, " . $newdateBase;
-		?>
-		<h2 class="text-capitalize">Website Spokesperson Specials</h2>
-		<h3 class="text-capitalize">Featured actor specials</h3>
-		<h3 class="text-capitalize">
-			<?=$newdate?>
-		</h3>
-		<div class="row">
-			<div class="col-lg-3 offset-1">
-				<div class="embed-responsive embed-responsive-16by9">
-					<iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" type="text/html" src="ivideo/talking-heads-player.php?video=<?=$male?>&autostart=mute&controls=mouse&actor=true"></iframe>
-				</div>
-				<h4 class="text-center">
-					<?=$male?>
-				</h4>
-			</div>
-			<div class="col-lg-4 d-flex flex-column">
-				<div class="specials">
-					<h5><a href="/order.php">Order One &quot;30 Second&quot; for $199</a></h5>
-					<h5><a href="/order.php">Order One &quot;60 Second&quot; for $299</span></a></h5>
-					<h5><a href="/order.php">BOGO &quot;30 Second&quot; for $299</a></h5>
-					<h5><a href="/order.php">BOGO &quot;60 Second&quot; for $399</span></a></h5>
-				</div>
-				<div class="mt-auto mb-0">
-					<p class="tiny">30 Second=41-90 Words, 60 Second=91-180 Words</p>
-					<p class="tiny">Multiple Videos must choose only ONE Featured Actor from above. All special packages must be shot at same time, for same domain, using only ONE Featured Actor</p>
-					<p class="tiny">30 Second=41-90 Words, 60 Second=91-180 Words</p>
-				</div>
-			</div>
-			<div class="col-lg-3">
-				<div class="embed-responsive embed-responsive-16by9">
-					<iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" type="text/html" src="ivideo/talking-heads-player.php?video=<?=$female?>&autostart=mute&controls=mouse&actor=true"></iframe>
-				</div>
-				<h4 class="text-center">
-					<?=$female?>
-				</h4>
-			</div>
-		</div>
-	</section>
+	<?php include("includes/spokesperson-specials.php"); ?>
 	<?php include("includes/footer.php"); ?>
 	<?php include("includes/modal.php"); ?>
 	<script>
