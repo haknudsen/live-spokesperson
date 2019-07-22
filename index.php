@@ -173,12 +173,9 @@
 	</section>
 	<section class="contact-section">
 		<div class="row align-middle">
-			<div class="col-lg-6 text-center">
-				<h3 class="wow slideInLeft text-dark">Contact Us for Quote</h3>
-			</div>
-			<div class="col-lg-6 text-center">
-				<div class="btn btn-contact text-uppercase wow slideInRight"><a class="text-dark" href="#phone" title="Contact Us">contact us</a>
-				</div>
+			<div class="col-12 text-center">
+				<button type="button" class="btn btn-contact text-uppercase wow slideInRight" data-toggle="modal" data-target="#contactModalCenter"><a class="text-dark" href="#phone" title="Contact Us">contact us</a>
+				</button>
 			</div>
 		</div>
 	</section>
@@ -190,6 +187,7 @@
 	<?php include("includes/spokesperson-specials.php"); ?>
 	<?php include("includes/footer.php"); ?>
 	<?php include("includes/modal.php"); ?>
+	<?php include("includes/contact-modal.php"); ?>
 	<script>
 		$( document ).ready( function () {
 			setInterval( changeTestimonial, 5000 );

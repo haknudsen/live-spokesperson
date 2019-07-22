@@ -138,7 +138,7 @@
   </div>
   </div>
 </section>
-<section class="container-fluid">
+<section class="container-fluid mb-2">
   <?php include("../../includes/contact-succeed.php"); ?>
 </section>
 <section class="alert alert-info">
