@@ -98,7 +98,7 @@
 			<p class="content">We pride ourselves on our experienced website spokespeople. Along with the very best Animators, Compositors, and Graphic Artists in the business.  We do not outsource or use freelancers.</p>
 			<p class="content">Capture your the attention of your website's visitors and build brand awareness.  All while increasing your search engine rankings with a Web Video from Talking Heads<sup><i class="fal fa-registered"></i></sup>.</p>
 			<div class="btn-block">
-				<div class="btn btn-dark wow pulse ">Request a Quote</div>
+				<div class="btn btn-dark wow pulse" data-toggle="modal" data-target="#contactModalCenter">Request a Quote</div>
 				<a href="about/" title="More About Us">
 					<div class="btn btn-light text-capitalize">more about us</div>
 				</a>
