@@ -1,19 +1,20 @@
 /* Scss Document */
-$btn-spokesperson: 48;
-.poster {
+$btn-spokesperson: 48px;
+.poster, .spokesperson-holder {
 	opacity: 0.9;
 	-webkit-transition: opacity .5s;
 	transition: opacity .5s;
 	position: relative;
 	cursor: pointer;
+    margin: auto;
 	&:hover {
 		opacity: 1;
 	}
 }
 .poster-title{font-size: 0.8;font-weight: 500}
 .btn-spokesperson {
-	height: $btn-spokesperson+px;
-	width: $btn-spokesperson+px;
+	height: $btn-spokesperson;
+	width: $btn-spokesperson;
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -42,11 +43,14 @@ $btn-spokesperson: 48;
 		font-size: 1rem;
 	}
 }
+.spokesperson-holder{
+    width: 200px;
+}
 .spokesperson {
 	height: 180px;
 	width: 160px;
 	flex-wrap: wrap;
-	padding: .25rem .25rem 0;
+	margin: .25rem 20px 0;
 }
 .modal-spokesperson {
 	width: 960px;

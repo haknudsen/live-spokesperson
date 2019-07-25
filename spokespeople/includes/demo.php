@@ -25,7 +25,7 @@ $result = $conn->query( $sql );
 $range = $result->num_rows;
 if ( $range > 0 ) {
     echo PHP_EOL;
-    echo '<div class="row">';
+    echo '<div class="d-flex flex-wrap">';
     echo PHP_EOL;
     if ( $range > 0 ) {
         echo PHP_EOL;
@@ -46,7 +46,7 @@ if ( $range > 0 ) {
             }
             $name = $row[ "name" ];
             $img = "https://www.websitetalkingheads.com/spokespeople/posters/" . $name . ".jpg";
-            echo '<div class="poster" alt="' . $name . ' - Video Spokesperson Demonstration" data-toggle="modal" data-target=".modal-spokesperson" data-video="' . $name . '">';
+            echo '<div class="spokesperson-holder" alt="' . $name . ' - Video Spokesperson Demonstration" data-toggle="modal" data-target=".modal-spokesperson" data-video="' . $name . '">';
             echo PHP_EOL;
             echo '<img class="spokesperson rounded-circle" src="' . $img . '" id="' . $name . '" alt="' . $name . ' - Introduction" >';
             echo PHP_EOL;

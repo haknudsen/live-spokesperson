@@ -1,6 +1,6 @@
 <div class="se-pre-con"></div>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-	<a href="http://www.live-spokesperson.com/" title="Live-Spokesperson.com" class="navbar-brand float-left"><img src="http://www.live-spokesperson.com/images/head.png" alt="Live-Spokesperson Logo" class="img-fluid" style="max-height: 98px" title="Live-Spokesperson Logo"/> Live-Spokesperson</a>
+	<a href="http://www.live-spokesperson.com/" title="Live-Spokesperson.com" class="navbar-brand float-left"><img src="http://www.live-spokesperson.com/images/head.png" alt="Live-Spokesperson Logo" class="img-fluid" style="max-height: 98px" title="Live-Spokesperson Logo"/></a>
 	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -39,7 +39,7 @@
 </nav>
 	<div class="row">
 		<div class="col-md-2 col-sm-4 bg-dark">
-			<nav class="navbar navbar-dark sticky-top sidebar">
+			<nav class="sticky-top sidebar pl-2">
 
 				<!-- Links -->
 				<ul class="navbar-nav">
@@ -60,9 +60,6 @@
 					</li>
 				  <li class="nav-item" id="spokesperson-software">
 						<a class="nav-link" href="/spokespeople/software.php">Software</a>
-					</li>
-				  <li class="nav-item" id="spokesperson-virtual">
-						<a class="nav-link" href="/spokespeople/virtual-spokespeople/">Virtual Spokespeople</a>
 					</li>
 				</ul>
 
