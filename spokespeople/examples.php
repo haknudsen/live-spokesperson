@@ -20,7 +20,7 @@
 <body>
 	<?php include("../includes/nav-spokesperson.php"); ?>
 	<section class="alert-info">
-		<h1 class="text-center">Talking Heads<i class="far fa-registered sup"></i> Examples</h1>
+		<h1 class="text-center">Talking Heads<i class="fal fa-registered smaller"></i> Examples</h1>
 		<div class="container">
 			<?php include("includes/website-spokesperson-examples.php"); ?>
 		</div>
@@ -28,7 +28,7 @@
 	<section class="container-fluid bg-white my-3">
 		<div class="container">
 			<div class="card middle">
-				<h3 class="card-header bg-gradient-mine text-center text-white">Talking Heads<i class="far fa-registered sup"></i> <em>Spokespeople</em></h3>
+				<h3 class="card-header bg-gradient-mine text-center text-white">Talking Heads<i class="fal fa-registered smaller"></i> <em>Spokespeople</em></h3>
 				<div class="embed-responsive embed-responsive-16by9">
 					<iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" type="text/html" src="../ivideo/talking-heads-player.php?video=Professional Spokespeople&autostart=mouse"></iframe>
                 </div>

@@ -3,7 +3,7 @@ $(document).ready(function () {
 	var video = $("#talking-heads-video")[0];
 	var srcBase = "https://www.websitetalkingheads.com/";
 	var name, alt, srcVideo;
-	$(".poster").click(function () {
+	$(".spokesperson-holder").click(function () {
 		name = $(this).attr("data-video");
 		srcVideo = srcBase + "spokespeople/videos/" + name + ".mp4";
 		if (!$(this).attr("alt")) {
