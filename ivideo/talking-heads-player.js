@@ -89,6 +89,7 @@ function createTalkingHead(title, autostart, controls, actor) {
     //--------------------------------Set autostart
     switch (talkingHeadsVideo.autostart) {
         case "no":
+            player.preload = "none";
             poster();
             break;
         case "yes":
