@@ -21,192 +21,192 @@
 <body>
 <?php include("../includes/nav.php"); ?>
 <section class="jumbotron">
-  <div class="container-fluid">
-    <h1 class="text-center">Talking Heads<i class="far fa-registered smaller"></i> Video Styles</h1>
-    <div class="row align-items-center">
-      <div class="col-lg-8" id="video-holder">
-        <div class="embed-responsive embed-responsive-16by9">
-          <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" type="text/html" src="../ivideo/talking-heads-player.php?video=Why Talking Heads&autostart=mute&controls=true"></iframe>
+    <div class="container-fluid">
+        <h1 class="text-center">Talking Heads<i class="far fa-registered smaller"></i> Video Styles</h1>
+        <div class="row align-items-center">
+            <div class="col-lg-8" id="video-holder">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" type="text/html" src="../ivideo/talking-heads-player.php?video=Why Talking Heads&autostart=mute&controls=true"></iframe>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <?php include( "../includes/contact.php"); ?>
+            </div>
         </div>
-      </div>
-      <div class="col-lg-4">
-        <?php include( "../includes/contact.php"); ?>
-      </div>
     </div>
-  </div>
 </section>
 <section class="alert alert-styles">
-  <div class="container">
-    <div class="card">
-      <div class="card-header">
-        <h5 class="card-title"><a href="custom-presentations/">Custom Presentations</a></h5>
-        <p class="card-text">Great for: Sales Videos, Product Demonstrations, Website Walk-throughs, Training Videos</p>
-      </div>
-      <div class="card-body">
-        <div class="d-flex">
-          <div class="col-lg-4">
-            <ul class="list-group list-group-flush list-style">
-              <li class="list-style-item">Spokesperson</li>
-              <li class="list-style-item">Professional Editing</li>
-              <li class="list-style-item">Motion Graphics</li>
-              <li class="list-style-item">Lots of Images and Effects</li>
-              <li class="list-style-item">Music</li>
-            </ul>
-            <div class="d-flex">
-              <h6 class="list-price"><span class="starting">Starting at Just</span> <span class="large orange">$799</span></h6>
+    <div class="container">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="card-title"><a href="custom-presentations/">Custom Presentations</a></h5>
+                <p class="card-text">Great for: Sales Videos, Product Demonstrations, Website Walk-throughs, Training Videos</p>
             </div>
-          </div>
-          <div class="col-lg-8">
-            <?php $type = "Presentation";$show = 4;$rand = false;$columns = 2; include("../includes/showDemo.php");?>
-          </div>
+            <div class="card-body">
+                <div class="d-flex">
+                    <div class="col-lg-4">
+                        <ul class="list-group list-group-flush list-style">
+                            <li class="list-style-item">Spokesperson</li>
+                            <li class="list-style-item">Professional Editing</li>
+                            <li class="list-style-item">Motion Graphics</li>
+                            <li class="list-style-item">Lots of Images and Effects</li>
+                            <li class="list-style-item">Music</li>
+                        </ul>
+                        <div class="d-flex">
+                            <h6 class="list-price"><span class="starting">Starting at Just</span> <span class="large orange">$799</span></h6>
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <?php $type = "Presentation";$show = 6;$rand = false;$columns = 2; include("../includes/showDemo.php");?>
+                    </div>
+                </div>
+            </div>
+            <div class="card-footer"> <a class="float-right card-link" href="custom-presentations/">More Examples...</a> </div>
         </div>
-      </div>
-      <div class="card-footer"> <a class="float-right card-link" href="custom-presentations/">More Examples...</a> </div>
     </div>
-  </div>
 </section>
 <section class="alert alert-styles">
-  <div class="container">
-    <div class="card">
-      <div class="card-header">
-        <h5 class="card-title"><a href="whiteboard/">Whiteboard Videos</a></h5>
-        <p class="card-text">We focus on supercharged messages utilizing a hand drawn whiteboard vides that trigger focus and engagement </p>
-      </div>
-      <div class="card-body">
-        <div class="d-flex">
-          <div class="col-lg-4">
-            <ul class="list-group list-group-flush list-style">
-              <li class="list-style-item">Collaborative Scripting</li>
-              <li class="list-style-item">Creative Storyboarding</li>
-              <li class="list-style-item">Custom Illustrations</li>
-              <li class="list-style-item">Professional Voice Over</li>
-              <li class="list-style-item">Music</li>
-            </ul>
-            <div class="d-flex">
-              <h6 class="list-price"><span class="starting">Call for</span> <span class="large orange">Quote</span></h6>
+    <div class="container">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="card-title"><a href="whiteboard/">Whiteboard Videos</a></h5>
+                <p class="card-text">We focus on supercharged messages utilizing a hand drawn whiteboard vides that trigger focus and engagement </p>
             </div>
-          </div>
-          <div class="col-lg-8">
-            <?php $type = "Whiteboard";$show = 4;$rand = false;$columns = 2; include("../includes/showDemo.php");?>
-          </div>
+            <div class="card-body">
+                <div class="d-flex">
+                    <div class="col-lg-4">
+                        <ul class="list-group list-group-flush list-style">
+                            <li class="list-style-item">Collaborative Scripting</li>
+                            <li class="list-style-item">Creative Storyboarding</li>
+                            <li class="list-style-item">Custom Illustrations</li>
+                            <li class="list-style-item">Professional Voice Over</li>
+                            <li class="list-style-item">Music</li>
+                        </ul>
+                        <div class="d-flex">
+                            <h6 class="list-price"><a href="tel:1-801-748-2281" title="Call Now!"><span class="starting">Call for</span> <span class="large orange">Quote</span></a></h6>
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <?php $type = "Whiteboard";$show = 6;$rand = false;$columns = 2; include("../includes/showDemo.php");?>
+                    </div>
+                </div>
+            </div>
+            <div class="card-footer"> <a class="float-right card-link" href="whiteboard/">More Examples...</a> </div>
         </div>
-      </div>
-      <div class="card-footer"> <a class="float-right card-link" href="whiteboard/">More Examples...</a> </div>
     </div>
-  </div>
 </section>
 <section class="alert alert-styles">
-  <div class="container">
-    <div class="card">
-      <div class="card-header">
-        <h5 class="card-title"><a href="product-demonstrations/">Product Demonstration Videos</a></h5>
-        <p class="card-text">Our Animated Explainer Videos powerfully expain your product or service in a step-by-step manner.</p>
-      </div>
-      <div class="card-body">
-        <div class="d-flex">
-          <div class="col-lg-4">
-            <ul class="list-group list-group-flush list-style">
-              <li class="list-style-item">Show off your product</li>
-              <li class="list-style-item">Creative Storyboarding</li>
-              <li class="list-style-item">Custom Animation</li>
-              <li class="list-style-item">Professional Voice Over</li>
-              <li class="list-style-item">Music</li>
-            </ul>
-            <div class="d-flex">
-              <h6 class="list-price"><span class="starting">Call for</span> <span class="large orange">Quote</span></h6>
+    <div class="container">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="card-title"><a href="product-demonstrations/">Product Demonstration Videos</a></h5>
+                <p class="card-text">Our Animated Explainer Videos powerfully expain your product or service in a step-by-step manner.</p>
             </div>
-          </div>
-          <div class="col-lg-8">
-            <?php $type = "product";$show = 4;$rand = true;$columns = 2; include("../includes/showDemo.php");?>
-          </div>
+            <div class="card-body">
+                <div class="d-flex">
+                    <div class="col-lg-4">
+                        <ul class="list-group list-group-flush list-style">
+                            <li class="list-style-item">Show off your product</li>
+                            <li class="list-style-item">Creative Storyboarding</li>
+                            <li class="list-style-item">Custom Animation</li>
+                            <li class="list-style-item">Professional Voice Over</li>
+                            <li class="list-style-item">Music</li>
+                        </ul>
+                        <div class="d-flex">
+                            <h6 class="list-price"><a href="tel:1-801-748-2281" title="Call Now!"><span class="starting">Call for</span> <span class="large orange">Quote</span></a></h6>
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <?php $type = "product";$show = 6;$rand = true;$columns = 2; include("../includes/showDemo.php");?>
+                    </div>
+                </div>
+            </div>
+            <div class="card-footer"> <a class="float-right card-link" href="product-demonstrations/">More Examples...</a> </div>
         </div>
-      </div>
-      <div class="card-footer"> <a class="float-right card-link" href="product-demonstrations/">More Examples...</a> </div>
     </div>
-  </div>
 </section>
 <section class="alert alert-styles">
-  <div class="container">
-    <div class="card">
-      <div class="card-header">
-        <h5 class="card-title"><a href="animation/">Animation Videos</a></h5>
-        <p class="card-text">Our Animated Explainer Videos powerfully expain your product or service in a step-by-step manner.</p>
-      </div>
-      <div class="card-body">
-        <div class="d-flex">
-          <div class="col-lg-4">
-            <ul class="list-group list-group-flush list-style">
-              <li class="list-style-item">Collaborative Scripting</li>
-              <li class="list-style-item">Creative Storyboarding</li>
-              <li class="list-style-item">Custom Animation</li>
-              <li class="list-style-item">Professional Voice Over</li>
-              <li class="list-style-item">Music</li>
-            </ul>
-            <div class="d-flex">
-              <h6 class="list-price"><span class="starting">Call for</span> <span class="large orange">Quote</span></h6>
+    <div class="container">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="card-title"><a href="animation/">Animation Videos</a></h5>
+                <p class="card-text">Our Animated Explainer Videos powerfully expain your product or service in a step-by-step manner.</p>
             </div>
-          </div>
-          <div class="col-lg-8">
-            <?php $type = "Animation";$show = 4;$rand = false;$columns = 2; include("../includes/showDemo.php");?>
-          </div>
+            <div class="card-body">
+                <div class="d-flex">
+                    <div class="col-lg-4">
+                        <ul class="list-group list-group-flush list-style">
+                            <li class="list-style-item">Collaborative Scripting</li>
+                            <li class="list-style-item">Creative Storyboarding</li>
+                            <li class="list-style-item">Custom Animation</li>
+                            <li class="list-style-item">Professional Voice Over</li>
+                            <li class="list-style-item">Music</li>
+                        </ul>
+                        <div class="d-flex">
+                            <h6 class="list-price"><a href="tel:1-801-748-2281" title="Call Now!"><span class="starting">Call for</span> <span class="large orange">Quote</span></a></h6>
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <?php $type = "Animation";$show = 6;$rand = false;$columns = 2; include("../includes/showDemo.php");?>
+                    </div>
+                </div>
+            </div>
+            <div class="card-footer"> <a class="float-right card-link" href="animation/">More Examples...</a></a> </div>
         </div>
-      </div>
-      <div class="card-footer"> <a class="float-right card-link" href="animation/">More Examples...</a></a> </div>
     </div>
-  </div>
 </section>
 <section class="alert alert-styles">
-  <div class="container">
-    <div class="card">
-      <div class="card-header">
-        <h5 class="card-title"><a href="Typography/">Kinetic Typography</a></h5>
-        <p class="card-text">Kinetic typography enhances the expressive power of words. They cause a more immediate, automatic reaction in the reader.</p>
-      </div>
-      <div class="card-body">
-        <div class="d-flex">
-          <div class="col-lg-4">
-            <ul class="list-group list-group-flush list-style">
-              <li class="list-style-item">Collaborative Scripting</li>
-              <li class="list-style-item">Creative Storyboarding</li>
-              <li class="list-style-item">Custom Animation</li>
-              <li class="list-style-item">Professional Voice Over</li>
-              <li class="list-style-item">Music</li>
-            </ul>
-            <div class="d-flex">
-              <h6 class="list-price"><span class="starting">Call for</span> <span class="large orange">Quote</span></h6>
+    <div class="container">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="card-title"><a href="Typography/">Kinetic Typography</a></h5>
+                <p class="card-text">Kinetic typography enhances the expressive power of words. They cause a more immediate, automatic reaction in the reader.</p>
             </div>
-          </div>
-          <div class="col-lg-8">
-            <?php $type = "Typography";$show = 4;$rand = false;$columns = 2; include("../includes/showDemo.php");?>
-          </div>
+            <div class="card-body">
+                <div class="d-flex">
+                    <div class="col-lg-4">
+                        <ul class="list-group list-group-flush list-style">
+                            <li class="list-style-item">Collaborative Scripting</li>
+                            <li class="list-style-item">Creative Storyboarding</li>
+                            <li class="list-style-item">Custom Animation</li>
+                            <li class="list-style-item">Professional Voice Over</li>
+                            <li class="list-style-item">Music</li>
+                        </ul>
+                        <div class="d-flex">
+                            <h6 class="list-price"><a href="tel:1-801-748-2281" title="Call Now!"><span class="starting">Call for</span> <span class="large orange">Quote</span></a></h6>
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <?php $type = "Typography";$show = 6;$rand = false;$columns = 2; include("../includes/showDemo.php");?>
+                    </div>
+                </div>
+            </div>
+            <div class="card-footer"> <a class="float-right card-link" href="Typography/">More Examples...</a> </div>
         </div>
-      </div>
-      <div class="card-footer"> <a class="float-right card-link" href="Typography/">More Examples...</a> </div>
     </div>
-  </div>
 </section>
 <div class="exampleSpacer margin-10"></div>
 <?php include("../includes/awards.php"); ?>
 <section class="container bd-blue mb-2">
-  <h3 id="step-top-text">As Simple As 1 - 2 - 3</h3>
-  <div class="d-flex align-items-center bd-bottom">
-    <div class="col-md-6">
-      <h4>Step 1: Choose Your Package</h4>
+    <h3 id="step-top-text">As Simple As 1 - 2 - 3</h3>
+    <div class="d-flex align-items-center bd-bottom">
+        <div class="col-md-6">
+            <h4>Step 1: Choose Your Package</h4>
+        </div>
+        <div class="col-md-6">Purchase the package that will help you best reach your business goal. We recommend giving us call. </div>
     </div>
-    <div class="col-md-6">Purchase the package that will help you best reach your business goal. We recommend giving us call. </div>
-  </div>
-  <div class="d-flex align-items-center bd-bottom">
-    <div class="col-md-6">
-      <h4>Step 2: Video Planning Session</h4>
+    <div class="d-flex align-items-center bd-bottom">
+        <div class="col-md-6">
+            <h4>Step 2: Video Planning Session</h4>
+        </div>
+        <div class="col-md-6">Once you have purchased your package, we will have a creative and strategic consultation where together we will decide what text, images or graphics will appear with the spokesperson. </div>
     </div>
-    <div class="col-md-6">Once you have purchased your package, we will have a creative and strategic consultation where together we will decide what text, images or graphics will appear with the spokesperson. </div>
-  </div>
-  <div class="d-flex align-items-center">
-    <div class="col-md-6">
-      <h4>Step 3: Receive Your Video</h4>
+    <div class="d-flex align-items-center">
+        <div class="col-md-6">
+            <h4>Step 3: Receive Your Video</h4>
+        </div>
+        <div class="col-md-6">2 to 3 weeks after providing us with your specific logos, any other visual elements decided upon, you will receive your completed video. </div>
     </div>
-    <div class="col-md-6">2 to 3 weeks after providing us with your specific logos, any other visual elements decided upon, you will receive your completed video. </div>
-  </div>
 </section>
 <?php include("../includes/footer.php"); ?>
 <?php include("../includes/modal.php");?>

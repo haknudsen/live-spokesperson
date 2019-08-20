@@ -80,9 +80,13 @@ if ( $result->num_rows > 0 ) {
 		$name = $row[ "Name" ];
 		echo '<div class="col-lg-' . $span . ' poster" alt="' . $keyword[ $altNum ] . " Example" . '" data-toggle="modal" data-target=".bd-example-modal-lg" data-video="' . $name . '">';
 		echo PHP_EOL;
-		echo '<div id="smallPlayBtn"></div>';
+		echo '<div>';
 		echo PHP_EOL;
-		echo '<img src="https://www.websitetalkingheads.com/ivideo/videos/' . $name . '.jpg" class="img-fluid video" alt="' . $keyword[ $altNum ] . " Example" . '">';
+		echo '<img src="https://www.websitetalkingheads.com/ivideo/videos/' . $name . '.jpg" class="img-fluid video box" alt="' . $keyword[ $altNum ] . " Example" . '">';
+		echo PHP_EOL;
+		echo '<i class="fas fa-play smallPlayBtn"></i>';
+		echo PHP_EOL;
+		echo '</div>';
 		echo PHP_EOL;
 		echo '<div class="poster-title text-center">' . $name . '</div>';
 		echo PHP_EOL;
