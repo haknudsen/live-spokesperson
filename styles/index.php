@@ -26,7 +26,7 @@
         <div class="row align-items-center">
             <div class="col-lg-8" id="video-holder">
                 <div class="embed-responsive embed-responsive-16by9">
-                    <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" type="text/html" src="../ivideo/talking-heads-player.php?video=Why Talking Heads&autostart=mute&controls=true"></iframe>
+                    <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" type="text/html" src="../ivideo/talking-heads-player.php?video=What is a Talking Head$7&autostart=mute&controls=true"></iframe>
                 </div>
             </div>
             <div class="col-lg-4">
@@ -53,7 +53,7 @@
                             <li class="list-style-item">Music</li>
                         </ul>
                         <div class="d-flex">
-                            <h6 class="list-price"><span class="starting">Starting at Just</span> <span class="large orange">$799</span></h6>
+                            <h6 class="list-price"><span class="starting">Starting at Just</span> <span class="large text-dark">$799</span></h6>
                         </div>
                     </div>
                     <div class="col-lg-8">
@@ -83,7 +83,7 @@
                             <li class="list-style-item">Music</li>
                         </ul>
                         <div class="d-flex">
-                            <h6 class="list-price"><a href="tel:1-801-748-2281" title="Call Now!"><span class="starting">Call for</span> <span class="large orange">Quote</span></a></h6>
+                            <h6 class="list-price"><a href="tel:1-801-748-2281" title="Call Now!"><span class="starting">Call for</span> <span class="large text-dark">Quote</span></a></h6>
                         </div>
                     </div>
                     <div class="col-lg-8">
@@ -113,7 +113,7 @@
                             <li class="list-style-item">Music</li>
                         </ul>
                         <div class="d-flex">
-                            <h6 class="list-price"><a href="tel:1-801-748-2281" title="Call Now!"><span class="starting">Call for</span> <span class="large orange">Quote</span></a></h6>
+                            <h6 class="list-price"><a href="tel:1-801-748-2281" title="Call Now!"><span class="starting">Call for</span> <span class="large text-dark">Quote</span></a></h6>
                         </div>
                     </div>
                     <div class="col-lg-8">
@@ -143,7 +143,7 @@
                             <li class="list-style-item">Music</li>
                         </ul>
                         <div class="d-flex">
-                            <h6 class="list-price"><a href="tel:1-801-748-2281" title="Call Now!"><span class="starting">Call for</span> <span class="large orange">Quote</span></a></h6>
+                            <h6 class="list-price"><a href="tel:1-801-748-2281" title="Call Now!"><span class="starting">Call for</span> <span class="large text-dark">Quote</span></a></h6>
                         </div>
                     </div>
                     <div class="col-lg-8">
@@ -173,7 +173,7 @@
                             <li class="list-style-item">Music</li>
                         </ul>
                         <div class="d-flex">
-                            <h6 class="list-price"><a href="tel:1-801-748-2281" title="Call Now!"><span class="starting">Call for</span> <span class="large orange">Quote</span></a></h6>
+                            <h6 class="list-price"><a href="tel:1-801-748-2281" title="Call Now!"><span class="starting">Call for</span> <span class="large text-dark">Quote</span></a></h6>
                         </div>
                     </div>
                     <div class="col-lg-8">
