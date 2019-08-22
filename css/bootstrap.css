@@ -22909,7 +22909,7 @@ readers do not read off random characters that represent icons */
 header {
   position: relative;
   background-color: black;
-  height: 75vh;
+  height: atuo;
   min-height: 25rem;
   width: 100%;
   overflow: hidden;
