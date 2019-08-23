@@ -2,7 +2,6 @@
 .content {
 	font-size: 1.2rem;
 	color: #000011;
-    text-indent: 0;
 }
 .list-style-item {
 	position: relative;
@@ -22,7 +21,7 @@
 	vertical-align: super;
 }
 .bd-bottom {
-	border-bottom: thin solid $primary;
+	border-bottom: thin solid #3D9CEB;
 }
 .award-text {
 	line-height: 1;
@@ -34,6 +33,10 @@
 }
 #awards .card-title {
 	text-align: center;
+}
+.content {
+	font-size: 1.2rem;
+	color: #000011;
 }
 #banner {
 	opacity: 0;
@@ -83,10 +86,10 @@ p {
 	margin: 0;
 }
 .card-footer a {
-	color: $gray-900;
+	color: $gray-100;
 }
 .card-footer a:hover {
-	color: $gray-700;
+	color: $gray-200;
 }
 .card-top {
 	align-items: center;
@@ -108,10 +111,9 @@ p {
 	border-bottom-color: darken($info, 10%);
 }
 .contact {
-	min-width: 310px;
+	max-width: 400px;
 	margin: 0 auto;
-	background: $gray-200;
-	padding: .5rem;
+	background: #BCE4FF;
 	label, input[type="phone"], input[type="email"], input[type="text"], textarea {
 		font-size: 1rem;
 		background: #D5EEFF;
@@ -131,34 +133,9 @@ p {
 			margin-bottom: .25rem;
 		}
 	}
-	table,label,input{width: 100%}
-	@media screen and (max-width: 1600px) {
-	padding: .25rem;
-	}
-	@media screen and (max-width: 1200px) {
-	padding: 1rem;
-	}
-}
-.contact-phone{text-align: center;font-size: 4.5vh;color: $dark;animation-delay:1s;animation-duration: .5s;
-	@media screen and (max-width: 1360px) {
-   font-size: 3vh;
-  }
-}
-.contact-section{
-    height: 180px;
-    padding-top: 55px;
-    width: 100%;
-    line-height: 1;
-    background-color: $dark;
-    background-image: url("../images/contact-background.jpg");
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    h3{color: $light;text-shadow: -1px 0 $light, 0 1px $light, 1px 0 $light, 0 -1px $light;font-weight: 700}
 }
 .btn-contact:hover {
-	@include gradient-mine(#7ECDF4,$gray-200);
+	@include gradient-mine(#7ECDF4,#BCE4FF);
 	color: $gray-600;
 	text-shadow: 0 -2px 1px rgba(255, 255, 255, 0.5);
 }
@@ -169,24 +146,7 @@ p {
 	font-weight: 900;
 	padding: .3rem .5rem;
 	border-radius: .5rem;
-	@include gradient-mine($gray-200,#7ECDF4);
-}
-.btn-product {
-	color: $light;
-	text-shadow: 0 2px 1px rgba($dark, 0.5);
-	-webkit-font-smoothing: antialiased;
-	font-weight: 900;
-	padding: .1rem .5rem;
-	border-radius: 0;
-	@include gradient-mine($info,$secondary);
-    &:hover{
-	@include gradient-mine($secondary,$info);
-	text-shadow: 0 -2px 1px rgba($dark, 0.5);
-	color: $light;
-    }
-    a{
-	color: $light;
-    }
+	@include gradient-mine(#BCE4FF,#7ECDF4);
 }
 textarea {
 	width: 100%;
@@ -217,14 +177,14 @@ textarea {
 .sidebar{font-size: 0.8rem;padding-right: 0;position: fixed;top: 137px}
 .sidebar .nav-link {color: #E5F0FF!important}
 .actor img{width: 160px;height: 180px}
+.sup{font-size: 50%;line-height: 0;vertical-align: super}
 .actor{position: relative;width: 160px;margin: 0 auto;
 	img{max-width: 180px;margin: 0 auto;}
 	h3{font-size: 1.5rem;font-weight: 700}
 	&:hover > .thumb-wrapper:before { color: #E5F0FF }
 }
-.inputs{margin: .5rem;
-	input { width: 100%; margin-bottom: 4px;padding-left: 4px }
-    textarea{margin-right: 30px}
+.inputs{padding: .5rem;
+	input { width: 100%; margin-bottom: 4px }
 }
 #vtigerFormSubmitBtn{padding: .25rem 1rem!important;@include gradient-mine($gray-100,$gray-300);margin-bottom: .25rem;text-align: center;align-items: center;
 	&:hover{@include gradient-mine($gray-300,$gray-100)}}
@@ -261,101 +221,11 @@ textarea {
 .i-sup{font-size:60%;vertical-align:super;padding: 0 6px}
 footer a:hover{color: $light;}
 .understrap-read-more-link{float: left}
-.more-link{float: right}
-.testimonial{clear:both;font-size: 1.5rem;height: 320px;
+.testimonial{clear:both;font-size: 1.5rem;height: 236px;
 	.carousel-control-prev, .carousel-control-next{width: 5%}
 	.carousel-inner{height: 235px;overflow: hidden}
 }
 .quote{font-weight: 600;font-family: open-sans, sans-serif; width: 90%;margin: 0 auto;line-height: 1.2}
 .subject{text-align: center;font-weight: 200;font-style: italic;margin-top: 1rem}
 .form-name{text-align: center;font-weight: 700;color:$light;font-size: 1.5rem}
-.social-icons{align-items: center;display: flex; justify-content: center;}
-.social-link{
-		border-radius: 50%;
-		border: thin solid $dark;
-		position: relative;
-		width: 3rem;
-		height: 3rem;
-		margin: 0 .25rem;
-		padding: .25rem;
-		color: $dark;
-		background: $light;
-		font-size: 2rem;
-		a {
-			color: $primary; 
-		}
-		&:hover{
-			color: $light;
-			background: $dark;
-		}
-}
-#speech-bubble{font-size: 3rem;
-	@include media-breakpoint-down(md) {
-	display: none;
-	}}
-.bg-gradient-dark,.bg-gradient-light,.navbar-light,.navbar-dark{transition:1s ease-in-out;}
-#quote{
-    padding: 0;
-    font-style: italic;
-    line-height: 1;
-    &:before {
-		font-family: "Font Awesome 5 Pro";
-		font-weight: normal;
-		font-style: normal;
-        font-size: 60%;
-        content: "\f10d";
-        padding-right: .5rem;
-        vertical-align: top;
-    }
-    &:after {
-		font-family: "Font Awesome 5 Pro";
-		font-weight: normal;
-		font-style: normal;
-        content: "\f10e";
-        padding-left: .5rem;
-        font-size: 60%;
-        vertical-align: top;
-    }
-}
-.card-header i{font-size: 3rem;}
-.spokesperson-specials{
-    margin-bottom: 2rem;
-    text-align: center;
-    h5,p{margin: 0}
-	h5{font-size: 1rem}
-}
-.box{border: thin solid $primary;}
-.tiny{font-size: 50%}
-.no-js #loader{display:none}
-.js #loader{display:block;position:absolute;left:100px;top:0}
-.se-pre-con{position:fixed;left:0;top:0;width:100%;height:100%;z-index:9999;background:url(/images/preloader.gif) center no-repeat #fff}#show-more{cursor: pointer}
-.demo{
-    height: 280px;
-    width: 100%;
-    margin: 0 -15px;
-    line-height: 1;
-    background-color: $dark;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    .row{margin: 2rem auto}
-}
-.demo-title{text-align: center;color: $light;text-shadow: -1px 0 $primary, 0 1px $primary, 1px 0 $primary, 0 -1px $primary;font-weight: 900;font-size: 3rem;display: flex}
-#standard{background-image: url("../images/standard-demo.jpg");}
-#unboxing{background-image: url("../images/overhead.jpg");}
-#explaination{background-image: url("../images/spokesperson-explanation.jpg");}
-#live-action{background-image: url("../images/live-action-demonstration.jpg");}
-.pop{box-shadow: none;transition: all 0.3s ease-in-out;
-	&:hover{box-shadow: 0px 25px 45px 0px rgba(0, 0, 0, 0.15);}
-}
-.alert-styles{
-	@include gradient-mine($gray-100,$gray-200);
-    color: $dark;
-}
-.box-header i{font-size: 2rem}
-.spokesperson-name{text-align: center;font-size: 1.25rem;font-weight: 700}
-.g-recaptcha div{margin: 0 auto}
-#contactModalCenter input,#contactModalCenter textarea{font-size: .6rem}
-.wrapped-text{font-size: .8rem;font-family: open-sans, sans-serif;font-weight: 700;font-style: normal;}
-	
+.contact-phone{text-align: center;font-size: 2vh}

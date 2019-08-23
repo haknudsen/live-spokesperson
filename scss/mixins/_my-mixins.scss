@@ -6,7 +6,7 @@
     } 
 
 @mixin gradient-mine($top, $bottom){
-	border:1px solid$bottom; 
+	border-color:$bottom $bottom $bottom; 
 	background-repeat: repeat-x; 
     background: $top; /* Old browsers */
     background: -moz-linear-gradient(top,  $top 0%, $bottom 100%); /* FF3.6+ */
