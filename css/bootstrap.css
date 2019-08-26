@@ -22605,22 +22605,23 @@ readers do not read off random characters that represent icons */
   padding: 0;
   cursor: pointer;
   opacity: 1;
-  left: calc(50%-80px);
-  top: calc(50%-80px);
+  left: 50%;
+  top: 45%;
+  transform: translate(-50%, -50%);
   margin: auto;
   border-radius: 50%;
   border: 3px solid rgba(0, 163, 255, 0.7);
   background-color: rgba(25, 71, 127, 0.7);
   transition: all 0.5s ease;
 }
-/* line 106, ../scss/talkingHeadsPlayer/_talking-head.scss */
+/* line 107, ../scss/talkingHeadsPlayer/_talking-head.scss */
 .smallPlayBtn:before {
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
 }
-/* line 112, ../scss/talkingHeadsPlayer/_talking-head.scss */
+/* line 113, ../scss/talkingHeadsPlayer/_talking-head.scss */
 .smallPlayBtn:hover {
   background-color: rgba(0, 163, 255, 0.7);
   border-color: rgba(25, 71, 127, 0.7);
@@ -22973,14 +22974,14 @@ html {
   }
 }
 
-/* Scss Document */
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
-/* line 3, ../scss/mine/flip-card.scss */
+/* line 2, ../scss/mine/flip-card.scss */
 .flip-card {
   background-color: transparent;
-  width: 300px;
-  height: 200px;
+  width: 33%;
+  height: auto;
   border: 1px solid #f1f1f1;
+  margin: 1rem 0;
   perspective: 1000px;
   /* Remove this if you don't want the 3D effect */
 }
