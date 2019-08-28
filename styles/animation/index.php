@@ -7,111 +7,126 @@
 	<meta name="description" content="Talking Heads can create a Whiteboard Video, Animation, Explainer Video, Video Scribe, Hand Drawing Video, Chalkboard Video.  Here you watch examples of these kinds of videos.  Whether you can call it a Sketch Video, Chalkboard Video, Hand Drawing Video, Whiteboard Animation, or Animated Explainer Video Talking Heads&#xAE; will make the best video for you.  Contact us for more information.">
 	<meta name="robots" content="index, follow">
 	<meta name="author" content="WebsiteTalkingHeads.com">
-	<title>Whiteboard Animation Videos, Sketch videos, Animated Whiteboard Videos</title>
+	<title>Animation Videos|Talking Heads</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<?php include("includes/head.php"); ?>
+	<?php include("../../includes/head.php"); ?>
 </head>
 
 <body>
-	<?php include("includes/nav.php"); ?>
-<section class="jumbotron-fluid bg-image">
-	<h1 class="banner-text">Cool Explainer Videos, Whiteboard Sketch Videos, Spokesperson too!</h1>
-	<div class="container mt-2">
-		<div class="row d-flex align-items-center">
-			<div class="col-lg-8" id="video-holder">
-				<?php 
-    $video = "Whiteboard Animation";
-    $bgColor = "#7ECDF4";
-    $btnColor = "#3D9CEB";
-	$alt = "Whiteboard Animation Demo";
-    include("../../includes/showVideo.php"); 
+<?php include("../../includes/nav.php"); ?>
+<header>
+  <div class="overlay"></div>
+  <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+    <source src="https://www.websitetalkingheads.com/ivideo/videos/Aliens Animated.mp4" type="video/mp4">
+  </video>
+  <div class="container h-100">
+    <div class="d-flex h-100 text-center align-items-center">
+      <div class="w-100 text-white">
+        <h1 class="display-3 wow bounceInDown">Animation Videos</h1>
+        <p class="lead mb-0 wow bounceInUp">Grab Visitors' Attention</p>
+      </div>
+    </div>
+  </div>
+</header>
+<section class="container-fluid bg-light py-2">
+  <div class="container">
+    <div class="card">
+      <h5 class="card-header bg-gradient-mine text-white text-center text-uppercase">Use Our Video Presentations For</h5>
+      <div class="card-body">
+        <div class="row">
+          <div class="col-lg-6">
+            <ul class="h5">
+              <li>Sales Video</li>
+              <li>Product Demonstration</li>
+              <li>Website Walk-through</li>
+              <li>Educational Video</li>
+              <li>Training Video</li>
+            </ul>
+          </div>
+          <div class="col-lg-6">
+            <div class="pricing">
+              <div class="card-title h3 text-primary mb-0">30 Second</div>
+              <div class="text-center h4 font-weight-bold mb-0">Video Presentation</div>
+              <h6><span class="small text-dark">Starting at Just</span><span class="price text-primary">$799</span></h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="pb-5 bg-primary">
+  <h1 class="text-center pt-1">Video Presentation Examples</h1>
+  <div class="container-fluid bg-grey">
+    <?php
+    $type = "Presentation";
+    $show = "12";
+    $rand = false;
+    $columns = 3;
+    include( "../../includes/showDemo.php" );
     ?>
-			</div>
-			<div class="col-lg-4">
-					<?php include( "../../includes/contact-awards.php"); ?>
-			</div>
-		</div>
-	</div>
+  </div>
 </section>
-<section class="content">
-	<div class="container">
-		<h2 class="banner-bottom-text">Hand Drawing Videos, Whiteboard Animation Videos, Whiteboard Sketch, Video Scribe and Cartoon Doodle Videos.</h2>
-		<div class="examples clearfix p-2">
-			<?php 
-    $type = "Whiteboard";
-    $show = "15";
-	$rand = false;
-	$columns = 3;
-    include("../../includes/showDemo.php"); 
-    ?>
-		</div>
+<section class="alert alert-info mt-4">
+  <div class="card-deck">
+    <div class="card">
+      <div class="card-header bg-gradient-mine text-white">Video Presentations</div>
+      <div class="card-img-top" src="..." alt="Card image cap">
+        <?php
+        $video = "Jeds Lemonade";
+        $bgColor = "#757575";
+        $alt = "Product Demo Video";
+        include( "../../includes/showVideo.php" );
+        ?>
+      </div>
+      <div class="card-body">
+        <h5 class="card-title"><em class="text-small">Improve Your Bottom Line</em></h5>
+        <p class="card-text">You want to compete with the "Big Boys" but don't want to pay "Big Studio" rates. We focus on video presentations that improve your bottom line without breaking your bank. Rather than spending tens or even hundreds of thousands on a "viral video", we recommend creating videos that work for you 24/7. By utilizing a professional spokesperson and supporting your message with text and graphics, you are capitalizing on rich media to influence your potential customers.</p>
+      </div>
+      <div class="card-footer bg-gradient-mine text-muted">
+        <div class="float-right"><a class="text-white" href="../product-demonstrations/">Product Demos</a></div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header bg-gradient-mine text-white">Professional Video</div>
+      <div class="card-img-top" src="..." alt="Card image cap">
+        <?php
+        $video = "Talking Heads Video Demonstration";
+        $bgColor = "#91A4BF";
+        $alt = "Talking Heads Video Demonstration";
+        include( "../../includes/showVideo.php" );
+        ?>
+      </div>
+      <div class="card-body">
+        <h5 class="card-title"><em class="text-small">Custom</em></h5>
+        <p class="card-text">We use images, video, sound, text and a professional video spokesperson. We can create a <em>Custom Video Presentation</em> that is a Product Demonstration, a Website Walk-through, Informational, Training or Sales Video. We put it all together and provide you a Full HD 1920X1080 video in MP4 format suitable to upload to YouTube, Vimeo, Facebook.Twitter, Instagram, Dailymotion, Vevo, Metacafe, Flickr, whatever video service you like.</p>
+      </div>
+      <div class="card-footer bg-gradient-mine text-muted">
+        <div class="float-right"><a class="text-white" href="../../spokespeople/">Spokespeople</a></div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header bg-gradient-mine text-white">Why <span class="thin blue">Video</span>?</div>
+      <div class="card-img-top" src="..." alt="Card image cap">
+        <?php
+        $video = "Video Background";
+        $bgColor = "#757575";
+        $alt = "Video Spokespeople";
+        include( "../../includes/showVideo.php" );
+        ?>
+      </div>
+      <div class="card-body">
+        <h5 class="card-title"><em class="text-small">Spokesperson <span class="thin blue">Video</span></em></h5>
+        <p class="card-text">The most of us are by now aware of the power of video on the Internet. Enterprising companies have used that power to affect people on an unprecedented scale. A <strong>spokesperson video</strong> is almost like face-to-face contact with potential clients. This marketing method is doubly effective than supplying staid, plain text and fixed visuals. Visitors find it more enjoyable and helps them comprehend information more easily.</p>
+      </div>
+      <div class="card-footer bg-gradient-mine text-muted">
+        <div class="float-right"><a class="text-white" href="../../spokespeople/">Spokespeople</a></div>
+      </div>
+    </div>
+  </div>
 </section>
-<section class="content">
-	<div class="container text-center">
-		<div class="examples clearfix p-2">
-			<h2 class="banner-bottom-text p-0">Animation Videos<br /><a href="../../videopresentations/animation.php">More Examples</a></h2>
-			<?php 
-    $type = "Animation";
-    $show = "6";
-	$rand = true;
-	$columns = 3;
-    include("../../includes/showDemo.php"); 
-    ?>
-		</div>
-	</div>
-</section>
-<div class="video-bottom"></div>
-<div class="call-now mx-auto">
-	<h2>CALL NOW to Get Results!</h2>
-	<h3><a href="tel://801-748-2281" title="Give us a call.">801-748-2281</a></h3>
-</div>
-<div class="ten"></div>
-</div>
-</section>
-<section class="content">
-	<div class="container">
-		<h1 class="banner-bottom-text pt-3">Custom Whiteboard Video</h1>
-		<div class="p-2">
-			<div class="fifty float-left">
-				<img src="https://www.websitetalkingheads.com/images/explainer-video-banner.png" alt="Best Explainer Video Companies" class="mt-1 img-fluid mx-auto" title="Best Explainer Video Companies">
-			</div>
-			<h3 class="text-capitalize text-center">Keep visitors' attention and boost sales</h3>
-			<p>At Talking Heads® we don't just make whiteboard Explainer videos. We have spent years studying the art of persuasion and communication. Your story must be told well. So we collaborate to customize and create a video that boost leads and increases sales in your product or service.</p>
-			<p>Talking Heads' Explainer videos stimulate your viewers' brains. Mirror neutrons in the brain make the viewer think it's his or her hand drawing, triggering a dopamine rush in the brain and increase the viewers capacity to focus and remember. The brain is now curious and pays more attention wondering what the whiteboard drawing will become. As it tries to guess what the sketch will become, it focuses more and rewards itself. This happens over and over. Whiteboard sketch is like a time machine with each new drawing practically hypnotizing your viewer. Because of this hyper focus, the viewer also remembers more of your whiteboard animation that regular videos.</p>
-		</div>
-	</div>
-</section>
-<section class="content">
-	<div class="container">
-		<section class="content">
-			<div class="container pt-2">
-				<h2 class="banner-bottom-text text-center">Whiteboard Styles</h2>
-				<div class="container p-2">
-					<div class="d-flex align-items-center">
-						<div class="col-lg-6" id="video-holder">
-							<?php 
-    $video = "Custom vs Generic Whiteboard Videos";
-    $bgColor = "#555555";
-    $btnColor = "#3D9CEB";
-	$alt = "Custom vs Generic Whiteboard Videos";
-    include("../../includes/showVideo.php"); 
-    ?>
-						</div>
-						<div class="col-6">
-							<div class="content-text">Obviously, not all whiteboard style videos are alike, so,we work with you to create the best whiteboard video for your company. We focus on supercharged messages utilizing a hand drawn whiteboard commercials for that triggers focus and engagement That's where we come in. We create high impact, exciting whiteboard illustrator VIDEOS that explain your product, service, software or business.</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-	</div>
-</section>
-<?php include("../../includes/footer.php"); ?>
 <?php include("../../includes/modal.php");?>
-<script src="https://vjs.zencdn.net/7.2.4/video.js"></script>
-<script src="../../js/iVideo.js"></script>
-
-
+<?php include("../../includes/footer.php"); ?>
 </body>
 
 </html>
