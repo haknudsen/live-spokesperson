@@ -29,7 +29,7 @@
   </div>
 </header>
 <section class="container-fluid bg-light py-2">
-  <div class="container">
+    <div class="container">
     <div class="card wow bounceInUp">
       <h5 class="card-header bg-gradient-mine text-white text-center text-uppercase">Use Our Video Presentations For</h5>
       <div class="card-body">
@@ -68,65 +68,11 @@
   </div>
 </section>
 <section class="alert alert-info mt-4">
-  <div class="card-deck">
-    <div class="card">
-      <div class="card-header bg-gradient-mine text-white">Video Presentations</div>
-      <div class="card-img-top" src="..." alt="Card image cap">
-        <?php
-        $video = "Jeds Lemonade";
-        $bgColor = "#757575";
-        $alt = "Product Demo Video";
-        include( "../../includes/showVideo.php" );
-        ?>
-      </div>
-      <div class="card-body">
-        <h5 class="card-title"><em class="text-small">Improve Your Bottom Line</em></h5>
-        <p class="card-text">You want to compete with the "Big Boys" but don't want to pay "Big Studio" rates. We focus on video presentations that improve your bottom line without breaking your bank. Rather than spending tens or even hundreds of thousands on a "viral video", we recommend creating videos that work for you 24/7. By utilizing a professional spokesperson and supporting your message with text and graphics, you are capitalizing on rich media to influence your potential customers.</p>
-      </div>
-      <div class="card-footer bg-gradient-mine text-muted">
-        <div class="float-right"><a class="text-white" href="../product-demonstrations/">Product Demos</a></div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="card-header bg-gradient-mine text-white">Professional Video</div>
-      <div class="card-img-top" src="..." alt="Card image cap">
-        <?php
-        $video = "Talking Heads Video Demonstration";
-        $bgColor = "#91A4BF";
-        $alt = "Talking Heads Video Demonstration";
-        include( "../../includes/showVideo.php" );
-        ?>
-      </div>
-      <div class="card-body">
-        <h5 class="card-title"><em class="text-small">Custom</em></h5>
-        <p class="card-text">We use images, video, sound, text and a professional video spokesperson. We can create a <em>Custom Video Presentation</em> that is a Product Demonstration, a Website Walk-through, Informational, Training or Sales Video. We put it all together and provide you a Full HD 1920X1080 video in MP4 format suitable to upload to YouTube, Vimeo, Facebook.Twitter, Instagram, Dailymotion, Vevo, Metacafe, Flickr, whatever video service you like.</p>
-      </div>
-      <div class="card-footer bg-gradient-mine text-muted">
-        <div class="float-right"><a class="text-white" href="../../spokespeople/">Spokespeople</a></div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="card-header bg-gradient-mine text-white">Why <span class="thin blue">Video</span>?</div>
-      <div class="card-img-top" src="..." alt="Card image cap">
-        <?php
-        $video = "Video Background";
-        $bgColor = "#757575";
-        $alt = "Video Spokespeople";
-        include( "../../includes/showVideo.php" );
-        ?>
-      </div>
-      <div class="card-body">
-        <h5 class="card-title"><em class="text-small">Spokesperson <span class="thin blue">Video</span></em></h5>
-        <p class="card-text">The most of us are by now aware of the power of video on the Internet. Enterprising companies have used that power to affect people on an unprecedented scale. A <strong>spokesperson video</strong> is almost like face-to-face contact with potential clients. This marketing method is doubly effective than supplying staid, plain text and fixed visuals. Visitors find it more enjoyable and helps them comprehend information more easily.</p>
-      </div>
-      <div class="card-footer bg-gradient-mine text-muted">
-        <div class="float-right"><a class="text-white" href="../../spokespeople/">Spokespeople</a></div>
-      </div>
-    </div>
-  </div>
+    <?php include("includes/animation-media.php"); ?>
 </section>
 <?php include("../../includes/modal.php");?>
 <?php include("../../includes/footer.php"); ?>
+   <a href="/articles/age-of-video/"> test</a>
 </body>
 
 </html>

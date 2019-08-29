@@ -1,54 +1,75 @@
 <?php
-require( "connect.php" );
+$yourStartingPath = "../../articles";
+$iterator = new RecursiveIteratorIterator(
+                new RecursiveDirectoryIterator($yourStartingPath), 
+            RecursiveIteratorIterator::SELF_FIRST);
+
+    $i=0;
+foreach($iterator as $file) {
+    if($file->isDir()) {
+        $link = strtoupper($file->getRealpath());
+        settype($link, "string");
+        $folder = strtolower(str_replace("/USR/HOME/WORKING/PUBLIC_HTML/LIVE-SPOKESPERSON/ARTICLES/", "",$link));
+        $url = "../../articles/" . $folder;
+        $folder = str_replace("-"," ", $folder);
+        $linkURL[$i] = $folder;
+        $linkName[$i] = $folder;
+        $i++;
+    }
+}
+
+$result = array_unique($linkName);
+$array = array_filter($result, function($value){
+   if (strstr($value, '/') !== false)
+   {
+      return false;
+   }
+   return true;
+});
+print_r($array);
+shuffle($array);
+foreach ($array as $number) {
+    echo "$number ";
+}
+
 $table = "animation_content";
 $sql = "SELECT * FROM " . $table . " ORDER BY RAND() LIMIT 3";
 $contentResult = $conn->query( $sql );
+if ( $contentResult->connect_error ) {
+    die( "Connection failed: " . $conn->connect_error );
+}
 $z = 0;
-while($row = $contentResult->fetch_assoc()){
-    $mediaHeading[ $z ] = $row["title"];
-    $mediaContent[ $z ] = $row["content"];
+while ( $row = $contentResult->fetch_assoc() ) {
+    $mediaHeading[ $z ] = $row[ "title" ];
+    $mediaContent[ $z ] = $row[ "content" ];
     $z++;
 }
-
-$table = "animation";
-$sql = "SELECT * FROM " . $table . " ORDER BY RAND() LIMIT 3";
+$sql = "SELECT * FROM videos WHERE animation=true ORDER BY RAND() LIMIT 3";
 $result = $conn->query( $sql );
 
 if ( $result->num_rows > 0 ) {
-    echo '<div class="row">';
+    echo '<div class="card-deck">';
     $x = 0;
     while ( $row = $result->fetch_assoc() ) {
-        $target = $row[ "target" ];
-        $video = $row[ "name" ];
-        echo '<div class="media">';
-        echo PHP_EOL;
-        if ( $x === 2 ) {
-            echo '<div class="media-right">';
-        } else {
-            echo '<div class="media-left">';
-        }
-        echo PHP_EOL;
-        echo '<a href="#">';
-        echo PHP_EOL;
-        echo '<a title="' . $video . '" href="https://www.youtube.com/watch?v=' . $target . '?autoplay=1&loop=1&showinfo=0&rel=0&iv_load_policy=3&color=white" class="lightbox"><img src="https://img.youtube.com/vi/' . $target . '/maxresdefault.jpg" class="media-object box" id="' . $video . '" alt="Animation Example - ' . $example->name . ' " ></a>';
-        echo PHP_EOL;
-        echo '</a>';
-        echo PHP_EOL;
-        echo '</div>';
-        echo PHP_EOL;
-        echo '<div class="media-body">';
-        echo PHP_EOL;
-        echo '<h4 class="media-heading text-capitalize">' . $mediaHeading[ $x ] . '</h4>';
-        echo PHP_EOL;
-        echo '<div class="holder">';
-        echo PHP_EOL;
-        echo $mediaContent[ $x ];
-        echo PHP_EOL;
-        echo '</div>';
-        echo PHP_EOL;
-        echo '</div>';
-        echo PHP_EOL;
-        echo '</div>';
+        $description = $row[ "description" ];
+        $video = $row[ "Name" ];
+        echo '<div class="card">
+      <div class="card-header bg-gradient-mine text-white">' . $mediaHeading[ $x ] . '</div>
+          <div class="card-img-top">
+              <a href="#">
+                <div class="poster" data-toggle="modal" data-target=".bd-example-modal-lg" data-video="' . $video . '">
+                    <img src="https://www.websitetalkingheads.com/ivideo/videos/' . $video . '.jpg" class="img-fluid video" alt="' . $mediaContent[$x] . '" >
+                    <i class="fas fa-play smallPlayBtn"></i>
+                </div>
+              </a>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">' . $video . '</h5>
+            <div class="card-text">' . $mediaContent[ $x ] . '</div>
+          </div>
+          <div class="card-footer bg-gradient-mine"> <small class="float-right"><a href="styles/animation/" title="Animation">Animated Video Production</a></small> </div>
+
+        </div>';
         echo PHP_EOL;
         if ( $x == 2 ) {
             break;
