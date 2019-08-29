@@ -1,3 +1,5 @@
+
+        console.log(  );
 ! function (e) {
   "use strict";
   "function" == typeof define && define.amd ? define(["jquery"], e) : "undefined" != typeof module && module.exports ? module.exports = e(require("jquery")) : e(jQuery)
@@ -103,6 +105,7 @@
       o[t] = t in o ? o[t].add(e) : e
     }), l.each(o, function () {
       this.matchHeight(!0)
+        console.log( "hit" );
     })
   };
 
