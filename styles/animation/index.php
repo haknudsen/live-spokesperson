@@ -30,7 +30,7 @@
 </header>
 <section class="container-fluid bg-light py-2">
   <div class="container">
-    <div class="card">
+    <div class="card wow bounceInUp">
       <h5 class="card-header bg-gradient-mine text-white text-center text-uppercase">Use Our Video Presentations For</h5>
       <div class="card-body">
         <div class="row">

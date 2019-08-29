@@ -22907,6 +22907,7 @@ readers do not read off random characters that represent icons */
 /* Scss Document */
 /* line 2, ../scss/mine/_video-header.scss */
 header {
+  padding-top: 154px;
   position: relative;
   background-color: black;
   height: atuo;
@@ -22914,7 +22915,7 @@ header {
   width: 100%;
   overflow: hidden;
 }
-/* line 9, ../scss/mine/_video-header.scss */
+/* line 10, ../scss/mine/_video-header.scss */
 header video {
   position: absolute;
   top: 50%;
@@ -22929,12 +22930,12 @@ header video {
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
 }
-/* line 23, ../scss/mine/_video-header.scss */
+/* line 24, ../scss/mine/_video-header.scss */
 header .container {
   position: relative;
   z-index: 2;
 }
-/* line 27, ../scss/mine/_video-header.scss */
+/* line 28, ../scss/mine/_video-header.scss */
 header .overlay {
   position: absolute;
   top: 0;
