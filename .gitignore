@@ -5,7 +5,7 @@ _notes/
 dwsync.xml
 generator/
 css/
-css/bootstrap.css
+*.css
 parker/
 /vendor/
 # Custom #
