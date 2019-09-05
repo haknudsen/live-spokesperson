@@ -143,7 +143,7 @@
 </section>
 <section class="alert alert-info">
   <h2 class="text-uppercase text-center wow bounceInUp">follow us</h2>
-  <h3 class="text-center wow bounceInUp">Join us in <strong>Social Media</strong> and Stay Tuned!</h3>
+  <h3 class="text-center wow jackInTheBox">Join us in <strong>Social Media</strong> and Stay Tuned!</h3>
   <?php include("../../includes/social-icons.php"); ?>
 </section>
 <?php include("../../includes/footer.php"); ?>

@@ -70,6 +70,11 @@
 <section class="alert alert-info mt-4">
     <?php $style = "animation";include("../includes/random-content.php"); ?>
 </section>
+<section class="alert alert-info">
+  <h2 class="text-uppercase text-center wow zoomIn">follow us</h2>
+  <h3 class="text-center">Join us in <strong>Social Media</strong> and Stay Tuned!</h3>
+  <?php include("../../includes/social-icons.php"); ?>
+</section>
 <?php include("../../includes/modal.php");?>
 <?php include("../../includes/footer.php"); ?>
 </body>
