@@ -31,7 +31,7 @@
 <section class="container-fluid bg-light py-2">
     <div class="container">
     <div class="card wow bounceInUp">
-      <h5 class="card-header bg-gradient-mine text-white text-center text-uppercase">Use Our Video Presentations For</h5>
+      <h5 class="card-header bg-gradient-mine text-white text-center text-uppercase">Use Our Animation Videos For</h5>
       <div class="card-body">
         <div class="row">
           <div class="col-lg-6">
@@ -46,8 +46,8 @@
           <div class="col-lg-6">
             <div class="pricing">
               <div class="card-title h3 text-primary mb-0">30 Second</div>
-              <div class="text-center h4 font-weight-bold mb-0">Video Presentation</div>
-              <h6><span class="small text-dark">Starting at Just</span><span class="price text-primary">$799</span></h6>
+              <div class="text-center h4 font-weight-bold mb-0">Animation Videos</div>
+              <h6><span class="small text-dark">Starting at Just</span><span class="price text-primary wow flash">$799</span></h6>
             </div>
           </div>
         </div>
@@ -56,10 +56,10 @@
   </div>
 </section>
 <section class="pb-5 bg-primary">
-  <h1 class="text-center pt-1">Video Presentation Examples</h1>
+  <h1 class="text-center pt-1 wow tada">Animation Examples</h1>
   <div class="container-fluid bg-grey">
     <?php
-    $type = "Presentation";
+    $type = "Animation";
     $show = "12";
     $rand = false;
     $columns = 3;

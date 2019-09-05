@@ -33,7 +33,8 @@
 							$start = strpos( $html, '<p>' );
 							$end = strpos( $html, '</p>', $start );
 							$paragraph = substr( $html, $start, $end - $start + 4 );
-							echo( '<div class="card text-white bg-primary mb-3">
+							echo( '
+            <div class="card text-white bg-primary mb-3">
 				<h3 class="card-header bg-gradient-primary text-capitalize">' . $title . '</h3>
 				<div class="card-body">
 					<p class="card-text">' . $paragraph . '</p>

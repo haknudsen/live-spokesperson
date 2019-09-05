@@ -88,7 +88,7 @@ if ( $result->num_rows > 0 ) {
 		echo PHP_EOL;
 		echo '</div>';
 		echo PHP_EOL;
-		echo '<div class="poster-title text-center">' . $name . '</div>';
+		echo '<div class="poster-title">' . $name . '</div>';
 		echo PHP_EOL;
 		echo '</div>';
 		echo PHP_EOL;

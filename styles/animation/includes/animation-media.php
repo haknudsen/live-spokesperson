@@ -11,8 +11,6 @@ foreach($iterator as $file) {
         settype($link, "string");
         $folder = strtolower(str_replace("/USR/HOME/WORKING/PUBLIC_HTML/LIVE-SPOKESPERSON/ARTICLES/", "",$link));
         $url = "../../articles/" . $folder;
-        $folder = str_replace("-"," ", $folder);
-        $linkURL[$i] = $folder;
         $linkName[$i] = $folder;
         $i++;
     }
@@ -26,11 +24,7 @@ $array = array_filter($result, function($value){
    }
    return true;
 });
-print_r($array);
 shuffle($array);
-foreach ($array as $number) {
-    echo "$number ";
-}
 
 $table = "animation_content";
 $sql = "SELECT * FROM " . $table . " ORDER BY RAND() LIMIT 3";
@@ -51,9 +45,25 @@ if ( $result->num_rows > 0 ) {
     echo '<div class="card-deck">';
     $x = 0;
     while ( $row = $result->fetch_assoc() ) {
+        switch ($x){
+            case 0:
+                $bounce = "bounceInLeft";
+                
+                break;
+            case 1:
+                $bounce = "bounceInUp";
+                break;
+            case 2:
+                $bounce = "bounceInRight";
+                break;
+            default:
+                $bounce = "bounceInUp";
+                
+        }
         $description = $row[ "description" ];
         $video = $row[ "Name" ];
-        echo '<div class="card">
+        echo '
+    <div class="card wow '.$bounce.'">
       <div class="card-header bg-gradient-mine text-white">' . $mediaHeading[ $x ] . '</div>
           <div class="card-img-top">
               <a href="#">
@@ -67,7 +77,7 @@ if ( $result->num_rows > 0 ) {
             <h5 class="card-title">' . $video . '</h5>
             <div class="card-text">' . $mediaContent[ $x ] . '</div>
           </div>
-          <div class="card-footer bg-gradient-mine"> <small class="float-right"><a href="styles/animation/" title="Animation">Animated Video Production</a></small> </div>
+          <div class="card-footer bg-gradient-mine"> <small class="float-right"><a class="text-white" href="http://www.live-spokesperson.com/articles/'.$array[$x] .'" title="Animation">'. ucwords(str_replace("-"," ", $array[$x])) .'</a></small> </div>
 
         </div>';
         echo PHP_EOL;
