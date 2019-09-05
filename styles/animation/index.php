@@ -68,11 +68,10 @@
   </div>
 </section>
 <section class="alert alert-info mt-4">
-    <?php include("includes/animation-media.php"); ?>
+    <?php $style = "animation";include("../includes/random-content.php"); ?>
 </section>
 <?php include("../../includes/modal.php");?>
 <?php include("../../includes/footer.php"); ?>
-   <a href="/articles/age-of-video/"> test</a>
 </body>
 
 </html>

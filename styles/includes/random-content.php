@@ -26,7 +26,7 @@ $array = array_filter($result, function($value){
 });
 shuffle($array);
 
-$table = "animation_content";
+$table = $style . "_content";
 $sql = "SELECT * FROM " . $table . " ORDER BY RAND() LIMIT 3";
 $contentResult = $conn->query( $sql );
 if ( $contentResult->connect_error ) {
@@ -38,7 +38,7 @@ while ( $row = $contentResult->fetch_assoc() ) {
     $mediaContent[ $z ] = $row[ "content" ];
     $z++;
 }
-$sql = "SELECT * FROM videos WHERE animation=true ORDER BY RAND() LIMIT 3";
+$sql = "SELECT * FROM videos WHERE ". $style ." =true ORDER BY RAND() LIMIT 3";
 $result = $conn->query( $sql );
 
 if ( $result->num_rows > 0 ) {

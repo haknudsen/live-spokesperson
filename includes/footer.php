@@ -1,4 +1,4 @@
-<footer class="p-2 bg-dark">
+<footer class="p-2 bg-dark wow bounceInUp">
     <div class="row">
         <div class="col-sm-5">
             <div class="text-center small text-light"><a href="http://talkingheads.com/affiliate/">Powered by Talking Heads<sup class="smaller"><i class="far fa-registered"></i></sup></a>
