@@ -22652,9 +22652,10 @@ readers do not read off random characters that represent icons */
 .poster-title:hover {
   -webkit-animation: shake 1s;
   animation: shake 1s;
+  animation-iteration-count: infinite;
 }
 
-/* line 21, ../scss/mine/_spokespeople.scss */
+/* line 22, ../scss/mine/_spokespeople.scss */
 .btn-spokesperson {
   height: 48px;
   width: 48px;
@@ -22669,14 +22670,14 @@ readers do not read off random characters that represent icons */
   opacity: 0.8;
   transition: all 0.5s;
 }
-/* line 34, ../scss/mine/_spokespeople.scss */
+/* line 35, ../scss/mine/_spokespeople.scss */
 .btn-spokesperson:hover {
   background-color: #00A3FF;
   border-color: #E5F0FF;
   opacity: 1;
   color: #E5F0FF;
 }
-/* line 40, ../scss/mine/_spokespeople.scss */
+/* line 41, ../scss/mine/_spokespeople.scss */
 .btn-spokesperson:before {
   position: absolute;
   top: 50%;
@@ -22689,12 +22690,12 @@ readers do not read off random characters that represent icons */
   font-size: 1rem;
 }
 
-/* line 52, ../scss/mine/_spokespeople.scss */
+/* line 53, ../scss/mine/_spokespeople.scss */
 .spokesperson-holder {
   width: 200px;
 }
 
-/* line 55, ../scss/mine/_spokespeople.scss */
+/* line 56, ../scss/mine/_spokespeople.scss */
 .spokesperson {
   height: 180px;
   width: 160px;
@@ -22702,24 +22703,24 @@ readers do not read off random characters that represent icons */
   margin: .25rem 20px 0;
 }
 
-/* line 61, ../scss/mine/_spokespeople.scss */
+/* line 62, ../scss/mine/_spokespeople.scss */
 .modal-spokesperson {
   width: 960px;
   margin: 0 auto;
   padding: 0 !important;
 }
 @media (max-width: 1199.98px) {
-  /* line 61, ../scss/mine/_spokespeople.scss */
+  /* line 62, ../scss/mine/_spokespeople.scss */
   .modal-spokesperson {
     width: 90%;
   }
 }
-/* line 68, ../scss/mine/_spokespeople.scss */
+/* line 69, ../scss/mine/_spokespeople.scss */
 .modal-spokesperson .modal-footer, .modal-spokesperson .modal-header {
   width: 100%;
   margin: 0 1px;
 }
-/* line 72, ../scss/mine/_spokespeople.scss */
+/* line 73, ../scss/mine/_spokespeople.scss */
 .modal-spokesperson #form {
   position: absolute;
   display: flex;
@@ -22731,27 +22732,27 @@ readers do not read off random characters that represent icons */
   border-radius: .25rem;
   color: #19477F;
 }
-/* line 82, ../scss/mine/_spokespeople.scss */
+/* line 83, ../scss/mine/_spokespeople.scss */
 .modal-spokesperson #form input {
   padding-left: 4px;
 }
-/* line 83, ../scss/mine/_spokespeople.scss */
+/* line 84, ../scss/mine/_spokespeople.scss */
 .modal-spokesperson #form .holder {
   padding: 0.5rem;
 }
 
-/* line 88, ../scss/mine/_spokespeople.scss */
+/* line 89, ../scss/mine/_spokespeople.scss */
 .modal.show .modal-dialog-spokesperson {
   transform: translate(0, 0);
 }
 
-/* line 91, ../scss/mine/_spokespeople.scss */
+/* line 92, ../scss/mine/_spokespeople.scss */
 .modal.fade .modal-dialog-spokesperson {
   transition: transform 0.3s ease-out;
   transform: translate(0, -25%);
 }
 
-/* line 95, ../scss/mine/_spokespeople.scss */
+/* line 96, ../scss/mine/_spokespeople.scss */
 .modal-dialog-spokesperson {
   margin: 4rem auto;
   display: flex;
@@ -22761,14 +22762,14 @@ readers do not read off random characters that represent icons */
   top: 25%;
 }
 @media (min-width: 576px) {
-  /* line 95, ../scss/mine/_spokespeople.scss */
+  /* line 96, ../scss/mine/_spokespeople.scss */
   .modal-dialog-spokesperson {
     width: 100%;
     max-width: 960px;
   }
 }
 
-/* line 106, ../scss/mine/_spokespeople.scss */
+/* line 107, ../scss/mine/_spokespeople.scss */
 #contactClose {
   line-height: .5;
 }

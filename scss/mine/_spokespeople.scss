@@ -16,6 +16,7 @@ $btn-spokesperson: 48px;
     &:hover{
     -webkit-animation: shake 1s;
     animation: shake 1s;
+        animation-iteration-count:infinite;
     }
 }
 .btn-spokesperson {
