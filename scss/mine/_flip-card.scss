@@ -1,6 +1,6 @@
 .card-flip {
   perspective: 1000px;
-  height: 420px;
+  height: 400px;
   &:hover .flip,
   &.hover .flip {
     transform: rotateY(180deg);

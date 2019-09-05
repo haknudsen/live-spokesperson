@@ -100,7 +100,7 @@
   display: flex;
   align-items: flex-start; // so the close btn always stays on the upper right corner
   justify-content: space-between; // Put modal header elements (title and dismiss) on opposite ends
-  padding: 0 $modal-header-padding $modal-header-padding;
+  padding: 0 $modal-header-padding $modal-header-paddingq;
   border-bottom: $modal-header-border-width solid $modal-header-border-color;
   @include border-top-radius($modal-content-border-radius);
 
