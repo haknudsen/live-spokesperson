@@ -15,7 +15,6 @@ foreach($iterator as $file) {
         $i++;
     }
 }
-
 $result = array_unique($linkName);
 $array = array_filter($result, function($value){
    if (strstr($value, '/') !== false)
@@ -40,7 +39,6 @@ while ( $row = $contentResult->fetch_assoc() ) {
 }
 $sql = "SELECT * FROM videos WHERE ". $style ." =true ORDER BY RAND() LIMIT 3";
 $result = $conn->query( $sql );
-
 if ( $result->num_rows > 0 ) {
     echo '<div class="card-deck">';
     $x = 0;
