@@ -12,7 +12,6 @@
 </head>
 
 <body>
-	<div id="phone"></div>
 	<?php include("includes/nav.php"); ?>
 	<section class="jumbotron">
         <h1 class="text-center">Web Video Production</h1>
