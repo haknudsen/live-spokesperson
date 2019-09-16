@@ -1,5 +1,4 @@
 /* Scss Document */
-body{overflow-x: hidden}
 .content {
 	font-size: 1.2rem;
 	color: #000011;
@@ -57,8 +56,8 @@ body{overflow-x: hidden}
 	line-height: 1;
 	font-weight: 700;
     float: right;
-    animation-duration: 2s;
-    animation-delay: 1.5s;
+    animation-duration: 1s;
+    animation-delay: 2s;
 }
 .starting{float: right}
 .text-lg-fluid {
@@ -207,8 +206,13 @@ textarea {
 .bg-gradient-mine {
 	@include gradient-mine($gray-300,$gray-700);
 }
-.bg-gradient-custom {
+.bg-gradient-custom, .btn-custom {
 	@include gradient-mine($gray-700,$gray-300);
+}
+.btn-custom{color: $white!important;font-weight: 600;
+    &:hover{
+        @include gradient-mine($gray-300,$gray-700);
+    }
 }
 #spokesperson_videos .card .card-img-top{max-width: 220px;margin: 0 auto}
 #awards .card {max-width: 500px}
@@ -363,4 +367,5 @@ footer a:hover{color: $light;}
 .g-recaptcha div{margin: 0 auto}
 #contactModalCenter input,#contactModalCenter textarea{font-size: .6rem}
 .wrapped-text{font-size: .8rem;font-family: open-sans, sans-serif;font-weight: 700;font-style: normal;}
+.shots .card{max-width: 33.333333%}
 	
