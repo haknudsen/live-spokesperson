@@ -8,7 +8,7 @@
 <meta http-equiv="x-ua-compatible" content="ie=edge">
 <meta name="description" content="Searching for a new way to bring life to your website and attract more interest from those who visit it? Get an professional spokesperson from Live-Spokesperson.">
 <meta name="Keywords" content="Video Solutions,Product Videos, Video Examples, Animated Video Production, Online Videos, Great Explainer Video, Importance Of Video Marketing, Video Experts, Custom Video Production Services, Web Video Production, New Animated Video, Website Videos, Web Video Services, Web Videos, Video Production Companies, Internet Video, Homepage Web Video, Web Video Production Strategy, Web Video Production, Web Video Production Company Instructional Video">
-<?php include("includes/head.php"); ?>
+<?php include("../../includes/head.php"); ?>
 </head>
 
 <body>
@@ -30,7 +30,7 @@
                     <li class="list-group-item">Engage Viewers</li>
                 </ul>
             </div>
-            <div class="col-lg-8"> <img class="poster card-img-top" data-video="Overhead-Product-Demo-Video" alt="Overhead Product Unboxing" src="../../images/Overhead Product Demo Video.jpg"> </div>
+            <div class="col-lg-8"> <img class="poster card-img-top" data-video="Overhead-Product-Demo-Video" alt="Overhead Product Unboxing" src="file:///D|/images/Overhead Product Demo Video.jpg"> </div>
         </div>
     </div>
 </section>
