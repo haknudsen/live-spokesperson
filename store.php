@@ -12,7 +12,6 @@
 </head>
 
 <body>
-<?php include("includes/nav.php"); ?>
 <section class="jumbotron">
     <h1 class="text-center">Free Product Demo Video</h1>
     <div class="container text-center">
@@ -55,21 +54,5 @@
     </div>
     </div>
 </section>
-<section class="container-fluid mb-2">
-    <?php include("includes/testimonials.php"); ?>
-</section>
-<section class="alert alert-info">
-    <h2 class="text-uppercase text-center wow bounceInUp">follow us</h2>
-    <h3 class="text-center wow bounceInUp">Join us in <strong>Social Media</strong> and Stay Tuned!</h3>
-    <?php include("includes/social-icons.php"); ?>
-</section>
-<?php include("includes/spokesperson-specials.php"); ?>
-<?php include("includes/footer.php"); ?>
-<script>
-		$( document ).ready( function () {
-			setInterval( changeTestimonial, 5000 );
-
-		} );
-	</script>
 </body>
 </html>
