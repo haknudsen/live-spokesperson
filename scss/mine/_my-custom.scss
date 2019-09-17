@@ -206,13 +206,19 @@ textarea {
 .bg-gradient-mine {
 	@include gradient-mine($gray-300,$gray-700);
 }
-.bg-gradient-custom, .btn-custom {
-	@include gradient-mine($gray-700,$gray-300);
+.bg-gradient-custom {
 }
-.btn-custom{color: $white!important;font-weight: 600;
+.btn-custom{
+	@include gradient-mine($gray-700,$gray-300);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.15), 0 1px 1px rgba(0,0,0,0.075);
+    color: $white!important;font-weight: 600;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.33);
+  -webkit-font-smoothing: antialiased;
     &:hover{
         @include gradient-mine($gray-300,$gray-700);
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.66);
     }
+    a{color: $white!important;}
 }
 #spokesperson_videos .card .card-img-top{max-width: 220px;margin: 0 auto}
 #awards .card {max-width: 500px}
@@ -367,5 +373,4 @@ footer a:hover{color: $light;}
 .g-recaptcha div{margin: 0 auto}
 #contactModalCenter input,#contactModalCenter textarea{font-size: .6rem}
 .wrapped-text{font-size: .8rem;font-family: open-sans, sans-serif;font-weight: 700;font-style: normal;}
-.shots .card{max-width: 33.333333%}
 	
