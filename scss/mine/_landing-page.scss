@@ -1,0 +1,27 @@
+/* Scss Document */
+.bg-img{
+    background: url("/styles/product-demonstrations/images/bg-img.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+.strip{
+    background: white;
+    padding: .2rem .5rem;
+    margin: 1rem auto;
+    border-radius: 1rem;
+    color: $red;
+    width: auto;
+    text-align: center;
+    font-size: 75%;
+    font-weight: 600;
+}
+.free{
+    display: inline-block;
+    animation-name: tada;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    transform-origin: center bottom;
+    animation-iteration-count: infinite;
+}
