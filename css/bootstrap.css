@@ -28,6 +28,7 @@
   --danger: #dc0000;
   --light: #E5F0FF;
   --dark: #19477F;
+  --black: #000;
   --orange: #FFA500;
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
@@ -2033,6 +2034,23 @@ pre code {
 }
 
 /* line 7, ../scss/mixins/_table-row.scss */
+.table-black,
+.table-black > th,
+.table-black > td {
+  background-color: #b8b8b8;
+}
+
+/* line 13, ../scss/mixins/_hover.scss */
+.table-hover .table-black:hover {
+  background-color: #ababab;
+}
+/* line 23, ../scss/mixins/_table-row.scss */
+.table-hover .table-black:hover > td,
+.table-hover .table-black:hover > th {
+  background-color: #ababab;
+}
+
+/* line 7, ../scss/mixins/_table-row.scss */
 .table-orange,
 .table-orange > th,
 .table-orange > td {
@@ -2988,6 +3006,41 @@ fieldset:disabled a.btn {
 }
 
 /* line 63, ../scss/_buttons.scss */
+.btn-black {
+  color: #fff;
+  background: #000 linear-gradient(180deg, #262626, #000) repeat-x;
+  border-color: #000;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+/* line 13, ../scss/mixins/_hover.scss */
+.btn-black:hover {
+  color: #fff;
+  background: black linear-gradient(180deg, #262626, black) repeat-x;
+  border-color: black;
+}
+/* line 18, ../scss/mixins/_buttons.scss */
+.btn-black:focus, .btn-black.focus {
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 0 0.2rem rgba(0, 0, 0, 0.5);
+}
+/* line 29, ../scss/mixins/_buttons.scss */
+.btn-black.disabled, .btn-black:disabled {
+  color: #fff;
+  background-color: #000;
+  border-color: #000;
+}
+/* line 36, ../scss/mixins/_buttons.scss */
+.btn-black:not(:disabled):not(.disabled):active, .btn-black:not(:disabled):not(.disabled).active, .show > .btn-black.dropdown-toggle {
+  color: #fff;
+  background-color: black;
+  background-image: none;
+  border-color: black;
+}
+/* line 46, ../scss/mixins/_buttons.scss */
+.btn-black:not(:disabled):not(.disabled):active:focus, .btn-black:not(:disabled):not(.disabled).active:focus, .show > .btn-black.dropdown-toggle:focus {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125), 0 0 0 0.2rem rgba(0, 0, 0, 0.5);
+}
+
+/* line 63, ../scss/_buttons.scss */
 .btn-orange {
   color: #0C2340;
   background: #FFA500 linear-gradient(180deg, #ffb326, #FFA500) repeat-x;
@@ -3284,6 +3337,39 @@ fieldset:disabled a.btn {
 /* line 87, ../scss/mixins/_buttons.scss */
 .btn-outline-dark:not(:disabled):not(.disabled):active:focus, .btn-outline-dark:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-dark.dropdown-toggle:focus {
   box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125), 0 0 0 0.2rem rgba(25, 71, 127, 0.5);
+}
+
+/* line 69, ../scss/_buttons.scss */
+.btn-outline-black {
+  color: #000;
+  background-color: transparent;
+  background-image: none;
+  border-color: #000;
+}
+/* line 63, ../scss/mixins/_buttons.scss */
+.btn-outline-black:hover {
+  color: #fff;
+  background-color: #000;
+  border-color: #000;
+}
+/* line 69, ../scss/mixins/_buttons.scss */
+.btn-outline-black:focus, .btn-outline-black.focus {
+  box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.5);
+}
+/* line 74, ../scss/mixins/_buttons.scss */
+.btn-outline-black.disabled, .btn-outline-black:disabled {
+  color: #000;
+  background-color: transparent;
+}
+/* line 80, ../scss/mixins/_buttons.scss */
+.btn-outline-black:not(:disabled):not(.disabled):active, .btn-outline-black:not(:disabled):not(.disabled).active, .show > .btn-outline-black.dropdown-toggle {
+  color: #fff;
+  background-color: #000;
+  border-color: #000;
+}
+/* line 87, ../scss/mixins/_buttons.scss */
+.btn-outline-black:not(:disabled):not(.disabled):active:focus, .btn-outline-black:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-black.dropdown-toggle:focus {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125), 0 0 0 0.2rem rgba(0, 0, 0, 0.5);
 }
 
 /* line 69, ../scss/_buttons.scss */
@@ -5408,6 +5494,18 @@ input[type="button"].btn-block {
 }
 
 /* line 44, ../scss/_badge.scss */
+.badge-black {
+  color: #fff;
+  background-color: #000;
+}
+/* line 17, ../scss/mixins/_hover.scss */
+.badge-black[href]:hover, .badge-black[href]:focus {
+  color: #fff;
+  text-decoration: none;
+  background-color: black;
+}
+
+/* line 44, ../scss/_badge.scss */
 .badge-orange {
   color: #0C2340;
   background-color: #FFA500;
@@ -5590,6 +5688,21 @@ input[type="button"].btn-block {
 /* line 10, ../scss/mixins/_alert.scss */
 .alert-dark .alert-link {
   color: #050d17;
+}
+
+/* line 48, ../scss/_alert.scss */
+.alert-black {
+  color: black;
+  background: #cccccc linear-gradient(180deg, #d4d4d4, #cccccc) repeat-x;
+  border-color: #b8b8b8;
+}
+/* line 6, ../scss/mixins/_alert.scss */
+.alert-black hr {
+  border-top-color: #ababab;
+}
+/* line 10, ../scss/mixins/_alert.scss */
+.alert-black .alert-link {
+  color: black;
 }
 
 /* line 48, ../scss/_alert.scss */
@@ -5882,6 +5995,23 @@ input[type="button"].btn-block {
   color: #fff;
   background-color: #0d2542;
   border-color: #0d2542;
+}
+
+/* line 4, ../scss/mixins/_list-group.scss */
+.list-group-item-black {
+  color: black;
+  background-color: #b8b8b8;
+}
+/* line 17, ../scss/mixins/_hover.scss */
+.list-group-item-black.list-group-item-action:hover, .list-group-item-black.list-group-item-action:focus {
+  color: black;
+  background-color: #ababab;
+}
+/* line 14, ../scss/mixins/_list-group.scss */
+.list-group-item-black.list-group-item-action.active {
+  color: #fff;
+  background-color: black;
+  border-color: black;
 }
 
 /* line 4, ../scss/mixins/_list-group.scss */
@@ -6781,6 +6911,18 @@ button.bg-dark:focus {
 }
 
 /* line 6, ../scss/mixins/_background-variant.scss */
+.bg-black {
+  background-color: #000 !important;
+}
+
+/* line 17, ../scss/mixins/_hover.scss */
+a.bg-black:hover, a.bg-black:focus,
+button.bg-black:hover,
+button.bg-black:focus {
+  background-color: black !important;
+}
+
+/* line 6, ../scss/mixins/_background-variant.scss */
 .bg-orange {
   background-color: #FFA500 !important;
 }
@@ -6961,6 +7103,27 @@ button.bg-orange:focus {
 }
 
 /* line 18, ../scss/mixins/_background-variant.scss */
+.bg-gradient-black {
+  border-color: black black black;
+  background-repeat: repeat-x;
+  background: #000;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #000 0%, black 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #000), color-stop(100%, black));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #000 0%, black 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #000 0%, black 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #000 0%, black 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #000 0%, black 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$color', endColorstr='$bottom',GradientType=0 );
+}
+
+/* line 18, ../scss/mixins/_background-variant.scss */
 .bg-gradient-orange {
   border-color: #cc8400 #cc8400 #cc8400;
   background-repeat: repeat-x;
@@ -7079,6 +7242,11 @@ button.bg-orange:focus {
 /* line 20, ../scss/utilities/_borders.scss */
 .border-dark {
   border-color: #19477F !important;
+}
+
+/* line 20, ../scss/utilities/_borders.scss */
+.border-black {
+  border-color: #000 !important;
 }
 
 /* line 20, ../scss/utilities/_borders.scss */
@@ -10655,6 +10823,16 @@ a.text-light:hover, a.text-light:focus {
 /* line 17, ../scss/mixins/_hover.scss */
 a.text-dark:hover, a.text-dark:focus {
   color: #112f54 !important;
+}
+
+/* line 6, ../scss/mixins/_text-emphasis.scss */
+.text-black {
+  color: #000 !important;
+}
+
+/* line 17, ../scss/mixins/_hover.scss */
+a.text-black:hover, a.text-black:focus {
+  color: black !important;
 }
 
 /* line 6, ../scss/mixins/_text-emphasis.scss */
@@ -23069,7 +23247,7 @@ html {
 /* Scss Document */
 /* line 2, ../scss/mine/_landing-page.scss */
 .bg-img {
-  background: url("/styles/product-demonstrations/images/bg-img.jpg") no-repeat center center fixed;
+  background: url("/styles/product-demonstrations/images/bg-img.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -23080,13 +23258,13 @@ html {
 .strip {
   background: white;
   padding: .2rem .5rem;
-  margin: 1rem auto;
+  margin: 1rem 0;
   border-radius: 1rem;
   color: #dc0000;
-  width: auto;
   text-align: center;
   font-size: 75%;
   font-weight: 600;
+  display: inline-block;
 }
 
 /* line 20, ../scss/mine/_landing-page.scss */
@@ -23097,6 +23275,18 @@ html {
   animation-fill-mode: both;
   transform-origin: center bottom;
   animation-iteration-count: infinite;
+}
+
+/* line 28, ../scss/mine/_landing-page.scss */
+#countdown {
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-weight: 800;
+  font-size: 2rem;
+}
+
+/* line 33, ../scss/mine/_landing-page.scss */
+.how-img {
+  margin: 5%;
 }
 
 /* Scss Document */
