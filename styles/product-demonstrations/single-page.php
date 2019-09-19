@@ -129,23 +129,7 @@
   <div class="wave-top"></div>
   <div class="bg-dark">
     <div class="container">
-      <div class="row">
-        <div class="col-md-4 col-sm-12">
-          <div class="progress blue"> <span class="progress-left"> <span class="progress-bar"></span> </span> <span class="progress-right"> <span class="progress-bar"></span> </span>
-            <div class="progress-value">90%</div>
-          </div>
-        </div>
-        <div class="col-md-4 col-sm-12">
-          <div class="progress yellow"> <span class="progress-left"> <span class="progress-bar"></span> </span> <span class="progress-right"> <span class="progress-bar"></span> </span>
-            <div class="progress-value">72%</div>
-          </div>
-        </div>
-        <div class="col-md-4 col-sm-12">
-          <div class="progress orange"> <span class="progress-left"> <span class="progress-bar"></span> </span> <span class="progress-right"> <span class="progress-bar"></span> </span>
-            <div class="progress-value">100%</div>
-          </div>
-        </div>
-      </div>
+        
     </div>
   </div>
   <div class="wave-bottom"></div>
