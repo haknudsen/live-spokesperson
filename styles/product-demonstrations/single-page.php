@@ -11,145 +11,145 @@
 <?php include("../../includes/head.php"); ?>
 </head>
 
-<body>
+<body style="background: black;overflow-x: hidden">
 <section class="container-fluid bg-img">
-    <nav class="navbar navbar-expand-lg"> <a class="navbar-brand text-white" href="#">Demo Videos</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav m-auto">
-                <li class="nav-item active"> <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a> </li>
-                <li class="nav-item"> <a class="nav-link text-white"  href="#demo" class="white">Demo</a> </li>
-                <li class="nav-item"> <a class="nav-link text-white"  href="#faq" class="white">F.A.Q.</a> </li>
-                <li class="nav-item"> <a class="nav-link text-white"  href="#bonus" class="white">Bonus</a></li>
-                <li class="nav-item"> <a class="nav-link text-white"  href="#demo" class="white">Demo</a> </li>
-            </ul>
-            <h5 class="navbar-brand text-white">1-801-748-2281</h5>
+  <div class="center-align text-center">
+    <h3 class="strip">Get a Unique HD VIDEO, Attract More Eyeballs & Crush your COMPETITION</h3>
+    <h2 class="text-turbo text-warning">Turbocharge your <em>SALES</em> with a</h2>
+    <h3 class="text-turbo text-red jello delay-2s"><strong class="text-red large">FREE</strong></h3>
+    <h3 class="text-warning"><strong>Product Video!</strong></h3>
+    <div class="row my-4">
+      <div class="col-md-2"></div>
+      <div class="col-md-8  col-sm-12">
+        <div class="center-align">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" type="text/html" src="../../ivideo/talking-heads-player.php?video=Demonstration-Advertising-Example&autostart=mute&controls=true"></iframe>
+          </div>
         </div>
-    </nav>
-    <div class="center-align text-center">
-        <h3 class="strip">Get a Unique HD VIDEO, Attract More Eyeballs & Crush your COMPETITION</h3>
-        <h1 class="text-warning wow infinite jello delay-2s">Turbocharge your <strong class="wow animated infinite bounce delay-2s">SALES</strong></h1>
-        <h3 class="text-light">Sometimes When You Develop A Brand-new Product the Hardest Part is <em>Brainstorming</em> the Easiest Way to Reveal It to The Masses.</h3>
-        <h4 class="text-light text-capitalize">How is your <strong class="text-warning">Product</strong> going to make that impression?</h4>
-        <h4 class="text-info">We Believe in Our Videos So Much That We Are Willing To Give Away a <strong class="free text-danger">Free</strong> Video Just to Prove Our Point</h4>
-        <div class="row my-4">
-            <div class="col-md-2"></div>
-            <div class="col-md-8  col-sm-12">
-                <div class="center-align">
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" type="text/html" src="../../ivideo/talking-heads-player.php?video=Demonstration-Advertising-Example&autostart=mute&controls=true"></iframe>
-                    </div>
-                </div>
-            </div>
-        </div>
+      </div>
     </div>
-    <div class="container py-4">
-        <h3 class="text-white">Since 2001 We Have Been Passionately Helping Businesses <strong>Improve</strong> Their Websites With Video.</h3>
-    </div>
+    <h3 class="text-light">Sometimes When You Develop A Brand-new Product the Hardest Part is <em>Brainstorming</em> the Easiest Way to Reveal It to The Masses.</h3>
+    <h4 class="text-light text-capitalize">How is your <strong class="text-warning">Product</strong> going to make that impression?</h4>
+    <h4 class="text-info">We Believe in Our Videos So Much That We Are Willing To Give Away a <strong class="free text-danger">Free</strong> Video Just to Prove Our Point</h4>
+  </div>
+  <div class="container py-4"> </div>
 </section>
 <section class="container-fluid bg-black text-light py-2">
-    <h2 class="text-center text-secondary">Make Your Product Sizzle</h2>
-    <div class="row mt5">
-        <div class="col-md-6 col-sm-12">
-            <ul>
-                <li>Look Like a Million Bucks Without Spending it!</li>
-                <li>Choose from over 5 backgrounds and Styles</li>
-                <li>Eye-Popping Camera Angles Engage Customers</li>
-                <li>Callouts to Sell The Features and Benefits</li>
-                <li>Call To Action to Boost Conversion Rates</li>
-                <li>A Picture is Worth a Thousand Words so Video is Worth Millions!!!!</li>
-            </ul>
-        </div>
-        <div class="col-md-6 col-sm-12">
-            <div class="text-small text-justify">
-                <p>You only get one chance to make a first impression. Make your first impression count with a sensational, expertly produced product demonstration.</p>
-                <p>Prior to the web, business counted on print media and photos to promote their products, however with the web and social networks, business are relying on product demonstration videos to engage their audience and drive sales.</p>
-            </div>
-        </div>
-    </div>
+  <h2 class="text-center text-secondary">Make Your Product Sizzle</h2>
+  <div class="mx-auto w-75">
+    <ul class="list-group check">
+      <li class="list-group-item bg-dark">Look Like a Million Bucks Without Spending it!</li>
+      <li class="list-group-item bg-dark">Different backgrounds and Styles</li>
+      <li class="list-group-item bg-dark">Eye-Popping Camera Angles</li>
+      <li class="list-group-item bg-dark">Callouts to Sell The Features and Benefits</li>
+      <li class="list-group-item bg-dark">Call To Action to Boost Conversion Rates</li>
+      <li class="list-group-item bg-dark">A Picture is Worth a Thousand Words so Video is Worth Millions!!!!</li>
+    </ul>
+  </div>
 </section>
-<section class="alert alert-danger my-5">
+<section class="wave-holder">
+  <div class="wave-top"></div>
+  <div class="bg-dark">
     <div class="text-center">
-        <h2 class="text-uppercase">your product, our video expertise</h2>
-        <h3 class="text-uppercase text-dark">offer Expires</h3>
-        <div class="row">
-            <div class="col-md-8">
-                <div id="countdown">
-                    <h2 class="strip float-right"><span id="hour" class="timer"></span> Hours <span id="min" class="timer"></span> Minutes <span id="sec" class="timer"></span> Seconds</h2>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="mt-3"> <a class="btn btn-primary float-left" href="#buy">Order Now</a> </div>
-            </div>
+      <h2 class="text-uppercase">Free offer ends soon!</h2>
+      <h3 class="text-uppercase text-dark">offer Expires</h3>
+      <div class="row">
+        <div class="col-md-8">
+          <div id="countdown">
+            <h2 class="strip float-lg-right"><span id="hour" class="timer"></span> Hours <span id="min" class="timer"></span> Minutes <span id="sec" class="timer"></span> Seconds</h2>
+          </div>
         </div>
+        <div class="col-md-4">
+          <div class="mt-3"> <a class="btn btn-primary float-lg-left" href="#buy">Order Now</a> </div>
+        </div>
+      </div>
     </div>
+  </div>
+  <div class="wave-bottom"></div>
 </section>
-<div class="how-section1 bg-gradient-black p-5">
-    <div class="row align-items-center">
-        <div class="col-md-6">
-            <div class="w-75 m-auto">
-                <div class="embed-responsive embed-responsive-16by9">
-                    <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" type="text/html" src="../../ivideo/talking-heads-player.php?video=Overhead-Product-Demo-Video&autostart=no&controls=true"></iframe>
-                </div>
-            </div>
+<section class="how-section1 bg-gradient-black p-5">
+  <div class="row align-items-center mt-3">
+    <div class="col-md-6">
+      <div class="w-75 m-auto">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" type="text/html" src="../../ivideo/talking-heads-player.php?video=Overhead-Product-Demo-Video&autostart=no&controls=true"></iframe>
         </div>
-        <div class="col-md-6">
-            <h4 class="text-white">Find rewarding projects</h4>
-            <h4 class="subheading text-light">GetLance is a great place to find more clients, and to run and grow your own freelance business.</h4>
-            <p class="text-muted">Freedom to work on ideal projects. On GetLance, you run your own business and choose your own clients and projects. Just complete your profile and we’ll highlight ideal jobs. Also search projects, and respond to client invitations.
-                Wide variety and high pay. Clients are now posting jobs in hundreds of skill categories, paying top price for great work.
-                More and more success. The greater the success you have on projects, the more likely you are to get hired by clients that use GetLance.</p>
-        </div>
+      </div>
     </div>
-    <div class="row align-items-center">
-        <div class="col-md-6">
-            <h4 class="text-white">Get hired quickly</h4>
-            <h4 class="subheading text-light">GetLance makes it easy to connect with clients and begin doing great work.</h4>
-            <p class="text-muted">Streamlined hiring. GetLance’s sophisticated algorithms highlight projects you’re a great fit for.
-                Top Rated and Rising Talent programs. Enjoy higher visibility with the added status of prestigious programs.
-                Do substantial work with top clients. GetLance pricing encourages freelancers to use GetLance for repeat relationships with their clients.</p>
-        </div>
-        <div class="col-md-6">
-            <div class="w-75 m-auto">
-                <div class="embed-responsive embed-responsive-16by9">
-                    <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" type="text/html" src="../../ivideo/talking-heads-player.php?video=Minithrowballs Video&autostart=no&controls=true"></iframe>
-                </div>
-            </div>
-        </div>
+    <div class="col-md-6">
+      <h3 class="text-white">Overhead Unboxing</h3>
+      <p class="text-muted">Show customers what they get when they open the box.</p>
     </div>
-    <div class="row" align-items-center>
-        <div class="col-md-6">
-            <div class="w-75 m-auto">
-                <div class="embed-responsive embed-responsive-16by9">
-                    <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" type="text/html" src="../../ivideo/talking-heads-player.php?video=Best-Product-Videos&autostart=no&controls=true"></iframe>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-6">
-            <h4 class="text-white">Work efficiently, effectively.</h4>
-            <h4 class="subheading text-light">With GetLance, you have the freedom and flexibility to control when, where, and how you work. Each project includes an online workspace shared by you and your client, allowing you to:</h4>
-            <p class="text-muted">Send and receive files. Deliver digital assets in a secure environment.
-                Share feedback in real time. Use GetLance Messages to communicate via text, chat, or video.
-                Use our mobile app. Many features can be accessed on your mobile phone when on the go.</p>
-        </div>
+  </div>
+  <img class="mx-auto d-block mt-3" src="images/doodle.png" width="240" height="50" alt="divider"/>
+  <div class="row align-items-center mt-3">
+    <div class="col-md-6">
+      <h3 class="text-white">Professional Spokespeople</h3>
+      <p class="text-muted">We only used trained, experienced, and professional spokespeople for our videos.</p>
     </div>
-    <div class="row align-items-center">
-        <div class="col-md-6">
-            <h4 class="text-white">Get paid on time</h4>
-            <h4 class="subheading text-light">All projects include GetLance Payment Protection — helping ensure that you get paid for all work successfully completed through the freelancing website.</h4>
-            <p class="text-muted">All invoices and payments happen through GetLance. Count on a simple and streamlined process.
-                Hourly and fixed-price projects. For hourly work, submit timesheets through GetLance. For fixed-price jobs, set milestones and funds are released via GetLance escrow features.
-                Multiple payment options. Choose a payment method that works best for you, from direct deposit or PayPal to wire transfer and more.</p>
+    <div class="col-md-6">
+      <div class="w-75 m-auto">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" type="text/html" src="../../ivideo/talking-heads-player.php?video=Minithrowballs Video&autostart=no&controls=true"></iframe>
         </div>
-        <div class="col-md-6">
-            <div class="w-75 m-auto">
-                <div class="embed-responsive embed-responsive-16by9">
-                    <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" type="text/html" src="../../ivideo/talking-heads-player.php?video=Lux Pro Demo&autostart=no&controls=true"></iframe>
-                </div>
-            </div>
-        </div>
+      </div>
     </div>
-</div>
+  </div>
+  <img class="mx-auto d-block mt-3" src="images/doodle.png" width="240" height="50" alt="divider"/>
+  <div class="row align-items-center mt-3">
+    <div class="col-md-6">
+      <div class="w-75 m-auto">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" type="text/html" src="../../ivideo/talking-heads-player.php?video=Best-Product-Videos&autostart=no&controls=true"></iframe>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <h4 class="text-white text-capitalize">your product,<br>
+        our video expertise</h4>
+      <p class="text-muted">We have worked with everyone from Fortune 50 companies to Mom and Pop stores based out of their sewing room.</p>
+    </div>
+  </div>
+  <img class="mx-auto d-block mt-3" src="images/doodle.png" width="240" height="50" alt="divider"/>
+  <div class="row align-items-center mt-3">
+    <div class="col-md-6">
+      <h3 class="text-white">We are Experienced</h3>
+      <p class="text-muted">Since 2001 We Have Been Passionately Helping Businesses <strong>Improve</strong> Their Websites With Video.</p>
+    </div>
+    <div class="col-md-6">
+      <div class="w-75 m-auto">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" type="text/html" src="../../ivideo/talking-heads-player.php?video=Lux Pro Demo&autostart=no&controls=true"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="wave-holder">
+  <div class="wave-top"></div>
+  <div class="bg-dark">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-sm-12">
+          <div class="progress blue"> <span class="progress-left"> <span class="progress-bar"></span> </span> <span class="progress-right"> <span class="progress-bar"></span> </span>
+            <div class="progress-value">90%</div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-12">
+          <div class="progress yellow"> <span class="progress-left"> <span class="progress-bar"></span> </span> <span class="progress-right"> <span class="progress-bar"></span> </span>
+            <div class="progress-value">72%</div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-12">
+          <div class="progress orange"> <span class="progress-left"> <span class="progress-bar"></span> </span> <span class="progress-right"> <span class="progress-bar"></span> </span>
+            <div class="progress-value">100%</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="wave-bottom"></div>
+</section>
 <!--Java Script--> 
 <script
   src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script> 

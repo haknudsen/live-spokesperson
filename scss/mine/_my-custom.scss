@@ -373,4 +373,32 @@ footer a:hover{color: $light;}
 .g-recaptcha div{margin: 0 auto}
 #contactModalCenter input,#contactModalCenter textarea{font-size: .6rem}
 .wrapped-text{font-size: .8rem;font-family: open-sans, sans-serif;font-weight: 700;font-style: normal;}
-	
+.text-turbo{font-size: 1.7rem;font-weight: 700;animation-delay: 1s;animation-iteration-count: infinite;}
+.check{
+    list-style: none;padding: 0;
+    li.list-group-item{
+            &::before{
+            font-family: "Font Awesome 5 Pro";
+            display: inline-block;
+            content: "\f058";
+            padding-right: .5rem;
+        }
+    }
+}
+.wave-holder{width: 100%;margin: 0;padding: 0;
+    color: white;}
+.wave-top, .wave-bottom{
+    width: 100%;
+    min-height: 252px;
+    height: auto;
+    background-size: cover;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.wave-top{
+    background-image: url("../../styles/product-demonstrations/images/wave-top.png");
+}
+.wave-bottom{
+    background-image: url("../../styles/product-demonstrations/images/wave-bottom.png");
+}
