@@ -398,3 +398,19 @@ footer a:hover{color: $light;}
   background:#004582;
   min-height:200px;
 }
+.side-bar {
+    transform: rotate(-90deg);
+    right: -15px;
+    position: fixed;
+    top: 45%;
+    background-color: $primary;
+    padding: 10px 25px;
+    font-weight: 500;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    letter-spacing: .5px;
+    color: $white;
+    z-index: 9;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+}
