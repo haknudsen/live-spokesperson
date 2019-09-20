@@ -42,7 +42,7 @@
     <h1 class="text-capitalize text-secondary">We are the video experts!</h1>
     <p class="text-primary">Since 2001 we have been creating videos for buisnesses around the world.</p>
     <div class="w-75 mx-auto">
-        <div id="demo" class="carousel slide" data-ride="carousel">
+        <div id="demo" class="carousel slide" data-ride="carousel"> 
             <!-- Indicators -->
             <ul class="carousel-indicators">
                 <li data-target="#demo" data-slide-to="0" class="active"></li>
@@ -114,23 +114,52 @@
             </div>
         </div>
     </div>
+    <h6 class="text-secondary mt-3">Our Goal is to make the <span class="text-red font-weight-bold">BEST</span> Product Videos with the <span class="text-primary font-weight-bold">Easiest</span> Ordering Process</h6>
+</section>
+<hr>
+<section class="container-fluid">
+    <h2 class="text-secondary">Your Free Video</h2>
+    <div class="row align-items-center">
+        <div class="col-6">
+            <h3 class="text-primary">Includes</h3>
+            <ul class="list-group">
+                <li class="list-group-item">15 Second Video</li>
+                <li class="list-group-item">Your Product in 3 Different shots</li>
+                <li class="list-group-item">Unlimited Usage Anywhere</li>
+                <li class="list-group-item">Quality HD Video</li>
+                <li class="list-group-item">Professional Lighting and Composition</li>
+                <li class="list-group-item">Website URL, Logo, and Tagline can be included</li>
+            </ul>
+        </div>
+        <div class="col-6">
+            <h3 class="text-primary">Features</h3>
+            <ul class="list-group">
+                <li class="list-group-item">Standard 7 Business Day Turn Around</li>
+                <li class="list-group-item">Rush Turn Around Times Available</li>
+                <li class="list-group-item">Video Format for ANY Video platform</li>
+                <li class="list-group-item">Customizable Backgrounds</li>
+                <li class="list-group-item">Free Return Shipping On Most Orders</li>
+                <li class="list-group-item">Vestibulum at eros</li>
+            </ul>
+        </div>
+    </div>
 </section>
 <hr>
 <section class="container-fluid">
     <h5>End</h5>
 </section>
 <div class="side-bar" data-toggle="modal" data-target="#contactModal">CONTACT US</div>
-<!--Java Script-->
+<!--Java Script--> 
 <script
-  src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.4/js/tether.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-<script src="http://www.live-spokesperson.com/js/wow.min_.js"></script>
-<script src="http://www.live-spokesperson.com/js/compressed.js"></script>
+  src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.4/js/tether.min.js"></script> 
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script> 
+<script src="http://www.live-spokesperson.com/js/wow.min_.js"></script> 
+<script src="http://www.live-spokesperson.com/js/compressed.js"></script> 
 <script>
     new WOW().init();
-</script>
+</script> 
 <script>
     $( document ).ready(function() {
   setInterval(function time(){
