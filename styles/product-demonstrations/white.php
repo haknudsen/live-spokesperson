@@ -11,40 +11,69 @@
 <?php include("../../includes/head.php"); ?>
 </head>
 
-<body style="background: white;overflow-x: hidden;width: 100%">
+<body class="landing-page">
 <header>
     <div class="overlay"></div>
     <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
         <source src="https://www.websitetalkingheads.com/ivideo/videos/Demonstration-Advertising-Example.mp4" type="video/mp4">
     </video>
 </header>
-<section class="container mt-3">
-    <div class="row text-center text-primary">
-        <div class="col-lg-3 col-sm-6"> <i class="fas fa-birthday-cake text-huge"></i>
-            <h3>Founded 2001</h3>
+<section class="container-fluid mt-3">
+    <div class="row text-primary">
+        <div class="col-lg-3 col-sm-6"> <i class="fad fa-birthday-cake text-huge"></i>
+            <h3>Founded<br>
+                2001</h3>
         </div>
-        <div class="col-lg-3 col-sm-6">
-            <div class="col-lg-3 col-sm-6"> <i class="fas fa-globe text-huge"></i>
-                <h3>1000s of Companies</h3>
-            </div>
+        <div class="col-lg-3 col-sm-6"> <i class="fad fa-globe-americas text-huge"></i>
+            <h3>Dozens<br>
+                of Countries</h3>
         </div>
-        <div class="col-lg-3 col-sm-6">
-            <div class="col-lg-3 col-sm-6"> <i class="fad fa-film text-huge"></i>
-                <h3>50,000+ Videos</h3>
-            </div>
+        <div class="col-lg-3 col-sm-6"> <i class="fad fa-film text-huge"></i>
+            <h3>50,000+<br>
+                Videos</h3>
         </div>
-        <div class="col-lg-3 col-sm-6">
-            <div class="col-lg-3 col-sm-6"> <i class="fal fa-building text-huge"></i>
-                <h3>10,000 Buisnesses</h3>
-            </div>
+        <div class="col-lg-3 col-sm-6"> <i class="fad fa-building text-huge"></i>
+            <h3>10,000+<br>
+                Buisnesses</h3>
         </div>
     </div>
 </section>
-<div class="container-fluid">
-    <div class="row">
-        <div class="side-bar" data-toggle="modal" data-target="#contactModal">CONTACT US</div>
+<hr>
+<section class="container">
+    <h1 class="text-capitalize text-secondary">We are the video experts!</h1>
+    <p class="text-primary">Since 2001 we have been creating videos for buisnesses around the world.</p>
+    <div class="w-75 mx-auto">
+        <div id="demo" class="carousel slide" data-ride="carousel"> 
+            
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2"></li>
+                <li data-target="#demo" data-slide-to="3"></li>
+                <li data-target="#demo" data-slide-to="4"></li>
+                <li data-target="#demo" data-slide-to="5"></li>
+            </ul>
+            
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+                <div class="carousel-item active"> <img src="https://www.websitetalkingheads.com/ivideo/videos/Kmoon Demo.jpg" class="img-fluid video" alt="Overhead Unboxing Example"> </div>
+                <div class="carousel-item"> <img src="https://www.websitetalkingheads.com/ivideo/videos/Reks.jpg" class="img-fluid video" alt="Overhead Unboxing Example"> </div>
+                <div class="carousel-item"> <img src="https://www.websitetalkingheads.com/ivideo/videos/Perfect Keto.jpg" class="img-fluid video" alt="Product Demonstration Example-Hero Shot"> </div>
+                <div class="carousel-item"> <img src="https://www.websitetalkingheads.com/ivideo/videos/Minithrowballs Video.jpg" class="img-fluid video" alt="Product Demonstration with Spokesperson"> </div>
+                <div class="carousel-item"> <img src="https://www.websitetalkingheads.com/ivideo/videos/Reks.jpg" class="img-fluid video" alt="Product Demonstration-Reks"> </div>
+                <div class="carousel-item"> <img src="https://www.websitetalkingheads.com/ivideo/videos/Overhead-Product-Demo-Video.jpg" class="img-fluid video" alt="Demo Video Example"> </div>
+            </div>
+            
+            <!-- Left and right controls -->
+            <div class="controls"> <a class="carousel-control-prev" href="#demo" data-slide="prev"> <i class="fad fa-chevron-circle-left"></i> </a> <a class="carousel-control-next" href="#demo" data-slide="next"> <i class="fad fa-chevron-circle-right"></i> </a> </div>
+        </div>
     </div>
-</div>
+</section>
+<section class="container-fluid">
+    <h5>End</h5>
+</section>
+<div class="side-bar" data-toggle="modal" data-target="#contactModal">CONTACT US</div>
 <!--Java Script--> 
 <script
   src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script> 
