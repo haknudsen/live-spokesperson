@@ -430,3 +430,19 @@ footer a:hover{color: $light;}
 .carousel{
     .controls{font-size:3rem;}
 }
+//--------------------------------Steps (mini-cards)
+.step{
+    color: $primary;
+    .step-icon{
+        font-size:2rem;
+        }
+    .step-number{
+        font-weight:600;
+        font-size: 1rem;
+        }
+    .step-content{
+        font-size: .75rem;
+        line-height: 1;
+    }
+}
+

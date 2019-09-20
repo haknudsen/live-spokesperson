@@ -14233,4 +14233,23 @@ footer a:hover {
   font-size: 3rem;
 }
 
+/* line 434, ../scss/mine/_my-custom.scss */
+.step {
+  color: #00A3FF;
+}
+/* line 436, ../scss/mine/_my-custom.scss */
+.step .step-icon {
+  font-size: 2rem;
+}
+/* line 439, ../scss/mine/_my-custom.scss */
+.step .step-number {
+  font-weight: 600;
+  font-size: 1rem;
+}
+/* line 443, ../scss/mine/_my-custom.scss */
+.step .step-content {
+  font-size: .75rem;
+  line-height: 1;
+}
+
 /*# sourceMappingURL=bootstrap.css.map */
