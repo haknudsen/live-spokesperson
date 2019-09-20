@@ -28,8 +28,6 @@
         </div>
       </div>
     </div>
-    <h3 class="text-light">Sometimes When You Develop A Brand-new Product the Hardest Part is <em>Brainstorming</em> the Easiest Way to Reveal It to The Masses.</h3>
-    <h4 class="text-light text-capitalize">How is your <strong class="text-warning">Product</strong> going to make that impression?</h4>
     <h4 class="text-info">We Believe in Our Videos So Much That We Are Willing To Give Away a <strong class="free text-danger">Free</strong> Video Just to Prove Our Point</h4>
   </div>
   <div class="container py-4"> </div>
@@ -126,13 +124,28 @@
   </div>
 </section>
 <section class="wave-holder">
-  <div class="wave-top"></div>
-  <div class="bg-dark">
+  <div class="wave-top">
+      
+    <svg viewBox="0 0 500 120" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+      <path d="M0.00,100.27 C186.83,2.92 304.30,28.39 500.00,119.03 L500.00,120.00 L0.00,120.00 Z" style="stroke: none;fill: #004582;"></path>
+    </svg>
+  </div>
+  <div class="wave-body">
     <div class="container">
-        
+      <div class="row align-items-center">
+        <div class="col-lg-10">
+          <h3 class="text-white">Sometimes When You Develop a New Product the Hardest Part is <span class="font-italic text-info font-weight-light">Brainstorming</span> the Easiest Way to Reveal It to The Masses.</h3>
+          <h4 class="text-light text-capitalize mb-0">How is your <strong class="text-warning">Product</strong> going to make that impression?</h4>
+        </div>
+        <div class="col-lg-2 text-huge text-center"> <i class="fal fa-desktop"></i> </div>
+      </div>
     </div>
   </div>
-  <div class="wave-bottom"></div>
+  <div class="wave-bottom">
+    <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+      <path d="M0.00,92.27 C216.83,192.92 304.30,8.39 500.00,109.03 L500.00,0.00 L0.00,0.00 Z" style="stroke: none;fill: #004582;"></path>
+    </svg>
+  </div>
 </section>
 <!--Java Script--> 
 <script
