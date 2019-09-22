@@ -145,6 +145,25 @@
     </div>
 </section>
 <hr>
+<section class="gallery-block compact-gallery">
+    <div class="container">
+        <div class="heading">
+            <h2>Compact Gallery</h2>
+        </div>
+        <div class="row no-gutters">
+            <div class="col-md-6 col-lg-4 item zoom-on-hover"> <a class="lightbox" href="images/Backpack Jack.jpg"> <img class="img-fluid image" src="images/Backpack Jack.jpg"> <span class="description"> <span class="description-heading">Lorem Ipsum</span> <span class="description-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span> </span> </a> </div>
+            <div class="col-md-6 col-lg-4 item zoom-on-hover"> <a class="lightbox" href="images/Byte.jpg"> <img class="img-fluid image" src="images/Byte.jpg"> <span class="description"> <span class="description-heading">Lorem Ipsum</span> <span class="description-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span> </span> </a> </div>
+            <div class="col-md-6 col-lg-4 item zoom-on-hover"> <a class="lightbox" href="images/Carmel Bar Demo.jpg"> <img class="img-fluid image" src="images/Carmel Bar Demo.jpg"> <span class="description"> <span class="description-heading">Lorem Ipsum</span> <span class="description-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span> </span> </a> </div>
+            <div class="col-md-6 col-lg-4 item zoom-on-hover"> <a class="lightbox" href="images/Cellgevity.jpg"> <img class="img-fluid image" src="images/Cellgevity.jpg"> <span class="description"> <span class="description-heading">Lorem Ipsum</span> <span class="description-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span> </span> </a> </div>
+            <div class="col-md-6 col-lg-4 item zoom-on-hover"> <a class="lightbox" href="images/Cosmetics Demo.jpg"> <img class="img-fluid image" src="images/Cosmetics Demo.jpg"> <span class="description"> <span class="description-heading">Lorem Ipsum</span> <span class="description-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span> </span> </a> </div>
+            <div class="col-md-6 col-lg-4 item zoom-on-hover"> <a class="lightbox" href="images/Kmoon Demo.jpg"> <img class="img-fluid image" src="images/Kmoon Demo.jpg"> <span class="description"> <span class="description-heading">Lorem Ipsum</span> <span class="description-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span> </span> </a> </div>
+            <div class="col-md-6 col-lg-4 item zoom-on-hover"> <a class="lightbox" href="images/Lux Pro Demo.jpg"> <img class="img-fluid image" src="images/Lux Pro Demo.jpg"> <span class="description"> <span class="description-heading">Lorem Ipsum</span> <span class="description-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span> </span> </a> </div>
+            <div class="col-md-6 col-lg-4 item zoom-on-hover"> <a class="lightbox" href="images/Nuchi.jpg"> <img class="img-fluid image" src="images/Nuchi.jpg"> <span class="description"> <span class="description-heading">Lorem Ipsum</span> <span class="description-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span> </span> </a> </div>
+            <div class="col-md-6 col-lg-4 item zoom-on-hover"> <a class="lightbox" href="images/Perfect Keto.jpg"> <img class="img-fluid image" src="images/Perfect Keto.jpg"> <span class="description"> <span class="description-heading">Lorem Ipsum</span> <span class="description-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span> </span> </a> </div>
+        </div>
+    </div>
+</section>
+<hr>
 <section class="container-fluid">
     <h5>End</h5>
 </section>
