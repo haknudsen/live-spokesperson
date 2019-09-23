@@ -46,7 +46,11 @@
   </div>
 </section>
 <section class="wave-holder">
-  <div class="wave-top"></div>
+  <div class="wave-top">
+    <svg viewBox="0 0 500 120" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+      <path d="M0.00,100.27 C186.83,2.92 304.30,28.39 500.00,119.03 L500.00,120.00 L0.00,120.00 Z" style="stroke: none;fill: #004582;"></path>
+    </svg>
+  </div>
   <div class="bg-dark">
     <div class="text-center">
       <h2 class="text-uppercase">Free offer ends soon!</h2>
@@ -63,7 +67,11 @@
       </div>
     </div>
   </div>
-  <div class="wave-bottom"></div>
+  <div class="wave-bottom">
+    <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+      <path d="M0.00,92.27 C216.83,192.92 304.30,8.39 500.00,109.03 L500.00,0.00 L0.00,0.00 Z" style="stroke: none;fill: #004582;"></path>
+    </svg>
+  </div>
 </section>
 <section class="how-section1 bg-gradient-black p-5">
   <div class="row align-items-center mt-3">
@@ -125,7 +133,6 @@
 </section>
 <section class="wave-holder">
   <div class="wave-top">
-      
     <svg viewBox="0 0 500 120" preserveAspectRatio="none" style="height: 100%; width: 100%;">
       <path d="M0.00,100.27 C186.83,2.92 304.30,28.39 500.00,119.03 L500.00,120.00 L0.00,120.00 Z" style="stroke: none;fill: #004582;"></path>
     </svg>
