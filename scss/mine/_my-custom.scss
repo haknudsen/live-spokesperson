@@ -243,8 +243,6 @@ textarea {
 	input { width: 100%; margin-bottom: 4px;padding-left: 4px }
     textarea{margin-right: 30px}
 }
-#vtigerFormSubmitBtn{padding: .25rem 1rem!important;@include gradient-mine($gray-100,$gray-300);margin-bottom: .25rem;text-align: center;align-items: center;
-	&:hover{@include gradient-mine($gray-300,$gray-100)}}
 .website{
 	max-width: 384px;
 	transition: all .2s ease-in-out;
@@ -373,7 +371,17 @@ footer a:hover{color: $light;}
 .box-header i{font-size: 2rem}
 .spokesperson-name{text-align: center;font-size: 1.25rem;font-weight: 700}
 .g-recaptcha div{margin: 0 auto}
-#contactModalCenter input,#contactModalCenter textarea{font-size: .6rem}
+#contactModalCenter,#contactModalCenter{font-size: .6rem;
+    table{width: 100%}
+    input[type=email],input[type=text],textarea{width: 100%;padding: 4px;background-color: $light;margin-bottom: .25rem;border: solid 1px $primary;
+        &:focus{
+            border-style: inset;  
+            background-color: lighten($light, 10%)
+        }
+    }
+    #vtigerFormSubmitBtn{padding: .25rem 1rem!important;@include gradient-mine($gray-100,$gray-300);text-align: center;align-items: center;border-radius: .25rem;font-weight: 600;font-size: 1rem;
+	&:hover{@include gradient-mine($gray-300,$gray-100)}}
+}
 .wrapped-text{font-size: .8rem;font-family: open-sans, sans-serif;font-weight: 700;font-style: normal;}
 .text-turbo{font-size: 1.7rem;font-weight: 700;animation-delay: 1s;animation-iteration-count: infinite;}
 .check{

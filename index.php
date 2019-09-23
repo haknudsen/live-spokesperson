@@ -13,7 +13,7 @@
 
 <body>
 	<?php include("includes/nav.php"); ?>
-	<section class="jumbotron">
+	<section class="jumbotron" id="contact-row">
         <h1 class="text-center">Web Video Production</h1>
 		<div class="row align-items-center">
 			<div class="col-xl-6 offset-1" id="video-holder">
@@ -97,7 +97,7 @@
 			<p class="content">We pride ourselves on our experienced website spokespeople. Along with the very best Animators, Compositors, and Graphic Artists in the business.  We do not outsource or use freelancers.</p>
 			<p class="content">Capture your the attention of your website's visitors and build brand awareness.  All while increasing your search engine rankings with a Web Video from Talking Heads<sup><i class="fal fa-registered"></i></sup>.</p>
 			<div class="btn-block">
-				<div class="btn btn-dark wow pulse" data-toggle="modal" data-target="#contactModalCenter">Request a Quote</div>
+				<div class="btn btn-dark wow pulse"><a href="#contact-row">Request a Quote</a></div>
 				<a href="about/" title="More About Us">
 					<div class="btn btn-light text-capitalize">more about us</div>
 				</a>
@@ -173,8 +173,7 @@
 	<section class="contact-section">
 		<div class="row align-middle">
 			<div class="col-12 text-center">
-				<button type="button" class="btn btn-contact text-uppercase wow slideInRight" data-toggle="modal" data-target="#contactModalCenter">contact us
-				</button>
+				<div class="btn btn-contact text-uppercase wow slideInRight" ><a href="#contact-row">contact us</a> </div>
 			</div>
 		</div>
 	</section>
@@ -186,7 +185,6 @@
 	<?php include("includes/spokesperson-specials.php"); ?>
 	<?php include("includes/footer.php"); ?>
 	<?php include("includes/modal.php"); ?>
-	<?php include("includes/contact-modal.php"); ?>
 	<script>
 		$( document ).ready( function () {
 			setInterval( changeTestimonial, 5000 );
