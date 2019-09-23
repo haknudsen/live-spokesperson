@@ -13270,7 +13270,7 @@ html {
   }
 
   /* line 70, ../scss/mine/_gallery.scss */
-  .gallery-block.compact-gallery .item a:hover .description {
+  .gallery-block.compact-gallery .item:hover .description {
     opacity: 1;
   }
 
