@@ -20,19 +20,19 @@
 <section class="container-fluid mt-3">
     <div class="row text-primary">
         <div class="col-lg-3 col-sm-6"> <i class="fad fa-birthday-cake text-huge"></i>
-            <h3>Founded<br>
+            <h3 class="lh-1">Founded<br>
                 2001</h3>
         </div>
         <div class="col-lg-3 col-sm-6"> <i class="fad fa-globe-americas text-huge"></i>
-            <h3>Dozens<br>
+            <h3 class="lh-1">Dozens<br>
                 of Countries</h3>
         </div>
         <div class="col-lg-3 col-sm-6"> <i class="fad fa-film text-huge"></i>
-            <h3>50,000+<br>
+            <h3 class="lh-1">50,000+<br>
                 Videos</h3>
         </div>
         <div class="col-lg-3 col-sm-6"> <i class="fad fa-building text-huge"></i>
-            <h3>10,000+<br>
+            <h3 class="lh-1">10,000+<br>
                 Buisnesses</h3>
         </div>
     </div>
@@ -138,8 +138,7 @@
                 <li class="list-group-item">Rush Turn Around Times Available</li>
                 <li class="list-group-item">Video Format for ANY Video platform</li>
                 <li class="list-group-item">Customizable Backgrounds</li>
-                <li class="list-group-item">Free Return Shipping On Most Orders</li>
-                <li class="list-group-item">Vestibulum at eros</li>
+                <li class="list-group-item">Color Matching</li>
             </ul>
         </div>
     </div>
@@ -167,8 +166,7 @@
 <section class="container-fluid">
     <h5>End</h5>
 </section>
-<div class="side-bar" data-toggle="modal" data-target="#contactModal">CONTACT US</div>
-<?php include("../../includes/modal.php"); ?>
+<div class="side-bar" data-toggle="modal" data-target="#contactModalCenter">CONTACT US</div>
 <!--Java Script--> 
 <script
   src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script> 
@@ -199,5 +197,6 @@
 }, 1000); });
     </script>
 <?php include("../../includes/modal.php"); ?>
+<?php include("../../includes/contact-modal.php"); ?>
 </body>
 </html>

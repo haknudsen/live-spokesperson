@@ -173,7 +173,7 @@
 	<section class="contact-section">
 		<div class="row align-middle">
 			<div class="col-12 text-center">
-				<button type="button" class="btn btn-contact text-uppercase wow slideInRight" data-toggle="modal" data-target="#contactModalCenter"><a class="text-dark" href="#phone" title="Contact Us">contact us</a>
+				<button type="button" class="btn btn-contact text-uppercase wow slideInRight" data-toggle="modal" data-target="#contactModalCenter">contact us
 				</button>
 			</div>
 		</div>
