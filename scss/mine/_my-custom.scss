@@ -1,7 +1,7 @@
 /* Scss Document */
 .content {
 	font-size: 1.2rem;
-	color: #000011;
+	color: $dark;
     text-indent: 0;
 }
 .list-style-item {
@@ -368,6 +368,9 @@ footer a:hover{color: $light;}
 	@include gradient-mine($gray-100,$gray-200);
     color: $dark;
 }
+.stroke { text-shadow: 3px 3px 0 $dark, -1px -1px 0 $dark, 1px -1px 0 $dark, -1px 1px 0 $dark, 1px 1px 0 $dark; }
+.video-header{position: absolute;top: 50%;bottom: auto;right: auto;left:50%;transform: translate(-50%,-50%);color: $white;z-index: 9}
+.text-heavy{font-family: open-sans, sans-serif;font-weight: 800;font-style: normal;}
 .box-header i{font-size: 2rem}
 .spokesperson-name{text-align: center;font-size: 1.25rem;font-weight: 700}
 .g-recaptcha div{margin: 0 auto}
