@@ -13683,7 +13683,60 @@ textarea {
   /* IE6-9 */
 }
 
-/* line 211, ../scss/mine/_my-custom.scss */
+/* line 209, ../scss/mine/_my-custom.scss */
+.btn-gradient-primary {
+  border-color: #33b5ff #33b5ff #33b5ff;
+  background-repeat: repeat-x;
+  background: #00A3FF;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #00A3FF 0%, #33b5ff 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #00A3FF), color-stop(100%, #33b5ff));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #00A3FF 0%, #33b5ff 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #00A3FF 0%, #33b5ff 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #00A3FF 0%, #33b5ff 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #00A3FF 0%, #33b5ff 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$top', endColorstr='$bottom',GradientType=0 );
+  /* IE6-9 */
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075);
+  color: #E5F0FF !important;
+  font-weight: 600;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.33);
+  -webkit-font-smoothing: antialiased;
+}
+/* line 216, ../scss/mine/_my-custom.scss */
+.btn-gradient-primary:hover {
+  border-color: #00A3FF #00A3FF #00A3FF;
+  background-repeat: repeat-x;
+  background: #33b5ff;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #33b5ff 0%, #00A3FF 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #33b5ff), color-stop(100%, #00A3FF));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #33b5ff 0%, #00A3FF 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #33b5ff 0%, #00A3FF 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #33b5ff 0%, #00A3FF 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #33b5ff 0%, #00A3FF 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$top', endColorstr='$bottom',GradientType=0 );
+  /* IE6-9 */
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.66);
+}
+/* line 220, ../scss/mine/_my-custom.scss */
+.btn-gradient-primary a {
+  color: #E5F0FF !important;
+}
+
+/* line 222, ../scss/mine/_my-custom.scss */
 .btn-custom {
   border-color: #66AAFF #66AAFF #66AAFF;
   background-repeat: repeat-x;
@@ -13709,7 +13762,7 @@ textarea {
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.33);
   -webkit-font-smoothing: antialiased;
 }
-/* line 217, ../scss/mine/_my-custom.scss */
+/* line 228, ../scss/mine/_my-custom.scss */
 .btn-custom:hover {
   border-color: #256ABF #256ABF #256ABF;
   background-repeat: repeat-x;
@@ -13731,53 +13784,53 @@ textarea {
   /* IE6-9 */
   text-shadow: 0 1px 0 rgba(0, 0, 0, 0.66);
 }
-/* line 221, ../scss/mine/_my-custom.scss */
+/* line 232, ../scss/mine/_my-custom.scss */
 .btn-custom a {
   color: #fff !important;
 }
 
-/* line 223, ../scss/mine/_my-custom.scss */
+/* line 234, ../scss/mine/_my-custom.scss */
 #spokesperson_videos .card .card-img-top {
   max-width: 220px;
   margin: 0 auto;
 }
 
-/* line 224, ../scss/mine/_my-custom.scss */
+/* line 235, ../scss/mine/_my-custom.scss */
 #awards .card {
   max-width: 500px;
 }
 
-/* line 225, ../scss/mine/_my-custom.scss */
+/* line 236, ../scss/mine/_my-custom.scss */
 #awards .card-body {
   padding-top: 0;
 }
 
-/* line 226, ../scss/mine/_my-custom.scss */
+/* line 237, ../scss/mine/_my-custom.scss */
 .text-light a {
   color: #E5F0FF;
 }
 
-/* line 227, ../scss/mine/_my-custom.scss */
+/* line 238, ../scss/mine/_my-custom.scss */
 .text-large {
   font-size: 200%;
 }
 
-/* line 228, ../scss/mine/_my-custom.scss */
+/* line 239, ../scss/mine/_my-custom.scss */
 .text-huge {
   font-size: 400%;
 }
 
-/* line 229, ../scss/mine/_my-custom.scss */
+/* line 240, ../scss/mine/_my-custom.scss */
 .text-faded {
   opacity: 0.6;
 }
 
-/* line 230, ../scss/mine/_my-custom.scss */
+/* line 241, ../scss/mine/_my-custom.scss */
 .lh-1 {
   line-height: 1;
 }
 
-/* line 231, ../scss/mine/_my-custom.scss */
+/* line 242, ../scss/mine/_my-custom.scss */
 .notification {
   padding-top: 1rem;
   text-align: center;
@@ -13788,17 +13841,17 @@ textarea {
   color: #E5F0FF;
 }
 
-/* line 232, ../scss/mine/_my-custom.scss */
+/* line 243, ../scss/mine/_my-custom.scss */
 .list-group-indent {
   padding-left: 2rem;
 }
 
-/* line 233, ../scss/mine/_my-custom.scss */
+/* line 244, ../scss/mine/_my-custom.scss */
 .card-columns h3 {
   font-size: 1.25rem;
 }
 
-/* line 234, ../scss/mine/_my-custom.scss */
+/* line 245, ../scss/mine/_my-custom.scss */
 .sidebar {
   font-size: 0.8rem;
   padding-right: 0;
@@ -13806,68 +13859,68 @@ textarea {
   top: 137px;
 }
 
-/* line 235, ../scss/mine/_my-custom.scss */
+/* line 246, ../scss/mine/_my-custom.scss */
 .sidebar .nav-link {
   color: #E5F0FF !important;
 }
 
-/* line 236, ../scss/mine/_my-custom.scss */
+/* line 247, ../scss/mine/_my-custom.scss */
 .actor img {
   width: 160px;
   height: 180px;
 }
 
-/* line 237, ../scss/mine/_my-custom.scss */
+/* line 248, ../scss/mine/_my-custom.scss */
 .actor {
   position: relative;
   width: 160px;
   margin: 0 auto;
 }
-/* line 238, ../scss/mine/_my-custom.scss */
+/* line 249, ../scss/mine/_my-custom.scss */
 .actor img {
   max-width: 180px;
   margin: 0 auto;
 }
-/* line 239, ../scss/mine/_my-custom.scss */
+/* line 250, ../scss/mine/_my-custom.scss */
 .actor h3 {
   font-size: 1.5rem;
   font-weight: 700;
 }
-/* line 240, ../scss/mine/_my-custom.scss */
+/* line 251, ../scss/mine/_my-custom.scss */
 .actor:hover > .thumb-wrapper:before {
   color: #E5F0FF;
 }
 
-/* line 242, ../scss/mine/_my-custom.scss */
+/* line 253, ../scss/mine/_my-custom.scss */
 .inputs {
   margin: .5rem;
 }
-/* line 243, ../scss/mine/_my-custom.scss */
+/* line 254, ../scss/mine/_my-custom.scss */
 .inputs input {
   width: 100%;
   margin-bottom: 4px;
   padding-left: 4px;
 }
-/* line 244, ../scss/mine/_my-custom.scss */
+/* line 255, ../scss/mine/_my-custom.scss */
 .inputs textarea {
   margin-right: 30px;
 }
 
-/* line 246, ../scss/mine/_my-custom.scss */
+/* line 257, ../scss/mine/_my-custom.scss */
 .website {
   max-width: 384px;
   transition: all .2s ease-in-out;
 }
-/* line 249, ../scss/mine/_my-custom.scss */
+/* line 260, ../scss/mine/_my-custom.scss */
 .website h3 {
   font-size: 32px;
 }
-/* line 250, ../scss/mine/_my-custom.scss */
+/* line 261, ../scss/mine/_my-custom.scss */
 .website:hover {
   transform: scale(1.1);
 }
 
-/* line 252, ../scss/mine/_my-custom.scss */
+/* line 263, ../scss/mine/_my-custom.scss */
 .thumb-wrapper {
   position: absolute;
   top: 45%;
@@ -13882,7 +13935,7 @@ textarea {
   border-radius: 50%;
   border: -4px solid black;
 }
-/* line 265, ../scss/mine/_my-custom.scss */
+/* line 276, ../scss/mine/_my-custom.scss */
 .thumb-wrapper:before {
   font-size: 48px;
   position: absolute;
@@ -13894,45 +13947,45 @@ textarea {
   right: auto;
 }
 
-/* line 276, ../scss/mine/_my-custom.scss */
+/* line 287, ../scss/mine/_my-custom.scss */
 .i-sup {
   font-size: 60%;
   vertical-align: super;
   padding: 0 6px;
 }
 
-/* line 277, ../scss/mine/_my-custom.scss */
+/* line 288, ../scss/mine/_my-custom.scss */
 footer a:hover {
   color: #E5F0FF;
 }
 
-/* line 278, ../scss/mine/_my-custom.scss */
+/* line 289, ../scss/mine/_my-custom.scss */
 .understrap-read-more-link {
   float: left;
 }
 
-/* line 279, ../scss/mine/_my-custom.scss */
+/* line 290, ../scss/mine/_my-custom.scss */
 .more-link {
   float: right;
 }
 
-/* line 280, ../scss/mine/_my-custom.scss */
+/* line 291, ../scss/mine/_my-custom.scss */
 .testimonial {
   clear: both;
   font-size: 1.5rem;
   height: 320px;
 }
-/* line 281, ../scss/mine/_my-custom.scss */
+/* line 292, ../scss/mine/_my-custom.scss */
 .testimonial .carousel-control-prev, .testimonial .carousel-control-next {
   width: 5%;
 }
-/* line 282, ../scss/mine/_my-custom.scss */
+/* line 293, ../scss/mine/_my-custom.scss */
 .testimonial .carousel-inner {
   height: 235px;
   overflow: hidden;
 }
 
-/* line 284, ../scss/mine/_my-custom.scss */
+/* line 295, ../scss/mine/_my-custom.scss */
 .quote {
   font-weight: 600;
   font-family: open-sans, sans-serif;
@@ -13941,7 +13994,7 @@ footer a:hover {
   line-height: 1.2;
 }
 
-/* line 285, ../scss/mine/_my-custom.scss */
+/* line 296, ../scss/mine/_my-custom.scss */
 .subject {
   text-align: center;
   font-weight: 200;
@@ -13949,7 +14002,7 @@ footer a:hover {
   margin-top: 1rem;
 }
 
-/* line 286, ../scss/mine/_my-custom.scss */
+/* line 297, ../scss/mine/_my-custom.scss */
 .form-name {
   text-align: center;
   font-weight: 700;
@@ -13957,14 +14010,14 @@ footer a:hover {
   font-size: 1.5rem;
 }
 
-/* line 287, ../scss/mine/_my-custom.scss */
+/* line 298, ../scss/mine/_my-custom.scss */
 .social-icons {
   align-items: center;
   display: flex;
   justify-content: center;
 }
 
-/* line 288, ../scss/mine/_my-custom.scss */
+/* line 299, ../scss/mine/_my-custom.scss */
 .social-link {
   border-radius: 50%;
   border: thin solid #1D2B61;
@@ -13977,39 +14030,39 @@ footer a:hover {
   background: #E5F0FF;
   font-size: 2rem;
 }
-/* line 299, ../scss/mine/_my-custom.scss */
+/* line 310, ../scss/mine/_my-custom.scss */
 .social-link a {
   color: #00A3FF;
 }
-/* line 302, ../scss/mine/_my-custom.scss */
+/* line 313, ../scss/mine/_my-custom.scss */
 .social-link:hover {
   color: #E5F0FF;
   background: #1D2B61;
 }
 
-/* line 307, ../scss/mine/_my-custom.scss */
+/* line 318, ../scss/mine/_my-custom.scss */
 #speech-bubble {
   font-size: 3rem;
 }
 @media (max-width: 991.98px) {
-  /* line 307, ../scss/mine/_my-custom.scss */
+  /* line 318, ../scss/mine/_my-custom.scss */
   #speech-bubble {
     display: none;
   }
 }
 
-/* line 311, ../scss/mine/_my-custom.scss */
+/* line 322, ../scss/mine/_my-custom.scss */
 .bg-gradient-dark, .bg-gradient-light, .navbar-light, .navbar-dark {
   transition: 1s ease-in-out;
 }
 
-/* line 312, ../scss/mine/_my-custom.scss */
+/* line 323, ../scss/mine/_my-custom.scss */
 #quote {
   padding: 0;
   font-style: italic;
   line-height: 1;
 }
-/* line 316, ../scss/mine/_my-custom.scss */
+/* line 327, ../scss/mine/_my-custom.scss */
 #quote:before {
   font-family: "Font Awesome 5 Pro";
   font-weight: normal;
@@ -14019,7 +14072,7 @@ footer a:hover {
   padding-right: .5rem;
   vertical-align: top;
 }
-/* line 325, ../scss/mine/_my-custom.scss */
+/* line 336, ../scss/mine/_my-custom.scss */
 #quote:after {
   font-family: "Font Awesome 5 Pro";
   font-weight: normal;
@@ -14030,41 +14083,41 @@ footer a:hover {
   vertical-align: top;
 }
 
-/* line 335, ../scss/mine/_my-custom.scss */
+/* line 346, ../scss/mine/_my-custom.scss */
 .card-header i {
   font-size: 3rem;
 }
 
-/* line 336, ../scss/mine/_my-custom.scss */
+/* line 347, ../scss/mine/_my-custom.scss */
 .spokesperson-specials {
   margin-bottom: 2rem;
   text-align: center;
 }
-/* line 339, ../scss/mine/_my-custom.scss */
+/* line 350, ../scss/mine/_my-custom.scss */
 .spokesperson-specials h5, .spokesperson-specials p {
   margin: 0;
 }
-/* line 340, ../scss/mine/_my-custom.scss */
+/* line 351, ../scss/mine/_my-custom.scss */
 .spokesperson-specials h5 {
   font-size: 1rem;
 }
 
-/* line 342, ../scss/mine/_my-custom.scss */
+/* line 353, ../scss/mine/_my-custom.scss */
 .box {
   border: thin solid #00A3FF;
 }
 
-/* line 343, ../scss/mine/_my-custom.scss */
+/* line 354, ../scss/mine/_my-custom.scss */
 .tiny {
   font-size: 50%;
 }
 
-/* line 344, ../scss/mine/_my-custom.scss */
+/* line 355, ../scss/mine/_my-custom.scss */
 .no-js #loader {
   display: none;
 }
 
-/* line 345, ../scss/mine/_my-custom.scss */
+/* line 356, ../scss/mine/_my-custom.scss */
 .js #loader {
   display: block;
   position: absolute;
@@ -14072,7 +14125,7 @@ footer a:hover {
   top: 0;
 }
 
-/* line 346, ../scss/mine/_my-custom.scss */
+/* line 357, ../scss/mine/_my-custom.scss */
 .se-pre-con {
   position: fixed;
   left: 0;
@@ -14083,12 +14136,12 @@ footer a:hover {
   background: url(/images/preloader.gif) center no-repeat #fff;
 }
 
-/* line 346, ../scss/mine/_my-custom.scss */
+/* line 357, ../scss/mine/_my-custom.scss */
 #show-more {
   cursor: pointer;
 }
 
-/* line 347, ../scss/mine/_my-custom.scss */
+/* line 358, ../scss/mine/_my-custom.scss */
 .demo {
   height: 280px;
   width: 100%;
@@ -14100,12 +14153,12 @@ footer a:hover {
   background-position: center;
   background-size: cover;
 }
-/* line 357, ../scss/mine/_my-custom.scss */
+/* line 368, ../scss/mine/_my-custom.scss */
 .demo .row {
   margin: 2rem auto;
 }
 
-/* line 359, ../scss/mine/_my-custom.scss */
+/* line 370, ../scss/mine/_my-custom.scss */
 .demo-title {
   text-align: center;
   color: #E5F0FF;
@@ -14115,37 +14168,37 @@ footer a:hover {
   display: flex;
 }
 
-/* line 360, ../scss/mine/_my-custom.scss */
+/* line 371, ../scss/mine/_my-custom.scss */
 #standard {
   background-image: url("../images/standard-demo.jpg");
 }
 
-/* line 361, ../scss/mine/_my-custom.scss */
+/* line 372, ../scss/mine/_my-custom.scss */
 #unboxing {
   background-image: url("../images/overhead.jpg");
 }
 
-/* line 362, ../scss/mine/_my-custom.scss */
+/* line 373, ../scss/mine/_my-custom.scss */
 #explaination {
   background-image: url("../images/spokesperson-explanation.jpg");
 }
 
-/* line 363, ../scss/mine/_my-custom.scss */
+/* line 374, ../scss/mine/_my-custom.scss */
 #live-action {
   background-image: url("../images/live-action-demonstration.jpg");
 }
 
-/* line 364, ../scss/mine/_my-custom.scss */
+/* line 375, ../scss/mine/_my-custom.scss */
 .pop {
   box-shadow: none;
   transition: all 0.3s ease-in-out;
 }
-/* line 365, ../scss/mine/_my-custom.scss */
+/* line 376, ../scss/mine/_my-custom.scss */
 .pop:hover {
   box-shadow: 0px 25px 45px 0px rgba(0, 0, 0, 0.15);
 }
 
-/* line 367, ../scss/mine/_my-custom.scss */
+/* line 378, ../scss/mine/_my-custom.scss */
 .alert-styles {
   border-color: #B2D4FF #B2D4FF #B2D4FF;
   background-repeat: repeat-x;
@@ -14168,12 +14221,12 @@ footer a:hover {
   color: #1D2B61;
 }
 
-/* line 371, ../scss/mine/_my-custom.scss */
+/* line 382, ../scss/mine/_my-custom.scss */
 .stroke {
   text-shadow: 3px 3px 0 #1D2B61, -1px -1px 0 #1D2B61, 1px -1px 0 #1D2B61, -1px 1px 0 #1D2B61, 1px 1px 0 #1D2B61;
 }
 
-/* line 372, ../scss/mine/_my-custom.scss */
+/* line 383, ../scss/mine/_my-custom.scss */
 .video-header {
   position: absolute;
   top: 50%;
@@ -14185,39 +14238,39 @@ footer a:hover {
   z-index: 9;
 }
 
-/* line 373, ../scss/mine/_my-custom.scss */
+/* line 384, ../scss/mine/_my-custom.scss */
 .text-heavy {
   font-family: open-sans, sans-serif;
   font-weight: 800;
   font-style: normal;
 }
 
-/* line 374, ../scss/mine/_my-custom.scss */
+/* line 385, ../scss/mine/_my-custom.scss */
 .box-header i {
   font-size: 2rem;
 }
 
-/* line 375, ../scss/mine/_my-custom.scss */
+/* line 386, ../scss/mine/_my-custom.scss */
 .spokesperson-name {
   text-align: center;
   font-size: 1.25rem;
   font-weight: 700;
 }
 
-/* line 376, ../scss/mine/_my-custom.scss */
+/* line 387, ../scss/mine/_my-custom.scss */
 .g-recaptcha div {
   margin: 0 auto;
 }
 
-/* line 377, ../scss/mine/_my-custom.scss */
+/* line 388, ../scss/mine/_my-custom.scss */
 #contactModalCenter, #contactModalCenter {
   font-size: .6rem;
 }
-/* line 378, ../scss/mine/_my-custom.scss */
+/* line 389, ../scss/mine/_my-custom.scss */
 #contactModalCenter table, #contactModalCenter table {
   width: 100%;
 }
-/* line 379, ../scss/mine/_my-custom.scss */
+/* line 390, ../scss/mine/_my-custom.scss */
 #contactModalCenter input[type=email], #contactModalCenter input[type=text], #contactModalCenter textarea, #contactModalCenter input[type=email], #contactModalCenter input[type=text], #contactModalCenter textarea {
   width: 100%;
   padding: 4px;
@@ -14225,12 +14278,12 @@ footer a:hover {
   margin-bottom: .25rem;
   border: solid 1px #00A3FF;
 }
-/* line 380, ../scss/mine/_my-custom.scss */
+/* line 391, ../scss/mine/_my-custom.scss */
 #contactModalCenter input[type=email]:focus, #contactModalCenter input[type=text]:focus, #contactModalCenter textarea:focus, #contactModalCenter input[type=email]:focus, #contactModalCenter input[type=text]:focus, #contactModalCenter textarea:focus {
   border-style: inset;
   background-color: white;
 }
-/* line 385, ../scss/mine/_my-custom.scss */
+/* line 396, ../scss/mine/_my-custom.scss */
 #contactModalCenter #vtigerFormSubmitBtn, #contactModalCenter #vtigerFormSubmitBtn {
   padding: 0.25rem 1rem !important;
   border-color: #66AAFF #66AAFF #66AAFF;
@@ -14257,7 +14310,7 @@ footer a:hover {
   font-weight: 600;
   font-size: 1rem;
 }
-/* line 386, ../scss/mine/_my-custom.scss */
+/* line 397, ../scss/mine/_my-custom.scss */
 #contactModalCenter #vtigerFormSubmitBtn:hover, #contactModalCenter #vtigerFormSubmitBtn:hover {
   border-color: #E5F0FF #E5F0FF #E5F0FF;
   background-repeat: repeat-x;
@@ -14279,7 +14332,7 @@ footer a:hover {
   /* IE6-9 */
 }
 
-/* line 388, ../scss/mine/_my-custom.scss */
+/* line 399, ../scss/mine/_my-custom.scss */
 .wrapped-text {
   font-size: .8rem;
   font-family: open-sans, sans-serif;
@@ -14287,7 +14340,7 @@ footer a:hover {
   font-style: normal;
 }
 
-/* line 389, ../scss/mine/_my-custom.scss */
+/* line 400, ../scss/mine/_my-custom.scss */
 .text-turbo {
   font-size: 1.7rem;
   font-weight: 700;
@@ -14295,12 +14348,12 @@ footer a:hover {
   animation-iteration-count: infinite;
 }
 
-/* line 390, ../scss/mine/_my-custom.scss */
+/* line 401, ../scss/mine/_my-custom.scss */
 .check {
   list-style: none;
   padding: 0;
 }
-/* line 393, ../scss/mine/_my-custom.scss */
+/* line 404, ../scss/mine/_my-custom.scss */
 .check li.list-group-item::before {
   font-family: "Font Awesome 5 Pro";
   display: inline-block;
@@ -14308,7 +14361,7 @@ footer a:hover {
   padding-right: .5rem;
 }
 
-/* line 401, ../scss/mine/_my-custom.scss */
+/* line 412, ../scss/mine/_my-custom.scss */
 .wave-holder {
   width: 100%;
   margin: 0;
@@ -14316,20 +14369,20 @@ footer a:hover {
   color: white;
 }
 
-/* line 404, ../scss/mine/_my-custom.scss */
+/* line 415, ../scss/mine/_my-custom.scss */
 .wave-bottom, .wave-top {
   position: relative;
   width: 100%;
   height: 120px;
 }
 
-/* line 409, ../scss/mine/_my-custom.scss */
+/* line 420, ../scss/mine/_my-custom.scss */
 .wave-body {
   background: #004582;
   min-height: 200px;
 }
 
-/* line 413, ../scss/mine/_my-custom.scss */
+/* line 424, ../scss/mine/_my-custom.scss */
 .side-bar {
   transform: rotate(-90deg);
   position: fixed;
@@ -14350,7 +14403,7 @@ footer a:hover {
   transition: all .5s ease-in-out;
 }
 
-/* line 432, ../scss/mine/_my-custom.scss */
+/* line 443, ../scss/mine/_my-custom.scss */
 .landing-page {
   background: white;
   overflow-x: hidden;
@@ -14358,37 +14411,37 @@ footer a:hover {
   text-align: center;
 }
 
-/* line 437, ../scss/mine/_my-custom.scss */
+/* line 448, ../scss/mine/_my-custom.scss */
 .carousel-inner img {
   width: 100%;
   height: 100%;
 }
 
-/* line 443, ../scss/mine/_my-custom.scss */
+/* line 454, ../scss/mine/_my-custom.scss */
 .carousel .controls {
   font-size: 3rem;
 }
 
-/* line 446, ../scss/mine/_my-custom.scss */
+/* line 457, ../scss/mine/_my-custom.scss */
 .step {
   color: #00A3FF;
 }
-/* line 448, ../scss/mine/_my-custom.scss */
+/* line 459, ../scss/mine/_my-custom.scss */
 .step .step-icon {
   font-size: 2rem;
 }
-/* line 451, ../scss/mine/_my-custom.scss */
+/* line 462, ../scss/mine/_my-custom.scss */
 .step .step-number {
   font-weight: 600;
   font-size: 1rem;
 }
-/* line 455, ../scss/mine/_my-custom.scss */
+/* line 466, ../scss/mine/_my-custom.scss */
 .step .step-content {
   font-size: .75rem;
   line-height: 1;
 }
 
-/* line 460, ../scss/mine/_my-custom.scss */
+/* line 471, ../scss/mine/_my-custom.scss */
 .shots {
   margin-bottom: 1rem;
 }

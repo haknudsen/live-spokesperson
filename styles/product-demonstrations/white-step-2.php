@@ -11,39 +11,6 @@
 <?php include("../../includes/head.php"); ?>
 </head>
 <body class="landing-page">
-<header>
-    <div class="overlay"></div>
-    <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-        <source src="https://www.websitetalkingheads.com/ivideo/videos/Demonstration-Advertising-Example.mp4" type="video/mp4">
-    </video>
-    <div class="video-header">
-        <h2 class="free text-uppercase text-red text-huge text-heavy">free</h2>
-        <h2 class="text-heavy stroke">Product Demonstration<br>
-            Video</h2>
-        <div class="btn btn-gradient-primary"><a href="/styles/product-demonstrations/white-step-2.php" title="Free offer">Try Us FREE</a></div>
-    </div>
-</header>
-<section class="container-fluid mt-3">
-    <div class="row text-primary">
-        <div class="col-lg-3 col-sm-6"> <i class="fad fa-birthday-cake text-huge"></i>
-            <h3 class="lh-1">Founded<br>
-                2001</h3>
-        </div>
-        <div class="col-lg-3 col-sm-6"> <i class="fad fa-globe-americas text-huge"></i>
-            <h3 class="lh-1">Dozens<br>
-                of Countries</h3>
-        </div>
-        <div class="col-lg-3 col-sm-6"> <i class="fad fa-film text-huge"></i>
-            <h3 class="lh-1">50,000+<br>
-                Videos</h3>
-        </div>
-        <div class="col-lg-3 col-sm-6"> <i class="fad fa-building text-huge"></i>
-            <h3 class="lh-1">10,000+<br>
-                Buisnesses</h3>
-        </div>
-    </div>
-</section>
-<hr>
 <section class="container">
     <h1 class="text-capitalize text-secondary">We are the video experts!</h1>
     <p class="text-primary">Since 2001 we have been creating videos for buisnesses around the world.</p>
@@ -169,10 +136,9 @@
     </div>
 </section>
 <hr>
-<section class="container-fluid mb-3">
-        <div class="btn btn-gradient-primary"><a href="/styles/product-demonstrations/white-step-2.php" title="Free offer">Try Us FREE</a></div>
+<section class="container-fluid">
+    <h5>End</h5>
 </section>
-<hr>
 <div class="side-bar" data-toggle="modal" data-target="#contactModalCenter">CONTACT US</div>
 <!--Java Script--> 
 <script
