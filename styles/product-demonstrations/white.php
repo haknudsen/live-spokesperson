@@ -20,7 +20,7 @@
         <h2 class="free text-uppercase text-red text-huge text-heavy">free</h2>
         <h2 class="text-heavy stroke">Product Demonstration<br>
             Video</h2>
-        <div class="btn btn-gradient-primary"><a href="/styles/product-demonstrations/white-step-2.php" title="Free offer">Try Us FREE</a></div>
+        <div class="btn btn-gradient-primary"><a href="step-2.php?page=light" title="Free offer">Try Us FREE</a></div>
     </div>
 </header>
 <section class="container-fluid mt-3">
@@ -170,7 +170,7 @@
 </section>
 <hr>
 <section class="container-fluid mb-3">
-        <div class="btn btn-gradient-primary"><a href="/styles/product-demonstrations/white-step-2.php" title="Free offer">Try Us FREE</a></div>
+        <div class="btn btn-gradient-primary"><a href="step-2.php?page=light" title="Free offer">Try Us FREE</a></div>
 </section>
 <hr>
 <div class="side-bar" data-toggle="modal" data-target="#contactModalCenter">CONTACT US</div>

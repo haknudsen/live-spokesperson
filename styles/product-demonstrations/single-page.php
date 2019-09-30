@@ -62,7 +62,7 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="mt-3"> <a class="btn btn-primary float-lg-left wow rubberBand" href="#buy">Order Now</a> </div>
+                    <div class="mt-3"> <a class="btn btn-primary float-lg-left wow rubberBand" href="step-2.php?page=dark">Order Now</a> </div>
                 </div>
             </div>
         </div>
@@ -158,23 +158,7 @@
     <h2 class="text-warning text-uppercase">LAST chance</h2>
     <div class="text-light text-large">to get your <span class="free text-red">FREE</span> Video!</div>
     <div class="d-flex justify-content-center">
-        <div class="card">
-            <div class="card-body">
-                <h5 class="card-title">Free Demo Video</h5>
-                <div class="ecwid ecwid-SingleProduct-v2 ecwid-SingleProduct-v2-bordered ecwid-SingleProduct-v2-centered ecwid-Product ecwid-Product-150581083" itemscope itemtype="http://schema.org/Product" data-single-product-id="150581083">
-                    <div itemprop="image"></div>
-                    <div class="ecwid-title" itemprop="name" content="Free"></div>
-                    <div itemtype="http://schema.org/Offer" itemscope itemprop="offers">
-                        <div class="ecwid-productBrowser-price ecwid-price" itemprop="price" content="0" data-spw-price-location="button">
-                            <div itemprop="priceCurrency" content="USD"></div>
-                        </div>
-                    </div>
-                    <div customprop="options"></div>
-                    <div customprop="addtobag"></div>
-                </div>
-                <script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?18447751&data_platform=singleproduct_v2" charset="utf-8"></script><script type="text/javascript">xProduct()</script> 
-            </div>
-        </div>
+        <a class="btn btn-primary float-lg-left wow rubberBand" href="step-2.php?page=dark">Get Your <span class="text-red">FREE</span> Video</a>
     </div>
 </section>
 <!--Java Script--> 
