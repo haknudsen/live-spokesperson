@@ -10,7 +10,7 @@
 <meta name="Keywords" content="Video Solutions,Product Videos, Video Examples, Animated Video Production, Online Videos, Great Explainer Video, Importance Of Video Marketing, Video Experts, Custom Video Production Services, Web Video Production, New Animated Video, Website Videos, Web Video Services, Web Videos, Video Production Companies, Internet Video, Homepage Web Video, Web Video Production Strategy, Web Video Production, Web Video Production Company Instructional Video">
 <?php include("../../includes/head.php"); ?>
 </head>
-<body class="landing-page">
+<body class="landing-light">
 <header>
     <div class="overlay"></div>
     <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
@@ -20,7 +20,7 @@
         <h2 class="free text-uppercase text-red text-huge text-heavy">free</h2>
         <h2 class="text-heavy stroke">Product Demonstration<br>
             Video</h2>
-        <div class="btn btn-gradient-primary"><a href="step-2.php?page=light" title="Free offer">Try Us FREE</a></div>
+        <div class="btn btn-gradient-primary"><a href="page-2.php?page=light" title="Free offer">Try Us FREE</a></div>
     </div>
 </header>
 <section class="container-fluid mt-3">
@@ -170,7 +170,7 @@
 </section>
 <hr>
 <section class="container-fluid mb-3">
-        <div class="btn btn-gradient-primary"><a href="step-2.php?page=light" title="Free offer">Try Us FREE</a></div>
+        <div class="btn btn-gradient-primary"><a href="page-2.php?page=light" title="Free offer">Try Us FREE</a></div>
 </section>
 <hr>
 <div class="side-bar" data-toggle="modal" data-target="#contactModalCenter">CONTACT US</div>

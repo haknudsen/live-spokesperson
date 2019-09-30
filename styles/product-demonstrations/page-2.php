@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Product Demonstration Videos</title>
+<title>Order Your Product Demonstration Video</title>
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -25,15 +25,15 @@ switch ( $_GET[ 'page' ] ) {
 <body class="<?=$class?>">
 <section class="container">
   <h1 class="text-capitalize text-secondary">Get your video</h1>
-  <p class="text-primary">Since 2001 we have been creating videos for buisnesses around the world.</p>
-  <div class="card-block">
+  <p class="text-primary">Three Choices</p>
+  <div class="card-group choices">
     <div class="card">
-      <div class="card-header text-uppercase">free</div>
+      <div class="card-header bg-gradient-success">free</div>
       <div class="card-body">
         <ul class="list-group list-group-flush">
-          <li class="list-group-item">Cras justo odio</li>
-          <li class="list-group-item">Dapibus ac facilisis in</li>
-          <li class="list-group-item">Vestibulum at eros</li>
+          <li class="list-group-item">3 Shots</li>
+          <li class="list-group-item">Logo, Tagline, URL</li>
+          <li class="list-group-item">Quality HD Video</li>
         </ul>
             <div class="ecwid ecwid-SingleProduct-v2 ecwid-SingleProduct-v2-bordered ecwid-SingleProduct-v2-centered ecwid-Product ecwid-Product-150581083" itemscope itemtype="http://schema.org/Product" data-single-product-id="150581083">
                 <div itemprop="image"></div>
@@ -50,12 +50,14 @@ switch ( $_GET[ 'page' ] ) {
       </div>
     </div>
     <div class="card">
-      <div class="card-header text-uppercase">GOLD</div>
+      <div class="card-header bg-gradient-mine">Platinum</div>
       <div class="card-body">
         <ul class="list-group list-group-flush">
-          <li class="list-group-item">Cras justo odio</li>
-          <li class="list-group-item">Dapibus ac facilisis in</li>
-          <li class="list-group-item">Vestibulum at eros</li>
+          <li class="list-group-item">9 Shots</li>
+          <li class="list-group-item">Logo, Tagline, URL</li>
+          <li class="list-group-item">Quality HD Video</li>
+          <li class="list-group-item">Choose Background</li>
+          <li class="list-group-item">Add Spokesperson</li>
         </ul>
             <div class="ecwid ecwid-SingleProduct-v2 ecwid-SingleProduct-v2-bordered ecwid-SingleProduct-v2-centered ecwid-Product ecwid-Product-150581085" itemscope itemtype="http://schema.org/Product" data-single-product-id="150581085">
                 <div itemprop="image"></div>
@@ -72,12 +74,13 @@ switch ( $_GET[ 'page' ] ) {
       </div>
     </div>
     <div class="card">
-      <div class="card-header text-uppercase">GOLD</div>
+      <div class="card-header bg-gradient-orange">GOLD</div>
       <div class="card-body">
         <ul class="list-group list-group-flush">
-          <li class="list-group-item">Cras justo odio</li>
-          <li class="list-group-item">Dapibus ac facilisis in</li>
-          <li class="list-group-item">Vestibulum at eros</li>
+          <li class="list-group-item">6 Shots</li>
+          <li class="list-group-item">Logo, Tagline, URL</li>
+          <li class="list-group-item">Quality HD Video</li>
+          <li class="list-group-item">Choose Background</li>
         </ul>
         <div class="ecwid ecwid-SingleProduct-v2 ecwid-SingleProduct-v2-bordered ecwid-SingleProduct-v2-centered ecwid-Product ecwid-Product-150581084" itemscope itemtype="http://schema.org/Product" data-single-product-id="150581084">
           <div itemprop="image"></div>
@@ -95,10 +98,6 @@ switch ( $_GET[ 'page' ] ) {
     </div>
   </div>
 </section>
-<hr>
-<section class="container"> </section>
-<hr>
-<section class="container-fluid"> </section>
 <div class="side-bar" data-toggle="modal" data-target="#contactModalCenter">CONTACT US</div>
 <!--Java Script--> 
 <script

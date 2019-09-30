@@ -11,7 +11,7 @@
 <?php include("../../includes/head.php"); ?>
 </head>
 
-<body style="background: black;overflow-x: hidden">
+<body class="landing-dark">
 <section class="container-fluid bg-img">
     <div class="center-align text-center">
         <h3 class="strip">Get a Unique HD VIDEO, Attract More Eyeballs & Crush your COMPETITION</h3>
@@ -51,10 +51,10 @@
             <path d="M0.00,102.27 C116.00,0 304.00,28.00 500.00,89.00 L500.00,120.00 L0.00,120.00 Z" style="stroke: none;fill: #004582;"></path>
         </svg>
     </div>
-    <div class="bg-dark">
+    <div class="wave-body">
         <div class="text-center">
             <h2 class="text-uppercase">Free offer ends soon!</h2>
-            <h3 class="text-uppercase text-dark">offer Expires</h3>
+            <h3 class="text-warning">Offer Expires in</h3>
             <div class="row">
                 <div class="col-md-8">
                     <div id="countdown">
@@ -62,7 +62,7 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="mt-3"> <a class="btn btn-primary float-lg-left wow rubberBand" href="step-2.php?page=dark">Order Now</a> </div>
+                    <div class="mt-3"> <a class="btn btn-primary float-lg-left wow rubberBand" href="page-2.php?page=dark">Order Now</a> </div>
                 </div>
             </div>
         </div>
@@ -158,7 +158,7 @@
     <h2 class="text-warning text-uppercase">LAST chance</h2>
     <div class="text-light text-large">to get your <span class="free text-red">FREE</span> Video!</div>
     <div class="d-flex justify-content-center">
-        <a class="btn btn-primary float-lg-left wow rubberBand" href="step-2.php?page=dark">Get Your <span class="text-red">FREE</span> Video</a>
+        <a class="btn btn-primary float-lg-left wow rubberBand" href="page-2.php?page=dark">Get Your <span class="text-red">FREE</span> Video</a>
     </div>
 </section>
 <!--Java Script--> 

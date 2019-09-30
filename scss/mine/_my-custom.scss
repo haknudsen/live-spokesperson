@@ -440,8 +440,17 @@ footer a:hover{color: $light;}
     cursor: pointer;
     transition: all .5s ease-in-out;
 }
-.landing-page{
-    background: white;overflow-x: hidden;width: 100%;text-align: center;
+.landing-light,.landing-dark{
+    overflow-x: hidden;width: 100%;text-align: center;
+}
+.landing-light{
+    background: white;
+    .card-body,.list-group-item{
+        background: $gray-200;
+    }
+}
+.landing-dark{
+    background: black;
 }
 //--------------------Carousel
   .carousel-inner{
@@ -469,3 +478,20 @@ footer a:hover{color: $light;}
     }
 }
 .shots{margin-bottom: 1rem}
+.choices{
+    margin-bottom: 1rem;
+    .card-header{
+        text-transform: uppercase;
+        font-weight: 800;
+        color: $black;
+        letter-spacing: 2px;
+        text-shadow: -1px 1px rgba(255,255,255,0.5);
+    }
+    .list-group-item{padding: .25rem;
+        &:last-child{border-bottom-style: none;
+        margin-bottom: .5rem
+        }
+    }
+    .card-body{padding: .5rem
+    }
+}
