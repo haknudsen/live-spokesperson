@@ -215,7 +215,7 @@ textarea {
   -webkit-font-smoothing: antialiased;
     &:hover{
         @include gradient-mine(lighten($primary, 10%),$primary);
-    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.66);
+        text-shadow: 0 1px 0 rgba(0, 0, 0, 0.66);
     }
     a{color: $gray-100!important;}   
 }
@@ -227,7 +227,7 @@ textarea {
   -webkit-font-smoothing: antialiased;
     &:hover{
         @include gradient-mine($gray-300,$gray-700);
-    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.66);
+        text-shadow: 0 1px 0 rgba(0, 0, 0, 0.66);
     }
     a{color: $white!important;}
 }
@@ -447,10 +447,16 @@ footer a:hover{color: $light;}
     background: white;
     .card-body,.list-group-item{
         background: $gray-200;
+    .ecwid{
+        background-color:  $light!important;
+        }
     }
 }
 .landing-dark{
     background: black;
+    .ecwid{
+        background-color:  $light!important;
+    }
 }
 //--------------------Carousel
   .carousel-inner{
@@ -480,6 +486,9 @@ footer a:hover{color: $light;}
 .shots{margin-bottom: 1rem}
 .choices{
     margin-bottom: 1rem;
+    .card:hover{
+        box-shadow: 0 1rem 3rem rgba(0,0,0,.275)!important;
+    }
     .card-header{
         text-transform: uppercase;
         font-weight: 800;
@@ -492,6 +501,7 @@ footer a:hover{color: $light;}
         margin-bottom: .5rem
         }
     }
-    .card-body{padding: .5rem
+    .card-body{
+        padding: .5rem;
     }
 }

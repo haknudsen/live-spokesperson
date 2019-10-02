@@ -11,92 +11,67 @@
 <?php include("../../includes/head.php"); ?>
 </head>
 <?php
-switch ( $_GET[ 'page' ] ) {
-  case "dark":
-    $class = "landing-dark";
-    break;
-  case "light":
-    $class = "landing-light";
-    break;
-  default:
-    $class = "landing-light";
+    $page = $_GET[ 'page' ];
+switch ( $page ) {
+    case "dark":
+        $class = "landing-dark";
+        break;
+    case "light":
+        $class = "landing-light";
+        break;
+    default:
+        $class = "landing-light";
 }
 ?>
 <body class="<?=$class?>">
 <section class="container">
-  <h1 class="text-capitalize text-secondary">Get your video</h1>
-  <p class="text-primary">Three Choices</p>
-  <div class="card-group choices">
-    <div class="card">
-      <div class="card-header bg-gradient-success">free</div>
-      <div class="card-body">
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">3 Shots</li>
-          <li class="list-group-item">Logo, Tagline, URL</li>
-          <li class="list-group-item">Quality HD Video</li>
-        </ul>
-            <div class="ecwid ecwid-SingleProduct-v2 ecwid-SingleProduct-v2-bordered ecwid-SingleProduct-v2-centered ecwid-Product ecwid-Product-150581083" itemscope itemtype="http://schema.org/Product" data-single-product-id="150581083">
-                <div itemprop="image"></div>
-                <div class="ecwid-title" itemprop="name" content="Free"></div>
-                <div itemtype="http://schema.org/Offer" itemscope itemprop="offers">
-                    <div class="ecwid-productBrowser-price ecwid-price" itemprop="price" content="0" data-spw-price-location="button">
-                        <div itemprop="priceCurrency" content="USD"></div>
-                    </div>
-                </div>
-                <div customprop="options"></div>
-                <div customprop="addtobag"></div>
-            </div>
-            <script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?18447751&data_platform=singleproduct_v2" charset="utf-8"></script><script type="text/javascript">xProduct()</script> 
-      </div>
-    </div>
-    <div class="card">
-      <div class="card-header bg-gradient-mine">Platinum</div>
-      <div class="card-body">
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">9 Shots</li>
-          <li class="list-group-item">Logo, Tagline, URL</li>
-          <li class="list-group-item">Quality HD Video</li>
-          <li class="list-group-item">Choose Background</li>
-          <li class="list-group-item">Add Spokesperson</li>
-        </ul>
-            <div class="ecwid ecwid-SingleProduct-v2 ecwid-SingleProduct-v2-bordered ecwid-SingleProduct-v2-centered ecwid-Product ecwid-Product-150581085" itemscope itemtype="http://schema.org/Product" data-single-product-id="150581085">
-                <div itemprop="image"></div>
-                <div class="ecwid-title" itemprop="name" content="Platinum"></div>
-                <div itemtype="http://schema.org/Offer" itemscope itemprop="offers">
-                    <div class="ecwid-productBrowser-price ecwid-price" itemprop="price" content="899" data-spw-price-location="button">
-                        <div itemprop="priceCurrency" content="USD"></div>
-                    </div>
-                </div>
-                <div customprop="options"></div>
-                <div customprop="addtobag"></div>
-            </div>
-            <script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?18447751&data_platform=singleproduct_v2" charset="utf-8"></script><script type="text/javascript">xProduct()</script>  
-      </div>
-    </div>
-    <div class="card">
-      <div class="card-header bg-gradient-orange">GOLD</div>
-      <div class="card-body">
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">6 Shots</li>
-          <li class="list-group-item">Logo, Tagline, URL</li>
-          <li class="list-group-item">Quality HD Video</li>
-          <li class="list-group-item">Choose Background</li>
-        </ul>
-        <div class="ecwid ecwid-SingleProduct-v2 ecwid-SingleProduct-v2-bordered ecwid-SingleProduct-v2-centered ecwid-Product ecwid-Product-150581084" itemscope itemtype="http://schema.org/Product" data-single-product-id="150581084">
-          <div itemprop="image"></div>
-          <div class="ecwid-title" itemprop="name" content="Build Your Own"></div>
-          <div itemtype="http://schema.org/Offer" itemscope itemprop="offers">
-            <div class="ecwid-productBrowser-price ecwid-price" itemprop="price" content="599.99" data-spw-price-location="button">
-              <div itemprop="priceCurrency" content="USD"></div>
-            </div>
-          </div>
-          <div customprop="options"></div>
-          <div customprop="addtobag"></div>
+    <h1 class="text-capitalize text-secondary">Get your video</h1>
+    <p class="text-primary">Three Choices</p>
+    <div class="card-deck choices">
+        <div class="card">
+            <div class="card-header bg-gradient-success">free</div>
+            <div class="card-body">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">3 Shots</li>
+                    <li class="list-group-item">Logo, Tagline, URL</li>
+                    <li class="list-group-item">Quality HD Video</li>
+                    <li class="list-group-item">Includes Watermark</li>
+                </ul>
+                <a href="/styles/product-demonstrations/free.php?page=<?=$page?>" title="Buy Now">
+                <h6 class="card-subtitle strip">FREE</h6>
+                <img class="card-img-bottom" src="/styles/product-demonstrations/images/Backpack Jack Demo.jpg" alt="Free Product Video"></a> </div>
         </div>
-        <script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?18447751&data_platform=singleproduct_v2" charset="utf-8"></script><script type="text/javascript">xProduct()</script> 
-      </div>
+        <div class="card">
+            <div class="card-header bg-gradient-mine">Overhead Unboxing</div>
+            <div class="card-body">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Up top 9 Shots</li>
+                    <li class="list-group-item">Birds Eye View</li>
+                    <li class="list-group-item">Quality HD Video</li>
+                    <li class="list-group-item">No Watermark</li>
+                    <li class="list-group-item">Male or Female Hands</li>
+                </ul>
+                <a href="/styles/product-demonstrations/overhead-unboxing.php?page=<?=$page?>" title="Buy Now">
+                <h6 class="card-subtitle strip">$699</h6>
+                <img class="card-img-bottom" src="/styles/product-demonstrations/images/Overhead-Product-Demo-Video.jpg" alt="Overhead Unboxing"></a> </div>
+            </div>
+        <div class="card">
+            <div class="card-header bg-gradient-orange">GOLD</div>
+            <div class="card-body">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">6 Shots</li>
+                    <li class="list-group-item">Logo, Tagline, URL</li>
+                    <li class="list-group-item">Quality HD Video</li>
+                    <li class="list-group-item">Choose Background</li>
+                    <li class="list-group-item">No Watermark</li>
+                </ul>
+                <a href="/styles/product-demonstrations/gold.php?page=<?=$page?>" title="Buy GOLD Product Demo Video">
+                <h6 class="card-subtitle strip">$599</h6>
+                <img class="card-img-bottom" src="/styles/product-demonstrations/images/Step Tire.jpg" alt="Step Tire Product Demo Video"></a>
+            </div>
+        </div>
+        </div>
     </div>
-  </div>
 </section>
 <div class="side-bar" data-toggle="modal" data-target="#contactModalCenter">CONTACT US</div>
 <!--Java Script--> 
