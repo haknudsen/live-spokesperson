@@ -11,7 +11,8 @@
 <?php include("../../includes/head.php"); ?>
 </head>
 <?php
-switch ( $_GET[ 'page' ] ) {
+$page = $_GET[ 'page' ];
+switch ( $page ) {
     case "dark":
         $class = "landing-dark";
         break;
@@ -23,38 +24,78 @@ switch ( $_GET[ 'page' ] ) {
 }
 ?>
 <body class="<?=$class?>">
-<section class="container">
+<section class="mw-100">
     <h1 class="text-red font-weight-bold" >Overhead Unboxing Demo Video</h1>
     <h2 class="text-red font-weight-bold" >Options</h2>
-    <div class="row" style="min-height: 778px">
-        <div class="col-md-9 text-info small">
-            <h3 class="text-capitalize">free version of your Video includes:</h3>
-            <ul class="list-group text-left">
-                <li>3 Different Shots Of Your Product</li>
-                <li>Approximately 15-second Duration</li>
-                <li>Website Url</li>
-                <li> Logo</li>
-                <li> And Tagline</li>
-                <li>Unlimited Usage Anywhere</li>
-                <li>Quality Hd Video</li>
-                <li>Talking Heads® Watermark</li>
-            </ul>
-            <h3 class="text-capitalize">You can purchace these Upgrades</h3>
-            <dl class="row">
-                <dt class="col-sm-3 text-right">Watermark</dt>
-                <dd class="col-sm-9 text-left">All free product demos come with a Talking Heads® watermark.  To remove the watermark click on Remove Watermark on the order form.</dd>
-                <dt class="col-sm-3 text-right">Spokesperson</dt>
-                <dd class="col-sm-9 text-left">If you would like to add a video spokesperson with script click the Add Video Spokesperson on order form</dd>
-                <dt class="col-sm-3 text-right">Voice Over</dt>
-                <dd class="col-sm-9 text-left">If you would like to add a video spokesperson with script click the Add Professional Voiceover on order form</dd>
-                <dt class="col-sm-3 text-right">Additional Shots</dt>
-                <dd class="col-sm-9 text-left">If you would like to add additional shots click on individual shots in the order form.</dd>
-            </dl>
+    <?php
+    if ( $page === "dark" ) {
+        echo '
+    <div class="wave-holder">
+        <div class="wave-top">
+            <svg viewBox="0 0 500 120" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+                <path d="M0.00,82.27 C116.00,0 304.00,128.00 500.00,39.00 L500.00,120.00 L0.00,120.00 Z" style="stroke: none;fill: #004582;"></path>
+            </svg>
         </div>
-        <div class="col-md-3" style="min-width: 255px">
-            <div class="ecwid ecwid-SingleProduct-v2 ecwid-SingleProduct-v2-bordered ecwid-SingleProduct-v2-centered ecwid-Product ecwid-Product-150569305" itemscope itemtype="http://schema.org/Product" data-single-product-id="150569305"><div itemprop="image"></div><div class="ecwid-title" itemprop="name" content="Overhead Unboxing"></div><div itemtype="http://schema.org/Offer" itemscope itemprop="offers"><div class="ecwid-productBrowser-price ecwid-price" itemprop="price" content="599" data-spw-price-location="button"><div itemprop="priceCurrency" content="USD"></div></div></div><div customprop="options"></div><div customprop="addtobag"></div></div><script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?18447751&data_platform=singleproduct_v2" charset="utf-8"></script><script type="text/javascript">xProduct()</script>
+        <div class="wave-body text-light">';
+    }else{
+        echo '
+        <div class="text-info">';
+    }
+    ?>
+    <div class="container">
+        <div class="row align-items-center" style="min-height: 300px">
+            <div class="col-md-9 small">
+                <h3 class="text-capitalize">free version of your Video includes:</h3>
+                <ul class="list-group text-left">
+                    <li>Overhead Shot</li>
+                    <li>Approximately 15-second Duration</li>
+                    <li>Website Url, Logo, And Tagline</li>
+                    <li>Unlimited Usage Anywhere</li>
+                    <li>Quality Hd Video</li>
+                </ul>
+                <h3>Overhead Unboxing Are Used To:</h3>
+                <ul class="list-group text-left">
+                    <li>Show How to Unbox Your Product</li>
+                    <li>Show How to Use Your Product</li>
+                    <li>Show How to Assemble Your Product</li>
+                </ul>
+                <h3 class="text-capitalize">You can purchace these Upgrades</h3>
+                <dl class="row">
+                    <dt class="col-sm-3 text-right">Voice Over</dt>
+                    <dd class="col-sm-9 text-left">If you would like to add a video spokesperson with script click the Add Professional Voiceover on order form</dd>
+                </dl>
+            </div>
+            <div class="col-md-3" style="min-width: 255px">
+                <div class="ecwid ecwid-SingleProduct-v2 ecwid-SingleProduct-v2-bordered ecwid-SingleProduct-v2-centered ecwid-Product ecwid-Product-150569305" itemscope itemtype="http://schema.org/Product" data-single-product-id="150569305">
+                    <div itemprop="image"></div>
+                    <div class="ecwid-title" itemprop="name" content="Overhead Unboxing"></div>
+                    <div itemtype="http://schema.org/Offer" itemscope itemprop="offers">
+                        <div class="ecwid-productBrowser-price ecwid-price" itemprop="price" content="599" data-spw-price-location="button">
+                            <div itemprop="priceCurrency" content="USD"></div>
+                        </div>
+                    </div>
+                    <div customprop="options"></div>
+                    <div customprop="addtobag"></div>
+                </div>
+                <script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?18447751&data_platform=singleproduct_v2" charset="utf-8"></script><script type="text/javascript">xProduct()</script> 
+            </div>
         </div>
     </div>
+    <?php
+    if ( $page === "dark" ) {
+        echo '
+            </div>
+        <div class="wave-bottom">
+            <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+                <path d="M0.00,92.27 C216.83,192.92 304.30,8.39 500.00,109.03 L500.00,0.00 L0.00,0.00 Z" style="stroke: none;fill: #004582;"></path>
+            </svg>
+        </div>
+    </div>';
+    }else{
+        echo'
+    </div>';
+    }
+    ?>
 </section>
 <div class="side-bar" data-toggle="modal" data-target="#contactModalCenter">CONTACT US</div>
 <!--Java Script--> 

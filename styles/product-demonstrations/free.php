@@ -11,7 +11,8 @@
 <?php include("../../includes/head.php"); ?>
 </head>
 <?php
-switch ( $_GET[ 'page' ] ) {
+    $page = $_GET[ 'page' ];
+switch ( $page ) {
     case "dark":
         $class = "landing-dark";
         break;

@@ -409,8 +409,11 @@ footer a:hover{color: $light;}
         }
     }
 }
-.wave-holder{width: 100%;margin: 0;padding: 0;
-    color: white;}
+.wave-holder{
+    width: 100%;
+    padding: 0;
+    .ecwid-title,.ecwid-SingleProduct-options,.ecwid-fieldLabel{color: $black!important;}
+}
 
 .wave-bottom,.wave-top{
   position:relative;

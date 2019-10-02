@@ -29,7 +29,7 @@ switch ( $page ) {
     <p class="text-primary">Three Choices</p>
     <div class="card-deck choices">
         <div class="card">
-            <div class="card-header bg-gradient-success">free</div>
+            <div class="card-header bg-gradient-success"><a class="text-black" href="/styles/product-demonstrations/free.php?page=<?=$page?>" title="Buy Now">free</a></div>
             <div class="card-body">
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item">3 Shots</li>
@@ -42,7 +42,7 @@ switch ( $page ) {
                 <img class="card-img-bottom" src="/styles/product-demonstrations/images/Backpack Jack Demo.jpg" alt="Free Product Video"></a> </div>
         </div>
         <div class="card">
-            <div class="card-header bg-gradient-mine">Overhead Unboxing</div>
+            <div class="card-header bg-gradient-mine"><a class="text-black" href="/styles/product-demonstrations/overhead-unboxing.php?page=<?=$page?>" title="Buy Now">Overhead Unboxing</a></div>
             <div class="card-body">
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item">Up top 9 Shots</li>
@@ -52,11 +52,11 @@ switch ( $page ) {
                     <li class="list-group-item">Male or Female Hands</li>
                 </ul>
                 <a href="/styles/product-demonstrations/overhead-unboxing.php?page=<?=$page?>" title="Buy Now">
-                <h6 class="card-subtitle strip">$699</h6>
+                <h6 class="card-subtitle strip">$399</h6>
                 <img class="card-img-bottom" src="/styles/product-demonstrations/images/Overhead-Product-Demo-Video.jpg" alt="Overhead Unboxing"></a> </div>
             </div>
         <div class="card">
-            <div class="card-header bg-gradient-orange">GOLD</div>
+            <div class="card-header bg-gradient-orange"><a class="text-black" href="/styles/product-demonstrations/gold.php?page=<?=$page?>" title="Buy Now">GOLD</a></div>
             <div class="card-body">
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item">6 Shots</li>
