@@ -45,10 +45,10 @@ switch ( $page ) {
     <div class="container">
         <div class="row align-items-center" style="min-height: 300px">
             <div class="col-md-9 small">
-                <h3 class="text-capitalize">free version of your Video includes:</h3>
+                <h3 class="text-capitalize">Overhead Unboxing Video includes:</h3>
                 <ul class="list-group text-left">
                     <li>Overhead Shot</li>
-                    <li>Approximately 15-second Duration</li>
+                    <li>Approximately 15 to 30 second Duration</li>
                     <li>Website Url, Logo, And Tagline</li>
                     <li>Unlimited Usage Anywhere</li>
                     <li>Quality Hd Video</li>
@@ -65,7 +65,7 @@ switch ( $page ) {
                     <dd class="col-sm-9 text-left">If you would like to add a video spokesperson with script click the Add Professional Voiceover on order form</dd>
                 </dl>
             </div>
-            <div class="col-md-3" style="min-width: 255px">
+            <div class="col-md-3 center" style="min-width: 255px">
                 <div class="ecwid ecwid-SingleProduct-v2 ecwid-SingleProduct-v2-bordered ecwid-SingleProduct-v2-centered ecwid-Product ecwid-Product-150569305" itemscope itemtype="http://schema.org/Product" data-single-product-id="150569305">
                     <div itemprop="image"></div>
                     <div class="ecwid-title" itemprop="name" content="Overhead Unboxing"></div>
