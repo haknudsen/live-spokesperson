@@ -11,7 +11,7 @@
                     <a href="http://www.live-spokesperson.com/styles/whiteboard/" title="Whiteboard" class="dropdown-item">Whiteboard</a> <a href="http://www.live-spokesperson.com/styles/animation" title="Animation" class="dropdown-item">Animation</a> <a href="http://www.live-spokesperson.com/styles/Typography" title="Typography" class="dropdown-item">Typography</a> <a href="http://www.live-spokesperson.com/styles/custom-presentations/" title="Presentation" class="dropdown-item">Presentation</a> <a href="http://www.live-spokesperson.com/styles/product-demonstrations/" title="Product Demo" class="dropdown-item">Product Demo</a> </div>
             </li>
             <li class="nav-item" id="articles"> <a class="nav-link" href="http://www.live-spokesperson.com/articles">Order</a> </li>
-            <li class="nav-item" id="about"> <a class="nav-link" href="http://www.live-spokesperson.com/about">Specials</a> </li>
+            <li class="nav-item" id="specials"> <a class="nav-link" href="http://www.live-spokesperson.com/specials">Specials</a> </li>
         </ul>
     </div>
     <a href="tel:1-801-748-2281" title="Call Now!" class="navbar-brand float-right">1-801-748-2281</a> </nav>
