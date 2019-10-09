@@ -534,3 +534,14 @@ footer a:hover{color: $light;}
 }
 .special{font-weight: 800;font-size: 1.5rem;color: $dark}
 .special-subheader{font-weight: 600;color: $black;font-size: 1.1rem;}
+ .nav-link.disabled{
+    color: $black;
+    cursor: default;
+     font-weight: 400;
+}
+.nav-spokesperson{
+    font-weight: 600;
+    .nav-link{
+        padding: 0.5rem;
+    }
+}

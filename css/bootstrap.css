@@ -14552,4 +14552,20 @@ footer a:hover {
   font-size: 1.1rem;
 }
 
+/* line 537, ../scss/mine/_my-custom.scss */
+.nav-link.disabled {
+  color: #000;
+  cursor: default;
+  font-weight: 400;
+}
+
+/* line 542, ../scss/mine/_my-custom.scss */
+.nav-spokesperson {
+  font-weight: 600;
+}
+/* line 544, ../scss/mine/_my-custom.scss */
+.nav-spokesperson .nav-link {
+  padding: 0.5rem;
+}
+
 /*# sourceMappingURL=bootstrap.css.map */

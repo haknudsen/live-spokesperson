@@ -39,7 +39,7 @@
             <h5 class="card-title text-capitalize">You Have Seen Them Before</h5>
             <p class="card-text">They are the people who welcome you to a website. Your video spokesperson, also know as virtual actor or website spokesperson, is a transparent video shown over a website. Instead of reading, which can get dull, these spokesperson typically walk you through whatever you need to know about the page</p>
           </div>
-          <div class="card-footer text-muted bg-gradient-mine text-right"><a href="../spokespeople/" title="Spokespeople"><em>More...</em></a> </div>
+          <div class="card-footer text-muted bg-gradient-mine text-right"><a href="../spokespeople/" title="Spokespeople"><em class="text-white wow flash">More...</em></div>
         </div>
       </div>
     </section>
