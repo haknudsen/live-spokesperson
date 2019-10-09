@@ -25,43 +25,72 @@ $newdateBase = $xml->newdate;
 $newdate = "THESE OFFERS EXPIRE Friday, " . $newdateBase;
 ?>
 
-<body class="specials">
+<body class="landing-light">
 <?php include("../includes/nav.php"); ?>
-<section class="page-header text-center">
-    <div class="row">
-        <div class="col-lg-2"> </div>
-        <div class="col-lg-8">
+<section class="page-header text-center mt-3">
+    <div class="row align-items-center">
+        <div class="col-xl-2"> </div>
+        <div class="col-lg-8 col-xl-8">
             <h1>Talking Heads<sup class="tm-small">&reg;</sup></h1>
             <h2>Featured Actor Specials</h2>
-            <h3 id="SpecialTop">
+            <h4 id="SpecialTop">
                 <?=$newdate?>
-            </h3>
-            <div class="d-flex justify-content-center">
-                <div class="row">
-                    <div class="col-lg-5 video-holder">
-                        <iframe class="spokesperson-video" src="https://www.websitetalkingheads.com/specials/male.php?name=<?=$male?>" frameborder="0"  scrolling="No" id="MaleSpokesperson" name="MaleSpokesperson"></iframe>
-                        <h3 id="male">
+            </h4>
+            <div class="row">
+                <div class="col-lg-4 center">
+                    <div class="spokesperson-holder" alt="<?=$male?> - Featured Actor" data-toggle="modal" data-target=".modal-spokesperson" data-video="<?=$male?>"> <img class="spokesperson rounded-circle" src="https://www.websitetalkingheads.com/spokespeople/posters/<?=$male?>.jpg" id="<?=$male?>" alt="<?=$male?> - Demo">
+                        <div class="btn-spokesperson"></div>
+                        <div class="special" id="male">
                             <?=$male?>
-                        </h3>
-                    </div>
-                    <div class="col-lg-2">
-                        <div class="align-self-center text-center">
-                            <div class="specials-no">NO HIDDEN FEES</div>
-                            <div class="specials-no">NO ANNUAL FEES</div>
-                            <div class="specials-no">NO HOSTING FEES</div>
-                            <div class="h4 text-primary">This is it!</div>
                         </div>
                     </div>
-                    <div class="col-lg-5 video-holder">
-                        <iframe class="spokesperson-video" src="https://www.websitetalkingheads.com/specials/female.php?name=<?=$female?>" frameborder="0"  scrolling="No" id="FemaleSpokesperson" name="FemaleSpokesperson"></iframe>
-                        <h3 id="female">
+                </div>
+                <div class="col-lg-4">
+                    <div class="align-self-center text-center">
+                        <div class="specials-no">NO HIDDEN FEES</div>
+                        <div class="specials-no">NO ANNUAL FEES</div>
+                        <div class="specials-no">NO HOSTING FEES</div>
+                        <div class="h4 text-primary">This is it!</div>
+                    </div>
+                </div>
+                <div class="col-lg-4 center">
+                    <div class="spokesperson-holder" alt="<?=$female?> - Featured Actor" data-toggle="modal" data-target=".modal-spokesperson" data-video="<?=$female?>"> <img class="spokesperson rounded-circle" src="https://www.websitetalkingheads.com/spokespeople/posters/<?=$female?>.jpg" id="<?=$female?>" alt="<?=$female?> - Demo">
+                        <div class="btn-spokesperson"></div>
+                        <div class="special" id="female">
                             <?=$female?>
-                        </h3>
+                        </div>
                     </div>
                 </div>
             </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="text-center">
+                        <div class="special">Special #1</div>
+                        <div class="special-subheader">Buy One, Get One <strong>FREE!</strong></div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                <img src="/images/starburst.png" class="img img-fluid" alt="SPECIAL OFFER!"/>
+                </div>
+                <div class="col-lg-4">
+                    <div class="text-center">
+                        <div class="special">Special #2</div>
+                        <div class="special-subheader">Multiple Video Special</div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mb-2">
+                <div class="col-lg-4"> <img src="https://www.websitetalkingheads.com/images/buy1-get1.png" id="buy1-get1"/> </div>
+                <div class="col-lg-4">  </div>
+                <div class="col-lg-4"><img class="img-responsive special-img" src="https://www.websitetalkingheads.com/images/5x60-sec.png" alt="Video Spokesperson-Five 60 Second videos for $799" id="5x60-sec"/> </div>
+            </div>
+            <div class="text-capitalize">Choose only ONE Featured Actor</div>
+            <div class="text-danger">All special packages must be shot at same time, for same domain</div>
+            <div class="special-subheader">30 Second Video $299</div>
+            <div class="special-subheader">60 Second Video $399</div>
+            <p align="center" class="largeText"><span class="centeredmedium">30 Second=41-90 Words, 60 Second=91-180 Words</span> </p>
         </div>
-        <div class="col-lg-2">
+        <div class="col-xl-2 col-lg-4">
             <div class="order-holder">
                 <div class="ecwid ecwid-SingleProduct-v2 ecwid-SingleProduct-v2-bordered ecwid-SingleProduct-v2-centered ecwid-Product ecwid-Product-152969916" itemscope itemtype="http://schema.org/Product" data-single-product-id="152969916">
                     <div itemprop="image"></div>
@@ -79,32 +108,10 @@ $newdate = "THESE OFFERS EXPIRE Friday, " . $newdateBase;
         </div>
     </div>
 </section>
-<section class="alert alert-info text-center">
-    <div class="container">
-        <div class="special-holder"> <img src="/images/starburst.png" class="img img-fluid" alt="Click for SPECIAL OFFER!"/> </div>
-        <div class="row">
-            <div class="col-sm-4 offset-sm-1">
-                <div class="pull-right">
-                    <h2>Special #1</h2>
-                    <h3>Buy One, Get One <strong>FREE!</strong></h3>
-                    <img src="https://www.websitetalkingheads.com/images/buy1-get1.png" id="buy1-get1"/> </div>
-            </div>
-            <div class="col-sm-5 offset-sm-2">
-                <div class="pull-left">
-                    <h2>Special #2</h2>
-                    <h3>Multiple Video Special</h3>
-                    <div align="center"> <img class="img-responsive special-img" src="https://www.websitetalkingheads.com/images/5x60-sec.png" alt="Video Spokesperson-Five 60 Second videos for $799" id="5x60-sec"/> </div>
-                </div>
-            </div>
-        </div>
-        <h2 class="text-capitalize">Choose only ONE Featured Actor for either special </span><span class="seventyfivepercent"> </h2>
-        <h3>All special packages must be shot at same time, for same domain, using only ONE Featured Actor</h3>
-        <h4>30 Second Video $299</h4>
-        <h4>60 Second Video $399</h4>
-        <p align="center" class="largeText"><span class="centeredmedium">30 Second=41-90 Words, 60 Second=91-180 Words</span> </p>
-        <h2>Call <a href="tel://801-748-2281" title="Give us a call.">801-748-2281</a> for more information</h2>
-    </div>
+<section class="alert alert-info text-center container">
+    <h2>Call <a href="tel://801-748-2281" title="Give us a call.">801-748-2281</a> for more information</h2>
 </section>
 <?php include("../includes/footer.php"); ?>
+<?php include("../spokespeople/includes/modal.php"); ?>
 </body>
 </html>

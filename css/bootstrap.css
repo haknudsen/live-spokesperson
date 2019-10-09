@@ -12778,9 +12778,11 @@ a.text-red:hover, a.text-red:focus {
 /* line 53, ../scss/mine/_spokespeople.scss */
 .spokesperson-holder {
   width: 200px;
+  margin: 0 auto;
+  cursor: pointer;
 }
 
-/* line 56, ../scss/mine/_spokespeople.scss */
+/* line 58, ../scss/mine/_spokespeople.scss */
 .spokesperson {
   height: 180px;
   width: 160px;
@@ -12788,24 +12790,24 @@ a.text-red:hover, a.text-red:focus {
   margin: .25rem 20px 0;
 }
 
-/* line 62, ../scss/mine/_spokespeople.scss */
+/* line 64, ../scss/mine/_spokespeople.scss */
 .modal-spokesperson {
   width: 960px;
   margin: 0 auto;
   padding: 0 !important;
 }
 @media (max-width: 1199.98px) {
-  /* line 62, ../scss/mine/_spokespeople.scss */
+  /* line 64, ../scss/mine/_spokespeople.scss */
   .modal-spokesperson {
     width: 90%;
   }
 }
-/* line 69, ../scss/mine/_spokespeople.scss */
+/* line 71, ../scss/mine/_spokespeople.scss */
 .modal-spokesperson .modal-footer, .modal-spokesperson .modal-header {
   width: 100%;
   margin: 0 1px;
 }
-/* line 73, ../scss/mine/_spokespeople.scss */
+/* line 75, ../scss/mine/_spokespeople.scss */
 .modal-spokesperson #form {
   position: absolute;
   display: flex;
@@ -12817,27 +12819,27 @@ a.text-red:hover, a.text-red:focus {
   border-radius: .25rem;
   color: #1D2B61;
 }
-/* line 83, ../scss/mine/_spokespeople.scss */
+/* line 85, ../scss/mine/_spokespeople.scss */
 .modal-spokesperson #form input {
   padding-left: 4px;
 }
-/* line 84, ../scss/mine/_spokespeople.scss */
+/* line 86, ../scss/mine/_spokespeople.scss */
 .modal-spokesperson #form .holder {
   padding: 0.5rem;
 }
 
-/* line 89, ../scss/mine/_spokespeople.scss */
+/* line 91, ../scss/mine/_spokespeople.scss */
 .modal.show .modal-dialog-spokesperson {
   transform: translate(0, 0);
 }
 
-/* line 92, ../scss/mine/_spokespeople.scss */
+/* line 94, ../scss/mine/_spokespeople.scss */
 .modal.fade .modal-dialog-spokesperson {
   transition: transform 0.3s ease-out;
   transform: translate(0, -25%);
 }
 
-/* line 96, ../scss/mine/_spokespeople.scss */
+/* line 98, ../scss/mine/_spokespeople.scss */
 .modal-dialog-spokesperson {
   margin: 4rem auto;
   display: flex;
@@ -12847,14 +12849,14 @@ a.text-red:hover, a.text-red:focus {
   top: 25%;
 }
 @media (min-width: 576px) {
-  /* line 96, ../scss/mine/_spokespeople.scss */
+  /* line 98, ../scss/mine/_spokespeople.scss */
   .modal-dialog-spokesperson {
     width: 100%;
     max-width: 960px;
   }
 }
 
-/* line 107, ../scss/mine/_spokespeople.scss */
+/* line 109, ../scss/mine/_spokespeople.scss */
 #contactClose {
   line-height: .5;
 }
@@ -14506,28 +14508,48 @@ footer a:hover {
 
 /* line 511, ../scss/mine/_my-custom.scss */
 .order-holder {
-  background-color: #fff;
+  background-color: #E5F0FF;
   padding: .25rem 0 .25rem .25rem;
   font-weight: 500;
   border-radius: .25rem 0 0 .25rem;
-  border: thin solid #E5F0FF;
-  z-index: 9;
-  cursor: pointer;
-  transition: all .5s ease-in-out;
+  border: thin solid rgba(0, 163, 255, 0.3);
+  border-right: none;
+  box-shadow: -1px 4px 6px rgba(0, 0, 0, 0.3);
 }
-/* line 520, ../scss/mine/_my-custom.scss */
+/* line 519, ../scss/mine/_my-custom.scss */
 .order-holder .ecwid-title {
   margin: 0 !important;
   padding: 0;
 }
-/* line 524, ../scss/mine/_my-custom.scss */
+/* line 523, ../scss/mine/_my-custom.scss */
 .order-holder .ecwid-productBrowser-details-optionPanel {
   margin: 0 !important;
   padding: 0;
 }
-/* line 528, ../scss/mine/_my-custom.scss */
+/* line 527, ../scss/mine/_my-custom.scss */
 .order-holder .ecwid.ecwid-SingleProduct-v2 {
   line-height: 1;
+}
+
+/* line 531, ../scss/mine/_my-custom.scss */
+.specials-no {
+  font-size: .75rem;
+  font-weight: 800;
+  line-height: 1.4;
+}
+
+/* line 535, ../scss/mine/_my-custom.scss */
+.special {
+  font-weight: 800;
+  font-size: 1.5rem;
+  color: #1D2B61;
+}
+
+/* line 536, ../scss/mine/_my-custom.scss */
+.special-subheader {
+  font-weight: 600;
+  color: #000;
+  font-size: 1.1rem;
 }
 
 /*# sourceMappingURL=bootstrap.css.map */
