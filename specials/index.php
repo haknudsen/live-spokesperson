@@ -29,8 +29,7 @@ $newdate = "THESE OFFERS EXPIRE Friday, " . $newdateBase;
 <?php include("../includes/nav.php"); ?>
 <section class="page-header text-center mt-3">
     <div class="row align-items-center">
-        <div class="col-xl-2"> </div>
-        <div class="col-lg-8 col-xl-8">
+        <div class="col-lg-8 col-xl-8 offset-xl-1">
             <h1>Talking Heads<sup class="tm-small">&reg;</sup></h1>
             <h2>Featured Actor Specials</h2>
             <h4 id="SpecialTop">
@@ -90,7 +89,7 @@ $newdate = "THESE OFFERS EXPIRE Friday, " . $newdateBase;
             <div class="special-subheader">60 Second Video $399</div>
             <p align="center" class="largeText"><span class="centeredmedium">30 Second=41-90 Words, 60 Second=91-180 Words</span> </p>
         </div>
-        <div class="col-xl-2 col-lg-4">
+        <div class="col-xl-3 col-lg-4">
             <div class="order-holder">
                 <div class="ecwid ecwid-SingleProduct-v2 ecwid-SingleProduct-v2-bordered ecwid-SingleProduct-v2-centered ecwid-Product ecwid-Product-152969916" itemscope itemtype="http://schema.org/Product" data-single-product-id="152969916">
                     <div itemprop="image"></div>
