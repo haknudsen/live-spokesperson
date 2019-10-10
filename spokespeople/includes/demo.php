@@ -29,24 +29,10 @@ if ( $range > 0 ) {
     echo PHP_EOL;
     if ( $range > 0 ) {
         echo PHP_EOL;
-        $i = 1;
         while ( $row = $result->fetch_assoc() ) {
-            if ( $i === 22 ) {
-                echo PHP_EOL;
-                echo '</div>';
-                echo PHP_EOL;
-                echo '  <div id="show-more" class="w-100">';
-                echo PHP_EOL;
-                echo '      <h4 class="text-center">Show More</h4>';
-                echo PHP_EOL;
-                echo '  </div>';
-                echo PHP_EOL;
-                echo '<div class="row d-none" id="hidden-spokespeople">';
-                echo PHP_EOL;
-            }
             $name = $row[ "name" ];
             $img = "https://www.websitetalkingheads.com/spokespeople/posters/" . $name . ".jpg";
-            echo '<div class="spokesperson-holder" alt="' . $name . ' - Video Spokesperson Demonstration" data-toggle="modal" data-target=".modal-spokesperson" data-video="' . $name . '">';
+            echo '<div class="spokesperson-holder poster" alt="' . $name . ' - Video Spokesperson Demonstration" data-toggle="modal" data-target=".modal-spokesperson" data-video="' . $name . '">';
             echo PHP_EOL;
             echo '<img class="spokesperson rounded-circle" src="' . $img . '" id="' . $name . '" alt="' . $name . ' - Introduction" >';
             echo PHP_EOL;
@@ -81,7 +67,6 @@ if ( $range > 0 ) {
 	}
 </script>
 ';
-            $i++;
         }
         echo PHP_EOL;
         echo '</div>';

@@ -4,7 +4,7 @@
     <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
         <ul class="navbar-nav">
             <li class="nav-item" id="home"> <a class="nav-link" href="http://www.live-spokesperson.com/">Home</a> </li>
-            <li class="nav-item" id="spokespeople"> <a class="nav-link" href="http://www.live-spokesperson.com/spokespeople">Spokespeople</a> </li>
+            <li class="nav-item" id="spokespeople"> <a class="nav-link" href="http://www.live-spokesperson.com/spokespeople/women.php">Spokespeople</a> </li>
             <li class="nav-item dropdown" id="styles"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Styles</a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown"> <a href="http://www.live-spokesperson.com/styles/" title="Styles" class="dropdown-item">Styles</a> <a href="#" title="Website Spokesperson" class="dropdown-item">Website Spokesperson</a>
                     <div class="dropdown-divider"></div>

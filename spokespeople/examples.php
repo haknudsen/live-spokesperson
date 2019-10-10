@@ -20,7 +20,7 @@
 <body>
 <?php include("../includes/nav-spokesperson.php"); ?>
 <section class="alert alert-info">
-    <h1 class="text-center">Talking Heads<sup><i class="far fa-registered"></i></sup></h1>
+    <h1 class="text-center">Talking Heads<sup><i class="fal fa-registered"></i></sup></h1>
     <h2 class="text-center">Website Spokesperson Examples</h2>
 </section>
 <section class="container-fluid">

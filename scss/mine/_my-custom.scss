@@ -516,17 +516,17 @@ footer a:hover{color: $light;}
     border: thin solid rgba($primary,0.3);
     border-right: none;
     box-shadow: -1px 4px 6px rgba($black,0.3);
-    .ecwid-title{
-        margin: 0!important;
-        padding: 0;
-    }
-    .ecwid-productBrowser-details-optionPanel{
-        margin: 0!important;
-        padding: 0;
-    }
-    .ecwid.ecwid-SingleProduct-v2{
-        line-height: 1;
-    }
+}
+.ecwid-title{
+    margin: 0!important;
+    padding: 0;
+}
+.ecwid-productBrowser-details-optionPanel{
+    margin: 0!important;
+    padding: 0;
+}
+.ecwid.ecwid-SingleProduct-v2{
+    line-height: 1;
 }
 .specials-no{font-size: .75rem;
     font-weight: 800;

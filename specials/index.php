@@ -109,7 +109,7 @@ $newdate = "THESE OFFERS EXPIRE Friday, " . $newdateBase;
     </div>
 </section>
 <section class="alert alert-info text-center container">
-    <h2>Call <a href="tel://801-748-2281" title="Give us a call.">801-748-2281</a> for more information</h2>
+    <h2 class="wow flash">Call <a href="tel://801-748-2281" title="Give us a call.">801-748-2281</a> for more information</h2>
 </section>
 <?php include("../includes/footer.php"); ?>
 <?php include("../spokespeople/includes/modal.php"); ?>
