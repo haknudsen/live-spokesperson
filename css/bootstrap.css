@@ -12471,8 +12471,7 @@ a.text-red:hover, a.text-red:focus {
 /* Scss Document */
 /* mine */
 /* Scss Document */
-/* Scss Document */
-/* line 20, ../scss/talkingHeadsPlayer/_player.scss */
+/* line 20, ../scss/talkingHeadsPlayer/_player-btns.scss */
 .btn-play {
   font-family: "Font Awesome 5 Pro";
   font-weight: normal;
@@ -12480,12 +12479,12 @@ a.text-red:hover, a.text-red:focus {
   cursor: pointer;
   -webkit-font-smoothing: antialiased;
 }
-/* line 26, ../scss/talkingHeadsPlayer/_player.scss */
+/* line 26, ../scss/talkingHeadsPlayer/_player-btns.scss */
 .btn-play:before {
   content: "\f144";
 }
 
-/* line 20, ../scss/talkingHeadsPlayer/_player.scss */
+/* line 20, ../scss/talkingHeadsPlayer/_player-btns.scss */
 .btn-pause {
   font-family: "Font Awesome 5 Pro";
   font-weight: normal;
@@ -12493,12 +12492,12 @@ a.text-red:hover, a.text-red:focus {
   cursor: pointer;
   -webkit-font-smoothing: antialiased;
 }
-/* line 26, ../scss/talkingHeadsPlayer/_player.scss */
+/* line 26, ../scss/talkingHeadsPlayer/_player-btns.scss */
 .btn-pause:before {
   content: "\f28b";
 }
 
-/* line 20, ../scss/talkingHeadsPlayer/_player.scss */
+/* line 20, ../scss/talkingHeadsPlayer/_player-btns.scss */
 .btn-stop {
   font-family: "Font Awesome 5 Pro";
   font-weight: normal;
@@ -12506,12 +12505,12 @@ a.text-red:hover, a.text-red:focus {
   cursor: pointer;
   -webkit-font-smoothing: antialiased;
 }
-/* line 26, ../scss/talkingHeadsPlayer/_player.scss */
+/* line 26, ../scss/talkingHeadsPlayer/_player-btns.scss */
 .btn-stop:before {
   content: "\f28d";
 }
 
-/* line 20, ../scss/talkingHeadsPlayer/_player.scss */
+/* line 20, ../scss/talkingHeadsPlayer/_player-btns.scss */
 .btn-restart {
   font-family: "Font Awesome 5 Pro";
   font-weight: normal;
@@ -12519,12 +12518,12 @@ a.text-red:hover, a.text-red:focus {
   cursor: pointer;
   -webkit-font-smoothing: antialiased;
 }
-/* line 26, ../scss/talkingHeadsPlayer/_player.scss */
+/* line 26, ../scss/talkingHeadsPlayer/_player-btns.scss */
 .btn-restart:before {
   content: "\f2ea";
 }
 
-/* line 20, ../scss/talkingHeadsPlayer/_player.scss */
+/* line 20, ../scss/talkingHeadsPlayer/_player-btns.scss */
 .btn-mute {
   font-family: "Font Awesome 5 Pro";
   font-weight: normal;
@@ -12532,12 +12531,12 @@ a.text-red:hover, a.text-red:focus {
   cursor: pointer;
   -webkit-font-smoothing: antialiased;
 }
-/* line 26, ../scss/talkingHeadsPlayer/_player.scss */
+/* line 26, ../scss/talkingHeadsPlayer/_player-btns.scss */
 .btn-mute:before {
   content: "\f6a9";
 }
 
-/* line 20, ../scss/talkingHeadsPlayer/_player.scss */
+/* line 20, ../scss/talkingHeadsPlayer/_player-btns.scss */
 .btn-unmute {
   font-family: "Font Awesome 5 Pro";
   font-weight: normal;
@@ -12545,12 +12544,12 @@ a.text-red:hover, a.text-red:focus {
   cursor: pointer;
   -webkit-font-smoothing: antialiased;
 }
-/* line 26, ../scss/talkingHeadsPlayer/_player.scss */
+/* line 26, ../scss/talkingHeadsPlayer/_player-btns.scss */
 .btn-unmute:before {
   content: "\f028";
 }
 
-/* line 20, ../scss/talkingHeadsPlayer/_player.scss */
+/* line 20, ../scss/talkingHeadsPlayer/_player-btns.scss */
 .btn-fullscreen-enter {
   font-family: "Font Awesome 5 Pro";
   font-weight: normal;
@@ -12558,12 +12557,12 @@ a.text-red:hover, a.text-red:focus {
   cursor: pointer;
   -webkit-font-smoothing: antialiased;
 }
-/* line 26, ../scss/talkingHeadsPlayer/_player.scss */
+/* line 26, ../scss/talkingHeadsPlayer/_player-btns.scss */
 .btn-fullscreen-enter:before {
   content: "\f424";
 }
 
-/* line 20, ../scss/talkingHeadsPlayer/_player.scss */
+/* line 20, ../scss/talkingHeadsPlayer/_player-btns.scss */
 .btn-fullscreen-exit {
   font-family: "Font Awesome 5 Pro";
   font-weight: normal;
@@ -12571,26 +12570,25 @@ a.text-red:hover, a.text-red:focus {
   cursor: pointer;
   -webkit-font-smoothing: antialiased;
 }
-/* line 26, ../scss/talkingHeadsPlayer/_player.scss */
+/* line 26, ../scss/talkingHeadsPlayer/_player-btns.scss */
 .btn-fullscreen-exit:before {
   content: "\f422";
 }
 
 /* Scss Document */
-/* line 6, ../scss/talkingHeadsPlayer/_talking-head.scss */
+/* line 6, ../scss/talkingHeadsPlayer/_player.scss */
 #player-holder {
   width: 100%;
   height: auto;
   margin: 0;
   padding: 0;
-  border: thin solid #00A3FF;
 }
-/* line 12, ../scss/talkingHeadsPlayer/_talking-head.scss */
+/* line 11, ../scss/talkingHeadsPlayer/_player.scss */
 #player-holder:hover #controls {
   opacity: 1;
 }
 
-/* line 17, ../scss/talkingHeadsPlayer/_talking-head.scss */
+/* line 16, ../scss/talkingHeadsPlayer/_player.scss */
 #controls {
   width: 100%;
   margin-left: auto;
@@ -12610,38 +12608,38 @@ a.text-red:hover, a.text-red:focus {
   opacity: 0;
 }
 @media (min-width: 768px) {
-  /* line 17, ../scss/talkingHeadsPlayer/_talking-head.scss */
+  /* line 16, ../scss/talkingHeadsPlayer/_player.scss */
   #controls {
     font-size: 1.8rem;
   }
 }
-/* line 37, ../scss/talkingHeadsPlayer/_talking-head.scss */
+/* line 36, ../scss/talkingHeadsPlayer/_player.scss */
 #controls .player-btn {
   width: 2rem;
   margin-left: 4px;
 }
-/* line 41, ../scss/talkingHeadsPlayer/_talking-head.scss */
+/* line 40, ../scss/talkingHeadsPlayer/_player.scss */
 #controls #progress-bar {
   margin: auto 6px;
   border: thin solid #1D2B61;
   height: 2rem;
 }
 @media (max-width: 500px) {
-  /* line 41, ../scss/talkingHeadsPlayer/_talking-head.scss */
+  /* line 40, ../scss/talkingHeadsPlayer/_player.scss */
   #controls #progress-bar {
     height: 1rem;
   }
 }
-/* line 49, ../scss/talkingHeadsPlayer/_talking-head.scss */
+/* line 48, ../scss/talkingHeadsPlayer/_player.scss */
 #controls #btn-mute {
   width: 3rem;
 }
-/* line 52, ../scss/talkingHeadsPlayer/_talking-head.scss */
+/* line 51, ../scss/talkingHeadsPlayer/_player.scss */
 #controls #volume-bar {
   margin: auto 0 auto 8px;
   width: 120px;
 }
-/* line 56, ../scss/talkingHeadsPlayer/_talking-head.scss */
+/* line 55, ../scss/talkingHeadsPlayer/_player.scss */
 #controls #time {
   padding: 0 4px;
   margin: auto 0;
@@ -12649,7 +12647,7 @@ a.text-red:hover, a.text-red:focus {
   font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
-/* line 63, ../scss/talkingHeadsPlayer/_talking-head.scss */
+/* line 62, ../scss/talkingHeadsPlayer/_player.scss */
 #bigPlayBtn {
   height: 76px;
   width: 160px;
@@ -12667,12 +12665,12 @@ a.text-red:hover, a.text-red:focus {
   transition: background-color 0.5s ease;
   transition: border-color 0.5s ease;
 }
-/* line 79, ../scss/talkingHeadsPlayer/_talking-head.scss */
+/* line 78, ../scss/talkingHeadsPlayer/_player.scss */
 #bigPlayBtn:hover {
   background-color: rgba(0, 163, 255, 0.7);
   border-color: rgba(29, 43, 97, 0.7);
 }
-/* line 83, ../scss/talkingHeadsPlayer/_talking-head.scss */
+/* line 82, ../scss/talkingHeadsPlayer/_player.scss */
 #bigPlayBtn:before {
   position: absolute;
   content: url(http://www.live-spokesperson.com/images/BigPlayBtn.gif);
@@ -12680,7 +12678,7 @@ a.text-red:hover, a.text-red:focus {
   top: calc(50% - (64px/2));
 }
 
-/* line 90, ../scss/talkingHeadsPlayer/_talking-head.scss */
+/* line 89, ../scss/talkingHeadsPlayer/_player.scss */
 .smallPlayBtn {
   height: 80px;
   width: 80px;
@@ -12699,14 +12697,14 @@ a.text-red:hover, a.text-red:focus {
   background-color: rgba(29, 43, 97, 0.7);
   transition: all 0.5s ease;
 }
-/* line 107, ../scss/talkingHeadsPlayer/_talking-head.scss */
+/* line 106, ../scss/talkingHeadsPlayer/_player.scss */
 .smallPlayBtn:before {
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
 }
-/* line 113, ../scss/talkingHeadsPlayer/_talking-head.scss */
+/* line 112, ../scss/talkingHeadsPlayer/_player.scss */
 .smallPlayBtn:hover {
   background-color: rgba(0, 163, 255, 0.7);
   border-color: rgba(29, 43, 97, 0.7);

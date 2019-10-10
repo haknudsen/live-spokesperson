@@ -17,7 +17,7 @@
         <h2 class="text-center">Our Spokespeople</h2>
         <div class="w-50 float-left pr-1">
           <div class="embed-responsive embed-responsive-16by9">
-            <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" type="text/html" src="../ivideo/talking-heads-player.php?video=Massive Wall Of Spokespeople&autostart=mouse"></iframe>
+            <iframe class="embed-responsive-item" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" type="text/html" src="../ivideo/talking-heads-player.php?video=Massive Wall Of Spokespeople&autostart=mouse"></iframe>
           </div>
         </div>
         <div class="wrapped-text">
@@ -32,7 +32,7 @@
           <h3 class="card-header bg-gradient-mine text-center text-white">Video <em>Spokespeople</em></h3>
           <div class="card-img-top" style="max-width: 640px;margin: 0 auto">
             <div class="embed-responsive embed-responsive-16by9">
-              <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" type="text/html" src="../ivideo/talking-heads-player.php?video=Professional Spokesperson&autostart=mouse"></iframe>
+              <iframe class="embed-responsive-item" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" type="text/html" src="../ivideo/talking-heads-player.php?video=Professional Spokesperson&autostart=mouse"></iframe>
             </div>
           </div>
           <div class="card-body">
