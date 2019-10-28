@@ -11,7 +11,7 @@
 	<?php include("includes/head.php"); ?>
 </head>
 
-<body>
+<body style="overflow-x: hidden">
 	<?php include("includes/nav.php"); ?>
 	<section class="jumbotron" id="contact-row">
         <h1 class="text-center">Web Video Production</h1>
