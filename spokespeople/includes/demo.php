@@ -36,7 +36,7 @@ if ( $range > 0 ) {
             echo PHP_EOL;
             echo '<img class="spokesperson rounded-circle" src="' . $img . '" id="' . $name . '" alt="' . $name . ' - Introduction" >';
             echo PHP_EOL;
-            echo '<div class="btn-spokesperson"></div>';
+            echo '<div class="btn-spokesperson"><i class="fas fa-play"></i></div>';
             echo PHP_EOL;
             echo '<div class="poster-title text-center">' . $name . '</div>';
             echo PHP_EOL;

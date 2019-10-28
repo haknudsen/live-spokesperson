@@ -1,5 +1,5 @@
 /* Scss Document */
-$btn-spokesperson: 48px;
+$btn-spokesperson: 2rem;
 .poster {
 	opacity: 0.9;
 	-webkit-transition: opacity .5s;
@@ -11,8 +11,7 @@ $btn-spokesperson: 48px;
 		opacity: 1;
 	}
 }
-.poster-title{font-size: 0.8rem;font-weight: 500;text-align: center;
-
+.poster-title{font-size: 0.8rem;font-weight: 500;text-align: center;text-indent: 0;margin: 0 auto .2rem;
     &:hover{
     -webkit-animation: shake 1s;
     animation: shake 1s;
@@ -32,23 +31,15 @@ $btn-spokesperson: 48px;
 	border-radius: 50%;
 	opacity: 0.8;
 	transition: all 0.5s;
+    text-align: center;
+    font-size: $btn-spokesperson/2;
 	&:hover {
 		background-color: $primary;
 		border-color: $light;
 		opacity: 1;
         color: $light;
 	}
-	&:before {
-		position: absolute;
-		top: 50%;
-		left: 53%;
-		-ms-transform: translate(-50%, -50%);
-		transform: translate(-50%, -50%);
-		font-family: "Font Awesome 5 Pro";
-		font-weight: 600;
-		content: "\f04b";
-		font-size: 1rem;
-	}
+    i{margin: $btn-spokesperson/4}
 }
 .spokesperson-holder{
     width: 200px;
@@ -59,7 +50,7 @@ $btn-spokesperson: 48px;
 	height: 180px;
 	width: 160px;
 	flex-wrap: wrap;
-	margin: .25rem 20px 0;
+	margin: 0 20px;
 }
 .modal-spokesperson {
 	width: 960px;
