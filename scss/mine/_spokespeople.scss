@@ -67,18 +67,18 @@ $btn-spokesperson: 2rem;
 		position: absolute;
 		display: flex;
 		align-self: center;
-		top: 50%;
+		top: 25%;
 		width: 320px;
-		background: rgba($primary, 0.5);
+		background: rgba($primary, 0.8);
 		border: $primary thin solid;
 		border-radius: .25rem;
 		color: $dark;
-		input{padding-left: 4px}
-		.holder {
-			padding: 0.5rem;
-		}
+        input{padding-left: 4px;}
+        #vtigerFormSubmitBtn{padding:8px;}
+        .holder {padding: 0.5rem;}
 	}
 }
+.btn-holder{margin-bottom: 0.5rem}
 .modal.show .modal-dialog-spokesperson {
 	transform: translate(0, 0);
 }
