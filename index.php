@@ -175,10 +175,11 @@ what we do
 	<?php include("includes/social-icons.php"); ?>
 </section>
 <section id="scratch">
-	<div id="embed-scratchcard-24TSnFyzpN">
+	<div id="embed-scratchcard-JUs3b773ay">
 		<link rel="stylesheet" href="//vidscratch.com/app/public/scratchcard.css">
-		<script type="text/javascript" src="//vidscratch.com/app/public/jquery-3.4.1.min.js"></script><script type="text/javascript" id="cardjs-24TSnFyzpN" src="//vidscratch.com/app/public/scratchcard.js"></script>
-		<iframe id="scratchcard-frame-24TSnFyzpN" name="scratchcard-frame-24TSnFyzpN" class="animation_effect inline scratchcardframe" scrolling="no" src="//vidscratch.com/app/api/embed-game/OTYy/MTA4NDE=/inline" frameborder="0" allowfullscreen="" style="height: 300px;width:300px;"></iframe>
+		<script type="text/javascript" src="//vidscratch.com/app/public/jquery-3.4.1.min.js"></script><script type="text/javascript" id="cardjs-JUs3b773ay" src="//vidscratch.com/app/public/scratchcard.js"></script>
+		<iframe id="scratchcard-frame-JUs3b773ay" name="scratchcard-frame-JUs3b773ay" class="exit-popup scratchcardframe" scrolling="no" src="//vidscratch.com/app/api/embed-game/OTYy/MTE1NzQ=/exit-popup" frameborder="0" allowfullscreen="" style="height: 360px;width:300px;display:none;"></iframe>
+		<div class="exit-popup-backcover" id="scratcard_backcover"></div>
 	</div>
 </section>
 <?php include("includes/spokesperson-specials.php"); ?>

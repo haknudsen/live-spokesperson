@@ -14,4 +14,5 @@
             <li class="nav-item" id="specials"> <a class="nav-link" href="http://www.live-spokesperson.com/specials">Specials</a> </li>
         </ul>
     </div>
-    <a href="tel:1-801-748-2281" title="Call Now!" class="navbar-brand float-right">1-801-748-2281</a> </nav>
+    <a href="tel:1-801-748-2281" title="Call Now!" class="navbar-brand float-right">1-801-748-2281</a>
+</nav>
