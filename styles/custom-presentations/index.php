@@ -17,7 +17,7 @@
 
 <body>
 <?php include("../../includes/nav.php"); ?>
-<header>
+<header class="header-video">
   <div class="overlay"></div>
   <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
     <source src="https://www.websitetalkingheads.com/ivideo/videos/Video Presentation Show Reel.mp4" type="video/mp4">

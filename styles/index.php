@@ -26,7 +26,7 @@
         <div class="row align-items-center">
             <div class="col-lg-8" id="video-holder">
                 <div class="embed-responsive embed-responsive-16by9">
-                    <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" type="text/html" src="../ivideo/talking-heads-player.php?video=What is a Talking Head$7&autostart=mute&controls=true"></iframe>
+                    <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" type="text/html" src="../ivideo/talking-heads-player.php?video=What is a Talking Head&autostart=mute&controls=true"></iframe>
                 </div>
             </div>
             <div class="col-lg-4">

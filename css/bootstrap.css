@@ -4642,8 +4642,8 @@ input[type="button"].btn-block {
 /* line 42, ../scss/_navbar.scss */
 .navbar-brand {
   display: inline-block;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
   margin-right: 0.5rem;
   font-size: 3vw;
   line-height: inherit;
@@ -13003,17 +13003,16 @@ a.text-red:hover, a.text-red:focus {
 
 /* Scss Document */
 /* line 2, ../scss/mine/_video-header.scss */
-header {
-  padding-top: 154px;
+header.header-video {
   position: relative;
   background-color: black;
   height: auto;
-  min-height: 25rem;
+  min-height: 24rem;
   width: 100%;
   overflow: hidden;
 }
-/* line 10, ../scss/mine/_video-header.scss */
-header video {
+/* line 9, ../scss/mine/_video-header.scss */
+header.header-video video {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -13027,13 +13026,13 @@ header video {
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
 }
-/* line 24, ../scss/mine/_video-header.scss */
-header .container {
+/* line 23, ../scss/mine/_video-header.scss */
+header.header-video .container {
   position: relative;
   z-index: 2;
 }
-/* line 28, ../scss/mine/_video-header.scss */
-header .overlay {
+/* line 27, ../scss/mine/_video-header.scss */
+header.header-video .overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -13045,13 +13044,13 @@ header .overlay {
 }
 
 @media (pointer: coarse) and (hover: none) {
-  /* line 40, ../scss/mine/_video-header.scss */
-  header {
+  /* line 39, ../scss/mine/_video-header.scss */
+  header.header-video {
     background: url("https://www.websitetalkingheads.com/ivideo/videos/Video Presentation Show Reel.jpg") black no-repeat center center scroll;
   }
 
-  /* line 43, ../scss/mine/_video-header.scss */
-  header video {
+  /* line 42, ../scss/mine/_video-header.scss */
+  header.header-video video {
     display: none;
   }
 }
@@ -13154,6 +13153,12 @@ html {
 #mainModal .modal-lg {
   width: 90%;
   max-width: 1280px;
+}
+
+/* line 9, ../scss/mine/_my-modal.scss */
+.buy-now-modal .modal-content {
+  padding-top: .4rem;
+  padding-bottom: .25rem;
 }
 
 /* Scss Document */
@@ -13341,13 +13346,18 @@ nav > div a.nav-item.nav-link:focus {
 
 /* Scss Document */
 /* line 2, ../scss/mine/_my-custom.scss */
+body {
+  overflow-x: hidden;
+}
+
+/* line 3, ../scss/mine/_my-custom.scss */
 .content {
   font-size: 1.2rem;
   color: #1D2B61;
   text-indent: 0;
 }
 
-/* line 7, ../scss/mine/_my-custom.scss */
+/* line 8, ../scss/mine/_my-custom.scss */
 .list-style-item {
   position: relative;
   display: block;
@@ -13357,70 +13367,70 @@ nav > div a.nav-item.nav-link:focus {
   border: 1px solid rgba(0, 0, 0, 0.125);
 }
 
-/* line 15, ../scss/mine/_my-custom.scss */
+/* line 16, ../scss/mine/_my-custom.scss */
 .list-price {
   line-height: 1;
   text-align: center;
   margin: 2rem auto 0;
 }
 
-/* line 20, ../scss/mine/_my-custom.scss */
+/* line 21, ../scss/mine/_my-custom.scss */
 .starting {
   font-size: 60%;
   vertical-align: super;
 }
 
-/* line 24, ../scss/mine/_my-custom.scss */
+/* line 25, ../scss/mine/_my-custom.scss */
 .bd-bottom {
   border-bottom: thin solid #00A3FF;
 }
 
-/* line 27, ../scss/mine/_my-custom.scss */
+/* line 28, ../scss/mine/_my-custom.scss */
 .award-text {
   line-height: 1;
   font-weight: 300;
   font-size: 1vw;
 }
 @media screen and (min-width: 1200px) {
-  /* line 27, ../scss/mine/_my-custom.scss */
+  /* line 28, ../scss/mine/_my-custom.scss */
   .award-text {
     font-size: 32px;
   }
 }
 
-/* line 35, ../scss/mine/_my-custom.scss */
+/* line 36, ../scss/mine/_my-custom.scss */
 #awards .card-title {
   text-align: center;
 }
 
-/* line 38, ../scss/mine/_my-custom.scss */
+/* line 39, ../scss/mine/_my-custom.scss */
 #banner {
   opacity: 0;
 }
 
-/* line 41, ../scss/mine/_my-custom.scss */
+/* line 42, ../scss/mine/_my-custom.scss */
 .seal {
   margin: 16% 0;
 }
 
-/* line 44, ../scss/mine/_my-custom.scss */
+/* line 45, ../scss/mine/_my-custom.scss */
 #seal {
   align-self: center;
 }
 @media screen and (min-width: 1200px) {
-  /* line 44, ../scss/mine/_my-custom.scss */
+  /* line 45, ../scss/mine/_my-custom.scss */
   #seal {
     display: none;
   }
 }
 
-/* line 50, ../scss/mine/_my-custom.scss */
+/* line 51, ../scss/mine/_my-custom.scss */
 #spokesperson img {
   max-width: 220px;
   margin: .25rem auto;
 }
 
-/* line 54, ../scss/mine/_my-custom.scss */
+/* line 55, ../scss/mine/_my-custom.scss */
 .price {
   font-size: 4.5rem;
   line-height: 1;
@@ -13430,23 +13440,23 @@ nav > div a.nav-item.nav-link:focus {
   animation-delay: 2s;
 }
 
-/* line 62, ../scss/mine/_my-custom.scss */
+/* line 63, ../scss/mine/_my-custom.scss */
 .starting {
   float: right;
 }
 
-/* line 63, ../scss/mine/_my-custom.scss */
+/* line 64, ../scss/mine/_my-custom.scss */
 .text-lg-fluid {
   font-size: 1.3vw;
   line-height: 1.2;
 }
 
-/* line 67, ../scss/mine/_my-custom.scss */
+/* line 68, ../scss/mine/_my-custom.scss */
 .center {
   margin: auto;
 }
 
-/* line 70, ../scss/mine/_my-custom.scss */
+/* line 71, ../scss/mine/_my-custom.scss */
 article {
   text-indent: 1rem;
   line-height: 1.1;
@@ -13454,114 +13464,114 @@ article {
   text-align: justify;
 }
 
-/* line 76, ../scss/mine/_my-custom.scss */
+/* line 77, ../scss/mine/_my-custom.scss */
 p {
   text-indent: 1rem;
 }
 
-/* line 79, ../scss/mine/_my-custom.scss */
+/* line 80, ../scss/mine/_my-custom.scss */
 .card-block {
   padding: .5rem;
   text-align: justify;
   line-height: 1.2;
 }
 
-/* line 84, ../scss/mine/_my-custom.scss */
+/* line 85, ../scss/mine/_my-custom.scss */
 .card-footer {
   font-size: .8rem;
   font-weight: 700;
   margin: 0;
 }
 
-/* line 89, ../scss/mine/_my-custom.scss */
+/* line 90, ../scss/mine/_my-custom.scss */
 .card-footer a {
   color: #0C2340;
 }
 
-/* line 92, ../scss/mine/_my-custom.scss */
+/* line 93, ../scss/mine/_my-custom.scss */
 .card-footer a:hover {
   color: #256ABF;
 }
 
-/* line 95, ../scss/mine/_my-custom.scss */
+/* line 96, ../scss/mine/_my-custom.scss */
 .card-top {
   align-items: center;
 }
 
-/* line 98, ../scss/mine/_my-custom.scss */
+/* line 99, ../scss/mine/_my-custom.scss */
 .card-title {
   font-size: 1.2rem;
 }
 
-/* line 101, ../scss/mine/_my-custom.scss */
+/* line 102, ../scss/mine/_my-custom.scss */
 .card-primary {
   border-color: #00A3FF;
 }
 
-/* line 104, ../scss/mine/_my-custom.scss */
+/* line 105, ../scss/mine/_my-custom.scss */
 .line-1 {
   line-height: 1;
 }
 
-/* line 107, ../scss/mine/_my-custom.scss */
+/* line 108, ../scss/mine/_my-custom.scss */
 .fifty {
   width: 50%;
 }
 
-/* line 110, ../scss/mine/_my-custom.scss */
+/* line 111, ../scss/mine/_my-custom.scss */
 .header-primary {
   background-color: #ccedff;
   border-bottom-color: #0082cc;
 }
 
-/* line 114, ../scss/mine/_my-custom.scss */
+/* line 115, ../scss/mine/_my-custom.scss */
 .contact {
   min-width: 310px;
   margin: 0 auto;
   background: #B2D4FF;
   padding: .5rem;
 }
-/* line 119, ../scss/mine/_my-custom.scss */
+/* line 120, ../scss/mine/_my-custom.scss */
 .contact label, .contact input[type="phone"], .contact input[type="email"], .contact input[type="text"], .contact textarea {
   font-size: 1rem;
   background: #D5EEFF;
   line-height: 1;
   padding: 1px 3px;
 }
-/* line 125, ../scss/mine/_my-custom.scss */
+/* line 126, ../scss/mine/_my-custom.scss */
 .contact label {
   background: transparent;
 }
-/* line 128, ../scss/mine/_my-custom.scss */
+/* line 129, ../scss/mine/_my-custom.scss */
 .contact textarea {
   border-width: 2px;
   border-style: inset;
   border-color: initial;
   border-image: initial;
 }
-/* line 133, ../scss/mine/_my-custom.scss */
+/* line 134, ../scss/mine/_my-custom.scss */
 .contact textarea h3 {
   line-height: 1;
   margin-bottom: .25rem;
 }
-/* line 138, ../scss/mine/_my-custom.scss */
+/* line 139, ../scss/mine/_my-custom.scss */
 .contact table, .contact label, .contact input {
   width: 100%;
 }
 @media screen and (max-width: 1600px) {
-  /* line 114, ../scss/mine/_my-custom.scss */
+  /* line 115, ../scss/mine/_my-custom.scss */
   .contact {
     padding: .25rem;
   }
 }
 @media screen and (max-width: 1200px) {
-  /* line 114, ../scss/mine/_my-custom.scss */
+  /* line 115, ../scss/mine/_my-custom.scss */
   .contact {
     padding: 1rem;
   }
 }
 
-/* line 146, ../scss/mine/_my-custom.scss */
+/* line 147, ../scss/mine/_my-custom.scss */
 .contact-phone {
   text-align: center;
   font-size: 4.5vh;
@@ -13570,13 +13580,13 @@ p {
   animation-duration: .5s;
 }
 @media screen and (max-width: 1360px) {
-  /* line 146, ../scss/mine/_my-custom.scss */
+  /* line 147, ../scss/mine/_my-custom.scss */
   .contact-phone {
     font-size: 3vh;
   }
 }
 
-/* line 151, ../scss/mine/_my-custom.scss */
+/* line 152, ../scss/mine/_my-custom.scss */
 .contact-section {
   height: 180px;
   padding-top: 55px;
@@ -13589,14 +13599,14 @@ p {
   background-position: center;
   background-size: cover;
 }
-/* line 162, ../scss/mine/_my-custom.scss */
+/* line 163, ../scss/mine/_my-custom.scss */
 .contact-section h3 {
   color: #E5F0FF;
   text-shadow: -1px 0 #E5F0FF, 0 1px #E5F0FF, 1px 0 #E5F0FF, 0 -1px #E5F0FF;
   font-weight: 700;
 }
 
-/* line 164, ../scss/mine/_my-custom.scss */
+/* line 165, ../scss/mine/_my-custom.scss */
 .btn-contact:hover {
   border-color: #B2D4FF #B2D4FF #B2D4FF;
   background-repeat: repeat-x;
@@ -13620,7 +13630,7 @@ p {
   text-shadow: 0 -2px 1px rgba(255, 255, 255, 0.5);
 }
 
-/* line 169, ../scss/mine/_my-custom.scss */
+/* line 170, ../scss/mine/_my-custom.scss */
 .btn-contact {
   color: #0C2340;
   text-shadow: 0 2px 1px rgba(255, 255, 255, 0.5);
@@ -13648,7 +13658,7 @@ p {
   /* IE6-9 */
 }
 
-/* line 178, ../scss/mine/_my-custom.scss */
+/* line 179, ../scss/mine/_my-custom.scss */
 .btn-product {
   color: #E5F0FF;
   text-shadow: 0 2px 1px rgba(29, 43, 97, 0.5);
@@ -13675,7 +13685,7 @@ p {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$top', endColorstr='$bottom',GradientType=0 );
   /* IE6-9 */
 }
-/* line 186, ../scss/mine/_my-custom.scss */
+/* line 187, ../scss/mine/_my-custom.scss */
 .btn-product:hover {
   border-color: #00A3FF #00A3FF #00A3FF;
   background-repeat: repeat-x;
@@ -13698,29 +13708,29 @@ p {
   text-shadow: 0 -2px 1px rgba(29, 43, 97, 0.5);
   color: #E5F0FF;
 }
-/* line 191, ../scss/mine/_my-custom.scss */
+/* line 192, ../scss/mine/_my-custom.scss */
 .btn-product a {
   color: #E5F0FF;
 }
 
-/* line 195, ../scss/mine/_my-custom.scss */
+/* line 196, ../scss/mine/_my-custom.scss */
 textarea {
   width: 100%;
 }
 
-/* line 198, ../scss/mine/_my-custom.scss */
+/* line 199, ../scss/mine/_my-custom.scss */
 .bd-blue {
   border: thin solid #549BFF;
   padding: .25rem;
   border-radius: .3rem;
 }
 
-/* line 203, ../scss/mine/_my-custom.scss */
+/* line 204, ../scss/mine/_my-custom.scss */
 .bg-grey {
   background: #888888;
 }
 
-/* line 206, ../scss/mine/_my-custom.scss */
+/* line 207, ../scss/mine/_my-custom.scss */
 .bg-gradient-mine {
   border-color: #256ABF #256ABF #256ABF;
   background-repeat: repeat-x;
@@ -13742,7 +13752,7 @@ textarea {
   /* IE6-9 */
 }
 
-/* line 209, ../scss/mine/_my-custom.scss */
+/* line 210, ../scss/mine/_my-custom.scss */
 .btn-gradient-primary {
   border-color: #33b5ff #33b5ff #33b5ff;
   background-repeat: repeat-x;
@@ -13768,7 +13778,7 @@ textarea {
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.33);
   -webkit-font-smoothing: antialiased;
 }
-/* line 216, ../scss/mine/_my-custom.scss */
+/* line 217, ../scss/mine/_my-custom.scss */
 .btn-gradient-primary:hover {
   border-color: #00A3FF #00A3FF #00A3FF;
   background-repeat: repeat-x;
@@ -13790,12 +13800,12 @@ textarea {
   /* IE6-9 */
   text-shadow: 0 1px 0 rgba(0, 0, 0, 0.66);
 }
-/* line 220, ../scss/mine/_my-custom.scss */
+/* line 221, ../scss/mine/_my-custom.scss */
 .btn-gradient-primary a {
   color: #E5F0FF !important;
 }
 
-/* line 222, ../scss/mine/_my-custom.scss */
+/* line 223, ../scss/mine/_my-custom.scss */
 .btn-custom {
   border-color: #66AAFF #66AAFF #66AAFF;
   background-repeat: repeat-x;
@@ -13821,7 +13831,7 @@ textarea {
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.33);
   -webkit-font-smoothing: antialiased;
 }
-/* line 228, ../scss/mine/_my-custom.scss */
+/* line 229, ../scss/mine/_my-custom.scss */
 .btn-custom:hover {
   border-color: #256ABF #256ABF #256ABF;
   background-repeat: repeat-x;
@@ -13843,53 +13853,53 @@ textarea {
   /* IE6-9 */
   text-shadow: 0 1px 0 rgba(0, 0, 0, 0.66);
 }
-/* line 232, ../scss/mine/_my-custom.scss */
+/* line 233, ../scss/mine/_my-custom.scss */
 .btn-custom a {
   color: #fff !important;
 }
 
-/* line 234, ../scss/mine/_my-custom.scss */
+/* line 235, ../scss/mine/_my-custom.scss */
 #spokesperson_videos .card .card-img-top {
   max-width: 220px;
   margin: 0 auto;
 }
 
-/* line 235, ../scss/mine/_my-custom.scss */
+/* line 236, ../scss/mine/_my-custom.scss */
 #awards .card {
   max-width: 500px;
 }
 
-/* line 236, ../scss/mine/_my-custom.scss */
+/* line 237, ../scss/mine/_my-custom.scss */
 #awards .card-body {
   padding-top: 0;
 }
 
-/* line 237, ../scss/mine/_my-custom.scss */
+/* line 238, ../scss/mine/_my-custom.scss */
 .text-light a {
   color: #E5F0FF;
 }
 
-/* line 238, ../scss/mine/_my-custom.scss */
+/* line 239, ../scss/mine/_my-custom.scss */
 .text-large {
   font-size: 200%;
 }
 
-/* line 239, ../scss/mine/_my-custom.scss */
+/* line 240, ../scss/mine/_my-custom.scss */
 .text-huge {
   font-size: 400%;
 }
 
-/* line 240, ../scss/mine/_my-custom.scss */
+/* line 241, ../scss/mine/_my-custom.scss */
 .text-faded {
   opacity: 0.6;
 }
 
-/* line 241, ../scss/mine/_my-custom.scss */
+/* line 242, ../scss/mine/_my-custom.scss */
 .lh-1 {
   line-height: 1;
 }
 
-/* line 242, ../scss/mine/_my-custom.scss */
+/* line 243, ../scss/mine/_my-custom.scss */
 .notification {
   padding-top: 1rem;
   text-align: center;
@@ -13900,17 +13910,17 @@ textarea {
   color: #E5F0FF;
 }
 
-/* line 243, ../scss/mine/_my-custom.scss */
+/* line 244, ../scss/mine/_my-custom.scss */
 .list-group-indent {
   padding-left: 2rem;
 }
 
-/* line 244, ../scss/mine/_my-custom.scss */
+/* line 245, ../scss/mine/_my-custom.scss */
 .card-columns h3 {
   font-size: 1.25rem;
 }
 
-/* line 245, ../scss/mine/_my-custom.scss */
+/* line 246, ../scss/mine/_my-custom.scss */
 .sidebar {
   font-size: 0.8rem;
   padding-right: 0;
@@ -13918,68 +13928,68 @@ textarea {
   top: 137px;
 }
 
-/* line 246, ../scss/mine/_my-custom.scss */
+/* line 247, ../scss/mine/_my-custom.scss */
 .sidebar .nav-link {
   color: #E5F0FF !important;
 }
 
-/* line 247, ../scss/mine/_my-custom.scss */
+/* line 248, ../scss/mine/_my-custom.scss */
 .actor img {
   width: 160px;
   height: 180px;
 }
 
-/* line 248, ../scss/mine/_my-custom.scss */
+/* line 249, ../scss/mine/_my-custom.scss */
 .actor {
   position: relative;
   width: 160px;
   margin: 0 auto;
 }
-/* line 249, ../scss/mine/_my-custom.scss */
+/* line 250, ../scss/mine/_my-custom.scss */
 .actor img {
   max-width: 180px;
   margin: 0 auto;
 }
-/* line 250, ../scss/mine/_my-custom.scss */
+/* line 251, ../scss/mine/_my-custom.scss */
 .actor h3 {
   font-size: 1.5rem;
   font-weight: 700;
 }
-/* line 251, ../scss/mine/_my-custom.scss */
+/* line 252, ../scss/mine/_my-custom.scss */
 .actor:hover > .thumb-wrapper:before {
   color: #E5F0FF;
 }
 
-/* line 253, ../scss/mine/_my-custom.scss */
+/* line 254, ../scss/mine/_my-custom.scss */
 .inputs {
   margin: .5rem;
 }
-/* line 254, ../scss/mine/_my-custom.scss */
+/* line 255, ../scss/mine/_my-custom.scss */
 .inputs input {
   width: 100%;
   margin-bottom: 4px;
   padding-left: 4px;
 }
-/* line 255, ../scss/mine/_my-custom.scss */
+/* line 256, ../scss/mine/_my-custom.scss */
 .inputs textarea {
   margin-right: 30px;
 }
 
-/* line 257, ../scss/mine/_my-custom.scss */
+/* line 258, ../scss/mine/_my-custom.scss */
 .website {
   max-width: 384px;
   transition: all .2s ease-in-out;
 }
-/* line 260, ../scss/mine/_my-custom.scss */
+/* line 261, ../scss/mine/_my-custom.scss */
 .website h3 {
   font-size: 32px;
 }
-/* line 261, ../scss/mine/_my-custom.scss */
+/* line 262, ../scss/mine/_my-custom.scss */
 .website:hover {
   transform: scale(1.1);
 }
 
-/* line 263, ../scss/mine/_my-custom.scss */
+/* line 264, ../scss/mine/_my-custom.scss */
 .thumb-wrapper {
   position: absolute;
   top: 45%;
@@ -13994,7 +14004,7 @@ textarea {
   border-radius: 50%;
   border: -4px solid black;
 }
-/* line 276, ../scss/mine/_my-custom.scss */
+/* line 277, ../scss/mine/_my-custom.scss */
 .thumb-wrapper:before {
   font-size: 48px;
   position: absolute;
@@ -14006,45 +14016,45 @@ textarea {
   right: auto;
 }
 
-/* line 287, ../scss/mine/_my-custom.scss */
+/* line 288, ../scss/mine/_my-custom.scss */
 .i-sup {
   font-size: 60%;
   vertical-align: super;
   padding: 0 6px;
 }
 
-/* line 288, ../scss/mine/_my-custom.scss */
+/* line 289, ../scss/mine/_my-custom.scss */
 footer a:hover {
   color: #E5F0FF;
 }
 
-/* line 289, ../scss/mine/_my-custom.scss */
+/* line 290, ../scss/mine/_my-custom.scss */
 .understrap-read-more-link {
   float: left;
 }
 
-/* line 290, ../scss/mine/_my-custom.scss */
+/* line 291, ../scss/mine/_my-custom.scss */
 .more-link {
   float: right;
 }
 
-/* line 291, ../scss/mine/_my-custom.scss */
+/* line 292, ../scss/mine/_my-custom.scss */
 .testimonial {
   clear: both;
   font-size: 1.5rem;
   height: 320px;
 }
-/* line 292, ../scss/mine/_my-custom.scss */
+/* line 293, ../scss/mine/_my-custom.scss */
 .testimonial .carousel-control-prev, .testimonial .carousel-control-next {
   width: 5%;
 }
-/* line 293, ../scss/mine/_my-custom.scss */
+/* line 294, ../scss/mine/_my-custom.scss */
 .testimonial .carousel-inner {
   height: 235px;
   overflow: hidden;
 }
 
-/* line 295, ../scss/mine/_my-custom.scss */
+/* line 296, ../scss/mine/_my-custom.scss */
 .quote {
   font-weight: 600;
   font-family: open-sans, sans-serif;
@@ -14053,7 +14063,7 @@ footer a:hover {
   line-height: 1.2;
 }
 
-/* line 296, ../scss/mine/_my-custom.scss */
+/* line 297, ../scss/mine/_my-custom.scss */
 .subject {
   text-align: center;
   font-weight: 200;
@@ -14061,7 +14071,7 @@ footer a:hover {
   margin-top: 1rem;
 }
 
-/* line 297, ../scss/mine/_my-custom.scss */
+/* line 298, ../scss/mine/_my-custom.scss */
 .form-name {
   text-align: center;
   font-weight: 700;
@@ -14069,14 +14079,14 @@ footer a:hover {
   font-size: 1.5rem;
 }
 
-/* line 298, ../scss/mine/_my-custom.scss */
+/* line 299, ../scss/mine/_my-custom.scss */
 .social-icons {
   align-items: center;
   display: flex;
   justify-content: center;
 }
 
-/* line 299, ../scss/mine/_my-custom.scss */
+/* line 300, ../scss/mine/_my-custom.scss */
 .social-link {
   border-radius: 50%;
   border: thin solid #1D2B61;
@@ -14089,39 +14099,39 @@ footer a:hover {
   background: #E5F0FF;
   font-size: 2rem;
 }
-/* line 310, ../scss/mine/_my-custom.scss */
+/* line 311, ../scss/mine/_my-custom.scss */
 .social-link a {
   color: #00A3FF;
 }
-/* line 313, ../scss/mine/_my-custom.scss */
+/* line 314, ../scss/mine/_my-custom.scss */
 .social-link:hover {
   color: #E5F0FF;
   background: #1D2B61;
 }
 
-/* line 318, ../scss/mine/_my-custom.scss */
+/* line 319, ../scss/mine/_my-custom.scss */
 #speech-bubble {
   font-size: 3rem;
 }
 @media (max-width: 991.98px) {
-  /* line 318, ../scss/mine/_my-custom.scss */
+  /* line 319, ../scss/mine/_my-custom.scss */
   #speech-bubble {
     display: none;
   }
 }
 
-/* line 322, ../scss/mine/_my-custom.scss */
+/* line 323, ../scss/mine/_my-custom.scss */
 .bg-gradient-dark, .bg-gradient-light, .navbar-light, .navbar-dark {
   transition: 1s ease-in-out;
 }
 
-/* line 323, ../scss/mine/_my-custom.scss */
+/* line 324, ../scss/mine/_my-custom.scss */
 #quote {
   padding: 0;
   font-style: italic;
   line-height: 1;
 }
-/* line 327, ../scss/mine/_my-custom.scss */
+/* line 328, ../scss/mine/_my-custom.scss */
 #quote:before {
   font-family: "Font Awesome 5 Pro";
   font-weight: normal;
@@ -14131,7 +14141,7 @@ footer a:hover {
   padding-right: .5rem;
   vertical-align: top;
 }
-/* line 336, ../scss/mine/_my-custom.scss */
+/* line 337, ../scss/mine/_my-custom.scss */
 #quote:after {
   font-family: "Font Awesome 5 Pro";
   font-weight: normal;
@@ -14142,41 +14152,41 @@ footer a:hover {
   vertical-align: top;
 }
 
-/* line 346, ../scss/mine/_my-custom.scss */
+/* line 347, ../scss/mine/_my-custom.scss */
 .card-header i {
   font-size: 3rem;
 }
 
-/* line 347, ../scss/mine/_my-custom.scss */
+/* line 348, ../scss/mine/_my-custom.scss */
 .spokesperson-specials {
   margin-bottom: 2rem;
   text-align: center;
 }
-/* line 350, ../scss/mine/_my-custom.scss */
+/* line 351, ../scss/mine/_my-custom.scss */
 .spokesperson-specials h5, .spokesperson-specials p {
   margin: 0;
 }
-/* line 351, ../scss/mine/_my-custom.scss */
+/* line 352, ../scss/mine/_my-custom.scss */
 .spokesperson-specials h5 {
   font-size: 1rem;
 }
 
-/* line 353, ../scss/mine/_my-custom.scss */
+/* line 354, ../scss/mine/_my-custom.scss */
 .box {
   border: thin solid #00A3FF;
 }
 
-/* line 354, ../scss/mine/_my-custom.scss */
+/* line 355, ../scss/mine/_my-custom.scss */
 .tiny {
   font-size: 50%;
 }
 
-/* line 355, ../scss/mine/_my-custom.scss */
+/* line 356, ../scss/mine/_my-custom.scss */
 .no-js #loader {
   display: none;
 }
 
-/* line 356, ../scss/mine/_my-custom.scss */
+/* line 357, ../scss/mine/_my-custom.scss */
 .js #loader {
   display: block;
   position: absolute;
@@ -14184,7 +14194,7 @@ footer a:hover {
   top: 0;
 }
 
-/* line 357, ../scss/mine/_my-custom.scss */
+/* line 358, ../scss/mine/_my-custom.scss */
 .se-pre-con {
   position: fixed;
   left: 0;
@@ -14195,12 +14205,12 @@ footer a:hover {
   background: url(/images/preloader.gif) center no-repeat #fff;
 }
 
-/* line 357, ../scss/mine/_my-custom.scss */
+/* line 358, ../scss/mine/_my-custom.scss */
 #show-more {
   cursor: pointer;
 }
 
-/* line 358, ../scss/mine/_my-custom.scss */
+/* line 359, ../scss/mine/_my-custom.scss */
 .demo {
   height: 280px;
   width: 100%;
@@ -14212,12 +14222,12 @@ footer a:hover {
   background-position: center;
   background-size: cover;
 }
-/* line 368, ../scss/mine/_my-custom.scss */
+/* line 369, ../scss/mine/_my-custom.scss */
 .demo .row {
   margin: 2rem auto;
 }
 
-/* line 370, ../scss/mine/_my-custom.scss */
+/* line 371, ../scss/mine/_my-custom.scss */
 .demo-title {
   text-align: center;
   color: #E5F0FF;
@@ -14227,37 +14237,37 @@ footer a:hover {
   display: flex;
 }
 
-/* line 371, ../scss/mine/_my-custom.scss */
+/* line 372, ../scss/mine/_my-custom.scss */
 #standard {
   background-image: url("../images/standard-demo.jpg");
 }
 
-/* line 372, ../scss/mine/_my-custom.scss */
+/* line 373, ../scss/mine/_my-custom.scss */
 #unboxing {
   background-image: url("../images/overhead.jpg");
 }
 
-/* line 373, ../scss/mine/_my-custom.scss */
+/* line 374, ../scss/mine/_my-custom.scss */
 #explaination {
   background-image: url("../images/spokesperson-explanation.jpg");
 }
 
-/* line 374, ../scss/mine/_my-custom.scss */
+/* line 375, ../scss/mine/_my-custom.scss */
 #live-action {
   background-image: url("../images/live-action-demonstration.jpg");
 }
 
-/* line 375, ../scss/mine/_my-custom.scss */
+/* line 376, ../scss/mine/_my-custom.scss */
 .pop {
   box-shadow: none;
   transition: all 0.3s ease-in-out;
 }
-/* line 376, ../scss/mine/_my-custom.scss */
+/* line 377, ../scss/mine/_my-custom.scss */
 .pop:hover {
   box-shadow: 0px 25px 45px 0px rgba(0, 0, 0, 0.15);
 }
 
-/* line 378, ../scss/mine/_my-custom.scss */
+/* line 379, ../scss/mine/_my-custom.scss */
 .alert-styles {
   border-color: #B2D4FF #B2D4FF #B2D4FF;
   background-repeat: repeat-x;
@@ -14280,12 +14290,12 @@ footer a:hover {
   color: #1D2B61;
 }
 
-/* line 382, ../scss/mine/_my-custom.scss */
+/* line 383, ../scss/mine/_my-custom.scss */
 .stroke {
   text-shadow: 3px 3px 0 #1D2B61, -1px -1px 0 #1D2B61, 1px -1px 0 #1D2B61, -1px 1px 0 #1D2B61, 1px 1px 0 #1D2B61;
 }
 
-/* line 383, ../scss/mine/_my-custom.scss */
+/* line 384, ../scss/mine/_my-custom.scss */
 .video-header {
   position: absolute;
   top: 50%;
@@ -14297,39 +14307,39 @@ footer a:hover {
   z-index: 9;
 }
 
-/* line 384, ../scss/mine/_my-custom.scss */
+/* line 385, ../scss/mine/_my-custom.scss */
 .text-heavy {
   font-family: open-sans, sans-serif;
   font-weight: 800;
   font-style: normal;
 }
 
-/* line 385, ../scss/mine/_my-custom.scss */
+/* line 386, ../scss/mine/_my-custom.scss */
 .box-header i {
   font-size: 2rem;
 }
 
-/* line 386, ../scss/mine/_my-custom.scss */
+/* line 387, ../scss/mine/_my-custom.scss */
 .spokesperson-name {
   text-align: center;
   font-size: 1.25rem;
   font-weight: 700;
 }
 
-/* line 387, ../scss/mine/_my-custom.scss */
+/* line 388, ../scss/mine/_my-custom.scss */
 .g-recaptcha div {
   margin: 0 auto;
 }
 
-/* line 388, ../scss/mine/_my-custom.scss */
+/* line 389, ../scss/mine/_my-custom.scss */
 #contactModalCenter, #contactModalCenter {
   font-size: .6rem;
 }
-/* line 389, ../scss/mine/_my-custom.scss */
+/* line 390, ../scss/mine/_my-custom.scss */
 #contactModalCenter table, #contactModalCenter table {
   width: 100%;
 }
-/* line 390, ../scss/mine/_my-custom.scss */
+/* line 391, ../scss/mine/_my-custom.scss */
 #contactModalCenter input[type=email], #contactModalCenter input[type=text], #contactModalCenter textarea, #contactModalCenter input[type=email], #contactModalCenter input[type=text], #contactModalCenter textarea {
   width: 100%;
   padding: 4px;
@@ -14337,12 +14347,12 @@ footer a:hover {
   margin-bottom: .25rem;
   border: solid 1px #00A3FF;
 }
-/* line 391, ../scss/mine/_my-custom.scss */
+/* line 392, ../scss/mine/_my-custom.scss */
 #contactModalCenter input[type=email]:focus, #contactModalCenter input[type=text]:focus, #contactModalCenter textarea:focus, #contactModalCenter input[type=email]:focus, #contactModalCenter input[type=text]:focus, #contactModalCenter textarea:focus {
   border-style: inset;
   background-color: white;
 }
-/* line 396, ../scss/mine/_my-custom.scss */
+/* line 397, ../scss/mine/_my-custom.scss */
 #contactModalCenter #vtigerFormSubmitBtn, #contactModalCenter #vtigerFormSubmitBtn {
   padding: 0.25rem 1rem !important;
   border-color: #66AAFF #66AAFF #66AAFF;
@@ -14369,7 +14379,7 @@ footer a:hover {
   font-weight: 600;
   font-size: 1rem;
 }
-/* line 397, ../scss/mine/_my-custom.scss */
+/* line 398, ../scss/mine/_my-custom.scss */
 #contactModalCenter #vtigerFormSubmitBtn:hover, #contactModalCenter #vtigerFormSubmitBtn:hover {
   border-color: #E5F0FF #E5F0FF #E5F0FF;
   background-repeat: repeat-x;
@@ -14391,7 +14401,7 @@ footer a:hover {
   /* IE6-9 */
 }
 
-/* line 399, ../scss/mine/_my-custom.scss */
+/* line 400, ../scss/mine/_my-custom.scss */
 .wrapped-text {
   font-size: .8rem;
   font-family: open-sans, sans-serif;
@@ -14399,7 +14409,7 @@ footer a:hover {
   font-style: normal;
 }
 
-/* line 400, ../scss/mine/_my-custom.scss */
+/* line 401, ../scss/mine/_my-custom.scss */
 .text-turbo {
   font-size: 1.7rem;
   font-weight: 700;
@@ -14407,12 +14417,12 @@ footer a:hover {
   animation-iteration-count: infinite;
 }
 
-/* line 401, ../scss/mine/_my-custom.scss */
+/* line 402, ../scss/mine/_my-custom.scss */
 .check {
   list-style: none;
   padding: 0;
 }
-/* line 404, ../scss/mine/_my-custom.scss */
+/* line 405, ../scss/mine/_my-custom.scss */
 .check li.list-group-item::before {
   font-family: "Font Awesome 5 Pro";
   display: inline-block;
@@ -14420,30 +14430,30 @@ footer a:hover {
   padding-right: .5rem;
 }
 
-/* line 412, ../scss/mine/_my-custom.scss */
+/* line 413, ../scss/mine/_my-custom.scss */
 .wave-holder {
   width: 100%;
   padding: 0;
 }
-/* line 415, ../scss/mine/_my-custom.scss */
+/* line 416, ../scss/mine/_my-custom.scss */
 .wave-holder .ecwid-title, .wave-holder .ecwid-SingleProduct-options, .wave-holder .ecwid-fieldLabel {
   color: #000 !important;
 }
 
-/* line 418, ../scss/mine/_my-custom.scss */
+/* line 419, ../scss/mine/_my-custom.scss */
 .wave-bottom, .wave-top {
   position: relative;
   width: 100%;
   height: 120px;
 }
 
-/* line 423, ../scss/mine/_my-custom.scss */
+/* line 424, ../scss/mine/_my-custom.scss */
 .wave-body {
   background: #004582;
   min-height: 200px;
 }
 
-/* line 427, ../scss/mine/_my-custom.scss */
+/* line 428, ../scss/mine/_my-custom.scss */
 .side-bar {
   transform: rotate(-90deg);
   position: fixed;
@@ -14464,79 +14474,79 @@ footer a:hover {
   transition: all .5s ease-in-out;
 }
 
-/* line 446, ../scss/mine/_my-custom.scss */
+/* line 447, ../scss/mine/_my-custom.scss */
 .landing-light, .landing-dark {
   overflow-x: hidden;
   width: 100%;
   text-align: center;
 }
 
-/* line 449, ../scss/mine/_my-custom.scss */
+/* line 450, ../scss/mine/_my-custom.scss */
 .landing-light {
   background: white;
 }
-/* line 451, ../scss/mine/_my-custom.scss */
+/* line 452, ../scss/mine/_my-custom.scss */
 .landing-light .card-body, .landing-light .list-group-item {
   background: #B2D4FF;
 }
-/* line 453, ../scss/mine/_my-custom.scss */
+/* line 454, ../scss/mine/_my-custom.scss */
 .landing-light .card-body .ecwid, .landing-light .list-group-item .ecwid {
   background-color: #E5F0FF !important;
 }
 
-/* line 458, ../scss/mine/_my-custom.scss */
+/* line 459, ../scss/mine/_my-custom.scss */
 .landing-dark {
   background: black;
 }
-/* line 460, ../scss/mine/_my-custom.scss */
+/* line 461, ../scss/mine/_my-custom.scss */
 .landing-dark .ecwid {
   background-color: #E5F0FF !important;
 }
 
-/* line 466, ../scss/mine/_my-custom.scss */
+/* line 467, ../scss/mine/_my-custom.scss */
 .carousel-inner img {
   width: 100%;
   height: 100%;
 }
 
-/* line 472, ../scss/mine/_my-custom.scss */
+/* line 473, ../scss/mine/_my-custom.scss */
 .carousel .controls {
   font-size: 3rem;
 }
 
-/* line 475, ../scss/mine/_my-custom.scss */
+/* line 476, ../scss/mine/_my-custom.scss */
 .step {
   color: #00A3FF;
 }
-/* line 477, ../scss/mine/_my-custom.scss */
+/* line 478, ../scss/mine/_my-custom.scss */
 .step .step-icon {
   font-size: 2rem;
 }
-/* line 480, ../scss/mine/_my-custom.scss */
+/* line 481, ../scss/mine/_my-custom.scss */
 .step .step-number {
   font-weight: 600;
   font-size: 1rem;
 }
-/* line 484, ../scss/mine/_my-custom.scss */
+/* line 485, ../scss/mine/_my-custom.scss */
 .step .step-content {
   font-size: .75rem;
   line-height: 1;
 }
 
-/* line 489, ../scss/mine/_my-custom.scss */
+/* line 490, ../scss/mine/_my-custom.scss */
 .shots {
   margin-bottom: 1rem;
 }
 
-/* line 490, ../scss/mine/_my-custom.scss */
+/* line 491, ../scss/mine/_my-custom.scss */
 .choices {
   margin-bottom: 1rem;
 }
-/* line 492, ../scss/mine/_my-custom.scss */
+/* line 493, ../scss/mine/_my-custom.scss */
 .choices .card:hover {
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.275) !important;
 }
-/* line 495, ../scss/mine/_my-custom.scss */
+/* line 496, ../scss/mine/_my-custom.scss */
 .choices .card-header {
   text-transform: uppercase;
   font-weight: 800;
@@ -14544,21 +14554,21 @@ footer a:hover {
   letter-spacing: 2px;
   text-shadow: -1px 1px rgba(255, 255, 255, 0.5);
 }
-/* line 502, ../scss/mine/_my-custom.scss */
+/* line 503, ../scss/mine/_my-custom.scss */
 .choices .list-group-item {
   padding: .25rem;
 }
-/* line 503, ../scss/mine/_my-custom.scss */
+/* line 504, ../scss/mine/_my-custom.scss */
 .choices .list-group-item:last-child {
   border-bottom-style: none;
   margin-bottom: 0.5rem;
 }
-/* line 507, ../scss/mine/_my-custom.scss */
+/* line 508, ../scss/mine/_my-custom.scss */
 .choices .card-body {
   padding: .5rem;
 }
 
-/* line 511, ../scss/mine/_my-custom.scss */
+/* line 512, ../scss/mine/_my-custom.scss */
 .order-holder {
   background-color: #E5F0FF;
   padding: .25rem 0 .25rem .25rem;
@@ -14569,61 +14579,61 @@ footer a:hover {
   box-shadow: -1px 4px 6px rgba(0, 0, 0, 0.3);
 }
 
-/* line 520, ../scss/mine/_my-custom.scss */
+/* line 521, ../scss/mine/_my-custom.scss */
 .ecwid-title {
   margin: 0 !important;
   padding: 0;
 }
 
-/* line 524, ../scss/mine/_my-custom.scss */
+/* line 525, ../scss/mine/_my-custom.scss */
 .ecwid-productBrowser-details-optionPanel {
   margin: 0 !important;
   padding: 0;
 }
 
-/* line 528, ../scss/mine/_my-custom.scss */
+/* line 529, ../scss/mine/_my-custom.scss */
 .ecwid.ecwid-SingleProduct-v2 {
   line-height: 1;
 }
 
-/* line 531, ../scss/mine/_my-custom.scss */
+/* line 532, ../scss/mine/_my-custom.scss */
 .specials-no {
   font-size: .75rem;
   font-weight: 800;
   line-height: 1.4;
 }
 
-/* line 535, ../scss/mine/_my-custom.scss */
+/* line 536, ../scss/mine/_my-custom.scss */
 .special {
   font-weight: 800;
   font-size: 1.5rem;
   color: #1D2B61;
 }
 
-/* line 536, ../scss/mine/_my-custom.scss */
+/* line 537, ../scss/mine/_my-custom.scss */
 .special-subheader {
   font-weight: 600;
   color: #000;
   font-size: 1.1rem;
 }
 
-/* line 537, ../scss/mine/_my-custom.scss */
+/* line 538, ../scss/mine/_my-custom.scss */
 .nav-link.disabled {
   color: #000;
   cursor: default;
   font-weight: 400;
 }
 
-/* line 542, ../scss/mine/_my-custom.scss */
+/* line 543, ../scss/mine/_my-custom.scss */
 .nav-spokesperson {
   font-weight: 600;
 }
-/* line 544, ../scss/mine/_my-custom.scss */
+/* line 545, ../scss/mine/_my-custom.scss */
 .nav-spokesperson .nav-link {
   padding: 0.5rem;
 }
 
-/* line 548, ../scss/mine/_my-custom.scss */
+/* line 549, ../scss/mine/_my-custom.scss */
 #scratch {
   position: absolute;
   top: 200px;
