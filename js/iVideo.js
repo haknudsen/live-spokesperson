@@ -1,5 +1,6 @@
 // JavaScript Document
 function run() {
+    console.log( "running" );
 	var holder = $("#talking-heads-video");
 	var video = holder[0];
 	var srcBase = "https://www.websitetalkingheads.com/";
@@ -27,7 +28,7 @@ function run() {
 
 	function showVideo() {
 		$('#videoModalLabel').text(name + alt);
-        $('#mainModal').modal('show')
+        $('#mainModal').modal('show');
 		video.pause();
 		video.src = srcVideo;
 		video.play();

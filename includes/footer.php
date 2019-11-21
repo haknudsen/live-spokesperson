@@ -66,5 +66,4 @@
 <script>
     new WOW().init();
 </script>
-<script src="https://wpvoicemail.com/widgets/33.js" type="text/javascript"></script>
                                 

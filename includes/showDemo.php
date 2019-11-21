@@ -40,6 +40,10 @@ switch ( $type ) {
 		$sql .= " 	WHERE product=true";
 		array_push( $keyword, "Product Demo","Video Demonstration","Product Demo Video","Demo Video" );
 		break;
+	case "Typography":
+		$sql .= " 	WHERE Typography=true";
+		array_push( $keyword, "Kinetic Typography", "Typography Animation", "Motion Typography", "Typography Video", "Motion Design", "Cool Typography", "Best Typography", "Typography Motion Graphics" );
+		break;
 	default:
 		array_push( $keyword, "Web Video", "Online Video", "Website Video" );
 

@@ -1,117 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-	<meta charset="utf-8">
-	<meta name="keywords" content="Whiteboard Video, Animation, Explainer Video, Video Scribe, Hand Drawing Video, Chalkboard Video">
-	<meta name="description" content="Talking Heads can create a Whiteboard Video, Animation, Explainer Video, Video Scribe, Hand Drawing Video, Chalkboard Video.  Here you watch examples of these kinds of videos.  Whether you can call it a Sketch Video, Chalkboard Video, Hand Drawing Video, Whiteboard Animation, or Animated Explainer Video Talking Heads&#xAE; will make the best video for you.  Contact us for more information.">
-	<meta name="robots" content="index, follow">
-	<meta name="author" content="WebsiteTalkingHeads.com">
-	<title>Whiteboard Animation Videos, Sketch videos, Animated Whiteboard Videos</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<?php include("includes/head.php"); ?>
+<meta charset="utf-8">
+<meta name="keywords" content="Whiteboard Video, Typography, Explainer Video, Video Scribe, Hand Drawing Video, Chalkboard Video">
+<meta name="description" content="Talking Heads can create a Whiteboard Video, Typography, Explainer Video, Video Scribe, Hand Drawing Video, Chalkboard Video.  Here you watch examples of these kinds of videos.  Whether you can call it a Sketch Video, Chalkboard Video, Hand Drawing Video, Whiteboard Typography, or Animated Explainer Video Talking Heads&#xAE; will make the best video for you.  Contact us for more information.">
+<meta name="robots" content="index, follow">
+<meta name="author" content="WebsiteTalkingHeads.com">
+<title>Typography Videos|Talking Heads</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<?php include("../../includes/head.php"); ?>
 </head>
 
 <body>
-	<?php include("includes/nav.php"); ?>
-<section class="jumbotron-fluid bg-image">
-	<h1 class="banner-text">Cool Explainer Videos, Whiteboard Sketch Videos, Spokesperson too!</h1>
-	<div class="container mt-2">
-		<div class="row d-flex align-items-center">
-			<div class="col-lg-8" id="video-holder">
-				<?php 
-    $video = "Whiteboard Animation";
-    $bgColor = "#7ECDF4";
-    $btnColor = "#3D9CEB";
-	$alt = "Whiteboard Animation Demo";
-    include("../../includes/showVideo.php"); 
-    ?>
-			</div>
-			<div class="col-lg-4">
-					<?php include( "../../includes/contact-awards.php"); ?>
+<?php include("../../includes/nav.php"); ?>
+<header class="header-video">
+	<div class="overlay"></div>
+	<video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+		<source src="https://www.websitetalkingheads.com/ivideo/videos/Aliens Animated.mp4" type="video/mp4">
+	</video>
+	<div class="container h-100">
+		<div class="d-flex h-100 text-center align-items-center">
+			<div class="w-100 text-white">
+				<h1 class="display-3 wow bounceInDown">Typography Videos</h1>
+				<p class="lead mb-0 wow bounceInUp">Grab Visitors' Attention</p>
 			</div>
 		</div>
 	</div>
-</section>
-<section class="content">
+</header>
+<section class="container-fluid bg-light py-2">
 	<div class="container">
-		<h2 class="banner-bottom-text">Hand Drawing Videos, Whiteboard Animation Videos, Whiteboard Sketch, Video Scribe and Cartoon Doodle Videos.</h2>
-		<div class="examples clearfix p-2">
-			<?php 
-    $type = "Whiteboard";
-    $show = "15";
-	$rand = false;
-	$columns = 3;
-    include("../../includes/showDemo.php"); 
-    ?>
-		</div>
-</section>
-<section class="content">
-	<div class="container text-center">
-		<div class="examples clearfix p-2">
-			<h2 class="banner-bottom-text p-0">Animation Videos<br /><a href="../../videopresentations/animation.php">More Examples</a></h2>
-			<?php 
-    $type = "Animation";
-    $show = "6";
-	$rand = true;
-	$columns = 3;
-    include("../../includes/showDemo.php"); 
-    ?>
-		</div>
-	</div>
-</section>
-<div class="video-bottom"></div>
-<div class="call-now mx-auto">
-	<h2>CALL NOW to Get Results!</h2>
-	<h3><a href="tel://801-748-2281" title="Give us a call.">801-748-2281</a></h3>
-</div>
-<div class="ten"></div>
-</div>
-</section>
-<section class="content">
-	<div class="container">
-		<h1 class="banner-bottom-text pt-3">Custom Whiteboard Video</h1>
-		<div class="p-2">
-			<div class="fifty float-left">
-				<img src="https://www.websitetalkingheads.com/images/explainer-video-banner.png" alt="Best Explainer Video Companies" class="mt-1 img-fluid mx-auto" title="Best Explainer Video Companies">
-			</div>
-			<h3 class="text-capitalize text-center">Keep visitors' attention and boost sales</h3>
-			<p>At Talking Heads® we don't just make whiteboard Explainer videos. We have spent years studying the art of persuasion and communication. Your story must be told well. So we collaborate to customize and create a video that boost leads and increases sales in your product or service.</p>
-			<p>Talking Heads' Explainer videos stimulate your viewers' brains. Mirror neutrons in the brain make the viewer think it's his or her hand drawing, triggering a dopamine rush in the brain and increase the viewers capacity to focus and remember. The brain is now curious and pays more attention wondering what the whiteboard drawing will become. As it tries to guess what the sketch will become, it focuses more and rewards itself. This happens over and over. Whiteboard sketch is like a time machine with each new drawing practically hypnotizing your viewer. Because of this hyper focus, the viewer also remembers more of your whiteboard animation that regular videos.</p>
-		</div>
-	</div>
-</section>
-<section class="content">
-	<div class="container">
-		<section class="content">
-			<div class="container pt-2">
-				<h2 class="banner-bottom-text text-center">Whiteboard Styles</h2>
-				<div class="container p-2">
-					<div class="d-flex align-items-center">
-						<div class="col-lg-6" id="video-holder">
-							<?php 
-    $video = "Custom vs Generic Whiteboard Videos";
-    $bgColor = "#555555";
-    $btnColor = "#3D9CEB";
-	$alt = "Custom vs Generic Whiteboard Videos";
-    include("../../includes/showVideo.php"); 
-    ?>
-						</div>
-						<div class="col-6">
-							<div class="content-text">Obviously, not all whiteboard style videos are alike, so,we work with you to create the best whiteboard video for your company. We focus on supercharged messages utilizing a hand drawn whiteboard commercials for that triggers focus and engagement That's where we come in. We create high impact, exciting whiteboard illustrator VIDEOS that explain your product, service, software or business.</div>
+		<div class="card wow bounceInUp">
+			<h5 class="card-header bg-gradient-mine text-white text-center text-uppercase">Use Our Typography Videos For</h5>
+			<div class="card-body">
+				<div class="row">
+					<div class="col-lg-6">
+						<ul class="h5">
+							<li>Explain Your Product or Service</li>
+							<li>Describe a Process</li>
+							<li>Staff Training</li>
+							<li>Educational Video</li>
+						</ul>
+					</div>
+					<div class="col-lg-6">
+						<div class="pricing">
+							<div class="card-title h3 text-primary mb-0">60 Second</div>
+							<div class="text-center h4 font-weight-bold mb-0">Typography Videos</div>
+							<h6><span class="small text-dark">Starting at Just</span><span class="price text-primary wow flash">$499</span></h6>
 						</div>
 					</div>
 				</div>
+				<div class="d-flex text-center">
+					<button type="button" class="btn btn-success mx-auto wow zoomIn" style="animation-delay: 4s;" data-toggle="modal" data-target=".buy-now-modal">Buy Now</button>
+				</div>
 			</div>
-		</section>
+		</div>
 	</div>
 </section>
-<?php include("../../includes/footer.php"); ?>
+<section class="pb-5 bg-primary">
+	<h1 class="text-center pt-1 wow tada">Typography Examples</h1>
+	<div class="container-fluid bg-grey">
+		<?php
+		$type = "Typography";
+		$show = "12";
+		$rand = false;
+		$columns = 3;
+		include( "../../includes/showDemo.php" );
+		?>
+	</div>
+</section>
+<section class="alert alert-info mt-4">
+	<?php $style = "typography";include("../includes/random-content.php"); ?>
+</section>
+<section class="alert alert-info">
+	<h2 class="text-uppercase text-center wow zoomIn">follow us</h2>
+	<h3 class="text-center">Join us in <strong>Social Media</strong> and Stay Tuned!</h3>
+	<?php include("../../includes/social-icons.php"); ?>
+</section>
+<div class="modal fade buy-now-modal" tabindex="-1" role="dialog" aria-labelledby="BuyNowTypography" aria-hidden="true">
+	<div class="modal-dialog modal-sm">
+		<div class="modal-content">
+			<div class="ecwid ecwid-SingleProduct-v2 ecwid-SingleProduct-v2-bordered ecwid-SingleProduct-v2-centered ecwid-Product ecwid-Product-159514877" itemscope itemtype="http://schema.org/Product" data-single-product-id="159514877">
+				<div itemprop="image"></div>
+				<div class="ecwid-title" itemprop="name" content="Typography- 60 seconds"></div>
+				<div itemtype="http://schema.org/Offer" itemscope itemprop="offers">
+					<div class="ecwid-productBrowser-price ecwid-price" itemprop="price" content="499" data-spw-price-location="button">
+						<div itemprop="priceCurrency" content="USD"></div>
+					</div>
+				</div>
+				<div customprop="options"></div>
+				<div customprop="addtobag"></div>
+			</div>
+			<script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?18447751&data_platform=singleproduct_v2" charset="utf-8"></script><script type="text/javascript">xProduct()</script> 
+		</div>
+	</div>
+</div>
 <?php include("../../includes/modal.php");?>
-<script src="https://vjs.zencdn.net/7.2.4/video.js"></script>
-<script src="../../js/iVideo.js"></script>
-
-
+<?php include("../../includes/footer.php"); ?>
 </body>
-
 </html>

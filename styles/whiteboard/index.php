@@ -14,7 +14,7 @@
 
 <body>
 <?php include("../../includes/nav.php"); ?>
-<header>
+<header class="header-video">
   <div class="overlay"></div>
   <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
     <source src="https://www.websitetalkingheads.com/ivideo/videos/Whiteboard Show Reel.mp4" type="video/mp4">
@@ -47,7 +47,7 @@
             <div class="pricing">
               <div class="card-title h3 text-primary mb-0">30 Second</div>
               <div class="text-center h4 font-weight-bold mb-0">Whiteboard Videos</div>
-              <h6><span class="small text-dark">Starting at Just</span><span class="price text-primary wow flash">$799</span></h6>
+              <h6><span class="small text-dark">Starting at Just</span><span class="price text-primary wow flash">$1500</span></h6>
             </div>
           </div>
         </div>
