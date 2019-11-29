@@ -84,7 +84,19 @@ $bigPlayBtn-width: 160px;
 		content: url(http://www.live-spokesperson.com/images/BigPlayBtn.gif);
 		left: calc(50% - (#{128px}/2));
 		top: calc(50% - (#{64px}/2));
-	}
+        @media (max-width: 576px) {
+            position: absolute;
+            content: url(https://www.websitetalkingheads.com/ivideo/SmallPlayBtn.gif);
+            left: calc(50% - (64px/2));
+            top: calc(50% - (32px/2));
+        }
+	}    
+    @media (max-width: 576px) {
+            height: 38px;
+            width: 80px;
+            left: calc(50% - (80px/2));
+            top: calc(50% - (38px/2));
+    }
 }
 .smallPlayBtn {
 	height: $bigPlayBtn-width/2;

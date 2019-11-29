@@ -32,6 +32,8 @@ function setProgressBar() {
     if ($("#controls").outerWidth() < 500) {
         volumeBar.css("display", "none");
         volumeBar.width(0);
+        time.css("display","none");
+        time.css("width",0);
     } else {
         var newWidth = parseInt($("#controls").outerWidth() / 8);
         volumeBar.width(newWidth);
