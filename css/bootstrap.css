@@ -13369,6 +13369,33 @@ nav > div a.nav-item.nav-link:focus {
 }
 
 /* Scss Document */
+/* line 2, ../scss/mine/_ecwid.scss */
+.ecwid-productBrowser-details-optionPanel {
+  margin-bottom: 12px !important;
+}
+
+/* line 3, ../scss/mine/_ecwid.scss */
+.ecwid-title, .ecwid-SingleProduct-options {
+  margin: 8px !important;
+  padding: 0 !important;
+}
+
+/* line 4, ../scss/mine/_ecwid.scss */
+#ecwid-productoption-152889173-Script, #ecwid-productoption-160891993-Script {
+  height: 240px !important;
+}
+
+/* line 5, ../scss/mine/_ecwid.scss */
+.ecwid-SingleProduct-v2, .ecwid-SingleProduct-options {
+  max-width: 100% !important;
+}
+
+/* line 6, ../scss/mine/_ecwid.scss */
+.ecwid-SingleProduct-picture {
+  margin-bottom: 0.5rem !important;
+}
+
+/* Scss Document */
 /* line 2, ../scss/mine/_my-custom.scss */
 body {
   overflow-x: hidden;
