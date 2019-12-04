@@ -174,14 +174,7 @@ what we do
 	<h3 class="text-center wow bounceInUp">Join us in <strong>Social Media</strong> and Stay Tuned!</h3>
 	<?php include("includes/social-icons.php"); ?>
 </section>
-<section id="scratch">
-	<div id="embed-scratchcard-JUs3b773ay">
-		<link rel="stylesheet" href="//vidscratch.com/app/public/scratchcard.css">
-		<script type="text/javascript" src="//vidscratch.com/app/public/jquery-3.4.1.min.js"></script><script type="text/javascript" id="cardjs-JUs3b773ay" src="//vidscratch.com/app/public/scratchcard.js"></script>
-		<iframe id="scratchcard-frame-JUs3b773ay" name="scratchcard-frame-JUs3b773ay" class="exit-popup scratchcardframe" scrolling="no" src="//vidscratch.com/app/api/embed-game/OTYy/MTE1NzQ=/exit-popup" frameborder="0" allowfullscreen="" style="height: 360px;width:300px;display:none;"></iframe>
-		<div class="exit-popup-backcover" id="scratcard_backcover"></div>
-	</div>
-</section>
+<?php include("includes/coupon.php"); ?>
 <?php include("includes/spokesperson-specials.php"); ?>
 <?php include("includes/footer.php"); ?>
 <?php include("includes/modal.php"); ?>

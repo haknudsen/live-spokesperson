@@ -13363,6 +13363,12 @@ nav > div a.nav-item.nav-link:focus {
 }
 
 /* Scss Document */
+/* line 2, ../scss/mine/_scratcher.scss */
+.scratchcardframe {
+  overflow: hidden;
+}
+
+/* Scss Document */
 /* line 2, ../scss/mine/_my-custom.scss */
 body {
   overflow-x: hidden;
