@@ -36,18 +36,6 @@ body{overflow-x: hidden}
 #awards .card-title {
 	text-align: center;
 }
-#banner {
-	opacity: 0;
-}
-.seal {
-	margin: 16% 0;
-}
-#seal {
-	align-self: center;
-	@media screen and (min-width:1200px) {
-		display: none;
-	}
-}
 #spokesperson img {
 	max-width: 220px;
 	margin: .25rem auto;
