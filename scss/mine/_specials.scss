@@ -1,0 +1,22 @@
+/* Scss Document */
+.specials-no {
+	font-weight: 800;
+	line-height: 1.4;
+    font-size: .5rem;
+	@media (max-width: 992px) {
+		font-size: 4rem;
+	}
+}
+.special {
+	font-weight: 800;
+	font-size: 1.5rem;
+	color: $dark;
+	@media (max-width: 992px) {
+		font-size: 4rem;
+	}
+}
+.special-subheader {
+	font-weight: 600;
+	color: $black;
+	font-size: 1.1rem;
+}

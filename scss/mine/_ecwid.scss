@@ -1,6 +1,18 @@
 /* Scss Document */
-.ecwid-productBrowser-details-optionPanel{margin-bottom:12px!important}
+.ecwid-productBrowser-details-optionPanel{margin-bottom:12px!important;padding: 0;}
 .ecwid-title,.ecwid-SingleProduct-options{margin:8px!important;padding:0!important}
 #ecwid-productoption-152889173-Script, #ecwid-productoption-160891993-Script{height:240px!important}
 .ecwid-SingleProduct-v2,.ecwid-SingleProduct-options{max-width: 100%!important}
 .ecwid-SingleProduct-picture{margin-bottom: .5rem!important}
+.order-holder{
+    background-color: $light;
+    padding: .25rem 0 .25rem .25rem;
+    font-weight: 500;
+    border-radius: .25rem 0 0 .25rem;
+    border: thin solid rgba($primary,0.3);
+    border-right: none;
+    box-shadow: -1px 4px 6px rgba($black,0.3);
+}
+.ecwid.ecwid-SingleProduct-v2{
+    line-height: 1;
+}

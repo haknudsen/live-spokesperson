@@ -284,26 +284,6 @@ footer a:hover{color: $light;}
 .quote{font-weight: 600;font-family: open-sans, sans-serif; width: 90%;margin: 0 auto;line-height: 1.2}
 .subject{text-align: center;font-weight: 200;font-style: italic;margin-top: 1rem}
 .form-name{text-align: center;font-weight: 700;color:$light;font-size: 1.5rem}
-.social-icons{align-items: center;display: flex; justify-content: center;}
-.social-link{
-		border-radius: 50%;
-		border: thin solid $dark;
-		position: relative;
-		width: 3rem;
-		height: 3rem;
-		margin: 0 .25rem;
-		padding: .25rem;
-		color: $dark;
-		background: $light;
-		font-size: 2rem;
-		a {
-			color: $primary; 
-		}
-		&:hover{
-			color: $light;
-			background: $dark;
-		}
-}
 #speech-bubble{font-size: 3rem;
 	@include media-breakpoint-down(md) {
 	display: none;
@@ -497,32 +477,6 @@ footer a:hover{color: $light;}
         padding: .5rem;
     }
 }
-.order-holder{
-    background-color: $light;
-    padding: .25rem 0 .25rem .25rem;
-    font-weight: 500;
-    border-radius: .25rem 0 0 .25rem;
-    border: thin solid rgba($primary,0.3);
-    border-right: none;
-    box-shadow: -1px 4px 6px rgba($black,0.3);
-}
-.ecwid-title{
-    margin: 0!important;
-    padding: 0;
-}
-.ecwid-productBrowser-details-optionPanel{
-    margin: 0!important;
-    padding: 0;
-}
-.ecwid.ecwid-SingleProduct-v2{
-    line-height: 1;
-}
-.specials-no{font-size: .75rem;
-    font-weight: 800;
-    line-height: 1.4;
-}
-.special{font-weight: 800;font-size: 1.5rem;color: $dark}
-.special-subheader{font-weight: 600;color: $black;font-size: 1.1rem;}
  .nav-link.disabled{
     color: $black;
     cursor: default;

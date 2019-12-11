@@ -28,87 +28,81 @@ $newdate = "THESE OFFERS EXPIRE Friday, " . $newdateBase;
 <body class="landing-light">
 <?php include("../includes/nav.php"); ?>
 <section class="page-header text-center mt-3">
-    <div class="row align-items-center">
-        <div class="col-lg-8 col-xl-8 offset-xl-1">
-            <h1>Talking Heads<sup class="tm-small">&reg;</sup></h1>
-            <h2>Featured Actor Specials</h2>
-            <h4 id="SpecialTop">
-                <?=$newdate?>
-            </h4>
-            <div class="row">
-                <div class="col-lg-4 center">
-                    <div class="spokesperson-holder" alt="<?=$male?> - Featured Actor" data-toggle="modal" data-target=".modal-spokesperson" data-video="<?=$male?>"> <img class="spokesperson rounded-circle" src="https://www.websitetalkingheads.com/spokespeople/posters/<?=$male?>.jpg" id="<?=$male?>" alt="<?=$male?> - Demo">
-                        <div class="btn-spokesperson"></div>
-                        <div class="special" id="male">
-                            <?=$male?>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="align-self-center text-center">
-                        <div class="specials-no">NO HIDDEN FEES</div>
-                        <div class="specials-no">NO ANNUAL FEES</div>
-                        <div class="specials-no">NO HOSTING FEES</div>
-                        <div class="h4 text-primary">This is it!</div>
-                    </div>
-                </div>
-                <div class="col-lg-4 center">
-                    <div class="spokesperson-holder" alt="<?=$female?> - Featured Actor" data-toggle="modal" data-target=".modal-spokesperson" data-video="<?=$female?>"> <img class="spokesperson rounded-circle" src="https://www.websitetalkingheads.com/spokespeople/posters/<?=$female?>.jpg" id="<?=$female?>" alt="<?=$female?> - Demo">
-                        <div class="btn-spokesperson"></div>
-                        <div class="special" id="female">
-                            <?=$female?>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4">
-                    <div class="text-center">
-                        <div class="special">Special #1</div>
-                        <div class="special-subheader">Buy One, Get One <strong>FREE!</strong></div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                <img src="/images/starburst.png" class="img img-fluid" alt="SPECIAL OFFER!"/>
-                </div>
-                <div class="col-lg-4">
-                    <div class="text-center">
-                        <div class="special">Special #2</div>
-                        <div class="special-subheader">Multiple Video Special</div>
-                    </div>
-                </div>
-            </div>
-            <div class="row mb-2">
-                <div class="col-lg-4"> <img src="https://www.websitetalkingheads.com/images/buy1-get1.png" id="buy1-get1"/> </div>
-                <div class="col-lg-4">  </div>
-                <div class="col-lg-4"><img class="img-responsive special-img" src="https://www.websitetalkingheads.com/images/5x60-sec.png" alt="Video Spokesperson-Five 60 Second videos for $799" id="5x60-sec"/> </div>
-            </div>
-            <div class="text-capitalize">Choose only ONE Featured Actor</div>
-            <div class="text-danger">All special packages must be shot at same time, for same domain</div>
-            <div class="special-subheader">30 Second Video $299</div>
-            <div class="special-subheader">60 Second Video $399</div>
-            <p align="center" class="largeText"><span class="centeredmedium">30 Second=41-90 Words, 60 Second=91-180 Words</span> </p>
-        </div>
-        <div class="col-xl-3 col-lg-4">
-            <div class="order-holder">
-                <div class="ecwid ecwid-SingleProduct-v2 ecwid-SingleProduct-v2-bordered ecwid-SingleProduct-v2-centered ecwid-Product ecwid-Product-152969916" itemscope itemtype="http://schema.org/Product" data-single-product-id="152969916">
-                    <div itemprop="image"></div>
-                    <div class="ecwid-title" itemprop="name" content="Featured Actor Special"></div>
-                    <div itemtype="http://schema.org/Offer" itemscope itemprop="offers">
-                        <div class="ecwid-productBrowser-price ecwid-price" itemprop="price" content="299" data-spw-price-location="button">
-                            <div itemprop="priceCurrency" content="USD"></div>
-                        </div>
-                    </div>
-                    <div customprop="options"></div>
-                    <div customprop="addtobag"></div>
-                </div>
-                <script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?18447751&data_platform=singleproduct_v2" charset="utf-8"></script><script type="text/javascript">xProduct()</script> 
-            </div>
-        </div>
-    </div>
+	<h1>Featured Actor Specials</h1>
+	<div class="row">
+		<div class="col-lg-8 col-xl-8 offset-xl-1">
+			<h4 id="SpecialTop">
+				<?=$newdate?>
+			</h4>
+			<div class="row no-gutters">
+				<div class="col-lg-5">
+					<div class="embed-responsive embed-responsive-16by9">
+						<iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" type="text/html" src="https://www.websitetalkingheads.com/ivideo/talking-heads-player.php?video=<?=$male?>&autostart=mute&controls=true&actor=true&color=193441"></iframe>
+					</div>
+					<div class="special" id="male">
+						<?=$male?>
+					</div>
+				</div>
+				<div class="col-lg-2">
+					<div class="align-self-center text-center">
+						<h4 class="specials-no wow bounceInUp">NO HIDDEN FEES<br>
+							NO ANNUAL FEES<br>
+							NO HOSTING FEES<br>
+							This is it!</h4>
+					</div>
+				</div>
+				<div class="col-lg-5">
+					<div class="embed-responsive embed-responsive-16by9">
+						<iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" type="text/html" src="https://www.websitetalkingheads.com/ivideo/talking-heads-player.php?video=<?=$female?>&autostart=mute&controls=true&actor=true&color=193441"></iframe>
+					</div>
+					<div class="special" id="female">
+						<?=$female?>
+					</div>
+				</div>
+			</div>
+			<div class="alert alert-info">
+				<div class="row">
+					<div class="col-lg-4">
+						<div class="text-center">
+							<div class="special">Special #1</div>
+							<div class="special-subheader">Buy One, Get One <strong>FREE!</strong></div>
+							<img class="img img-fluid wow bounceInLeft" src="https://www.websitetalkingheads.com/images/buy1-get1.png" id="buy1-get1"/> </div>
+					</div>
+					<div class="col-lg-4"> <img src="/images/starburst.png" class="img img-fluid" alt="SPECIAL OFFER!"/> </div>
+					<div class="col-lg-4">
+						<div class="text-center">
+							<div class="special">Special #2</div>
+							<div class="special-subheader">Multiple Video Special</div>
+							<img class="img img-fluid wow bounceInRight" src="https://www.websitetalkingheads.com/images/5x60-sec.png" alt="Video Spokesperson-Five 60 Second videos for $799" id="5x60-sec"/> </div>
+					</div>
+				</div>
+			</div>
+			<div class="text-capitalize">Choose only ONE Featured Actor</div>
+			<div class="text-danger">All special packages must be shot at same time, for same domain</div>
+			<div class="special-subheader">30 Second Video $299</div>
+			<div class="special-subheader">60 Second Video $399</div>
+			<p align="center" class="largeText"><span class="centeredmedium">30 Second=41-90 Words, 60 Second=91-180 Words</span> </p>
+		</div>
+		<div class="col-xl-3 col-lg-4">
+			<div class="order-holder">
+				<div class="ecwid ecwid-SingleProduct-v2 ecwid-SingleProduct-v2-bordered ecwid-SingleProduct-v2-centered ecwid-Product ecwid-Product-152969916" itemscope itemtype="http://schema.org/Product" data-single-product-id="152969916">
+					<div itemprop="image"></div>
+					<div class="ecwid-title" itemprop="name" content="Featured Actor Special"></div>
+					<div itemtype="http://schema.org/Offer" itemscope itemprop="offers">
+						<div class="ecwid-productBrowser-price ecwid-price" itemprop="price" content="299" data-spw-price-location="button">
+							<div itemprop="priceCurrency" content="USD"></div>
+						</div>
+					</div>
+					<div customprop="options"></div>
+					<div customprop="addtobag"></div>
+				</div>
+				<script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?18447751&data_platform=singleproduct_v2" charset="utf-8"></script><script type="text/javascript">xProduct()</script> 
+			</div>
+		</div>
+	</div>
 </section>
-<section class="alert alert-info text-center container">
-    <h2 class="wow flash">Call <a href="tel://801-748-2281" title="Give us a call.">801-748-2281</a> for more information</h2>
+<section class="alert alert-info text-center container mt-3 wow fadeInUpBig">
+	<h2 class="wow flash">Call <a href="tel://801-748-2281" title="Give us a call.">801-748-2281</a> for more information</h2>
 </section>
 <?php include("../includes/footer.php"); ?>
 <?php include("../spokespeople/includes/modal.php"); ?>

@@ -23,7 +23,7 @@
 			</div>
 			<div class="col-lg-4 d-flex flex-column">
 				<div class="specials">
-					<div><a href="/order.php">Buy One, Get One Free</a></div>
+					<div><a href="http://www.live-spokesperson.com/specials/">Buy One, Get One Free</a></div>
 				</div>
 				<div class="m-auto">
 					<p class="tiny">Featured Actor Videos must choose only ONE Featured Actor. Specials must be shot at same time, for same domain, using only ONE Featured Actor</p>
