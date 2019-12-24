@@ -57,6 +57,25 @@
 		</div>
 	</div>
 </section>
+<section class="alert alert-info">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<div class="piechart">
+					<h2 class="text-uppercase">usage of social media</h2>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="chart-legend">
+					<span class="text-primary">46% Facebook</span>
+					<span class="text-orange">25% Instagram</span>
+					<span class="text-success">29% Twitter</span>
+				</div>
+				<p>Research conducted in 2019, presenting the usage of social media.</p>
+			</div>
+		</div>
+	</div>
+</section>
 <?php include("includes/footer.php"); ?>
 </body>
 </html>

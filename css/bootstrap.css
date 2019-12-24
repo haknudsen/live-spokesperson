@@ -12582,13 +12582,14 @@ a.text-red:hover, a.text-red:focus {
   height: auto;
   margin: 0;
   padding: 0;
+  overflow: hidden;
 }
 /* line 11, ../scss/talkingHeadsPlayer/_player.scss */
 #player-holder:hover #controls {
   opacity: 1;
 }
 
-/* line 16, ../scss/talkingHeadsPlayer/_player.scss */
+/* line 17, ../scss/talkingHeadsPlayer/_player.scss */
 #controls {
   width: 100%;
   margin-left: auto;
@@ -12608,38 +12609,38 @@ a.text-red:hover, a.text-red:focus {
   opacity: 0;
 }
 @media (min-width: 768px) {
-  /* line 16, ../scss/talkingHeadsPlayer/_player.scss */
+  /* line 17, ../scss/talkingHeadsPlayer/_player.scss */
   #controls {
     font-size: 1.8rem;
   }
 }
-/* line 36, ../scss/talkingHeadsPlayer/_player.scss */
+/* line 37, ../scss/talkingHeadsPlayer/_player.scss */
 #controls .player-btn {
   width: 2rem;
   margin-left: 4px;
 }
-/* line 40, ../scss/talkingHeadsPlayer/_player.scss */
+/* line 41, ../scss/talkingHeadsPlayer/_player.scss */
 #controls #progress-bar {
   margin: auto 6px;
   border: thin solid #1D2B61;
   height: 2rem;
 }
 @media (max-width: 500px) {
-  /* line 40, ../scss/talkingHeadsPlayer/_player.scss */
+  /* line 41, ../scss/talkingHeadsPlayer/_player.scss */
   #controls #progress-bar {
     height: 1rem;
   }
 }
-/* line 48, ../scss/talkingHeadsPlayer/_player.scss */
+/* line 49, ../scss/talkingHeadsPlayer/_player.scss */
 #controls #btn-mute {
   width: 3rem;
 }
-/* line 51, ../scss/talkingHeadsPlayer/_player.scss */
+/* line 52, ../scss/talkingHeadsPlayer/_player.scss */
 #controls #volume-bar {
   margin: auto 0 auto 8px;
   width: 120px;
 }
-/* line 55, ../scss/talkingHeadsPlayer/_player.scss */
+/* line 56, ../scss/talkingHeadsPlayer/_player.scss */
 #controls #time {
   padding: 0 4px;
   margin: auto 0;
@@ -12647,7 +12648,7 @@ a.text-red:hover, a.text-red:focus {
   font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
-/* line 62, ../scss/talkingHeadsPlayer/_player.scss */
+/* line 63, ../scss/talkingHeadsPlayer/_player.scss */
 #bigPlayBtn {
   height: 76px;
   width: 160px;
@@ -12665,12 +12666,12 @@ a.text-red:hover, a.text-red:focus {
   transition: background-color 0.5s ease;
   transition: border-color 0.5s ease;
 }
-/* line 78, ../scss/talkingHeadsPlayer/_player.scss */
+/* line 79, ../scss/talkingHeadsPlayer/_player.scss */
 #bigPlayBtn:hover {
   background-color: rgba(0, 163, 255, 0.7);
   border-color: rgba(29, 43, 97, 0.7);
 }
-/* line 82, ../scss/talkingHeadsPlayer/_player.scss */
+/* line 83, ../scss/talkingHeadsPlayer/_player.scss */
 #bigPlayBtn:before {
   position: absolute;
   content: url(http://www.live-spokesperson.com/images/BigPlayBtn.gif);
@@ -12678,7 +12679,7 @@ a.text-red:hover, a.text-red:focus {
   top: calc(50% - (64px/2));
 }
 @media (max-width: 576px) {
-  /* line 82, ../scss/talkingHeadsPlayer/_player.scss */
+  /* line 83, ../scss/talkingHeadsPlayer/_player.scss */
   #bigPlayBtn:before {
     position: absolute;
     content: url(https://www.websitetalkingheads.com/ivideo/SmallPlayBtn.gif);
@@ -12687,7 +12688,7 @@ a.text-red:hover, a.text-red:focus {
   }
 }
 @media (max-width: 576px) {
-  /* line 62, ../scss/talkingHeadsPlayer/_player.scss */
+  /* line 63, ../scss/talkingHeadsPlayer/_player.scss */
   #bigPlayBtn {
     height: 38px;
     width: 80px;
@@ -12696,7 +12697,7 @@ a.text-red:hover, a.text-red:focus {
   }
 }
 
-/* line 101, ../scss/talkingHeadsPlayer/_player.scss */
+/* line 102, ../scss/talkingHeadsPlayer/_player.scss */
 .smallPlayBtn {
   height: 80px;
   width: 80px;
@@ -12715,14 +12716,14 @@ a.text-red:hover, a.text-red:focus {
   background-color: rgba(29, 43, 97, 0.7);
   transition: all 0.5s ease;
 }
-/* line 118, ../scss/talkingHeadsPlayer/_player.scss */
+/* line 119, ../scss/talkingHeadsPlayer/_player.scss */
 .smallPlayBtn:before {
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
 }
-/* line 124, ../scss/talkingHeadsPlayer/_player.scss */
+/* line 125, ../scss/talkingHeadsPlayer/_player.scss */
 .smallPlayBtn:hover {
   background-color: rgba(0, 163, 255, 0.7);
   border-color: rgba(29, 43, 97, 0.7);
@@ -13474,6 +13475,39 @@ nav > div a.nav-item.nav-link:focus {
   font-weight: 600;
   color: #000;
   font-size: 1.1rem;
+}
+
+/* Scss Document */
+/* line 2, ../scss/mine/_pie-chart.scss */
+.piechart {
+  width: 300px;
+  height: 300px;
+  float: right;
+  margin-right: 50px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: conic-gradient(#00A3FF 0% 46%, #FFAF19 46% 71%, #0DC946 71%);
+  border-radius: 50%;
+  border: thin solid #1D2B61;
+}
+
+/* line 16, ../scss/mine/_pie-chart.scss */
+.piechart h2 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  color: #000;
+}
+
+/* line 24, ../scss/mine/_pie-chart.scss */
+.chart-legend {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-family: raleway, sans-serif;
 }
 
 /* Scss Document */
@@ -14669,3 +14703,5 @@ footer a:hover {
 #campaign-list {
   overflow: hidden;
 }
+
+/*# sourceMappingURL=bootstrap.css.map */
