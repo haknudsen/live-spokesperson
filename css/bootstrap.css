@@ -419,8 +419,8 @@ template {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
-  font-family: inherit;
-  font-weight: 500;
+  font-family: open-sans, sans-serif;
+  font-weight: 700;
   line-height: 1.2;
   color: inherit;
 }
@@ -13198,6 +13198,24 @@ html {
   transform: rotateY(180deg);
 }
 
+/* line 55, ../scss/mine/_flip-card.scss */
+.card .list-group-item {
+  width: 100%;
+  color: #256ABF;
+  text-align: inherit;
+}
+/* line 17, ../scss/mixins/_hover.scss */
+.card .list-group-item:hover, .card .list-group-item:focus {
+  color: #256ABF;
+  text-decoration: none;
+  background-color: #E5F0FF;
+}
+/* line 67, ../scss/mine/_flip-card.scss */
+.card .list-group-item:active {
+  color: #0C2340;
+  background-color: #B2D4FF;
+}
+
 /* Scss Document */
 /* line 3, ../scss/mine/_my-modal.scss */
 #mainModal .modal-lg {
@@ -13527,31 +13545,50 @@ p {
 /* line 4, ../scss/mine/_typography.scss */
 .content {
   font-size: 1.2rem;
-  color: #001;
+  color: #000;
 }
 
 /* line 5, ../scss/mine/_typography.scss */
-.pricing h3 {
-  font-size: 1.5rem;
+.pricing {
+  clear: both;
+  text-align: center;
+  max-width: 320px;
+  margin: auto;
 }
 
 /* line 6, ../scss/mine/_typography.scss */
+.pricing h3 {
+  font-size: 1.5rem;
+  color: #00A3FF;
+}
+
+/* line 7, ../scss/mine/_typography.scss */
 .pricing h4 {
   font-size: 1.75rem;
 }
 
-/* line 7, ../scss/mine/_typography.scss */
-.pricing {
-  vertical-align: middle;
-  height: auto;
+/* line 8, ../scss/mine/_typography.scss */
+.pricing h5 {
+  font-size: .5rem;
+  float: left;
+  color: #1D2B61;
+  font-weight: 300;
+  margin-bottom: 0;
 }
 
-/* line 8, ../scss/mine/_typography.scss */
+/* line 9, ../scss/mine/_typography.scss */
+.pricing h6 {
+  font-size: 3.5rem;
+  color: #00A3FF;
+  float: right;
+}
+
+/* line 10, ../scss/mine/_typography.scss */
 .text-large {
   font-size: 150%;
 }
 
-/* line 9, ../scss/mine/_typography.scss */
+/* line 11, ../scss/mine/_typography.scss */
 .text-small {
   font-size: 50%;
 }
@@ -14749,5 +14786,3 @@ footer a:hover {
 #campaign-list {
   overflow: hidden;
 }
-
-/*# sourceMappingURL=bootstrap.css.map */
