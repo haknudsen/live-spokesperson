@@ -34,17 +34,14 @@ $social-icons: (
 	}
 }
 .social-icons{align-items: center;display: flex; justify-content: center;}
-.social-link{
+.social-link, .social-link-small{
 		border-radius: 50%;
 		border: thin solid $dark;
 		position: relative;
-		width: 3rem;
-		height: 3rem;
 		margin: 0 .25rem;
 		padding: .25rem;
 		color: $dark;
 		background: $light;
-		font-size: 2rem;
 		a {
 			color: $primary; 
 		}
@@ -52,4 +49,14 @@ $social-icons: (
 			color: $light;
 			background: $dark;
 		}
+}
+.social-link{
+		width: 3rem;
+		height: 3rem;
+		font-size: 2rem;
+}
+.social-link-small{
+		width: 1.5rem;
+		height: 1.5rem;
+		font-size: 1rem;
 }

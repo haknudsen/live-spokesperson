@@ -5311,7 +5311,7 @@ input[type="button"].btn-block {
   display: flex;
   flex-wrap: wrap;
   padding: 0.75rem 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0;
   list-style: none;
   background-color: #B2D4FF;
   border-radius: 0.25rem;
@@ -13029,26 +13029,37 @@ a.text-red:hover, a.text-red:focus {
 }
 
 /* line 37, ../scss/mine/_social-icons.scss */
-.social-link {
+.social-link, .social-link-small {
   border-radius: 50%;
   border: thin solid #1D2B61;
   position: relative;
-  width: 3rem;
-  height: 3rem;
   margin: 0 .25rem;
   padding: .25rem;
   color: #1D2B61;
   background: #E5F0FF;
-  font-size: 2rem;
 }
-/* line 48, ../scss/mine/_social-icons.scss */
-.social-link a {
+/* line 45, ../scss/mine/_social-icons.scss */
+.social-link a, .social-link-small a {
   color: #00A3FF;
 }
-/* line 51, ../scss/mine/_social-icons.scss */
-.social-link:hover {
+/* line 48, ../scss/mine/_social-icons.scss */
+.social-link:hover, .social-link-small:hover {
   color: #E5F0FF;
   background: #1D2B61;
+}
+
+/* line 53, ../scss/mine/_social-icons.scss */
+.social-link {
+  width: 3rem;
+  height: 3rem;
+  font-size: 2rem;
+}
+
+/* line 58, ../scss/mine/_social-icons.scss */
+.social-link-small {
+  width: 1.5rem;
+  height: 1.5rem;
+  font-size: 1rem;
 }
 
 /* Scss Document */
