@@ -13511,4 +13511,1243 @@ nav > div a.nav-item.nav-link:focus {
   font-family: raleway, sans-serif;
 }
 
+/* Scss Document */
+/* line 2, ../scss/mine/_typography.scss */
+article {
+  text-indent: 1rem;
+  line-height: 1rem;
+  font-size: .8rem;
+}
+
+/* line 3, ../scss/mine/_typography.scss */
+p {
+  text-indent: 1rem;
+}
+
+/* line 4, ../scss/mine/_typography.scss */
+.content {
+  font-size: 1.2rem;
+  color: #001;
+}
+
+/* line 5, ../scss/mine/_typography.scss */
+.pricing h3 {
+  font-size: 1.5rem;
+}
+
+/* line 6, ../scss/mine/_typography.scss */
+.pricing h4 {
+  font-size: 1.75rem;
+}
+
+/* line 7, ../scss/mine/_typography.scss */
+.pricing {
+  vertical-align: middle;
+  height: auto;
+}
+
+/* line 8, ../scss/mine/_typography.scss */
+.text-large {
+  font-size: 150%;
+}
+
+/* line 9, ../scss/mine/_typography.scss */
+.text-small {
+  font-size: 50%;
+}
+
+/* Scss Document */
+/* line 2, ../scss/mine/_my-base.scss */
+body {
+  overflow-x: hidden;
+}
+
+/* line 3, ../scss/mine/_my-base.scss */
+.content {
+  font-size: 1.2rem;
+  color: #1D2B61;
+  text-indent: 0;
+}
+
+/* line 8, ../scss/mine/_my-base.scss */
+.list-style-item {
+  position: relative;
+  display: block;
+  padding: .5rem 1.25rem;
+  margin-bottom: -1px;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+/* line 16, ../scss/mine/_my-base.scss */
+.list-price {
+  line-height: 1;
+  text-align: center;
+  margin: 2rem auto 0;
+}
+
+/* line 21, ../scss/mine/_my-base.scss */
+.starting {
+  font-size: 60%;
+  vertical-align: super;
+}
+
+/* line 25, ../scss/mine/_my-base.scss */
+.bd-bottom {
+  border-bottom: thin solid #00A3FF;
+}
+
+/* line 28, ../scss/mine/_my-base.scss */
+.award-text {
+  line-height: 1;
+  font-weight: 300;
+  font-size: 1vw;
+}
+@media screen and (min-width: 1200px) {
+  /* line 28, ../scss/mine/_my-base.scss */
+  .award-text {
+    font-size: 32px;
+  }
+}
+
+/* line 36, ../scss/mine/_my-base.scss */
+#awards .card-title {
+  text-align: center;
+}
+
+/* line 39, ../scss/mine/_my-base.scss */
+#spokesperson img {
+  max-width: 220px;
+  margin: .25rem auto;
+}
+
+/* line 43, ../scss/mine/_my-base.scss */
+.price {
+  font-size: 4.5rem;
+  line-height: 1;
+  font-weight: 700;
+  float: right;
+  animation-duration: 1s;
+  animation-delay: 2s;
+}
+
+/* line 51, ../scss/mine/_my-base.scss */
+.starting {
+  float: right;
+}
+
+/* line 52, ../scss/mine/_my-base.scss */
+.text-lg-fluid {
+  font-size: 1.3vw;
+  line-height: 1.2;
+}
+
+/* line 56, ../scss/mine/_my-base.scss */
+.center {
+  margin: auto;
+}
+
+/* line 59, ../scss/mine/_my-base.scss */
+article {
+  text-indent: 1rem;
+  line-height: 1.1;
+  font-size: 0.8rem;
+  text-align: justify;
+}
+
+/* line 65, ../scss/mine/_my-base.scss */
+p {
+  text-indent: 1rem;
+}
+
+/* line 68, ../scss/mine/_my-base.scss */
+.card-block {
+  padding: .5rem;
+  text-align: justify;
+  line-height: 1.2;
+}
+
+/* line 73, ../scss/mine/_my-base.scss */
+.card-footer {
+  font-size: .8rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+/* line 78, ../scss/mine/_my-base.scss */
+.card-footer a {
+  color: #0C2340;
+}
+
+/* line 81, ../scss/mine/_my-base.scss */
+.card-footer a:hover {
+  color: #256ABF;
+}
+
+/* line 84, ../scss/mine/_my-base.scss */
+.card-top {
+  align-items: center;
+}
+
+/* line 87, ../scss/mine/_my-base.scss */
+.card-title {
+  font-size: 1.2rem;
+}
+
+/* line 90, ../scss/mine/_my-base.scss */
+.card-primary {
+  border-color: #00A3FF;
+}
+
+/* line 93, ../scss/mine/_my-base.scss */
+.line-1 {
+  line-height: 1;
+}
+
+/* line 96, ../scss/mine/_my-base.scss */
+.fifty {
+  width: 50%;
+}
+
+/* line 99, ../scss/mine/_my-base.scss */
+.header-primary {
+  background-color: white;
+  border-bottom-color: #1aabff;
+}
+
+/* line 103, ../scss/mine/_my-base.scss */
+.contact {
+  min-width: 310px;
+  margin: 0 auto;
+  background: #B2D4FF;
+  padding: .5rem;
+}
+/* line 108, ../scss/mine/_my-base.scss */
+.contact label, .contact input[type="phone"], .contact input[type="email"], .contact input[type="text"], .contact textarea {
+  font-size: 1rem;
+  background: #D5EEFF;
+  line-height: 1;
+  padding: 1px 3px;
+}
+/* line 114, ../scss/mine/_my-base.scss */
+.contact label {
+  background: transparent;
+}
+/* line 117, ../scss/mine/_my-base.scss */
+.contact textarea {
+  border-width: 2px;
+  border-style: inset;
+  border-color: initial;
+  border-image: initial;
+}
+/* line 122, ../scss/mine/_my-base.scss */
+.contact textarea h3 {
+  line-height: 1;
+  margin-bottom: .25rem;
+}
+/* line 127, ../scss/mine/_my-base.scss */
+.contact table, .contact label, .contact input {
+  width: 100%;
+}
+@media screen and (max-width: 1600px) {
+  /* line 103, ../scss/mine/_my-base.scss */
+  .contact {
+    padding: .25rem;
+  }
+}
+@media screen and (max-width: 1200px) {
+  /* line 103, ../scss/mine/_my-base.scss */
+  .contact {
+    padding: 1rem;
+  }
+}
+
+/* line 135, ../scss/mine/_my-base.scss */
+.contact-phone {
+  text-align: center;
+  font-size: 4.5vh;
+  color: #1D2B61;
+  animation-delay: 1s;
+  animation-duration: .5s;
+}
+@media screen and (max-width: 1360px) {
+  /* line 135, ../scss/mine/_my-base.scss */
+  .contact-phone {
+    font-size: 3vh;
+  }
+}
+
+/* line 140, ../scss/mine/_my-base.scss */
+.contact-section {
+  height: 180px;
+  padding-top: 55px;
+  width: 100%;
+  line-height: 1;
+  background-color: #1D2B61;
+  background-image: url("../images/contact-background.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+/* line 151, ../scss/mine/_my-base.scss */
+.contact-section h3 {
+  color: #E5F0FF;
+  text-shadow: -1px 0 #E5F0FF, 0 1px #E5F0FF, 1px 0 #E5F0FF, 0 -1px #E5F0FF;
+  font-weight: 700;
+}
+
+/* line 153, ../scss/mine/_my-base.scss */
+.btn-contact:hover {
+  border-color: #B2D4FF #B2D4FF #B2D4FF;
+  background-repeat: repeat-x;
+  background: #7ECDF4;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #7ECDF4 0%, #B2D4FF 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #7ECDF4), color-stop(100%, #B2D4FF));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #7ECDF4 0%, #B2D4FF 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #7ECDF4 0%, #B2D4FF 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #7ECDF4 0%, #B2D4FF 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #7ECDF4 0%, #B2D4FF 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$top', endColorstr='$bottom',GradientType=0 );
+  /* IE6-9 */
+  color: #2D80E5;
+  text-shadow: 0 -2px 1px rgba(255, 255, 255, 0.5);
+}
+
+/* line 158, ../scss/mine/_my-base.scss */
+.btn-contact {
+  color: #0C2340;
+  text-shadow: 0 2px 1px rgba(255, 255, 255, 0.5);
+  -webkit-font-smoothing: antialiased;
+  font-weight: 900;
+  padding: .3rem .5rem;
+  border-radius: .5rem;
+  border-color: #7ECDF4 #7ECDF4 #7ECDF4;
+  background-repeat: repeat-x;
+  background: #B2D4FF;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #B2D4FF 0%, #7ECDF4 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #B2D4FF), color-stop(100%, #7ECDF4));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #B2D4FF 0%, #7ECDF4 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #B2D4FF 0%, #7ECDF4 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #B2D4FF 0%, #7ECDF4 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #B2D4FF 0%, #7ECDF4 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$top', endColorstr='$bottom',GradientType=0 );
+  /* IE6-9 */
+}
+
+/* line 167, ../scss/mine/_my-base.scss */
+.btn-product {
+  color: #E5F0FF;
+  text-shadow: 0 2px 1px rgba(29, 43, 97, 0.5);
+  -webkit-font-smoothing: antialiased;
+  font-weight: 900;
+  padding: .1rem .5rem;
+  border-radius: 0;
+  border-color: #1A81FF #1A81FF #1A81FF;
+  background-repeat: repeat-x;
+  background: #4DBEFF;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #4DBEFF 0%, #1A81FF 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #4DBEFF), color-stop(100%, #1A81FF));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #4DBEFF 0%, #1A81FF 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #4DBEFF 0%, #1A81FF 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #4DBEFF 0%, #1A81FF 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #4DBEFF 0%, #1A81FF 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$top', endColorstr='$bottom',GradientType=0 );
+  /* IE6-9 */
+}
+/* line 175, ../scss/mine/_my-base.scss */
+.btn-product:hover {
+  border-color: #4DBEFF #4DBEFF #4DBEFF;
+  background-repeat: repeat-x;
+  background: #1A81FF;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #1A81FF 0%, #4DBEFF 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #1A81FF), color-stop(100%, #4DBEFF));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #1A81FF 0%, #4DBEFF 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #1A81FF 0%, #4DBEFF 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #1A81FF 0%, #4DBEFF 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #1A81FF 0%, #4DBEFF 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$top', endColorstr='$bottom',GradientType=0 );
+  /* IE6-9 */
+  text-shadow: 0 -2px 1px rgba(29, 43, 97, 0.5);
+  color: #E5F0FF;
+}
+/* line 180, ../scss/mine/_my-base.scss */
+.btn-product a {
+  color: #E5F0FF;
+}
+
+/* line 184, ../scss/mine/_my-base.scss */
+textarea {
+  width: 100%;
+}
+
+/* line 187, ../scss/mine/_my-base.scss */
+.bd-blue {
+  border: thin solid #549BFF;
+  padding: .25rem;
+  border-radius: .3rem;
+}
+
+/* line 192, ../scss/mine/_my-base.scss */
+.bg-grey {
+  background: #888888;
+}
+
+/* line 195, ../scss/mine/_my-base.scss */
+.bg-gradient-mine {
+  border-color: #256ABF #256ABF #256ABF;
+  background-repeat: repeat-x;
+  background: #66AAFF;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #66AAFF 0%, #256ABF 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #66AAFF), color-stop(100%, #256ABF));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #66AAFF 0%, #256ABF 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #66AAFF 0%, #256ABF 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #66AAFF 0%, #256ABF 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #66AAFF 0%, #256ABF 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$top', endColorstr='$bottom',GradientType=0 );
+  /* IE6-9 */
+}
+
+/* line 198, ../scss/mine/_my-base.scss */
+.btn-gradient-primary {
+  border-color: #33b5ff #33b5ff #33b5ff;
+  background-repeat: repeat-x;
+  background: #00A3FF;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #00A3FF 0%, #33b5ff 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #00A3FF), color-stop(100%, #33b5ff));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #00A3FF 0%, #33b5ff 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #00A3FF 0%, #33b5ff 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #00A3FF 0%, #33b5ff 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #00A3FF 0%, #33b5ff 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$top', endColorstr='$bottom',GradientType=0 );
+  /* IE6-9 */
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075);
+  color: #E5F0FF !important;
+  font-weight: 600;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.33);
+  -webkit-font-smoothing: antialiased;
+}
+/* line 205, ../scss/mine/_my-base.scss */
+.btn-gradient-primary:hover {
+  border-color: #00A3FF #00A3FF #00A3FF;
+  background-repeat: repeat-x;
+  background: #33b5ff;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #33b5ff 0%, #00A3FF 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #33b5ff), color-stop(100%, #00A3FF));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #33b5ff 0%, #00A3FF 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #33b5ff 0%, #00A3FF 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #33b5ff 0%, #00A3FF 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #33b5ff 0%, #00A3FF 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$top', endColorstr='$bottom',GradientType=0 );
+  /* IE6-9 */
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.66);
+}
+/* line 209, ../scss/mine/_my-base.scss */
+.btn-gradient-primary a {
+  color: #E5F0FF !important;
+}
+
+/* line 211, ../scss/mine/_my-base.scss */
+.btn-custom {
+  border-color: #66AAFF #66AAFF #66AAFF;
+  background-repeat: repeat-x;
+  background: #256ABF;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #256ABF 0%, #66AAFF 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #256ABF), color-stop(100%, #66AAFF));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #256ABF 0%, #66AAFF 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #256ABF 0%, #66AAFF 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #256ABF 0%, #66AAFF 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #256ABF 0%, #66AAFF 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$top', endColorstr='$bottom',GradientType=0 );
+  /* IE6-9 */
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075);
+  color: #fff !important;
+  font-weight: 600;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.33);
+  -webkit-font-smoothing: antialiased;
+}
+/* line 217, ../scss/mine/_my-base.scss */
+.btn-custom:hover {
+  border-color: #256ABF #256ABF #256ABF;
+  background-repeat: repeat-x;
+  background: #66AAFF;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #66AAFF 0%, #256ABF 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #66AAFF), color-stop(100%, #256ABF));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #66AAFF 0%, #256ABF 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #66AAFF 0%, #256ABF 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #66AAFF 0%, #256ABF 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #66AAFF 0%, #256ABF 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$top', endColorstr='$bottom',GradientType=0 );
+  /* IE6-9 */
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.66);
+}
+/* line 221, ../scss/mine/_my-base.scss */
+.btn-custom a {
+  color: #fff !important;
+}
+
+/* line 223, ../scss/mine/_my-base.scss */
+#spokesperson_videos .card .card-img-top {
+  max-width: 220px;
+  margin: 0 auto;
+}
+
+/* line 224, ../scss/mine/_my-base.scss */
+#awards .card {
+  max-width: 500px;
+}
+
+/* line 225, ../scss/mine/_my-base.scss */
+#awards .card-body {
+  padding-top: 0;
+}
+
+/* line 226, ../scss/mine/_my-base.scss */
+.text-light a {
+  color: #E5F0FF;
+}
+
+/* line 227, ../scss/mine/_my-base.scss */
+.text-large {
+  font-size: 200%;
+}
+
+/* line 228, ../scss/mine/_my-base.scss */
+.text-huge {
+  font-size: 400%;
+}
+
+/* line 229, ../scss/mine/_my-base.scss */
+.text-faded {
+  opacity: 0.6;
+}
+
+/* line 230, ../scss/mine/_my-base.scss */
+.lh-1 {
+  line-height: 1;
+}
+
+/* line 231, ../scss/mine/_my-base.scss */
+.notification {
+  padding-top: 1rem;
+  text-align: center;
+  opacity: 0.6;
+  line-height: 1;
+  font-weight: 300;
+  font-size: 60%;
+  color: #E5F0FF;
+}
+
+/* line 232, ../scss/mine/_my-base.scss */
+.list-group-indent {
+  padding-left: 2rem;
+}
+
+/* line 233, ../scss/mine/_my-base.scss */
+.card-columns h3 {
+  font-size: 1.25rem;
+}
+
+/* line 234, ../scss/mine/_my-base.scss */
+.sidebar {
+  font-size: 0.8rem;
+  padding-right: 0;
+  position: fixed;
+  top: 137px;
+}
+
+/* line 235, ../scss/mine/_my-base.scss */
+.sidebar .nav-link {
+  color: #E5F0FF !important;
+}
+
+/* line 236, ../scss/mine/_my-base.scss */
+.actor img {
+  width: 160px;
+  height: 180px;
+}
+
+/* line 237, ../scss/mine/_my-base.scss */
+.actor {
+  position: relative;
+  width: 160px;
+  margin: 0 auto;
+}
+/* line 238, ../scss/mine/_my-base.scss */
+.actor img {
+  max-width: 180px;
+  margin: 0 auto;
+}
+/* line 239, ../scss/mine/_my-base.scss */
+.actor h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+/* line 240, ../scss/mine/_my-base.scss */
+.actor:hover > .thumb-wrapper:before {
+  color: #E5F0FF;
+}
+
+/* line 242, ../scss/mine/_my-base.scss */
+.inputs {
+  margin: .5rem;
+}
+/* line 243, ../scss/mine/_my-base.scss */
+.inputs input {
+  width: 100%;
+  margin-bottom: 4px;
+  padding-left: 4px;
+}
+/* line 244, ../scss/mine/_my-base.scss */
+.inputs textarea {
+  margin-right: 30px;
+}
+
+/* line 246, ../scss/mine/_my-base.scss */
+.website {
+  max-width: 384px;
+  transition: all .2s ease-in-out;
+}
+/* line 249, ../scss/mine/_my-base.scss */
+.website h3 {
+  font-size: 32px;
+}
+/* line 250, ../scss/mine/_my-base.scss */
+.website:hover {
+  transform: scale(1.1);
+}
+
+/* line 252, ../scss/mine/_my-base.scss */
+.thumb-wrapper {
+  position: absolute;
+  top: 45%;
+  bottom: auto;
+  left: 50%;
+  margin-left: -24px;
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  cursor: pointer;
+  background: rgba(229, 240, 255, 0.5);
+  border-radius: 50%;
+  border: -4px solid black;
+}
+/* line 265, ../scss/mine/_my-base.scss */
+.thumb-wrapper:before {
+  font-size: 48px;
+  position: absolute;
+  color: #0073FF;
+  left: 0;
+  top: -7px;
+  left: -1px;
+  bottom: auto;
+  right: auto;
+}
+
+/* line 276, ../scss/mine/_my-base.scss */
+.i-sup {
+  font-size: 60%;
+  vertical-align: super;
+  padding: 0 6px;
+}
+
+/* line 277, ../scss/mine/_my-base.scss */
+footer a:hover {
+  color: #E5F0FF;
+}
+
+/* line 278, ../scss/mine/_my-base.scss */
+.understrap-read-more-link {
+  float: left;
+}
+
+/* line 279, ../scss/mine/_my-base.scss */
+.more-link {
+  float: right;
+}
+
+/* line 280, ../scss/mine/_my-base.scss */
+.testimonial {
+  clear: both;
+  font-size: 1.5rem;
+  height: 320px;
+}
+/* line 281, ../scss/mine/_my-base.scss */
+.testimonial .carousel-control-prev, .testimonial .carousel-control-next {
+  width: 5%;
+}
+/* line 282, ../scss/mine/_my-base.scss */
+.testimonial .carousel-inner {
+  height: 235px;
+  overflow: hidden;
+}
+
+/* line 284, ../scss/mine/_my-base.scss */
+.quote {
+  font-weight: 600;
+  font-family: open-sans, sans-serif;
+  width: 90%;
+  margin: 0 auto;
+  line-height: 1.2;
+}
+
+/* line 285, ../scss/mine/_my-base.scss */
+.subject {
+  text-align: center;
+  font-weight: 200;
+  font-style: italic;
+  margin-top: 1rem;
+}
+
+/* line 286, ../scss/mine/_my-base.scss */
+.form-name {
+  text-align: center;
+  font-weight: 700;
+  color: #E5F0FF;
+  font-size: 1.5rem;
+}
+
+/* line 287, ../scss/mine/_my-base.scss */
+#speech-bubble {
+  font-size: 3rem;
+}
+@media (max-width: 991.98px) {
+  /* line 287, ../scss/mine/_my-base.scss */
+  #speech-bubble {
+    display: none;
+  }
+}
+
+/* line 291, ../scss/mine/_my-base.scss */
+.bg-gradient-dark, .bg-gradient-light, .navbar-light, .navbar-dark {
+  transition: 1s ease-in-out;
+}
+
+/* line 292, ../scss/mine/_my-base.scss */
+#quote {
+  padding: 0;
+  font-style: italic;
+  line-height: 1;
+}
+/* line 296, ../scss/mine/_my-base.scss */
+#quote:before {
+  font-family: "Font Awesome 5 Pro";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 60%;
+  content: "\f10d";
+  padding-right: .5rem;
+  vertical-align: top;
+}
+/* line 305, ../scss/mine/_my-base.scss */
+#quote:after {
+  font-family: "Font Awesome 5 Pro";
+  font-weight: normal;
+  font-style: normal;
+  content: "\f10e";
+  padding-left: .5rem;
+  font-size: 60%;
+  vertical-align: top;
+}
+
+/* line 315, ../scss/mine/_my-base.scss */
+.card-header i {
+  font-size: 3rem;
+}
+
+/* line 316, ../scss/mine/_my-base.scss */
+.spokesperson-specials {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+/* line 319, ../scss/mine/_my-base.scss */
+.spokesperson-specials h5, .spokesperson-specials p {
+  margin: 0;
+}
+/* line 320, ../scss/mine/_my-base.scss */
+.spokesperson-specials h5 {
+  font-size: 1rem;
+}
+
+/* line 322, ../scss/mine/_my-base.scss */
+.box {
+  border: thin solid #00A3FF;
+}
+
+/* line 323, ../scss/mine/_my-base.scss */
+.tiny {
+  font-size: 50%;
+}
+
+/* line 324, ../scss/mine/_my-base.scss */
+.no-js #loader {
+  display: none;
+}
+
+/* line 325, ../scss/mine/_my-base.scss */
+.js #loader {
+  display: block;
+  position: absolute;
+  left: 100px;
+  top: 0;
+}
+
+/* line 326, ../scss/mine/_my-base.scss */
+.se-pre-con {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background: url(/images/preloader.gif) center no-repeat #fff;
+}
+
+/* line 326, ../scss/mine/_my-base.scss */
+#show-more {
+  cursor: pointer;
+}
+
+/* line 327, ../scss/mine/_my-base.scss */
+.demo {
+  height: 280px;
+  width: 100%;
+  margin: 0 -15px;
+  line-height: 1;
+  background-color: #1D2B61;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+/* line 337, ../scss/mine/_my-base.scss */
+.demo .row {
+  margin: 2rem auto;
+}
+
+/* line 339, ../scss/mine/_my-base.scss */
+.demo-title {
+  text-align: center;
+  color: #E5F0FF;
+  text-shadow: -1px 0 #00A3FF, 0 1px #00A3FF, 1px 0 #00A3FF, 0 -1px #00A3FF;
+  font-weight: 900;
+  font-size: 3rem;
+  display: flex;
+}
+
+/* line 340, ../scss/mine/_my-base.scss */
+#standard {
+  background-image: url("../images/standard-demo.jpg");
+}
+
+/* line 341, ../scss/mine/_my-base.scss */
+#unboxing {
+  background-image: url("../images/overhead.jpg");
+}
+
+/* line 342, ../scss/mine/_my-base.scss */
+#explaination {
+  background-image: url("../images/spokesperson-explanation.jpg");
+}
+
+/* line 343, ../scss/mine/_my-base.scss */
+#live-action {
+  background-image: url("../images/live-action-demonstration.jpg");
+}
+
+/* line 344, ../scss/mine/_my-base.scss */
+.pop {
+  box-shadow: none;
+  transition: all 0.3s ease-in-out;
+}
+/* line 345, ../scss/mine/_my-base.scss */
+.pop:hover {
+  box-shadow: 0px 25px 45px 0px rgba(0, 0, 0, 0.15);
+}
+
+/* line 347, ../scss/mine/_my-base.scss */
+.alert-styles {
+  border-color: #B2D4FF #B2D4FF #B2D4FF;
+  background-repeat: repeat-x;
+  background: #E5F0FF;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #E5F0FF 0%, #B2D4FF 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #E5F0FF), color-stop(100%, #B2D4FF));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #E5F0FF 0%, #B2D4FF 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #E5F0FF 0%, #B2D4FF 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #E5F0FF 0%, #B2D4FF 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #E5F0FF 0%, #B2D4FF 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$top', endColorstr='$bottom',GradientType=0 );
+  /* IE6-9 */
+  color: #1D2B61;
+}
+
+/* line 351, ../scss/mine/_my-base.scss */
+.stroke {
+  text-shadow: 3px 3px 0 #1D2B61, -1px -1px 0 #1D2B61, 1px -1px 0 #1D2B61, -1px 1px 0 #1D2B61, 1px 1px 0 #1D2B61;
+}
+
+/* line 352, ../scss/mine/_my-base.scss */
+.video-header {
+  position: absolute;
+  top: 50%;
+  bottom: auto;
+  right: auto;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  z-index: 9;
+}
+
+/* line 353, ../scss/mine/_my-base.scss */
+.text-heavy {
+  font-family: open-sans, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+/* line 354, ../scss/mine/_my-base.scss */
+.box-header i {
+  font-size: 2rem;
+}
+
+/* line 355, ../scss/mine/_my-base.scss */
+.spokesperson-name {
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+/* line 356, ../scss/mine/_my-base.scss */
+.g-recaptcha div {
+  margin: 0 auto;
+}
+
+/* line 357, ../scss/mine/_my-base.scss */
+#contactModalCenter, #contactModalCenter {
+  font-size: .6rem;
+}
+/* line 358, ../scss/mine/_my-base.scss */
+#contactModalCenter table, #contactModalCenter table {
+  width: 100%;
+}
+/* line 359, ../scss/mine/_my-base.scss */
+#contactModalCenter input[type=email], #contactModalCenter input[type=text], #contactModalCenter textarea, #contactModalCenter input[type=email], #contactModalCenter input[type=text], #contactModalCenter textarea {
+  width: 100%;
+  padding: 4px;
+  background-color: #E5F0FF;
+  margin-bottom: .25rem;
+  border: solid 1px #00A3FF;
+}
+/* line 360, ../scss/mine/_my-base.scss */
+#contactModalCenter input[type=email]:focus, #contactModalCenter input[type=text]:focus, #contactModalCenter textarea:focus, #contactModalCenter input[type=email]:focus, #contactModalCenter input[type=text]:focus, #contactModalCenter textarea:focus {
+  border-style: inset;
+  background-color: white;
+}
+/* line 365, ../scss/mine/_my-base.scss */
+#contactModalCenter #vtigerFormSubmitBtn, #contactModalCenter #vtigerFormSubmitBtn {
+  padding: 0.25rem 1rem !important;
+  border-color: #66AAFF #66AAFF #66AAFF;
+  background-repeat: repeat-x;
+  background: #E5F0FF;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #E5F0FF 0%, #66AAFF 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #E5F0FF), color-stop(100%, #66AAFF));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #E5F0FF 0%, #66AAFF 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #E5F0FF 0%, #66AAFF 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #E5F0FF 0%, #66AAFF 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #E5F0FF 0%, #66AAFF 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$top', endColorstr='$bottom',GradientType=0 );
+  /* IE6-9 */
+  text-align: center;
+  align-items: center;
+  border-radius: .25rem;
+  font-weight: 600;
+  font-size: 1rem;
+}
+/* line 366, ../scss/mine/_my-base.scss */
+#contactModalCenter #vtigerFormSubmitBtn:hover, #contactModalCenter #vtigerFormSubmitBtn:hover {
+  border-color: #E5F0FF #E5F0FF #E5F0FF;
+  background-repeat: repeat-x;
+  background: #66AAFF;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #66AAFF 0%, #E5F0FF 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #66AAFF), color-stop(100%, #E5F0FF));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #66AAFF 0%, #E5F0FF 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #66AAFF 0%, #E5F0FF 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #66AAFF 0%, #E5F0FF 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #66AAFF 0%, #E5F0FF 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$top', endColorstr='$bottom',GradientType=0 );
+  /* IE6-9 */
+}
+
+/* line 368, ../scss/mine/_my-base.scss */
+.wrapped-text {
+  font-size: .8rem;
+  font-family: open-sans, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* line 369, ../scss/mine/_my-base.scss */
+.text-turbo {
+  font-size: 1.7rem;
+  font-weight: 700;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+}
+
+/* line 370, ../scss/mine/_my-base.scss */
+.check {
+  list-style: none;
+  padding: 0;
+}
+/* line 373, ../scss/mine/_my-base.scss */
+.check li.list-group-item::before {
+  font-family: "Font Awesome 5 Pro";
+  display: inline-block;
+  content: "\f058";
+  padding-right: .5rem;
+}
+
+/* line 381, ../scss/mine/_my-base.scss */
+.wave-holder {
+  width: 100%;
+  padding: 0;
+}
+/* line 384, ../scss/mine/_my-base.scss */
+.wave-holder .ecwid-title, .wave-holder .ecwid-SingleProduct-options, .wave-holder .ecwid-fieldLabel {
+  color: #000 !important;
+}
+
+/* line 387, ../scss/mine/_my-base.scss */
+.wave-bottom, .wave-top {
+  position: relative;
+  width: 100%;
+  height: 120px;
+}
+
+/* line 392, ../scss/mine/_my-base.scss */
+.wave-body {
+  background: #004582;
+  min-height: 200px;
+}
+
+/* line 396, ../scss/mine/_my-base.scss */
+.side-bar {
+  transform: rotate(-90deg);
+  position: fixed;
+  right: -86px;
+  top: 44%;
+  bottom: auto;
+  left: auto;
+  background-color: #00A3FF;
+  padding: 10px 25px;
+  font-weight: 500;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border: thin solid #1D2B61;
+  letter-spacing: .5px;
+  color: #fff;
+  z-index: 9;
+  cursor: pointer;
+  transition: all .5s ease-in-out;
+}
+
+/* line 415, ../scss/mine/_my-base.scss */
+.landing-light, .landing-dark {
+  overflow-x: hidden;
+  width: 100%;
+  text-align: center;
+}
+
+/* line 418, ../scss/mine/_my-base.scss */
+.landing-light {
+  background: white;
+}
+/* line 420, ../scss/mine/_my-base.scss */
+.landing-light .card-body, .landing-light .list-group-item {
+  background: #B2D4FF;
+}
+/* line 422, ../scss/mine/_my-base.scss */
+.landing-light .card-body .ecwid, .landing-light .list-group-item .ecwid {
+  background-color: #E5F0FF !important;
+}
+
+/* line 427, ../scss/mine/_my-base.scss */
+.landing-dark {
+  background: black;
+}
+/* line 429, ../scss/mine/_my-base.scss */
+.landing-dark .ecwid {
+  background-color: #E5F0FF !important;
+}
+
+/* line 435, ../scss/mine/_my-base.scss */
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 441, ../scss/mine/_my-base.scss */
+.carousel .controls {
+  font-size: 3rem;
+}
+
+/* line 444, ../scss/mine/_my-base.scss */
+.step {
+  color: #00A3FF;
+}
+/* line 446, ../scss/mine/_my-base.scss */
+.step .step-icon {
+  font-size: 2rem;
+}
+/* line 449, ../scss/mine/_my-base.scss */
+.step .step-number {
+  font-weight: 600;
+  font-size: 1rem;
+}
+/* line 453, ../scss/mine/_my-base.scss */
+.step .step-content {
+  font-size: .75rem;
+  line-height: 1;
+}
+
+/* line 458, ../scss/mine/_my-base.scss */
+.shots {
+  margin-bottom: 1rem;
+}
+
+/* line 459, ../scss/mine/_my-base.scss */
+.choices {
+  margin-bottom: 1rem;
+}
+/* line 461, ../scss/mine/_my-base.scss */
+.choices .card:hover {
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.275) !important;
+}
+/* line 464, ../scss/mine/_my-base.scss */
+.choices .card-header {
+  text-transform: uppercase;
+  font-weight: 800;
+  color: #000;
+  letter-spacing: 2px;
+  text-shadow: -1px 1px rgba(255, 255, 255, 0.5);
+}
+/* line 471, ../scss/mine/_my-base.scss */
+.choices .list-group-item {
+  padding: .25rem;
+}
+/* line 472, ../scss/mine/_my-base.scss */
+.choices .list-group-item:last-child {
+  border-bottom-style: none;
+  margin-bottom: 0.5rem;
+}
+/* line 476, ../scss/mine/_my-base.scss */
+.choices .card-body {
+  padding: .5rem;
+}
+
+/* line 480, ../scss/mine/_my-base.scss */
+.nav-link.disabled {
+  color: #000;
+  cursor: default;
+  font-weight: 400;
+}
+
+/* line 485, ../scss/mine/_my-base.scss */
+.nav-spokesperson {
+  font-weight: 600;
+}
+/* line 487, ../scss/mine/_my-base.scss */
+.nav-spokesperson .nav-link {
+  padding: 0.5rem;
+}
+
+/* line 491, ../scss/mine/_my-base.scss */
+#campaign-list {
+  overflow: hidden;
+}
+
 /*# sourceMappingURL=bootstrap.css.map */
