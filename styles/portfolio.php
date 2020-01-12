@@ -23,9 +23,6 @@
 <section class="alert alert-styles">
     <?php $type = "Presentation";$show = 12;$rand = false;$columns = 2; include("../includes/showPortfolio.php");?>
 </section>
-<section class="alert alert-info">
-    <?php $type = "Whiteboard";$show = 6;$rand = false;$columns = 2; include("../includes/showDemo.php");?>
-</section>
 <?php include("../includes/footer.php"); ?>
 <?php include("../includes/modal.php");?>
 </body>
