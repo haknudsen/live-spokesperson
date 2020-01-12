@@ -26,7 +26,6 @@ function run() {
 	});
 
 	function showDemo() {
-		console.log( videoName, videoAlt);
 		srcVideo = srcBase + "ivideo/videos/" + videoName.replace(/ /g, "%20") + ".mp4";
 		if (!videoAlt) {
 			alt = "";
