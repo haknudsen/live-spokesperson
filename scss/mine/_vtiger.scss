@@ -1,2 +1,106 @@
-/* Scss Document */
-
+#__vtigerWebForm
+{
+	background: #77D2F1;
+	background: #87e0fd;
+	background: -moz-radial-gradient(center,ellipse cover,#87e0fd 0%,#77d2f1 100%);
+	background: -ms-radial-gradient(center,ellipse cover,#87e0fd 0%,#77d2f1 100%);
+	background: -o-radial-gradient(center,ellipse cover,#87e0fd 0%,#77d2f1 100%);
+	background: radial-gradient(ellipse at center,#87e0fd 0%,#77d2f1 100%);
+	background: -webkit-gradient(radial,center center,0px,center center,100%,color-stop(0%,#87e0fd),color-stop(100%,#77d2f1));
+	background: -webkit-radial-gradient(center,ellipse cover,#87e0fd 0%,#77d2f1 100%);
+	border: 2px solid #0173FE;
+	border-radius: 10px;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#87e0fd',endColorstr='#77d2f1',GradientType=1);
+	padding: 10px;
+}
+#__vtigerWebForm
+{
+	background-color: #fff;
+	border: thin solid #0073FF;
+	border-radius: .5rem;
+	padding: 1rem;
+}
+#__vtigerWebForm .form-group
+{
+	margin-bottom: .25rem;
+}
+#__vtigerWebForm h3
+{
+	margin: -5px auto 5px;
+}
+#__vtigerWebForm input,#__vtigerWebForm textarea
+{
+	font-size: .8rem;
+	line-height: 1;
+	margin: 0 0 2px;
+	padding: 2px;
+	width: 100%;
+}
+#__vtigerWebForm label
+{
+	margin: auto;
+}
+#__vtigerWebForm textarea,#__vtigerWebForm input
+{
+	background-color: #BCE4FF;
+	width: 100%;
+}
+#__vtigerWebForm tr,#__vtigerWebForm table
+{
+	font-size: .8rem;
+	line-height: 1;
+	width: 100%;
+}
+#form-holder
+{
+	border: thin solid #6AF;
+	border-radius: .5rem;
+	min-width: 324px;
+	padding: .5rem;
+}
+#form-holder input,#form-holder #issue
+{
+	width: 100%;
+}
+#form-holder table
+{
+	width: 100%;
+}
+.card-body #__vtigerWebForm
+{
+	background: transparent;
+	border: none;
+	padding: 0;
+}
+.card-body #__vtigerWebForm .g-recaptcha
+{
+	margin: .5rem auto;
+}
+.card-body #__vtigerWebForm textarea
+{
+	height: auto;
+	width: 100%;
+}
+.g-recaptcha
+{
+	height: 78px;
+	margin: 5px auto;
+	width: 308px;
+}
+.g-recaptcha div
+{
+	margin: auto;
+}
+.recaptcha-holder
+{
+	margin-left: -.75rem;
+	margin-right: -.75rem;
+}
+@media screen and (max-width:1200px)
+{
+	#__vtigerWebForm input,#__vtigerWebForm textarea
+	{
+		font-size: .7rem;
+		margin: 0;
+	}
+}
