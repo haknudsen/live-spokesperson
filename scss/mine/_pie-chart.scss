@@ -8,9 +8,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-	background: conic-gradient($primary 0% 46%, $orange 46% 71%, $success 71%);
-	border-radius: 50%;
-	border: thin solid $dark;
+  background: conic-gradient($primary 0% 46%, $orange 46% 71%, $success 71%);
+  border-radius: 50%;
+  border: thin solid $dark;
+  -webkit-transition:background 3s;
+  -moz-transition:background 3s;
+  -o-transition:background 3s;
+  transition:background 3s	
 }
 
 .piechart h2 {
