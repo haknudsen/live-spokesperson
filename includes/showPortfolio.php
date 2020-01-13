@@ -87,8 +87,8 @@ if ( $result->num_rows > 0 ) {
 		echo '<div class="item" alt="' . $keyword[ $altNum ] . " Example" . '" data-toggle="modal" data-target=".bd-example-modal-lg" data-video="' . $name . '">
 			<img src="https://www.websitetalkingheads.com/ivideo/videos/' . $name . '.jpg" class="img-fluid" alt="' . $keyword[ $altNum ] . " Example" . '">
 			<i class="fas fa-play smallPlayBtn"></i>
-			<div class="caption">
-				<div class="caption-title">' . $name . '</div>
+			<div class="info">
+				<div class="info-title">' . $name . '</div>
 				<p>' . $description .'</p>
 			</div>
 		</div>';

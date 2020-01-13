@@ -82,13 +82,13 @@
 		position: relative;
 		overflow: hidden;
 		border: thin solid rgba($dark, 0.7);
-		&:hover .caption{
+		&:hover .info{
 			color: $light;
 			background: rgba($dark, 0.7);
 			height: 50%;
 		}
 	}
-	.caption-title{
+	.info-title{
 		font-size: 1rem;
 		font-weight: 700;
 		font-family: $font-family-heavy;
@@ -97,7 +97,7 @@
 		padding: .5rem 0;
 		line-height: 1;
 	}
-	.caption {
+	.info {
 		position: absolute;
 		bottom: 0;
 		top: auto;

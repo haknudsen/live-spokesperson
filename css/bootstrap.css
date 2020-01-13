@@ -10973,12 +10973,12 @@ html {
     overflow: hidden;
     border: thin solid rgba(29, 43, 97, 0.7); }
     /* line 85, ../scss/mine/_gallery.scss */
-    .portfolio .item:hover .caption {
+    .portfolio .item:hover .info {
       color: #E5F0FF;
       background: rgba(29, 43, 97, 0.7);
       height: 50%; }
   /* line 91, ../scss/mine/_gallery.scss */
-  .portfolio .caption-title {
+  .portfolio .info-title {
     font-size: 1rem;
     font-weight: 700;
     font-family: open-sans, sans-serif;
@@ -10987,7 +10987,7 @@ html {
     padding: .5rem 0;
     line-height: 1; }
   /* line 100, ../scss/mine/_gallery.scss */
-  .portfolio .caption {
+  .portfolio .info {
     position: absolute;
     bottom: 0;
     top: auto;
@@ -10998,7 +10998,7 @@ html {
     transition: all 1s ease;
     border: thin solid rgba(29, 43, 97, 0.5); }
     /* line 110, ../scss/mine/_gallery.scss */
-    .portfolio .caption p {
+    .portfolio .info p {
       text-indent: 0;
       font-size: .7rem;
       font-weight: 300;
