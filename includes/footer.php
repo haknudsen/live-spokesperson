@@ -1,4 +1,4 @@
-<footer class="p-2 bg-dark wow bounceInUp">
+<footer class="bg-dark wow bounceInUp">
     <div class="row">
         <div class="col-md-3 small">
             <div class="text-center text-light">Why Video?</div>

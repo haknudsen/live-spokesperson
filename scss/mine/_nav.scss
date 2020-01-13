@@ -1,0 +1,157 @@
+footer
+{
+	background: #292B2C;
+	color: #fff;
+	padding: .5rem;
+}
+header
+{
+	border-bottom: thin solid #549BFF;
+}
+#menuSpecials
+{
+	background-image: url(https://www.websitetalkingheads.com/images/menu-specials.png);
+}
+#whiteboard
+{
+	background-image: url(https://www.websitetalkingheads.com/images/menu-button-purple.png);
+	padding-top: 20px;
+}
+.caption
+{
+	color: #000;
+	font-size: 14px;
+	font-weight: 700;
+	left: 50%;
+	line-height: 1;
+	position: absolute;
+	top: 40%;
+	transform: translate(-50%,-50%);
+}
+.img-nav
+{
+	position: relative;
+}
+.main-nav .nav-item
+{
+	background-image: url(https://www.websitetalkingheads.com/images/menu-button.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	font-size: 14px;
+	font-weight: 700;
+	height: 82px;
+	line-height: 1;
+	margin: 0 4px;
+	padding-top: 26px;
+	text-align: center;
+	width: 76px;
+}
+.main-nav .nav-item a
+{
+	color: #000;
+}
+.main-nav .nav-item a:hover
+{
+	font-weight: 900;
+	text-decoration: none;
+}
+.navbar-images
+{
+	position: relative;
+}
+.navbar-images .current
+{
+	color: #fff;
+	cursor: default;
+	opacity: .8;
+	pointer-events: none;
+}
+.navbar-images .current .caption
+{
+	color: #0073FF;
+}
+.navbar-images .nav-item a:hover
+{
+	opacity: .8;
+}
+.navbar-images .nav-item a:hover .caption
+{
+	color: #3D9CEB;
+}
+.navbar-images .nav-item,.navbar-images .current
+{
+	position: relative;
+}
+.navbar-text
+{
+	font-size: 3.4vw;
+	font-weight: 700;
+	line-height: 1.2;
+	padding-top: 0;
+}
+.navbar-text a
+{
+	color: #549BFF!important;
+}
+.nav-productDemos
+{
+	line-height: 1!important;
+	padding-top: 20px!important;
+}
+@media screen and (max-width:1200px)
+{
+	#whiteboard
+	{
+		padding-top: 16px;
+	}
+	.list-style
+	{
+		font-size: .8rem;
+	}
+	.main-nav .nav-item
+	{
+		font-size: 10px;
+		height: 57.4px;
+		margin: 0;
+		padding-top: 20px;
+		width: 53.2px;
+	}
+}
+@media screen and (max-width:1220px) and (min-width:992px)
+{
+	#menuContact
+	{
+		display: none;
+	}
+}
+@media screen and (max-width:1400px)
+{
+	#whiteboard
+	{
+		padding-top: 16px;
+	}
+	.main-nav .nav-item
+	{
+		font-size: 12px;
+		height: 65.6px;
+		margin: 0 2px;
+		padding-top: 22px;
+		width: 60.8px;
+	}
+}
+@media screen and (max-width:992px)
+{
+	.caption
+	{
+		font-size: 1rem;
+		line-height: 1.5;
+	}
+	.img-nav
+	{
+		display: none;
+	}
+	.navbar-images .nav-item
+	{
+		height: 2rem;
+	}
+}
