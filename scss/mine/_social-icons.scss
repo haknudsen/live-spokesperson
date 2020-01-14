@@ -38,10 +38,11 @@ $social-icons: (
 		border-radius: 50%;
 		border: thin solid $dark;
 		position: relative;
-		margin: 0 .25rem;
-		padding: .25rem;
 		color: $dark;
 		background: $light;
+		margin: 0 .25rem;
+		padding: .25rem;
+	transition: all .4s ease;
 		a {
 			color: $primary; 
 		}
@@ -50,9 +51,11 @@ $social-icons: (
 			background: $dark;
 		}
 }
+
 .social-link{
 		width: 3rem;
 		height: 3rem;
+		font-size: 2rem;
 		font-size: 2rem;
 }
 .social-link-small{
