@@ -150,37 +150,6 @@ p {
     background-size: cover;
     h3{color: $light;text-shadow: -1px 0 $light, 0 1px $light, 1px 0 $light, 0 -1px $light;font-weight: 700}
 }
-.btn-contact:hover {
-	@include gradient-mine(#7ECDF4,$gray-200);
-	color: $gray-600;
-	text-shadow: 0 -2px 1px rgba(255, 255, 255, 0.5);
-}
-.btn-contact {
-	color: $gray-900;
-	text-shadow: 0 2px 1px rgba(255, 255, 255, 0.5);
-	-webkit-font-smoothing: antialiased;
-	font-weight: 900;
-	padding: .3rem .5rem;
-	border-radius: .5rem;
-	@include gradient-mine($gray-200,#7ECDF4);
-}
-.btn-product {
-	color: $light;
-	text-shadow: 0 2px 1px rgba($dark, 0.5);
-	-webkit-font-smoothing: antialiased;
-	font-weight: 900;
-	padding: .1rem .5rem;
-	border-radius: 0;
-	@include gradient-mine($info,$secondary);
-    &:hover{
-	@include gradient-mine($secondary,$info);
-	text-shadow: 0 -2px 1px rgba($dark, 0.5);
-	color: $light;
-    }
-    a{
-	color: $light;
-    }
-}
 textarea {
 	width: 100%;
 }
@@ -194,31 +163,6 @@ textarea {
 }
 .bg-gradient-mine {
 	@include gradient-mine($gray-300,$gray-700);
-}
-.btn-gradient-primary {
-	@include gradient-mine($primary,lighten($primary, 10%)); 
-    box-shadow: inset 0 1px 0 rgba(255,255,255,0.15), 0 1px 1px rgba(0,0,0,0.075);
-    color: $gray-100!important;
-    font-weight: 600;
-    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.33);
-  -webkit-font-smoothing: antialiased;
-    &:hover{
-        @include gradient-mine(lighten($primary, 10%),$primary);
-        text-shadow: 0 1px 0 rgba(0, 0, 0, 0.66);
-    }
-    a{color: $gray-100!important;}   
-}
-.btn-custom{
-	@include gradient-mine($gray-700,$gray-300);
-    box-shadow: inset 0 1px 0 rgba(255,255,255,0.15), 0 1px 1px rgba(0,0,0,0.075);
-    color: $white!important;font-weight: 600;
-    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.33);
-  -webkit-font-smoothing: antialiased;
-    &:hover{
-        @include gradient-mine($gray-300,$gray-700);
-        text-shadow: 0 1px 0 rgba(0, 0, 0, 0.66);
-    }
-    a{color: $white!important;}
 }
 #spokesperson_videos .card .card-img-top{max-width: 220px;margin: 0 auto}
 #awards .card {max-width: 500px}
@@ -362,8 +306,6 @@ footer a:hover{color: $light;}
             background-color: lighten($light, 10%)
         }
     }
-    #vtigerFormSubmitBtn{padding: .25rem 1rem!important;@include gradient-mine($gray-100,$gray-300);text-align: center;align-items: center;border-radius: .25rem;font-weight: 600;font-size: 1rem;
-	&:hover{@include gradient-mine($gray-300,$gray-100)}}
 }
 .wrapped-text{font-size: .8rem;font-family: open-sans, sans-serif;font-weight: 700;font-style: normal;}
 .text-turbo{font-size: 1.7rem;font-weight: 700;animation-delay: 1s;animation-iteration-count: infinite;}
