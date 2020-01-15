@@ -11660,21 +11660,21 @@ header {
 /* line 62, ../scss/mine/_buttons.scss */
 #vtigerFormSubmitBtn {
   padding: 0.25rem 1rem !important;
-  border-color: #66AAFF #66AAFF #66AAFF;
+  border-color: #328EFF #328EFF #328EFF;
   background-repeat: repeat-x;
-  background: #E5F0FF;
+  background: #66AAFF;
   /* Old browsers */
-  background: -moz-linear-gradient(top, #E5F0FF 0%, #66AAFF 100%);
+  background: -moz-linear-gradient(top, #66AAFF 0%, #328EFF 100%);
   /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #E5F0FF), color-stop(100%, #66AAFF));
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #66AAFF), color-stop(100%, #328EFF));
   /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top, #E5F0FF 0%, #66AAFF 100%);
+  background: -webkit-linear-gradient(top, #66AAFF 0%, #328EFF 100%);
   /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top, #E5F0FF 0%, #66AAFF 100%);
+  background: -o-linear-gradient(top, #66AAFF 0%, #328EFF 100%);
   /* Opera 11.10+ */
-  background: -ms-linear-gradient(top, #E5F0FF 0%, #66AAFF 100%);
+  background: -ms-linear-gradient(top, #66AAFF 0%, #328EFF 100%);
   /* IE10+ */
-  background: linear-gradient(to bottom, #E5F0FF 0%, #66AAFF 100%);
+  background: linear-gradient(to bottom, #66AAFF 0%, #328EFF 100%);
   /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$top', endColorstr='$bottom',GradientType=0 );
   /* IE6-9 */
@@ -11686,21 +11686,21 @@ header {
   transition: all .4s ease; }
   /* line 69, ../scss/mine/_buttons.scss */
   #vtigerFormSubmitBtn:hover {
-    border-color: #E5F0FF #E5F0FF #E5F0FF;
+    border-color: #66AAFF #66AAFF #66AAFF;
     background-repeat: repeat-x;
-    background: #66AAFF;
+    background: #328EFF;
     /* Old browsers */
-    background: -moz-linear-gradient(top, #66AAFF 0%, #E5F0FF 100%);
+    background: -moz-linear-gradient(top, #328EFF 0%, #66AAFF 100%);
     /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #66AAFF), color-stop(100%, #E5F0FF));
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #328EFF), color-stop(100%, #66AAFF));
     /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top, #66AAFF 0%, #E5F0FF 100%);
+    background: -webkit-linear-gradient(top, #328EFF 0%, #66AAFF 100%);
     /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top, #66AAFF 0%, #E5F0FF 100%);
+    background: -o-linear-gradient(top, #328EFF 0%, #66AAFF 100%);
     /* Opera 11.10+ */
-    background: -ms-linear-gradient(top, #66AAFF 0%, #E5F0FF 100%);
+    background: -ms-linear-gradient(top, #328EFF 0%, #66AAFF 100%);
     /* IE10+ */
-    background: linear-gradient(to bottom, #66AAFF 0%, #E5F0FF 100%);
+    background: linear-gradient(to bottom, #328EFF 0%, #66AAFF 100%);
     /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$top', endColorstr='$bottom',GradientType=0 );
     /* IE6-9 */ }
