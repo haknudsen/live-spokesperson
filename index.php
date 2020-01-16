@@ -15,16 +15,13 @@
 <?php include("includes/nav.php"); ?>
 <section class="jumbotron" id="contact-row">
 	<h1 class="text-center">Web Video Production</h1>
-	<div class="row align-items-center">
-		<div class="col-xl-6 offset-1" id="video-holder">
+	<div class="d-flex align-items-center">
+		<div class="video-holder">
 			<div class="embed-responsive embed-responsive-16by9">
 				<iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" type="text/html" src="https://www.websitetalkingheads.com/ivideo/talking-heads-player.php?video=What is a Talking Head&autostart=mute&controls=true"></iframe>
 			</div>
 		</div>
-		<div class="col-xl-4">
-			<?php include( "includes/contact.php"); ?>
-			<div class="align-content-center contact-phone animated fadeInUp"> <a href="tel:1-801-748-2281" title="Call Now!">1-801-748-2281</a> </div>
-		</div>
+			<?php include( "includes/contact-card.php"); ?>
 	</div>
 </section>
 <section class="container-fluid mb-2">

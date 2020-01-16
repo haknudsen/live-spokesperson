@@ -100,8 +100,9 @@ $bigPlayBtn-width: 160px;
     }
 }
 .smallPlayBtn {
-	height: $bigPlayBtn-width/2;
-	width: $bigPlayBtn-width/2;
+	height: $btnWidth*2;
+	width: $btnWidth*2;
+	font-size: $btnWidth;
 	color: white;
 	display: block;
 	position: absolute;
@@ -110,7 +111,7 @@ $bigPlayBtn-width: 160px;
 	opacity: 1;
     left: 50%;
     top: 45%;
-	transform: translate(-50%, -50%);
+	transform: translate(-45%, -50%);
 	margin: auto;
 	border-radius: 50%;
 	border: 3px solid rgba($primary, .7);
