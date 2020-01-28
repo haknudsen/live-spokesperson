@@ -10385,8 +10385,9 @@ a.text-red:hover, a.text-red:focus {
 
 /* line 102, ../scss/mine/talkingHeadsPlayer/_player.scss */
 .smallPlayBtn {
-  height: 80px;
-  width: 80px;
+  height: 4rem;
+  width: 4rem;
+  font-size: 2rem;
   color: white;
   display: block;
   position: absolute;
@@ -10395,22 +10396,28 @@ a.text-red:hover, a.text-red:focus {
   opacity: 1;
   left: 50%;
   top: 45%;
-  transform: translate(-50%, -50%);
+  transform: translate(-45%, -50%);
   margin: auto;
   border-radius: 50%;
   border: 3px solid rgba(0, 163, 255, 0.7);
   background-color: rgba(29, 43, 97, 0.7);
   transition: all 0.5s ease; }
-  /* line 119, ../scss/mine/talkingHeadsPlayer/_player.scss */
+  /* line 120, ../scss/mine/talkingHeadsPlayer/_player.scss */
   .smallPlayBtn:before {
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%); }
-  /* line 125, ../scss/mine/talkingHeadsPlayer/_player.scss */
+  /* line 126, ../scss/mine/talkingHeadsPlayer/_player.scss */
   .smallPlayBtn:hover {
     background-color: rgba(0, 163, 255, 0.7);
     border-color: rgba(29, 43, 97, 0.7); }
+  @media (min-width: 1300px) {
+    /* line 102, ../scss/mine/talkingHeadsPlayer/_player.scss */
+    .smallPlayBtn {
+      height: 2rem;
+      width: 2rem;
+      font-size: 1rem; } }
 
 /* Scss Document */
 /* line 3, ../scss/mine/_spokespeople.scss */
@@ -10966,29 +10973,53 @@ html {
     opacity: 0.7; } }
 /* line 77, ../scss/mine/_gallery.scss */
 .portfolio {
+  font-size: .4rem;
+  font-weight: 300;
+  padding: 0 1rem;
   display: grid;
   grid-gap: 1rem;
   grid-template-columns: auto auto auto auto; }
-  /* line 81, ../scss/mine/_gallery.scss */
+  @media (max-width: 1300px) {
+    /* line 77, ../scss/mine/_gallery.scss */
+    .portfolio {
+      grid-template-columns: auto auto auto;
+      font-size: 0.6rem; } }
+  @media (max-width: 900px) {
+    /* line 77, ../scss/mine/_gallery.scss */
+    .portfolio {
+      grid-template-columns: auto auto;
+      font-size: 1rem; } }
+  @media (max-width: 640px) {
+    /* line 77, ../scss/mine/_gallery.scss */
+    .portfolio {
+      grid-template-columns: auto;
+      font-size: 2rem; } }
+  /* line 96, ../scss/mine/_gallery.scss */
   .portfolio .item {
     position: relative;
     overflow: hidden;
     border: thin solid rgba(29, 43, 97, 0.7); }
-    /* line 85, ../scss/mine/_gallery.scss */
+    /* line 100, ../scss/mine/_gallery.scss */
     .portfolio .item:hover .info {
       color: #E5F0FF;
       background: rgba(29, 43, 97, 0.7);
       height: 50%; }
-  /* line 91, ../scss/mine/_gallery.scss */
+  /* line 106, ../scss/mine/_gallery.scss */
   .portfolio .info-title {
     font-size: 1rem;
+    height: 2rem;
     font-weight: 700;
     font-family: open-sans, sans-serif;
     text-align: center;
-    height: 2rem;
     padding: .5rem 0;
     line-height: 1; }
-  /* line 100, ../scss/mine/_gallery.scss */
+    @media (max-width: 640px) {
+      /* line 106, ../scss/mine/_gallery.scss */
+      .portfolio .info-title {
+        font-size: 2rem;
+        height: 4rem;
+        padding: 1rem 0; } }
+  /* line 120, ../scss/mine/_gallery.scss */
   .portfolio .info {
     position: absolute;
     bottom: 0;
@@ -10999,11 +11030,13 @@ html {
     background: rgba(229, 240, 255, 0.7);
     transition: all 1s ease;
     border: thin solid rgba(29, 43, 97, 0.5); }
-    /* line 110, ../scss/mine/_gallery.scss */
+    @media (max-width: 640px) {
+      /* line 120, ../scss/mine/_gallery.scss */
+      .portfolio .info {
+        height: 4rem; } }
+    /* line 133, ../scss/mine/_gallery.scss */
     .portfolio .info p {
       text-indent: 0;
-      font-size: .7rem;
-      font-weight: 300;
       line-height: 1;
       overflow: hidden;
       padding: 0 .3rem;
@@ -11173,40 +11206,10 @@ p {
   color: #000; }
 
 /* line 5, ../scss/mine/_typography.scss */
-.pricing {
-  clear: both;
-  text-align: center;
-  max-width: 320px;
-  margin: auto; }
-
-/* line 6, ../scss/mine/_typography.scss */
-.pricing h3 {
-  font-size: 1.5rem;
-  color: #00A3FF; }
-
-/* line 7, ../scss/mine/_typography.scss */
-.pricing h4 {
-  font-size: 1.75rem; }
-
-/* line 8, ../scss/mine/_typography.scss */
-.pricing h5 {
-  font-size: .5rem;
-  float: left;
-  color: #1D2B61;
-  font-weight: 300;
-  margin-bottom: 0; }
-
-/* line 9, ../scss/mine/_typography.scss */
-.pricing h6 {
-  font-size: 3.5rem;
-  color: #00A3FF;
-  float: right; }
-
-/* line 10, ../scss/mine/_typography.scss */
 .text-large {
   font-size: 150%; }
 
-/* line 11, ../scss/mine/_typography.scss */
+/* line 6, ../scss/mine/_typography.scss */
 .text-small {
   font-size: 50%; }
 
@@ -11397,60 +11400,87 @@ header {
 
 /* line 41, ../scss/mine/_vtiger.scss */
 #__vtigerWebForm tr, #__vtigerWebForm table {
-  font-size: .8rem;
   line-height: 1;
   width: 100%; }
 
-/* line 47, ../scss/mine/_vtiger.scss */
+/* line 46, ../scss/mine/_vtiger.scss */
 #form-holder {
   border: thin solid #6AF;
   border-radius: .5rem;
   min-width: 324px;
   padding: .5rem; }
 
-/* line 54, ../scss/mine/_vtiger.scss */
+/* line 53, ../scss/mine/_vtiger.scss */
 #form-holder input, #form-holder #issue {
   width: 100%; }
 
-/* line 58, ../scss/mine/_vtiger.scss */
+/* line 57, ../scss/mine/_vtiger.scss */
 #form-holder table {
   width: 100%; }
 
-/* line 62, ../scss/mine/_vtiger.scss */
+/* line 61, ../scss/mine/_vtiger.scss */
 .card-body #__vtigerWebForm {
   background: transparent;
   border: none;
   padding: 0; }
 
-/* line 68, ../scss/mine/_vtiger.scss */
+/* line 67, ../scss/mine/_vtiger.scss */
 .card-body #__vtigerWebForm .g-recaptcha {
   margin: .5rem auto; }
 
-/* line 72, ../scss/mine/_vtiger.scss */
+/* line 71, ../scss/mine/_vtiger.scss */
 .card-body #__vtigerWebForm textarea {
   height: auto;
   width: 100%; }
 
-/* line 77, ../scss/mine/_vtiger.scss */
+/* line 76, ../scss/mine/_vtiger.scss */
 .g-recaptcha {
   height: 78px;
   margin: 5px auto;
   width: 308px; }
 
-/* line 83, ../scss/mine/_vtiger.scss */
+/* line 82, ../scss/mine/_vtiger.scss */
 .g-recaptcha div {
   margin: auto; }
 
-/* line 87, ../scss/mine/_vtiger.scss */
+/* line 86, ../scss/mine/_vtiger.scss */
 .recaptcha-holder {
   margin-left: -.75rem;
   margin-right: -.75rem; }
 
 @media screen and (max-width: 1200px) {
-  /* line 94, ../scss/mine/_vtiger.scss */
+  /* line 93, ../scss/mine/_vtiger.scss */
   #__vtigerWebForm input, #__vtigerWebForm textarea {
     font-size: .7rem;
     margin: 0; } }
+/* line 99, ../scss/mine/_vtiger.scss */
+.card-contact {
+  width: 320px;
+  font-size: 0.5rem; }
+  /* line 102, ../scss/mine/_vtiger.scss */
+  .card-contact input {
+    font-size: 0.5rem !important;
+    line-height: 1.2; }
+
+/* line 107, ../scss/mine/_vtiger.scss */
+.video-holder {
+  width: calc(100% - 330px);
+  padding-right: .5rem; }
+
+/* line 111, ../scss/mine/_vtiger.scss */
+.submit-pointer {
+  color: #dc0000;
+  height: 3rem;
+  font-size: 3rem;
+  position: absolute;
+  bottom: 16px;
+  left: calc(50% - 180px); }
+  /* line 118, ../scss/mine/_vtiger.scss */
+  .submit-pointer .shake {
+    animation-duration: infinite;
+    animation-delay: 1s;
+    animation-iteration-count: infinite; }
+
 /* Scss Document */
 /* line 2, ../scss/mine/_buttons.scss */
 .btn-contact {
@@ -12486,14 +12516,3 @@ footer a:hover {
 /* line 433, ../scss/mine/_my-base.scss */
 #campaign-list {
   overflow: hidden; }
-
-/* line 434, ../scss/mine/_my-base.scss */
-.submit-pointer {
-  color: #dc0000;
-  font-size: 3rem;
-  animation-duration: 2s;
-  animation-delay: 1s;
-  animation-iteration-count: infinite;
-  position: absolute;
-  bottom: 16px;
-  left: calc(50% - 191px); }
