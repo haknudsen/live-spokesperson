@@ -100,7 +100,7 @@
 		&:hover .info{
 			color: $light;
 			background: rgba($dark, 0.7);
-			height: 50%;
+			height: 60%;
 		}
 	}
 	.info-title{
@@ -111,6 +111,7 @@
 		text-align: center;
 		padding: .5rem 0;
 		line-height: 1;
+		white-space: nowrap;
         @media (max-width: 640px) {
             font-size: 2rem;
             height: 4rem;
