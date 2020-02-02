@@ -5,3 +5,12 @@ p{text-indent:1rem}
 .text-large{font-size:150%}
 .text-small{font-size:50%}
 .text-thin{font-weight: 200}
+.invert{
+	color:$dark;
+	background-color: $light;
+		&:hover{
+			background-color: $dark;
+			color: $light;
+		}	
+}
+span.avoid-wrap { display:inline-block; }

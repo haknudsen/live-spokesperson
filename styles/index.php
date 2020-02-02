@@ -187,26 +187,39 @@
 </section>
 <div class="exampleSpacer margin-10"></div>
 <?php include("../includes/awards.php"); ?>
-<section class="container bd-blue mb-2">
-    <h3 id="step-top-text">As Simple As 1 - 2 - 3</h3>
-    <div class="d-flex align-items-center bd-bottom">
-        <div class="col-md-6">
-            <h4>Step 1: Choose Your Package</h4>
+<section class="container-fluid mb-2">
+  <div class="card">
+    <h3 class="card-header bg-gradient-mine text-white py-3">Simple as 1 - 2 - 3</h3>
+    <div class="">
+      <div class="card-body d-flex align-items-center bd-bottom invert">
+        <div class="col-lg-6">
+          <h4 class="card-title">Step 1 <span class="avoid-wrap text-thin">Choose Your Package</span></h4>
         </div>
-        <div class="col-md-6">Purchase the package that will help you best reach your business goal. We recommend giving us call. </div>
-    </div>
-    <div class="d-flex align-items-center bd-bottom">
-        <div class="col-md-6">
-            <h4>Step 2: Video Planning Session</h4>
+        <div class="col-lg-1"><i class="fad fa-arrow-right"></i></div>
+        <div class="col-lg-5">
+          <p class="card-text">Purchase the package that will help you best reach your business goal. We recommend giving us call.</p>
         </div>
-        <div class="col-md-6">Once you have purchased your package, we will have a creative and strategic consultation where together we will decide what text, images or graphics will appear with the spokesperson. </div>
-    </div>
-    <div class="d-flex align-items-center">
-        <div class="col-md-6">
-            <h4>Step 3: Receive Your Video</h4>
+      </div>
+      <div class="card-body d-flex align-items-center bd-bottom invert">
+        <div class="col-lg-6">
+          <h4 class="card-title">Step 2 <span class="avoid-wrap text-thin">Video Planning Session</span></h4>
         </div>
-        <div class="col-md-6">2 to 3 weeks after providing us with your specific logos, any other visual elements decided upon, you will receive your completed video. </div>
+        <div class="col-lg-1"><i class="fad fa-arrow-right"></i></div>
+        <div class="col-lg-5">
+          <p class="card-text">Once you have purchased your package, we will have a creative and strategic consultation where together we will decide what text, images or graphics will appear with the spokesperson.</p>
+        </div>
+      </div>
+      <div class="card-body d-flex align-items-center invert">
+        <div class="col-lg-6">
+          <h4 class="card-title">Step 3 <span class="avoid-wrap text-thin">Receive Your Video</span></h4>
+        </div>
+        <div class="col-lg-1"><i class="fad fa-arrow-right"></i></div>
+        <div class="col-lg-5">
+          <p class="card-text">2 to 3 weeks after providing us with your specific logos, any other visual elements decided upon, you will receive your completed video.</p>
+        </div>
+      </div>
     </div>
+  </div>
 </section>
 <?php include("../includes/footer.php"); ?>
 <?php include("../includes/modal.php");?>
