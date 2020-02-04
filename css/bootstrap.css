@@ -10973,7 +10973,7 @@ html {
     opacity: 0.7; } }
 /* line 77, ../scss/mine/_gallery.scss */
 .portfolio {
-  font-size: .4rem;
+  font-size: .6rem;
   font-weight: 300;
   padding: 0 1rem;
   display: grid;
@@ -10982,8 +10982,7 @@ html {
   @media (max-width: 1300px) {
     /* line 77, ../scss/mine/_gallery.scss */
     .portfolio {
-      grid-template-columns: auto auto auto;
-      font-size: 0.6rem; } }
+      grid-template-columns: auto auto auto; } }
   @media (max-width: 900px) {
     /* line 77, ../scss/mine/_gallery.scss */
     .portfolio {
@@ -10994,17 +10993,17 @@ html {
     .portfolio {
       grid-template-columns: auto;
       font-size: 2rem; } }
-  /* line 96, ../scss/mine/_gallery.scss */
+  /* line 95, ../scss/mine/_gallery.scss */
   .portfolio .item {
     position: relative;
     overflow: hidden;
     border: thin solid rgba(29, 43, 97, 0.7); }
-    /* line 100, ../scss/mine/_gallery.scss */
+    /* line 99, ../scss/mine/_gallery.scss */
     .portfolio .item:hover .info {
       color: #E5F0FF;
       background: rgba(29, 43, 97, 0.7);
       height: 60%; }
-  /* line 106, ../scss/mine/_gallery.scss */
+  /* line 105, ../scss/mine/_gallery.scss */
   .portfolio .info-title {
     font-size: 1rem;
     height: 2rem;
@@ -11015,12 +11014,12 @@ html {
     line-height: 1;
     white-space: nowrap; }
     @media (max-width: 640px) {
-      /* line 106, ../scss/mine/_gallery.scss */
+      /* line 105, ../scss/mine/_gallery.scss */
       .portfolio .info-title {
         font-size: 2rem;
         height: 4rem;
         padding: 1rem 0; } }
-  /* line 121, ../scss/mine/_gallery.scss */
+  /* line 120, ../scss/mine/_gallery.scss */
   .portfolio .info {
     position: absolute;
     bottom: 0;
@@ -11032,10 +11031,10 @@ html {
     transition: all 1s ease;
     border: thin solid rgba(29, 43, 97, 0.5); }
     @media (max-width: 640px) {
-      /* line 121, ../scss/mine/_gallery.scss */
+      /* line 120, ../scss/mine/_gallery.scss */
       .portfolio .info {
         height: 4rem; } }
-    /* line 134, ../scss/mine/_gallery.scss */
+    /* line 133, ../scss/mine/_gallery.scss */
     .portfolio .info p {
       text-indent: 0;
       line-height: 1;
