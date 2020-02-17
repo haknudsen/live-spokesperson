@@ -2,133 +2,73 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Video Presentations from Live-Spokesperson&reg;</title>
-<meta name="title" content="Online Video from Live-Spokesperson.com">
-<meta name="description" content="Do you need a Sales Video, Product Demonstration, Website Walk-through, and Training Video? Engage your website visitors with a custom video presentation.  ">
-<meta name="keywords" content="Video Presentation,Web Video,Web Video Production,Custom Videos,Kickstarter Video,Powerpoint Alternative,Custom Video,Custom Video Presentation">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="index, follow">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta name="language" content="English">
 <meta name="revisit-after" content="30 days">
 <meta name="author" content="TalkingHeads.com">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Custom Presentations from Talking Heads&reg;</title>
+<meta name="title" content="Custom Presentations from Talking Heads">
+<meta name="description" content="Do you need a Sales Video, Product Demonstration, Website Walk-through, and Training Video? Engage your website visitors with a custom video presentation.">
+<meta name="keywords" content="Video Presentation,Web Video,Web Video Production,Custom Videos,Kickstarter Video,Powerpoint Alternative,Custom Video,Custom Video Presentation">
 <?php include("../../includes/head.php"); ?>
 </head>
 
 <body>
 <?php include("../../includes/nav.php"); ?>
 <header class="header-video">
-  <div class="overlay"></div>
-  <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-    <source src="https://www.websitetalkingheads.com/ivideo/videos/Video Presentation Show Reel.mp4" type="video/mp4">
-  </video>
-  <div class="container h-100">
-    <div class="d-flex h-100 text-center align-items-center">
-      <div class="w-100 text-white">
-        <h1 class="display-3 wow bounceInDown">Custom Video Presentations</h1>
-        <p class="lead mb-0 wow bounceInUp">Results Driven Videos</p>
-      </div>
-    </div>
-  </div>
-</header>
-<section class="container-fluid bg-light py-2">
-  <div class="container">
-    <div class="card">
-      <h5 class="card-header bg-gradient-mine text-white text-center text-uppercase">Use Our Video Presentations For</h5>
-      <div class="card-body">
-        <div class="row">
-          <div class="col-lg-6">
-            <ul class="h5">
-              <li>Sales Video</li>
-              <li>Product Demonstration</li>
-              <li>Website Walk-through</li>
-              <li>Educational Video</li>
-              <li>Training Video</li>
-            </ul>
-          </div>
-          <div class="col-lg-6">
-            <div class="pricing">
-              <div class="card-title h3 text-primary mb-0">30 Second</div>
-              <div class="text-center h4 font-weight-bold mb-0">Video Presentation</div>
-              <h6><span class="small text-dark">Starting at Just</span><span class="price text-primary">$799</span></h6>
+    <div class="overlay"></div>
+    <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+        <source src="https://www.websitetalkingheads.com/ivideo/videos/5star precom2p.mp4" type="video/mp4">
+    </video>
+    <div class="container-fluid h-100">
+        <div class="d-flex h-100 text-center align-items-center mt-3">
+            <div class="video-holder text-white">
+                <h1 class="display-4 wow bounceInDown">Custom Custom Presentations</h1>
+                <p class="lead mb-0 wow bounceInUp">Results Driven Videos</p>
             </div>
-          </div>
+            <?php include("../includes/contact-card.php")?>
         </div>
-      </div>
     </div>
-  </div>
+</header>
+<section class="pb-5 bg-light">
+    <h1 class="text-center pt-1">Video Presentations Examples</h1>
+    <?php $type = "Presentation";$show = 12;$rand = false;$columns = 2; include("../../includes/showPortfolio.php");?>
 </section>
-<section class="pb-5 bg-primary">
-  <h1 class="text-center pt-1">Video Presentation Examples</h1>
-  <div class="container-fluid bg-grey">
-    <?php
-    $type = "Presentation";
-    $show = "12";
-    $rand = false;
-    $columns = 3;
-    include( "../../includes/showDemo.php" );
-    ?>
-  </div>
+<section class="container-fluid bg-light py-2">
+    <div class="card wow zoomIn">
+        <h5 class="card-header bg-gradient-mine text-white text-center text-uppercase">Custom Video Presentations</h5>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h6 class="card-title">Used For</h6>
+                    <ul class="list-group">
+                        <li class="list-group-item">Sales Video</li>
+                        <li class="list-group-item">Product Demonstration</li>
+                        <li class="list-group-item">Website Walk-through</li>
+                        <li class="list-group-item">Educational Video</li>
+                        <li class="list-group-item">Training Video</li>
+                    </ul>
+                </div>
+                <div class="col-lg-6">
+                    <h6 class="card-title">You Get</h6>
+                    <ul class="list-group">
+                        <li class="list-group-item">Professional Spokesperson</li>
+                        <li class="list-group-item">Skilled Editing and  Compositing</li>
+                        <li class="list-group-item">Motion Graphics</li>
+                        <li class="list-group-item">Graphics</li>
+                        <li class="list-group-item">Effects</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 <section class="alert alert-info mt-4">
-  <div class="card-deck">
-    <div class="card">
-      <div class="card-header bg-gradient-mine text-white">Video Presentations</div>
-      <div class="card-img-top" src="..." alt="Card image cap">
-        <?php
-        $video = "Jeds Lemonade";
-        $bgColor = "#757575";
-        $alt = "Product Demo Video";
-        include( "../../includes/showVideo.php" );
-        ?>
-      </div>
-      <div class="card-body">
-        <h5 class="card-title"><em class="text-small">Improve Your Bottom Line</em></h5>
-        <p class="card-text">You want to compete with the "Big Boys" but don't want to pay "Big Studio" rates. We focus on video presentations that improve your bottom line without breaking your bank. Rather than spending tens or even hundreds of thousands on a "viral video", we recommend creating videos that work for you 24/7. By utilizing a professional spokesperson and supporting your message with text and graphics, you are capitalizing on rich media to influence your potential customers.</p>
-      </div>
-      <div class="card-footer bg-gradient-mine text-muted">
-        <div class="float-right"><a class="text-white" href="../product-demonstrations/">Product Demos</a></div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="card-header bg-gradient-mine text-white">Professional Video</div>
-      <div class="card-img-top" src="..." alt="Card image cap">
-        <?php
-        $video = "Talking Heads Video Demonstration";
-        $bgColor = "#91A4BF";
-        $alt = "Talking Heads Video Demonstration";
-        include( "../../includes/showVideo.php" );
-        ?>
-      </div>
-      <div class="card-body">
-        <h5 class="card-title"><em class="text-small">Custom</em></h5>
-        <p class="card-text">We use images, video, sound, text and a professional video spokesperson. We can create a <em>Custom Video Presentation</em> that is a Product Demonstration, a Website Walk-through, Informational, Training or Sales Video. We put it all together and provide you a Full HD 1920X1080 video in MP4 format suitable to upload to YouTube, Vimeo, Facebook.Twitter, Instagram, Dailymotion, Vevo, Metacafe, Flickr, whatever video service you like.</p>
-      </div>
-      <div class="card-footer bg-gradient-mine text-muted">
-        <div class="float-right"><a class="text-white" href="../../spokespeople/">Spokespeople</a></div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="card-header bg-gradient-mine text-white">Why <span class="thin blue">Video</span>?</div>
-      <div class="card-img-top" src="..." alt="Card image cap">
-        <?php
-        $video = "Video Background";
-        $bgColor = "#757575";
-        $alt = "Video Spokespeople";
-        include( "../../includes/showVideo.php" );
-        ?>
-      </div>
-      <div class="card-body">
-        <h5 class="card-title"><em class="text-small">Spokesperson <span class="thin blue">Video</span></em></h5>
-        <p class="card-text">The most of us are by now aware of the power of video on the Internet. Enterprising companies have used that power to affect people on an unprecedented scale. A <strong>spokesperson video</strong> is almost like face-to-face contact with potential clients. This marketing method is doubly effective than supplying staid, plain text and fixed visuals. Visitors find it more enjoyable and helps them comprehend information more easily.</p>
-      </div>
-      <div class="card-footer bg-gradient-mine text-muted">
-        <div class="float-right"><a class="text-white" href="../../spokespeople/">Spokespeople</a></div>
-      </div>
-    </div>
-  </div>
+    <?php $style = "presentation";include("includes/random-content.php"); ?>
 </section>
-<?php include("../../includes/modal.php");?>
 <?php include("../../includes/footer.php"); ?>
+<?php include("../../includes/modal.php"); ?>
 </body>
 </html>

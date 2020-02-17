@@ -20,7 +20,7 @@ header.header-video {
 		-webkit-transform: translateX(-50%) translateY(-50%);
 		transform: translateX(-50%) translateY(-50%);
 	}
-	.container {
+	.container, .container-fluid {
 		position: relative;
 		z-index: 2;
 	}
@@ -42,4 +42,8 @@ header.header-video {
 	header.header-video video {
 		display: none;
 	}
+}
+.video-holder{
+	width: calc(90% - 330px);
+	padding-right: .5rem;
 }
