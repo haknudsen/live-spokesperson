@@ -11138,27 +11138,88 @@ nav > div a.nav-item.nav-link:focus {
 .specials-no {
   font-weight: 800;
   line-height: 1.4;
-  font-size: .5rem; }
+  font-size: .75rem;
+  text-align: center; }
   @media (max-width: 992px) {
     /* line 2, ../scss/mine/_specials.scss */
     .specials-no {
       font-size: 4rem; } }
+  /* line 10, ../scss/mine/_specials.scss */
+  .specials-no div {
+    animation-name: bounceInUp;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-delay: 1s; }
+    /* line 15, ../scss/mine/_specials.scss */
+    .specials-no div:first-of-type {
+      animation-delay: .5s; }
+    /* line 18, ../scss/mine/_specials.scss */
+    .specials-no div:nth-of-type(2) {
+      animation-delay: 1s; }
+    /* line 21, ../scss/mine/_specials.scss */
+    .specials-no div:nth-of-type(3) {
+      animation-delay: 1.5s; }
+    /* line 24, ../scss/mine/_specials.scss */
+    .specials-no div:last-of-type {
+      animation-delay: 2s;
+      font-size: 150%; }
 
-/* line 10, ../scss/mine/_specials.scss */
+/* line 30, ../scss/mine/_specials.scss */
 .special {
   font-weight: 800;
   font-size: 1.5rem;
   color: #1D2B61; }
   @media (max-width: 992px) {
-    /* line 10, ../scss/mine/_specials.scss */
+    /* line 30, ../scss/mine/_specials.scss */
     .special {
       font-size: 4rem; } }
 
-/* line 18, ../scss/mine/_specials.scss */
+/* line 38, ../scss/mine/_specials.scss */
 .special-subheader {
   font-weight: 600;
   color: #000;
   font-size: 1.1rem; }
+
+/* line 43, ../scss/mine/_specials.scss */
+.special-holder {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 164px);
+  width: 327px;
+  height: 200px;
+  z-index: 99;
+  transform: rotate(-24deg); }
+  /* line 51, ../scss/mine/_specials.scss */
+  .special-holder .img {
+    overflow: hidden;
+    transition-duration: 0.8s;
+    transition-property: transform; }
+    /* line 55, ../scss/mine/_specials.scss */
+    .special-holder .img:hover {
+      transform: rotate(360deg);
+      -webkit-transform: rotate(360deg); }
+
+/* line 61, ../scss/mine/_specials.scss */
+.btn-specials {
+  background-color: #bde4eb !important;
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d1ecf1",endColorstr="#bee5eb");
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#d1ecf1), to(#bee5eb));
+  background-image: -moz-linear-gradient(top, #d1ecf1, #bee5eb);
+  background-image: -ms-linear-gradient(top, #d1ecf1, #bee5eb);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #d1ecf1), color-stop(100%, #bee5eb));
+  background-image: -webkit-linear-gradient(top, #d1ecf1, #bee5eb);
+  background-image: -o-linear-gradient(top, #d1ecf1, #bee5eb);
+  background-image: linear-gradient(#d1ecf1, #bee5eb);
+  border-color: #bee5eb #bee5eb #1487ad;
+  color: #223 !important;
+  text-shadow: 0 1px 1px rgba(61, 156, 235, 0.33);
+  -webkit-font-smoothing: antialiased; }
+
+/* line 77, ../scss/mine/_specials.scss */
+.btn-specials:hover {
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+  border-color: #d1ecf1 #d1ecf1 #bde4eb; }
 
 /* Scss Document */
 /* line 2, ../scss/mine/_pie-chart.scss */
