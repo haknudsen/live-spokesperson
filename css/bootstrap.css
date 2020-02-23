@@ -11813,6 +11813,19 @@ header {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$top', endColorstr='$bottom',GradientType=0 );
     /* IE6-9 */ }
 
+/* Sass Document */
+/* line 2, ../scss/mine/_menu-btns.scss */
+.my-menu-btn {
+  filter: invert(42%) sepia(80%) saturate(1101%) hue-rotate(174deg) brightness(100%) contrast(111%);
+  color: #1D2B61;
+  fill: #00A3FF;
+  opacity: .7; }
+  /* line 7, ../scss/mine/_menu-btns.scss */
+  .my-menu-btn:hover {
+    color: #E5F0FF;
+    fill: #4DBEFF;
+    opacity: .5; }
+
 /* Scss Document */
 /* line 2, ../scss/mine/_my-base.scss */
 body {

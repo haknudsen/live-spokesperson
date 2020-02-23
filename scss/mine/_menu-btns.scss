@@ -1,0 +1,12 @@
+/* Sass Document */
+.my-menu-btn {
+	filter: invert(42%) sepia(80%) saturate(1101%) hue-rotate(174deg) brightness(100%) contrast(111%);
+	color:$dark;
+	fill:$primary;
+	opacity: .7;
+		&:hover{
+			color: $light;
+			fill: $info;
+	opacity: .5;
+		}	
+}
