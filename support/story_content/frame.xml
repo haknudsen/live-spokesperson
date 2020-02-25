@@ -15,13 +15,13 @@
         <options>
           <option name="title_enabled" value="true">
             <options>
-              <option name="title_text" value="FAQ" />
+              <option name="title_text" value="Talking Heads Player FAQ" />
             </options>
           </option>
           <option name="logo_enabled" value="true">
             <options>
-              <option name="logo_url" value="story_content\6lNi4R8SDmI_DX1024_DY1024.swf" />
-              <option name="html5_logo_url" value="mobile/6Sid8PgZk03.png" />
+              <option name="logo_url" value="story_content\5ucf7qDvFtM_DX1024_DY1024.swf" />
+              <option name="html5_logo_url" value="mobile/65AV7Pq6pbj.png" />
             </options>
           </option>
           <option name="sidebar_enabled" value="true">
@@ -86,9 +86,9 @@
       </optiongroup>
       <optiongroup name="buttonoptions">
         <options>
-          <option name="next" value="icon" />
-          <option name="previous" value="icon" />
-          <option name="submit" value="icon" />
+          <option name="next" value="icontext" />
+          <option name="previous" value="icontext" />
+          <option name="submit" value="icontext" />
         </options>
       </optiongroup>
     </optiongroups>
