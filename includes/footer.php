@@ -4,8 +4,11 @@
             <div class="text-center text-light">Why Video?</div>
             <div class="text-center italics"><a href="tel://801-748-2281" title="Let's Talk!">"It's <span class="thin">Time</span> We Talk..."</a>
             </div>
-            <div class="text-center"><i class="fa fa-phone text-light"></i> <br/>
-                <span><a href="tel://801-748-2281" title="Give us a call." >801-748-2281</a></span>
+            <div class="text-center"><a href="tel://801-748-2281" title="Give us a call." ><i class="fa fa-phone text-light"></i>
+                <span>801-748-2281</span></a>
+            </div>
+            <div class="text-center"><a href="../support/" title="Contact Support" ><i class="fal fa-question-circle text-light"></i>
+                <span>Support</span></a>
             </div>
         </div>
         <div class="col-md-6">
