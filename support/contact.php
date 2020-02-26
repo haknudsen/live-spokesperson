@@ -4,8 +4,8 @@
 <meta charset="utf-8">
 <title>Support Website Talking Heads&reg;</title>
 <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
-<meta name="keywords" content="support, player support, online spokesperson, video spokesperson, website talking heads,">
-<meta name="description" content="Online video spokesperson support. ">
+<meta name="keywords" content="support, online spokesperson, video spokesperson, website talking heads,">
+<meta name="description" content="Online video spokesperson.  For only $199, add a virtual spokesperson to your website.  An online presenter can increase traffic conversion rates on your website.  Integrate flash video, website video, website actor and objects to create dynamic streaming video and easily add it your existing website.">
 <meta name="robots" content="index, follow">
 <!-- (Robot commands: All, None, Index, No Index, Follow, No Follow) -->
 <meta name="revisit-after" content="30 days">
@@ -18,54 +18,48 @@
 <?php include("../includes/head.php"); ?>
 </head>
 
-<body sclass="cs-HTML theme-unified">
+<body>
 <?php include("../includes/nav.php"); ?>
 <section class="container-fluid mb-2">
-    <h1 class="text-center">Support FAQ</h1>
-    <div class="row align-items-center">
-        <div class="col-lg-6">
-            <div class="faq float-right">
-                <iframe frameBorder="0" src="story.html"></iframe>
-            </div>
+    <h1 class="text-center">Support</h1>
+    <div class="w-90 mx-auto">
+    <p class="content">Please provide the following information so that we can assist you with your issue. Be sure to include a detailed description of your issue and your url so we can look at your site.</p>
+    <form accept-charset="utf-8" action="https://websitetalkingheads.od1.vtiger.com/modules/Webforms/capture.php" enctype="multipart/form-data" id="__vtigerWebForm" method="post" name="support" class="border border-primary bg-light rounded p-2 w-50 mx-auto support">
+        <input name="__vtrftk" type="hidden" value="sid:6012e71b58bd04da0ca674b2d527471ebae6e46d,1551148799">
+        <input name="publicid" type="hidden" value="69eefb9a5cd14af830a735a129964de4">
+        <input name="urlencodeenable" type="hidden" value="1">
+        <input name="name" type="hidden" value="support">
+        <input name="__vtCurrency" type="hidden" value="1">
+        <input data-label="casestatus" hidden="" name="casestatus" value="New">
+        <input data-label="casepriority" hidden="" name="casepriority" value="High">
+        <div class="form-group">
+            <label>Name</label>
+            <input data-label="" name="contact_id" placeholder="Your Name" type="text" value="">
         </div>
-        <div class="col-lg-6">
-            <div class="faq-contact">
-            <form accept-charset="utf-8" action="https://websitetalkingheads.od1.vtiger.com/modules/Webforms/capture.php" enctype="multipart/form-data" id="__vtigerWebForm" method="post" name="support" class="border border-primary bg-light rounded mx-auto support">
-                <input name="__vtrftk" type="hidden" value="sid:6012e71b58bd04da0ca674b2d527471ebae6e46d,1551148799">
-                <input name="publicid" type="hidden" value="69eefb9a5cd14af830a735a129964de4">
-                <input name="urlencodeenable" type="hidden" value="1">
-                <input name="name" type="hidden" value="support">
-                <input name="__vtCurrency" type="hidden" value="1">
-                <input data-label="casestatus" hidden="" name="casestatus" value="New">
-                <input data-label="casepriority" hidden="" name="casepriority" value="High">
-                <div class="form-group">
-                    <label>Name</label>
-                    <input data-label="" name="contact_id" placeholder="Your Name" type="text" value="">
-                </div>
-                <div class="form-group">
-                    <label>Email</label>
-                    <input data-label="Primary Email" name="email" required="" placeholder="Your Email" type="email" value="">
-                </div>
-                <div class="form-group">
-                    <label>Issue</label>
-                    <input data-label="" maxlength="255" name="title" placeholder="Summary of Issue" required="" type="text" value="">
-                </div>
-                <div class="form-group">
-                    <label>Details</label>
-                    <textarea name="description" placeholder="Any details you can provide.  Such as, Video doesn't appear,Can't upload files, 404 error, ect."></textarea>
-                </div>
-                <div class="form-group">
-                    <label>URL of page</label>
-                    <input name="cf_cases_website" type="text" maxlength="128" value="" data-label="">
-                </div>
-                <script src="https://www.google.com/recaptcha/api.js"></script>
-                <div class="g-recaptcha" data-sitekey="6LcmdSATAAAAAGWw734vGo0AXQwuxJS7RmDZA_Fe"></div>
-                <input id="captchaUrl" type="hidden" value="https://websitetalkingheads.od1.vtiger.com/modules/Settings/Webforms/actions/ValidateCaptcha.php">
-                <input id="recaptcha_validation_value" name="recaptcha_validation_value" type="hidden">
-                <div class="w-50 mx-auto">
-                    <input id="vtigerFormSubmitBtn" type="submit" value="Submit" class="mx-auto btn-contact">
-                </div>
-                <script type="text/javascript">
+        <div class="form-group">
+            <label>Email</label>
+            <input data-label="Primary Email" name="email" required="" placeholder="Your Email" type="email" value="">
+        </div>
+        <div class="form-group">
+            <label>Issue</label>
+            <input data-label="" maxlength="255" name="title" placeholder="Summary of Issue" required="" type="text" value="">
+        </div>
+        <div class="form-group">
+            <label>Details</label>
+            <textarea name="description" placeholder="Any details you can provide.  Such as, Video doesn't appear,Can't upload files, 404 error, ect."></textarea>
+        </div>
+        <div class="form-group">
+            <label>URL of page</label>
+            <input name="cf_cases_website" type="text" maxlength="128" value="" data-label="">
+        </div>
+        <script src="https://www.google.com/recaptcha/api.js"></script>
+        <div class="g-recaptcha" data-sitekey="6LcmdSATAAAAAGWw734vGo0AXQwuxJS7RmDZA_Fe"></div>
+        <input id="captchaUrl" type="hidden" value="https://websitetalkingheads.od1.vtiger.com/modules/Settings/Webforms/actions/ValidateCaptcha.php">
+        <input id="recaptcha_validation_value" name="recaptcha_validation_value" type="hidden">
+        <div class="w-50 mx-auto">
+            <input id="vtigerFormSubmitBtn" type="submit" value="Submit" class="mx-auto btn-contact">
+        </div>
+        <script type="text/javascript">
 					window.onload = function () {
 						var N = navigator.appName,
 							ua = navigator.userAgent,
@@ -263,11 +257,8 @@
 						element.parentNode.removeChild( element );
 					}
 				</script>
-                </div>
-            </form>
         </div>
-    </div>
-    </div>
+    </form>
 </section>
 <?php include("../includes/footer.php"); ?>
 </body>

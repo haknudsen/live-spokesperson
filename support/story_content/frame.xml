@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npnxabnsnfns01011111111" textdirection="ltr" device="false" fontscale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="true" outputtype="undefined" theme="unified">
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npnxabnsnfns01011111111" textdirection="ltr" device="false" fontscale="80" kbshortcuts="false" skip_nav_enabled="true" chromeless="true" outputtype="undefined" theme="unified">
   <layouts>
     <layout name="npnxnanbsnfns11111111111" font="Open Sans" controllayout="npnxnanbsnfns11111111111" colorscheme="npnxabnsnfns01011111111" string_table="npnxabnsnfns01011111111" />
     <layout name="pxabnsnfns11111111111" font="Open Sans" controllayout="pxabnsnfns11111111111" colorscheme="npnxabnsnfns01011111111" string_table="npnxabnsnfns01011111111" />
@@ -7,7 +7,6 @@
     <layout name="npnxnanbnsnfns11111111111" font="Open Sans" controllayout="npnxnanbnsnfns11111111111" colorscheme="npnxabnsnfns01011111111" string_table="npnxabnsnfns01011111111" />
     <layout name="pxabnsnfns11111111110" font="Open Sans" controllayout="pxabnsnfns11111111110" colorscheme="npnxabnsnfns01011111111" string_table="npnxabnsnfns01011111111" />
     <layout name="npnxabnsnfns01011111111" font="Open Sans" controllayout="npnxabnsnfns01011111111" colorscheme="npnxabnsnfns01011111111" string_table="npnxabnsnfns01011111111" />
-    <layout name="pnxanbnsnfns11111111111" font="Open Sans" controllayout="pnxanbnsnfns11111111111" colorscheme="npnxabnsnfns01011111111" string_table="npnxabnsnfns01011111111" />
   </layouts>
   <control_options>
     <optiongroups>
@@ -20,8 +19,8 @@
           </option>
           <option name="logo_enabled" value="true">
             <options>
-              <option name="logo_url" value="story_content\5ucf7qDvFtM_DX1024_DY1024.swf" />
-              <option name="html5_logo_url" value="mobile/65AV7Pq6pbj.png" />
+              <option name="logo_url" value="story_content\5fycaBsvbag_DX1024_DY1024.swf" />
+              <option name="html5_logo_url" value="mobile/5wxwwOiYslS.png" />
             </options>
           </option>
           <option name="sidebar_enabled" value="true">
@@ -219,29 +218,6 @@
       <control name="next" enabled="false" />
       <control name="swipeleft" enabled="true" />
       <control name="swiperight" enabled="true" />
-      <control name="submit" enabled="false" />
-      <control name="finish" enabled="false" />
-      <control name="submitall" enabled="false" />
-      <control name="resources" enabled="true" />
-      <control name="glossary" enabled="true" />
-      <control name="transcript" enabled="true" />
-      <control name="outline" enabled="true">
-        <controls>
-          <control name="search" enabled="true" />
-        </controls>
-      </control>
-      <control name="close_btn" enabled="true" />
-    </control_layout>
-    <control_layout name="pnxanbnsnfns11111111111">
-      <control name="volume" enabled="true" />
-      <control name="seekbar" enabled="true" />
-      <control name="replay" enabled="true" />
-      <control name="pauseplay" enabled="true" />
-      <control name="logo" enabled="true" />
-      <control name="previous" enabled="true" />
-      <control name="next" enabled="false" />
-      <control name="swipeleft" enabled="true" />
-      <control name="swiperight" enabled="false" />
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
@@ -1356,33 +1332,19 @@
             <slidelink slideid="_player.6fWbbYJeI0I.68MSNW6W3Si" displaytext="Video Not Autostarting" expand="false" type="slide" />
           </links>
         </slidelink>
-        <slidelink slideid="_player.5jSYxQwiSDe" displaytext="Form" expand="true" type="slide">
-          <links>
-            <slidelink slideid="_player.5jSYxQwiSDe.62m1Hw98f3Q" displaytext="Name" expand="false" type="slide" />
-            <slidelink slideid="_player.5jSYxQwiSDe.5jMbfMEoLAR" displaytext="Email" expand="false" type="slide" />
-            <slidelink slideid="_player.5jSYxQwiSDe.6AGFIwkpFdi" displaytext="Website URL" expand="false" type="slide" />
-            <slidelink slideid="_player.5jSYxQwiSDe.6pspnxvTud1" displaytext="What is Your Issue?" expand="false" type="slide" />
-            <slidelink slideid="_player.5jSYxQwiSDe.6igDWECoTEa" displaytext="Support Form" expand="false" type="slide" />
-          </links>
-        </slidelink>
       </links>
     </outline>
     <search>
       <slidetext slideid="5gbIyG809ei.65v0DFU4Jh3" slidebank="false" type="slide">talking heads player faq </slidetext>
-      <slidetext slideid="6fWbbYJeI0I.5edlJff7saV" slidebank="false" type="slide">404 error if you have received a 404 error we apologize for the inconvenience. to better help us assist you, please provide the url you were trying to reach in the support form. </slidetext>
-      <slidetext slideid="6fWbbYJeI0I.5ngi3csX1VM" slidebank="false" type="slide">can't upload some web hosts don't allow you to upload files to your domain. to fix this issue you will either need to use another seperate host for these files or if needed we can offer hosting of the files and provide you with code that will show your video on your site.   please make sure to provide the url of your website and the name on your order. </slidetext>
-      <slidetext slideid="6fWbbYJeI0I.5uqFs0dIv7j" slidebank="false" type="slide">customizing the talking heads® player to customize your player, open up your website-spokesperson.js file in a text editor (like notepad) or a code editor like dreamweaver. do not use microsoft word, open office, or other elaborate word processor software because they insert formatting code. it is important to understand that if you have an with more than one video, the file name in the line of code changes. for the second video replace website-spokesperson.js with website-spokesperson2.js. the third video is website-spokesperson3.js and so on. see the link below for more instructions on what and how to change each variable. </slidetext>
-      <slidetext slideid="6fWbbYJeI0I.67jlzO0a0ds" slidebank="false" type="slide">installation create a folder called talkingheads. to function in must be created in the same directory that holds the page that you want to put the video on. now.  before uploading anything, please unzip all the files from the zip file onto your computer. it is usually called download.zip now upload each of these files to the talkingheads directory that you created on your website host.  add the line of code below to your page inside the body tag: &lt;script type="text/javascript" src="talkingheads/website-spokesperson.js"&gt;&lt;/script&gt; </slidetext>
-      <slidetext slideid="6fWbbYJeI0I.6kTY26O3MhV" slidebank="false" type="slide">video not playing usually, when the video doesn't play, it is because the line of code calling the player isn't pointed to the exact file location. check to make sure the files for your video are all in the same folder. then make sure the line of code in your page is actually loading the website-spokesperson.js file by clicking on the link in your page code. if that works, now check the path variable in the website-spokesperson.js file to make sure the location path where the files are stored is correct. if you still have the problem, fill out the form on the left and make sure to include your website address. </slidetext>
-      <slidetext slideid="6fWbbYJeI0I.6WxM6MLRW7D" slidebank="false" type="slide">audio only no video displaying  usually, when you get audio only for your video it is because you are hosting the video on a different domain. the files need to be hosted on the same domain as the page you have them on. if you can't store the files on the same domain you will need to use an iframe. this entails setting up the player on a page and then iframing that page. if you don't have the ability to do the iframe let us now and we will host it for you.  make sure to include your website so we can take a look.</slidetext>
-      <slidetext slideid="6fWbbYJeI0I.5sdohPkfqEp" slidebank="false" type="slide">video position if you are having problems properly placing the player on your page there can be several causes. often it is because the cms/web builder you are using is forcing the position. be sure to include your website address so we can take a look. </slidetext>
-      <slidetext slideid="6fWbbYJeI0I.5brqbnyHpDn" slidebank="false" type="slide">box around spokesperson if you see a box or white background around your video this means you are seeing the mp4 fallback. usually means that the browser you are using doesn't support html5 canvas video. however there may be other reasons. make sure to include your website so we can take a loo </slidetext>
-      <slidetext slideid="6fWbbYJeI0I.68MSNW6W3Si" slidebank="false" type="slide">video not autostarting this is usually because the browser you are using has blocked videos from auto-starting. if this is the case, we recommend using the mute auto-start variable so that the video is playing without audio but when they click on it the video will start over with audio. however, there may be other issues. so be sure to include your website address so we can take a look. </slidetext>
-      <slidetext slideid="5jSYxQwiSDe.62m1Hw98f3Q" slidebank="false" type="slide"> type your name here name</slidetext>
-      <slidetext slideid="5jSYxQwiSDe.5jMbfMEoLAR" slidebank="false" type="slide"> type your email here email</slidetext>
-      <slidetext slideid="5jSYxQwiSDe.6AGFIwkpFdi" slidebank="false" type="slide"> type your website url here website url</slidetext>
-      <slidetext slideid="5jSYxQwiSDe.6pspnxvTud1" slidebank="false" type="slide"> type your issue here what is your issue?</slidetext>
-      <slidetext slideid="5jSYxQwiSDe.6igDWECoTEa" slidebank="false" type="slide">we will take a look at your site and get back to you within one working day. support form name %name% email %email% website %url% issue %issue%</slidetext>
+      <slidetext slideid="6fWbbYJeI0I.5edlJff7saV" slidebank="false" type="slide">404 error </slidetext>
+      <slidetext slideid="6fWbbYJeI0I.5ngi3csX1VM" slidebank="false" type="slide">can't upload </slidetext>
+      <slidetext slideid="6fWbbYJeI0I.5uqFs0dIv7j" slidebank="false" type="slide">customizing the talking heads® player </slidetext>
+      <slidetext slideid="6fWbbYJeI0I.67jlzO0a0ds" slidebank="false" type="slide">installation  &lt;script type="text/javascript" src="talkingheads/website-spokesperson.js"&gt; &lt;/script&gt;</slidetext>
+      <slidetext slideid="6fWbbYJeI0I.6kTY26O3MhV" slidebank="false" type="slide">video not playing </slidetext>
+      <slidetext slideid="6fWbbYJeI0I.6WxM6MLRW7D" slidebank="false" type="slide">audio only no video displaying </slidetext>
+      <slidetext slideid="6fWbbYJeI0I.5sdohPkfqEp" slidebank="false" type="slide">video position </slidetext>
+      <slidetext slideid="6fWbbYJeI0I.5brqbnyHpDn" slidebank="false" type="slide">box around spokesperson </slidetext>
+      <slidetext slideid="6fWbbYJeI0I.68MSNW6W3Si" slidebank="false" type="slide">video not autostarting </slidetext>
     </search>
   </nav_data>
   <resource_data description="&lt;p align='left'&gt;&lt;font face='Open Sans' style='font-size: 11px;' size='11' color='#545454'&gt;Here are some useful links and documents:&lt;/font&gt;&lt;/p&gt;">

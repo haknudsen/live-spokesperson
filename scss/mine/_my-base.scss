@@ -1,10 +1,5 @@
 /* Scss Document */
 body{overflow-x: hidden}
-.content {
-	font-size: 1.2rem;
-	color: $dark;
-    text-indent: 0;
-}
 .list-style-item {
 	position: relative;
 	display: block;
@@ -431,5 +426,6 @@ footer a:hover{color: $light;}
     }
 }
 #campaign-list{overflow: hidden}
-.faq{width: 940px;;min-height: 600px;margin: 1rem auto;}
-.faq iframe{width: 940px;height: 600px;margin: 0 auto;align-self: center}
+.faq{width: 450px;min-height: 600px;}
+.faq iframe{width: 450px;height: 600px;margin: 0 auto;align-self: center}
+.faq-contact{max-width: 450px;}
