@@ -3,12 +3,12 @@ header.header-video {
 	position: relative;
 	background-color: black;
 	height: auto;
-	min-height: 24rem;
+	min-height: 26rem;
 	width: 100%;
 	overflow: hidden;
 	video {
 		position: absolute;
-		top: 50%;
+		top: calc(50% + 157px);
 		left: 50%;
 		min-width: 100%;
 		min-height: 100%;
