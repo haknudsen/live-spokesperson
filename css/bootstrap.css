@@ -11827,6 +11827,11 @@ header {
     opacity: .5; }
 
 /* Scss Document */
+/* line 2, ../scss/mine/_cards.scss */
+.card-award .list-group-item {
+  padding: 0.5rem 0.75rem; }
+
+/* Scss Document */
 /* line 2, ../scss/mine/_my-base.scss */
 body {
   overflow-x: hidden; }
