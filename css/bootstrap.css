@@ -10342,7 +10342,7 @@ a.text-red:hover, a.text-red:focus {
     font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
 
 /* line 63, ../scss/mine/talkingHeadsPlayer/_player.scss */
-#bigPlayBtn {
+#bigPlayBtn, .bigPlayBtn {
   height: 76px;
   width: 160px;
   display: block;
@@ -10359,25 +10359,25 @@ a.text-red:hover, a.text-red:focus {
   transition: background-color 0.5s ease;
   transition: border-color 0.5s ease; }
   /* line 79, ../scss/mine/talkingHeadsPlayer/_player.scss */
-  #bigPlayBtn:hover {
+  #bigPlayBtn:hover, .bigPlayBtn:hover {
     background-color: rgba(0, 163, 255, 0.7);
     border-color: rgba(29, 43, 97, 0.7); }
   /* line 83, ../scss/mine/talkingHeadsPlayer/_player.scss */
-  #bigPlayBtn:before {
+  #bigPlayBtn:before, .bigPlayBtn:before {
     position: absolute;
     content: url(http://www.live-spokesperson.com/images/BigPlayBtn.gif);
     left: calc(50% - (128px/2));
     top: calc(50% - (64px/2)); }
     @media (max-width: 576px) {
       /* line 83, ../scss/mine/talkingHeadsPlayer/_player.scss */
-      #bigPlayBtn:before {
+      #bigPlayBtn:before, .bigPlayBtn:before {
         position: absolute;
         content: url(https://www.websitetalkingheads.com/ivideo/SmallPlayBtn.gif);
         left: calc(50% - (64px/2));
         top: calc(50% - (32px/2)); } }
   @media (max-width: 576px) {
     /* line 63, ../scss/mine/talkingHeadsPlayer/_player.scss */
-    #bigPlayBtn {
+    #bigPlayBtn, .bigPlayBtn {
       height: 38px;
       width: 80px;
       left: calc(50% - (80px/2));
