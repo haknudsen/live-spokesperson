@@ -86,7 +86,7 @@ what we do
 </section>
 <section class="alert alert-info">
 	<div class="container text-center">
-		<h2>Talking Heads is the Leading Web Video Production Company</h2>
+		<h2>Talking Heads<sup><i class="fal fa-registered"></i></sup> is the Leading Web Video Production Company</h2>
 		<div class="h3">We provide <strong>Video Solutions</strong> with a wide variety of <em>Web Video</em> styles</div>
 		<p class="content">Do you need fresh, up-to-date content for your business? Are you looking for the most skillful Web Video Production Company to get the job done? Then you've come to the right place!</p>
 		<p class="content">Whether you need a Great Explainer Video, product demos, or a New Animated Video, we can help you out. Talking Heads<sup><i class="fal fa-registered"></i></sup> creates high-quality video content in a variety of styles. Choose the perfect video style for your project and we will work with you to create your video.</p>

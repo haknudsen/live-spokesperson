@@ -11541,13 +11541,14 @@ header {
 /* line 99, ../scss/mine/_vtiger.scss */
 .card-contact {
   width: 320px;
+  margin: 0 auto;
   font-size: 0.5rem; }
-  /* line 102, ../scss/mine/_vtiger.scss */
+  /* line 103, ../scss/mine/_vtiger.scss */
   .card-contact input {
     font-size: 0.5rem !important;
     line-height: 1.2; }
 
-/* line 107, ../scss/mine/_vtiger.scss */
+/* line 108, ../scss/mine/_vtiger.scss */
 .submit-pointer {
   color: #dc0000;
   height: 3rem;
@@ -11555,7 +11556,7 @@ header {
   position: absolute;
   bottom: 16px;
   left: calc(50% - 180px); }
-  /* line 114, ../scss/mine/_vtiger.scss */
+  /* line 115, ../scss/mine/_vtiger.scss */
   .submit-pointer .shake {
     animation-duration: infinite;
     animation-delay: 1s;
