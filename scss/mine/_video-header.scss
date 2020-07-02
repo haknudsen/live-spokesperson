@@ -45,5 +45,6 @@ header.header-video {
 }
 .video-holder{
 	width: calc(90% - 330px);
+    max-width: 1920px;
 	padding-right: .5rem;
 }
