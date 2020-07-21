@@ -66,7 +66,7 @@
     </div>
 </section>
 <section class="alert alert-info mt-4">
-    <?php $style = "motion";include("../includes/random-content.php"); ?>
+    <?php $style = "Motion";include("../includes/random-content.php"); ?>
 </section>
 <?php include("../../includes/footer.php"); ?>
 <?php include("../../includes/modal.php"); ?>
