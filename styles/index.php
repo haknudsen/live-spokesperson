@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-<title>Custom Video Styles by Talking Heads®</title>
+<title>Video Styles by Talking Heads®</title>
 <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
 <meta content="Custom Video,Website Video,Video Presentation,Animation,Custom Illustration,Whiteboard Video,Explainer Video" name="keywords">
 <meta content="Talking Heads Video creates a wide variety of videos.  From a simple and quick message to Product Demonstrations, Website Walk-throughs, Training, or Sales. " name="description">

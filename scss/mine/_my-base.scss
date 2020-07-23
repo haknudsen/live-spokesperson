@@ -13,9 +13,10 @@ body{overflow-x: hidden}
 	text-align: center;
 	margin: 2rem auto 0;
 }
-.starting {
+.starting{
 	font-size: 60%;
 	vertical-align: super;
+    float: left
 }
 .bd-bottom {
 	border-bottom: thin solid $primary;
@@ -43,7 +44,6 @@ body{overflow-x: hidden}
     animation-duration: 1s;
     animation-delay: 2s;
 }
-.starting{float: right}
 .text-lg-fluid {
 	font-size: 1.3vw;
 	line-height: 1.2;
