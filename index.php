@@ -86,12 +86,12 @@ what we do
 </section>
 <section class="alert alert-info">
 	<div class="container text-center">
-		<h2>Talking Heads<sup><i class="fal fa-registered"></i></sup> is the Leading Web Video Production Company</h2>
+        <h2>Talking Heads<sup><i class="fas fa-registered"></i></sup> is the Leading Web Video Production Company</h2>
 		<div class="h3">We provide <strong>Video Solutions</strong> with a wide variety of <em>Web Video</em> styles</div>
 		<p class="content">Do you need fresh, up-to-date content for your business? Are you looking for the most skillful Web Video Production Company to get the job done? Then you've come to the right place!</p>
-		<p class="content">Whether you need a Great Explainer Video, product demos, or a New Animated Video, we can help you out. Talking Heads<sup><i class="fal fa-registered"></i></sup> creates high-quality video content in a variety of styles. Choose the perfect video style for your project and we will work with you to create your video.</p>
+		<p class="content">Whether you need a Great Explainer Video, product demos, or a New Animated Video, we can help you out. Talking Heads<i class="sup far fa-registered"></i> creates high-quality video content in a variety of styles. Choose the perfect video style for your project and we will work with you to create your video.</p>
 		<p class="content">We pride ourselves on our experienced website spokespeople. Along with the very best Animators, Compositors, and Graphic Artists in the business.  We do not outsource or use freelancers.</p>
-		<p class="content">Capture your the attention of your website's visitors and build brand awareness.  All while increasing your search engine rankings with a Web Video from Talking Heads<sup><i class="fal fa-registered"></i></sup>.</p>
+		<p class="content">Capture your the attention of your website's visitors and build brand awareness.  All while increasing your search engine rankings with a Web Video from Talking Heads<i class="sup far fa-registered"></i>.</p>
 		<div class="btn-block">
 			<div class="btn btn-dark wow pulse"><a href="#contact-row">Request a Quote</a></div>
 			<a href="about/" title="More About Us">
@@ -128,7 +128,7 @@ what we do
 	<h2 class="text-center text-capitalize">Why Clients <strong>Choose</strong> Us</h2>
 	<div class="card-group justify-content-center">
 		<div class="card text-white bg-info">
-			<div class="card-header"><i class="fal fa-school wow rotateIn"></i> </div>
+			<div class="card-header"><i class="fas fa-school wow rotateIn"></i> </div>
 			<div class="card-body">
 				<h5 class="card-title">Experience</h5>
 				<p class="card-text">With 10+ years of experience in web video production, we will make you love working with Talking Heads. </p>
@@ -143,17 +143,17 @@ what we do
 			</div>
 		</div>
 		<div class="card text-white bg-info">
-			<div class="card-header"><i class="fal fa-cogs wow rotateIn"></i> </div>
+			<div class="card-header"><i class="fas fa-cogs wow rotateIn"></i> </div>
 			<div class="card-body">
 				<h5 class="card-title">Our Process</h5>
 				<p class="card-text">If you’re a person that expects tick off your checkboxes without compromise, then you'll love our research, planning, and execution. Bottom-line, our video production process is what makes us stand out from the pack. We consistently deliver great videos project after project.</p>
 			</div>
 		</div>
 		<div class="card text-white bg-info">
-			<div class="card-header"><i class="fal fa-check-circle wow rotateIn"></i> </div>
+			<div class="card-header"><i class="fas fa-check-circle wow rotateIn"></i> </div>
 			<div class="card-body">
 				<h5 class="card-title">Commitment to Quality</h5>
-				<p class="card-text">Our commitment to quality video and adherence to professional practices make us shine. These are some hallmarks that have inspired the Talking Heads<sup><i class="fal fa-registered"></i></sup> way.</p>
+				<p class="card-text">Our commitment to quality video and adherence to professional practices make us shine. These are some hallmarks that have inspired the Talking Heads<i class="sup fas fa-registered"></i> way.</p>
 				<p class="card-text">We film and composite our videos at our studio to maintain our top quality standards and accuracy. We are the best in Web Video Production</p>
 			</div>
 		</div>

@@ -144,7 +144,7 @@
                     <h3 class="text-white">Sometimes When You Develop a New Product the Hardest Part is <span class="font-italic text-info font-weight-light">Brainstorming</span> the Easiest Way to Reveal It to The Masses.</h3>
                     <h4 class="text-light text-capitalize mb-0">How is your <strong class="text-warning">Product</strong> going to make that impression?</h4>
                 </div>
-                <div class="col-lg-2 text-huge text-center"> <i class="fal fa-desktop"></i> </div>
+                <div class="col-lg-2 text-huge text-center"> <i class="fas fa-desktop"></i> </div>
             </div>
         </div>
     </div>

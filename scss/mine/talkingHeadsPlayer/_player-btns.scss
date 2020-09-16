@@ -18,7 +18,7 @@ $fa-icons: (
 );
 @each $name, $fa- in $fa-icons {
 	.btn-#{$name}{
-		font-family: "Font Awesome 5 Pro";
+		font-family: "Font Awesome 5 Free";
 		font-weight: normal;
 		font-style: normal;
 		cursor: pointer;

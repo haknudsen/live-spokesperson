@@ -35,8 +35,8 @@
 		</div>
 	</section>
 	<section class="container">
-		<p>At Talking Heads<sup class="fal fa-registered"></sup> we don't ask you to fill out a lame generic survay and we don't use freelance writers. We listen to you, ask you lots of questions and listen some more and then when we're on the same page and headed in the right direction we collaborate with you live over Google Docs to create a custom script using powerful words to engage and motivate your viewers to take action.</p>
-		<p>Say no to surveys and companies that won't spend a lot of time to talk to you. Call Talking Heads<sup class="fal fa-registered"></sup> right now and discover why some of the largest companies in the world trust us with their scripts.</p>
+		<p>At Talking Heads<sup class="fas fa-registered"></sup> we don't ask you to fill out a lame generic survay and we don't use freelance writers. We listen to you, ask you lots of questions and listen some more and then when we're on the same page and headed in the right direction we collaborate with you live over Google Docs to create a custom script using powerful words to engage and motivate your viewers to take action.</p>
+		<p>Say no to surveys and companies that won't spend a lot of time to talk to you. Call Talking Heads<sup class="fas fa-registered"></sup> right now and discover why some of the largest companies in the world trust us with their scripts.</p>
 	</section>
 
 
