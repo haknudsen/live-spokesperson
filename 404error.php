@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>404 Error Whiteboard Video Video</title>
+	<title>404 Error Live-Spokesperson</title>
 	<?php include("includes/head.php"); ?>
 </head>
 

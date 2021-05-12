@@ -116,6 +116,30 @@ if ( isset( $_SERVER[ 'HTTP_X_FORWARDED_FOR' ] ) && $_SERVER[ 'HTTP_X_FORWARTDED
                 if ( inputs[ i ].name == "support_end_date" ) {
                     endDate = inputs[ i ].value;
                 }
+                let dl = document.getElementById("designation").value.length;
+                if (dl < 8) {
+                    document.getElementById("vtigerFormSubmitBtn").disabled = false;
+                    $('textarea').val("SPAM");
+                    return false; // prevent form from submitting
+                  } else
+                    return true; // allow form to be submitted
+                }
+                if (type == "textarea") {
+                  let t = $('textarea').val();
+                  if (t.indexOf("gomydomains") >= 0) {
+                    $('textarea').val("");
+                    document.getElementById("vtigerFormSubmitBtn").disabled = false;
+                    return false; // prevent form from submitting
+                  }
+                  const cyrillicPattern = /^[\u0400-\u04FF]+$/;
+                  if (cyrillicPattern.test(t)) { //If "input" contains a Cyrillic character...
+                    alert('Invalid input: please use Latin characters only.'); // pop alert message
+                    $('textarea').val(""); // empty field of invalid contents
+                    document.getElementById("vtigerFormSubmitBtn").disabled = false;
+                    return false; // prevent form from submitting
+                  } else
+                    return true; // allow form to be submitted
+                }
                 if ( type == "email" ) {
                     if ( val != "" ) {
                         var elemLabel = inputs[ i ].getAttribute( "label" );

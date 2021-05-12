@@ -11,9 +11,6 @@
                 <li class="nav-item" id="spokesperson-women">
                     <a class="nav-link" href="/spokespeople/women.php">Spokeswomen</a>
                 </li>
-                <li class="nav-item" id="spokesperson-specialty">
-                    <a class="nav-link" href="/spokespeople/specialty.php">Specialty</a>
-                </li>
               <li class="nav-item" id="spokesperson-examples">
                     <a class="nav-link" href="/spokespeople/examples.php">Examples</a>
                 </li>

@@ -2,7 +2,6 @@
 <script>
 $(document).ready(function () {
 	var sTitle = $(document).find("title").text();
-    console.log( sTitle );
     switch(sTitle){
         case "Spokespeople by Live-Spokesperson.com":
             $("#spokesperson-main a").addClass("disabled");

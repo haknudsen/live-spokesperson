@@ -233,7 +233,7 @@ footer a:hover{color: $light;}
     font-style: italic;
     line-height: 1;
     &:before {
-		font-family: "Font Awesome 5 Pro";
+		font-family: "Font Awesome 5 Free";
 		font-weight: normal;
 		font-style: normal;
         font-size: 60%;
@@ -242,7 +242,7 @@ footer a:hover{color: $light;}
         vertical-align: top;
     }
     &:after {
-		font-family: "Font Awesome 5 Pro";
+		font-family: "Font Awesome 5 Free";
 		font-weight: normal;
 		font-style: normal;
         content: "\f10e";
@@ -308,7 +308,7 @@ footer a:hover{color: $light;}
     list-style: none;padding: 0;
     li.list-group-item{
             &::before{
-            font-family: "Font Awesome 5 Pro";
+            font-family: "Font Awesome 5 Free";
             display: inline-block;
             content: "\f058";
             padding-right: .5rem;

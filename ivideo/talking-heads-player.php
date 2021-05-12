@@ -9,7 +9,7 @@
 <meta name="description" content="Video Player for our content">
 <!--CSS-->
 <link href="../css/bootstrap.css" rel="stylesheet" type="text/css">
-<script src="https://kit.fontawesome.com/0a8693018d.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
 </head>
 
 <body>

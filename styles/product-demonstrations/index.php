@@ -11,16 +11,25 @@
 
 <body>
 <?php include("../../includes/nav.php"); ?>
-<section class="container-fluid">
-<div class="container">
-<div class="row">
-  <div class="col-md-12">
-    <div class="center top-title">
-      <h1 class="text-center">Demo Videos</h1>
-      <p>Demo Videos or Product demonstrations are videos that show your merchandise. These videos can reveal how your product works, what it can do, and how consumers assemble it. You can personalize your product demonstrations to highlight your finer points. Videos and product demonstrations increase brand awareness. But not every type of video will work. You need a professional to produce your Demo Video.</p>
+<header class="header-video">
+  <div class="overlay">
+  </div>
+  <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+    <source src="https://www.websitetalkingheads.com/ivideo/videos/Product Demo Examples.mp4" type="video/mp4">
+  </video>
+  <div class="container-fluid h-100">
+    <div class="d-flex h-100 text-center align-items-center mt-3">
+      <div class="video-holder text-white">
+        <h1 class="display-4 wow bounceInDown">Custom Product Demonstration Videos</h1>
+        <p class="lead mb-0 wow bounceInUp">Results Driven Videos</p>
+      </div>
+      <?php include("../includes/contact-card.php")?>
     </div>
   </div>
-</div>
+</header>
+<section class="pb-5 bg-light">
+  <h1 class="text-center pt-1">Product Demonstration Examples</h1>
+  <?php $type = "product";$show = 6;$rand = false;$columns = 3; include("../../includes/showPortfolio.php");?>
 </section>
 <section class="alert alert-info mb-3">
   <div class="container-fluid">
@@ -48,7 +57,7 @@
             <li class="list-group-item">Lower Bounce Rate</li>
             <li class="list-group-item">Super Popular and Engaging Style</li>
             <li class="list-group-item">Give Viewer a Birds Eye View</li>
-            <li class="list-group-item">Let’s Them Know What to Expect</li>
+            <li class="list-group-item">Let's Them Know What to Expect</li>
             <li class="list-group-item">Boosts Retention</li>
             <li class="list-group-item">Call to Action to Increase Sales</li>
             <li class="list-group-item">Choose From Different Table Top Textures</li>
@@ -81,70 +90,8 @@
   </div>
   </div>
 </section>
-<section class="container-fluid">
-  <div class="row align-items-center">
-    <div class=col-md-6>
-      <div class="float-right"> <img class="pop poster" data-video="Sinucleanse" alt="demo video examples" src="../../images/using-demo.jpg"></a> </div>
-    </div>
-    <div class=col-md-6>
-      <div class="box-mission">
-        <h3 class="text-center">Our Mission</h3>
-        <div class="text-content">
-          <h4 class="text-center">Talking Heads' mission is to Create Engaging Videos To Help People Attain Thier Goals.</h4>
-          <p class="color-black font-weight-bold">Talking Heads® has been making Web Videos for over a decade. We understand Web Video and Online marketing is our specialty. Our creative specialists work on an international level at branding, design, and development. Our <em>product demo videos</em> will show your product in the best possible light. Sometimes when you produce a product the most challenging part is how to reveal show it to potential customers. We can help you with that. When we finish your videos, people will be able to see it EVERYWHERE! Including phones and Tablets.</p>
-          <h3 class="read-more"><a href="../../product-demonstrations/about">LEARN MORE</a></h3>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<section class="alert alert-info">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-4">
-        <div class="style1 border-bottom iconbox v3">
-          <div class="box-header">
-            <div class="text-center icon"><i class="fas fa-desktop"></i> </div>
-            <div class="box-title"><a href="#">You Need Demo Videos</a> </div>
-          </div>
-          <div class="box-content">
-            <p>With the web and social media, business relies on video to engage their audience and drive sales.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="style1 border-bottom iconbox v3">
-          <div class="box-header">
-            <div class="text-center icon"><i class="fa-eye far"></i> </div>
-            <div class="box-title"><a href="#">Show off Your Product</a> </div>
-          </div>
-          <div class="box-content">
-            <p>Use video to show your product working, what it can do, and how clients put it together.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="style1 border-bottom iconbox v3">
-          <div class="box-header">
-            <div class="text-center icon"><i class="fas fa-chalkboard-teacher"></i> </div>
-            <div class="box-title"><a href="#">Get Your Point Across Fast</a> </div>
-          </div>
-          <div class="box-content">
-            <p>Good video reveals to consumers how your product can help them in a brief burst.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  </div>
-</section>
-<section class="container-fluid mb-2">
-  <?php include("../../includes/contact-succeed.php"); ?>
-</section>
-<section class="alert alert-info">
-  <h2 class="text-uppercase text-center wow bounceInUp">follow us</h2>
-  <h3 class="text-center wow jackInTheBox">Join us in <strong>Social Media</strong> and Stay Tuned!</h3>
-  <?php include("../../includes/social-icons.php"); ?>
+<section class="alert alert-info mt-4">
+  <?php $style = "product";include("../includes/random-content.php"); ?>
 </section>
 <?php include("../../includes/footer.php"); ?>
 <?php include("../../includes/modal.php"); ?>
