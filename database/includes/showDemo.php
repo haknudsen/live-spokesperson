@@ -11,94 +11,106 @@
  Presentation
  Typography
  Demo
- */
+*/
 
-require( "connect-demo.php" );
 $keyword = array();
-if ( !$show ) {
-	$show = 99;
+if (!$show)
+{
+    $show = 99;
 }
 $sql = "SELECT * FROM videos";
-switch ( $type ) {
-	case "Whiteboard":
-		$sql .= " 	WHERE whiteboard=true";
-		array_push( $keyword, "Whiteboard", "Whiteboard Animation", "Whiteboard Explainer", "Explainer", "Drawing", "Sketch" );
-		break;
-	case "Animation":
-		$sql .= " 	WHERE animation=true";
-		array_push( $keyword, "Animation", "Animated Video", "Animated Explainer" );
-		break;
-	case "Presentation":
-		$sql .= " 	WHERE presentation=true";
-		array_push( $keyword, "Custom Video","Video Presentation","Web Marketing Video","Web Video Production","Spokesperson Video" );
-		break;
-	case "Demo":
-		$sql .= " 	WHERE demo=true";
-		array_push( $keyword, "Custom Video","Video Presentation","Example Video","Demo Video" );
-		break;
-	case "product":
-		$sql .= " 	WHERE product=true";
-		array_push( $keyword, "Product Demo","Video Demonstration","Product Demo Video","Demo Video" );
-		break;
-	case "Typography":
-		$sql .= " 	WHERE Typography=true";
-		array_push( $keyword, "Kinetic Typography", "Typography Animation", "Motion Typography", "Typography Video", "Motion Design", "Cool Typography", "Best Typography", "Typography Motion Graphics" );
-		break;
-	default:
-		array_push( $keyword, "Web Video", "Online Video", "Website Video" );
+switch ($type)
+{
+    case "Whiteboard":
+        $sql .= " 	WHERE whiteboard=true";
+        array_push($keyword, "Whiteboard", "Whiteboard Animation", "Whiteboard Explainer", "Explainer", "Drawing", "Sketch");
+    break;
+    case "Animation":
+        $sql .= " 	WHERE animation=true";
+        array_push($keyword, "Animation", "Animated Video", "Animated Explainer");
+    break;
+    case "Presentation":
+        $sql .= " 	WHERE presentation=true";
+        array_push($keyword, "Custom Video", "Video Presentation", "Web Marketing Video", "Web Video Production", "Spokesperson Video");
+    break;
+    case "Demo":
+        $sql .= " 	WHERE demo=true";
+        array_push($keyword, "Custom Video", "Video Presentation", "Example Video", "Demo Video");
+    break;
+    case "product":
+        $sql .= " 	WHERE product=true";
+        array_push($keyword, "Product Demo", "Video Demonstration", "Product Demo Video", "Demo Video");
+    break;
+    case "Typography":
+        $sql .= " 	WHERE Typography=true";
+        array_push($keyword, "Kinetic Typography", "Typography Animation", "Motion Typography", "Typography Video", "Motion Design", "Cool Typography", "Best Typography", "Typography Motion Graphics");
+    break;
+    default:
+        array_push($keyword, "Web Video", "Online Video", "Website Video");
 
 }
+switch ($columns)
+{
+    case 1:
+        $span = 12;
+    break;
+    case 2:
+        $span = 6;
+    break;
+    case 3:
+        $span = 4;
+    break;
+    case 4:
+        $span = 3;
+    break;
+    default:
+        $span = 4;
+}
 
-if ( $rand === true ) {
-	$sql .= " ORDER BY RAND()";
-}else{
-	$sql .= " ORDER BY rank";
+require ("connect-demo.php");
+if ($rand === true)
+{
+    $sql .= " ORDER BY RAND()";
 }
-if ( $show > 0 ) {
-	$sql .= " LIMIT " . $show;
+else
+{
+    $sql .= " ORDER BY rank";
 }
-//echo($sql);
-$result = $conn->query( $sql );
-switch ( $columns ) {
-	case 1:
-		$span = 12;
-		break;
-	case 2:
-		$span = 6;
-		break;
-	case 3:
-		$span = 4;
-		break;
-	case 4:
-		$span = 3;
-		break;
-	default:
-		$span = 4;
+if ($show > 0)
+{
+    $sql .= " LIMIT " . $show;
 }
-if ( $result->num_rows > 0 ) {
-	echo PHP_EOL;
-	echo '<div class="row poster-row">';
-	while ( $row = $result->fetch_assoc() ) {
-		$altNum = array_rand( $keyword, 1 );
-		$alt = $altNum[ $keyword ];
-		$name = $row[ "Name" ];
-		echo '<div class="col-lg-' . $span . ' poster" alt="' . $keyword[ $altNum ] . " Example" . '" data-toggle="modal" data-target=".bd-example-modal-lg" data-video="' . $name . '">';
-		echo PHP_EOL;
-		echo '<div>';
-		echo PHP_EOL;
-		echo '<img src="https://www.websitetalkingheads.com/ivideo/videos/' . $name . '.jpg" class="img-fluid video box" alt="' . $keyword[ $altNum ] . " Example" . '">';
-		echo PHP_EOL;
-		echo '<i class="fas fa-play smallPlayBtn"></i>';
-		echo PHP_EOL;
-		echo '</div>';
-		echo PHP_EOL;
-		echo '<div class="poster-title">' . $name . '</div>';
-		echo PHP_EOL;
-		echo '</div>';
-		echo PHP_EOL;
-	}
-} else {
-	echo "0 results";
+echo ($sql . "<br>");
+$result = $conn->query("select * from videos");
+print_r($results);
+if ($result->num_rows > 0)
+{
+    echo PHP_EOL;
+    echo '<div class="row poster-row">';
+    while ($row = $result->fetch_assoc())
+    {
+        $altNum = array_rand($keyword, 1);
+        $alt = $altNum[$keyword];
+        $name = $row["Name"];
+        echo '<div class="col-lg-' . $span . ' poster" alt="' . $keyword[$altNum] . " Example" . '" data-toggle="modal" data-target=".bd-example-modal-lg" data-video="' . $name . '">';
+        echo PHP_EOL;
+        echo '<div>';
+        echo PHP_EOL;
+        echo '<img src="https://www.websitetalkingheads.com/ivideo/videos/' . $name . '.jpg" class="img-fluid video box" alt="' . $keyword[$altNum] . " Example" . '">';
+        echo PHP_EOL;
+        echo '<i class="fas fa-play smallPlayBtn"></i>';
+        echo PHP_EOL;
+        echo '</div>';
+        echo PHP_EOL;
+        echo '<div class="poster-title">' . $name . '</div>';
+        echo PHP_EOL;
+        echo '</div>';
+        echo PHP_EOL;
+    }
+}
+else
+{
+    echo "0 results";
 }
 echo PHP_EOL;
 echo '</div>';

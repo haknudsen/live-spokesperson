@@ -20,9 +20,10 @@
 
 <body>
 <?php include("../includes/nav.php"); ?>
+<section class="container" style="min-height: 100px"></section>
 <section class="alert alert-styles">
   <div class="container">
-    <?php $type = "Presentation";$show = 6;$rand = false;$columns = 3; include("../includes/showDemo.php");?>
+    <?php $type = "Presentation";$show = 6;$rand = true;$columns = 3; include("includes/showDemo.php");?>
   </div>
 </section>
 <?php include("../includes/footer.php"); ?>
