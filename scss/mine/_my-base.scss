@@ -13,9 +13,10 @@ body{overflow-x: hidden}
 	text-align: center;
 	margin: 2rem auto 0;
 }
-.starting {
+.starting{
 	font-size: 60%;
 	vertical-align: super;
+    float: left
 }
 .bd-bottom {
 	border-bottom: thin solid $primary;
@@ -43,7 +44,6 @@ body{overflow-x: hidden}
     animation-duration: 1s;
     animation-delay: 2s;
 }
-.starting{float: right}
 .text-lg-fluid {
 	font-size: 1.3vw;
 	line-height: 1.2;
@@ -172,9 +172,8 @@ textarea {
 .card-columns h3{font-size:  1.25rem}
 .sidebar{font-size: 0.8rem;padding-right: 0;position: fixed;top: 137px}
 .sidebar .nav-link {color: #E5F0FF!important}
-.actor img{width: 160px;height: 180px}
+.actor .img-actor{width: 160px;height: 180px;margin: 0 auto}
 .actor{position: relative;width: 160px;margin: 0 auto;
-	img{max-width: 180px;margin: 0 auto;}
 	h3{font-size: 1.5rem;font-weight: 700}
 	&:hover > .thumb-wrapper:before { color: #E5F0FF }
 }
@@ -198,9 +197,7 @@ textarea {
     width: 45px;
     height: 45px;
     cursor: pointer;
-	background: rgba(229,240,255,0.5);
-	border-radius: 50%;
-	border: -4px solid rgba(0,0,0,1.00);
+    padding: .1rem;
 	&:before {
 		font-size: 48px;
 		position: absolute;

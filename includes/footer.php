@@ -7,12 +7,12 @@
             <div class="text-center"><a href="tel://801-748-2281" title="Give us a call." ><i class="fa fa-phone text-light"></i>
                 <span>801-748-2281</span></a>
             </div>
-            <div class="text-center"><a href="../support/" title="Contact Support" ><i class="fal fa-question-circle text-light"></i>
+            <div class="text-center"><a href="../support/" title="Contact Support" ><i class="fa fa-question-circle text-light"></i>
                 <span>Support</span></a>
             </div>
         </div>
         <div class="col-md-6">
-            <div class="text-center small text-light"><a href="http://talkingheads.com/affiliate/">Powered by Talking Heads<sup class="smaller"><i class="fal fa-registered"></i></sup></a>
+            <div class="text-center small text-light"><a href="http://talkingheads.com/affiliate/">Powered by Talking Heads<sup class="smaller"><i class="fas fa-registered"></i></sup></a>
             </div>
             <div class="quotes">
                 <p id="changeQuote" class="text-center small text-info"></p>

@@ -45,7 +45,7 @@
 		<div class="">
 			<div class="card-group">
 				<div class="card mb-3">
-					<div class="card-header line-1 text-capitalize">Our Virtual Spokesperson Will:<i class="float-right fal fa-user-chart"></i>
+					<div class="card-header line-1 text-capitalize">Our Virtual Spokesperson Will:<i class="float-right fas fa-user-chart"></i>
 					</div>
 					<div class="card-body">
 						<ul class="list-group list-group-flush">
