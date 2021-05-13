@@ -6,13 +6,17 @@ $username = "admin";
 $password = "gRVwE8bM5pFy+dBJ";
 $dbname = "video-database";
 // Create connection
-$conn = mysqli_connect( $servername, $username, $password );
-// Check connection
-if ( !$conn ) {
-    die( "Connection failed: " . mysqli_connect_error() );
-    echo( "Connection failed: " . mysqli_connect_error() );
-    echo "<br>";
-}else{
-    echo "<br>Connected<br>";
+$con = mysqli_init();
+if (!$con){
+die("mysqli_init failed");
 }
+
+if (!mysqli_real_connect($con,$servername, $username, $password))
+{
+  die("Connect Error: " . mysqli_connect_error());
+}
+
+// Some queries...
+printf("Client version: %d\n", mysqli_get_client_version());
+echo "<br>Database connected<br>";
 ?>

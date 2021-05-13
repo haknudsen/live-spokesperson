@@ -81,8 +81,8 @@ if ($show > 0)
     $sql .= " LIMIT " . $show;
 }
 echo ($sql . "<br>");
-$result = $conn->query("select * from videos");
-print_r($results);
+$result = $con->query("select * from videos");
+print_r($result);
 if ($result->num_rows > 0)
 {
     echo PHP_EOL;
