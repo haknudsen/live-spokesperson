@@ -22,9 +22,7 @@
 <?php include("../includes/nav.php"); ?>
 <section class="container" style="min-height: 100px"></section>
 <section class="alert alert-styles">
-  <div class="container">
-    <?php $type = "Presentation";$show = 6;$rand = true;$columns = 3; include("includes/showPortfolio.php");?>
-  </div>
+  <?php $type = "Presentation";$show = 12;$rand = true;$columns = 4; include("includes/showCard.php");?>
 </section>
 <?php include("../includes/footer.php"); ?>
 <?php include("../includes/modal.php");?>
