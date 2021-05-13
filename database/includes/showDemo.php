@@ -67,7 +67,7 @@ switch ($columns)
         $span = 4;
 }
 
-require ("connect-demo.php");
+require ("connect-aws.php");
 if ($rand === true)
 {
     $sql .= " ORDER BY RAND()";
@@ -80,9 +80,8 @@ if ($show > 0)
 {
     $sql .= " LIMIT " . $show;
 }
-echo ($sql . "<br>");
-$result = $con->query("select * from videos");
-print_r($result);
+//echo ($sql . "<br>");
+$result = $con->query($sql);
 if ($result->num_rows > 0)
 {
     echo PHP_EOL;
