@@ -67,7 +67,7 @@ switch ($columns)
         $span = 4;
 }
 
-require ("connect-aws.php");
+require_once ("connect-aws.php");
 if ($rand === true)
 {
     $sql .= " ORDER BY RAND()";

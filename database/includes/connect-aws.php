@@ -15,5 +15,5 @@ if (!mysqli_real_connect($con,$servername, $username, $password,$dbname))
 {
   die("Connect Error: " . mysqli_connect_error());
 }
-//echo "<br>Database connected<br>";
+echo "<br>Database connected<br>";
 ?>
