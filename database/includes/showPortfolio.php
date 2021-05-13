@@ -79,7 +79,7 @@ if ($show > 0)
 {
     $sql .= " LIMIT " . $show;
 }
-echo ($sql . "<br>");
+//echo ($sql . "<br>");
 require_once ("connect-aws.php");
 $result = $con->query($sql);
 if ($result->num_rows > 0)
