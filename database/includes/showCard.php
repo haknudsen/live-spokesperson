@@ -15,7 +15,7 @@
 
 $keyword = array();
 if ( !$show ) {
-  $show = 12;
+  $show = 3;
 }
 $sql = "SELECT * FROM videos";
 switch ( $type ) {
@@ -44,14 +44,15 @@ switch ( $type ) {
     array_push( $keyword, "Kinetic Typography", "Typography Animation", "Motion Typography", "Typography Video", "Motion Design", "Cool Typography", "Best Typography", "Typography Motion Graphics" );
     break;
   default:
+    $sql .= " 	WHERE presentation=true";
     array_push( $keyword, "Web Video", "Online Video", "Website Video" );
 }
 shuffle( $keyword );
-
-if ( $rand === true ) {
+//echo($rand . "<br>test<br>");
+if ( $rand !== true ) {
   $sql .= " ORDER BY RAND()";
 } else {
-  $sql .= " ORDER BY rank";
+  $sql .= " ORDER BY Rifftrax";
 }
 if ( $show > 0 ) {
   $sql .= " LIMIT " . $show;
