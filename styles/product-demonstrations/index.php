@@ -29,7 +29,7 @@
 </header>
 <section class="pb-5 bg-light">
   <h1 class="text-center pt-1">Product Demonstration Examples</h1>
-  <?php $type = "product";$show = 6;$rand = false;$columns = 3; include("../../includes/showPortfolio.php");?>
+  <?php $type = "product";$show = 6;$rand = false;$columns = 3; include("../../database/includes/showPortfolio.php");?>
 </section>
 <section class="alert alert-info mb-3">
   <div class="container-fluid">

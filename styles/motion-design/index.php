@@ -34,7 +34,7 @@
 </header>
 <section class="pb-5 bg-light">
     <h1 class="text-center pt-1">Motion Design Examples</h1>
-    <?php $type = "Motion";$show = 6;$rand = false;$columns = 3; include("../../includes/showPortfolio.php");?>
+    <?php $type = "Motion";$show = 6;$rand = false;$columns = 3; include("../../database/includes/showPortfolio.php");?>
 </section>
 <section class="container-fluid bg-light py-2">
     <div class="card wow zoomIn">

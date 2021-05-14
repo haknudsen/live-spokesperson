@@ -67,7 +67,7 @@ switch ( $columns ) {
 if ( $rand === true ) {
   $sql .= " ORDER BY RAND()";
 } else {
-  $sql .= " ORDER BY rank";
+  $sql .= " ORDER BY Rifftrax";
 }
 if ( $show > 0 ) {
   $sql .= " LIMIT " . $show;

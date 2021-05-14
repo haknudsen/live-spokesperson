@@ -52,7 +52,7 @@ switch ( $page ) {
                     <li class="list-group-item">Male or Female Hands</li>
                 </ul>
                 <a href="/styles/product-demonstrations/overhead-unboxing.php?page=<?=$page?>" title="Buy Now">
-                <h6 class="card-subtitle strip">$399</h6>
+                <h6 class="card-subtitle strip">$699</h6>
                 <img class="card-img-bottom" src="/styles/product-demonstrations/images/Overhead-Product-Demo-Video.jpg" alt="Overhead Unboxing"></a> </div>
             </div>
         <div class="card">

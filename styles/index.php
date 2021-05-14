@@ -57,7 +57,7 @@
               </div>
             </div>
             <div class="col-lg-8">
-              <?php $type = "Presentation";$show = 6;$rand = false;$columns = 2; include("../includes/showDemo.php");?>
+              <?php $type = "Presentation";$show = 6;$rand = false;$columns = 2; include("../database/includes/showDemo.php");?>
             </div>
           </div>
         </div>
@@ -87,7 +87,7 @@
               </div>
             </div>
             <div class="col-lg-8">
-              <?php $type = "Whiteboard";$show = 6;$rand = false;$columns = 2; include("../includes/showDemo.php");?>
+              <?php $type = "Whiteboard";$show = 6;$rand = false;$columns = 2; include("../database/includes/showDemo.php");?>
             </div>
           </div>
         </div>
@@ -117,7 +117,7 @@
               </div>
             </div>
             <div class="col-lg-8">
-              <?php $type = "product";$show = 6;$rand = true;$columns = 2; include("../includes/showDemo.php");?>
+              <?php $type = "product";$show = 6;$rand = true;$columns = 2; include("../database/includes/showDemo.php");?>
             </div>
           </div>
         </div>
@@ -147,7 +147,7 @@
               </div>
             </div>
             <div class="col-lg-8">
-              <?php $type = "Animation";$show = 6;$rand = false;$columns = 2; include("../includes/showDemo.php");?>
+              <?php $type = "Animation";$show = 6;$rand = false;$columns = 2; include("../database/includes/showDemo.php");?>
             </div>
           </div>
         </div>
@@ -177,7 +177,7 @@
               </div>
             </div>
             <div class="col-lg-8">
-              <?php $type = "Typography";$show = 6;$rand = false;$columns = 2; include("../includes/showDemo.php");?>
+              <?php $type = "Typography";$show = 6;$rand = false;$columns = 2; include("../database/includes/showDemo.php");?>
             </div>
           </div>
         </div>
@@ -207,7 +207,7 @@
               </div>
             </div>
             <div class="col-lg-8">
-              <?php $type = "Motion";$show = 6;$rand = false;$columns = 2; include("../includes/showDemo.php");?>
+              <?php $type = "Motion";$show = 6;$rand = false;$columns = 2; include("../database/includes/showDemo.php");?>
             </div>
           </div>
         </div>

@@ -1,82 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-	<meta charset="utf-8">
-	<meta name="keywords" content="Whiteboard Video, Animation, Explainer Video, Video Scribe, Hand Drawing Video, Chalkboard Video">
-	<meta name="description" content="Talking Heads can create a Whiteboard Video, Animation, Explainer Video, Video Scribe, Hand Drawing Video, Chalkboard Video.  Here you watch examples of these kinds of videos.  Whether you can call it a Sketch Video, Chalkboard Video, Hand Drawing Video, Whiteboard Animation, or Animated Explainer Video Talking Heads&#xAE; will make the best video for you.  Contact us for more information.">
-	<meta name="robots" content="index, follow">
-	<meta name="author" content="WebsiteTalkingHeads.com">
-	<title>Whiteboard Animation Videos, Sketch videos, Animated Whiteboard Videos</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<?php include("../../includes/head.php"); ?>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index, follow">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="language" content="English">
+<meta name="revisit-after" content="30 days">
+<meta name="author" content="TalkingHeads.com">
+<title>Custom Presentations from Talking Heads&reg;</title>
+<meta name="title" content="Custom Presentations from Talking Heads">
+<meta name="description" content="Do you need a Sales Video, Product Demonstration, Website Walk-through, and Training Video? Engage your website visitors with a custom video presentation.">
+<meta name="keywords" content="Video Presentation,Web Video,Web Video Production,Custom Videos,Kickstarter Video,Powerpoint Alternative,Custom Video,Custom Video Presentation">
+<?php include("../../includes/head.php"); ?>
 </head>
 
 <body>
 <?php include("../../includes/nav.php"); ?>
 <header class="header-video">
-  <div class="overlay"></div>
-  <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-    <source src="https://www.websitetalkingheads.com/ivideo/videos/Whiteboard Show Reel.mp4" type="video/mp4">
-  </video>
-  <div class="container h-100">
-    <div class="d-flex h-100 text-center align-items-center">
-      <div class="w-100 text-white">
-        <h1 class="display-3 wow bounceInDown">Whiteboard Videos</h1>
-        <p class="lead mb-0 wow bounceInUp">Grab Visitors' Attention</p>
-      </div>
-    </div>
-  </div>
-</header>
-<section class="container-fluid bg-light py-2">
-    <div class="container">
-    <div class="card wow bounceInUp">
-      <h5 class="card-header bg-gradient-mine text-white text-center text-uppercase">Use Our Whiteboard Videos For</h5>
-      <div class="card-body">
-        <div class="row">
-          <div class="col-lg-6">
-            <ul class="h5">
-              <li>Sales Video</li>
-              <li>Product Demonstration</li>
-              <li>Website Walk-through</li>
-              <li>Educational Video</li>
-              <li>Training Video</li>
-            </ul>
-          </div>
-          <div class="col-lg-6">
-            <div class="pricing">
-              <div class="card-title h3 text-primary mb-0">30 Second</div>
-              <div class="text-center h4 font-weight-bold mb-0">Whiteboard Videos</div>
-              <h6><span class="small text-dark">Starting at Just</span><span class="price text-primary wow flash">$1500</span></h6>
+    <div class="overlay"></div>
+    <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+        <source src="https://www.websitetalkingheads.com/ivideo/videos/vp_bg_v5.mp4" type="video/mp4">
+    </video>
+    <div class="container-fluid h-100">
+        <div class="d-flex h-100 text-center align-items-center mt-3">
+            <div class="video-holder text-white">
+                <h1 class="display-4 wow bounceInDown">Custom Custom Presentations</h1>
+                <p class="lead mb-0 wow bounceInUp">Results Driven Videos</p>
             </div>
-          </div>
+            <?php include("../includes/contact-card.php")?>
         </div>
-      </div>
     </div>
-  </div>
+</header>
+<section class="pb-5 bg-light">
+    <h1 class="text-center pt-1">Video Presentations Examples</h1>
+    <?php $type = "Presentation";$show = 12;$rand = false;$columns = 2; include("../../database/includes/showPortfolio.php");?>
 </section>
-<section class="pb-5 bg-primary">
-  <h1 class="text-center pt-1 wow tada">Whiteboard Examples</h1>
-  <div class="container-fluid bg-grey">
-    <?php
-    $type = "Whiteboard";
-    $show = "12";
-    $rand = false;
-    $columns = 3;
-    include( "../../includes/showDemo.php" );
-    ?>
-  </div>
+<section class="container-fluid bg-light py-2">
+    <div class="card wow zoomIn">
+        <h5 class="card-header bg-gradient-mine text-white text-center text-uppercase">Custom Video Presentations</h5>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h6 class="card-title">Used For</h6>
+                    <ul class="list-group">
+                        <li class="list-group-item">Sales Video</li>
+                        <li class="list-group-item">Product Demonstration</li>
+                        <li class="list-group-item">Website Walk-through</li>
+                        <li class="list-group-item">Educational Video</li>
+                        <li class="list-group-item">Training Video</li>
+                    </ul>
+                </div>
+                <div class="col-lg-6">
+                    <h6 class="card-title">You Get</h6>
+                    <ul class="list-group">
+                        <li class="list-group-item">Professional Spokesperson</li>
+                        <li class="list-group-item">Skilled Editing and  Compositing</li>
+                        <li class="list-group-item">Motion Graphics</li>
+                        <li class="list-group-item">Graphics</li>
+                        <li class="list-group-item">Effects</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 <section class="alert alert-info mt-4">
-    <?php $style = "whiteboard";include("../includes/random-content.php"); ?>
+    <?php $style = "presentation";include("../../database/includes/showContent.php"); ?>
 </section>
-<section class="alert alert-info">
-  <h2 class="text-uppercase text-center wow zoomIn">follow us</h2>
-  <h3 class="text-center">Join us in <strong>Social Media</strong> and Stay Tuned!</h3>
-  <?php include("../../includes/social-icons.php"); ?>
-</section>
-<?php include("../../includes/modal.php");?>
 <?php include("../../includes/footer.php"); ?>
+<?php include("../../includes/modal.php"); ?>
 </body>
-
 </html>
