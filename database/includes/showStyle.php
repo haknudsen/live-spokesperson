@@ -2,7 +2,8 @@
 /*
 style
 */
-if(isset($style)){
+
+if(!isset($style)){
     $style = "whiteboard";
 }
 $sql = "SELECT * FROM ". $style ."_content ORDER BY RAND() LIMIT 1";
@@ -16,7 +17,7 @@ if ($result->num_rows > 0)
     while ($row = $result->fetch_assoc())
     {
     echo '<h2 class="text-center">' . $row[ "title" ] . '</h2>
-        <div class="text">'.$row["content"].'</div>
+        <div class="text-style">'.$row["content"].'</div>
         </div>';
     }
 }

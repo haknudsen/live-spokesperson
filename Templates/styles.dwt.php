@@ -10,10 +10,9 @@
 <meta name="author" content="TalkingHeads.com">
 <!-- TemplateBeginEditable name="doctitle" -->
 <title>Custom Presentations from Talking Heads&reg;</title>
-<!-- TemplateEndEditable -->
-<meta name="title" content="Custom Presentations from Talking Heads">
 <meta name="description" content="Do you need a Sales Video, Product Demonstration, Website Walk-through, and Training Video? Engage your website visitors with a custom video presentation.">
 <meta name="keywords" content="Video Presentation,Web Video,Web Video Production,Custom Videos,Kickstarter Video,Powerpoint Alternative,Custom Video,Custom Video Presentation">
+<!-- TemplateEndEditable -->
 <?php include("../includes/head.php"); ?>
 <!-- TemplateBeginEditable name="head" -->
 <!-- TemplateEndEditable -->
@@ -30,7 +29,7 @@
   <div class="container-fluid h-100">
     <div class="d-flex h-100 text-center align-items-center mt-3">
       <div class="video-holder text-white">
-        <h1 class="display-4 wow bounceInDown">Custom Custom Presentations</h1>
+        <h1 class="display-4 wow bounceInDown"><!-- TemplateBeginEditable name="h1" -->Custom Custom Presentations<!-- TemplateEndEditable --></h1>
         <p class="lead mb-0 wow bounceInUp">Results Driven Videos</p>
       </div>
       <?php include("../styles/includes/contact-card.php")?>
@@ -38,13 +37,13 @@
   </div>
 </header>
 <section class="pb-5 bg-light">
-  <h1 class="text-center pt-1">Video Presentations Examples</h1>
+  <h1 class="text-center pt-1"><!-- TemplateBeginEditable name="examples" -->Video Presentations Examples<!-- TemplateEndEditable --></h1>
   <!-- TemplateBeginEditable name="video-portfolio" -->
   <?php $type = "Presentation";$show = 12;$rand = false;$columns = 2; include("../database/includes/showPortfolio.php");?>
   <!-- TemplateEndEditable --> </section>
 <section class="container-fluid bg-light py-2">
   <div class="card wow zoomIn">
-    <h5 class="card-header bg-gradient-mine text-white text-center text-uppercase">Custom Video Presentations</h5>
+    <h5 class="card-header bg-gradient-mine text-white text-center text-uppercase"><!-- TemplateBeginEditable name="h5" -->Custom Video Presentations<!-- TemplateEndEditable --></h5>
     <div class="card-body">
       <div class="row">
         <div class="col-lg-6">

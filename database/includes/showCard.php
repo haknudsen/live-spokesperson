@@ -14,7 +14,7 @@
 */
 
 $keyword = array();
-if ( !$show ) {
+if ( isset($show) ) {
   $show = 3;
 }
 $sql = "SELECT * FROM videos";
@@ -48,7 +48,6 @@ switch ( $type ) {
     array_push( $keyword, "Web Video", "Online Video", "Website Video" );
 }
 shuffle( $keyword );
-//echo($rand . "<br>test<br>");
 if ( $rand !== true ) {
   $sql .= " ORDER BY RAND()";
 } else {
