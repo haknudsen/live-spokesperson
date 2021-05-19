@@ -1,82 +1,85 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="en"><!-- InstanceBegin template="/Templates/styles.dwt.php" codeOutsideHTMLIsLocked="false" -->
 <head>
-	<meta charset="utf-8">
-	<meta name="keywords" content="Whiteboard Video, Animation, Explainer Video, Video Scribe, Hand Drawing Video, Chalkboard Video">
-	<meta name="description" content="Talking Heads can create a Whiteboard Video, Animation, Explainer Video, Video Scribe, Hand Drawing Video, Chalkboard Video.  Here you watch examples of these kinds of videos.  Whether you can call it a Sketch Video, Chalkboard Video, Hand Drawing Video, Whiteboard Animation, or Animated Explainer Video Talking Heads&#xAE; will make the best video for you.  Contact us for more information.">
-	<meta name="robots" content="index, follow">
-	<meta name="author" content="WebsiteTalkingHeads.com">
-	<title>Animation Videos|Talking Heads</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<?php include("../../includes/head.php"); ?>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index, follow">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="language" content="English">
+<meta name="revisit-after" content="30 days">
+<meta name="author" content="TalkingHeads.com">
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Animation Videos from Talking Heads&reg;</title>
+<meta name="description" content="Talking Heads can create a Whiteboard Video, Animation, Explainer Video, Video Scribe, Hand Drawing Video, Chalkboard Video.  Here you watch examples of these kinds of videos.  Whether you can call it a Sketch Video, Chalkboard Video, Hand Drawing Video, Whiteboard Animation, or Animated Explainer Video Talking Heads&#xAE; will make the best video for you.">
+<meta name="keywords" content="Whiteboard Video, Animation, Explainer Video, Video Scribe, Hand Drawing Video, Chalkboard Video">
+<!-- InstanceEndEditable -->
+<?php include("../../includes/head.php"); ?>
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
 </head>
 
 <body>
 <?php include("../../includes/nav.php"); ?>
 <header class="header-video">
-  <div class="overlay"></div>
-  <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+  <div class="overlay">
+  </div>
+  <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop"> <!-- InstanceBeginEditable name="video-header" -->
     <source src="https://www.websitetalkingheads.com/ivideo/videos/Aliens Animated.mp4" type="video/mp4">
-  </video>
-  <div class="container h-100">
-    <div class="d-flex h-100 text-center align-items-center">
-      <div class="w-100 text-white">
-        <h1 class="display-3 wow bounceInDown">Animation Videos</h1>
-        <p class="lead mb-0 wow bounceInUp">Grab Visitors' Attention</p>
+    <!-- InstanceEndEditable --> </video>
+  <div class="container-fluid h-100">
+    <div class="d-flex h-100 text-center align-items-center mt-3">
+      <div class="video-holder text-white">
+        <h1 class="display-4 wow bounceInDown"><!-- InstanceBeginEditable name="h1" -->Custom Animation Videos<!-- InstanceEndEditable --></h1>
+        <p class="lead mb-0 wow bounceInUp">Results Driven Videos</p>
       </div>
+      <?php include("../includes/contact-card.php")?>
     </div>
   </div>
 </header>
+<section class="pb-5 bg-light">
+  <h1 class="text-center pt-1"><!-- InstanceBeginEditable name="examples" -->Animation Examples<!-- InstanceEndEditable --></h1>
+  <!-- InstanceBeginEditable name="video-portfolio" -->
+  <?php $type = "Animation";$show = 12;$rand = false;$columns = 2; include("../../database/includes/showPortfolio.php");?>
+  <!-- InstanceEndEditable --> </section>
 <section class="container-fluid bg-light py-2">
-    <div class="container">
-    <div class="card wow bounceInUp">
-      <h5 class="card-header bg-gradient-mine text-white text-center text-uppercase">Use Our Animation Videos For</h5>
-      <div class="card-body">
-        <div class="row">
-          <div class="col-lg-6">
-            <ul class="h5">
-              <li>Sales Video</li>
-              <li>Product Demonstration</li>
-              <li>Website Walk-through</li>
-              <li>Educational Video</li>
-              <li>Training Video</li>
-            </ul>
-          </div>
-          <div class="col-lg-6">
-            <div class="pricing">
-              <div class="card-title h3 text-primary mb-0">30 Second</div>
-              <div class="text-center h4 font-weight-bold mb-0">Animation Videos</div>
-              <h6><span class="small text-dark">Starting at Just</span><span class="price text-primary wow flash">$1299</span></h6>
-            </div>
-          </div>
+  <div class="card wow zoomIn">
+    <h5 class="card-header bg-gradient-mine text-white text-center text-uppercase"><!-- InstanceBeginEditable name="h5" -->Custom Animation Videos<!-- InstanceEndEditable --></h5>
+    <div class="card-body">
+      <div class="row">
+        <div class="col-lg-6 animate fadeInLeft">
+          <h6 class="card-title">Used For</h6>
+          <ul class="list-group">
+            <!-- InstanceBeginEditable name="lised-for" -->
+            <li class="list-group-item">Educational Video</li>
+            <li class="list-group-item">Sales Video</li>
+            <li class="list-group-item">Website Walk-through</li>
+            <li class="list-group-item">Training Video</li>
+            <!-- InstanceEndEditable -->
+          </ul>
+        </div>
+        <div class="col-lg-6 animate fadeInRight">
+          <h6 class="card-title">You Get</h6>
+          <ul class="list-group">
+            <!-- InstanceBeginEditable name="list-get" -->
+            <li class="list-group-item">Professional Voice Over</li>
+            <li class="list-group-item">Skilled Editing and  Compositing</li>
+            <li class="list-group-item">Graphics</li>
+            <li class="list-group-item">Animation</li>
+            <!-- InstanceEndEditable -->
+          </ul>
         </div>
       </div>
     </div>
   </div>
 </section>
-<section class="pb-5 bg-primary">
-  <h1 class="text-center pt-1 wow tada">Animation Examples</h1>
-  <div class="container-fluid bg-grey">
-    <?php
-    $type = "Animation";
-    $show = "12";
-    $rand = false;
-    $columns = 3;
-    include( "../../includes/showDemo.php" );
+<section class="alert alert-info mt-4 animate fadeIn"> <!-- InstanceBeginEditable name="random-content" -->
+  <?php
+    $style = "animation";
+    include("../../database/includes/showStyle.php");
+    include("../../database/includes/showCard.php"); 
     ?>
-  </div>
-</section>
-<section class="alert alert-info mt-4">
-    <?php $style = "animation";include("../includes/random-content.php"); ?>
-</section>
-<section class="alert alert-info">
-  <h2 class="text-uppercase text-center wow zoomIn">follow us</h2>
-  <h3 class="text-center">Join us in <strong>Social Media</strong> and Stay Tuned!</h3>
-  <?php include("../../includes/social-icons.php"); ?>
-</section>
-<?php include("../../includes/modal.php");?>
+  <!-- InstanceEndEditable --> </section>
 <?php include("../../includes/footer.php"); ?>
+<?php include("../../includes/modal.php"); ?>
 </body>
-
-</html>
+<!-- InstanceEnd --></html>

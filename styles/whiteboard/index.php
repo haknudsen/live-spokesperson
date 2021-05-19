@@ -46,7 +46,7 @@
     <h5 class="card-header bg-gradient-mine text-white text-center text-uppercase"><!-- InstanceBeginEditable name="h5" -->Whiteboard Videos<!-- InstanceEndEditable --></h5>
     <div class="card-body">
       <div class="row">
-        <div class="col-lg-6">
+        <div class="col-lg-6 animate fadeInLeft">
           <h6 class="card-title">Used For</h6>
           <ul class="list-group">
             <!-- InstanceBeginEditable name="lised-for" -->
@@ -58,7 +58,7 @@
             <!-- InstanceEndEditable -->
           </ul>
         </div>
-        <div class="col-lg-6">
+        <div class="col-lg-6 animate fadeInRight">
           <h6 class="card-title">You Get</h6>
           <ul class="list-group">
             <!-- InstanceBeginEditable name="list-get" -->
@@ -74,9 +74,12 @@
     </div>
   </div>
 </section>
-<section class="alert alert-info mt-4"> <!-- InstanceBeginEditable name="random-content" -->
-  <?php $style = "presentation";include("../../database/includes/showStyle.php"); ?>
-  <?php $style = "presentation";include("../../database/includes/showCard.php"); ?>
+<section class="alert alert-info mt-4 animate fadeIn"> <!-- InstanceBeginEditable name="random-content" -->
+  <?php
+    $style = "presentation";
+    include("../../database/includes/showStyle.php");
+    include("../../database/includes/showCard.php"); 
+    ?>
   <!-- InstanceEndEditable --> </section>
 <?php include("../../includes/footer.php"); ?>
 <?php include("../../includes/modal.php"); ?>
