@@ -61,23 +61,14 @@ require_once( "connect-aws.php" );
 $result = $con->query( $sql );
 if ( $result->num_rows > 0 ) {
   echo PHP_EOL;
-  echo '<div class="card-deck">';
     $i=0;
   while ( $row = $result->fetch_assoc() ) {
     $description = $row[ "description" ];
     $name = $row[ "Name" ];
-    echo '<div class="card">
-    <div class="card-image-top embed-responsive embed-responsive-16by9">
+    echo '
+    <div class="embed-responsive embed-responsive-16by9">
         	<iframe class="embed-responsive-item" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" type="text/html" src="https://www.websitetalkingheads.com/ivideo/ivideo-player.php?video=' . $name . '&autostart=no&controls=true"></iframe>
-      </div>
-        <div class="card-body">
-          <h5 class="card-title">' . $name . '</h5>
-          <p class="card-text">' . $description . '</p>
-      </div>      
-      <div class="card-footer">
-        <small class="text-muted">'.$keyword[$i].'</small>
-      </div>
-    </div>';
+      </div>';
     echo PHP_EOL;
       $i++;
   }

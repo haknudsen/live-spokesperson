@@ -86,7 +86,7 @@ what we do
 </section>
 <section class="alert alert-info">
 	<div class="container text-center">
-        <h2>Talking Heads<sup><i class="fas fa-registered"></i></sup> is the Leading Web Video Production Company</h2>
+        <h2>Talking Heads<sup><i class="far fa-registered"></i></sup> is the Leading Web Video Production Company</h2>
 		<div class="h3">We provide <strong>Video Solutions</strong> with a wide variety of <em>Web Video</em> styles</div>
 		<p class="content">Do you need fresh, up-to-date content for your business? Are you looking for the most skillful Web Video Production Company to get the job done? Then you've come to the right place!</p>
 		<p class="content">Whether you need a Great Explainer Video, product demos, or a New Animated Video, we can help you out. Talking Heads<i class="sup far fa-registered"></i> creates high-quality video content in a variety of styles. Choose the perfect video style for your project and we will work with you to create your video.</p>
@@ -153,7 +153,7 @@ what we do
 			<div class="card-header"><i class="fas fa-check-circle wow rotateIn"></i> </div>
 			<div class="card-body">
 				<h5 class="card-title">Commitment to Quality</h5>
-				<p class="card-text">Our commitment to quality video and adherence to professional practices make us shine. These are some hallmarks that have inspired the Talking Heads<i class="sup fas fa-registered"></i> way.</p>
+				<p class="card-text">Our commitment to quality video and adherence to professional practices make us shine. These are some hallmarks that have inspired the Talking Heads<i class="sup far fa-registered"></i> way.</p>
 				<p class="card-text">We film and composite our videos at our studio to maintain our top quality standards and accuracy. We are the best in Web Video Production</p>
 			</div>
 		</div>

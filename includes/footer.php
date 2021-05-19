@@ -12,7 +12,7 @@
             </div>
         </div>
         <div class="col-md-6">
-            <div class="text-center small text-light"><a href="http://talkingheads.com/affiliate/">Powered by Talking Heads<sup class="smaller"><i class="fas fa-registered"></i></sup></a>
+            <div class="text-center small text-light"><a href="http://talkingheads.com/affiliate/">Powered by Talking Heads<sup class="smaller"><i class="far fa-registered"></i></sup></a>
             </div>
             <div class="quotes">
                 <p id="changeQuote" class="text-center small text-info"></p>

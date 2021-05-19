@@ -20,29 +20,47 @@
 <body>
 <?php include("../includes/nav-spokesperson.php"); ?>
 <section class="alert alert-info">
-    <h1 class="text-center">Talking Heads<sup><i class="fas fa-registered"></i></sup></h1>
-    <h2 class="text-center">Website Spokesperson Examples</h2>
+  <h1 class="text-center">Talking Heads<sup><i class="far fa-registered"></i></sup></h1>
+  <h2 class="text-center">Website Spokesperson Examples</h2>
 </section>
 <section class="container-fluid">
-    <div class="container">
-        <?php include("includes/website-spokesperson-examples.php"); ?>
-    </div>
+  <div class="container">
+    <?php include("includes/website-spokesperson-examples.php"); ?>
+  </div>
 </section>
 <section class="alert alert-info">
-    <div class="container">
-        <div class="card middle">
-            <h3 class="card-header bg-gradient-mine text-center text-white">Talking Heads<i class="fas fa-registered smaller"></i> <em>Spokespeople</em></h3>
-            <div class="embed-responsive embed-responsive-16by9">
-                <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" type="text/html" src="../ivideo/talking-heads-player.php?video=Professional Spokespeople&autostart=mouse"></iframe>
-            </div>
-            <div class="card-body">
-                <p class="card-text">A Website Spokesperson Video is very engaging for visitors to your website. It gives your website a face making it easier to relate to and increasing brand recognition. Online, gaining your client's trust is key to a successful business.</p>
-                <p class="card-text">A spokesperson video is the best option when it comes to giving information. People are more likely to pay attention to a spokesperson speaking to them instead of reading a lot of text.</p>
-                <p class="card-text">You can have your spokesperson weclcome visitors to your site. Then quickly point out important parts of the page.</p>
-            </div>
-            <div class="card-footer text-muted bg-gradient-mine text-right"><a href="../spokespeople/" title="Spokespeople"><em class="text-white wow flash">More...</em></a> </div>
-        </div>
+  <div class="container">
+    <div class="card middle">
+      <h3 class="card-header bg-gradient-mine text-center text-white">Talking Heads<sup class="far fa-registered"></sup> <em>Spokespeople</em></h3>
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" type="text/html" src="../ivideo/talking-heads-player.php?video=Professional Spokespeople&autostart=mouse"></iframe>
+      </div>
+      <div class="card-body">
+        <p class="card-text">A Website Spokesperson Video is very engaging for visitors to your website. It gives your website a face making it easier to relate to and increasing brand recognition. Online, gaining your client's trust is key to a successful business.</p>
+        <p class="card-text">A spokesperson video is the best option when it comes to giving information. People are more likely to pay attention to a spokesperson speaking to them instead of reading a lot of text.</p>
+        <p class="card-text">You can have your spokesperson weclcome visitors to your site. Then quickly point out important parts of the page.</p>
+      </div>
+      <div class="card-footer text-muted bg-gradient-mine text-right">
+        <a href="../spokespeople/" title="Spokespeople"><em class="text-white wow flash">More...</em></a>
+      </div>
     </div>
+  </div>
+</section>
+<section class="container">
+  <?php
+  $style = "spokesperson";
+  $show = 1;
+  ?>
+  <div class="row">
+    <div class="col-lg-6">
+      <?php include ('../database/includes/showStyle.php'); ?>
+    </div>
+    <div class="col-lg-6 d-flex flex-wrap align-items-center">
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" type="text/html" src="../ivideo/talking-heads-player.php?video=Spokespeople&autostart=mouse"></iframe>
+      </div>
+    </div>
+  </div>
 </section>
 <?php include ('../includes/footer-spokespeople.php'); ?>
 </body>
