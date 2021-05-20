@@ -13017,4 +13017,9 @@ footer a:hover {
   text-indent: 1rem;
 }
 
+.about i {
+  margin-top: .25rem;
+  font-size: 2rem;
+}
+
 /*# sourceMappingURL=bootstrap.css.map */

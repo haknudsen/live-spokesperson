@@ -35,11 +35,11 @@
 </section>
 <section class="alert alert-info">
   <h2 class="text-center">About Us</h2>
-  <div class="">
+  <div class="about">
     <div class="card-group">
       <div class="card mb-3">
         <div class="card-header line-1">
-          Experience<i class="float-right fas fa-user-chart"></i>
+          Experience<br><i class="fas fa-book"></i>
         </div>
         <div class="card-body">
           <p class="card-text">With 10+ years of experience in web video production, we will make you love working with Talking Heads. First, is our commitment to quality video. Second, our adherence to professional best practices. Then there is the creative side of things. We don’t believe in banal, murky, insipid videos so we aim to make jaws hit the floor with each video we make. These are some hallmarks that have inspired the Talking Heads® way.</p>
@@ -47,7 +47,7 @@
       </div>
       <div class="card mb-3">
         <div class="card-header line-1">
-          Our Team<i class="float-right fas fa-bezier-curve"></i>
+          Our Team<br><i class="fas fa-bezier-curve"></i>
         </div>
         <div class="card-body">
           <p class="card-text">Our team of experts includes video editors, producers, professional spokespeople, animators, and compositors. We work tirelessly, to discover the latest techniques, hone new skills, and develop mastery with the latest tools. This makes the best video production services available for your website. We welcome challenges cutting across the digital world. From marketing, retail, to branding, we’re always keen to exceed the expectations of clients like you.</p>
@@ -55,7 +55,7 @@
       </div>
       <div class="card mb-3">
         <div class="card-header line-1">
-          Our Process<i class="float-right fas fa-cogs"></i>
+          Our Process<br><i class="fas fa-cogs"></i>
         </div>
         <div class="card-body">
           <p class="card-text">If you’re a person that expects tick off your checkboxes without compromise, then our research, planning, and execution processes will appeal to you. Bottom-line, our video production process is what stands us out from the pack. We consistently deliver great videos project after project. Our videos are unique and tailor-made to meet your needs and budget.</p>
@@ -65,7 +65,7 @@
     <div class="card-group">
       <div class="card mb-3">
         <div class="card-header line-1">
-          Happy Clients<i class="float-right fas fa-award"></i>
+          Happy Clients<br><i class="fas fa-award"></i>
         </div>
         <div class="card-body">
           <p class="card-text">Whether for business or personal websites, an e-commerce website or social media campaigns or anything in-between, people associate us with quality. This is evident by the happy clients who keep returning for more collaboration and our positive approval rating by industry insiders. That’s far from what we expected when we started over 10-years ago. It’s become clear people love what we do from the first contact to stunning finish.</p>
@@ -73,7 +73,7 @@
       </div>
       <div class="card mb-3">
         <div class="card-header line-1">
-          Professional<i class="float-right fas fa-male"></i>
+          Professional<br><i class="fas fa-male"></i>
         </div>
         <div class="card-body">
           <p class="card-text">Our videos are completely filmed and composited right here at our studio to maintain our top quality standards and accuracy. All of our spokespeople are local professionals. Many have years of experience in acting, modeling, and TV presenting. We do not outsource our tasks to other workshops or freelancers. We film everything RIGHT HERE!</p>
@@ -81,7 +81,7 @@
       </div>
       <div class="card mb-3">
         <div class="card-header line-1">
-          Give Us a Call<i class="float-right fas fa-phone"></i>
+          Give Us a Call<br><i class="fas fa-phone"></i>
         </div>
         <div class="card-body">
           <p class="card-text">Now, you can now enjoy an advantage over your competition thanks to our great prices. Commercial web designers, marketers, entrepreneurs, and internet companies have all confessed: we’re the most cost-effective video production service they’ve ever used. Inevitably, the decision is yours, and you’ve heard about us. Now it’s your turn; tell us what you need. If adding shimmer to your website and getting a marketing an edge matters to you, then Talking Heads® is your best choice. <a href="tel:1-801-748-2281" title="Call Now!">Contact us NOW!</a> </p>
@@ -90,10 +90,12 @@
     </div>
   </div>
 </section>
-<section class="aler alert-light bounceInUp animated">
+<section class="container-fluid animated rubberBand my-3">
+  <?php $rand=true;  include("../database/includes/showCard.php"); ?>
+</section>
+<section class="alert alert-info bounceInUp animated">
   <?php include("../database/includes/showContent.php"); ?>
 </section>
-<?php $rand=true;  include("../database/includes/showCard.php"); ?>
 <?php include("../includes/footer.php"); ?>
 <?php include("../includes/modal.php");?>
 </body>
