@@ -25,7 +25,7 @@
 </section>
 <section class="container-fluid">
   <div class="container">
-    <?php include("includes/website-spokesperson-examples.php"); ?>
+    <?php include("../database/includes/showWebsiteExamples.php"); ?>
   </div>
 </section>
 <section class="alert alert-info">
