@@ -51,7 +51,7 @@ shuffle( $keyword );
 if ( $rand !== true ) {
   $sql .= " ORDER BY RAND()";
 } else {
-  $sql .= " ORDER BY Rifftrax";
+  $sql .= " ORDER BY rank";
 }
 if ( $show > 0 ) {
   $sql .= " LIMIT " . $show;

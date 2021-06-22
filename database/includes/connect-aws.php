@@ -1,10 +1,10 @@
 <?php
 error_reporting( 2 );
 //session_start();
-$servername = "video-database.cjwiiuezl537.us-west-1.rds.amazonaws.com";
-$username = "admin";
-$password = "gRVwE8bM5pFy+dBJ";
-$dbname = "video-database";
+$servername = "vdb1a.pair.com";
+$username = "working_54_r";
+$password = "CuNau25q";
+$dbname = "working_videos";
 // Create connection
 $con = mysqli_init();
 if (!$con){

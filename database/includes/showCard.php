@@ -4,7 +4,7 @@
  $columns- number of columns
  $type-  type of videos
  $keyword = alt tag for images
- $show-number to show
+ $count-number to show
  Video types
  Whiteboard
  Animation
@@ -13,11 +13,11 @@
  Demo
 */
 
-$keyword = array();
-if ( !isset($show) ) {
-  $show = 3;
+if ( !isset($count) ) {
+  $count = 3;
 }
 $sql = "SELECT * FROM videos";
+$keyword = array();
 switch ( $type ) {
   case "Whiteboard":
     $sql .= " 	WHERE whiteboard=true";
@@ -51,10 +51,10 @@ shuffle( $keyword );
 if ( $rand !== true ) {
   $sql .= " ORDER BY RAND()";
 } else {
-  $sql .= " ORDER BY Rifftrax";
+  $sql .= " ORDER BY rank";
 }
-if ( $show > 0 ) {
-  $sql .= " LIMIT " . $show;
+if ( $count > 0 ) {
+  $sql .= " LIMIT " . $count;
 }
 //echo ($sql . "<br>");
 require_once( "connect-aws.php" );

@@ -73,7 +73,7 @@ if ($rand === true)
 }
 else
 {
-    $sql .= " ORDER BY Rifftrax";
+    $sql .= " ORDER BY rank";
 }
 if ($show > 0)
 {
